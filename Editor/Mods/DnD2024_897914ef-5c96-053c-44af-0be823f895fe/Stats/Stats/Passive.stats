@@ -1007,6 +1007,20 @@
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeAttack() and not IsMiss();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d6, Radiant);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_FountOfMoonlight" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1768affe-a7e3-44eb-9076-b754c8cfe183" />
+        <field name="Name" type="NameTableFieldDefinition" value="FountOfMoonlight_Blind" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="86cbc76e-fd6b-4704-8d83-de0e6752841a" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hacf02a17ga039ge18dg059eg7918843cf857" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_FountOfMoonlight);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

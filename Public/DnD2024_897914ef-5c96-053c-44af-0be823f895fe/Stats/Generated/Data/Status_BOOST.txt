@@ -2565,7 +2565,7 @@ data "DescriptionParams" "DealDamage(2d6,Radiant)"
 data "Icon" "Spell_Evocation_FountOfMoonlight"
 data "StackId" "FOUNT_OF_MOONLIGHT"
 data "Boosts" "GameplayLight(6,false,0.1);StatusImmunity(SG_Invisible);Resistance(Radiant, Resistant);"
-data "Passives" "FountOfMoonlight_Passive;"
+data "Passives" "FountOfMoonlight_Passive;FountOfMoonlight_Blind;"
 data "StatusEffect" "c15c513d-b7df-43c9-b35d-b3e73b5c51b7"
 
 new entry "VITRIOLIC_SPHERE"

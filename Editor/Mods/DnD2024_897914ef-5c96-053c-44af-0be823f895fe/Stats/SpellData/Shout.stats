@@ -1785,6 +1785,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81a318d3g7d25ge9f7g6cb8g0d641f9d7d75" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7133dd62g2ff3g5631g286cgfb7c7edec60f" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Radiant)" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hacf02a17ga039ge18dg059eg7918843cf857" version="1" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FOUNT_OF_MOONLIGHT,100,100);" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
         <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_Nightsong_LunarBlessing" />
