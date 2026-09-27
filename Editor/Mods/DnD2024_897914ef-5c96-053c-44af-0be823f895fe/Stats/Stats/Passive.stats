@@ -1109,7 +1109,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_Rage" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1003" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Acrobatics,StrengthModifier);Skill(Intimidation,StrengthModifier);Skill(Perception,StrengthModifier);Skill(Stealth,StrengthModifier);Skill(Survival,StrengthModifier);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('SG_Rage', context.Source) and IsStrengthModifierPositive()):Skill(Acrobatics,StrengthModifier);IF(HasStatus('SG_Rage', context.Source) and IsStrengthModifierPositive()):Skill(Intimidation,StrengthModifier);IF(HasStatus('SG_Rage', context.Source) and IsStrengthModifierPositive()):Skill(Perception,StrengthModifier);IF(HasStatus('SG_Rage', context.Source) and IsStrengthModifierPositive()):Skill(Stealth,StrengthModifier);IF(HasStatus('SG_Rage', context.Source) and IsStrengthModifierPositive()):Skill(Survival,StrengthModifier);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

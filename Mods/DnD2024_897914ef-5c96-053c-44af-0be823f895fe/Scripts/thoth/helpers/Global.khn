@@ -64,3 +64,7 @@ function YDistanceToTargetSmallerOrEqual(value)
     local errorFalse = {ConditionError("YDistanceGreaterOrEqualThan_False", {ConditionErrorData.MakeFromNumber(value, EErrorDataType.Distance)})}
     return ConditionResult(YDistanceToTarget() <= value, errorTrue, errorFalse)
 end
+
+function IsStrengthModifierPositive()
+	return GetModifier(context.Source.Strength) > 0
+end

@@ -774,7 +774,7 @@ data "Description" "h860b399bg558cg749fgb64bg707d53758400;2"
 data "Icon" "Action_Barbarian_Rage"
 data "PriorityOrder" "1003"
 data "Properties" "Highlighted"
-data "Boosts" "Skill(Acrobatics,StrengthModifier);Skill(Intimidation,StrengthModifier);Skill(Perception,StrengthModifier);Skill(Stealth,StrengthModifier);Skill(Survival,StrengthModifier);"
+data "Boosts" "IF(HasStatus('SG_Rage', context.Source) and IsStrengthModifierPositive()):Skill(Acrobatics,StrengthModifier);IF(HasStatus('SG_Rage', context.Source) and IsStrengthModifierPositive()):Skill(Intimidation,StrengthModifier);IF(HasStatus('SG_Rage', context.Source) and IsStrengthModifierPositive()):Skill(Perception,StrengthModifier);IF(HasStatus('SG_Rage', context.Source) and IsStrengthModifierPositive()):Skill(Stealth,StrengthModifier);IF(HasStatus('SG_Rage', context.Source) and IsStrengthModifierPositive()):Skill(Survival,StrengthModifier);"
 
 new entry "FastMovement"
 type "PassiveData"
