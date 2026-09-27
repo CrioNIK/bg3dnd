@@ -317,6 +317,104 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1da8b350-7c10-475b-9375-c0b1a2ea017c" />
+        <field name="Name" type="NameTableFieldDefinition" value="__PRONE__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="33288668-4060-4817-9026-0a5b2be9b950" />
+        <field name="Name" type="NameTableFieldDefinition" value="PRONE_REMOVING" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisablePortraitIndicator;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,PRONE);RemoveStatus(SELF,PRONE_FALLEN);RemoveStatus(SELF,PRONE_GREASE);RemoveStatus(SELF,PRONE_ICE);RemoveStatus(SELF,PRONE_SEWER);RemoveStatus(SELF,PRONE_THUNDEROUS_SMITE);RemoveStatus(SELF,PRONE_MOUNT);RemoveStatus(SELF,PRONE_RECOVERED_FROM_DOWN);UseActionResource(Movement, 50%, 0, true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cfa49150-dbb6-4a35-9963-5ab99e1f7360" />
+        <field name="Name" type="NameTableFieldDefinition" value="PRONE_REMOVING_STANDUP" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="33288668-4060-4817-9026-0a5b2be9b950" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,PRONE);RemoveStatus(SELF,PRONE_FALLEN);RemoveStatus(SELF,PRONE_GREASE);RemoveStatus(SELF,PRONE_ICE);RemoveStatus(SELF,PRONE_SEWER);RemoveStatus(SELF,PRONE_THUNDEROUS_SMITE);RemoveStatus(SELF,PRONE_MOUNT);RemoveStatus(SELF,PRONE_RECOVERED_FROM_DOWN);UseActionResource(Movement, 1.5, 0, true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="39e07d50-9fb5-4bbd-9e7c-2479524c4c53" />
+        <field name="Name" type="NameTableFieldDefinition" value="PRONE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf436e702gfa14g45aagabaeg6fa3d54c1061" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd91b86adge685g5c21gf879g457242b186f2" version="2" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(Movement);Disadvantage(SavingThrow, Strength);Disadvantage(SavingThrow, Dexterity);IF(DistanceToTargetGreaterThan(3)):Disadvantage(AttackTarget);IF(not DistanceToTargetGreaterThan(3)):Advantage(AttackTarget);DetectDisturbancesBlock(false);IF(not HasPassive('Athlete_StandUp') and not HasPassive('LeapToYourFeet')):UnlockSpell(Shout_RemoveProne);IF(HasPassive('Athlete_StandUp') or HasPassive('LeapToYourFeet')):UnlockSpell(Shout_RemoveProne_StandUp);UnlockSpellVariant(SpellId('Shout_RemoveProne') or SpellId('Shout_RemoveProne_StandUp'),ModifyIconGlow());" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="PRONE" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Prone" />
+        <field name="FormatColor" type="EnumerationTableFieldDefinition" value="White" enumeration_type_name="FormatStringColor" version="1" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="KO" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="KO" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="UseLyingPickingState" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoredByImmobilized;InitiateCombat;DisableOverhead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SNEAKING);RemoveStatus(SLEEP);RemoveStatus(SG_Sleeping)" />
+        <field name="SplatterDirtAmount" type="FloatTableFieldDefinition" value="0.1" />
+        <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Sheathed" enumeration_type_name="StatusSheathing" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a4e37be3-a466-432d-83b1-62e01377704a" />
+        <field name="Name" type="NameTableFieldDefinition" value="PRONE_FALLEN" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e07d50-9fb5-4bbd-9e7c-2479524c4c53" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="KO_Fallen" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="KO_Fallen" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="SplatterDirtAmount" type="FloatTableFieldDefinition" value="0.2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4e76c2e0-fc49-407a-9466-4695b2dcd903" />
+        <field name="Name" type="NameTableFieldDefinition" value="PRONE_GREASE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e07d50-9fb5-4bbd-9e7c-2479524c4c53" />
+        <field name="SplatterDirtAmount" type="FloatTableFieldDefinition" value="0.2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b96dec6-8228-403a-b8c8-4a775da45e3d" />
+        <field name="Name" type="NameTableFieldDefinition" value="PRONE_ICE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e07d50-9fb5-4bbd-9e7c-2479524c4c53" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="63b3336d-4c05-4cb2-80cb-7ae4f1288af4" />
+        <field name="Name" type="NameTableFieldDefinition" value="PRONE_SEWER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e07d50-9fb5-4bbd-9e7c-2479524c4c53" />
+        <field name="SplatterDirtAmount" type="FloatTableFieldDefinition" value="0.7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13c68e86-4840-4af7-9ea5-3bb19903af2e" />
+        <field name="Name" type="NameTableFieldDefinition" value="PRONE_THUNDEROUS_SMITE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e07d50-9fb5-4bbd-9e7c-2479524c4c53" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9fd0780b-e894-446a-b6f8-a1d1c321128d" />
+        <field name="Name" type="NameTableFieldDefinition" value="PRONE_MOUNT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e07d50-9fb5-4bbd-9e7c-2479524c4c53" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5b367770-c90c-4dd8-a06f-ccb8a53928d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="PRONE_RECOVERED_FROM_DOWN" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="39e07d50-9fb5-4bbd-9e7c-2479524c4c53" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="79683d38-56b7-4116-b815-5403d4ff0526" />
         <field name="Name" type="NameTableFieldDefinition" value="__TOXIN__" />
       </fields>

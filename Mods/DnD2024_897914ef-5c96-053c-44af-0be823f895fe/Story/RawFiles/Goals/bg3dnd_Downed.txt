@@ -11,7 +11,7 @@ RealtimeObjectTimerLaunch(_Char, "RecoveredFromDowned", 100);
 IF
 ObjectTimerFinished(_Char, "RecoveredFromDowned")
 THEN
-ApplyStatus(_Char, "PRONE_RECOVERED_FROM_DOWN", 6.0, 1);
+ApplyStatus(_Char, "PRONE_RECOVERED_FROM_DOWN", 12.0, 1);
 EXITSECTION
 
 ENDEXITSECTION

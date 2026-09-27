@@ -6889,4 +6889,6 @@ Recovering Spell Slots. When you finish a Short Rest or use Uncanny Metabolism, 
   <content contentuid="hdffca0ecgaf1cge2c8gd24cg905db7140250" version="1">A beam of brilliant light sears and &lt;LSTag Type="Status" Tooltip="SUNBEAM"&gt;Blinds&lt;/LSTag&gt; all creatures in its path. Until the spell ends, you can recast Sunbeam without expending a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt;.</content>
   <content contentuid="hf45ced1cg4402g27d7ga457g192d6c7a577b" version="1">For the duration, a mote of brilliant radiance shines above you. It sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. This light is sunlight.</content>
   <content contentuid="hacf02a17ga039ge18dg059eg7918843cf857" version="1">Immediately after you take damage from a creature you can see within 60 feet of yourself, you can take a Reaction to force the creature to make a Constitution saving throw. On a failed save, the creature has the Blinded condition until the end of your next turn.</content>
+  <content contentuid="h2f85c6ddgbbbdg928dg4634ga99a191db90a" version="1">Standing Up</content>
+  <content contentuid="h132f16b5g8837g24c6geea5g82605a7175a2" version="1">Spend movement speed to stand up from Prone.</content>
 </contentList>

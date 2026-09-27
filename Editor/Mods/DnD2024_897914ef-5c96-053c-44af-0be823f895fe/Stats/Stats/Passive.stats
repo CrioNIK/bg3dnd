@@ -370,7 +370,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha395ebeag3995g70fage1d7g718229b74f9b" version="2" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h5af643b9gd1b7g259cg51cegf17292ec2f43" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Topple" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(WeaponAttackRollAbility(Ability.Strength)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()));IF(WeaponAttackRollAbility(Ability.Dexterity)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()));IF(WeaponAttackRollAbility(Ability.Intelligence)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, IntAttackSaveDC()));IF(WeaponAttackRollAbility(Ability.Wisdom)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, WisAttackSaveDC()));IF(WeaponAttackRollAbility(Ability.Charisma)):ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, ChaAttackSaveDC()));" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(WeaponAttackRollAbility(Ability.Strength)):ApplyStatus(PRONE,100,2,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()));IF(WeaponAttackRollAbility(Ability.Dexterity)):ApplyStatus(PRONE,100,2,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()));IF(WeaponAttackRollAbility(Ability.Intelligence)):ApplyStatus(PRONE,100,2,,,,not SavingThrow(Ability.Constitution, IntAttackSaveDC()));IF(WeaponAttackRollAbility(Ability.Wisdom)):ApplyStatus(PRONE,100,2,,,,not SavingThrow(Ability.Constitution, WisAttackSaveDC()));IF(WeaponAttackRollAbility(Ability.Charisma)):ApplyStatus(PRONE,100,2,,,,not SavingThrow(Ability.Constitution, ChaAttackSaveDC()));" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Topple', context.Source);" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasPassive('HasWeaponMastery_Topple', context.Source) and AttackedWithPassiveSourceWeapon() and IsWeaponAttack() and IsHit() and not IsKillingBlow() and Character();" />
       </fields>
@@ -819,7 +819,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="TotalDamageDoneGreaterThan(3);" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PRONE_MOUNT,100,1,,,,not SavingThrow(Ability.Dexterity,8));" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PRONE_MOUNT,100,2,,,,not SavingThrow(Ability.Dexterity,8));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1285,7 +1285,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hacfddf65g2ec1gdb58g7ef1g360e33d3d696" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Topple" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()))" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PRONE,100,2,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()))" />
       </fields>
     </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
@@ -1436,7 +1436,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h534ed7cdg1c82g686bg5c11g853eb4fc79da" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ab20eb3gc598g3449gb504g354483f2972b" version="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PRONE,100,1,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()))" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PRONE,100,2,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()))" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Trip" />
       </fields>
     </stat_object>

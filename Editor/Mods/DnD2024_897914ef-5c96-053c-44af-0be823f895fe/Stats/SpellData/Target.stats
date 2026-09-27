@@ -118,7 +118,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="1.5" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="ShoveCheck()" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(PRONE,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(PRONE,100,2);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL, 100, 0)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -5458,7 +5458,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3a8a5a26-de2c-441c-8614-a8a94107c494" />
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Thunderous_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4c749414-0cea-4eee-b7b1-caf8b4df267d" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d6, Thunder,Magical);ApplyStatus(PRONE_THUNDEROUS_SMITE, 100, 1, , , ,not SavingThrow(Ability.Strength, SourceSpellDC()));" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(3d6, Thunder,Magical);ApplyStatus(PRONE_THUNDEROUS_SMITE, 100, 2, , , ,not SavingThrow(Ability.Strength, SourceSpellDC()));" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Thunder)" />
       </fields>
@@ -5468,7 +5468,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9d54ab25-e500-4dea-8bde-8b9b0be4d97b" />
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Thunderous_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a1fb2647-f8d2-495c-b13b-1c4fe715177b" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d6, Thunder,Magical);ApplyStatus(PRONE_THUNDEROUS_SMITE, 100, 1, , , ,not SavingThrow(Ability.Strength, SourceSpellDC()));" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d6, Thunder,Magical);ApplyStatus(PRONE_THUNDEROUS_SMITE, 100, 2, , , ,not SavingThrow(Ability.Strength, SourceSpellDC()));" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Thunder)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;IsMelee;HasVerbalComponent;IsHarmful;AddFallDamageOnLand" enumeration_type_name="SpellFlagList" version="1" />
@@ -5479,7 +5479,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2d427265-7108-4bb9-8131-d97dc2e04565" />
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Thunderous_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3dc433e2-2b69-418b-b984-2782edd1994b" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d6, Thunder,Magical);ApplyStatus(PRONE_THUNDEROUS_SMITE, 100, 1, , , ,not SavingThrow(Ability.Strength, SourceSpellDC()));" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d6, Thunder,Magical);ApplyStatus(PRONE_THUNDEROUS_SMITE, 100, 2, , , ,not SavingThrow(Ability.Strength, SourceSpellDC()));" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Thunder)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;IsMelee;HasVerbalComponent;IsHarmful;AddFallDamageOnLand" enumeration_type_name="SpellFlagList" version="1" />
@@ -5490,7 +5490,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="53b22c82-998f-42bd-abe2-56a4322dd65b" />
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Thunderous_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="22cd5c4b-6e0e-475d-85d9-a018555934dd" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d6, Thunder,Magical);ApplyStatus(PRONE_THUNDEROUS_SMITE, 100, 1, , , ,not SavingThrow(Ability.Strength, SourceSpellDC()));" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d6, Thunder,Magical);ApplyStatus(PRONE_THUNDEROUS_SMITE, 100, 2, , , ,not SavingThrow(Ability.Strength, SourceSpellDC()));" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Thunder)" />
       </fields>
@@ -5500,7 +5500,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d1ba9330-c20e-42fd-9a44-fca80775b380" />
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Thunderous_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5d0da401-4cf9-4447-87ba-fde71c082037" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(7d6, Thunder,Magical);ApplyStatus(PRONE_THUNDEROUS_SMITE, 100, 1, , , ,not SavingThrow(Ability.Strength, SourceSpellDC()));" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(7d6, Thunder,Magical);ApplyStatus(PRONE_THUNDEROUS_SMITE, 100, 2, , , ,not SavingThrow(Ability.Strength, SourceSpellDC()));" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Thunder)" />
       </fields>
@@ -12055,7 +12055,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="OpenHandTechnique_Knock" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9817cf58-aef9-459d-aef1-b664c4024261" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeUnarmedAttack)" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);IF(not SavingThrow(Ability.Dexterity, ManeuverSaveDC())):ApplyStatus(PRONE,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(UnarmedDamage , Bludgeoning);IF(not SavingThrow(Ability.Dexterity, ManeuverSaveDC())):ApplyStatus(PRONE,100,2);" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="LevelMapValue(FlurryOfBlows)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MartialArtsUnarmedDamage, Bludgeoning)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;DisableBlood;AddFallDamageOnLand" enumeration_type_name="SpellFlagList" version="1" />
@@ -12945,7 +12945,7 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="HitCosts" type="StringTableFieldDefinition" value="SneakAttack_Charge:1;" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source) and not SavingThrow(Ability.Constitution,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(CUNNINGSTRIKE_POISON,100,10);IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Dexterity,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(PRONE,100,1);IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);IF(HasPassive('CunningStrike_Terrify',context.Source) and not SavingThrow(Ability.Wisdom,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(FRIGHTENED,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source) and not SavingThrow(Ability.Constitution,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(CUNNINGSTRIKE_POISON,100,10);IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Dexterity,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(PRONE,100,2);IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);IF(HasPassive('CunningStrike_Terrify',context.Source) and not SavingThrow(Ability.Wisdom,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(FRIGHTENED,100,10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -12956,7 +12956,7 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="HitCosts" type="StringTableFieldDefinition" value="SneakAttack_Charge:1;" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source) and not SavingThrow(Ability.Constitution,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(CUNNINGSTRIKE_POISON,100,10);IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Dexterity,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(PRONE,100,1);IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);IF(HasPassive('CunningStrike_Terrify',context.Source) and not SavingThrow(Ability.Wisdom,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(FRIGHTENED,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon + LevelMapValue(SneakAttack), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source) and not SavingThrow(Ability.Constitution,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(CUNNINGSTRIKE_POISON,100,10);IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Dexterity,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(PRONE,100,2);IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);IF(HasPassive('CunningStrike_Terrify',context.Source) and not SavingThrow(Ability.Wisdom,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(FRIGHTENED,100,10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -13143,7 +13143,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="acfa2d8f-273a-4044-97ec-68e452c2e097" />
         <field name="Name" type="NameTableFieldDefinition" value="SneakAttack_Poison" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2dd359f1-c98e-4a66-87bf-efe6b92a4726" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(VenomousStrike), Poison);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source) and not SavingThrow(Ability.Constitution,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(CUNNINGSTRIKE_POISON,100,10);IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Dexterity,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(PRONE,100,1);IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);IF(HasPassive('CunningStrike_Terrify',context.Source) and not SavingThrow(Ability.Wisdom,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(FRIGHTENED,100,10);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(VenomousStrike), Poison);ExecuteWeaponFunctors(MainHand);IF(HasPassive('CunningStrike_Poison',context.Source) and not SavingThrow(Ability.Constitution,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(CUNNINGSTRIKE_POISON,100,10);IF(HasPassive('CunningStrike_Trip',context.Source) and TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Dexterity,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(PRONE,100,2);IF(HasPassive('CunningStrike_Withdraw',context.Source)):ApplyStatus(SELF,CUNNINGSTRIKE_WITHDRAW,100,1);IF(HasPassive('CunningStrike_Terrify',context.Source) and not SavingThrow(Ability.Wisdom,CalculateSpellDC(Ability.Dexterity, context.Source))):ApplyStatus(FRIGHTENED,100,10);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Poison_Melee" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h656a706fg1a46gaa36g3947ga8c2d498eb29" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(VenomousStrike), Poison);" />
@@ -13445,7 +13445,7 @@
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:DealDamage(4d8,Force);" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(4d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,2);" />
         <field name="SpellFail" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3793d1a6gc4b8g72a7geb63gdab6620030e7" version="1" />
@@ -13486,7 +13486,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Eldritch_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d425e714-2b8b-455f-9405-520ac4f469df" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:DealDamage(5d8,Force);" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(5d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,2);" />
         <field name="SpellFail" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(5d8,Force)" />
         <field name="HitCosts" type="StringTableFieldDefinition" value="WarlockSpellSlot:1:4;" />
@@ -13502,7 +13502,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Smite_Eldritch_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d425e714-2b8b-455f-9405-520ac4f469df" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:DealDamage(MainMeleeWeapon,MainMeleeWeaponDamageType);GROUND:ExecuteWeaponFunctors(MainHand);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1);GROUND:DealDamage(6d8,Force);" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);DealDamage(6d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,2);" />
         <field name="SpellFail" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(6d8,Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force)" />
@@ -14524,7 +14524,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e1ce351e-d406-427f-b36f-cffbafb63f92" />
         <field name="Name" type="NameTableFieldDefinition" value="ShieldBash_Prone" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SLEEP);RemoveStatus(SLEEPING);" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(PRONE,100,1);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(PRONE,100,2);" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ShieldMaster_Shove" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf85d24eegb746gb3e4g54ddg00cde5bd922f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h28541eafg02e0g2a1ag2ebcgdcdb10c35901" version="1" />
