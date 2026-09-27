@@ -4,6 +4,6 @@
 -- wielder's ability scores can be compared here (see SHILLELAGH for the same trick).
 
 function FierceShot(entity)
-	entity = entity or context.Source
-	return ConditionResult(GetModifier(entity.Strength) >= GetModifier(entity.Dexterity))
+    entity = entity or context.Source
+    return ConditionResult(GetModifier(entity.Strength) >= GetModifier(entity.Dexterity))
 end
