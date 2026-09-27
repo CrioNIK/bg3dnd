@@ -43,7 +43,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Barbarian" />
         <field name="Level" type="ByteTableFieldDefinition" value="2" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="0" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DangerSense;RecklessAttack;Barbarian_2_RecklessAttack_Unarmed" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="DangerSense;RecklessAttack" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HitPointDice12,1,0);" />
       </fields>
     </stat_object>
@@ -428,7 +428,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="Fractured" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Fractured_3_FaceOfRage;Fractured_3_FaceOfRage_Toggle_Push;Fractured_3_FaceOfRage_Toggle_Prone;Fractured_3_MaskOfCivility;MeleeUnarmedAttackBonus" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Fractured_3_FaceOfRage;Fractured_3_FaceOfRage_Toggle_Push;Fractured_3_FaceOfRage_Toggle_Prone;Fractured_3_MaskOfCivility;MeleeUnarmedAttackBonus;Fractured_3_FaceOfRage_Toggle_Force" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectPassives(28657ca3-eab0-44d5-b1ac-1fae260dd486,1,MaskOfCivility)" />
       </fields>
     </stat_object>

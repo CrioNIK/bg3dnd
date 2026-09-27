@@ -33,7 +33,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(HitPointDice12,1,0);"/>
                     <attribute id="Level" type="uint8" value="2"/>
                     <attribute id="Name" type="LSString" value="Barbarian"/>
-                    <attribute id="PassivesAdded" type="LSString" value="DangerSense;RecklessAttack;Barbarian_2_RecklessAttack_Unarmed"/>
+                    <attribute id="PassivesAdded" type="LSString" value="DangerSense;RecklessAttack"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
                     <attribute id="TableUUID" type="guid" value="60bbcc97-5381-4898-bc15-908c072895de"/>
                     <attribute id="UUID" type="guid" value="89986e8a-09b1-4163-b1d0-ddb2332bf3c5"/>
@@ -344,7 +344,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Fractured"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Fractured_3_FaceOfRage;Fractured_3_FaceOfRage_Toggle_Push;Fractured_3_FaceOfRage_Toggle_Prone;Fractured_3_MaskOfCivility;MeleeUnarmedAttackBonus"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Fractured_3_FaceOfRage;Fractured_3_FaceOfRage_Toggle_Push;Fractured_3_FaceOfRage_Toggle_Prone;Fractured_3_MaskOfCivility;MeleeUnarmedAttackBonus;Fractured_3_FaceOfRage_Toggle_Force"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectPassives(28657ca3-eab0-44d5-b1ac-1fae260dd486,1,MaskOfCivility)"/>
                     <attribute id="TableUUID" type="guid" value="c6417c1d-3d25-48f4-86ab-0a1d4d69be6f"/>

@@ -131,6 +131,7 @@ new entry "Interrupt_RecklessAttack"
 type "InterruptData"
 using "Interrupt_RecklessAttack"
 data "Conditions" "not Dead(context.Observer) and HasInterruptedAttack() and Self(context.Observer,context.Source) and (IsUnarmedAttack() or IsMeleeWeaponAttack()) and not HasStatus('RECKLESS_ATTACK',context.Observer) and not SpellId('Target_RecklessAttack') and not SpellId('Target_RecklessAttackForcefulBlow') and not SpellId('Target_RecklessAttackHamstringBlow') and not AnyEntityIsItem() and IsRerollInterruptInteresting(context.Source) and not InterruptHasAdvantage();"
+data "Cost" "RecklessAttack:1;"
 data "InterruptDefaultValue" "Enabled"
 
 new entry "Interrupt_Berserker_10_Retaliation"

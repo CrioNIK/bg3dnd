@@ -1061,6 +1061,22 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b692c831-b30b-405c-94cc-9b61c06145ba" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rage_Rage_Boosts" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8af84c51-35e2-42e9-8443-eb2ae781c822" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Ability, Strength);Advantage(SavingThrow, Strength);Resistance(Slashing, Resistant);Resistance(Piercing, Resistant);Resistance(Bludgeoning, Resistant);IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue(RageDamage));EntityThrowDamage(2);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue(RageDamage));IF(IsMeleeUnarmedAttack()):DamageBonus(LevelMapValue(RageDamage));FallDamageMultiplier(0.5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bab3ec48-be6b-4a47-946c-2d8858cf7b7a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Rage_Rage_Boosts_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4d22daba-f4cb-445f-900a-53e17aa2da91" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Ability, Strength);Advantage(SavingThrow, Strength);Resistance(Slashing, Resistant);Resistance(Piercing, Resistant);Resistance(Bludgeoning, Resistant);IF(IsAttackType(AttackType.MeleeWeaponAttack)): CharacterWeaponDamage(LevelMapValue(RageDamage));EntityThrowDamage(3);IF(IsAttackType(AttackType.MeleeOffHandWeaponAttack)):CharacterWeaponDamage(LevelMapValue(RageDamage));IF(IsMeleeUnarmedAttack()):DamageBonus(LevelMapValue(RageDamage));FallDamageMultiplier(0.5);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="214a6e8b-5758-4133-b217-6d3d20d75a54" />
         <field name="Name" type="NameTableFieldDefinition" value="Barbarian_1_RageRestore" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he54ffab7g9288g792age85bg3fc0a39a63db" version="1" />
@@ -1093,11 +1109,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="4901cf9e-ff54-4947-9ce9-49383625123e" />
-        <field name="Name" type="NameTableFieldDefinition" value="Barbarian_2_RecklessAttack_Unarmed" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h72f074a8gc35ag1dacg638cgaa77b73e11be" version="1" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_RecklessAttack_Unarmed);IF(SpellId('Target_RecklessAttack') or SpellId('Target_RecklessAttackAction') or SpellId('Target_RecklessAttackForcefulBlow') or SpellId('Target_RecklessAttackHamstringBlow') or SpellId('Target_RecklessAttack_Unarmed') or SpellId('Target_RecklessAttackAction_Unarmed') or SpellId('Target_RecklessAttackForcefulBlow_Unarmed') or SpellId('Target_RecklessAttackHamstringBlow_Unarmed')):Advantage(AttackRoll);" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c7258cb8-e201-490a-b9ac-6f3a409f2f78" />
+        <field name="Name" type="NameTableFieldDefinition" value="RecklessAttack" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h15f5369ag7498g0546gf49cg5dc8a3b696d3" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_RecklessAttack" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1002" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(RecklessAttack,1,0);UnlockInterrupt(Interrupt_RecklessAttack);UnlockSpell(Target_RecklessAttack);UnlockSpell(Target_RecklessAttack_Unarmed);IF(SpellId('Target_RecklessAttack') or SpellId('Target_RecklessAttackAction') or SpellId('Target_RecklessAttackForcefulBlow') or SpellId('Target_RecklessAttackHamstringBlow') or SpellId('Target_RecklessAttack_Unarmed') or SpellId('Target_RecklessAttackAction_Unarmed') or SpellId('Target_RecklessAttackForcefulBlow_Unarmed') or SpellId('Target_RecklessAttackHamstringBlow_Unarmed')):Advantage(AttackRoll);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack();" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,FIRST_ATTACK_TURN,100,1)" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0b8da32fgebbdg01f7g7f3fg0064d08eed5b" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1155,6 +1177,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_BrutalCritical" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1009" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(SpellId('Target_RecklessAttack') or SpellId('Target_RecklessAttackAction') or SpellId('Target_RecklessAttackForcefulBlow') or SpellId('Target_RecklessAttackHamstringBlow') or SpellId('Target_RecklessAttack_Unarmed') or SpellId('Target_RecklessAttackAction_Unarmed') or SpellId('Target_RecklessAttackForcefulBlow_Unarmed') or SpellId('Target_RecklessAttackHamstringBlow_Unarmed')):DamageBonus(1d10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1411,7 +1434,7 @@
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1303" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('SG_Rage', context.Source)):CharacterUnarmedDamage(ProficiencyBonus+1d8);IF(HasStatus('SG_Rage', context.Source)):UnlockSpellVariant(HasStringInSpellRoll('AttackType.MeleeUnarmedAttack'),ModifyTargetRadius(Multiplicative, 1.5));" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasStatus('SG_Rage', context.Source)):MonkWeaponDamageDiceOverride(LevelMapValue(FaceOfRage));IF(HasStatus('SG_Rage', context.Source)):UnlockSpellVariant(HasStringInSpellRoll('AttackType.MeleeUnarmedAttack'),ModifyTargetRadius(Multiplicative, 1.5));" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1438,6 +1461,19 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(PRONE,100,2,,,,not SavingThrow(Ability.Constitution, ManeuverSaveDC()))" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Trip" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6a8df3d1-48fb-4540-bcb0-765aec5d812b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Fractured_3_FaceOfRage_Toggle_Force" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf8f93fbeg05c2g0ec9g95c2g630c157fb21f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he13741e5g314cg1e94gfbe1gcabb71dfe4d4" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Force" />
+        <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasStatus('SG_Rage',context.Source);" />
+        <field name="EnabledContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="ToggleGroup" type="StringTableFieldDefinition" value="ElementalAttunement" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
