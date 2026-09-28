@@ -9627,6 +9627,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;IsLinkedSpellContainer;CannotTargetTerrain" enumeration_type_name="SpellFlagList" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;RecklessAttack:1" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="RestoreResource(SELF,RecklessAttack,1,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9638,6 +9639,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;AddFallDamageOnLand;CannotTargetTerrain" enumeration_type_name="SpellFlagList" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;RecklessAttack:1" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="RestoreResource(SELF,RecklessAttack,1,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

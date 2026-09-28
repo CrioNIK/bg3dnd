@@ -1114,7 +1114,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h15f5369ag7498g0546gf49cg5dc8a3b696d3" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Barbarian_RecklessAttack" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1002" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(RecklessAttack,1,0);UnlockInterrupt(Interrupt_RecklessAttack);UnlockSpell(Target_RecklessAttack);UnlockSpell(Target_RecklessAttack_Unarmed);IF(SpellId('Target_RecklessAttack') or SpellId('Target_RecklessAttackAction') or SpellId('Target_RecklessAttackForcefulBlow') or SpellId('Target_RecklessAttackHamstringBlow') or SpellId('Target_RecklessAttack_Unarmed') or SpellId('Target_RecklessAttackAction_Unarmed') or SpellId('Target_RecklessAttackForcefulBlow_Unarmed') or SpellId('Target_RecklessAttackHamstringBlow_Unarmed')):Advantage(AttackRoll);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(RecklessAttack,1,0);UnlockInterrupt(Interrupt_RecklessAttack);UnlockSpell(Target_RecklessAttack);UnlockSpell(Target_RecklessAttack_Unarmed);UnlockSpell(Throw_Throw_RecklessAttack);IF(RecklessAttack()):Advantage(AttackRoll);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsWeaponAttack();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,FIRST_ATTACK_TURN,100,1)" />
@@ -1177,7 +1177,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_BrutalCritical" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1009" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IF(SpellId('Target_RecklessAttack') or SpellId('Target_RecklessAttackAction') or SpellId('Target_RecklessAttackForcefulBlow') or SpellId('Target_RecklessAttackHamstringBlow') or SpellId('Target_RecklessAttack_Unarmed') or SpellId('Target_RecklessAttackAction_Unarmed') or SpellId('Target_RecklessAttackForcefulBlow_Unarmed') or SpellId('Target_RecklessAttackHamstringBlow_Unarmed')):DamageBonus(1d10);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(RecklessAttack()):DamageBonus(1d10);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
