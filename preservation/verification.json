@@ -1,0 +1,703 @@
+{
+  "verified_at_utc": "2026-09-29T22:04:25.743710+00:00",
+  "status": "complete_with_explicit_user_requested_package_exclusions",
+  "repository": "https://github.com/CrioNIK/bg3dnd",
+  "branch": "preservation/2026-09-30/translation-artifacts",
+  "release_url": "https://github.com/CrioNIK/bg3dnd/releases/tag/preservation-artifacts-2026-09-30",
+  "release_public": true,
+  "release_snapshot_commit": "372746d7d499b427e511a79adda757ae9a3add4b",
+  "branches": [
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "main",
+      "sha": "52b4be1726787ed425f92236dcd9c6b004f6be06",
+      "github_branch": "main",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization",
+      "sha": "cdbe99c4309be2c476c5bb30ec0bb7fd1a14e644",
+      "github_branch": "polish-localization",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-1",
+      "sha": "f0ca4578732425a4320ed783378ef614a7133d57",
+      "github_branch": "preservation/2026-09-30/initial-polish-localization-followup-1",
+      "already_equal_before": false,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-10",
+      "sha": "5372505ca122561c29f6386dbb6d8c58be65e0c9",
+      "github_branch": "polish-localization-followup-10",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-11",
+      "sha": "8b17b1dc044174b62586a09a1ae88b33f9d1b0f1",
+      "github_branch": "polish-localization-followup-11",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-12",
+      "sha": "a2141aabe8beeb1dc9da83889927d6c6c23b5576",
+      "github_branch": "polish-localization-followup-12",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-13",
+      "sha": "bfad3be75d852c4b6b2eea276759a5718da94433",
+      "github_branch": "polish-localization-followup-13",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-14",
+      "sha": "1d2a432b9fed3ec32edeb0328c330ffb2001072e",
+      "github_branch": "polish-localization-followup-14",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-15",
+      "sha": "7e05b4cdb7db1ae8b17ed5a19dc163d2ed65ae74",
+      "github_branch": "polish-localization-followup-15",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-16",
+      "sha": "55ae9c2bd1e109d0011f5f2c430d025ba9a6124e",
+      "github_branch": "polish-localization-followup-16",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-17",
+      "sha": "a56821a5cde649453850aa09b5a483070e361f23",
+      "github_branch": "polish-localization-followup-17",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-18",
+      "sha": "d072c34c62edc734c2f48af039bd32561b9a83de",
+      "github_branch": "polish-localization-followup-18",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-2",
+      "sha": "b9176cf91020b753706c13de97912c29cd95ee76",
+      "github_branch": "polish-localization-followup-2",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-3",
+      "sha": "7a4210fd46fb9eaf561486f9383a202183cc6545",
+      "github_branch": "polish-localization-followup-3",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-4",
+      "sha": "d51f44d142e09d27bce46f159595edb2cabc63ad",
+      "github_branch": "polish-localization-followup-4",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-5",
+      "sha": "1c551deaa48d21ce3290444492a2632fb1237adb",
+      "github_branch": "polish-localization-followup-5",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-6",
+      "sha": "3542beb0edd421b3a0a7132d6bc51de1491735dd",
+      "github_branch": "polish-localization-followup-6",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-7",
+      "sha": "1772a77545f69d7d78de8d9beb22874a700b60d0",
+      "github_branch": "polish-localization-followup-7",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-8",
+      "sha": "b258b0eb31d3acf378f366a9ad60d3c9522b5909",
+      "github_branch": "polish-localization-followup-8",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "polish-localization-followup-9",
+      "sha": "629dee4f4c4444ba11f593df02430765d7702133",
+      "github_branch": "polish-localization-followup-9",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "ukrainian-full-proofreading",
+      "sha": "180fe3048dd83596353442e8098ac05ef1a4c69b",
+      "github_branch": "ukrainian-full-proofreading",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "ukrainian-localization",
+      "sha": "eb70b3ef1c7860ac6d823c5ec12c5112e1aac6e7",
+      "github_branch": "ukrainian-localization",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "initial-2026-08-24",
+      "local_branch": "ukrainian-proofreading",
+      "sha": "cd2e7a6ea081bd9d54617cb507900d74445d8078",
+      "github_branch": "ukrainian-proofreading",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "polish-2026-09-12",
+      "local_branch": "localization/polish-2026-09-12",
+      "sha": "bd69631dfc7f57fbf2c29a982a0ac06c1b00f2ed",
+      "github_branch": "localization/polish-2026-09-12",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "polish-2026-09-12",
+      "local_branch": "main",
+      "sha": "0f0ab55c10ce531e8a81f66a61a2ce19fb35b21c",
+      "github_branch": "preservation/2026-09-30/polish-main",
+      "already_equal_before": false,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "ukrainian-2026-09-12",
+      "local_branch": "l10n/ukrainian-sync-2026-09-12",
+      "sha": "24af317cc2136ec698094cfb52ac17afb2f00e08",
+      "github_branch": "l10n/ukrainian-sync-2026-09-12",
+      "already_equal_before": true,
+      "remote_sha_verified": true
+    },
+    {
+      "project": "ukrainian-2026-09-12",
+      "local_branch": "main",
+      "sha": "0f0ab55c10ce531e8a81f66a61a2ce19fb35b21c",
+      "github_branch": "preservation/2026-09-30/ukrainian-main",
+      "already_equal_before": false,
+      "remote_sha_verified": true
+    }
+  ],
+  "git_verification": {
+    "snapshot_commit": "aadaffb6e92efb2acb7a72e994b10a234b2274fa",
+    "snapshot_tree": "b5b2595d048bb7ec449de97bc6f7b971847b291d",
+    "tree_not_truncated": true,
+    "all_git_manifest_blob_ids_and_sizes_match": true,
+    "verified_git_source_paths": 1485,
+    "github_tree_blobs": 1001,
+    "output_files_downloaded_and_sha256_verified": 24,
+    "local_branch_heads_verified": 27,
+    "largest_git_blobs": [
+      {
+        "path": "projects/initial-2026-08-24/work/bg3-uk.xml",
+        "size": 42242691,
+        "sha": "acf9da1a306a5d261208dbd65f94869de1956d35"
+      },
+      {
+        "path": "projects/ukrainian-2026-09-12/work/official-bg3-uk.xml",
+        "size": 42242691,
+        "sha": "acf9da1a306a5d261208dbd65f94869de1956d35"
+      },
+      {
+        "path": "resources/4b/4b40a22a81bff4bd99f9ed559b2b806410d34f26d889b3d38d4de090e920b989",
+        "size": 38666768,
+        "sha": "68cf11e7993a21d17e37d22cbe549500ec60af16"
+      },
+      {
+        "path": "resources/84/84a1b9cb3ae1147b51e9cf36892d44732609500210feacdd72789abaee187ac5",
+        "size": 34818616,
+        "sha": "8494262b004822a61c097ad70d15742f8fa72831"
+      },
+      {
+        "path": "projects/initial-2026-08-24/work/bg3-en.xml",
+        "size": 34619950,
+        "sha": "6b2230df4bd812319c57295629f6fddf7f10a1d4"
+      }
+    ]
+  },
+  "output_files": [
+    {
+      "project": "initial-2026-08-24",
+      "path": "outputs/D&D_5.5e_Beyond_Ukrainian.pak",
+      "size": 389173,
+      "sha256": "4fd5af3f5bc840eeb8206d24d20ce5217d03c42690f45d35405ac2d4c5fddcb5"
+    },
+    {
+      "project": "initial-2026-08-24",
+      "path": "outputs/D&D_5.5e_Beyond_Ukrainian.pre_editorial_20260825.pak",
+      "size": 554102,
+      "sha256": "122fa1ce31bec71540e06e483ac7d3033c15cb29e86fec56c9bfb99562800588"
+    },
+    {
+      "project": "initial-2026-08-24",
+      "path": "outputs/D&D_5.5e_Beyond_Ukrainian_Audit.txt",
+      "size": 1504,
+      "sha256": "b4591494dffdfc3adef694e2f55b299b853d763b6f9e702dd941512ac77eb768"
+    },
+    {
+      "project": "initial-2026-08-24",
+      "path": "outputs/DnD2024_Ukrainian.pak",
+      "size": 389173,
+      "sha256": "4fd5af3f5bc840eeb8206d24d20ce5217d03c42690f45d35405ac2d4c5fddcb5"
+    },
+    {
+      "project": "initial-2026-08-24",
+      "path": "outputs/DnD2024_Ukrainian.xml",
+      "size": 1301066,
+      "sha256": "aa8da075f7dbc19f3b93f3eff8f30897662599a752b1b97d17123b4a3ab57930"
+    },
+    {
+      "project": "initial-2026-08-24",
+      "path": "outputs/DnD2024_Ukrainian.zip",
+      "size": 292808,
+      "sha256": "619bef2af13e7587acd7fe3af225722a1337cea76260c157f6e875201ac9e884"
+    },
+    {
+      "project": "initial-2026-08-24",
+      "path": "outputs/installed_DnD2024_Ukrainian_pre_editorial_20260825.pak",
+      "size": 554102,
+      "sha256": "122fa1ce31bec71540e06e483ac7d3033c15cb29e86fec56c9bfb99562800588"
+    },
+    {
+      "project": "initial-2026-08-24",
+      "path": "outputs/README_DnD2024_Ukrainian.txt",
+      "size": 1902,
+      "sha256": "e5c458ceb0f5c67276823d84252388ff84f6719fac4ecba336965ed950dbc50d"
+    },
+    {
+      "project": "polish-2026-09-12",
+      "path": "outputs/polish-update.patch",
+      "size": 28637,
+      "sha256": "90b40970c864393318d8e64b19540c2691da56b04908588d0f1832714de8f5c6"
+    },
+    {
+      "project": "polish-2026-09-12",
+      "path": "outputs/polish.xml",
+      "size": 1160430,
+      "sha256": "5cbd3b47f7de56d5f84321fe0897925d961f98b357da67dd120dfbdc1496d193"
+    },
+    {
+      "project": "polish-2026-09-12",
+      "path": "outputs/publication.json",
+      "size": 2150,
+      "sha256": "22b6fc110c4fb7b54a9fad3c057619fd581f634e7d0edc2b3f1074e54a5dd4d3"
+    },
+    {
+      "project": "polish-2026-09-12",
+      "path": "outputs/report.md",
+      "size": 8895,
+      "sha256": "0b30435d0b9c99664968934872e9ad0fcd457c7178a5647de8c24fb46d3b343d"
+    },
+    {
+      "project": "polish-2026-09-12",
+      "path": "outputs/review.tsv",
+      "size": 36463,
+      "sha256": "3806c6283f13b8ec5efd4152c68d4676e577c56dc2f46f0e8bea0c444090c16a"
+    },
+    {
+      "project": "polish-2026-09-12",
+      "path": "outputs/terminology-sources.md",
+      "size": 10980,
+      "sha256": "02279573bb09a301ec6e3592ba8c800ac4412108c6fbda2d8a927ba605b9b118"
+    },
+    {
+      "project": "polish-2026-09-12",
+      "path": "outputs/validation.json",
+      "size": 2081,
+      "sha256": "026d71f1d56a4769145edef7995c93d1a2d30043dfb0d33017446db239ec70cc"
+    },
+    {
+      "project": "ukrainian-2026-09-12",
+      "path": "outputs/changes.tsv",
+      "size": 49659,
+      "sha256": "bbcc2e01b2574e0accd7f5eef4b862eaee3e4f5b5e3f80e2cf1999b12dca3bbf"
+    },
+    {
+      "project": "ukrainian-2026-09-12",
+      "path": "outputs/publication.json",
+      "size": 1514,
+      "sha256": "2d9c1a8355b87b834bf3375a180970150cc9a920c01c486c33ef9d50b67d0a11"
+    },
+    {
+      "project": "ukrainian-2026-09-12",
+      "path": "outputs/release-audit-2026-09-23.json",
+      "size": 3283,
+      "sha256": "a8d1fbe6dad4cf98bdec72af2e69f0351afbdc49731f0c94788a50ffe535b94b"
+    },
+    {
+      "project": "ukrainian-2026-09-12",
+      "path": "outputs/release-audit-2026-09-23.md",
+      "size": 5027,
+      "sha256": "58d3540b0127c6f724997efffe88f51caefcc302a2cec678934483d5466a24b5"
+    },
+    {
+      "project": "ukrainian-2026-09-12",
+      "path": "outputs/report.md",
+      "size": 8903,
+      "sha256": "74cda3ec96820c9ee786e59cda59bd22535d6e4313543f3c7102a37b620762b3"
+    },
+    {
+      "project": "ukrainian-2026-09-12",
+      "path": "outputs/terminology-sources.md",
+      "size": 14709,
+      "sha256": "9dd30cfa921f0f4d1897314698eb1d339a1159bcee576665b7b20c0f04370cfe"
+    },
+    {
+      "project": "ukrainian-2026-09-12",
+      "path": "outputs/ukrainian.patch",
+      "size": 43260,
+      "sha256": "6ba0153399cedf82dec3b404c6bd6e10158ca93fd8cd02720f7e2a872d1f96c7"
+    },
+    {
+      "project": "ukrainian-2026-09-12",
+      "path": "outputs/ukrainian.xml",
+      "size": 1581386,
+      "sha256": "59cef3006a9ee17ee3485f38922292ac06c64ccd2644eb5e505a3a7506eeef4c"
+    },
+    {
+      "project": "ukrainian-2026-09-12",
+      "path": "outputs/validation.json",
+      "size": 4865,
+      "sha256": "df10ddaee0d197fcee4b3325576caf6088b16f457357dabaff7e9163dfa48b8d"
+    }
+  ],
+  "large_assets_verified": [
+    {
+      "name": "58992ff759fa77c4-dnd2024_897914ef-5c96-053c-44a-6rvl.original.pak",
+      "id": 599292160,
+      "size": 94978166,
+      "sha256": "58992ff759fa77c42df2f27c7886db5cd385686857f127f9df0e7391a457ba3c",
+      "github_digest": "sha256:58992ff759fa77c42df2f27c7886db5cd385686857f127f9df0e7391a457ba3c",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/58992ff759fa77c4-dnd2024_897914ef-5c96-053c-44a-6rvl.original.pak",
+      "verified": true
+    },
+    {
+      "name": "6ffd943185d1497b-dnd2024_before_followup10_20260829.pak",
+      "id": 599293768,
+      "size": 95384592,
+      "sha256": "6ffd943185d1497b0ec42fa9e5180380cd0a7919ece576feec609fe219a99cb5",
+      "github_digest": "sha256:6ffd943185d1497b0ec42fa9e5180380cd0a7919ece576feec609fe219a99cb5",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/6ffd943185d1497b-dnd2024_before_followup10_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "8f095c2f4389c5ae-dnd2024_before_followup6_20260829.pak",
+      "id": 599295386,
+      "size": 95385035,
+      "sha256": "8f095c2f4389c5aeab0cff2a5af327eb4408057b1eab9e942245693f4b4ebae1",
+      "github_digest": "sha256:8f095c2f4389c5aeab0cff2a5af327eb4408057b1eab9e942245693f4b4ebae1",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/8f095c2f4389c5ae-dnd2024_before_followup6_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "83855a0d8a67b014-dnd2024_before_followup7_20260829.pak",
+      "id": 599296923,
+      "size": 95384969,
+      "sha256": "83855a0d8a67b014977e89027d51deda146931fbaceaf1f016a9f9fee6db4f53",
+      "github_digest": "sha256:83855a0d8a67b014977e89027d51deda146931fbaceaf1f016a9f9fee6db4f53",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/83855a0d8a67b014-dnd2024_before_followup7_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "1efb7e33a5839562-dnd2024_before_followup8_20260829.pak",
+      "id": 599298505,
+      "size": 95384908,
+      "sha256": "1efb7e33a5839562448457f8c4c167b5fd4ebe84f92e2685e2f4a4a8c8279d06",
+      "github_digest": "sha256:1efb7e33a5839562448457f8c4c167b5fd4ebe84f92e2685e2f4a4a8c8279d06",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/1efb7e33a5839562-dnd2024_before_followup8_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "44f535802d06dc13-dnd2024_before_followup9_20260829.pak",
+      "id": 599300395,
+      "size": 95384847,
+      "sha256": "44f535802d06dc13bffc7d101daf8a018589d2b0104666a0881a210dcca7e618",
+      "github_digest": "sha256:44f535802d06dc13bffc7d101daf8a018589d2b0104666a0881a210dcca7e618",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/44f535802d06dc13-dnd2024_before_followup9_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "e5fb7a62aa3efd15-dnd2024_polish_followup10_lz4hc_20260829.pak",
+      "id": 599301844,
+      "size": 95384459,
+      "sha256": "e5fb7a62aa3efd1515ab9230344c91f131b9bad8f34bcfdba892c818e942447e",
+      "github_digest": "sha256:e5fb7a62aa3efd1515ab9230344c91f131b9bad8f34bcfdba892c818e942447e",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/e5fb7a62aa3efd15-dnd2024_polish_followup10_lz4hc_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "492f2c0153b955e6-dnd2024_polish_followup11_lz4hc_20260829.pak",
+      "id": 599303801,
+      "size": 95384459,
+      "sha256": "492f2c0153b955e64d40f750cfeab1e8462b3a6cba99e2e0d173c3287d0a6fae",
+      "github_digest": "sha256:492f2c0153b955e64d40f750cfeab1e8462b3a6cba99e2e0d173c3287d0a6fae",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/492f2c0153b955e6-dnd2024_polish_followup11_lz4hc_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "759a4286590e6abf-dnd2024_polish_followup12_lz4hc_20260829.pak",
+      "id": 599305563,
+      "size": 95384271,
+      "sha256": "759a4286590e6abf876a389fb671dbb1632a36faa988af4b3b75dc91b97bfd49",
+      "github_digest": "sha256:759a4286590e6abf876a389fb671dbb1632a36faa988af4b3b75dc91b97bfd49",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/759a4286590e6abf-dnd2024_polish_followup12_lz4hc_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "75f2f7a036337f68-dnd2024_polish_followup13_lz4hc_20260829.pak",
+      "id": 599307048,
+      "size": 95384338,
+      "sha256": "75f2f7a036337f68e37a0217d5c54dd8b709ffa6b16f71b64126c48527df6907",
+      "github_digest": "sha256:75f2f7a036337f68e37a0217d5c54dd8b709ffa6b16f71b64126c48527df6907",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/75f2f7a036337f68-dnd2024_polish_followup13_lz4hc_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "44145ef410962830-dnd2024_polish_followup14_lz4hc_20260829.pak",
+      "id": 599308536,
+      "size": 95384080,
+      "sha256": "44145ef410962830fda4914f68de418fe05df7118871796c72572ca0fbfe5cfc",
+      "github_digest": "sha256:44145ef410962830fda4914f68de418fe05df7118871796c72572ca0fbfe5cfc",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/44145ef410962830-dnd2024_polish_followup14_lz4hc_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "839d751218e26606-dnd2024_polish_followup15_lz4hc_20260829.pak",
+      "id": 599310183,
+      "size": 95384081,
+      "sha256": "839d751218e266067115e1501dddb9fd304a763b612e5e24a0f85d07f524dc0b",
+      "github_digest": "sha256:839d751218e266067115e1501dddb9fd304a763b612e5e24a0f85d07f524dc0b",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/839d751218e26606-dnd2024_polish_followup15_lz4hc_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "91a8e050fc625ba7-dnd2024_polish_followup16_lz4hc_20260829.pak",
+      "id": 599311736,
+      "size": 95383887,
+      "sha256": "91a8e050fc625ba70be304c63778dfd7f2cbaee28d7b02fea3d77ae53778e83b",
+      "github_digest": "sha256:91a8e050fc625ba70be304c63778dfd7f2cbaee28d7b02fea3d77ae53778e83b",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/91a8e050fc625ba7-dnd2024_polish_followup16_lz4hc_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "13c31a7ee2fc316f-dnd2024_polish_followup17_lz4hc_20260829.pak",
+      "id": 599313732,
+      "size": 95383757,
+      "sha256": "13c31a7ee2fc316f3edbba8bd0315ef1e915f5984700f120e8c765d1af36b2cd",
+      "github_digest": "sha256:13c31a7ee2fc316f3edbba8bd0315ef1e915f5984700f120e8c765d1af36b2cd",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/13c31a7ee2fc316f-dnd2024_polish_followup17_lz4hc_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "ef3240880f21e854-dnd2024_polish_followup18_lz4hc_20260829.pak",
+      "id": 599315976,
+      "size": 95383757,
+      "sha256": "ef3240880f21e8541ee83983aafee7f0d009f0d083522b08f417197ed4acd97a",
+      "github_digest": "sha256:ef3240880f21e8541ee83983aafee7f0d009f0d083522b08f417197ed4acd97a",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/ef3240880f21e854-dnd2024_polish_followup18_lz4hc_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "7e70112d63f378a4-dnd2024_polish_followup1_20260829.pak",
+      "id": 599317933,
+      "size": 95385100,
+      "sha256": "7e70112d63f378a4ee5b19b63383d7d81cba7fd64251991f110ed9ad8e173e64",
+      "github_digest": "sha256:7e70112d63f378a4ee5b19b63383d7d81cba7fd64251991f110ed9ad8e173e64",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/7e70112d63f378a4-dnd2024_polish_followup1_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "4399c818bb242541-dnd2024_polish_followup2_20260829.pak",
+      "id": 599319816,
+      "size": 95385035,
+      "sha256": "4399c818bb2425419effb8b80c2ac8ca0b7d0f3102043d2ccc7df16af4bafec0",
+      "github_digest": "sha256:4399c818bb2425419effb8b80c2ac8ca0b7d0f3102043d2ccc7df16af4bafec0",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/4399c818bb242541-dnd2024_polish_followup2_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "66cb459226d45e03-dnd2024_polish_followup3_20260829.pak",
+      "id": 599321716,
+      "size": 108209943,
+      "sha256": "66cb459226d45e032796c2e7af933e750dec78b9d43ec59ca91a1210b4e15431",
+      "github_digest": "sha256:66cb459226d45e032796c2e7af933e750dec78b9d43ec59ca91a1210b4e15431",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/66cb459226d45e03-dnd2024_polish_followup3_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "70115fd851fb5099-dnd2024_polish_followup3_lz4hc_20260829.pak",
+      "id": 599323987,
+      "size": 95385035,
+      "sha256": "70115fd851fb509927ef980cfd4db9cc959558b9930e018e8fa3287070dae0aa",
+      "github_digest": "sha256:70115fd851fb509927ef980cfd4db9cc959558b9930e018e8fa3287070dae0aa",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/70115fd851fb5099-dnd2024_polish_followup3_lz4hc_20260829.pak",
+      "verified": true
+    },
+    {
+      "name": "4f33d6a6d95cebca-dnd2024_polish_followup3_zlib_20260829.pak",
+      "id": 599325601,
+      "size": 87424029,
+      "sha256": "4f33d6a6d95cebca27885eedca092c053bb0855d2b25d19bae0e6812d48c0257",
+      "github_digest": "sha256:4f33d6a6d95cebca27885eedca092c053bb0855d2b25d19bae0e6812d48c0257",
+      "url": "https://github.com/CrioNIK/bg3dnd/releases/download/untagged-5c67c4135296ee239a8b/4f33d6a6d95cebca-dnd2024_polish_followup3_zlib_20260829.pak",
+      "verified": true
+    }
+  ],
+  "not_uploaded": {
+    "reason": "User reprioritized preservation; remaining large packages intentionally not uploaded. Do not delete these original local files.",
+    "unique_files": 5,
+    "bytes": 475621495,
+    "paths": [
+      {
+        "project": "initial-2026-08-24",
+        "path": "work/build/polish-integrated-20260829-1/dnd2024_polish_followup4_lz4hc_20260829.pak",
+        "size": 95385035,
+        "sha256": "413083f9aa5259ff8164bf9bd84412bc0399b1fd91a62464672117aec304c2d9"
+      },
+      {
+        "project": "initial-2026-08-24",
+        "path": "work/build/polish-integrated-20260829-1/dnd2024_polish_integrated_final_20260829.pak",
+        "size": 95385100,
+        "sha256": "5b5af70b5dadfe058c5e78bb7af597b5358ee23da7b25960e14d3320c85ade11"
+      },
+      {
+        "project": "initial-2026-08-24",
+        "path": "work/build/polish-integrated-20260829-1/dnd2024_polish_integrated_full_test.pak",
+        "size": 95384969,
+        "sha256": "c80611e53e8b33ecd0b5b82830576eaf7518a1532c9f9021c51f3bbc0966e030"
+      },
+      {
+        "project": "initial-2026-08-24",
+        "path": "work/build_integrated_uk_20260828/dnd2024_897914ef-5c96-053c-44a-6rvl_UkrainianIntegrated.pak",
+        "size": 94978418,
+        "sha256": "5205366855e93b2778265663d2db0dcbee57e9aaf7463b1437209ef721ded6c0"
+      },
+      {
+        "project": "initial-2026-08-24",
+        "path": "work/install_backup_20260828_ukrainian_integrated/dnd2024_897914ef-5c96-053c-44a-6rvl.original.pak",
+        "size": 94487973,
+        "sha256": "90dc7e406da32c0cf48f8d47acada9192f022d488367b14188ff0d44d903cc8d"
+      }
+    ]
+  },
+  "local_paths_to_retain": [
+    {
+      "path": "C:\\Users\\coldb\\Documents\\Codex\\2026-08-24\\new-chat\\work\\build\\polish-integrated-20260829-1\\dnd2024_polish_followup4_lz4hc_20260829.pak",
+      "size": 95385035,
+      "sha256": "413083f9aa5259ff8164bf9bd84412bc0399b1fd91a62464672117aec304c2d9"
+    },
+    {
+      "path": "C:\\Users\\coldb\\Documents\\Codex\\2026-08-24\\new-chat\\work\\build\\polish-integrated-20260829-1\\dnd2024_polish_integrated_final_20260829.pak",
+      "size": 95385100,
+      "sha256": "5b5af70b5dadfe058c5e78bb7af597b5358ee23da7b25960e14d3320c85ade11"
+    },
+    {
+      "path": "C:\\Users\\coldb\\Documents\\Codex\\2026-08-24\\new-chat\\work\\build\\polish-integrated-20260829-1\\dnd2024_polish_integrated_full_test.pak",
+      "size": 95384969,
+      "sha256": "c80611e53e8b33ecd0b5b82830576eaf7518a1532c9f9021c51f3bbc0966e030"
+    },
+    {
+      "path": "C:\\Users\\coldb\\Documents\\Codex\\2026-08-24\\new-chat\\work\\build_integrated_uk_20260828\\dnd2024_897914ef-5c96-053c-44a-6rvl_UkrainianIntegrated.pak",
+      "size": 94978418,
+      "sha256": "5205366855e93b2778265663d2db0dcbee57e9aaf7463b1437209ef721ded6c0"
+    },
+    {
+      "path": "C:\\Users\\coldb\\Documents\\Codex\\2026-08-24\\new-chat\\work\\install_backup_20260828_ukrainian_integrated\\dnd2024_897914ef-5c96-053c-44a-6rvl.original.pak",
+      "size": 94487973,
+      "sha256": "90dc7e406da32c0cf48f8d47acada9192f022d488367b14188ff0d44d903cc8d"
+    }
+  ],
+  "summary": {
+    "unique_contents": 1001,
+    "logical_bytes": 4088777102,
+    "unique_bytes": 2815472310,
+    "git_unique_bytes": 427702067,
+    "excluded_files": 131363,
+    "output_files": 24,
+    "per_project": {
+      "initial-2026-08-24": 1425,
+      "polish-2026-09-12": 35,
+      "ukrainian-2026-09-12": 56
+    },
+    "credential_pattern_check": "No matches in included unique text files; no environment/session/credential files selected",
+    "source_files_selected": 1516,
+    "source_paths_preserved": 1511,
+    "source_paths_not_uploaded": 5,
+    "release_assets_planned": 25,
+    "release_bytes_planned": 2387770243,
+    "release_assets_verified": 20,
+    "release_bytes_verified": 1912148748,
+    "release_assets_not_uploaded": 5,
+    "release_bytes_not_uploaded": 475621495
+  },
+  "exclusions": {
+    "omitted_directories": [
+      "*/work/bg3dnd/.git (all local branch heads preserved separately)",
+      "*/work/__pycache__",
+      "initial/work/.dotnet8",
+      "initial/work/ExportTool-v1.20.4",
+      "initial/work/LanguageTool-6.5",
+      "initial/work/models",
+      "ukrainian/work/preservation-20260930 (this run tooling; final evidence saved separately)"
+    ],
+    "excluded_files": 131363,
+    "by_reason": {
+      "Bulk extracted game/mod resource; source repository and full built PAKs preserved separately. Not copied as another full project snapshot.": 131168,
+      "Downloaded third-party runtime/tool/installer, not translation work": 192,
+      "Runtime metadata, logs, cache, environment or credentials exclusion": 3
+    },
+    "complete_list": "exclusions.json.gz"
+  },
+  "no_partial_http_uploads": true,
+  "upstream_untouched": true,
+  "force_push_used": false,
+  "deletions_performed": false,
+  "original_repositories_clean": true,
+  "stash_or_extra_worktrees_found": false
+}
