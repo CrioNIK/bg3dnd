@@ -2372,6 +2372,18 @@
         <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0acc9ab-bd25-4d10-a1e2-47e76938fab2" />
+        <field name="Name" type="NameTableFieldDefinition" value="TrueStrike_Dummy" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="df292230-8467-4510-a646-8b27bd6ee8e7" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_TrueStrike" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ccf8c10gf790g421aga43agdb3994f68bc3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h573020b3g1241g8748g5cccgf1a7c580e5d4" version="2" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="426cb6ad-7ec8-45fd-8e97-a6ee5aad5cc6" />
