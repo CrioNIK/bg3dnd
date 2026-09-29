@@ -14116,6 +14116,7 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MAG_GARROTE_TARGET,100,10)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead();" />
       </fields>
     </stat_object>
     <stat_object color="#FF00BFFF" is_substat="false">
