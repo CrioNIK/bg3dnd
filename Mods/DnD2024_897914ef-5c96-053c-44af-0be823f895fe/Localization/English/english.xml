@@ -6896,4 +6896,9 @@ Recovering Spell Slots. When you finish a Short Rest or use Uncanny Metabolism, 
   <content contentuid="h15f5369ag7498g0546gf49cg5dc8a3b696d3" version="1">Level 2: Reckless Attack</content>
   <content contentuid="h0b8da32fgebbdg01f7g7f3fg0064d08eed5b" version="1">You can throw aside all concern for defense to attack with increased ferocity. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength until the start of your next turn, but attack rolls against you have Advantage during that time.</content>
   <content contentuid="h4106fdf0gc3b1gdbbcg41bagb5124ca360ca" version="1">Reckless Attack (Throw)</content>
+  <content contentuid="h2766932bg7d78g9b91g15edg4db194bbb6e0" version="1">For the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions.
+
+Break Enchantment. As a Magic action, you touch a creature that is possessed by or has the Charmed or Frightened condition from one or more creatures of the types above. The target is no longer possessed, Charmed, or Frightened by such creatures.
+
+Dismissal. As a Magic action, you target one creature you can see within 5 feet of you that has one of the creature types above. The target must succeed on a Charisma saving throw or be sent back to its home plane if it isn’t there already. If they aren’t on their home plane, Undead are sent to the Shadowfell, and Fey are sent to the Feywild.</content>
 </contentList>

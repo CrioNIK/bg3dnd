@@ -1163,6 +1163,24 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d23ac6f4-33ca-4750-9ed0-e518e8e5ec63" />
+        <field name="Name" type="NameTableFieldDefinition" value="DispelEvilAndGood" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="95e9acca-6db9-421f-ba84-5ea00d8e1363" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2766932bg7d78g9b91g15edg4db194bbb6e0" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="011616f1-f508-4db4-919d-f6aa0aef122d" />
+        <field name="Name" type="NameTableFieldDefinition" value="DispelEvilAndGood_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4722fd5e-adf3-4cb4-8540-8b638b83f682" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2766932bg7d78g9b91g15edg4db194bbb6e0" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5a11e406-fb99-471c-8d6c-063b5ba68beb" />
         <field name="Name" type="NameTableFieldDefinition" value="CircleOfPower" />
         <field name="Level" type="IntegerTableFieldDefinition" value="5" />
@@ -7616,7 +7634,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d0b2c64c-a8b2-4439-988f-59f455745ed6" />
         <field name="Name" type="NameTableFieldDefinition" value="DispelEvilAndGood_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="95e9acca-6db9-421f-ba84-5ea00d8e1363" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d23ac6f4-33ca-4750-9ed0-e518e8e5ec63" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

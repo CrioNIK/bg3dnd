@@ -787,6 +787,26 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a7f45f64-95ac-41ec-98ef-39858ccd8278" />
+        <field name="Name" type="NameTableFieldDefinition" value="DispelEvilAndGood_BreakEnchantment" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c539b5d3-2603-4819-9012-973d217d9420" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SG_Charmed);RemoveStatus(CHARMED_TECHNICAL);RemoveStatus(SG_Frightened);RemoveStatus(FRIGHTENED);RemoveStatus(FRIGHTENED_TECHNICAL);RemoveStatus(SG_Possessed);RemoveStatus(POSSESSED_TECHNICAL);RemoveStatus(SELF,DISPEL_EVIL_AND_GOOD);" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsMelee;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3685f2c2-3a9b-48e8-aad2-f4d79ebc4924" />
+        <field name="Name" type="NameTableFieldDefinition" value="DispelEvilAndGood_Dismissal" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f91533c6-acc5-4bd7-823f-ce77a40b230c" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="(Tagged('CELESTIAL') or Tagged('ELEMENTAL') or Tagged('FEY') or Tagged('FIEND') or Tagged('UNDEAD')) and not Tagged('LOW_HOUSEOFHOPE_IDENTIFY_RAPHAEL') and not Tagged('LOW_HOUSEOFHOPE_RAPHAELIAN_CAMBION')" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('FEATHER_FALL_SHADOWFELL')" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsMelee;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SELF,DISPEL_EVIL_AND_GOOD);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1561fa83-95d8-417e-ae7d-b30260742f50" />
         <field name="Name" type="NameTableFieldDefinition" value="PlanarBinding" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="060d9dca-7365-49e4-ba73-8c3a0da10990" />
