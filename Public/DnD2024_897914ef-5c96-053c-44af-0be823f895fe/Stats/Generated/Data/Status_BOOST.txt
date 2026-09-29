@@ -22,7 +22,7 @@ data "Description" "hd3ffb028g9755g52adgf223g4bb289eebf93;1"
 data "Icon" "PassiveFeature_Generic_Magical"
 data "StackId" "ONE_SPELL_WITH_A_SPELL_SLOT_PER_TURN"
 data "StackType" "Ignore"
-data "Boosts" "UnlockSpellVariant((HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot')) and not CreateSorceryPoints() and not ArcaneWard() and not RangersCompanion() and not ConvertingSpellSlotsToFocusPoints(),ModifyUseCosts(Add,OneSpellWithASpellSlotPerTurn,1,0));UnlockSpellVariant(SpellId('Shout_SwiftWitchcraft'),ModifyIconGlow());"
+data "Boosts" "UnlockSpellVariant((HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot')) and not CreateSorceryPoints() and not ArcaneWard() and not RangersCompanion() and not ConvertingSpellSlotsToFocusPoints() and not FontOfInspiration(),ModifyUseCosts(Add,OneSpellWithASpellSlotPerTurn,1,0));UnlockSpellVariant(SpellId('Shout_SwiftWitchcraft'),ModifyIconGlow());"
 data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead"
 
 new entry "INSPIRATION_FROM_BACKGROUND"

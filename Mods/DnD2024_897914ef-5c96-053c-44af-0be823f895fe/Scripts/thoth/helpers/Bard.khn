@@ -15,3 +15,13 @@ function ControlledChanneling()
     | SpellId('Shout_ControlledChanneling_Arsonist')
     | SpellId('Shout_ControlledChanneling_Coward')
 end
+
+function FontOfInspiration()
+    return SpellId('Shout_FontOfInspiration')
+    | SpellId('Shout_FontOfInspiration_1')
+    | SpellId('Shout_FontOfInspiration_2')
+    | SpellId('Shout_FontOfInspiration_3')
+    | SpellId('Shout_FontOfInspiration_4')
+    | SpellId('Shout_FontOfInspiration_5')
+    | SpellId('Shout_FontOfInspiration_6')
+end
