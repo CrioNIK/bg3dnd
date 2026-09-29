@@ -34,7 +34,7 @@
   <text x="70" y="62" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="5" fill="#c9a45c">D&amp;D 5.5e ALL-IN-ONE BEYOND</text>
   <text x="1210" y="62" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#8f88a3">12 / 12</text>
   <text x="70" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="url(#goldGrad)">Levels 4–6</text>
-  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="url(#goldGrad)">23</text>
+  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="url(#goldGrad)">24</text>
   <text x="1210" y="160" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">high-level spells</text>
 <text x="70" y="172" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">Arcane Eye through Planar Ally — new spells alongside 5.5e-revised classics.</text>
   <line x1="70" y1="195" x2="1210" y2="195" stroke="#e8b84b" stroke-opacity="0.35" stroke-width="1.5"/>
@@ -58,7 +58,7 @@
 <text x="70" y="595" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">damage</text>
 <text x="70" y="620" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Freezing Sphere</tspan><tspan fill="#cdc4e0"> — Now explodes in a 60-ft radius; can be hurled up to 300 ft</tspan></text>
 <text x="70" y="645" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Planar Ally</tspan><tspan fill="#cdc4e0"> — Now Concentration; summon a Cambion, Deva, or Djinni ally</tspan></text>
-<text x="670" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="1" fill="#e8b84b">LEVEL 5 · 11</text>
+<text x="670" y="222" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="1" fill="#e8b84b">LEVEL 5 · 12</text>
 <line x1="670" y1="232" x2="1200" y2="232" stroke="#4a4370" stroke-width="1"/>
 <text x="670" y="256" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Awaken</tspan><tspan fill="#cdc4e0"> — Intelligence save; on a failed save, a creature with Intelligence</tspan></text>
 <text x="670" y="274" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">3 or lower…</text>
@@ -67,17 +67,18 @@
 <text x="670" y="336" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Cone of Cold</tspan><tspan fill="#cdc4e0"> — Revised to 8d8 Cold damage in an 18m cone</tspan></text>
 <text x="670" y="358" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Dawn</tspan><tspan fill="#cdc4e0"> — Concentration; conjures a 9m-radius cylinder of sunlight;</tspan></text>
 <text x="670" y="376" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">Constitution save or 4d10…</text>
-<text x="670" y="398" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Dream</tspan><tspan fill="#cdc4e0"> — Wisdom save; on a failed save, the target gains no benefit from</tspan></text>
-<text x="670" y="416" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">its rest and…</text>
-<text x="670" y="438" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Enervation</tspan><tspan fill="#cdc4e0"> — Dexterity save; 4d8 Necrotic on a failed save (2d8 and the</tspan></text>
-<text x="670" y="456" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">spell ends on…</text>
-<text x="670" y="478" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Holy Weapon</tspan><tspan fill="#cdc4e0"> — Concentration; imbued weapon deals +2d8 Radiant on hit</tspan></text>
-<text x="670" y="496" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">and becomes magical; Bonus…</text>
-<text x="670" y="518" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Steel Wind Strike</tspan><tspan fill="#cdc4e0"> — Vanish and make melee spell attacks (6d10 Force each)</tspan></text>
-<text x="670" y="536" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">against up to 5 creatures</text>
-<text x="670" y="558" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Summon Celestial</tspan><tspan fill="#cdc4e0"> — Conjure a Celestial Spirit ally that can bolster</tspan></text>
-<text x="670" y="576" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">allies with Temporary HP…</text>
-<text x="670" y="598" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Summon Dragon</tspan><tspan fill="#cdc4e0"> — Conjure a Draconic Spirit ally that rends and breathes fire</tspan></text>
-<text x="670" y="620" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Synaptic Static</tspan><tspan fill="#cdc4e0"> — Intelligence save; 8d6 Psychic damage in a 6m sphere</tspan></text>
+<text x="670" y="398" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Dispel Evil and Good</tspan><tspan fill="#cdc4e0"> — Now grants Dismissal; either function ends the spell</tspan></text>
+<text x="670" y="420" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Dream</tspan><tspan fill="#cdc4e0"> — Wisdom save; on a failed save, the target gains no benefit from</tspan></text>
+<text x="670" y="438" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">its rest and…</text>
+<text x="670" y="460" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Enervation</tspan><tspan fill="#cdc4e0"> — Dexterity save; 4d8 Necrotic on a failed save (2d8 and the</tspan></text>
+<text x="670" y="478" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">spell ends on…</text>
+<text x="670" y="500" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Holy Weapon</tspan><tspan fill="#cdc4e0"> — Concentration; imbued weapon deals +2d8 Radiant on hit</tspan></text>
+<text x="670" y="518" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">and becomes magical; Bonus…</text>
+<text x="670" y="540" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Steel Wind Strike</tspan><tspan fill="#cdc4e0"> — Vanish and make melee spell attacks (6d10 Force each)</tspan></text>
+<text x="670" y="558" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">against up to 5 creatures</text>
+<text x="670" y="580" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Summon Celestial</tspan><tspan fill="#cdc4e0"> — Conjure a Celestial Spirit ally that can bolster</tspan></text>
+<text x="670" y="598" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">allies with Temporary HP…</text>
+<text x="670" y="620" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Summon Dragon</tspan><tspan fill="#cdc4e0"> — Conjure a Draconic Spirit ally that rends and breathes fire</tspan></text>
+<text x="670" y="642" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Synaptic Static</tspan><tspan fill="#cdc4e0"> — Intelligence save; 8d6 Psychic damage in a 6m sphere</tspan></text>
 
 </svg>
