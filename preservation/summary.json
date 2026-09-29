@@ -1,11 +1,8 @@
 {
-  "source_files": 1516,
   "unique_contents": 1001,
   "logical_bytes": 4088777102,
   "unique_bytes": 2815472310,
   "git_unique_bytes": 427702067,
-  "release_assets": 25,
-  "release_bytes": 2387770243,
   "excluded_files": 131363,
   "output_files": 24,
   "per_project": {
@@ -13,5 +10,14 @@
     "polish-2026-09-12": 35,
     "ukrainian-2026-09-12": 56
   },
-  "credential_pattern_check": "No matches in included unique text files; no environment/session/credential files selected"
+  "credential_pattern_check": "No matches in included unique text files; no environment/session/credential files selected",
+  "source_files_selected": 1516,
+  "source_paths_preserved": 1511,
+  "source_paths_not_uploaded": 5,
+  "release_assets_planned": 25,
+  "release_bytes_planned": 2387770243,
+  "release_assets_verified": 20,
+  "release_bytes_verified": 1912148748,
+  "release_assets_not_uploaded": 5,
+  "release_bytes_not_uploaded": 475621495
 }

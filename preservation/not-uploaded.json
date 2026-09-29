@@ -1,0 +1,37 @@
+{
+  "reason": "User reprioritized preservation; remaining large packages intentionally not uploaded. Do not delete these original local files.",
+  "unique_files": 5,
+  "bytes": 475621495,
+  "paths": [
+    {
+      "project": "initial-2026-08-24",
+      "path": "work/build/polish-integrated-20260829-1/dnd2024_polish_followup4_lz4hc_20260829.pak",
+      "size": 95385035,
+      "sha256": "413083f9aa5259ff8164bf9bd84412bc0399b1fd91a62464672117aec304c2d9"
+    },
+    {
+      "project": "initial-2026-08-24",
+      "path": "work/build/polish-integrated-20260829-1/dnd2024_polish_integrated_final_20260829.pak",
+      "size": 95385100,
+      "sha256": "5b5af70b5dadfe058c5e78bb7af597b5358ee23da7b25960e14d3320c85ade11"
+    },
+    {
+      "project": "initial-2026-08-24",
+      "path": "work/build/polish-integrated-20260829-1/dnd2024_polish_integrated_full_test.pak",
+      "size": 95384969,
+      "sha256": "c80611e53e8b33ecd0b5b82830576eaf7518a1532c9f9021c51f3bbc0966e030"
+    },
+    {
+      "project": "initial-2026-08-24",
+      "path": "work/build_integrated_uk_20260828/dnd2024_897914ef-5c96-053c-44a-6rvl_UkrainianIntegrated.pak",
+      "size": 94978418,
+      "sha256": "5205366855e93b2778265663d2db0dcbee57e9aaf7463b1437209ef721ded6c0"
+    },
+    {
+      "project": "initial-2026-08-24",
+      "path": "work/install_backup_20260828_ukrainian_integrated/dnd2024_897914ef-5c96-053c-44a-6rvl.original.pak",
+      "size": 94487973,
+      "sha256": "90dc7e406da32c0cf48f8d47acada9192f022d488367b14188ff0d44d903cc8d"
+    }
+  ]
+}

@@ -5,8 +5,14 @@ Archival snapshot of Ukrainian and Polish translation work from three local proj
 - **27 local branch heads** are represented by exact matching GitHub branch refs. See [branches.json](preservation/branches.json) for every original branch name, SHA and preserved branch.
 - **24 output files** are available directly under `projects/*/outputs/`, retaining their original filenames and bytes.
 - Scripts, terminology sources, translation caches, editorial changes, reviews, validation, publication records and extracted localization resources are preserved.
-- Large original `.pak` files are assets of the [archival release](https://github.com/CrioNIK/bg3dnd/releases/tag/preservation-artifacts-2026-09-30). There are **25 unique large assets**; duplicate local files map to the same asset by SHA-256. Original paths are recorded in the manifest.
+- Uploaded original `.pak` files are assets of the [archival release](https://github.com/CrioNIK/bg3dnd/releases/tag/preservation-artifacts-2026-09-30). There are **20 verified large assets**, with **5 additional large files intentionally not uploaded**; duplicate local files map to the same asset by SHA-256. Original paths are recorded in the manifest.
 - 1516 selected source files, 1001 unique contents, 4,088,777,102 logical bytes. Files are never replaced by Git LFS pointer stubs.
+
+## Partial large-package archive — retain local originals
+
+The user reprioritized preservation while package uploads were running. The current upload was allowed to finish. **20 of 25 unique large PAKs are verified on GitHub; 5 files (475,621,495 bytes) remain local.** No partial HTTP uploads remain. All 27 branch heads and all 24 original output files are preserved and verified.
+
+Do not delete the files listed in [not-uploaded.json](preservation/not-uploaded.json). Their manifest storage kind is `not_uploaded`; they have no downloadable archived asset. The manifest describes 1516 selected source paths, of which 1511 are preserved and 5 remain local.
 
 ## Finding and restoring files
 
