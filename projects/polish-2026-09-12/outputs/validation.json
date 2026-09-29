@@ -1,0 +1,51 @@
+{
+  "source_revision": "0f0ab55c10ce531e8a81f66a61a2ce19fb35b21c",
+  "english_entries": 5464,
+  "polish_entries": 5464,
+  "added": 109,
+  "updated_existing": 2,
+  "unchanged_existing": 5353,
+  "duplicate_english_groups_checked": 758,
+  "english_sha256": "8e0f09667150206b3c6d88307bb2b8891922877a908e1c4631d74d862e60d8a1",
+  "polish_sha256": "5cbd3b47f7de56d5f84321fe0897925d961f98b357da67dd120dfbdc1496d193",
+  "patch_sha256": "90b40970c864393318d8e64b19540c2691da56b04908588d0f1832714de8f5c6",
+  "source_changes_since_polish_pr": [
+    "h6299a92eg8049g117bga5b7g17d26b0619d6",
+    "hf12dc8a9g3079g890agb1ffgdf7b91f3c03d",
+    "hb033a976g4cccgdbedg5c40ge3ee8016bca2"
+  ],
+  "checks": {
+    "missing": 0,
+    "extra": 0,
+    "duplicates": 0,
+    "empty": 0,
+    "version_mismatches": 0,
+    "unexpected_xml_children": 0,
+    "order_mismatches": 0,
+    "tag_mismatches": 0,
+    "placeholder_mismatches": 0,
+    "changed_numeric_mismatches": 0,
+    "unchanged_record_mismatches": 0,
+    "changed_untranslated": 0,
+    "invalid_embedded_markup": 0,
+    "inconsistent_duplicate_english_groups": 0,
+    "improved_shillelagh_preservation": 0,
+    "reassert_honor_preservation": 0,
+    "patch_reconstructs_output": 0,
+    "repository_scope": 0
+  },
+  "findings": {},
+  "git_diff_check": "passed",
+  "git_apply_reverse_check": "passed",
+  "git_apply_forward_check": "passed; output reproduced byte-for-byte with core.autocrlf=false",
+  "freshness_check_utc": "2026-09-12T14:50:05.166177+00:00",
+  "final_remote_main": "0f0ab55c10ce531e8a81f66a61a2ce19fb35b21c",
+  "english_git_blob_sha256": "2dfa5c6527c3e2d5930f5e3ca3af6c3b306c119a919d86217ecdfa89a19f8d24",
+  "english_source_unchanged": true,
+  "proofreading": {
+    "independent_block_reviews": 3,
+    "terminology_review": "completed; Lightning corrected to Elektryczność, spell slot level unified as poziom",
+    "language_tool": "6.5, pl-PL; 111 changed entries / 91 distinct strings; 12 false positives reviewed, no unresolved findings",
+    "in_game_test": "not performed"
+  }
+}

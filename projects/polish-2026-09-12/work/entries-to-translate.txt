@@ -1,0 +1,467 @@
+1. [861] h6299a92eg8049g117bga5b7g17d26b0619d6 v3 (update)
+Defy Death. You have Advantage on Death Saving Throws.
+
+Speedy Recovery. As a Bonus Action, you can expend one of your Hit Point Dice, roll the die, and regain a number of Hit Points equal to the roll.
+OLD PL: Oporny na śmierć. Masz ułatwienie w rzutach obronnych przeciwko śmierci.
+
+Szybka regeneracja. Po wyleczeniu odzyskujesz maksymalną możliwą liczbę <LSTag Tooltip="HitPoints">punktów wytrzymałości</LSTag>.
+
+2. [1313] hf12dc8a9g3079g890agb1ffgdf7b91f3c03d v3 (update)
+Defy Death. You have Advantage on Death Saving Throws.
+
+Speedy Recovery. As a Bonus Action, you can expend one of your Hit Point Dice, roll the die, and regain a number of Hit Points equal to the roll.
+OLD PL: Oporny na śmierć. Masz ułatwienie w rzutach obronnych przeciwko śmierci.
+
+Szybka regeneracja. Po wyleczeniu odzyskujesz maksymalną możliwą liczbę <LSTag Tooltip="HitPoints">punktów wytrzymałości</LSTag>.
+
+3. [5355] h1d8bc12ega854g9fa6g115fg40f33b2e239c v1 (add)
+Speedy Recovery
+OLD PL: None
+
+4. [5356] hfb0b810fg2b5egfcf3g6d93ge130d15d3a4b v1 (add)
+As a Bonus Action, you can expend one of your Hit Point Dice, roll the die, and regain a number of Hit Points equal to the roll.
+OLD PL: None
+
+5. [5357] h1cfa58a7g0e63gc978gdfebg07ca3910c91d v1 (add)
+Speedy Recovery: D6
+OLD PL: None
+
+6. [5358] hdc2803e7g3ab7gce12ge2e6g43b054b38cf0 v1 (add)
+Speedy Recovery: D8
+OLD PL: None
+
+7. [5359] hdde6e8d1g2ffbg6a90g60c2g5429dfd26e6d v1 (add)
+Speedy Recovery: D10
+OLD PL: None
+
+8. [5360] h8abbf551g5ac0g6ad5g3629g6c8cc9989df7 v1 (add)
+Speedy Recovery: D12
+OLD PL: None
+
+9. [5361] ha7e36a64gf9b4ge4cdge8cfg3a2c8714b1f5 v1 (add)
+Short Resting
+OLD PL: None
+
+10. [5362] hdf3ad6cbg407cg0625gf796gbd2b01f64913 v1 (add)
+Charm Monster
+OLD PL: None
+
+11. [5363] ha49909ccgbb48gcda2gfd1fg1f26911f185f v1 (add)
+One creature you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the Charmed condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.
+OLD PL: None
+
+12. [5364] h2597c9e9g3525g4aabga530g4eff672a1b01 v1 (add)
+Scroll of Charm Monster
+OLD PL: None
+
+13. [5365] h0cce0e4fgf8f2g4536g8cc2g36c5c3834e7d v1 (add)
+Usable Classes: Bard, Druid, Sorcerer, Warlock, Wizard
+OLD PL: None
+
+14. [5366] h71308e2agebc9ga056g8f3ag64085d165f1c v1 (add)
+Dragon Domain
+OLD PL: None
+
+15. [5367] h50808f80gb6f2g1d53g8967g175e0d38d55f v1 (add)
+Dragon
+OLD PL: None
+
+16. [5368] h700ea52eg9c99gd7e6gde4dg273c50946ace v1 (add)
+While dragons are the foremost worshipers of the Dragon Domain, the draconic deities accept the worship of any who crave wealth or power. Clerics of the Dragon Domain, often considered cultists, can channel the power and aspect of dragons, unleashing fearsome elemental magic and manifesting the awe-inspiring presence of an ancient wyrm.
+
+The principal gods of the Dragon Domain include Tiamat, the five-headed mother of chromatic dragons, and Bahamut, the just and wise god of metallic dragons.
+OLD PL: None
+
+17. [5369] h46b1b3ecg0868g9a06gedcegd7658cf8f65b v1 (add)
+Level 3: Chromatic Affinity
+OLD PL: None
+
+18. [5370] hc78a280cge0f8gaed4gabceg8275d4b016b4 v3 (add)
+Whenever you finish a Long Rest, choose Acid, Cold, Fire, Lightning, or Poison. Once per turn when you deal damage to a creature, you can deal extra damage of that type equal to your Cleric level to that creature. You can deal this extra damage a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest.
+OLD PL: None
+
+19. [5371] hdeeff767g27feg17d7gd19dgdf3ed324b4f9 v1 (add)
+Level 3: Dragon Domain Spells
+OLD PL: None
+
+20. [5372] h13ce1cf5g78b1g36f4ge570g79a78fa8b13f v1 (add)
+Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Dragon Domain Spells table, you thereafter always have the listed spells prepared. At 3rd level, you always have Chromatic Orb, Command, Darkvision, and Dragon’s Breath prepared. At 5th level, Fly and Protection from Energy are added. At 7th level, you gain Banishment and Charm Monster, and at 9th level, Dominate Person and Synaptic Static.
+OLD PL: None
+
+21. [5373] h7a72c71dge3ceg382dg0d4eg0a3a9f9e8d36 v1 (add)
+Level 3: Draconic Majesty
+OLD PL: None
+
+22. [5374] h8291ccc5gfdbegf769g12a5gc01ea2a4cbdd v1 (add)
+As a Magic action, you can present your Holy Symbol and expend a use of your Channel Divinity to manifest an aura of draconic authority around yourself in a 30-foot Emanation. Choose the Charmed or Frightened condition. Each creature of your choice in the Emanation must succeed on a Wisdom saving throw or have the chosen condition for 1 minute. A creature Charmed or Frightened by this feature makes another Wisdom saving throw at the end of each of its turns, ending the condition on itself on a success.
+OLD PL: None
+
+23. [5375] h4c2abc64ge336g3c9fgef12g63a76733dcc7 v1 (add)
+Level 6: Wyrm’s Blessing
+OLD PL: None
+
+24. [5376] h9df6513eg20a3ge93age02fg7190bcec269a v1 (add)
+You can expend a use of your Channel Divinity to cast Dragon’s Breath or Protection from Energy on yourself rather than expending a spell slot. When you cast either spell in this way, the spell doesn’t require Concentration. This spell ends early if you cast that spell again, have the Incapacitated condition, or die.
+OLD PL: None
+
+25. [5377] h4b5feaf6g9b01g5ee4gd966g55a524693904 v1 (add)
+Chromatic Affinity
+OLD PL: None
+
+26. [5378] h917c7e4ag19b5g9911g778dgac0c75a9bba9 v1 (add)
+Chromatic Affinity
+OLD PL: None
+
+27. [5379] hf814f210g333ag4aeag5f87g929a9260c5cb v2 (add)
+Whenever you finish a Long Rest, choose Acid, Cold, Fire, Lightning, or Poison. Once per turn when you deal damage to a creature, you can deal extra damage of that type equal to your Cleric level to that creature.
+OLD PL: None
+
+28. [5380] h95ac559eg6dcdg0056g3f01g9fd5c3cd7651 v1 (add)
+You can deal this extra damage a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest.
+OLD PL: None
+
+29. [5381] hb2f87a7eg90a5g255cg636bg1f5548aff156 v1 (add)
+Chromatic Affinity: Acid
+OLD PL: None
+
+30. [5382] h5cfa6ed7gb49cg717eg9b8eg52489fe685fa v1 (add)
+Chromatic Affinity: Cold
+OLD PL: None
+
+31. [5383] ha0376bb1gdbb7g0bb3ga698gc766dfb4c76d v1 (add)
+Chromatic Affinity: Fire
+OLD PL: None
+
+32. [5384] he8275a17g6f90ge548g0527g7eb734361d44 v1 (add)
+Chromatic Affinity: Lightning
+OLD PL: None
+
+33. [5385] h83d343fag216fgb910gf153gf26139ab8f44 v1 (add)
+Chromatic Affinity: Poison
+OLD PL: None
+
+34. [5386] h09a86c40g734agfef8ga34ag6e9bb7f6107b v1 (add)
+Chromatic Affinity
+OLD PL: None
+
+35. [5387] h6f54d84fg4fd2g1714g3774ge9393a34b2a1 v2 (add)
+Once per turn when you deal damage to a creature, you can deal extra damage of that type equal to your Cleric level to that creature. You can deal this extra damage a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest.
+OLD PL: None
+
+36. [5388] h8042d3adgdd7eg4c14g16d3gf172853c762d v1 (add)
+Chromatic Affinity: Acid
+OLD PL: None
+
+37. [5389] hbcae2db7gfa67g091fg9f12gd7c998b920f3 v1 (add)
+You can deal extra damage of that type equal to your Cleric level to that creature.
+OLD PL: None
+
+38. [5390] hc1a4e31fgc275g5c08g42adgaa576cec3cda v1 (add)
+Chromatic Affinity: Cold
+OLD PL: None
+
+39. [5391] h76b4fd55gd816g6a6bgf036gd751e5af63d9 v1 (add)
+Chromatic Affinity: Fire
+OLD PL: None
+
+40. [5392] hf56293bcgbef0g670dgdc2cgaafbafce938b v1 (add)
+Chromatic Affinity: Lightning
+OLD PL: None
+
+41. [5393] h14d47d15g4714gda83gb886gb2129b493f72 v1 (add)
+Chromatic Affinity: Poison
+OLD PL: None
+
+42. [5394] h5f5a35c1g26a9g4d26gd62dg67f7db26195d v1 (add)
+Draconic Majesty
+OLD PL: None
+
+43. [5395] h929e2b24g4c43g4ea9g6a85g0a755b1c242c v1 (add)
+As a Magic action, you can present your Holy Symbol and expend a use of your Channel Divinity to manifest an aura of draconic authority around yourself in a 30-foot Emanation. Choose the Charmed or Frightened condition. Each creature of your choice in the Emanation must succeed on a Wisdom saving throw or have the chosen condition for 1 minute. A creature Charmed or Frightened by this feature makes another Wisdom saving throw at the end of each of its turns, ending the condition on itself on a success.
+OLD PL: None
+
+44. [5396] hb624c73cg11bag0d81g0177g2934801a6f74 v1 (add)
+Draconic Majesty: Charm
+OLD PL: None
+
+45. [5397] h6845e7aag9f14gfc51ga53fg76a2de6fedff v1 (add)
+Draconic Majesty: Fear
+OLD PL: None
+
+46. [5398] haeaea6cdg7780g0792g7800g63f6fd5ec861 v1 (add)
+Draconic Majesty: Charm
+OLD PL: None
+
+47. [5399] hc2270a33gb236gcf12g676bga9ec6586e785 v1 (add)
+Draconic Majesty: Fear
+OLD PL: None
+
+48. [5400] ha5ac9c2egbb38gb14cg097ag8ecd055eca21 v1 (add)
+Dragon's Breath (Wyrm’s Blessing)
+OLD PL: None
+
+49. [5401] hc79d025ag7d3dg2747g4484gd5d955fd41ce v1 (add)
+Protection from Energy (Wyrm’s Blessing)
+OLD PL: None
+
+50. [5402] h3c8c473bg26ecg406cg8973g137185d1207f v1 (add)
+Scroll of Arcane Eye
+OLD PL: None
+
+51. [5403] hf2447855gf57fg407cga1d1gfc8287530812 v1 (add)
+Usable Classes: Artificer, Wizard
+OLD PL: None
+
+52. [5404] hbd109ef3g9b77g45c3g3819g04b7311ec63c v1 (add)
+Conjurer
+OLD PL: None
+
+53. [5405] hc7b7ab9ag8476g62b1g36d1g41c9e880470e v1 (add)
+A Conjurer considers distance and matter to be flexible guidelines rather than physical laws. Conjurers master magic that moves creatures instantly through space and summons creatures to fight on their behalf.
+OLD PL: None
+
+54. [5406] hc41c5523g44d9gbf23g1e24gff79280418c3 v1 (add)
+Benign Transposition
+OLD PL: None
+
+55. [5407] hc4ff4646g7186g7eccgcd65ge739c13a4219 v1 (add)
+As a Bonus Action, you teleport up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a space within range that is occupied by a Medium or smaller creature. If that creature is willing, you both teleport, swapping places.
+
+You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
+OLD PL: None
+
+56. [5408] h75b66feageb05g5a0fg580agd8c59865fa54 v1 (add)
+Level 3: Benign Transposition
+OLD PL: None
+
+57. [5409] h8d3354dag4ecag38a2g2766ge86be91e3c69 v2 (add)
+As a Bonus Action, you teleport up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a space within range that is occupied by a Medium or smaller creature. If that creature is willing, you both teleport, swapping places.
+OLD PL: None
+
+58. [5410] hcccc4dceg63b3gc519geaffg4222fa9c8272 v1 (add)
+Level 6: Distant Transposition
+OLD PL: None
+
+59. [5411] h548afd77gc2b3g89dfgd738gf776357e3e79 v1 (add)
+The range of your Benign Transposition feature increases to 60 feet. Additionally, you can restore one use of it by expending a level 3+ spell slot (no action required).
+OLD PL: None
+
+60. [5412] h6aeeffe5ga331g4d44gda45g81df573d25ff v1 (add)
+Distant Transposition
+OLD PL: None
+
+61. [5413] h7e99425cg912fg30f6gef4ag9591cab2c074 v1 (add)
+You can restore one use of it by expending a level 3+ spell slot (no action required).
+OLD PL: None
+
+62. [5414] h032fd619gf949g7b67gc02bg1aa49a47f618 v1 (add)
+Level 6: Durable Summons
+OLD PL: None
+
+63. [5415] h348b7b47g62dbg7635g9ffdgd83c78b35a50 v1 (add)
+When you cast a Conjuration spell to summon or create a creature using a spell slot, that creature gains Temporary Hit Points equal to twice your Wizard level when it first appears. While it has these Temporary Hit Points, the creature has Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.
+OLD PL: None
+
+64. [5416] h845a3236geefbg33beg185bg2467fff43415 v1 (add)
+Durable Summons
+OLD PL: None
+
+65. [5417] h676e103bg0c14g6342g9a43ge904948df27a v1 (add)
+Creature gains Temporary Hit Points equal to twice your Wizard level when it first appears. While it has these Temporary Hit Points, the creature has Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.
+OLD PL: None
+
+66. [5418] he3310d1eg838ag9594g63d0gcbf4b8b107d2 v1 (add)
+Level 10: Focused Conjuration
+OLD PL: None
+
+67. [5419] haae34dd9ga779g179bg2051g0adab6f310a9 v1 (add)
+Durable Summons
+OLD PL: None
+
+68. [5420] hb61679e8gf7a0g939cgc02dg8a227cb4d2d5 v1 (add)
+When you cast a Conjuration spell to summon or create a creature using a spell slot, that creature gains Temporary Hit Points equal to twice your Wizard level when it first appears. While it has these Temporary Hit Points, the creature has Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.
+OLD PL: None
+
+69. [5421] h123ff8ddg420ag53f6g8efeg32d98a85eac9 v1 (add)
+Enchanter
+OLD PL: None
+
+70. [5422] h6be8fe6age82fgfd69g1610g7692b75277f2 v1 (add)
+An Enchanter’s magic clouds or captivates minds. Some Enchanters use their abilities to encourage peace and soften cruelty, while others use their mind-altering magic for selfish ends.
+OLD PL: None
+
+71. [5423] h9bde2779g064egab2ege791gee222211a30b v1 (add)
+Level 3: Enchanting Conversationalist
+OLD PL: None
+
+72. [5424] h84aa3819g842cg5b17g3e49g4427df0447bd v1 (add)
+You gain proficiency in one of the following skills of your choice: Deception, Intimidation, or Persuasion.
+
+In addition, when you make an ability check with the chosen skill, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1).
+OLD PL: None
+
+73. [5425] h89122619g378dg1ff7g1a75g5ef227f1467d v1 (add)
+Enchanting Conversationalist
+OLD PL: None
+
+74. [5426] h1246a417geb5dgf4cfg5eb1g171763d119f0 v1 (add)
+You gain proficiency in one of the following skills of your choice: Deception, Intimidation, or Persuasion.
+OLD PL: None
+
+75. [5427] h3b09fcbeg2879g3b52ge18ag616f586c2db2 v1 (add)
+You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
+OLD PL: None
+
+76. [5428] h3bb95d5cg43aeg5524g5c91ga2aac1cc18fb v1 (add)
+Level 3: Hypnotic Presence
+OLD PL: None
+
+77. [5429] h44ce0999gffb8gccf4g4429gb9df80d8aa64 v1 (add)
+Your charming words and enchanting gaze can enthrall another creature. As a Magic action, choose one creature that you can see within 10 feet of yourself. If the target can see or hear you, it must succeed on a Wisdom saving throw against your spell save DC or have the Charmed condition for 1 minute or until the target is more than 10 feet away from you, the target can neither see nor hear you, or the target takes damage. While Charmed, the target has the Incapacitated condition and a Speed of 0.
+OLD PL: None
+
+78. [5430] h3bc5a082gab19g8d32gbfdbgd768db453f47 v1 (add)
+You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
+OLD PL: None
+
+79. [5431] h647d27f8gbc52g96e1g69cdg315a86dcccf8 v1 (add)
+Hypnotic Presence
+OLD PL: None
+
+80. [5432] h41be3339gff95gfe41g8417g1c4c7af89f07 v1 (add)
+Hypnotic Presence
+OLD PL: None
+
+81. [5433] he44f5a5ag8903g58a8g0e1cg2ea347073734 v1 (add)
+As a Magic action, choose one creature that you can see within 10 feet of yourself. If the target can see or hear you, it must succeed on a Wisdom saving throw against your spell save DC or have the Charmed condition for 1 minute or until the target is more than 10 feet away from you, the target can neither see nor hear you, or the target takes damage. While Charmed, the target has the Incapacitated condition and a Speed of 0.
+
+You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
+OLD PL: None
+
+82. [5434] h31766f48g123fg5436g7cebgadbfe368d420 v1 (add)
+Hypnotic Presence
+OLD PL: None
+
+83. [5435] hb8b45ed8gd527g7604ge1c1g6df8c0481f88 v1 (add)
+Hypnotic Presence
+OLD PL: None
+
+84. [5436] h399533aeg04deg1545ge033g15234947d673 v1 (add)
+Your enchanting gaze holds a creature enthralled. The target is Charmed, Incapacitated, and its Speed is 0. The effect ends if the target moves more than 10 feet away from you, can neither see nor hear you, or takes damage.
+OLD PL: None
+
+85. [5437] hd522fd82g6859g80ddg72bdge8cf9faa0204 v1 (add)
+Level 6: Split Enchantment
+OLD PL: None
+
+86. [5438] h1b565bd8g75aagd7d4g1b3bg1fcb7e03fd42 v1 (add)
+When you use a spell slot to cast an Enchantment spell, such as Charm Person, that can be cast with a higher-level spell slot to target an additional creature, you can increase the spell’s effective level by 1.
+OLD PL: None
+
+87. [5439] h7d534ffdg3cbfg9db5g5b60g59c579d97371 v1 (add)
+You can use this feature a number of times equal to your Intelligence modifier, and you regain all expended uses when you finish a Long Rest.
+OLD PL: None
+
+88. [5440] h11957647g4276gb09ag4435g42f5fce38d74 v1 (add)
+Split Enchantment
+OLD PL: None
+
+89. [5441] ha516d403gf15cgb9d8ga87dgc79c55b2ab57 v1 (add)
+When you use a spell slot to cast an Enchantment spell, such as Charm Person, that can be cast with a higher-level spell slot to target an additional creature, you can increase the spell’s effective level by 1.
+
+You can use this feature a number of times equal to your Intelligence modifier, and you regain all expended uses when you finish a Long Rest.
+OLD PL: None
+
+90. [5442] h0005f137g771bg2b3cg5627g7a45c18cdc2f v1 (add)
+Instinctive Charm
+OLD PL: None
+
+91. [5443] ha168556fge640g4803ge1f6g5b1181795ede v2 (add)
+When a creature within 30 feet of you that you can see hits you with an attack roll, you can take a Reaction to force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attack misses instead, and if there is another creature within range of the attack other than the attacker, the attacker targets that creature with the triggering attack.
+
+Once you take this Reaction, you can’t do so again until you finish a Long Rest. You can also restore your use of it by casting an Enchantment spell with a spell slot.
+OLD PL: None
+
+92. [5444] h03f62749g8d93g697age178g6e00c7505c96 v1 (add)
+Level 10: Instinctive Charm
+OLD PL: None
+
+93. [5445] he504c8bcgc377gbf92g559cgc2e5c646bb4c v2 (add)
+When a creature within 30 feet of you that you can see hits you with an attack roll, you can take a Reaction to force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attack misses instead, and if there is another creature within range of the attack other than the attacker, the attacker targets that creature with the triggering attack.
+OLD PL: None
+
+94. [5446] hbb9b2b7eg8826g4f26g8eebg4b4f9f10f7cf v1 (add)
+Once you take this Reaction, you can’t do so again until you finish a Long Rest. You can also restore your use of it by casting an Enchantment spell with a spell slot.
+OLD PL: None
+
+95. [5447] h2b3e0b5egc58eg3bcfg3be2g8ffaee250109 v2 (add)
+When a creature within 30 feet of you that you can see hits you with an attack roll, you can take a Reaction to force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attack misses instead, and if there is another creature within range of the attack other than the attacker, the attacker targets that creature with the triggering attack.
+OLD PL: None
+
+96. [5448] h9fba7f8cg5990g9731g72f0gc76809331e7a v1 (add)
+Once you take this Reaction, you can’t do so again until you finish a Long Rest. You can also restore your use of it by casting an Enchantment spell with a spell slot.
+OLD PL: None
+
+97. [5449] hc2b51980g6775g7323gcf19g5d9e18a98005 v1 (add)
+Warrior of the Mystic Arts
+OLD PL: None
+
+98. [5450] h11ad4ab1g7828gb79dg3f0bgbed8aba86f24 v1 (add)
+Warriors of the Mystic Arts wield magic to supplement their martial skill. They harness mystical focus to enhance their magical and physical abilities.
+OLD PL: None
+
+99. [5451] hec0b81e7gcaecg454dg6a01gf7ee3f06f85d v1 (add)
+Level 6: Mystic Focus
+OLD PL: None
+
+100. [5452] hecde9e49gd641g0f52g4669g1283cdf5dab4 v1 (add)
+You keep your magical power and martial focus in perfect balance, allowing you to convert spell slots into Focus Points, or convert Focus Points into spell slots.
+
+Converting Spell Slots to Focus Points. You can expend a spell slot to regain a number of expended Focus Points equal to the slot’s level (no action required).
+
+Recovering Spell Slots. When you finish a Short Rest or use Uncanny Metabolism, you can transform unexpended Focus Points to recover one expended spell slot. The Recovering Spell Slots table shows the cost of recovering a spell slot of a given level, and it lists the minimum Monk level you must be to recover a slot. You can recover a spell slot no higher than level 4.
+OLD PL: None
+
+101. [5453] hc923040bgca3dgc5c9g86f9g4961f50ef2b1 v1 (add)
+Recovering Spell Slots
+OLD PL: None
+
+102. [5454] h521fcee3g5076g1662gb3feg58e482fefd60 v1 (add)
+When you finish a Short Rest or use Uncanny Metabolism, you can transform unexpended Focus Points to recover one expended spell slot. The Recovering Spell Slots table shows the cost of recovering a spell slot of a given level, and it lists the minimum Monk level you must be to recover a slot. You can recover a spell slot no higher than level 4.
+OLD PL: None
+
+103. [5455] hf7dfcf7fg4e1ag688fg2a49g07e3bc897b31 v1 (add)
+Converting Spell Slots to Focus Points
+OLD PL: None
+
+104. [5456] hb46caa96g23cdg8908gb49eg3c668e19bb74 v2 (add)
+You can expend a spell slot to regain a number of expended Focus Points equal to the slot’s level (no action required).
+OLD PL: None
+
+105. [5457] h1846a635g5d11g2a48gdfa8g34c7ee362d62 v1 (add)
+Level 11: Focused Strike
+OLD PL: None
+
+106. [5458] h52765eb1g3d0bge0a8g7790g0698b9e7e8e0 v1 (add)
+When you use your Stunning Strike, whether the target succeeds or fails on the saving throw, the target has Disadvantage on saving throws against your spells until the start of your next turn.
+OLD PL: None
+
+107. [5459] hd40f8684ge685g4a35gcbaeg8aa04eb449f0 v1 (add)
+Focused Strike
+OLD PL: None
+
+108. [5460] he593bdb3gf499g45f7g7575g4056a12e962e v1 (add)
+Level 2: Swift Retribution
+OLD PL: None
+
+109. [5461] h452a000dga353g062cg813ag5f0dbe397e9d v1 (add)
+When an interdicted creature provokes an opportunity attack from you, you can make that attack without using your reaction, provided you’re not incapacitated. Once you benefit from this boon, you can’t do so again until the start of your next turn.
+OLD PL: None
+
+110. [5462] h82ab0f55g1aa2g4c20ga6dcg6e0ed9ea3d25 v1 (add)
+Swift Retribution
+OLD PL: None
+
+111. [5463] h5f232606g766cg4c15ga98cg4f29d9809829 v1 (add)
+When an interdicted creature provokes an opportunity attack from you, you can make that attack without using your reaction, provided you’re not incapacitated. Once you benefit from this boon, you can’t do so again until the start of your next turn.
+OLD PL: None

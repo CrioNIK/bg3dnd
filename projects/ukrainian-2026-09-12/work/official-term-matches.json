@@ -1,0 +1,2056 @@
+{
+  "Conjuration": [
+    {
+      "uid": "h049b6e16g90d3g4323gaa4fg4fd11bad8118",
+      "english": "Conjuration",
+      "ukrainian": "Прикликання"
+    },
+    {
+      "uid": "h3eaaf2d6g8795g42f5gb815gddd92b0cf1f1",
+      "english": "Conjuration",
+      "ukrainian": "Прикликання"
+    },
+    {
+      "uid": "h91d507cfgb5ecg4d4cgb60ega5c8e4fa5847",
+      "english": "Conjuration",
+      "ukrainian": "Прикликання"
+    },
+    {
+      "uid": "hec34e9b7g5b4ag4d58gb8f2gd1601a3f5b8b_2",
+      "english": "Conjuration",
+      "ukrainian": "Прикликання"
+    },
+    {
+      "uid": "h05d2f547g2a6fg4b16gb1abgeb85497c7772",
+      "english": "Conjuration Wizard",
+      "ukrainian": "Чарівник: школа прикликання"
+    },
+    {
+      "uid": "ha0c64cecg040fg4c8bg88bdg70a2d7ad63f5",
+      "english": "Conjuration Savant",
+      "ukrainian": "Фахівець прикликання"
+    },
+    {
+      "uid": "hc026d5d2ga580g4189gbdbdgd10671ad2b07",
+      "english": "Focused Conjuration",
+      "ukrainian": "Зосереджене прикликання"
+    },
+    {
+      "uid": "he52cfcbag8a50g453agb4c8g2fac2ff17c10",
+      "english": "Conjuration Cantrip",
+      "ukrainian": "Замовляння прикликання"
+    },
+    {
+      "uid": "hb621a062gbe72g4aaag8fe3g7813a70938ee",
+      "english": "School of Conjuration",
+      "ukrainian": "Школа прикликання"
+    },
+    {
+      "uid": "ha6d3a561g6626g44fegbbd4g77ad67a79367",
+      "english": "Level [1] Conjuration Spell",
+      "ukrainian": "Рівень [1]. Закляття прикликання"
+    },
+    {
+      "uid": "h0333fadbg0f32g48dbg817bgb1a86cf471ae",
+      "english": "Schools of Magic: Conjuration",
+      "ukrainian": "Школи магії: прикликання"
+    },
+    {
+      "uid": "hf60473b7g8683g4105gbc0dg21a03d33c4b5",
+      "english": "Minor Conjuration: Create Water",
+      "ukrainian": "Мале прикликання: створення води"
+    }
+  ],
+  "Conjurer": [
+    {
+      "uid": "h8efac2f8gb7b9g4bb2ga71bgd1f96beb5d7c",
+      "english": "Xargrim... conjurer...  <i>seeker</i>...",
+      "ukrainian": "Зарґрім... прикликач... <i>шукач</i>..."
+    },
+    {
+      "uid": "h37f7eab9g1eaeg4f5ag88beg7aae9c2495b6",
+      "english": "Even so - I was hardly some naive apprentice at the time. I considered myself an archmage, and yet was fool enough to be mistaken for a common conjurer.",
+      "ukrainian": "Утім, я був тоді не якимось наївним учнем. Вважав себе архімагом, а на ділі був дурний, немов пересічний заклинач."
+    }
+  ],
+  "Enchantment": [
+    {
+      "uid": "h63f1ab3bge972g40b6ga9f4gbe7a1bc842e2",
+      "english": "Enchantment",
+      "ukrainian": "Зачарування"
+    },
+    {
+      "uid": "h715b8098g59f6g438eg9386g682d5ace7ac2",
+      "english": "Enchantment",
+      "ukrainian": "Зачарування"
+    },
+    {
+      "uid": "hec34e9b7g5b4ag4d58gb8f2gd1601a3f5b8b_4",
+      "english": "Enchantment",
+      "ukrainian": "Зачарування"
+    },
+    {
+      "uid": "hf0f64ddcg55ceg49c1g8395gc7034eb69653",
+      "english": "Enchantment",
+      "ukrainian": "Зачарування"
+    },
+    {
+      "uid": "h52e90f2bg528dg4f76g9e07gdb387013d756",
+      "english": "Split Enchantment",
+      "ukrainian": "Подвійне зачарування"
+    },
+    {
+      "uid": "h0d6e5793g954eg40e4g8941gaf2367d0d939",
+      "english": "Weapon Enchantment",
+      "ukrainian": "Зачарована зброя"
+    },
+    {
+      "uid": "h181f9246g612ag484cg99c2g57ca3e4ffcb5",
+      "english": "Arcane Enchantment",
+      "ukrainian": "Магічне зачарування"
+    },
+    {
+      "uid": "h28f6cd96gfab2g4d90gaf97gea480834c1e4",
+      "english": "Weapon Enchantment",
+      "ukrainian": "Зачарована зброя"
+    },
+    {
+      "uid": "h81a51f60g1454g4d35g9142g59075b4faa94",
+      "english": "Enchantment Wizard",
+      "ukrainian": "Чарівник: школа зачарування"
+    },
+    {
+      "uid": "h8da32240gb279g46d0g95ceg2ab994f14ccd",
+      "english": "Enchantment Savant",
+      "ukrainian": "Фахівець зачарування"
+    },
+    {
+      "uid": "had4b2edeg74a0g4bb0gac33g11c2ea95079e",
+      "english": "Weapon Enchantment",
+      "ukrainian": "Зачарована зброя"
+    },
+    {
+      "uid": "hb4324b99gc2cdg44c3gb111gee1985f3d563",
+      "english": "Weapon Enchantment",
+      "ukrainian": "Зачарована зброя"
+    }
+  ],
+  "Enchanter": [
+    {
+      "uid": "h1a2ec827g6779g470dgbbacg3e04be4ebc2a",
+      "english": "*There's no doubt now: you're the evasive enchanter responsible, and you've been cornered...*",
+      "ukrainian": "*Тепер вже жодних сумнівів: той невловимий чарівник — це ви, і вас загнано у кут...*"
+    },
+    {
+      "uid": "hb32d4867gd914g4262g82d4g7c23d3a38f7c",
+      "english": "*There's no doubt now: you're the evasive enchanter responsible, and you've been cornered...*",
+      "ukrainian": "*Тепер вже жодних сумнівів: той невловимий чарівник — це ви, і вас загнано у кут...*"
+    },
+    {
+      "uid": "h1914bd8bgb91ag4e39ga10bg33eb282b7949",
+      "english": "This ornately decorated bell, tarnished with age, rings with a mischevious giggle not unlike its pixie enchanter.",
+      "ukrainian": "Цей квітчасто оздоблений потьмянілий від віку дзвіночок дзвенить пустотливим смішком, мовби від його заклиначки-піксі."
+    },
+    {
+      "uid": "h44313238g239bg47c5ga14age11783bcf872",
+      "english": "Created by a designer and an enchanter who were going through a messy divorce at the time. As such the armour is filled with passive-aggressive rage.",
+      "ukrainian": "Придумане подружжям винахідника і заклиначки, що саме проходили через скандальне розлучення. Як наслідок, цей обладунок сповнений пасивної-агресивної люті."
+    },
+    {
+      "uid": "hab2ebc51g1899g44b5g8b4egdcdffe94bade",
+      "english": "This was created by a designer and an enchanter who were going through a messy divorce at the time. As such, the armour is filled with active-aggressive rage. It also makes you feel like you've wasted the last ten years picking up after a complete tit.",
+      "ukrainian": "Придумане подружжям винахідника і заклиначки, що саме проходили через скандальне розлучення. Як наслідок, цей обладунок сповнений пасивної-агресивної люті. Він також наділяє відчуттям даремності, мовби останні десять років пішли на підтирання за нікчемою."
+    },
+    {
+      "uid": "h00c5fad8g3397g48fcgbeeag645d9c5dccfc",
+      "english": "[The cover of this pulp erotica describes the contents.]<br>'After months of imprisonment in the Nashkel mines, Enchanter Xan cannot bear his solitude any longer, and decides to pleasure himself with the only companion he has: his sentient sword the Moonblade.'",
+      "ukrainian": "[На обкладинці цієї бульварної еротики описаний її зміст.]<br>\"Після місяців ув'язнення у нашкельських шахтах, чарівник Ксан більше не витримує самотності й вирішує доставити собі задоволення за допомогою свого єдиного супутника: свідомого меча Місячного клинка\"."
+    }
+  ],
+  "Charm Monster": [],
+  "Arcane Eye": [
+    {
+      "uid": "h3393012agaa37g4429gb7b1ge7f20ed88482",
+      "english": "Arcane Eye",
+      "ukrainian": "Тайне око"
+    },
+    {
+      "uid": "h213aeceag1f66g4743g82fag8a9196c72499",
+      "english": "Scroll of Arcane Eye",
+      "ukrainian": "Сувій \"Тайне око\""
+    }
+  ],
+  "Chromatic Orb": [
+    {
+      "uid": "hd64d5d0ag20a6g4d74g8676gc34ad9ae4185",
+      "english": "Chromatic Orb",
+      "ukrainian": "Хроматична куля"
+    },
+    {
+      "uid": "h64960e42g8ab3g4a60g93b4g537985a8407f",
+      "english": "Chromatic Orb: Cold",
+      "ukrainian": "Хроматична куля: холод"
+    },
+    {
+      "uid": "he0705c2fg021dg49c0ga56egc5a406dc1928",
+      "english": "Chromatic Orb: Acid",
+      "ukrainian": "Хроматична куля: кислота"
+    },
+    {
+      "uid": "he160b381g7b4fg4babg801cgcc1ad3153559",
+      "english": "Chromatic Orb: Fire",
+      "ukrainian": "Хроматична куля: вогонь"
+    },
+    {
+      "uid": "h760f1d3egc419g4ab1ga9d4g17fe092ff800",
+      "english": "Chromatic Orb: Poison",
+      "ukrainian": "Хроматична куля: отрута"
+    },
+    {
+      "uid": "h908f12d1g1c03g4a7fg93e3g15d8f1ad5e98",
+      "english": "Chromatic Orb: Thunder",
+      "ukrainian": "Хроматична куля: грім"
+    },
+    {
+      "uid": "h3de93be4g2ddeg41e5gaeedg341a371c43af",
+      "english": "Scroll of Chromatic Orb",
+      "ukrainian": "Сувій \"Хроматична куля\""
+    },
+    {
+      "uid": "h49e09adcg6394g470fga5c8gf1f84361a04e",
+      "english": "Scroll of Chromatic Orb",
+      "ukrainian": "Сувій \"Хроматична куля\""
+    },
+    {
+      "uid": "hd9ed8c1eg8329g4f66g82ccg546b215ed43a",
+      "english": "Scroll of Chromatic Orb",
+      "ukrainian": "Сувій \"Хроматична куля\""
+    },
+    {
+      "uid": "h29931577g6a99g4401gb83dg0da8d4022753",
+      "english": "Chromatic Orb: Lightning",
+      "ukrainian": "Хроматична куля: блискавка"
+    },
+    {
+      "uid": "hbc6dfbdag3baag4a11g906eg9e66f9bcdc08",
+      "english": "You can inscribe magical rituals in your Book of Shadows. <br><br>Gain the <LSTag Type=\"Spell\" Tooltip=\"Projectile_RayOfSickness\">Ray of Sickness</LSTag>, <LSTag Type=\"Spell\" Tooltip=\"Projectile_ChromaticOrb\">Chromatic Orb</LSTag>, and <LSTag Type=\"Spell\" Tooltip=\"Target_Silence\">Silence</LSTag> spells. You can cast these spells once per <LSTag Tooltip=\"LongRest\">Long Rest</LSTag>, and they don't expend any <LSTag Tooltip=\"SpellSlot\">spell slots</LSTag> when cast.",
+      "ukrainian": "Ви здатні записувати магічні ритуали у свою книгу тіней. <br><br>Надає закляття \"<LSTag Type=\"Spell\" Tooltip=\"Projectile_RayOfSickness\">Струмінь хвороби</LSTag>\", \"<LSTag Type=\"Spell\" Tooltip=\"Projectile_ChromaticOrb\">Хроматична куля</LSTag>\" і \"<LSTag Type=\"Spell\" Tooltip=\"Target_Silence\">Тиша</LSTag>\". Ви можете проказати їх один раз до <LSTag Tooltip=\"LongRest\">довгого відпочинку</LSTag> без витрати <LSTag Tooltip=\"SpellSlot\">чарунок</LSTag>."
+    },
+    {
+      "uid": "h62cb8f70gacbcg4be3g8514g5f65d7079363",
+      "english": "A nearby earth myrmidon grants the affected entity <LSTag Tooltip=\"Immune\">Immunity</LSTag> to Poison damage and an additional [1] to <LSTag Type=\"Spell\" Tooltip=\"Target_LOW_RamazithsTower_Dummy\">Elemental Retort</LSTag>.<br><br>The affected entity also gains temporary access to <LSTag Type=\"Spell\" Tooltip=\"Projectile_ChromaticOrb_Poison\">Chromatic Orb: Poison</LSTag> and an additional <LSTag Type=\"ActionResource\" Tooltip=\"ReactionActionPoint\">reaction</LSTag> per turn.",
+      "ukrainian": "Земляний мірмідон надає істоті неподалік <LSTag Tooltip=\"Immune\">імунітет</LSTag> до отрутної шкоди, а також додаткові [1] до закляття \"<LSTag Type=\"Spell\" Tooltip=\"Target_LOW_RamazithsTower_Dummy\">Стихійна відсіч</LSTag>\".<br><br>Крім того, істота тимчасово отримує доступ до закляття \"<LSTag Type=\"Spell\" Tooltip=\"Projectile_ChromaticOrb_Poison\">Хроматична куля: отрута</LSTag>\" й щоходу має додаткове <LSTag Type=\"ActionResource\" Tooltip=\"ReactionActionPoint\">реагування</LSTag>."
+    }
+  ],
+  "Command": [
+    {
+      "uid": "h068ccc3egfa66g4c5cg99cag82138f62bffc",
+      "english": "Command",
+      "ukrainian": "Command"
+    },
+    {
+      "uid": "h5b858a78g01b2g4d06ga486g12083a002a54",
+      "english": "Command",
+      "ukrainian": "Наказ"
+    },
+    {
+      "uid": "h640f6e61gcb3fg4f4ega63dgb47850b28925",
+      "english": "Commander.",
+      "ukrainian": "Командувачко."
+    },
+    {
+      "uid": "h9e114faegfcc8g405cgb60fg7ff4ac765e99",
+      "english": "Commander.",
+      "ukrainian": "Командувачко."
+    },
+    {
+      "uid": "hbe9f9d50g01c6g4375g886ag69cbfb2add12",
+      "english": "Commander -",
+      "ukrainian": "Командире..."
+    },
+    {
+      "uid": "h17a8229bg1a81g413fgbdbdg92e828af0145",
+      "english": "Your command?",
+      "ukrainian": null
+    },
+    {
+      "uid": "h2ffa6695gf831g4ff7gb2a5gfc8a451040dd",
+      "english": "Command: Halt",
+      "ukrainian": "Наказ: стояти"
+    },
+    {
+      "uid": "h4046d8bbgc2b7g46b1gb520ge9265ecb0683",
+      "english": "Command: Halt",
+      "ukrainian": "Наказ: стояти"
+    },
+    {
+      "uid": "h77e8c268gf718g4617g9c75g18a1a35db06c",
+      "english": "Command: Halt",
+      "ukrainian": "Наказ: стояти"
+    },
+    {
+      "uid": "h864f6f10gdc36g46a7g8dc4gf58deca43c59",
+      "english": "Command: Drop",
+      "ukrainian": "Наказ: кинути"
+    },
+    {
+      "uid": "h874639b7ge9d6g4df5gba1eg581df9b02b7b",
+      "english": "Your command?",
+      "ukrainian": null
+    },
+    {
+      "uid": "h9dc570b1g06f6g4fa9g9721g6f60cdadcb48",
+      "english": "Command: Flee",
+      "ukrainian": "Наказ: тікати"
+    }
+  ],
+  "Darkvision": [
+    {
+      "uid": "h4429287cg9154g4843g944ag9bad9d8979cc",
+      "english": "Darkvision",
+      "ukrainian": "Темнозір"
+    },
+    {
+      "uid": "h450bd7d6g3391g496dga596gc83fc4563afe",
+      "english": "Darkvision",
+      "ukrainian": "Темнозір"
+    },
+    {
+      "uid": "h748f3104g8dbbg4f05gbd7egec01156fa973",
+      "english": "Darkvision",
+      "ukrainian": "Темнозір"
+    },
+    {
+      "uid": "h8a17a227g1bd9g4124g9a99ga991d59cbb3e",
+      "english": "Darkvision",
+      "ukrainian": "Темнозір"
+    },
+    {
+      "uid": "hd4f0cf20g7eeag485fg887eg596eca5f8946",
+      "english": "Darkvision",
+      "ukrainian": "Темнозір"
+    },
+    {
+      "uid": "h18b82151g9365g419fgbb78g4fedc6def4d1",
+      "english": "Darkvision Range",
+      "ukrainian": "Віддаль темнозору"
+    },
+    {
+      "uid": "ha83d9f4ag7c89g49a8gb5ceg705959ac353c",
+      "english": "Orb of Darkvision",
+      "ukrainian": "Сфера темнозору"
+    },
+    {
+      "uid": "h6257f407g59a3g4f64g8240g7978318a1eb7",
+      "english": "Superior Darkvision",
+      "ukrainian": "Надзвичайний темнозір"
+    },
+    {
+      "uid": "hde9be91agb67fg4351g8c4aga5a5febb90b6",
+      "english": "Superior Darkvision",
+      "ukrainian": "Надзвичайний темнозір"
+    },
+    {
+      "uid": "h42d13c1cgb60cg47d9g98adgedaa0b785925",
+      "english": "Elixir of Darkvision",
+      "ukrainian": "Еліксир темнозору"
+    },
+    {
+      "uid": "ha135265eg64e2g449dga092g30412ef49fbf",
+      "english": "Scroll of Darkvision",
+      "ukrainian": "Сувій \"Темнозір\""
+    },
+    {
+      "uid": "hd66e0762g5ee9g4d66ga85bg6175c15f0fe6",
+      "english": "Elixir of Darkvision",
+      "ukrainian": "Еліксир темнозору"
+    }
+  ],
+  "Dragon's Breath": [
+    {
+      "uid": "hb01c7bfcg8fc8g4010g8fe9gd2dfa486f475",
+      "english": "Not much use against a dragon's breath.",
+      "ukrainian": "Для подиху дракона таке не завада."
+    },
+    {
+      "uid": "h39d93d66g43d1g41c2gb11agdaa1c3008d96",
+      "english": "There's not much that can turn aside a dragon's breath.",
+      "ukrainian": "Мало що може відвернути подих дракона."
+    },
+    {
+      "uid": "h21e4872cg1ee2g4ca8g86abg94c539d80185",
+      "english": "A single shield could never withstand a red dragon's breath.",
+      "ukrainian": "Простий щит нізащо не витримає подих дракона."
+    },
+    {
+      "uid": "h5c0099e7ga1fdg4a77g8b68gd011c264727b",
+      "english": "Poor fellow. This shield was no match for a red dragon's breath.",
+      "ukrainian": "Бідолашний. Цей щит — ніщо проти подиху дракона."
+    },
+    {
+      "uid": "ha509d2b9gdf60g422dg8b04g2f60240ebba3",
+      "english": "Hot to the touch. The dragon's breath still lingers on this shield.",
+      "ukrainian": "На дотик гарячий. Подих дракона все ще жевріє в цьому щиті."
+    },
+    {
+      "uid": "h38a562ebgf49dg49feg8748g44b62fc1960c",
+      "english": "*It burns relentlessly, like a red dragon's breath scorching you from the inside out.*",
+      "ukrainian": "*Вона палає незгасно, спікаючи вас зсередини, мовби подмух червоного дракона.*"
+    },
+    {
+      "uid": "habac8e7fg9098g4da6gbb37g2ced43b7658e",
+      "english": "*It burns relentlessly, like a red dragon's breath scorching you from the inside out.*",
+      "ukrainian": "*Вона палає незгасно, спікаючи вас ізсередини, мов подмух червоного дракона.*"
+    },
+    {
+      "uid": "h1a19940fgeff6g4a36gb58fg638c7417f753",
+      "english": "*Fire spills across your thoughts: dragon's breath. The tadpole slithers, twisting deeper into your skull.*",
+      "ukrainian": "*Думками шугає полум'я, видихнуте драконом. Пуголовок звивається, забивається глибше у ваш череп.*"
+    },
+    {
+      "uid": "h5365e78eg8786g413dgb756g6084d7073c22",
+      "english": "*Fire spills across your thoughts: dragon's breath. The tadpole slithers, twisting deeper into your skull.*",
+      "ukrainian": "*Думками шугає полум'я, видихнуте драконом. Пуголовок ковзає, звивається, забивається глибше у ваш череп.*"
+    },
+    {
+      "uid": "hb3b87cb7g76b5g4714ga0cdg93fe3563d8a3",
+      "english": "*Fire spills across your thoughts: dragon's breath. The tadpole slithers, twisting deeper into your skull.*",
+      "ukrainian": "*Думками шугає полум'я, видихнуте драконом. Пуголовок ковзає, звивається, забивається глибше у ваш череп.*"
+    },
+    {
+      "uid": "hc1b71319g95d8g424fg9eb2g78a2aeffbd3b",
+      "english": "*Fire spills across your thoughts: dragon's breath. The tadpole slithers, twisting deeper into your skull.*",
+      "ukrainian": "*Думками шугає полум'я, видихнуте драконом. Пуголовок звивається, забивається глибше у ваш череп.*"
+    }
+  ],
+  "Fly": [
+    {
+      "uid": "h125be5ecg5c57g4001gadfagcb1c5ca5ee06",
+      "english": "Fly",
+      "ukrainian": "Політ"
+    },
+    {
+      "uid": "h171fcf28g4e41g484egb089g76f6cd275ec5",
+      "english": "Fly",
+      "ukrainian": "Політ"
+    },
+    {
+      "uid": "h2b528206gd748g45c6gb26cg5434f11428a6",
+      "english": "Fly",
+      "ukrainian": "Політ"
+    },
+    {
+      "uid": "h4351c365g38afg4a30g986agd88ad9905fa3",
+      "english": "Fly",
+      "ukrainian": "Політ"
+    },
+    {
+      "uid": "h7b248ad2g4909g4dbdg9a99gde0418730781",
+      "english": "Fly",
+      "ukrainian": "Політ"
+    },
+    {
+      "uid": "hc56ae716gb59cg4310ga7f7ga3e0f98bf743",
+      "english": "Fly",
+      "ukrainian": "Політ"
+    },
+    {
+      "uid": "hde9ebdeag6d39g4684ga372g606bacbf82c8",
+      "english": "Fly",
+      "ukrainian": "Політ"
+    },
+    {
+      "uid": "hfbd95451g6664g4d86g8cc0g1ad97c6f8830",
+      "english": "Fly",
+      "ukrainian": "Політ"
+    },
+    {
+      "uid": "h82c9eac9g3fddg4465g8cb4g17da7c8e86ca",
+      "english": "Flying",
+      "ukrainian": "Політ"
+    },
+    {
+      "uid": "ha659c8a8g487bg4d8bg8992gda60dadb7dab",
+      "english": "Flying",
+      "ukrainian": "Політ"
+    },
+    {
+      "uid": "h86169b57g4835g48d3gaa99g6586bf87c694",
+      "english": "Fly Trap",
+      "ukrainian": "Мухоловка"
+    },
+    {
+      "uid": "h286eb9dcgc80dg43aagab36gd91b8efaa3f2",
+      "english": "Flying 01",
+      "ukrainian": "Політ 01"
+    }
+  ],
+  "Protection from Energy": [
+    {
+      "uid": "h3fc19655g97b4g496fgb23fg608be11eebc0",
+      "english": "Protection from Energy",
+      "ukrainian": "Захист від енергії"
+    },
+    {
+      "uid": "h42da86d4gaddcg4ad7g8695g1db97c0ef1ee",
+      "english": "Protection from Energy: Cold",
+      "ukrainian": "Захист від енергії: холод"
+    },
+    {
+      "uid": "h442176c4gde39g4cf9ga8c3g148b2cf6d079",
+      "english": "Protection from Energy: Fire",
+      "ukrainian": "Захист від енергії: вогонь"
+    },
+    {
+      "uid": "h5d4b8f33gb44cg4ffbg991bg5a2bd589c1f5",
+      "english": "Protection from Energy: Acid",
+      "ukrainian": "Захист від енергії: кислота"
+    },
+    {
+      "uid": "h7b7af16bg319ag4ff0g9b18g038428f6a54a",
+      "english": "Protection from Energy: Acid",
+      "ukrainian": "Захист від енергії: кислота"
+    },
+    {
+      "uid": "hcc51fb73g190bg41bfgb1a7ga1fae40747b4",
+      "english": "Protection from Energy: Fire",
+      "ukrainian": "Захист від енергії: вогонь"
+    },
+    {
+      "uid": "he226babag2001g47bcg967eg2763d40c7998",
+      "english": "Protection from Energy: Cold",
+      "ukrainian": "Захист від енергії: холод"
+    },
+    {
+      "uid": "h43c39be0g2126g4f86gba3eg5d939fa77d60",
+      "english": "Protection from Energy: Thunder",
+      "ukrainian": "Захист від енергії: грім"
+    },
+    {
+      "uid": "ha7272978g34c7g4db2g92ffg1469d59918f6",
+      "english": "Protection from Energy: Thunder",
+      "ukrainian": "Захист від енергії: грім"
+    },
+    {
+      "uid": "ha00203ffg8739g4c10g92b9ge0377ea84bc5",
+      "english": "Scroll of Protection from Energy",
+      "ukrainian": "Сувій \"Захист від енергії\""
+    },
+    {
+      "uid": "h3fb3c35eg8c8eg42aag934dg35017223bf20",
+      "english": "Protection from Energy: Lightning",
+      "ukrainian": "Захист від енергії: блискавка"
+    },
+    {
+      "uid": "h76f5a2bcg4043g4241gb6d2g11033cb9a004",
+      "english": "Protection from Energy: Lightning",
+      "ukrainian": "Захист від енергії: блискавка"
+    }
+  ],
+  "Banishment": [
+    {
+      "uid": "h04190fa0g38fbg45bcg9444geb22d810007c",
+      "english": "Banishment",
+      "ukrainian": "Вигнання"
+    },
+    {
+      "uid": "h2efe7e22gf007g487fgb47cg31ba7a8206f4",
+      "english": "Banishment",
+      "ukrainian": "Вигнання"
+    },
+    {
+      "uid": "h7707322cg66d7g49b2gab88g85f8ee7049a3",
+      "english": "Scroll of Banishment",
+      "ukrainian": "Сувій \"Вигнання\""
+    },
+    {
+      "uid": "h38b75aa6ge03ag4921gb390g5d74a8fe0cd9",
+      "english": "Apologies, I didn't exactly memorise my cephalopodian banishment spells last night. Wasn't the best prepared for an attack-by-squid.",
+      "ukrainian": "Перепрошую, та я не підготував закляття вигнання цефалоподів вчора. Був не вельми готовий до кальмарного нападу."
+    },
+    {
+      "uid": "h64017ab6g7a0bg415egb228g7ad7c984d574",
+      "english": "Strange, though, that she would reward me for such a service now. She's hardly been forthcoming on that front since my banishment...",
+      "ukrainian": "Проте дивно, що вона вирішила винагородити мне зараз. Я не бачив такої прихильності від самого початку мого вигнання..."
+    },
+    {
+      "uid": "h9a1b775cg94deg41d7ga4c8gd8f7406eafe3",
+      "english": "This staple of any worthwhile exorcist burns with a pale flame that destroys the anchors of troublesome ghosts in need of banishment.",
+      "ukrainian": "Жоден екзорцист не виходить із дому без такого смолоскипа. Його тьмяне полум'я руйнує зв'язок надокучливого духа із захопленим тілом і виганяє його."
+    },
+    {
+      "uid": "he14c8747ga2b2g4f46gba42gf2b464d837c9",
+      "english": "%%% Technical status to trigger Banishment crime reaction when NPC succeeds on saving throw against harmful spell/status which otherwise triggers Assault_Zero_Damage or no reaction at all",
+      "ukrainian": null
+    },
+    {
+      "uid": "h8c869030gb65eg4a53gb9cag394492902055",
+      "english": "Baldur's Gate vs Flynn Silver<br>Case for Prosecution: Master Silver did, with forethought and without malice, kill William Lister and Simon 'Simmie' Trynt at their home as part of an ungodly ritual to honour the Dead Three, or one of the Dead Three, the gods Bane, Bhaal, or Myrkul.<br><br>Case for the Defence: 'I don't know nothing [sic] about any gods. All I know is Bill and Simmie were trying to cut me out of our deal and they got what they had coming. But those symbols and stuff? And how their guts was arranged? I don't know nothing.[sic]\" <br><br>Verdict: Guilty<br>Sentence: Death, commuted to Banishment so as not to anger higher powers.",
+      "ukrainian": "Справа Брама Балдура проти Фліна Сильвера<br>Заява обвинувачення: пан Сильвер обдумано й розважливо вбив Вільяма Лістера та Саймона \"Сіммі\" Тринта в них удома. Вбивство має всі ознаки нечестивого ритуалу на честь Мертвої Трійці або одного з Мертвої Трійці: Бейна, Баала або Меркула.<br><br>Заява захисту: \"Я ніц не знаю [згідно з оригіналом] про ніяких богів. Вільям та Сіммі хотіли кинути мене на гроші й дістали на горіхи. Але оті то символи та все інше... якісь там візерунки з кишків? Про то я ніц не знаю.[згідно з оригіналом]\" <br><br>Вирок: винний<br>Покарання: смерть, замінено на вигнання, аби не гнівити вищі сили."
+    }
+  ],
+  "Dominate Person": [
+    {
+      "uid": "h26eba7c3ge9bag47e4g954eg8d34e058401a",
+      "english": "Dominate Person",
+      "ukrainian": "Підкорення особи"
+    },
+    {
+      "uid": "h37703060g3ec1g4e03g88d7g96d0f79be79a",
+      "english": "Dominate Person",
+      "ukrainian": "Підкорення особи"
+    },
+    {
+      "uid": "h9a960ea8geaf5g4127g84cfg19af61b9b55e",
+      "english": "Scroll of Dominate Person",
+      "ukrainian": "Сувій \"Підкорення особи\""
+    }
+  ],
+  "Synaptic Static": [],
+  "Chromatic": [
+    {
+      "uid": "hd64d5d0ag20a6g4d74g8676gc34ad9ae4185",
+      "english": "Chromatic Orb",
+      "ukrainian": "Хроматична куля"
+    },
+    {
+      "uid": "h5ca2b4a1gda22g4c1fga589g17bd605454df",
+      "english": "Chromatic Scale",
+      "ukrainian": "\"Хроматична гама\""
+    },
+    {
+      "uid": "h64f953e8gfe6eg444bgadb1gc2ac75cc5c67",
+      "english": "Chromatic Scale",
+      "ukrainian": "\"Хроматична гама\""
+    },
+    {
+      "uid": "hbb862106gd42eg41d4g87eag10090584fae9",
+      "english": "Chromatic Scale",
+      "ukrainian": "\"Хроматична гама\""
+    },
+    {
+      "uid": "h64960e42g8ab3g4a60g93b4g537985a8407f",
+      "english": "Chromatic Orb: Cold",
+      "ukrainian": "Хроматична куля: холод"
+    },
+    {
+      "uid": "he0705c2fg021dg49c0ga56egc5a406dc1928",
+      "english": "Chromatic Orb: Acid",
+      "ukrainian": "Хроматична куля: кислота"
+    },
+    {
+      "uid": "he160b381g7b4fg4babg801cgcc1ad3153559",
+      "english": "Chromatic Orb: Fire",
+      "ukrainian": "Хроматична куля: вогонь"
+    },
+    {
+      "uid": "he704fee0gd0f8g4cc4gad61g9763e414e7cf",
+      "english": "The Chromatic Scale",
+      "ukrainian": "\"Хроматична гама\""
+    },
+    {
+      "uid": "h760f1d3egc419g4ab1ga9d4g17fe092ff800",
+      "english": "Chromatic Orb: Poison",
+      "ukrainian": "Хроматична куля: отрута"
+    },
+    {
+      "uid": "h908f12d1g1c03g4a7fg93e3g15d8f1ad5e98",
+      "english": "Chromatic Orb: Thunder",
+      "ukrainian": "Хроматична куля: грім"
+    },
+    {
+      "uid": "h3de93be4g2ddeg41e5gaeedg341a371c43af",
+      "english": "Scroll of Chromatic Orb",
+      "ukrainian": "Сувій \"Хроматична куля\""
+    },
+    {
+      "uid": "h49e09adcg6394g470fga5c8gf1f84361a04e",
+      "english": "Scroll of Chromatic Orb",
+      "ukrainian": "Сувій \"Хроматична куля\""
+    }
+  ],
+  "Metallic": [
+    {
+      "uid": "hd10a15c0g89f7g4e32g96e1g9f5ef0a30457",
+      "english": "Metallic Boots",
+      "ukrainian": "Металеві чоботи"
+    },
+    {
+      "uid": "hef15343bg59f7g483dgbfb9g23a2ecd22350",
+      "english": "Metallic Boots",
+      "ukrainian": "Металеві чоботи"
+    },
+    {
+      "uid": "h3d479cb5gcb51g48fegbbf8gd84a042a1a5f",
+      "english": "Metallic Gloves",
+      "ukrainian": "Металеві рукавиці"
+    },
+    {
+      "uid": "h7cbdce87g4363g4ff3g91bfg05e5b4b7ff2d",
+      "english": "Metallic Gloves",
+      "ukrainian": "Металеві рукавиці"
+    },
+    {
+      "uid": "hcdc5c4b6g12d8g4e3bga7a5gccbc0b640e14",
+      "english": "Metallic Tint Level",
+      "ukrainian": "Рівень металевого відтінку"
+    },
+    {
+      "uid": "hd7e73ad5g00b9g40bfga3aegf77400de5552",
+      "english": "Metallic Tint Level",
+      "ukrainian": "Рівень металевого відтінку"
+    },
+    {
+      "uid": "h59e719bfgcce0g46d7ga02dg3cb28ea9716a",
+      "english": "Raffish Metallic-Shaded Outfit",
+      "ukrainian": "Безпутний одяг металевого відтінку"
+    },
+    {
+      "uid": "hdefaa9bbg99a6g4665gaa04ge0a2d8722735",
+      "english": "A servant of Bahamut, god of metallic dragons.",
+      "ukrainian": "Слуга Багамута, бога металевих драконів."
+    },
+    {
+      "uid": "hea7c770eg9133g452bg96c2g014bed2472f3",
+      "english": "A servant of Bahamut, God of metallic dragons.",
+      "ukrainian": "Слуга Багамута, бога металевих драконів."
+    },
+    {
+      "uid": "h38196898g2abbg46cegba96g07c9c4289fae",
+      "english": "A metallic barrel filled with brine and tadpoles.",
+      "ukrainian": "Металева діжка з ропою й пуголовками."
+    },
+    {
+      "uid": "h06c41a0bgf4b9g471dg9043g834e45324db3",
+      "english": "*You catch a waft of something foul - metallic and sickly-sweet.*",
+      "ukrainian": "*Ви вловлюєте неприємний запах. Металічний й солодкавий.*"
+    },
+    {
+      "uid": "h27163289g6cf7g4df0gbe2bge4be2a0c9637",
+      "english": "*You catch a waft of something foul - metallic and sickly-sweet.*",
+      "ukrainian": "*Ви вловлюєте неприємний запах. Металічний й солодкавий.*"
+    }
+  ],
+  "Gem Dragon": [],
+  "Tiamat": [
+    {
+      "uid": "h3740ddb4gbbf6g4c93gbfc2g6767326d1e3b",
+      "english": "Tiamat",
+      "ukrainian": "Тіамат"
+    },
+    {
+      "uid": "haa5b074eg6c1cg4c92ga3d8g3b76f623ee41",
+      "english": "Tiamat",
+      "ukrainian": "Тіамат"
+    },
+    {
+      "uid": "hf7a715ccg75d0g4ba8g872ag910912fcb6e8",
+      "english": "Tiamat",
+      "ukrainian": "Тіамат"
+    },
+    {
+      "uid": "h6982625eg454cg435aga03dgac772289f727",
+      "english": "Tiamat Shrine",
+      "ukrainian": "Вівтар Тіамат"
+    },
+    {
+      "uid": "he2163839gec02g49dfg867dge95799dac6fe",
+      "english": "Cleric of Tiamat",
+      "ukrainian": "Клірикиня Тіамат"
+    },
+    {
+      "uid": "h517064e5gf5acg417ega6d1gaa6e0a400437",
+      "english": "Paladin of Tiamat",
+      "ukrainian": "Паладин Тіамат"
+    },
+    {
+      "uid": "h7788967fga1f3g44fagb2a4gc7f2f1aa1292",
+      "english": "What is this made of? Tiamat's cursed spit?",
+      "ukrainian": "З чого це зготовано? З проклятої слини Тіамат?"
+    },
+    {
+      "uid": "he22e51b9g21cdg4108g808ag90a8501f9cef",
+      "english": "Sure they were - and I'm Tiamat's left tit.",
+      "ukrainian": "Авжеж. А я — ліва цицька Тіамат."
+    },
+    {
+      "uid": "h5eac6f90ga6aeg4190gbc80g39eee13a3c04",
+      "english": "<i>Beseech a blessing from your deity, Tiamat.</i>",
+      "ukrainian": "<i>Попрохати благословення у своєї богині Тіамат.</i>"
+    },
+    {
+      "uid": "h7db17277g3819g4383ga4ccg5a0bf5c30437",
+      "english": "A servant of the five-headed queen of dragons, Tiamat.",
+      "ukrainian": "Слуга п'ятиголової королеви драконів Тіамат."
+    },
+    {
+      "uid": "hde2e93c1g7ecdg4993gbc3fgc22c373606db",
+      "english": "A servant of the five-headed queen of dragons, Tiamat.",
+      "ukrainian": "Слуга п'ятиголової королеви драконів Тіамат."
+    },
+    {
+      "uid": "hfb4b0b6eged7dg40cfgb1dag789ddbf6a02a",
+      "english": "We'll put that coin to better use than Tiamat would've.",
+      "ukrainian": "Ми знайдемо цій монеті краще застосування, ніж Тіамат."
+    }
+  ],
+  "Bahamut": [
+    {
+      "uid": "h0acfe4aag5143g480fg9c45g94a07971981a",
+      "english": "Bahamut",
+      "ukrainian": "Багамут"
+    },
+    {
+      "uid": "h28fb3483g6e5bg4c27g832cg73fec4890f1c",
+      "english": "Bahamut",
+      "ukrainian": "Багамут"
+    },
+    {
+      "uid": "h663b9c65g69dag4e80g90bcgf7b4989876a1",
+      "english": "Bahamut",
+      "ukrainian": "Багамут"
+    },
+    {
+      "uid": "hdaef71f6gedafg4186g8bd6g22542e311872",
+      "english": "Bahamut Diadem",
+      "ukrainian": "Діадема Багамута"
+    },
+    {
+      "uid": "hfac6b0e9ge532g41b4g95cegff4544440ce6",
+      "english": "Bahamut Shrine",
+      "ukrainian": "Вівтар Багамута"
+    },
+    {
+      "uid": "h8d7cf36eg3db9g4885gbabeg75d12b6951dd",
+      "english": "Cleric of Bahamut",
+      "ukrainian": "Клірик Багамута"
+    },
+    {
+      "uid": "hb89ddff2ga0a9g4a9fgadc2gf7e6db76dc81",
+      "english": "Paladin of Bahamut",
+      "ukrainian": "Паладин Багамута"
+    },
+    {
+      "uid": "hdefaa9bbg99a6g4665gaa04ge0a2d8722735",
+      "english": "A servant of Bahamut, god of metallic dragons.",
+      "ukrainian": "Слуга Багамута, бога металевих драконів."
+    },
+    {
+      "uid": "hea7c770eg9133g452bg96c2g014bed2472f3",
+      "english": "A servant of Bahamut, God of metallic dragons.",
+      "ukrainian": "Слуга Багамута, бога металевих драконів."
+    },
+    {
+      "uid": "h2c8dc78bgb397g49a0ga279g2675ed606f4b",
+      "english": "Yes - as raw and ancient as the veins of Bahamut. ",
+      "ukrainian": "Так... прадавня і щира, як жили Багамута."
+    },
+    {
+      "uid": "hd78be8b5g720cg4042g88ffgd298ad1acb3b",
+      "english": "Yes - as raw and ancient as the veins of Bahamut. ",
+      "ukrainian": "Так... прадавня і щира, як жили Багамута."
+    },
+    {
+      "uid": "h7648e47agd57ag4c94ga716ge66cb2d927db",
+      "english": "<i>Beseech a blessing from your deity, Bahamut.</i>",
+      "ukrainian": "<i>Попрохати благословення у свого бога Багамута.</i>"
+    }
+  ],
+  "Dragon Domain": [],
+  "Dragon": [
+    {
+      "uid": "h05c1539dg2e5cg43d5g9f9ag96d2a06f7abd",
+      "english": "Dragon",
+      "ukrainian": "Дракон"
+    },
+    {
+      "uid": "h3c890f03g7113g4aa1gb94ege3455d2adf98",
+      "english": "Dragon",
+      "ukrainian": "Дракон"
+    },
+    {
+      "uid": "h3f29544cgb03dg44cegb816g8eab098a6f4f",
+      "english": "Dragon",
+      "ukrainian": "Дракон"
+    },
+    {
+      "uid": "h512e4602ge4feg4e62gb14eg01fe26238e4e",
+      "english": "Dragon",
+      "ukrainian": "Дракон"
+    },
+    {
+      "uid": "h55981e03g8ac5g4c0fg8324g68b2133341eb",
+      "english": "Dragon",
+      "ukrainian": "Дракон"
+    },
+    {
+      "uid": "hb893e29cgd82fg4850gaf2dg9ea1e3c8aa6a",
+      "english": "Dragon",
+      "ukrainian": "Дракон"
+    },
+    {
+      "uid": "hcb80cc79gc478g42bfga9c3geaf986a2e269",
+      "english": "Dragon",
+      "ukrainian": "Дракон"
+    },
+    {
+      "uid": "hf94b5c4dg8f75g4f5agb0c0gb4aa3208d3d5",
+      "english": "Dragon",
+      "ukrainian": "Дракон"
+    },
+    {
+      "uid": "h0b441ad7gb002g454egaa82g03ae0db15c6c",
+      "english": "Dragonborn",
+      "ukrainian": "Драконичі"
+    },
+    {
+      "uid": "h0d41cdbfgd9b0g4ce2gb1dcgea2622b3a620",
+      "english": "Dragonborn",
+      "ukrainian": "Драконичі"
+    },
+    {
+      "uid": "h178823dcgeb2dg4044g93b5g1f4f248eda8c",
+      "english": "Dragonborn",
+      "ukrainian": "Драконич"
+    },
+    {
+      "uid": "h1fc1ff95gaf0ag4f95gb9b5g86d5801ddf5d",
+      "english": "Dragonborn",
+      "ukrainian": "Драконич"
+    }
+  ],
+  "Breath Weapon": [
+    {
+      "uid": "h55ca1882g6b54g4f43gaf3cge29e60624a0e",
+      "english": "The dragon can retaliate against an attacker with its breath weapon once per round. ",
+      "ukrainian": "Раз на раунд дракон може контратакувати нападника бойовим подихом. "
+    },
+    {
+      "uid": "h600a70ebgef05g4769ga741g73846dc74ac5",
+      "english": "Enemies have <LSTag Tooltip=\"Disadvantage\">Disadvantage</LSTag> on <LSTag Tooltip=\"SavingThrow\">Saving Throws</LSTag> against your dragonborn breath weapon.",
+      "ukrainian": "Вороги мають <LSTag Tooltip=\"Disadvantage\">заваду</LSTag> для <LSTag Tooltip=\"SavingThrow\">кидків протидії</LSTag> вашому бойовому подиху драконича."
+    },
+    {
+      "uid": "h023612a9g0de6g44f7gb82eg7d66c58e1a92",
+      "english": "While not true dragons themselves, draconic lineage defines the dragonborn. They inherit powerful breath weapons from their ancestors and possess a preternatural toughness.",
+      "ukrainian": "Хай драконичі й не справжні дракони, але їхній споріднений родовід є визначальним. Від предків вони успадкували бойовий подих і надприродну витривалість."
+    },
+    {
+      "uid": "ha7df86c8g99dag4c28g8112g96aa32d31a56",
+      "english": "While not true dragons themselves, draconic lineage defines the dragonborn. They inherit powerful breath weapons from their ancestors and possess a preternatural toughness.",
+      "ukrainian": "Хай драконичі й не справжні дракони, але їхній споріднений родовід є визначальним. Від предків вони успадкували бойовий подих і надприродну витривалість."
+    }
+  ],
+  "Channel Divinity": [
+    {
+      "uid": "h2830ddb0g6112g4557gb701gaaa65998837b",
+      "english": "Channel Divinity",
+      "ukrainian": "Боже наснаження"
+    },
+    {
+      "uid": "h87ead551g7e59g4064g8f58g342dc990cdad",
+      "english": "Channel Divinity Charges: [3]",
+      "ukrainian": "[3] боже наснаження"
+    },
+    {
+      "uid": "h8e11b8bag9dfag4596g8d74g0eaa8c6b2727",
+      "english": "Channel Divinity: Guided Strike",
+      "ukrainian": "Боже наснаження: направлений удар"
+    },
+    {
+      "uid": "he2f35820gc3a5g4c34g9677g01d5ec19305a",
+      "english": "Channel Divinity: Guided Strike",
+      "ukrainian": "Боже наснаження: направлений удар"
+    },
+    {
+      "uid": "h6f0b7a07geb61g4106gbca3g9215fdc3cabb",
+      "english": "Channel Divinity: Touch of Death",
+      "ukrainian": "Боже наснаження: дотик смерті"
+    },
+    {
+      "uid": "h203d64c3g9637g4f65gb2d9g3c40c57a39fd",
+      "english": "Channel Divinity: Cloak of Shadows",
+      "ukrainian": "Боже наснаження: тіньова покрова"
+    },
+    {
+      "uid": "h7e7158a6gbe1ag479ag9dedgb95729eea9ce",
+      "english": "Channel Divinity: Cloak of Shadows",
+      "ukrainian": "Боже наснаження: тіньова покрова"
+    },
+    {
+      "uid": "h83de8118gd16cg4ae1g9fdbg1f50601f7b38",
+      "english": "Channel Divinity: War God's Blessing",
+      "ukrainian": "Боже наснаження: бойове благословення"
+    },
+    {
+      "uid": "hef0a183bgbc91g478cg8e70g38f55677ac77",
+      "english": "Channel Divinity: War God's Blessing",
+      "ukrainian": "Боже наснаження: бойове благословення"
+    },
+    {
+      "uid": "h809a243bgd61ag4d49g80bag608d4315dbfb",
+      "english": "Amulet of The Devout: Channel Divinity Depleted",
+      "ukrainian": "Амулет благочестивих: боже наснаження вичерпано"
+    },
+    {
+      "uid": "h87437123gba7bg4cbag99b2gbc5b4feea57e",
+      "english": "The Channel Divinity charge granted from this amulet is depleted. A <LSTag Tooltip=\"LongRest\">Long Rest</LSTag> will restore it.",
+      "ukrainian": "Заряд божого наснаження, наданий цим амулетом, вичерпано. Для відновлення потрібен <LSTag Tooltip=\"LongRest\">довгий відпочинок</LSTag>."
+    },
+    {
+      "uid": "h63c69034gd629g4510g866ag8d39b6105762",
+      "english": "You gain an additional use of Channel Divinity. Once used, it is restored upon taking a <LSTag Tooltip=\"LongRest\">Long Rest</LSTag>.",
+      "ukrainian": "Надає додаткове боже наснаження. Воно відновлюється після <LSTag Tooltip=\"LongRest\">довгого відпочинку</LSTag>."
+    }
+  ],
+  "Hit Die": [
+    {
+      "uid": "h41f67b6cg0938g4b10g9e8fg72fe47163c00",
+      "english": "When the mephit dies, it explodes with a force that deals [1] to all creatures within [2]. ",
+      "ukrainian": "Після смерті мефіт потужно вибухає та завдає [1] всім істотам в межах [2]."
+    },
+    {
+      "uid": "h931b02b2ga7b5g4147g9a39gc013b04a8759",
+      "english": "When the mephit dies, it explodes in a burst of ice that deals [1] to all creatures within [2]. ",
+      "ukrainian": "Після смерті мефіт вибухає кригою та завдає [1] всім істотам в межах [2]. "
+    },
+    {
+      "uid": "h7696c355gc791g4affg89d9g7ed7f9646d8e",
+      "english": "When the mephit dies, it explodes in a burst of lava that deals [1] to all creatures within [2]. ",
+      "ukrainian": "Після смерті мефіт вибухає лавою та завдає [1] всім істотам в межах [2]."
+    }
+  ],
+  "Hit Dice": [
+    {
+      "uid": "hf9c0c9cbg6271g4959gb9d0g141ad19b1d6a",
+      "english": "Hit Dice",
+      "ukrainian": "Кістка здоров'я"
+    },
+    {
+      "uid": "h96c8bbabg13f2g4402g9433g87407c0f81d5",
+      "english": "Hit Dice Gained: [3]",
+      "ukrainian": "Костей здоров'я: [3]"
+    },
+    {
+      "uid": "hb10f8d6eg2615g47f5gb959g8c79351f19dc",
+      "english": "You gain hit dice that can be spent during a short rest to restore hit points.",
+      "ukrainian": "Ви отримуєте спеціальні кістки для відновлення здоров'я під час короткого відпочинку."
+    }
+  ],
+  "Hit Point Dice": [],
+  "Short Rest": [
+    {
+      "uid": "h0567d158gc840g442eg8021gef89ad3396fe",
+      "english": "Short Rest",
+      "ukrainian": "Короткий відпочинок"
+    },
+    {
+      "uid": "h199b711fg12f1g49c1ga68dg576a864a1fc2",
+      "english": "Short Rest",
+      "ukrainian": "Короткий відпочинок"
+    },
+    {
+      "uid": "h1b6123cege971g4469gbb07g7b5fbf925563",
+      "english": "Short Rest",
+      "ukrainian": "Короткий відпочинок"
+    },
+    {
+      "uid": "h36f94e2bgff7cg42c8g97e2g6078e01fac37",
+      "english": "Short Rest",
+      "ukrainian": "Короткий відпочинок"
+    },
+    {
+      "uid": "h43888573g5bc5g4235g8f21g81194913bcc4",
+      "english": "Short Rest",
+      "ukrainian": "Короткий відпочинок"
+    },
+    {
+      "uid": "hecc1ee22gb9e5g4447g9996g397a143b5303",
+      "english": "Short Rest",
+      "ukrainian": "Короткий відпочинок"
+    },
+    {
+      "uid": "h70cd2327g366dg4a63g9a32g29bd83fd88d3",
+      "english": "On Short Rest",
+      "ukrainian": "за короткий відпочинок"
+    },
+    {
+      "uid": "hc31080f8g3639g421cgaa17gef8c07ee30b4",
+      "english": "On Short Rest",
+      "ukrainian": "за короткий відпочинок"
+    },
+    {
+      "uid": "h8b66ce44g4417g40a1g8f9fg4e8fa92db1b2",
+      "english": "Short Rest Full Heal",
+      "ukrainian": "Повне зцілення після короткого відпочинку"
+    },
+    {
+      "uid": "hb2199417g5510g4f9eg98a8ga71af294a3dd",
+      "english": "Short Rest ([1]/[2])",
+      "ukrainian": "Короткий відпочинок ([1]/[2])"
+    },
+    {
+      "uid": "h684caccdg5782g42degb220gbd30f5b703a6",
+      "english": "Number of Short Rests",
+      "ukrainian": "Кількість коротких відпочинків"
+    },
+    {
+      "uid": "h2e273132g455dg487cgbe1ag5a57d9edf32f",
+      "english": "Must take a Short Rest.",
+      "ukrainian": "Потрібен короткий відпочинок."
+    }
+  ],
+  "Short Resting": [
+    {
+      "uid": "hcbc890ceg7806g417cg85fcgc0d28dba5c02",
+      "english": "You have committed enough crimes to become a fugitive from the law. Nearby guards will do their best to bring you to justice - but your notoriety will eventually pass after short resting or waiting. ",
+      "ukrainian": "Ви скоїли чимало злочинів, тому вас оголошено в розшук. Варта намагатиметься притягти вас до відповідальності, але за деякий час або після короткого відпочинку ваша лиха слава мине."
+    },
+    {
+      "uid": "hf7fd8618gb8fag48f8gb209g1a4dbc198f10",
+      "english": "You have committed enough crimes to become a fugitive from the law. Nearby guards will do their best to bring you to justice - but your notoriety will eventually pass after short resting or waiting. ",
+      "ukrainian": "Ви скоїли чимало злочинів, тому вас оголошено в розшук. Варта намагатиметься притягти вас до відповідальності, але за деякий час або після короткого відпочинку ваша лиха слава мине."
+    },
+    {
+      "uid": "h994eade3g802cg4357gb5f8gc59aa5caca03",
+      "english": "After a character succeeds their Death <LSTag Tooltip=\"SavingThrow\">Saving Throws</LSTag> while <LSTag Type=\"Status\" Tooltip=\"DOWNED\">Downed</LSTag>, they are Stabilised. They are no longer dying, but are still unconscious. Regaining any <LSTag Tooltip=\"HitPoints\">hit points</LSTag> will wake them up - for example, Short Resting, healing spells, potions, or using the Help action.",
+      "ukrainian": "Персонаж, який успішно виконав <LSTag Tooltip=\"SavingThrow\">протидію</LSTag> смерті, коли перебував <LSTag Type=\"Status\" Tooltip=\"DOWNED\">при смерті</LSTag>, стає стабілізованим. Він більше не помирає, але все ще непритомний. Отримання будь-якої кількості <LSTag Tooltip=\"HitPoints\">очок здоров'я</LSTag> повертає його до тями — наприклад, короткий відпочинок, цілюще закляття, зілля чи допомога союзника."
+    },
+    {
+      "uid": "hd2302c0eg5f05g4deag9484g64384e03a336",
+      "english": "After a character succeeds their Death <LSTag Tooltip=\"SavingThrow\">Saving Throws</LSTag> while <LSTag Type=\"Status\" Tooltip=\"DOWNED\">Downed</LSTag>, they are Stabilised. They are no longer dying, but are still unconscious. Regaining any <LSTag Tooltip=\"HitPoints\">hit points</LSTag> will wake them up - for example, Short Resting, healing spells, potions, or using the Help action.",
+      "ukrainian": "Персонаж, який успішно виконав <LSTag Tooltip=\"SavingThrow\">протидію</LSTag> смерті, коли перебував <LSTag Type=\"Status\" Tooltip=\"DOWNED\">при смерті</LSTag>, стає стабілізованим. Він більше не помирає, але все ще непритомний. Отримання будь-якої кількості <LSTag Tooltip=\"HitPoints\">очок здоров'я</LSTag> повертає його до тями — наприклад, короткий відпочинок, цілюще закляття, зілля чи допомога союзника."
+    }
+  ],
+  "Focus Point": [],
+  "Ki Point": [
+    {
+      "uid": "h3c3818aeg5928g4c31ga564gb0a36e0beaba",
+      "english": "Ki Point(s)",
+      "ukrainian": "Очко(и) кі"
+    },
+    {
+      "uid": "hf8c4092eg6369g43cega6c8g8cdd2142511a",
+      "english": "Additional Ki Point",
+      "ukrainian": "Додаткове очко кі"
+    },
+    {
+      "uid": "h1fff01dcg725ag4acag9884g7b891c6ea6fa",
+      "english": "You can spend a ki point to deliver two swift punches as a bonus action. ",
+      "ukrainian": "Ви можете витратити очко кі, щоб зробити два швидких удари вторинною дією."
+    },
+    {
+      "uid": "h8ab829e5g69d0g4319g95c5g93128aa37f69",
+      "english": "Ki is the magic that flows through all living beings. You can use Ki Points to fuel your advanced monk techniques.",
+      "ukrainian": "Кі — це магія, що тече крізь усе живе. Очки кі потрібні для використання складних прийомів монахів."
+    },
+    {
+      "uid": "hfe6be642g5ae0g4e79gaccag91689d25420c",
+      "english": "You gain an additional <LSTag Type=\"ActionResource\" Tooltip=\"KiPoint\">Ki Point</LSTag> to fuel your monk techniques.",
+      "ukrainian": "Ви отримуєте додаткове <LSTag Type=\"ActionResource\" Tooltip=\"KiPoint\">очко кі</LSTag> для посилення монаших технік."
+    },
+    {
+      "uid": "hc4537708g9695g4a42gbcb6g22656fb1ea47",
+      "english": "While not in combat, regain half your <LSTag Type=\"ActionResource\" Tooltip=\"KiPoint\">Ki Points</LSTag> (rounded down).",
+      "ukrainian": "Поза боєм відновлює половину ваших <LSTag Type=\"ActionResource\" Tooltip=\"KiPoint\">очок кi</LSTag> (округлення в менший бік)."
+    },
+    {
+      "uid": "h1a6011d2g19b6g4bdcg9531g4c0499ea0d72",
+      "english": "Using the spiritual energy in the amulet, you restore [1] <LSTag Type=\"ActionResource\" Tooltip=\"KiPoint\">Ki Points</LSTag>",
+      "ukrainian": "Завдяки духовній енергії в амулеті ви відновлюєте <LSTag Type=\"ActionResource\" Tooltip=\"KiPoint\">очки кі</LSTag>: [1]"
+    },
+    {
+      "uid": "h2cc84f05g48dag41f9g9202gb01b8e1a0ce7",
+      "english": "Using the spiritual energy in the amulet, you restore a number of <LSTag Type=\"ActionResource\" Tooltip=\"KiPoint\">Ki Points</LSTag> equal to your martial arts die.",
+      "ukrainian": "Завдяки духовній енергії в амулеті ви відновлюєте кількість <LSTag Type=\"ActionResource\" Tooltip=\"KiPoint\">очок кі</LSTag>, що дорівнює вашій кістці бойових мистецтв."
+    },
+    {
+      "uid": "h2f7dc989gaaeeg428fga015g48d998672c01",
+      "english": "Spend [1] ki point to gain the <LSTag Type=\"Spell\" Tooltip=\"Shout_Disengage\">Disengage</LSTag> action as a <LSTag Type=\"ActionResource\" Tooltip=\"BonusActionPoint\">bonus action</LSTag> this turn.",
+      "ukrainian": "Витратити [1] очко кі, щоб цього ходу виконати <LSTag Type=\"Spell\" Tooltip=\"Shout_Disengage\">відступ</LSTag> <LSTag Type=\"ActionResource\" Tooltip=\"BonusActionPoint\">вторинною дію</LSTag>."
+    },
+    {
+      "uid": "h063bc7ebgb212g4105gb1eag39256417ab43",
+      "english": "Affected entity has an extra <LSTag Type=\"ActionResource\" Tooltip=\"BonusActionPoint\">bonus action</LSTag> and recovers [1] <LSTag Type=\"ActionResource\" Tooltip=\"KiPoint\">Ki Point</LSTag> every turn.",
+      "ukrainian": "Істота має додаткову <LSTag Type=\"ActionResource\" Tooltip=\"BonusActionPoint\">вторинну дію</LSTag> та щоходу відновлює [1] <LSTag Type=\"ActionResource\" Tooltip=\"KiPoint\">очко кі</LSTag>."
+    },
+    {
+      "uid": "h380fd620g031cg4b8bg9e8cgf7cee5902034",
+      "english": "You are Immune to the negative effects of being <LSTag Type=\"Status\" Tooltip=\"DRUNK\">Drunk</LSTag>. Once per day, when you drink alcohol, you regain half your <LSTag Type=\"ActionResource\" Tooltip=\"KiPoint\">Ki Points</LSTag> (rounded down).",
+      "ukrainian": "<LSTag Type=\"Status\" Tooltip=\"DRUNK\">Сп'яніння</LSTag> не має негативного впливу на вас. Один раз на день, випивши алкогольний напій, ви відновлюєте половину <LSTag Type=\"ActionResource\" Tooltip=\"KiPoint\">очок кі</LSTag> (заокруглено до меншого)."
+    },
+    {
+      "uid": "hdd60f4cegfa2eg4be9g8ffeg8f7bfd000255",
+      "english": "Regain half your <LSTag Type=\"ActionResource\" Tooltip=\"KiPoint\">Ki Points</LSTag> and enter a temporary state of <LSTag Type=\"Status\" Tooltip=\"WHOLENESS_OF_BODY\">Wholeness</LSTag> where you regain ki points and have an extra bonus action. ",
+      "ukrainian": "Відновити половину <LSTag Type=\"ActionResource\" Tooltip=\"KiPoint\">очок кі</LSTag> й увійти в тимчасовий стан <LSTag Type=\"Status\" Tooltip=\"WHOLENESS_OF_BODY\">гармонії</LSTag>, в якому ви відновлюєте очки кі й маєте додаткову вторинну дію."
+    }
+  ],
+  "Acid": [
+    {
+      "uid": "h56c56f38g0456g4531gb95dg67fb3e88f107",
+      "english": "Acid",
+      "ukrainian": "Кислота"
+    },
+    {
+      "uid": "h6920ee6dga8aag49ffg98d3g4beb0518d3b4",
+      "english": "Acid",
+      "ukrainian": "Кислотна"
+    },
+    {
+      "uid": "h9091099agbb32g48ffg8b4fg17a303bf8b26",
+      "english": "Acid",
+      "ukrainian": "Кислота"
+    },
+    {
+      "uid": "hb09a3259g1df2g4d4fg973cg3e42876f4630",
+      "english": "Acid",
+      "ukrainian": "Кислота"
+    },
+    {
+      "uid": "hc3cd9b4eg4ea4g4438gbfbbg493c0abb6dd7_4",
+      "english": "Acid",
+      "ukrainian": "Кислотна"
+    },
+    {
+      "uid": "hd7d5aa3bg554fg473cga65egd521c37a29f5",
+      "english": "Acidum!",
+      "ukrainian": null
+    },
+    {
+      "uid": "haf240a4ega4d2g42degb640g810079b04944",
+      "english": "[1] Acid",
+      "ukrainian": "[1], кислотна шкода"
+    },
+    {
+      "uid": "h1d403b8cga683g485dg8bd7g892833222694",
+      "english": "Acid Vial",
+      "ukrainian": "Пляшечка з кислотою"
+    },
+    {
+      "uid": "hdc8a91deg015dg45ceg8d80g241d74ae227e",
+      "english": "Acid Vial",
+      "ukrainian": "Пляшечка з кислотою"
+    },
+    {
+      "uid": "h0b5ce0f9g4255g4b57g92c9g53e8496590ff",
+      "english": "Acid damage",
+      "ukrainian": "Кислотна шкода"
+    },
+    {
+      "uid": "h1fafb02cg7340g4e04g9165gea60135f8fe5",
+      "english": "Acid Barrel",
+      "ukrainian": "Бочка з кислотою"
+    },
+    {
+      "uid": "h2f4ba7deg0605g4cedg8e50ge4c0851c69f0_4",
+      "english": "Acid Damage",
+      "ukrainian": "Кислотна шкода"
+    }
+  ],
+  "Cold": [
+    {
+      "uid": "h04def29eg5741g4282ga637ge31d55bc542f",
+      "english": "Cold",
+      "ukrainian": "Холодова"
+    },
+    {
+      "uid": "hb8dac175g7c56g4b3fgba56g78395650bd2e",
+      "english": "Cold",
+      "ukrainian": "Холод"
+    },
+    {
+      "uid": "hc3cd9b4eg4ea4g4438gbfbbg493c0abb6dd7_9",
+      "english": "Cold",
+      "ukrainian": "Холодова"
+    },
+    {
+      "uid": "hc9994c9agf235g420cg9939g7f1a974be294",
+      "english": "[1] Cold",
+      "ukrainian": "[1], холодова шкода"
+    },
+    {
+      "uid": "hdd4a1f7dgcd77g43fdg9a99g092723bc1a30",
+      "english": "Cold Snap",
+      "ukrainian": "Гострий холод"
+    },
+    {
+      "uid": "hf309da18g5847g4e72gbae6g6d3763ea4f11",
+      "english": "Cold Brew",
+      "ukrainian": "Прохолодне вариво"
+    },
+    {
+      "uid": "h5893588bgb548g4f31g874dg2fbfb1fa80f4",
+      "english": "Red Cold 5",
+      "ukrainian": "Холодний червоний 5"
+    },
+    {
+      "uid": "h6f9b07c2g0f57g4ae1g898bga95bda1d467a",
+      "english": "Red Cold 3",
+      "ukrainian": "Холодний червоний 3"
+    },
+    {
+      "uid": "h9c600ce8g09f2g4e81g80a7g76d6804bbbb6",
+      "english": "Red Cold 1",
+      "ukrainian": "Холодний червоний 1"
+    },
+    {
+      "uid": "ha9183d5agf219g4b38g9916gb14e5b2938dc",
+      "english": "Red Cold 4",
+      "ukrainian": "Холодний червоний 4"
+    },
+    {
+      "uid": "he0601eb7g7c73g4f91ga451gf5bed18aee10",
+      "english": "Red Cold 2",
+      "ukrainian": "Холодний червоний 2"
+    },
+    {
+      "uid": "h0202ecf7g5aecg4876g8be3g5aadb42ed5a9",
+      "english": "Cold Reflux",
+      "ukrainian": "Холодний відлив"
+    }
+  ],
+  "Fire": [
+    {
+      "uid": "h4dc16cf9g5ab0g44a5g95b4gb41bda9105be",
+      "english": "Fire",
+      "ukrainian": "Вогонь"
+    },
+    {
+      "uid": "h72d4ba14gd1c7g4878ga2d6g940925b0332c",
+      "english": "Fire",
+      "ukrainian": "Вогонь"
+    },
+    {
+      "uid": "hc3cd9b4eg4ea4g4438gbfbbg493c0abb6dd7_7",
+      "english": "Fire",
+      "ukrainian": "Вогняна"
+    },
+    {
+      "uid": "hd00151c9g54bfg4d57gacaag97ce8b276bd3",
+      "english": "Fire",
+      "ukrainian": "Вогняна"
+    },
+    {
+      "uid": "h6c087efegf108g488dgae74gd6be9b23d5ad",
+      "english": "Bonfire",
+      "ukrainian": "Багаття"
+    },
+    {
+      "uid": "h011fbcccge0f9g4fe0ga654g8be6b1bcd4c4",
+      "english": "[1] Fire",
+      "ukrainian": "[1], вогняна шкода"
+    },
+    {
+      "uid": "h1c64f4dag1268g4c18gb0b1g470d752a1c0a",
+      "english": "Hellfire",
+      "ukrainian": "Пекельний вогонь"
+    },
+    {
+      "uid": "h20b95e68g2f1eg4cddg826ag59ca98b8ff30",
+      "english": "Hellfire",
+      "ukrainian": "Пекельний вогонь"
+    },
+    {
+      "uid": "h297f1716g8822g481fgb2bcg6c7a0f6f757c",
+      "english": "Fireball",
+      "ukrainian": "Вогняна куля"
+    },
+    {
+      "uid": "h424a7804g2a2fg4ce0g88f0g216fb9a4d51d",
+      "english": "Campfire",
+      "ukrainian": "Багаття"
+    },
+    {
+      "uid": "h47fbac5dgda23g402bg9bcdg2cae3cc38820",
+      "english": "Moonfire",
+      "ukrainian": "Місячний вогонь"
+    },
+    {
+      "uid": "h72952ae1ge32bg4d48ga017g15998cc3b8bc",
+      "english": "Firewood",
+      "ukrainian": "Дрова"
+    }
+  ],
+  "Lightning": [
+    {
+      "uid": "h647de1eege687g4fe6g83dbg732e1c6e117b",
+      "english": "Lightning",
+      "ukrainian": "Блискавкова"
+    },
+    {
+      "uid": "h95295c6ag8609g4964g80b8g6caa0b15678a",
+      "english": "Lightning",
+      "ukrainian": "Блискавкова"
+    },
+    {
+      "uid": "hc3cd9b4eg4ea4g4438gbfbbg493c0abb6dd7_8",
+      "english": "Lightning",
+      "ukrainian": "Блискавкова"
+    },
+    {
+      "uid": "h5c0a1fa7ge75eg444fg888eg665b52fa8729",
+      "english": "[1] Lightning",
+      "ukrainian": "[1], блискавкова шкода"
+    },
+    {
+      "uid": "h03afc3afg3dd5g421bg8ef6g3992c6035126",
+      "english": "Lightning Trap",
+      "ukrainian": "Блискавкова пастка"
+    },
+    {
+      "uid": "h2a1a8525g260fg4f11gbd76gb757c22b91ba",
+      "english": "Lightning Trap",
+      "ukrainian": "Блискавкова пастка"
+    },
+    {
+      "uid": "h486dde53gedc7g4b13ga12cg9aab3aefeaa2",
+      "english": "Lightning Trap",
+      "ukrainian": "Блискавкова пастка"
+    },
+    {
+      "uid": "h4913bb2bgfb0ag4a28g8c72gbdd421b924ab",
+      "english": "Lightning Bolt",
+      "ukrainian": "Розряд блискавки"
+    },
+    {
+      "uid": "h5e2ab1dcg8972g4bceg9f56g40ecf6f60073",
+      "english": "Call Lightning",
+      "ukrainian": "Заклик блискавки"
+    },
+    {
+      "uid": "h740541adg30d0g4f5egb930g36eb89a7033b",
+      "english": "Lightning Lure",
+      "ukrainian": "Блискавкова примана"
+    },
+    {
+      "uid": "h985cfc9agdbb4g4280ga70aga2996b468165",
+      "english": "Lightning Bolt",
+      "ukrainian": "Розряд блискавки"
+    },
+    {
+      "uid": "haae76a0egadf8g4903g94ddgd48c2569e673",
+      "english": "Lightning Aura",
+      "ukrainian": "Блискавкова аура"
+    }
+  ],
+  "Poison": [
+    {
+      "uid": "h3023a555g9355g4982gb857g036adcc93e96",
+      "english": "Poison",
+      "ukrainian": "Отрутна"
+    },
+    {
+      "uid": "h7778dc6dg77fdg4195ga83cg7c28f0894816",
+      "english": "Poison",
+      "ukrainian": "Отрута3"
+    },
+    {
+      "uid": "h7ecb0492g363fg4b80gb9e2gdb068327e2f8",
+      "english": "Poison",
+      "ukrainian": "Отрута"
+    },
+    {
+      "uid": "hc3cd9b4eg4ea4g4438gbfbbg493c0abb6dd7_11",
+      "english": "Poison",
+      "ukrainian": "Отрутна"
+    },
+    {
+      "uid": "h21a83aa2ge9d5g4779g9cbcgb4ddec178dd2",
+      "english": "Poisoned",
+      "ukrainian": "Отруєння"
+    },
+    {
+      "uid": "h6e62f659g83f9g4955g893ege0269141ff93",
+      "english": "Poisoned",
+      "ukrainian": "Отруєння"
+    },
+    {
+      "uid": "ha0611b46gb049g4805g9327ge9e03848f6e6",
+      "english": "POISONED",
+      "ukrainian": "POISONED"
+    },
+    {
+      "uid": "hd58e3781gc50cg486fga2a5gbeab48c9a4c6",
+      "english": "Poisoned",
+      "ukrainian": "Отруєння"
+    },
+    {
+      "uid": "h124f7a51g3a8eg439fg814fg9efe658bf814",
+      "english": "[1] Poison",
+      "ukrainian": "[1], отрутна шкода"
+    },
+    {
+      "uid": "h1c8256e4g5b4dg4ab3gb88bgac282590c605",
+      "english": "Poisonchops",
+      "ukrainian": "Ядоруб"
+    },
+    {
+      "uid": "h1cc9f73fg2bfcg498fgb487gfd6d5eea74fc",
+      "english": "Drow Poison",
+      "ukrainian": "Отрута дроу"
+    },
+    {
+      "uid": "h1d7d7fd2g5c71g41e3ga10agc9f5e0d2acc8",
+      "english": "Poison Mist",
+      "ukrainian": "Отруйна мла"
+    }
+  ],
+  "Radiant": [
+    {
+      "uid": "h97e5a269gf0ecg4481g9ccbge4a60aadfcaa",
+      "english": "Radiant",
+      "ukrainian": "Променева"
+    },
+    {
+      "uid": "hc3cd9b4eg4ea4g4438gbfbbg493c0abb6dd7_12",
+      "english": "Radiant",
+      "ukrainian": "Променева"
+    },
+    {
+      "uid": "hfa608455gc2b4g45cegaf91g5b2344cee105",
+      "english": "Radiant",
+      "ukrainian": "Променева"
+    },
+    {
+      "uid": "h1b0a2145g73ffg4cb0g8eb9g47e95aafdbe6",
+      "english": "Radiant Cap",
+      "ukrainian": "Променева верхівка"
+    },
+    {
+      "uid": "h7e0033a3g988dg4c35ga92bg628f79c92055",
+      "english": "[1] Radiant",
+      "ukrainian": "[1], променева шкода"
+    },
+    {
+      "uid": "h69efcaa3ga33bg48edga779g32a1c482ccd6",
+      "english": "Ever Radiant",
+      "ukrainian": "Вічносяйність"
+    },
+    {
+      "uid": "h2f4ba7deg0605g4cedg8e50ge4c0851c69f0_12",
+      "english": "Radiant Damage",
+      "ukrainian": "Променева шкода"
+    },
+    {
+      "uid": "h32d117aag8ccfg4373g9534gf21d4ba58e29",
+      "english": "Radiant Strike",
+      "ukrainian": "Променевий удар"
+    },
+    {
+      "uid": "hbb704683g7464g4c39g80d3g2b9487108a7c",
+      "english": "Radiant Damage",
+      "ukrainian": "Променева шкода"
+    },
+    {
+      "uid": "hd654e848g3acfg4a5eg8a7bg3516fef1d1f0",
+      "english": "Radiant damage",
+      "ukrainian": "Променева шкода"
+    },
+    {
+      "uid": "hf68573edgb5f3g4027gb92cgd55a096d74b3",
+      "english": "Radiant Retort",
+      "ukrainian": "Променевий одвіт"
+    },
+    {
+      "uid": "hb10f1047gfdbeg4b48g9064gd8354735bd8c",
+      "english": "Radiant Hopeful",
+      "ukrainian": "Світла надія"
+    }
+  ],
+  "Thunder": [
+    {
+      "uid": "h24650d5cgd8afg46e7ga817g87a20ae8da3d",
+      "english": "Thunder",
+      "ukrainian": "Громова"
+    },
+    {
+      "uid": "hc3cd9b4eg4ea4g4438gbfbbg493c0abb6dd7_5",
+      "english": "Thunder",
+      "ukrainian": "Громова"
+    },
+    {
+      "uid": "hd2ae824dgdaefg4284ga898g2e9479cf37e9",
+      "english": "Thunder",
+      "ukrainian": "Громова"
+    },
+    {
+      "uid": "h40c21f52g0271g4082g8742gba105f44c91d",
+      "english": "Thunderwave",
+      "ukrainian": "Громохвиля"
+    },
+    {
+      "uid": "h6950dbb8gac59g44d5gbcfega72ec7d308ba",
+      "english": "Thunderwave",
+      "ukrainian": "Громохвиля"
+    },
+    {
+      "uid": "h6a0999c9g19f0g4a2bg8247g0c5f78a66703",
+      "english": "Thunderclap",
+      "ukrainian": "Рокіт грому"
+    },
+    {
+      "uid": "hc895c21dg37b0g4606g9eaeg5f6381daa7e5",
+      "english": "Thunderclap",
+      "ukrainian": "Рокіт грому"
+    },
+    {
+      "uid": "hd7ea419cg9831g40ffg8d24g4333a5a9ab62",
+      "english": "[1] Thunder",
+      "ukrainian": "[1], громова шкода"
+    },
+    {
+      "uid": "h02b2fbe3g185eg420bg971bg59ebff8fb847",
+      "english": "Thunderthoom! ",
+      "ukrainian": "Громобух! "
+    },
+    {
+      "uid": "h2f4ba7deg0605g4cedg8e50ge4c0851c69f0_5",
+      "english": "Thunder Damage",
+      "ukrainian": "Громова шкода"
+    },
+    {
+      "uid": "h61fab8e4g7fe0g4b6dga332ged93b79f3c02",
+      "english": "Thunder damage",
+      "ukrainian": "Громова шкода"
+    },
+    {
+      "uid": "hbecb4ca9g48bag40fag819egafd249d8b96b",
+      "english": "Thunder Damage",
+      "ukrainian": "Громова шкода"
+    }
+  ],
+  "Psychic": [
+    {
+      "uid": "hc3cd9b4eg4ea4g4438gbfbbg493c0abb6dd7_10",
+      "english": "Psychic",
+      "ukrainian": "Психічна"
+    },
+    {
+      "uid": "hc72a5653g5557g4bc0g9cddgb800298afaad",
+      "english": "Psychic",
+      "ukrainian": "Психічна"
+    },
+    {
+      "uid": "he341e7a8gc1a7g4d24g95a9g94465f8b9c46",
+      "english": "Psychic",
+      "ukrainian": "Психічна"
+    },
+    {
+      "uid": "h80d54b94g4281g4708gbf1cgfdaf4a5551f2",
+      "english": "[1] Psychic",
+      "ukrainian": "[1], психічна шкода"
+    },
+    {
+      "uid": "h38a210b3g6528g4cbagb3f9gecb61f10b556",
+      "english": "Psychic Rend",
+      "ukrainian": "Психічний розрив"
+    },
+    {
+      "uid": "hd3abc45ag2621g471cgae97g42cb2ccbc045",
+      "english": "Psychic Rend",
+      "ukrainian": "Психічний розрив"
+    },
+    {
+      "uid": "h16935cd0gdba2g4406g9a74g9627389c27e1",
+      "english": "Psychic Fling",
+      "ukrainian": "Психічний кидок"
+    },
+    {
+      "uid": "hb6c7444ag3296g4d9dgaefcg95199ccdfbc9",
+      "english": "Psychic Shock",
+      "ukrainian": "Психічний шок"
+    },
+    {
+      "uid": "hc53d2398ga5eag4000g97fbg3e924cdfee75",
+      "english": "Psychic Leech",
+      "ukrainian": "Психічна п'явка"
+    },
+    {
+      "uid": "hf24ae4ccgfe3ag4b07gbf17g782c07599138",
+      "english": "Psychic Spark",
+      "ukrainian": "Психічний спалах"
+    },
+    {
+      "uid": "h10fd9484g2096g46e6g9ec9g751d5fed0e45",
+      "english": "Psychic Damage",
+      "ukrainian": "Психічна шкода"
+    },
+    {
+      "uid": "h2f4ba7deg0605g4cedg8e50ge4c0851c69f0_10",
+      "english": "Psychic Damage",
+      "ukrainian": "Психічна шкода"
+    }
+  ],
+  "Force": [
+    {
+      "uid": "h1e927ef5g95e7g4c38g8534g39dcb3d42691",
+      "english": "Force",
+      "ukrainian": "Силова"
+    },
+    {
+      "uid": "hc3cd9b4eg4ea4g4438gbfbbg493c0abb6dd7_13",
+      "english": "Force",
+      "ukrainian": "Силова"
+    },
+    {
+      "uid": "hdbd6efe3g2fd5g4da7ga907g6f4452a2623b",
+      "english": "Force",
+      "ukrainian": "Силова"
+    },
+    {
+      "uid": "h11158461g3d64g4d45g8312ge6f4d1b20d2b",
+      "english": "[1] Force",
+      "ukrainian": "[1], силова шкода"
+    },
+    {
+      "uid": "h47d21786gf4d8g4e6dga0b3g81dabbda3fe6",
+      "english": "Force Bomb",
+      "ukrainian": "Силова бомба"
+    },
+    {
+      "uid": "h2c3ceaf4g04f6g4faagab8dg50807f896c37",
+      "english": "Forced Dive",
+      "ukrainian": "Примус пірнати"
+    },
+    {
+      "uid": "h578a6250ge0b9g4e78g8183ged75c3e6cec0",
+      "english": "Force Blast",
+      "ukrainian": "Силовий вибух"
+    },
+    {
+      "uid": "h13993b26g3265g4170gbc09g2e1c4d04b66f",
+      "english": "Force damage",
+      "ukrainian": "Силова шкода"
+    },
+    {
+      "uid": "h21961550ge2aeg4ba4g8789g62319f80e3aa",
+      "english": "Force Tunnel",
+      "ukrainian": "Силовий тунель"
+    },
+    {
+      "uid": "h2f4ba7deg0605g4cedg8e50ge4c0851c69f0_13",
+      "english": "Force Damage",
+      "ukrainian": "Силова шкода"
+    },
+    {
+      "uid": "h19df58dcgd283g4783g99e5g21b06ff74f98",
+      "english": "Force Conduit",
+      "ukrainian": "Силовий провідник"
+    },
+    {
+      "uid": "h1a0383fag5025g4a39g933bg127658ee8077",
+      "english": "Wall of Force",
+      "ukrainian": "Стіна сили"
+    }
+  ],
+  "Necrotic": [
+    {
+      "uid": "h09c7f407gd08fg4e4fgb21ag0863096d70eb",
+      "english": "Necrotic",
+      "ukrainian": "Некротична"
+    },
+    {
+      "uid": "h5c48deedg618bg4c80g83c8g9a8c2e6c1125",
+      "english": "Necrotic",
+      "ukrainian": "Некротична"
+    },
+    {
+      "uid": "hc3cd9b4eg4ea4g4438gbfbbg493c0abb6dd7_6",
+      "english": "Necrotic",
+      "ukrainian": "Некротична"
+    },
+    {
+      "uid": "h495fff12g476eg4f14gbbe2g2aac20cf133e",
+      "english": "Necrotic Rat",
+      "ukrainian": "Некротичний щур"
+    },
+    {
+      "uid": "h8e6afc94g1ff0g4aafg95adgddd717120552",
+      "english": "[1] Necrotic",
+      "ukrainian": "[1], некротична шкода"
+    },
+    {
+      "uid": "h0de6b495g2528g4350g988dg938e63009d3e",
+      "english": "Necrotic Bite",
+      "ukrainian": "Некротичний укус"
+    },
+    {
+      "uid": "h66931bbfgc229g42bag946bgab420d5d72f8",
+      "english": "Necrotic Veil",
+      "ukrainian": "Смертесерпанок"
+    },
+    {
+      "uid": "hcd68fbb0g18dbg4f4fgb4dfg9a6ff0af3735",
+      "english": "Necrotic Aura",
+      "ukrainian": "Некротична аура"
+    },
+    {
+      "uid": "hb73d67b3g4302g40acga4e4g1ca4e6104ade",
+      "english": "Necrotic Claws",
+      "ukrainian": "Некротичні кігті"
+    },
+    {
+      "uid": "hfe99824fgaebdg44cdgb53dgc4b2e268a4c1",
+      "english": "Necrotic Claws",
+      "ukrainian": "Некротичні кігті"
+    },
+    {
+      "uid": "h033b1adbgc977g4d9fg8168g5fadcd6fd9f5",
+      "english": "Necrotic Damage",
+      "ukrainian": "Некротична шкода"
+    },
+    {
+      "uid": "h2f4ba7deg0605g4cedg8e50ge4c0851c69f0_6",
+      "english": "Necrotic Damage",
+      "ukrainian": "Некротична шкода"
+    }
+  ],
+  "Frightened": [
+    {
+      "uid": "h08166cc8g5846g432cgbdbfg289f214ce12a",
+      "english": "Frightened",
+      "ukrainian": "Переляк"
+    },
+    {
+      "uid": "h51d00955g0f76g48c6gbc4ag32b1d5f6e3ad",
+      "english": "Frightened",
+      "ukrainian": "Страх"
+    },
+    {
+      "uid": "h7647c0a8g4088g4e81ga07ag692e3e7ba1c0",
+      "english": "Frightened Ox",
+      "ukrainian": "Зляканий віл"
+    },
+    {
+      "uid": "he4f2c390g5b26g40dagbe73g715b27281d6a",
+      "english": "Gasp_Frightened",
+      "ukrainian": null
+    },
+    {
+      "uid": "h2a929d47g86ceg4573g9b91ge2bcca7be755",
+      "english": "Frightened Immunity",
+      "ukrainian": "Непіддатливість переляку"
+    },
+    {
+      "uid": "hbef3e645g4b7eg4fcegb26eg0b70f3764b1f",
+      "english": "Don't be frightened.",
+      "ukrainian": "Не лякайся."
+    },
+    {
+      "uid": "h68b02a61gc692g42a9ga8adg54b98dbf49e8",
+      "english": "GaspFrightened<br>var 2",
+      "ukrainian": null
+    },
+    {
+      "uid": "h6ed45c19g822eg4452gbbf6gdddbd968488c",
+      "english": "GaspFrightened<br>var 3",
+      "ukrainian": null
+    },
+    {
+      "uid": "hb23c8f25g7ac9g48b3g8effg150f6030359b",
+      "english": "Multiattack: Frightened",
+      "ukrainian": "Мультиатака: переляк"
+    },
+    {
+      "uid": "hbf0d7836gdbcbg43a0g817bg98b83a1c8713",
+      "english": "GaspFrightened<br>var 1",
+      "ukrainian": null
+    },
+    {
+      "uid": "hfb167aeagb082g4221g9cd2g8f3b635fbece",
+      "english": "GaspFrightened<br>var 3",
+      "ukrainian": null
+    },
+    {
+      "uid": "h61478490gae04g4cd6g914cg790b7ad26404",
+      "english": "Gasp_Frightened<br>Var 2",
+      "ukrainian": null
+    }
+  ],
+  "Charmed": [
+    {
+      "uid": "h88e25a81g90f3g48adg8f25g62b54172b83a",
+      "english": "Charmed",
+      "ukrainian": "Причарування"
+    },
+    {
+      "uid": "hb2507b8bg9ecbg4393g9f8fg6af98a0fc604",
+      "english": "Charmed",
+      "ukrainian": "Причарування"
+    },
+    {
+      "uid": "hdcc6ac57g34acg4fe9g8196g9fad66903e53",
+      "english": "Charmed",
+      "ukrainian": "Причарування"
+    },
+    {
+      "uid": "hf903fca5gebd7g4f4dgbdc7g1b59d7b669c5",
+      "english": "Charmed",
+      "ukrainian": "Причарування"
+    },
+    {
+      "uid": "h47113063g1400g41b1gaa96g91a9c975bcaa",
+      "english": "Incubus Charmed",
+      "ukrainian": "Причаровано інкубом"
+    },
+    {
+      "uid": "h42cbfe93gc822g4cb5ga85bge3d57e062391",
+      "english": "Charmed, I'm sure.<br>",
+      "ukrainian": null
+    },
+    {
+      "uid": "h5061ac31ga861g4f56g8debg5544f103c9e9",
+      "english": "Condition Type: Charmed",
+      "ukrainian": "Тип стану: причарування"
+    },
+    {
+      "uid": "h725dc7c6g9fa3g412cg91d7g3185f3b9bf48",
+      "english": "Everyone around the caster is charmed.",
+      "ukrainian": "Усі навколо заклинача причаровані."
+    },
+    {
+      "uid": "h76f2f84ege368g4a32gb447ge3d338587c9e",
+      "english": "Steal from a child charmed by harpies.",
+      "ukrainian": "Обікрасти дитину, причаровану гарпіями."
+    },
+    {
+      "uid": "h7adbdc49g88bdg4f8agbcedg046615b0818c",
+      "english": "We'll see how charmed you are in a minute. ",
+      "ukrainian": "Це ми зараз перевіримо. "
+    },
+    {
+      "uid": "h9d54b589g356cg4e62ga249g8932363a24f2",
+      "english": "Charmed, I'm sure. In more ways than one...",
+      "ukrainian": "Чарівно, так. У всіх сенсах цього слова..."
+    },
+    {
+      "uid": "h39bc8d21g81c3g4deegb70fg32eb612721b9",
+      "english": "Creatures charmed in this way cannot attack Raphael.",
+      "ukrainian": "Істоти, причаровані в такий спосіб, не можуть атакувати Рафаеля."
+    }
+  ],
+  "Bonus Action": [
+    {
+      "uid": "h1920d538g5572g4cf1g9473g213c48de26a6",
+      "english": "Bonus Action",
+      "ukrainian": "Вторинна дія"
+    },
+    {
+      "uid": "h1a459279ge381g42e3g8723g801b168c3940",
+      "english": "Bonus Action",
+      "ukrainian": "Вторинна дія"
+    },
+    {
+      "uid": "h7a2b85d6g3761g4f1fgb6b2g53cf10b449ea",
+      "english": "Bonus Action",
+      "ukrainian": "Вторинна дія"
+    },
+    {
+      "uid": "he84610e1g1d8bg480eg875eg21b7ecb6b87a",
+      "english": "Bonus Action",
+      "ukrainian": "Вторинна дія"
+    },
+    {
+      "uid": "hb91ef955g55dcg42f7gbeedg17519d20dc97",
+      "english": "Bonus Actions",
+      "ukrainian": "Вторинна дія"
+    },
+    {
+      "uid": "h774d2034g260ag4415g811fge16ec53b3c81",
+      "english": "Extra Bonus Action",
+      "ukrainian": "Додаткова вторинна дія"
+    },
+    {
+      "uid": "hfc469095gb1c3g471aga51fgf9b5195409a5",
+      "english": "Dash: Bonus Action",
+      "ukrainian": "Біг: вторинна дія"
+    },
+    {
+      "uid": "h42fd1334g1251g4ce6gbcd8gc38a02443a74",
+      "english": "Disengage: Bonus Action",
+      "ukrainian": "Відступ: вторинна дія"
+    },
+    {
+      "uid": "hc9c9197cg997fg4dcagad83g7fd70e8c645e",
+      "english": "Can't use bonus actions",
+      "ukrainian": "Не може виконувати вторинні дії"
+    },
+    {
+      "uid": "h19bb45b8g217fg42eag9a00g2e026f3e4cdb",
+      "english": "Throw as a Bonus Action.",
+      "ukrainian": "Метнути вторинною дією."
+    },
+    {
+      "uid": "h613008ffge91dg40c4gb503g2f90245a9686",
+      "english": "Gains Bite as a bonus action.",
+      "ukrainian": "Може виконати \"Укус\" вторинною дією."
+    },
+    {
+      "uid": "h39a1435cg89ecg43efga4adgd2318a5173d1",
+      "english": "Gain an additional bonus action.",
+      "ukrainian": "Дає додаткову вторинну дію."
+    }
+  ],
+  "Saving Throw": [
+    {
+      "uid": "h53a94e02g4319g47f7gb38fg87a53127da50",
+      "english": "Saving Throw",
+      "ukrainian": "Кидок протидії"
+    },
+    {
+      "uid": "h5fdf89fbga64ag4ad1gb480gd1e1cd898ef4",
+      "english": "Saving Throw",
+      "ukrainian": "Кидок протидії"
+    },
+    {
+      "uid": "he05df610g11a9g404bgb057g9456bdbe6883",
+      "english": "Saving Throw",
+      "ukrainian": "Кидок протидії"
+    },
+    {
+      "uid": "hee142cf4gb62bg4ae9g86e8g0e1024439d7a",
+      "english": "Saving Throw",
+      "ukrainian": "Кидок протидії"
+    },
+    {
+      "uid": "hb41a9fcag75cag4931g9a1fg374b4d83f8cf",
+      "english": "Saving Throws",
+      "ukrainian": "Протидія:"
+    },
+    {
+      "uid": "h9435ea1bgf6eag400bgb60ag95b634e2af49",
+      "english": "[1] Saving Throw",
+      "ukrainian": "Протидія: [1]"
+    },
+    {
+      "uid": "ha9eabfe7ga85ag413cgb41dgb3dc10ac60f9",
+      "english": "to Saving Throws",
+      "ukrainian": "до кидків протидії"
+    },
+    {
+      "uid": "he95e05c9g1566g4d8bg9aacgfa0eebd35c0e",
+      "english": "[1] Saving Throws",
+      "ukrainian": "Протидія: [1]"
+    },
+    {
+      "uid": "ha1262989ge5e8g47aegb0begd830dd1a946f",
+      "english": "Saving Throw Bonus",
+      "ukrainian": "Бонус протидії"
+    },
+    {
+      "uid": "hbcc8fbb3g4820g4ec6gbda6g2376dbf22fea",
+      "english": "Death Saving Throw",
+      "ukrainian": "Протидія смерті"
+    },
+    {
+      "uid": "hed3ea8fag4a5eg48d2gb36bgae271661ddc3",
+      "english": "Death Saving Throw",
+      "ukrainian": "Протидія смерті"
+    },
+    {
+      "uid": "hba41d014g7db9g4d2dgbce1ge079a38e0aad",
+      "english": "[1] (Saving Throw):",
+      "ukrainian": "[1] (Кидок протидії):"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "mappings":{
+        "advancement": {
+            "entryType": "Item",
+            "mappingEntries": {
+                "title": "title"
+
+            }
+        }
+    }
+}
+    

@@ -1,0 +1,18 @@
+{
+  "omitted_directories": [
+    "*/work/bg3dnd/.git (all local branch heads preserved separately)",
+    "*/work/__pycache__",
+    "initial/work/.dotnet8",
+    "initial/work/ExportTool-v1.20.4",
+    "initial/work/LanguageTool-6.5",
+    "initial/work/models",
+    "ukrainian/work/preservation-20260930 (this run tooling; final evidence saved separately)"
+  ],
+  "excluded_files": 131363,
+  "by_reason": {
+    "Bulk extracted game/mod resource; source repository and full built PAKs preserved separately. Not copied as another full project snapshot.": 131168,
+    "Downloaded third-party runtime/tool/installer, not translation work": 192,
+    "Runtime metadata, logs, cache, environment or credentials exclusion": 3
+  },
+  "complete_list": "exclusions.json.gz"
+}

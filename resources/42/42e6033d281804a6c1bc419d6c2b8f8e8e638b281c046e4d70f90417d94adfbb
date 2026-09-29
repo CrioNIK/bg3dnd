@@ -1,0 +1,80 @@
+{
+  "id": "dnd5e_pl",
+  "title": "Polska wersja SRD D&D 5.0",
+  "version": "vDev",
+  "compatibility": {
+    "minimum": "13.347",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Damian W.",
+      "flags": {}
+    },
+    {
+      "name": "Mateusz Ł.",
+      "flags": {}
+    },
+    {
+      "name": "Jakub H.",
+      "discord": "lioheart77",
+      "email": "caco7.lioheart@gmail.com",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "verified": "5.3.3"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "PolishCore",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Pełne polskie tłumaczenie zasad podstawowych (Core) D&D 5.0 SRD oraz częściowe tłumaczenie kompendium. Zawiera możliwość podglądu angielskich tytułów i przełączania opisów między polskim a angielskim.",
+  "esmodules": [
+    "./babele-register.js",
+    "scripts/dnd5e.js",
+    "scripts/original-name.js",
+    "scripts/item-payload-language-toggle.js",
+    "scripts/translator.js"
+  ],
+  "styles": [
+    "styles/dnd5e.css"
+  ],
+  "languages": [
+    {
+      "lang": "pl",
+      "name": "Polski",
+      "path": "lang/pl/pl.json"
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/dnd5e_pl/static/cover_dnd.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "url": "Filled in by the release workflow",
+  "manifest": "Filled in by the release workflow",
+  "download": "Filled in by the release workflow"
+}

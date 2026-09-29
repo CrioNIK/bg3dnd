@@ -1,0 +1,164 @@
+[
+  {
+    "uids": [
+      "h1cfa58a7g0e63gc978gdfebg07ca3910c91d"
+    ],
+    "rule": "MORFOLOGIK_RULE_PL_PL",
+    "fragment": "k6",
+    "message": "Wykryto prawdopodobny błąd pisowni",
+    "suggestions": [
+      "km",
+      "kg",
+      "ks",
+      "ku",
+      "KC"
+    ],
+    "polish": "Szybka regeneracja: k6"
+  },
+  {
+    "uids": [
+      "hdc2803e7g3ab7gce12ge2e6g43b054b38cf0"
+    ],
+    "rule": "MORFOLOGIK_RULE_PL_PL",
+    "fragment": "k8",
+    "message": "Wykryto prawdopodobny błąd pisowni",
+    "suggestions": [
+      "km",
+      "kg",
+      "ks",
+      "ku",
+      "KC"
+    ],
+    "polish": "Szybka regeneracja: k8"
+  },
+  {
+    "uids": [
+      "hdde6e8d1g2ffbg6a90g60c2g5429dfd26e6d"
+    ],
+    "rule": "MORFOLOGIK_RULE_PL_PL",
+    "fragment": "k10",
+    "message": "Wykryto prawdopodobny błąd pisowni",
+    "suggestions": [
+      "KRO",
+      "KKO"
+    ],
+    "polish": "Szybka regeneracja: k10"
+  },
+  {
+    "uids": [
+      "h8abbf551g5ac0g6ad5g3629g6c8cc9989df7"
+    ],
+    "rule": "MORFOLOGIK_RULE_PL_PL",
+    "fragment": "k12",
+    "message": "Wykryto prawdopodobny błąd pisowni",
+    "suggestions": [
+      "K2",
+      "B12",
+      "km2"
+    ],
+    "polish": "Szybka regeneracja: k12"
+  },
+  {
+    "uids": [
+      "h700ea52eg9c99gd7e6gde4dg273c50946ace"
+    ],
+    "rule": "MORFOLOGIK_RULE_PL_PL",
+    "fragment": "Bahamut",
+    "message": "Wykryto prawdopodobny błąd pisowni",
+    "suggestions": [
+      "Bahamy",
+      "Bahamów",
+      "Bachamy",
+      "Bałamut"
+    ],
+    "polish": "Choć głównymi wyznawcami Domeny smoka są smoki, smocze bóstwa przyjmują cześć od każdego, kto pragnie bogactwa lub potęgi. Klerycy Domeny smoka, często uznawani za kultystów, potrafią czerpać ze smoczej mocy i przybierać smocze cechy, by władać przerażającą magią żywiołów i roztaczać budzący grozę majestat pradawnego smoka.\n\nDo głównych bóstw Domeny smoka należą Tiamat, pięciogłowa matka smoków chromatycznych, oraz Bahamut, sprawiedliwy i mądry bóg smoków metalicznych."
+  },
+  {
+    "uids": [
+      "h032fd619gf949g7b67gc02bg1aa49a47f618"
+    ],
+    "rule": "MORFOLOGIK_RULE_PL_PL",
+    "fragment": "przywołaniec",
+    "message": "Wykryto prawdopodobny błąd pisowni",
+    "suggestions": [
+      "przywołanie",
+      "przywołaniem",
+      "przywołanie c"
+    ],
+    "polish": "Poziom 6: Wytrzymały przywołaniec"
+  },
+  {
+    "uids": [
+      "h845a3236geefbg33beg185bg2467fff43415",
+      "haae34dd9ga779g179bg2051g0adab6f310a9"
+    ],
+    "rule": "MORFOLOGIK_RULE_PL_PL",
+    "fragment": "przywołaniec",
+    "message": "Wykryto prawdopodobny błąd pisowni",
+    "suggestions": [
+      "przywołanie",
+      "przywołaniem",
+      "przywołanie c"
+    ],
+    "polish": "Wytrzymały przywołaniec"
+  },
+  {
+    "uids": [
+      "h6be8fe6age82fgfd69g1610g7692b75277f2"
+    ],
+    "rule": "ZDANIA_ZLOZONE",
+    "fragment": "maga uroków mami lub",
+    "message": "W tym zdaniu złożonym brakuje przecinka lub spójnika między jednym czasownikiem („maga”) a drugim („mami”).",
+    "suggestions": [],
+    "polish": "Magia maga uroków mami lub zniewala umysły. Niektórzy magowie uroków wykorzystują swoje zdolności, by szerzyć pokój i łagodzić okrucieństwo, inni zaś posługują się magią wpływającą na umysł dla własnych korzyści."
+  },
+  {
+    "uids": [
+      "h44ce0999gffb8gccf4g4429gb9df80d8aa64"
+    ],
+    "rule": "SKROTY_Z_KROPKA",
+    "fragment": "ST",
+    "message": "Ten skrót piszemy z kropką: \"ST.\"",
+    "suggestions": [
+      "ST."
+    ],
+    "polish": "Twoje czarujące słowa i zniewalające spojrzenie mogą omamić inną istotę. W ramach akcji Magii wybierz jedną istotę, którą widzisz w odległości do 10 stóp od siebie. Jeśli cel cię widzi lub słyszy, musi wykonać rzut obronny na Mądrość przeciwko twojemu ST obrony przed czarami. Przy niepowodzeniu otrzymuje stan zauroczenia na 1 minutę lub do chwili, gdy znajdzie się dalej niż 10 stóp od ciebie, nie będzie cię ani widzieć, ani słyszeć lub otrzyma obrażenia. Dopóki cel jest zauroczony, ma stan obezwładnienia, a jego szybkość ruchu wynosi 0."
+  },
+  {
+    "uids": [
+      "he44f5a5ag8903g58a8g0e1cg2ea347073734"
+    ],
+    "rule": "SKROTY_Z_KROPKA",
+    "fragment": "ST",
+    "message": "Ten skrót piszemy z kropką: \"ST.\"",
+    "suggestions": [
+      "ST."
+    ],
+    "polish": "W ramach akcji Magii wybierz jedną istotę, którą widzisz w odległości do 10 stóp od siebie. Jeśli cel cię widzi lub słyszy, musi wykonać rzut obronny na Mądrość przeciwko twojemu ST obrony przed czarami. Przy niepowodzeniu otrzymuje stan zauroczenia na 1 minutę lub do chwili, gdy znajdzie się dalej niż 10 stóp od ciebie, nie będzie cię ani widzieć, ani słyszeć lub otrzyma obrażenia. Dopóki cel jest zauroczony, ma stan obezwładnienia, a jego szybkość ruchu wynosi 0.\n\nMożesz użyć tej zdolności tyle razy, ile wynosi twój modyfikator Inteligencji (co najmniej raz), a wszystkie zużyte użycia odzyskujesz po ukończeniu długiego odpoczynku."
+  },
+  {
+    "uids": [
+      "ha168556fge640g4803ge1f6g5b1181795ede"
+    ],
+    "rule": "SKROTY_Z_KROPKA",
+    "fragment": "ST",
+    "message": "Ten skrót piszemy z kropką: \"ST.\"",
+    "suggestions": [
+      "ST."
+    ],
+    "polish": "Gdy istota, którą widzisz w odległości do 30 stóp od siebie, trafi cię w wyniku testu ataku, możesz użyć reakcji, aby zmusić atakującego do wykonania rzutu obronnego na Mądrość przeciwko twojemu ST obrony przed czarami. Przy niepowodzeniu atak zamiast tego chybia, a jeśli w jego zasięgu znajduje się inna istota (poza atakującym), atakujący kieruje atak, który wywołał tę reakcję, przeciwko niej.\n\nGdy użyjesz tej reakcji, nie możesz zrobić tego ponownie do ukończenia długiego odpoczynku. Możesz również odzyskać jej użycie, rzucając czar ze szkoły uroków z użyciem komórki czaru."
+  },
+  {
+    "uids": [
+      "he504c8bcgc377gbf92g559cgc2e5c646bb4c",
+      "h2b3e0b5egc58eg3bcfg3be2g8ffaee250109"
+    ],
+    "rule": "SKROTY_Z_KROPKA",
+    "fragment": "ST",
+    "message": "Ten skrót piszemy z kropką: \"ST.\"",
+    "suggestions": [
+      "ST."
+    ],
+    "polish": "Gdy istota, którą widzisz w odległości do 30 stóp od siebie, trafi cię w wyniku testu ataku, możesz użyć reakcji, aby zmusić atakującego do wykonania rzutu obronnego na Mądrość przeciwko twojemu ST obrony przed czarami. Przy niepowodzeniu atak zamiast tego chybia, a jeśli w jego zasięgu znajduje się inna istota (poza atakującym), atakujący kieruje atak, który wywołał tę reakcję, przeciwko niej."
+  }
+]

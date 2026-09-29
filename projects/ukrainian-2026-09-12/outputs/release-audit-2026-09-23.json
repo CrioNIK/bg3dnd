@@ -1,0 +1,83 @@
+{
+  "audit_date": "2026-09-23",
+  "upstream_main": "b8c37c41621fc584432852b71aeb2df979298658",
+  "pr": {
+    "url": "https://github.com/Yoonmoonsik/bg3dnd/pull/1447",
+    "merged_at": "2026-09-12T14:58:47Z",
+    "merge_sha": "145e3d6046cf5455193d0c57ffd11ec971181d30"
+  },
+  "installed": {
+    "pak": "C:\\Users\\coldb\\AppData\\Local\\Larian Studios\\Baldur's Gate 3\\Mods\\dnd2024_897914ef-5c96-053c-44a-8z6z.pak",
+    "pak_size": 96292286,
+    "version": "4.12.13.10",
+    "publish_handle": "4419649",
+    "enabled_in_public_profile": true,
+    "ukrainian_sha256": "340aa7bb3292450505bda4024aed103fb77eabedb621774c1aa0c7fd9ac07e04",
+    "our_records_checked": 113,
+    "our_records_missing": [],
+    "our_records_differing": [],
+    "coverage": {
+      "english_count": 5463,
+      "ukrainian_count": 5463,
+      "missing_ids": [],
+      "extra_ids": [],
+      "version_mismatches": []
+    },
+    "removed_since_our_pr": [
+      {
+        "id": "h33e4840fg9b06g37ddg46b2g81f0faa0ab99",
+        "previous_text": "Убивця магів",
+        "still_in_installed_english": false,
+        "still_in_current_english": false
+      }
+    ]
+  },
+  "current_main": {
+    "ukrainian_sha256": "8b91e2805a53501a3717bd87ec92cdf1c34b5dfab053e2b4464fc5707171f5b5",
+    "our_records_missing": [],
+    "our_records_differing": [],
+    "coverage": {
+      "english_count": 5465,
+      "ukrainian_count": 5463,
+      "missing_ids": [
+        "hdffca0ecgaf1cge2c8gd24cg905db7140250",
+        "hf45ced1cg4402g27d7ga457g192d6c7a577b"
+      ],
+      "extra_ids": [],
+      "version_mismatches": []
+    },
+    "english_added_since_our_baseline": [
+      {
+        "id": "hdffca0ecgaf1cge2c8gd24cg905db7140250",
+        "version": "1",
+        "text": "A beam of brilliant light sears and <LSTag Type=\"Status\" Tooltip=\"SUNBEAM\">Blinds</LSTag> all creatures in its path. Until the spell ends, you can recast Sunbeam without expending a <LSTag Tooltip=\"SpellSlot\">spell slot</LSTag>."
+      },
+      {
+        "id": "hf45ced1cg4402g27d7ga457g192d6c7a577b",
+        "version": "1",
+        "text": "For the duration, a mote of brilliant radiance shines above you. It sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. This light is sunlight."
+      }
+    ],
+    "english_changed_since_our_baseline": []
+  },
+  "nexus": {
+    "url": "https://www.nexusmods.com/baldursgate3/mods/12727?tab=files",
+    "latest_version": "4.12.13.11",
+    "file_id": 131207,
+    "uploaded_at_utc": "2026-09-23T08:23:00Z",
+    "archive_contents_independently_verified": false,
+    "limitation": "Nexus requires account login for archive download in the available browser."
+  },
+  "modio": {
+    "url": "https://mod.io/g/baldursgate3/m/bg3dnd",
+    "id": 4419649,
+    "updated_at_kyiv": "2026-09-23T11:22:00+03:00",
+    "ukrainian_tag_and_credit_present": true,
+    "latest_console_approval_verified": false
+  },
+  "owner_instructions": {
+    "source": "Gmail correspondence, 2026-08-27",
+    "thread_id": "1a04419de92a99cc",
+    "workflow": "Translator submits Ukrainian XML only via PR against main; owner handles packaging and release to Nexus and mod.io; console updates require Larian approval."
+  }
+}

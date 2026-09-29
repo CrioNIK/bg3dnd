@@ -1,0 +1,401 @@
+{
+  "new": [
+    {
+      "contentuid": "hd96ff844gf66bg0e09g8f4bg3e72ec561d7b",
+      "version": "1",
+      "english": "Feat: Ember of the Fire Giant"
+    },
+    {
+      "contentuid": "h5c65e74bgcca7gff2agc4abg0700018dda54",
+      "version": "2",
+      "english": "Born of Flame. You have resistance to fire damage.\n\nSearing Ignition. When you take the Attack action on your turn, you can replace a single attack with a magical burst of flame. Each creature of your choice in a 15-foot-radius sphere centered on you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Strength or Wisdom modifier, whichever is higher). On a failed save, a creature takes fire damage equal to 1d8 + your proficiency bonus, and it has the blinded condition until the start of your next turn. On a successful save, the creature takes half as much damage only. You can use your Searing Ignition a number of times equal to your proficiency bonus (but no more than once per turn), and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "contentuid": "h01d6d533g9bc4g0cdegde2fg1d200535c4e7",
+      "version": "1",
+      "english": "Searing Ignition"
+    },
+    {
+      "contentuid": "hed9510fdg4a6dge76dgaa9bg643066cb6cf5",
+      "version": "2",
+      "english": "Each creature of your choice in a 15-foot-radius sphere centered on you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Strength or Wisdom modifier, whichever is higher). On a failed save, a creature takes fire damage equal to 1d8 + your proficiency bonus, and it has the blinded condition until the start of your next turn. On a successful save, the creature takes half as much damage only."
+    },
+    {
+      "contentuid": "h29832775g4de3gb8f5ge5d0g6d6aabe5c831",
+      "version": "1",
+      "english": "You can use your Searing Ignition a number of times equal to your proficiency bonus (but no more than once per turn), and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "contentuid": "h3af3bee1ga521g78aeg9884g7062f7adbcdc",
+      "version": "1",
+      "english": "Searing Ignition"
+    },
+    {
+      "contentuid": "hbd1e6665g7e1dga3b7g56eagafddb67a4d9f",
+      "version": "1",
+      "english": "Ember of the Fire Giant"
+    },
+    {
+      "contentuid": "h34aa43d4geb01g6558gc027g96c6c82fe37d",
+      "version": "1",
+      "english": "You’ve manifested the fiery combat emblematic of fire giants, granting you the following benefits:\n\nBorn of Flame. You have resistance to fire damage.\n\nSearing Ignition. When you take the Attack action on your turn, you can replace a single attack with a magical burst of flame. Each creature of your choice in a 15-foot-radius sphere centered on you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Strength or Wisdom modifier, whichever is higher). On a failed save, a creature takes fire damage equal to 1d8 + your proficiency bonus, and it has the blinded condition until the start of your next turn. On a successful save, the creature takes half as much damage only. You can use your Searing Ignition a number of times equal to your proficiency bonus (but no more than once per turn), and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "contentuid": "h3b16fa55gc1f1gdc7fge59cg958d36a4da24",
+      "version": "1",
+      "english": "Feat: Fury of the Frost Giant"
+    },
+    {
+      "contentuid": "h5e33a0bdg4748gf679g1d0fg141a368e3366",
+      "version": "1",
+      "english": "Born of Ice. You have resistance to cold damage.\n\nFrigid Retaliation. Immediately after a creature you can see within 30 feet of you hits you with an attack roll and deals damage, you can use your reaction to retaliate with a conjured blast of ice. The creature must make a Constitution saving throw (DC equals 8 + your proficiency bonus + your Strength or Wisdom modifier, whichever is higher). On a failed save, the creature takes cold damage equal to 1d8 + your proficiency bonus, and its speed is reduced to 0 until the end of its next turn. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "contentuid": "hc754da74gcba8g3950g45abgddf1f004ebb8",
+      "version": "1",
+      "english": "Frigid Retaliation"
+    },
+    {
+      "contentuid": "haf39fd6agb8eeg5b25g3f75gc2100e86736b",
+      "version": "1",
+      "english": "Frigid Retaliation"
+    },
+    {
+      "contentuid": "h4384b84egd766gbe0ag574age428758d17bf",
+      "version": "1",
+      "english": "Immediately after a creature you can see within 30 feet of you hits you with an attack roll and deals damage, you can use your reaction to retaliate with a conjured blast of ice. The creature must make a Constitution saving throw (DC equals 8 + your proficiency bonus + your Strength or Wisdom modifier, whichever is higher). On a failed save, the creature takes cold damage equal to 1d8 + your proficiency bonus, and its speed is reduced to 0 until the end of its next turn."
+    },
+    {
+      "contentuid": "ha3dfdec9g7cd2g441dge31eg8ffc3a6ed989",
+      "version": "1",
+      "english": "You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "contentuid": "h53585916g4391gda1dgf58bg7125b935d7b8",
+      "version": "1",
+      "english": "Fury of the Frost Giant"
+    },
+    {
+      "contentuid": "h6f92df19gb6e4g35bcga428gb96710c1d8ac",
+      "version": "1",
+      "english": "You’ve manifested the icy might emblematic of frost giants, granting you the following benefits:\n\nBorn of Ice. You have resistance to cold damage.\n\nFrigid Retaliation. Immediately after a creature you can see within 30 feet of you hits you with an attack roll and deals damage, you can use your reaction to retaliate with a conjured blast of ice. The creature must make a Constitution saving throw (DC equals 8 + your proficiency bonus + your Strength or Wisdom modifier, whichever is higher). On a failed save, the creature takes cold damage equal to 1d8 + your proficiency bonus, and its speed is reduced to 0 until the end of its next turn. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "contentuid": "h9c3331b2g4ec1g5c10g7086gbaa775ffdf3d",
+      "version": "1",
+      "english": "Feat: Guile of the Cloud Giant"
+    },
+    {
+      "contentuid": "h20e4b6b0g60edg473ag9aeeg93ed1d74cd27",
+      "version": "1",
+      "english": "Cloudy Escape. When a creature you can see hits you with an attack roll, you can use your reaction to give yourself resistance to that attack’s damage. You then teleport to an unoccupied space that you can see within 30 feet of yourself. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "contentuid": "h260053d0g411cg248bg4b9egb34793d3fe6a",
+      "version": "1",
+      "english": "Cloudy Escape"
+    },
+    {
+      "contentuid": "hc775738fg65a3g6054g75e4gc06c1a9d36eb",
+      "version": "1",
+      "english": "When a creature you can see hits you with an attack roll, you can use your reaction to give yourself resistance to that attack’s damage. You then teleport to an unoccupied space that you can see within 30 feet of yourself."
+    },
+    {
+      "contentuid": "h7938bdf2gea2cgf230ge7d0gec1beb3179b0",
+      "version": "1",
+      "english": "You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "contentuid": "hee2315d9g1b06g48c6g2394gbe6914d928f1",
+      "version": "1",
+      "english": "Cloudy Escape"
+    },
+    {
+      "contentuid": "hec5563b6ge606g541cg382eg17fce83ad82e",
+      "version": "1",
+      "english": "You can teleport to an unoccupied space that you can see within 30 feet of yourself."
+    },
+    {
+      "contentuid": "hc03bb68cg5b81gdc85ga99cg0c1d3dbff581",
+      "version": "1",
+      "english": "Cloudy Escape"
+    },
+    {
+      "contentuid": "hae1e738eg1d06g03e2gfb18g7c886158f122",
+      "version": "1",
+      "english": "Guile of the Cloud Giant"
+    },
+    {
+      "contentuid": "h83181830gd3c7g58d8g177cg06253bfa37db",
+      "version": "1",
+      "english": "You’ve manifested the confounding magic emblematic of cloud giants, granting you the following benefits:\n\nCloudy Escape. When a creature you can see hits you with an attack roll, you can use your reaction to give yourself resistance to that attack’s damage. You then teleport to an unoccupied space that you can see within 30 feet of yourself. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "contentuid": "h20d64b0eg7b2agba83g768eg034f36f19ad9",
+      "version": "1",
+      "english": "Shadar-kai"
+    },
+    {
+      "contentuid": "h446ae020gdccdg2b5bgde5ag55622edba1a8",
+      "version": "1",
+      "english": "Shadar-kai are the elves of the Shadowfell, originally drawn to that dread realm by the Raven Queen. Over the centuries, some of them have continued to serve her, while others have ventured into the Material Plane to forge their own destinies.\n\nOnce shadar-kai were Fey like the rest of their elven kin; now they exist in a state between life and death, thanks to being transformed by the Shadowfell’s grim energy.\n\nShadar-kai have ashen skin tones, and while they’re in the Shadowfell, they also become wizened, reflecting the somber nature of that gloomy plane.\n\nLike other elves, shadar-kai can live to be over 750 years old."
+    },
+    {
+      "contentuid": "h84ef52e7gf3a5gf5e8g24a0g6b3f04519e4b",
+      "version": "2",
+      "english": "Shadar-kai"
+    },
+    {
+      "contentuid": "hae52b795gd7a8gaf4fg82deg89900f2668fe",
+      "version": "2",
+      "english": "Shadar-kai are the elves of the Shadowfell, originally drawn to that dread realm by the Raven Queen. Over the centuries, some of them have continued to serve her, while others have ventured into the Material Plane to forge their own destinies."
+    },
+    {
+      "contentuid": "hf18a93cfg2936gc7bagafbcg0a4234767285",
+      "version": "1",
+      "english": "Shadar-kai"
+    },
+    {
+      "contentuid": "h08121305g3bafgf931g892bga7643105c0e6",
+      "version": "1",
+      "english": "Shadar-kai are the elves of the Shadowfell, originally drawn to that dread realm by the Raven Queen. Over the centuries, some of them have continued to serve her, while others have ventured into the Material Plane to forge their own destinies."
+    },
+    {
+      "contentuid": "he20db01ag854cg5a64g64d9g56c85a8ea153",
+      "version": "1",
+      "english": "Blessing of the Raven Queen"
+    },
+    {
+      "contentuid": "h8c201e1agf723gd526gdedfgb1cbcf2e8fc7",
+      "version": "1",
+      "english": "As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.\n\nStarting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent."
+    },
+    {
+      "contentuid": "h6b97eed2g9255g4750g8bf9g10ce58fbcdf7",
+      "version": "1",
+      "english": "Have Resistance to all damage. Your form is ghostly and translucent."
+    },
+    {
+      "contentuid": "he259a7acga98cg45cagb622gba09387457ed",
+      "version": "1",
+      "english": "Necrotic Resistance"
+    },
+    {
+      "contentuid": "hdd525457ge6d9g4690ga485g42dea9cf48c1",
+      "version": "1",
+      "english": "You have Resistance to Necrotic damage."
+    },
+    {
+      "contentuid": "hc36f901eg34e2g450egbfe3g4181e0fcf351",
+      "version": "1",
+      "english": "Poison Resistance"
+    },
+    {
+      "contentuid": "h4f2ba8b5gfb79g40a9g8c5bgbfe7b4ec39fd",
+      "version": "1",
+      "english": "You have Resistance to Poison damage."
+    },
+    {
+      "contentuid": "h5dbc904bgf599g46f2ga6efg931f5cd80e86",
+      "version": "1",
+      "english": "Fire Resistance"
+    },
+    {
+      "contentuid": "hd516bd43g6d0cg4b92g9ebag8c1badfbb87f",
+      "version": "1",
+      "english": "You have Resistance to Fire damage."
+    },
+    {
+      "contentuid": "h7fbe174cgf6cfg4fe6gb5b1g293d7c4d3e37",
+      "version": "1",
+      "english": "Psychic Resistance"
+    },
+    {
+      "contentuid": "h3bc8fa0fg01a0g4361g940agb1bec564346f",
+      "version": "1",
+      "english": "You have Resistance to Psychic damage."
+    },
+    {
+      "contentuid": "h8fe9c3b5g29d7g3359g5a6bg0403b92ddae6",
+      "version": "1",
+      "english": "Stone Throw"
+    },
+    {
+      "contentuid": "hb06ef4dagca4dg7a01g7aefga57eecdfe412",
+      "version": "1",
+      "english": "Feat: Keenness of the Stone Giant"
+    },
+    {
+      "contentuid": "hbd729210g3700g0c6dgfe28g7b0dc91aaae7",
+      "version": "1",
+      "english": "Cavernous Sight. You gain darkvision with a range of 60 feet. If you already have darkvision from another source, its range increases by 60 feet.\n\nStone Throw. As a bonus action, you can take a rock and make a magical attack with it, choosing between two versions of the attack: a ranged unarmed attack that uses your Strength, or a ranged spell attack that uses your spellcasting ability. Either version has a range of 60 feet. On a hit, the rock deals 1d10 force damage, and the target must succeed on a Strength saving throw or have the prone condition. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "contentuid": "h33044503g338eg0859gfe5cgcca2c0e5dada",
+      "version": "1",
+      "english": "Stone Throw (Unarmed Attack)"
+    },
+    {
+      "contentuid": "he2f81b13gd3f1g9359gc24ag4f61f26e61ab",
+      "version": "1",
+      "english": "Stone Throw (Spell Attack)"
+    },
+    {
+      "contentuid": "h173f2271g9da2gd017g9775gb5ad0a0ac5b8",
+      "version": "1",
+      "english": "As a bonus action, you can take a rock and make a magical attack with it. The attack is a ranged unarmed attack with a range of 60 feet that uses your Strength. On a hit, the rock deals 1d10 force damage, and the target must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier, whichever is higher) or have the prone condition."
+    },
+    {
+      "contentuid": "h2415e1a3g06eag453bg0e7fg6a046826c35d",
+      "version": "1",
+      "english": "You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "contentuid": "ha9fe2937g7f92g0c7bg387bge95b2c6fd446",
+      "version": "1",
+      "english": "As a bonus action, you can take a rock and make a magical attack with it. The attack is a ranged spell attack with a range of 60 feet that uses your spellcasting ability. On a hit, the rock deals 1d10 force damage, and the target must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + your spellcasting ability modifier) or have the prone condition."
+    },
+    {
+      "contentuid": "h781a6527gb26ag8f2cg7bf7gd7ae30b03ed7",
+      "version": "1",
+      "english": "Keenness of the Stone Giant"
+    },
+    {
+      "contentuid": "h0a69a08cgd46bg610cg36d9g3f28fabc55f5",
+      "version": "1",
+      "english": "You’ve manifested the physical talents emblematic of stone giants, granting you the following benefits:\n\nCavernous Sight. You gain darkvision with a range of 60 feet. If you already have darkvision from another source, its range increases by 60 feet.\n\nStone Throw. As a bonus action, you can take a rock and make a magical attack with it, choosing between two versions of the attack: a ranged unarmed attack that uses your Strength, or a ranged spell attack that uses your spellcasting ability. Either version has a range of 60 feet. On a hit, the rock deals 1d10 force damage, and the target must succeed on a Strength saving throw or have the prone condition. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "contentuid": "h135cc22fg7bf6geac7ga8eeg0ae4644a1b15",
+      "version": "1",
+      "english": "Maelstrom Aura"
+    },
+    {
+      "contentuid": "h55308372g8ed8g42dag1d55g0f824a4a4a08",
+      "version": "1",
+      "english": "Feat: Soul of the Storm Giant"
+    },
+    {
+      "contentuid": "hca055ee6g46b2g0e20gb49ag38f4471f10d5",
+      "version": "1",
+      "english": "Maelstrom Aura. As a bonus action, you surround yourself with an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts until the start of your next turn or until you are incapacitated. While the aura is active, you have resistance to lightning and thunder damage. In addition, attack rolls against you have disadvantage, and whenever another creature starts its turn within the aura, you can force the creature to make a Strength saving throw (DC equals 8 + your proficiency bonus + your Wisdom or Charisma modifier, whichever is higher). On a failed save, the creature’s speed is halved until the start of its next turn. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "contentuid": "hc6093ac7gea8cg7903gb58dg1b35f584accf",
+      "version": "1",
+      "english": "Soul of the Storm Giant"
+    },
+    {
+      "contentuid": "h7fd38532g43ebgdddagfdb3gcddfd6e82835",
+      "version": "1",
+      "english": "You’ve manifested the tempest magic emblematic of storm giants, granting you the following benefits:\n\nMaelstrom Aura. As a bonus action, you surround yourself with an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts until the start of your next turn or until you are incapacitated. While the aura is active, you have resistance to lightning and thunder damage. In addition, attack rolls against you have disadvantage, and whenever another creature starts its turn within the aura, you can force the creature to make a Strength saving throw (DC equals 8 + your proficiency bonus + your Wisdom or Charisma modifier, whichever is higher). On a failed save, the creature’s speed is halved until the start of its next turn. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "contentuid": "h090e4216g1946gf550gbbbfgb5522aa7bff4",
+      "version": "1",
+      "english": "Maelstrom Aura"
+    },
+    {
+      "contentuid": "h2b241e12gfd0agfaa6g72ddgad9ce029a10e",
+      "version": "1",
+      "english": "As a bonus action, you surround yourself with an aura of magical wind and lightning that extends 10 feet from you in every direction but not through total cover. The aura lasts until the start of your next turn or until you are incapacitated. While the aura is active, you have resistance to lightning and thunder damage. In addition, attack rolls against you have disadvantage, and whenever another creature starts its turn within the aura, you can force the creature to make a Strength saving throw (DC equals 8 + your proficiency bonus + your Wisdom or Charisma modifier, whichever is higher). On a failed save, the creature’s speed is halved until the start of its next turn."
+    },
+    {
+      "contentuid": "h8cd7361bgb04dga8dcg8c91g920954573746",
+      "version": "1",
+      "english": "You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+    },
+    {
+      "contentuid": "h1b51a9b6ge6f5ge3b7g6dfdg59523d8e8599",
+      "version": "1",
+      "english": "Maelstrom Aura"
+    },
+    {
+      "contentuid": "h846f6dc8g12d1g0e7ag1408g6768106740df",
+      "version": "1",
+      "english": "While the aura is active, you have resistance to lightning and thunder damage. In addition, attack rolls against you have disadvantage, and whenever another creature starts its turn within the aura, you can force the creature to make a Strength saving throw (DC equals 8 + your proficiency bonus + your Wisdom or Charisma modifier, whichever is higher). On a failed save, the creature’s speed is halved until the start of its next turn."
+    },
+    {
+      "contentuid": "h90252bbeg3393g924fg70d9g448e0be3ceb9",
+      "version": "1",
+      "english": "Maelstrom Aura"
+    },
+    {
+      "contentuid": "hae597794gcfa1gede3g8ef3g29752ae2c951",
+      "version": "1",
+      "english": "Movement speed is halved until the start of its next turn."
+    },
+    {
+      "contentuid": "hfacb6d8fgcc5bgc1e7g41fbgc29515fea1f9",
+      "version": "1",
+      "english": "Maelstrom Aura"
+    },
+    {
+      "contentuid": "h2881887ega98fgbae6g4968geb831b2e271d",
+      "version": "1",
+      "english": "Feat: Vigor of the Hill Giant"
+    },
+    {
+      "contentuid": "ha9361cceg5dd0g35ecg1949g313ca2768512",
+      "version": "1",
+      "english": "Bulwark. When you are subjected to an effect that would give you the prone condition, you can use your reaction to steady yourself. You don’t have the prone condition.\n\nIron Stomach. Whenever you restore hit points to yourself, you regain additional hit points equal to your Constitution modifier."
+    },
+    {
+      "contentuid": "ha90d4839gfb92gd4bfg2553g5fabe8f72404",
+      "version": "1",
+      "english": "Bulwark"
+    },
+    {
+      "contentuid": "h625d9005geaaagf264gd451g2b3a70bba135",
+      "version": "1",
+      "english": "When you are subjected to an effect that would give you the prone condition, you can use your reaction to steady yourself. You don’t have the prone condition."
+    },
+    {
+      "contentuid": "hf41a61b1g3797gaf57g5c43gf6237bafb864",
+      "version": "1",
+      "english": "Vigor of the Hill Giant"
+    },
+    {
+      "contentuid": "h0397fcaag1719g76a6g53f7g803d71e9392d",
+      "version": "2",
+      "english": "You’ve manifested the resilience emblematic of hill giants, granting you the following benefits:\n\nBulwark. When you are subjected to an effect that would give you the prone condition, you can use your reaction to steady yourself. You don’t have the prone condition.\n\nIron Stomach. Whenever you restore hit points to yourself, you regain additional hit points equal to your Constitution modifier."
+    }
+  ],
+  "changed": [
+    {
+      "contentuid": "h35551526g84e1g78f3g1277g241f3a6077bb",
+      "version": "3",
+      "previous_english": "Once per turn, when you hit a creature with your pact weapon, you can deal an extra 1d6 Necrotic damage to that creature. You also regain a number of Hit Points equal to 1d6 plus your Constitution modifier.",
+      "english": "Once per turn when you hit a creature with your pact weapon, you can deal an extra 1d6 damage to the creature, and you can expend one of your Hit Point Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1 Hit Point).",
+      "ukrainian": "Один раз за хід, коли ви влучаєте в істоту своєю зброєю договору, можете завдати їй додаткової некротичної шкоди 1d6. Ви також відновлюєте очки здоров’я в кількості 1d6 + ваш модифікатор статури."
+    },
+    {
+      "contentuid": "h36a27d43gd5ebg8776g906dg475087a01734",
+      "version": "1",
+      "previous_english": "You can draw on the mystical power of night to rise into the air. As a bonus action when you are in dim light or darkness, you can magically give yourself a flying speed equal to your walking speed for 1 minute. You can use this bonus action a number of times equal to your wisdom modifier, and you regain all expended uses when you finish a long rest.",
+      "english": "You can draw on the mystical power of night to rise into the air. As a bonus action when you are in dim light or darkness, you can magically give yourself a flying speed equal to your walking speed for 1 minute. You can use this bonus action a number of times equal to your Wisdom modifier, and you regain all expended uses when you finish a long rest.",
+      "ukrainian": "Ви можете звернутися до містичної сили ночі й здійнятися в повітря. Перебуваючи в тьмяному світлі або темряві, ви можете вторинною дією на 1 хвилину магічно отримати швидкість польоту, що дорівнює швидкості ходьби. Цю вторинну дію можна використати стільки разів, скільки становить ваш модифікатор мудрості; усі витрачені використання відновлюються після довгого відпочинку."
+    },
+    {
+      "contentuid": "hd00a3cd4g9f52gd499g2530gb2fb01ccdeba",
+      "version": "1",
+      "previous_english": "You can draw on the mystical power of night to rise into the air. As a bonus action when you are in dim light or darkness, you can magically give yourself a flying speed equal to your walking speed for 1 minute. You can use this bonus action a number of times equal to your wisdom modifier, and you regain all expended uses when you finish a long rest.",
+      "english": "You can draw on the mystical power of night to rise into the air. As a bonus action when you are in dim light or darkness, you can magically give yourself a flying speed equal to your walking speed for 1 minute. You can use this bonus action a number of times equal to your Wisdom modifier, and you regain all expended uses when you finish a long rest.",
+      "ukrainian": "Ви можете звернутися до містичної сили ночі й здійнятися в повітря. Перебуваючи в тьмяному світлі або темряві, ви можете вторинною дією на 1 хвилину магічно отримати швидкість польоту, що дорівнює швидкості ходьби. Цю вторинну дію можна використати стільки разів, скільки становить ваш модифікатор мудрості; усі витрачені використання відновлюються після довгого відпочинку."
+    },
+    {
+      "contentuid": "h02db6a63g3c71g5feeg9f17g4e0f97b6aa19",
+      "version": "3",
+      "previous_english": "The bond between you and your animal companion is strong. Your wisdom modifier is added to its <LSTag Tooltip=\"ArmourClass\">Armour Class</LSTag>, attack rolls and damage rolls.",
+      "english": "The bond between you and your animal companion is strong. Your Wisdom modifier is added to its <LSTag Tooltip=\"ArmourClass\">Armour Class</LSTag>, attack rolls and damage rolls.",
+      "ukrainian": "Між вами та вашою твариною-компаньйоном міцний зв’язок. Ваш модифікатор мудрості додається до його <LSTag Tooltip=\"ArmourClass\">Рівня захисту</LSTag>, кидків атаки та шкоди."
+    },
+    {
+      "contentuid": "h0089c30fg8c4dg346dg41fag7df171fac04f",
+      "version": "2",
+      "previous_english": "Feat: Strike of the Giants\n\nThough you aren’t a Giant, you grew up among giants. Maybe you were an orphan taken in by a sympathetic family of stone giants who raised you as one of their own. Or perhaps you lived in a lost prehistoric pocket of the world, surrounded by giants and fearsome behemoths or hulking dinosaurs.\n\nSomething about your environment—perhaps the food or water that sustained you, elemental magic inherent in the site of your home, or some verdant blessing of growth placed on you—caused you to grow to a remarkable size for your kind. With the aid of this magic, you have learned how to embody the might of giants. You are used to moving through a world much bigger than you, and that is reflected in your skills, attitude, and perspective on life.",
+      "english": "Feat: Strike of the Giants\n\nThough you aren’t a Giant, you grew up among giants. Maybe you were an orphan taken in by a sympathetic family of stone giants who raised you as one of their own. Or perhaps you lived in a lost prehistoric pocket of the world, surrounded by giants and fearsome behemoths or hulking dinosaurs.\n\nSomething about your environment—perhaps the food or water that sustained you, elemental magic inherent in the site of your home, or some verdant blessing of growth placed on you—caused you to grow to a remarkable size for your kind. With the aid of this magic, you have learned how to embody the might of giants. You are used to moving through a world much bigger than you, and that is reflected in your skills, attitude, and perspective on life.\n\nStrike of the Giants: Once per turn, when you hit a target with a melee weapon attack or a ranged weapon attack using a thrown weapon, you can imbue the attack with an additional effect depending on the benefit you chose: Cloud, Fire, Frost, Hill, Stone, Storm.",
+      "ukrainian": "Риса: Удар гігантів\n\nВи хоч і не велетень, але виросли серед велетнів. Можливо, ви були сиротою, яку взяла на виховання співчутлива родина кам’яних велетнів, які виховали вас як свого власного. Або, можливо, ви жили у втраченій доісторичній кишені світу, оточені велетнями та страшними бегемотами чи незграбними динозаврами.\n\nЩось у вашому оточенні — можливо, їжа чи вода, які підтримували вас, елементарна магія, притаманна ділянці вашого дому, чи якесь зелене благословення зростання, яке вам було надане, — спричинило ваш виріст до надзвичайних розмірів для вашого роду. За допомогою цієї магії ви навчилися втілювати могутність велетнів. Ви звикли рухатися світом, набагато більшим за вас, і це відображається на ваших навичках, ставленні та поглядах на життя."
+    }
+  ]
+}

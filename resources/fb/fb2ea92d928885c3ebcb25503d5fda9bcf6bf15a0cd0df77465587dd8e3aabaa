@@ -1,0 +1,72 @@
+import hashlib
+import json
+import os
+from pathlib import Path
+import subprocess
+import xml.etree.ElementTree as ET
+
+root = Path(__file__).resolve().parents[2]
+repo = root / 'work/bg3dnd'
+module = 'Mods/DnD2024_897914ef-5c96-053c-44af-0be823f895fe'
+uk_path = module + '/Localization/Ukrainian/ukrainian.xml'
+en_path = module + '/Localization/English/english.xml'
+installed = Path(__file__).parent / 'installed'
+
+def git_file(ref, path):
+    return subprocess.check_output(['git', 'show', ref + ':' + path], cwd=repo)
+
+def records(data):
+    return {e.attrib['contentuid']: {'version': e.attrib.get('version'), 'text': ''.join(e.itertext())}
+            for e in ET.fromstring(data).findall('content')}
+
+def coverage(en, uk):
+    return {'english_count': len(en), 'ukrainian_count': len(uk),
+            'missing_ids': sorted(en.keys() - uk.keys()),
+            'extra_ids': sorted(uk.keys() - en.keys()),
+            'version_mismatches': [k for k in en.keys() & uk.keys() if en[k]['version'] != uk[k]['version']]}
+
+previous = records((root / 'outputs/ukrainian.xml').read_bytes())
+changed = json.loads((root / 'work/all-translations.json').read_text(encoding='utf-8'))
+installed_bytes = (installed / uk_path).read_bytes()
+installed_uk = records(installed_bytes)
+installed_en = records((installed / en_path).read_bytes())
+main_uk_bytes = git_file('origin/main', uk_path)
+main_uk = records(main_uk_bytes)
+main_en = records(git_file('origin/main', en_path))
+baseline_en = records(git_file('0f0ab55c10ce531e8a81f66a61a2ce19fb35b21c', en_path))
+meta = ET.parse(installed / module / 'meta.lsx')
+attrs = {a.attrib['id']: a.attrib.get('value') for a in meta.findall('.//node[@id="ModuleInfo"]/attribute')}
+v = int(attrs['Version64'])
+version = '.'.join(str(n) for n in (v >> 55, (v >> 47) & 255, (v >> 31) & 65535, v & 0x7fffffff))
+game_dir = Path(os.environ['LOCALAPPDATA']) / "Larian Studios/Baldur's Gate 3"
+settings_path = game_dir / 'PlayerProfiles/Public/modsettings.lsx'
+settings = ET.parse(settings_path)
+enabled = [n for n in settings.findall('.//node[@id="ModuleShortDesc"]')
+           if any(a.attrib.get('id') == 'UUID' and a.attrib.get('value') == attrs['UUID'] for a in n.findall('attribute'))]
+pak = game_dir / 'Mods/dnd2024_897914ef-5c96-053c-44a-8z6z.pak'
+removed = sorted(previous.keys() - installed_uk.keys())
+result = {
+    'audit_date': '2026-09-23',
+    'upstream_main': subprocess.check_output(['git', 'rev-parse', 'origin/main'], cwd=repo, text=True).strip(),
+    'pr': {'url': 'https://github.com/Yoonmoonsik/bg3dnd/pull/1447', 'merged_at': '2026-09-12T14:58:47Z', 'merge_sha': '145e3d6046cf5455193d0c57ffd11ec971181d30'},
+    'installed': {'pak': str(pak), 'pak_size': pak.stat().st_size, 'version': version,
+                  'publish_handle': attrs['PublishHandle'], 'enabled_in_public_profile': bool(enabled),
+                  'ukrainian_sha256': hashlib.sha256(installed_bytes).hexdigest(),
+                  'our_records_checked': len(changed),
+                  'our_records_missing': [k for k in changed if k not in installed_uk],
+                  'our_records_differing': [k for k in changed if k in installed_uk and installed_uk[k] != previous[k]],
+                  'coverage': coverage(installed_en, installed_uk),
+                  'removed_since_our_pr': [{'id': k, 'previous_text': previous[k]['text'], 'still_in_installed_english': k in installed_en, 'still_in_current_english': k in main_en} for k in removed]},
+    'current_main': {'ukrainian_sha256': hashlib.sha256(main_uk_bytes).hexdigest(),
+                     'our_records_missing': [k for k in changed if k not in main_uk],
+                     'our_records_differing': [k for k in changed if k in main_uk and main_uk[k] != previous[k]],
+                     'coverage': coverage(main_en, main_uk),
+                     'english_added_since_our_baseline': [{'id': k, **main_en[k]} for k in sorted(main_en.keys() - baseline_en.keys())],
+                     'english_changed_since_our_baseline': [{'id': k, 'previous': baseline_en[k], 'current': main_en[k]} for k in sorted(main_en.keys() & baseline_en.keys()) if main_en[k] != baseline_en[k]]},
+    'nexus': {'url': 'https://www.nexusmods.com/baldursgate3/mods/12727?tab=files', 'latest_version': '4.12.13.11', 'file_id': 131207, 'uploaded_at_utc': '2026-09-23T08:23:00Z', 'archive_contents_independently_verified': False, 'limitation': 'Nexus requires account login for archive download in the available browser.'},
+    'modio': {'url': 'https://mod.io/g/baldursgate3/m/bg3dnd', 'id': 4419649, 'updated_at_kyiv': '2026-09-23T11:22:00+03:00', 'ukrainian_tag_and_credit_present': True, 'latest_console_approval_verified': False},
+    'owner_instructions': {'source': 'Gmail correspondence, 2026-08-27', 'thread_id': '1a04419de92a99cc', 'workflow': 'Translator submits Ukrainian XML only via PR against main; owner handles packaging and release to Nexus and mod.io; console updates require Larian approval.'}
+}
+out = root / 'outputs/release-audit-2026-09-23.json'
+out.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+print(json.dumps(result, ensure_ascii=False, indent=2))

@@ -1,0 +1,27 @@
+{
+  "check": "Offline XML -> LOCA -> XML round-trip",
+  "timestamp_utc": "2026-09-12T14:33:08.311638+00:00",
+  "tool": "C:\\Users\\coldb\\Documents\\Codex\\2026-08-24\\new-chat\\work\\ExportTool-v1.20.4\\Packed\\Tools\\Divine.exe",
+  "runtime": "C:\\Users\\coldb\\Documents\\Codex\\2026-08-24\\new-chat\\work\\.dotnet8",
+  "action": "-g bg3 -a convert-loca",
+  "source_xml": "C:\\Users\\coldb\\Documents\\Codex\\2026-09-12\\bg3dnd-uk-update\\outputs\\ukrainian.xml",
+  "source_xml_sha256": "59cef3006a9ee17ee3485f38922292ac06c64ccd2644eb5e505a3a7506eeef4c",
+  "compiled_loca_sha256": "3cf282603666ed118fbfc57e68eb41dc52bd007dddb73f289d8c554b78f59b9b",
+  "compiled_loca_bytes": 1488221,
+  "roundtrip_xml_sha256": "9ade4fbc3438c77afa28fe2486cd2ad02faff5b2cacc32fa457e28ef61e8b912",
+  "source_entry_count": 5464,
+  "roundtrip_entry_count": 5464,
+  "uid_set_identical": true,
+  "uid_order_identical": true,
+  "source_duplicate_count": 0,
+  "roundtrip_duplicate_count": 0,
+  "version_mismatch_uids": [],
+  "text_mismatch_uids": [],
+  "all_parsed_entries_identical": true,
+  "status": "passed",
+  "limitations": [
+    "This is an offline format conversion check, not testing in Baldur's Gate 3.",
+    "XML formatting, entity spellings and line-ending bytes may differ; parsed uid/version/text and record order are compared exactly.",
+    "No changes were made to outputs or the repository."
+  ]
+}

@@ -1,0 +1,90 @@
+title: "Spell Request: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Important
+        * Search existing discussions before posting, including closed ones — duplicate requests may be closed.
+        * One request = one spell. Please don't bundle multiple unrelated spells in a single post.
+        * This category is for spells that are **missing** or **not yet implemented** in the mod. If a spell already exists but behaves incorrectly, please open a Bug Report issue instead.
+        * Include the official source so the spell can be verified against the rules text.
+
+  - type: input
+    id: spell-name
+    attributes:
+      label: Spell name
+      description: The official spell name (add the D&D Beyond / source name if the BG3 name differs).
+      placeholder: e.g. Investiture of Flame
+    validations:
+      required: true
+
+  - type: input
+    id: dndbeyond-link
+    attributes:
+      label: D&D Beyond link
+      description: Link to the spell's D&D Beyond page, if available.
+      placeholder: e.g. https://www.dndbeyond.com/spells/2618890-fire-bolt
+    validations:
+      required: false
+
+  - type: dropdown
+    id: level
+    attributes:
+      label: Spell level
+      options:
+        - Cantrip
+        - 1st level
+        - 2nd level
+        - 3rd level
+        - 4th level
+        - 5th level
+        - 6th level
+        - 7th level
+        - 8th level
+        - 9th level
+        - Not sure
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: classes
+    attributes:
+      label: Which class spell list(s) does this belong to?
+      description: Check all that apply, based on the 2024 rules or the spell's original source.
+      options:
+        - label: Bard
+        - label: Cleric
+        - label: Druid
+        - label: Paladin
+        - label: Ranger
+        - label: Sorcerer
+        - label: Warlock
+        - label: Wizard
+        - label: Other / subclass-specific (explain below)
+
+  - type: input
+    id: source
+    attributes:
+      label: Source book
+      description: Where does this spell come from? (e.g. PHB 2024, Xanathar's Guide, Tasha's Cauldron, Fizban's Treasury)
+      placeholder: e.g. Tasha's Cauldron of Everything
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why do you think this spell should be added?
+      description: Explain the gap this fills (e.g. missing subclass feature support, iconic spell for a build, etc.).
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing discussions and this spell hasn't already been requested.
+          required: true
+        - label: I confirmed this spell is not already implemented in the current mod version.
+          required: true

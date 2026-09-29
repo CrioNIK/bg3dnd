@@ -1,0 +1,50 @@
+[
+  {
+    "term": "Stunning Strike",
+    "id": "ha2b41647g8c02g47c6g9d70g3460189d287c",
+    "en": "Stunning Strike",
+    "uk": "Приголомшливий удар"
+  },
+  {
+    "term": "Incapacitated",
+    "id": "h0663feffgbc65g47b1ga704gef8e414d6311",
+    "en": "Incapacitated",
+    "uk": "Недієздатність"
+  },
+  {
+    "term": "Opportunity Attack",
+    "id": "h9cd8f07fg0035g4bb9g8461gaf42afb2005b",
+    "en": "Opportunity Attack",
+    "uk": "Принагідна атака"
+  },
+  {
+    "term": "Reaction",
+    "id": "h43f4dbfeg0d62g49eegbecagad62630e032d",
+    "en": "Reaction",
+    "uk": "Реагування"
+  },
+  {
+    "term": "Spell Slot",
+    "id": "h4e0bbc17g498dg4eebgbd9fg439e25625039",
+    "en": "Spell Slot",
+    "uk": "Чарунка."
+  },
+  {
+    "term": "Short Rest",
+    "id": "h0567d158gc840g442eg8021gef89ad3396fe",
+    "en": "Short Rest",
+    "uk": "Короткий відпочинок"
+  },
+  {
+    "term": "Disadvantage",
+    "id": "h1db14b73ga455g4e01gb4d6g12d9ddf63c70",
+    "en": "Disadvantage",
+    "uk": "Завада"
+  },
+  {
+    "term": "Saving Throw",
+    "id": "h53a94e02g4319g47f7gb38fg87a53127da50",
+    "en": "Saving Throw",
+    "uk": "Кидок протидії"
+  }
+]

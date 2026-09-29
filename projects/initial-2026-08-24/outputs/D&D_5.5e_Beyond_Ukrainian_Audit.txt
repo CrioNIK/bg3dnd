@@ -1,0 +1,50 @@
+D&D 5.5e Beyond — Ukrainian localization audit
+Target: C:\Users\coldb\Documents\Codex\2026-08-24\new-chat\work\verify_current_final_20260825\Mods\DnD2024_Ukrainian_5dbbcfed-342e-47de-9dd1-bb04e0562ab9\Localization\Ukrainian\ukrainian.xml
+
+Current source entries: 5283
+Ukrainian entries: 5283
+New since previous mod build: 952
+Changed since previous mod build: 225
+Version-only changes: 21
+Removed from current source: 7
+
+Integrity checks:
+- version mismatches: 0
+- empty rows: 0
+- tag mismatches: 0
+- placeholder mismatches: 0
+- dice mismatches: 0
+- visible English rows: 0
+- unchanged English rows: 0
+
+Referenced localization handles:
+- class/subclass: custom=173, official fallback=2, untranslated custom=0
+- race/subrace: custom=56, official fallback=0, untranslated custom=0
+- background: custom=82, official fallback=0, untranslated custom=0
+- feat: custom=174, official fallback=0, untranslated custom=0
+- progression: custom=66, official fallback=0, untranslated custom=0
+
+Prohibited terminology:
+- тіфлінг: 0
+- рейнджер: 0
+- страйк: 0
+- сейв: 0
+- тест: 0
+- кастинг: 0
+- spell slot calque: 0
+- opportunity attack calque: 0
+- radiant calque: 0
+- disadvantage calque: 0
+- cleric calque: 0
+- skill calque: 0
+- hit calque: 0
+- Magic Initiate calque: 0
+- Eldritch transliteration: 0
+- pool calque: 0
+- check calque: 0
+- die calque: 0
+- English dice plural: 0
+- deal calque: 0
+- web mistranslation: 0
+
+RESULT: PASS

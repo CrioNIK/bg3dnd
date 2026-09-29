@@ -1,0 +1,52 @@
+{
+  "verified_utc": "2026-09-12T14:51:41.645397+00:00",
+  "repository": "CrioNIK/bg3dnd",
+  "branch": "localization/polish-2026-09-12",
+  "branch_url": "https://github.com/CrioNIK/bg3dnd/tree/localization/polish-2026-09-12",
+  "commit": "bd69631dfc7f57fbf2c29a982a0ac06c1b00f2ed",
+  "commit_url": "https://github.com/CrioNIK/bg3dnd/commit/bd69631dfc7f57fbf2c29a982a0ac06c1b00f2ed",
+  "parent": "0f0ab55c10ce531e8a81f66a61a2ce19fb35b21c",
+  "remote_ref_matches": true,
+  "github_api_commit_matches": true,
+  "github_blob_matches": true,
+  "committed_files": [
+    "Mods/DnD2024_897914ef-5c96-053c-44af-0be823f895fe/Localization/Polish/polish.xml"
+  ],
+  "polish_sha256": "5cbd3b47f7de56d5f84321fe0897925d961f98b357da67dd120dfbdc1496d193",
+  "output_matches_commit": true,
+  "working_tree_clean": true,
+  "pull_requests": [
+    {
+      "mergeCommit": {
+        "oid": "787d2189094160a2e5cebafc6d448800fe80b088"
+      },
+      "mergedAt": "2026-09-12T14:58:22Z",
+      "state": "MERGED",
+      "statusCheckRollup": [
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-09-12T14:58:24Z",
+          "conclusion": "SUCCESS",
+          "detailsUrl": "https://github.com/Yoonmoonsik/bg3dnd/actions/runs/34700811191/job/103572124078",
+          "name": "auto-merge",
+          "startedAt": "2026-09-12T14:58:13Z",
+          "status": "COMPLETED",
+          "workflowName": "Auto Merge Localization PRs"
+        }
+      ],
+      "url": "https://github.com/Yoonmoonsik/bg3dnd/pull/1446"
+    }
+  ],
+  "upstream_merge": {
+    "commit": "787d2189094160a2e5cebafc6d448800fe80b088",
+    "commit_url": "https://github.com/Yoonmoonsik/bg3dnd/commit/787d2189094160a2e5cebafc6d448800fe80b088",
+    "remote_main_at_check": "145e3d6046cf5455193d0c57ffd11ec971181d30",
+    "polish_matches_output": true,
+    "polish_sha256": "5cbd3b47f7de56d5f84321fe0897925d961f98b357da67dd120dfbdc1496d193",
+    "english_unchanged": true,
+    "files": [
+      "Mods/DnD2024_897914ef-5c96-053c-44af-0be823f895fe/Localization/Polish/polish.xml"
+    ],
+    "verified_utc": "2026-09-12T14:59:58.956314+00:00"
+  }
+}

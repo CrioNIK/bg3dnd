@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e4012e18-6a6b-4f40-aefa-c83b078c136c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8b23193-7d5a-4820-8413-93d558d753bc" />
+        <field name="Name" type="NameTableFieldDefinition" value="ST_MartialRangedWeapons" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Pistol" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c8b23193-7d5a-4820-8413-93d558d753bc" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1d855d09-a10c-40f9-80b1-24c84cebd389" />
+        <field name="Name" type="NameTableFieldDefinition" value="ST_MartialRangedWeapons_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Musket" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c9f9541-f90e-441b-8a34-10f96771cc4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ST_MartialRangedWeapons_1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Pistol_1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6c9f9541-f90e-441b-8a34-10f96771cc4b" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5b436d7f-3105-446b-9062-44a60b1050e9" />
+        <field name="Name" type="NameTableFieldDefinition" value="ST_MartialRangedWeapons_1_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Musket_1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="691118d7-43c0-45ae-93cf-9a68f79d5099" />
+        <field name="Name" type="NameTableFieldDefinition" value="ST_SimpleRangedWeapons_2" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_LightCrossbow_2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="691118d7-43c0-45ae-93cf-9a68f79d5099" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b353b36f-0906-4980-aadf-8c4862a77db2" />
+        <field name="Name" type="NameTableFieldDefinition" value="ST_SimpleRangedWeapons_2_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Shortbow_2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ba12e15-577e-47d6-ac32-d580968c6a4c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ST_MartialRangedWeapons_2" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_HandCrossBow_2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5ba12e15-577e-47d6-ac32-d580968c6a4c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9fe17f4b-bf31-4415-a2bc-028e3e7fd688" />
+        <field name="Name" type="NameTableFieldDefinition" value="ST_MartialRangedWeapons_2_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_HeavyCrossBow_2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5ba12e15-577e-47d6-ac32-d580968c6a4c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="080bda93-2932-446f-99fe-a9119992670e" />
+        <field name="Name" type="NameTableFieldDefinition" value="5ba12e15-577e-47d6-ac32-d580968c6a4c_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Longbow_2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5ba12e15-577e-47d6-ac32-d580968c6a4c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cc2a5c6d-5273-471e-b418-f0542e27bf60" />
+        <field name="Name" type="NameTableFieldDefinition" value="5ba12e15-577e-47d6-ac32-d580968c6a4c_substat_1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Pistol_2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5ba12e15-577e-47d6-ac32-d580968c6a4c" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5d5674dc-31b9-4498-86cb-c67758482cc0" />
+        <field name="Name" type="NameTableFieldDefinition" value="5ba12e15-577e-47d6-ac32-d580968c6a4c_substat_2" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Musket_2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f845fbd9-b571-4891-a314-9b2495b32b64" />
+        <field name="Name" type="NameTableFieldDefinition" value="EquipmentTrader_Ranged_Magic" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_ST_MartialRangedWeapons_2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f845fbd9-b571-4891-a314-9b2495b32b64" />
+        <field name="UUID" type="IdTableFieldDefinition" value="31cddf96-2189-46d9-8c0d-9b9a5adb5c80" />
+        <field name="Name" type="NameTableFieldDefinition" value="EquipmentTrader_Ranged_Magic_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="T_ST_SimpleRangedWeapons_2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2b2faf25-e973-4e4a-b654-3086266ffeff" />
+        <field name="Name" type="NameTableFieldDefinition" value="ST_MartialMeleeWeapons" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Whip" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b2faf25-e973-4e4a-b654-3086266ffeff" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ed9c0378-5757-4022-a21e-55526dc8ea6d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ST_MartialMeleeWeapons_substat" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Whip_1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2b2faf25-e973-4e4a-b654-3086266ffeff" />
+        <field name="UUID" type="IdTableFieldDefinition" value="466c442f-3243-4c55-a74c-230a84b25f46" />
+        <field name="Name" type="NameTableFieldDefinition" value="2b2faf25-e973-4e4a-b654-3086266ffeff_substat_0" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_WPN_Whip_2" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

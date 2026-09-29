@@ -1,0 +1,218 @@
+[
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "main",
+    "sha": "52b4be1726787ed425f92236dcd9c6b004f6be06",
+    "github_branch": "main",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization",
+    "sha": "cdbe99c4309be2c476c5bb30ec0bb7fd1a14e644",
+    "github_branch": "polish-localization",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-1",
+    "sha": "f0ca4578732425a4320ed783378ef614a7133d57",
+    "github_branch": "preservation/2026-09-30/initial-polish-localization-followup-1",
+    "already_equal_before": false,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-10",
+    "sha": "5372505ca122561c29f6386dbb6d8c58be65e0c9",
+    "github_branch": "polish-localization-followup-10",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-11",
+    "sha": "8b17b1dc044174b62586a09a1ae88b33f9d1b0f1",
+    "github_branch": "polish-localization-followup-11",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-12",
+    "sha": "a2141aabe8beeb1dc9da83889927d6c6c23b5576",
+    "github_branch": "polish-localization-followup-12",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-13",
+    "sha": "bfad3be75d852c4b6b2eea276759a5718da94433",
+    "github_branch": "polish-localization-followup-13",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-14",
+    "sha": "1d2a432b9fed3ec32edeb0328c330ffb2001072e",
+    "github_branch": "polish-localization-followup-14",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-15",
+    "sha": "7e05b4cdb7db1ae8b17ed5a19dc163d2ed65ae74",
+    "github_branch": "polish-localization-followup-15",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-16",
+    "sha": "55ae9c2bd1e109d0011f5f2c430d025ba9a6124e",
+    "github_branch": "polish-localization-followup-16",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-17",
+    "sha": "a56821a5cde649453850aa09b5a483070e361f23",
+    "github_branch": "polish-localization-followup-17",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-18",
+    "sha": "d072c34c62edc734c2f48af039bd32561b9a83de",
+    "github_branch": "polish-localization-followup-18",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-2",
+    "sha": "b9176cf91020b753706c13de97912c29cd95ee76",
+    "github_branch": "polish-localization-followup-2",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-3",
+    "sha": "7a4210fd46fb9eaf561486f9383a202183cc6545",
+    "github_branch": "polish-localization-followup-3",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-4",
+    "sha": "d51f44d142e09d27bce46f159595edb2cabc63ad",
+    "github_branch": "polish-localization-followup-4",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-5",
+    "sha": "1c551deaa48d21ce3290444492a2632fb1237adb",
+    "github_branch": "polish-localization-followup-5",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-6",
+    "sha": "3542beb0edd421b3a0a7132d6bc51de1491735dd",
+    "github_branch": "polish-localization-followup-6",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-7",
+    "sha": "1772a77545f69d7d78de8d9beb22874a700b60d0",
+    "github_branch": "polish-localization-followup-7",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-8",
+    "sha": "b258b0eb31d3acf378f366a9ad60d3c9522b5909",
+    "github_branch": "polish-localization-followup-8",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "polish-localization-followup-9",
+    "sha": "629dee4f4c4444ba11f593df02430765d7702133",
+    "github_branch": "polish-localization-followup-9",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "ukrainian-full-proofreading",
+    "sha": "180fe3048dd83596353442e8098ac05ef1a4c69b",
+    "github_branch": "ukrainian-full-proofreading",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "ukrainian-localization",
+    "sha": "eb70b3ef1c7860ac6d823c5ec12c5112e1aac6e7",
+    "github_branch": "ukrainian-localization",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "initial-2026-08-24",
+    "local_branch": "ukrainian-proofreading",
+    "sha": "cd2e7a6ea081bd9d54617cb507900d74445d8078",
+    "github_branch": "ukrainian-proofreading",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "polish-2026-09-12",
+    "local_branch": "localization/polish-2026-09-12",
+    "sha": "bd69631dfc7f57fbf2c29a982a0ac06c1b00f2ed",
+    "github_branch": "localization/polish-2026-09-12",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "polish-2026-09-12",
+    "local_branch": "main",
+    "sha": "0f0ab55c10ce531e8a81f66a61a2ce19fb35b21c",
+    "github_branch": "preservation/2026-09-30/polish-main",
+    "already_equal_before": false,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "ukrainian-2026-09-12",
+    "local_branch": "l10n/ukrainian-sync-2026-09-12",
+    "sha": "24af317cc2136ec698094cfb52ac17afb2f00e08",
+    "github_branch": "l10n/ukrainian-sync-2026-09-12",
+    "already_equal_before": true,
+    "remote_sha_verified": true
+  },
+  {
+    "project": "ukrainian-2026-09-12",
+    "local_branch": "main",
+    "sha": "0f0ab55c10ce531e8a81f66a61a2ce19fb35b21c",
+    "github_branch": "preservation/2026-09-30/ukrainian-main",
+    "already_equal_before": false,
+    "remote_sha_verified": true
+  }
+]

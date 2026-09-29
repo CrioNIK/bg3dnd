@@ -1,0 +1,763 @@
+hits	length	english	ukrainian
+512	5	Level	Рівень
+286	7	Tooltip	Підказка
+207	10	Hit Points	Очки здоров'я
+172	7	Level 3	Рівень 3
+154	12	Bonus Action	Вторинна дія
+149	6	Wisdom	Мудрість
+147	4	Feat	Риса
+144	12	Disadvantage	Завада
+137	6	Wizard	Чарівник
+131	9	Long Rest	Довгий відпочинок
+125	7	Level 1	Рівень 1
+122	10	Wild Magic	Дика магія
+121	9	Advantage	Перевага
+119	16	Wild Magic Surge	Сплеск дикої магії
+107	9	Dexterity	Спритність
+106	14	Magic Initiate	Магічний хист
+105	8	Sorcerer	Чародій
+102	11	Inspiration	Натхнення
+96	8	Reaction	Реагування
+95	20	Temporary Hit Points	Тимчасові очки здоров'я
+93	8	Charisma	Харизма
+85	12	Intelligence	Інтелект
+85	10	Resistance	Опір
+84	7	Warlock	Чаклун
+79	5	Druid	Друїд
+70	6	Spells	Закляття
+68	12	Constitution	Статура
+66	17	Proficiency Bonus	Бонус спеціалізації
+66	5	Force	Силова
+64	8	Necrotic	Некротична
+64	7	Radiant	Променева
+61	4	Bard	Бард
+60	6	Cleric	Клірик
+59	7	Level 6	Рівень 6
+59	5	Prone	Повалення
+56	4	Type	Тип
+54	5	Point	Точкова
+52	9	Lightning	Блискавкова
+51	7	Level 7	Рівень 7
+51	7	Psychic	Психічна
+51	6	Dragon	Дракон
+51	6	Weapon	Зброя
+50	5	Short	Низький
+49	7	Level 2	Рівень 2
+49	5	Spell	Закляття
+48	4	Rage	Лють
+46	9	Elemental	Елементаль
+46	6	Divine	Божественне
+44	14	Radiant damage	Променева шкода
+43	7	Thunder	Громова
+42	12	Force damage	Силова шкода
+37	6	Shadow	Тінь
+36	5	Death	Смерть
+35	12	Critical Hit	Критичний удар
+34	13	Incapacitated	Недієздатність
+34	7	Sorcery	Чародійство
+34	5	Melee	Рукопашне
+32	16	Channel Divinity	Боже наснаження
+32	15	Necrotic damage	некротичної шкоди
+32	14	Unarmed Strike	Удар голіруч
+32	10	Short Rest	Короткий відпочинок
+32	5	Giant	Велет
+32	5	Light	Світло
+31	6	Choose	Виберіть
+31	6	Ranger	Слідопит
+30	6	Circle	Коло
+29	7	Level 5	Рівень 5
+29	5	Heavy	Важке
+27	6	Damage	Шкода
+26	14	Psychic damage	Психічна шкода
+26	11	Bludgeoning	Забійна
+26	7	Level 9	Рівень 9
+26	7	Skilled	Обдарований
+25	3	Ice	Лід
+24	13	Saving Throws	Протидія:
+24	8	Movement	Рух
+24	6	Heroic	Героїчність
+24	6	Target	Ціль
+24	4	cone	конус
+23	13	Concentration	Концентрація
+23	10	Wild Shape	Дика подоба
+23	8	Darkness	Пітьма
+23	8	Piercing	Колольна
+23	6	Ranged	Далекобійне
+23	6	Status	Стан
+23	5	Cloud	Хмара
+22	15	Slashing damage	Рубальна шкода
+22	7	Cantrip	Замовляння
+21	11	Fire damage	вогняної шкоди
+21	9	Expertise	Вправність
+21	7	Healing	Зцілення
+21	5	Large	Великий
+21	4	Gain	Отримання
+21	4	Ward	Оберіг
+21	3	Hex	Прокльон
+20	4	Dash	Біг
+20	3	One	Один
+19	7	Paladin	Паладин
+19	6	itself	себе
+19	6	Spirit	Дух
+18	14	Thunder damage	Громова шкода
+18	9	Resistant	Опір
+18	6	Hunter	Мисливець
+18	5	Flame	Вогонь
+18	3	War	Війна
+17	4	Huge	Велетенський
+17	4	Roll	Кидок:
+17	3	Fey	Фея
+16	7	Charmed	Причарування
+16	5	Blood	Кров
+16	4	Fear	Страх
+15	11	Restoration	Відновлювальна мушля
+15	10	Initiative	Ініціатива
+15	10	Misty Step	Маревний крок
+15	7	Burning	Горіння
+15	3	Fly	Політ
+14	10	Persuasion	Переконливість
+14	9	Disengage	Відступ
+14	8	Illusion	Ілюзія
+14	7	Stealth	Непомітність
+14	5	Touch	Торкнутися
+13	16	Lightning damage	Блискавкова шкода
+13	12	Armour Class	Рівень захисту
+13	12	Spellcasting	Проказування заклять
+13	11	Cold damage	холодової шкоди
+13	10	Controlled	Під контролем
+13	9	Barbarian	Варвар
+13	9	Moonlight	Місячне світло
+13	8	Vengeful	Мстивість
+13	5	Wrath	Гнів
+13	4	Dead	Труп
+12	18	Opportunity Attack	Принагідна атака
+12	6	Summon	Виклик істот
+11	18	Circle of the Land	Коло землі
+11	13	Poison damage	Отрутна шкода
+11	12	Invisibility	Невидимість
+11	12	Sneak Attack	Підступний удар
+11	10	Acrobatics	Акробатика
+11	7	Blinded	Сліпота
+11	6	Master	Master
+11	4	 or 	 або 
+11	4	Die.	Померти.
+11	4	Life	Життя
+11	4	Push	Натиснути
+11	4	Tree	Дерево
+11	4	Turn	Повернути
+11	3	Fog	Туман
+10	17	Difficult Terrain	Складний рельєф
+10	14	Fighting Style	Бойовий стиль
+10	13	Domain Spells	Закляття царини
+10	12	Channel Oath	Обітне наснаження
+10	10	Perception	Відчуття
+10	8	Hit Dice	Кістка здоров'я
+10	8	Off-Hand	Друга рука
+10	8	POISONED	POISONED
+10	7	Insight	Проникливість
+10	7	Monster	Чудовисько
+10	6	Flurry	Завірюха
+10	5	Beast	Звір
+10	5	Dodge	Ухилення
+10	4	Blur	Розмиття
+10	4	Move	Перемістити
+10	4	Wall	Стіна
+9	18	Bludgeoning damage	Забійна шкода
+9	15	Ray of Sickness	Струмінь хвороби
+9	14	Shocking Grasp	Шоковий хват
+9	12	Cone of Cold	Конус холоду
+9	11	Unconscious	Непритомність
+9	9	Ice Storm	Крижана буря
+9	8	Sentinel	Вартовий
+9	6	Thrown	Метальне
+9	5	Rogue	Пройдисвіт
+9	5	Sleep	Сон
+9	5	Three	Три
+9	4	Harm	Лихо
+9	4	Jump	Стрибок
+9	4	Moon	Місяць
+8	19	Freedom of Movement	Свобода руху
+8	18	Speak with Animals	Розмова з тваринами
+8	15	Off-Hand Attack	Атака другою рукою
+8	15	Piercing damage	Колольна шкода
+8	13	Magic Missile	Магічний залп
+8	12	Ray of Frost	Струмінь морозу
+8	9	Athletics	Атлетизм
+8	9	Celestial	Небесник
+8	9	Zhentarim	Зентарим
+8	8	Ancestry	Походження
+8	8	Medicine	Медицина
+8	8	Religion	Релігія
+8	7	Freedom	Свобода
+8	7	History	Історія
+8	7	Restore	Поновлення
+8	6	Arcana	Таїнства
+8	6	Myrkul	Меркул
+8	6	Nature	Природа
+8	6	Purple	Пурпурова
+8	5	Bhaal	Баал
+8	5	Blink	Миготіння
+8	5	Charm	Причарування
+8	5	Earth	Земляний
+8	5	Sheep	Вівця
+8	5	Spark	Спалах
+8	4	Hold	Утримання
+8	3	Add	Додати
+7	20	Greater Invisibility	Велика невидимість
+7	19	Greater Restoration	Велике відновлення
+7	13	Insect Plague	Комашина чума
+7	12	Extra Attack	Додаткова атака
+7	12	Mirror Image	Віддзеркалення
+7	12	Sacred Flame	Священний вогонь
+7	11	Attack Roll	Кидок атаки
+7	11	Second Wind	Друге дихання
+7	11	Sleet Storm	Хуртовина
+7	10	Darkvision	Темнозір
+7	10	Death Ward	Оберіг від смерті
+7	10	Instrument	Інструмент
+7	10	Shillelagh	Ґирлиґа
+7	9	Knowledge	Знання
+7	8	Distract	Відволікання
+7	8	Features	Характеристики
+7	8	Poisoned	Отруєння
+7	7	Attack.	Напасти.
+7	7	created	створено
+7	7	Weapons	Зброя
+7	6	Charge	Ривок
+7	4	Ally	Союзники
+6	18	Lesser Restoration	Мале відновлення
+6	17	Phantasmal Killer	Примарний убивця
+6	16	Phantasmal Force	Примарна сила
+6	15	Spare the Dying	Пощада
+6	15	Superiority Die	Кістка першості
+6	14	Lightning Bolt	Розряд блискавки
+6	14	Minor Illusion	Мала ілюзія
+6	13	Burning Hands	Палючі руки
+6	13	Wall of Stone	Стіна каменю
+6	13	Warding Flare	Охоронний спалах
+6	12	Intimidation	Залякування
+6	12	Saving Throw	Кидок протидії
+6	11	Acid Splash	Кислотні бризки
+6	11	Arcane Ward	Магічний оберіг
+6	11	Cure Wounds	Зцілення ран
+6	11	Pact Weapon	Прикута зброя
+6	11	Shield Bash	Стус щитом
+6	11	Thunderwave	Громохвиля
+6	10	Blindsight	Сліпозір
+6	10	deprecated	не підтримується
+6	10	War Caster	Бойовий заклинач
+6	9	Bladesong	Клинковий спів
+6	9	Blindness	Сліпота
+6	9	Cloudkill	Убивча хмара
+6	9	Fire Bolt	Вогняний заряд
+6	9	Fog Cloud	Хмара туману
+6	9	Metamagic	Метамагія
+6	9	Resilient	Стійкий
+6	8	Ethereal	Етерність
+6	8	Fireball	Вогняна куля
+6	7	Fighter	Боєць
+6	5	Apply	Застосувати
+6	5	Dying	Помирає
+6	5	Field	Поле
+6	5	Tough	Гартований
+6	4	Bash	Влупити
+6	4	Leap	Стрибок
+6	4	Soul	Душа
+6	4	Wisp	Вогник
+5	16	Cloud of Daggers	Хмара кинджалів
+5	15	Hunger of Hadar	Голод Гадара
+5	15	Reckless Attack	Зухвала атака
+5	14	Stinking Cloud	Смердюча хмара
+5	13	Primal Strike	Первісний удар
+5	12	Astral Plane	Астральний вимір
+5	12	Guiding Bolt	Вказівний заряд
+5	12	Sharpshooter	Влучний стрілець
+5	11	Blood Price	Кривава ціна
+5	11	True Strike	Певний удар
+5	10	Blade Ward	Оберіг від зброї
+5	10	Divination	Ворожба
+5	10	False Life	Удаване життя
+5	9	Deception	Обман
+5	9	Polymorph	Перетворення
+5	9	Reactions	Реагування
+5	8	Crossbow	Арбалет
+5	7	Archery	Стрілецький стиль
+5	7	Daggers	Кинджали
+5	7	Shadows	Тіні
+5	6	Create	Створити
+5	5	Fiend	Нечисть
+5	5	Wings	Крила
+5	4	Down	Стрілка вниз
+5	4	Face	Обличчя
+5	4	Help	Допомога
+5	4	Monk	Монах
+5	4	Void	Пустка
+4	29	Protection from Evil and Good	Захист від зла й добра
+4	19	Potent Spellcasting	Дужі замовляння
+4	18	Once per Long Rest	за довгий відпочинок
+4	17	High Ground Rules	Правила височини
+4	17	Pact of the Blade	Лезова угода
+4	16	Restore Vitality	Відновлення життєвої сили
+4	16	Spirit Guardians	Духовна сторожа
+4	16	Step of the Wind	Вітровий крок
+4	15	Conjure Barrage	Прикликаний обстріл
+4	15	Savage Attacker	Лютий нападник
+4	14	Radiant Damage	Променева шкода
+4	14	Wrathful Smite	Гнівна кара
+4	12	Bound Weapon	Прив'язана зброя
+4	12	Counterspell	Чароспин
+4	12	Dual Wielder	Двозбройне фехтування
+4	12	Magic Weapon	Магічна зброя
+4	12	Wall of Fire	Стіна вогню
+4	12	Well chosen.	Мудрий вибір.
+4	11	Fire Shield	Вогняний щит
+4	11	High Ground	Височина
+4	11	Turn Undead	Прогнання невмерлих
+4	10	Devastator	Руйнівник
+4	9	Ice Knife	Льодяний ніж
+4	8	Activate	Активувати
+4	8	Guidance	Направляння
+4	8	Moonbeam	Місячний промінь
+4	8	Revivify	Оживлення
+4	8	Survival	Виживання
+4	7	Athlete	Атлет
+4	7	Stunned	Приголомшення
+4	6	Bright	Осліплення
+4	6	Combat	Бій
+4	6	Djinni	Джин
+4	6	Flight	Політ
+4	6	Ground	Ґрунт
+4	6	Hidden	Захована
+4	6	Player	Гравець
+4	6	Reroll	Повторний кидок
+4	5	Alert	Пильність
+4	5	Bless	Благословення
+4	5	Bound	Зв'язок
+4	5	Cloak	Плащ
+4	5	Curse	Прокляття чаролеза
+4	5	Haste	Поспіх
+4	5	Knife	Ніж
+4	5	Skill	Навичка
+4	5	Water	Вода
+4	4	Bite	Укус
+4	4	full	повний
+4	4	Hair	Волосся
+4	4	Heal	Благо
+4	4	Pull	Потягнути
+4	4	Self	На себе
+4	4	Well	Криниця
+3	20	Dispel Evil and Good	Розвіяння зла й добра
+3	19	Two-Weapon Fighting	Двозбройний бій
+3	18	Dissonant Whispers	Нерозбірливий шепіт
+3	18	Relentless Avenger	Невтомний месник
+3	16	Bind Pact Weapon	Прикувати зброю
+3	16	Invoke Duplicity	Дволикість
+3	15	Animal Handling	Розуміння тварин
+3	15	Black Tentacles	Чорні мацаки
+3	15	Flurry of Blows	Шквал ударів
+3	15	Necrotic Damage	Некротична шкода
+3	15	Shield of Faith	Щит віри
+3	14	Inflict Wounds	Завдання ран
+3	13	Guided Strike	Направлений удар
+3	13	Investigation	Обстеження
+3	12	Action Surge	Внутрішній резерв
+3	12	Animate Dead	Пробудження мерця
+3	12	Charm Person	Причарування особи
+3	12	Flaming Fist	Полум'яний кулак
+3	12	Healing Word	Цілюще слово
+3	11	Acid damage	Кислотна шкода
+3	11	Enchantment	Зачарування
+3	11	Faerie Fire	Чарівний посвіт
+3	11	Flame Blade	Вогняне лезо
+3	11	Longstrider	Скороходець
+3	11	Telekinesis	Телекінез
+3	10	Abjuration	Віднадження
+3	10	Mind Spike	Прокол розуму
+3	10	Strategist	Стратегія
+3	9	Elminster	Елмінстер
+3	8	Accuracy	Точність
+3	8	Material	Матеріал
+3	8	Modifier	Модифікатор
+3	8	Prowling	Підкрадання
+3	8	Silenced	Стишення
+3	8	Supplies	Провіант
+3	7	Alchemy	Алхімія
+3	7	Archfey	Архіфея
+3	7	Heroism	Героїзм
+3	7	Magical	Магічне
+3	6	Giving	Дарунок
+3	6	Reduce	Зменшення
+3	6	Ritual	Ритуал
+3	6	Topple	Підсічка
+3	6	Water.	Води.
+3	5	Chaos	Хаос
+3	5	Coast	Узбережжя
+3	5	Group	Згрупувати
+3	5	Noble	Шляхтич
+3	5	Parry	Парирування
+3	5	Roots	Коріння
+3	5	Small	Малий
+3	4	Fast	Висока
+3	4	Fist	Кулак
+3	4	Lore	Lore
+3	4	Luck	Удача
+3	4	Name	Назва
+3	4	One.	Один.
+3	4	Skin	Шкіра
+3	4	Test	Тест
+3	4	Tiny	Дрібний
+3	3	Aid	Поміч
+3	3	tag	тег
+2	26	Advantage and Disadvantage	Перевага і завада
+2	22	Protection from Energy	Захист від енергії
+2	19	Divine Intervention	Божа благодать
+2	19	Ray of Enfeeblement	Промінь слабкості
+2	19	Unarmoured Movement	Рух без обладунку
+2	18	Armour Proficiency	Спеціалізація на обладунках
+2	18	Aura of Protection	Аура захисту
+2	18	Circle of the Moon	Коло місяця
+2	18	Commander's Strike	Наказ командувача
+2	18	Pass Without Trace	Безслідна хода
+2	18	Telekinetic Thrust	Телекінетичний поштовх
+2	17	Conjure Elemental	Прикликання елементаля
+2	17	Pact of the Chain	Заковна угода
+2	17	Skill Proficiency	Спеціалізована навичка
+2	16	Arcane Trickster	Містичний штукар
+2	16	Damage Reduction	Зменшення шкоди
+2	16	Mass Cure Wounds	Масове зцілення ран
+2	16	Pact of the Tome	Книжна угода
+2	16	Spiritual Weapon	Духовна зброя
+2	16	Staggering Smite	Нищівна кара
+2	15	Crossbow Expert	Експерт з арбалетів
+2	15	Sleight of Hand	Спритність рук
+2	15	Speak with Dead	Розмова з мертвими
+2	14	Bursting Sinew	Вибухові жили
+2	14	Dancing Lights	Танок вогників
+2	14	Hellish Rebuke	Жорстока розправа
+2	14	Psychic Damage	Психічна шкода
+2	14	Tavern Brawler	Забіяка
+2	14	Vampiric Touch	Вампірський дотик
+2	13	Booming Blade	Гуркітливе лезо
+2	13	Calm Emotions	Гамування емоцій
+2	13	Chromatic Orb	Хроматична куля
+2	13	Gaping Wounds	Глибокі рани
+2	13	Great Old One	Величний древній
+2	13	invisibility.	Невидимість неможлива.
+2	13	Produce Flame	Творення вогню
+2	13	Ranged Weapon	Далекобійна зброя
+2	13	Scorching Ray	Палюче проміння
+2	13	Toll the Dead	Подзвін
+2	13	Weapon Master	Майстер зброї
+2	12	Bestow Curse	Накладання прокляття
+2	12	Divine Smite	Божа кара
+2	12	Feather Fall	Легкість пір'їни
+2	12	Flame Strike	Вогняний стовп
+2	12	Gaseous Form	Газоподібність
+2	12	Melee Weapon	Рукопашна зброя
+2	12	Poison Spray	Отруйний пирск
+2	12	Shadow Magic	Тіньова магія
+2	12	Spell Scroll	Сувій закляття
+2	12	Spell Sniper	Влучний заклинач
+2	12	Spike Growth	Приріст шипів
+2	11	Giant Eagle	Велетенський орел
+2	11	Resistances	Опірність
+2	11	Retaliation	Відплата
+2	11	Thaumaturgy	Чудотворство
+2	11	Thunderclap	Рокіт грому
+2	10	Garrotting	Удушення гаротою
+2	10	Last Stand	Останній бій
+2	10	Necromancy	Некромантія
+2	10	Shadowfell	Тінепад
+2	10	Thorn Whip	Терновий батіг
+2	9	Attacking	Атака
+2	9	Berserker	Берсерк
+2	9	Confusion	Збентеження
+2	9	Contagion	Зараза
+2	9	Darkness.	Пітьма.
+2	9	Frostbite	Обмороження
+2	9	Goodberry	Добряниця
+2	9	Judgement	Засудження
+2	9	Mage Hand	Магічна рука
+2	9	Sanctuary	Прихисток
+2	9	something	щось
+2	9	Survival.	Виживання.
+2	8	Assassin	Убивця
+2	8	Cauldron	Казан
+2	8	Entangle	Заплутування
+2	8	Necrosis	Некроз
+2	8	Paladin.	Паладинко.
+2	8	Recharge	Відновлення
+2	8	Teleport	Телепортація
+2	7	Charger	Нестримний
+2	7	Consume	Спожити
+2	7	Crusher	Ломака
+2	7	Dancing	Танець
+2	7	Efreeti	Іфрит
+2	7	Evasion	Верткість
+2	7	Jumping	Стрибання
+2	7	Scrolls	Сувої
+2	7	Shatter	Друзки
+2	6	Chains	Ланцюги
+2	6	Planar	Іншовимірний
+2	6	Throne	Трон
+2	5	Arrow	Стріла
+2	5	Blind	Сліпота
+2	5	Check	Перевірка
+2	5	Clean	Очистити
+2	5	Close	Закрити
+2	5	Doors	Двері
+2	5	Heart	Серце
+2	5	Other	Інше
+2	5	Ready	Готово
+2	5	Shift	Shift
+2	5	Shove	Поштовх
+2	5	Sight	Зір
+2	5	Sigil	Знак
+2	4	Home	Home
+2	4	Pole	Стовп
+2	4	Rush	Наскок
+2	4	Wand	Паличка
+2	4	Wolf	Вовк
+1	41	Teleport to an unoccupied, obscured spot.	Телепортуватися до незайнятого місця з обмеженою видимістю.
+1	34	Martial Arts: Bonus Unarmed Strike	Бойові мистецтва: додатковий удар голіруч
+1	30	Martial Arts: Dextrous Attacks	Бойові мистецтва: спритні удари
+1	29	Elixir of Hill Giant Strength	Еліксир сили гірського велета
+1	27	Improved Combat Superiority	Покращена бойова першість
+1	27	Potion of Glorious Vaulting	Зілля надзвичайних стрибків
+1	24	Elixir of Peerless Focus	Еліксир незрівнянного зосередження
+1	24	Throw as a Bonus Action.	Метнути вторинною дією.
+1	24	Training in War and Song	Навченість у війні та співі
+1	23	Assassinate: Initiative	Убити: ініціатива
+1	23	Book of Ancient Secrets	Книга прадавніх таємниць
+1	23	Create or Destroy Water	Створення чи знищення води
+1	22	Blessings of Knowledge	Благословення знань
+1	22	Potion of Invisibility	Зілля невидимості
+1	22	Scroll of Wall of Fire	Сувій "Стіна вогню"
+1	21	Great Weapon Fighting	Бій великою зброєю
+1	21	Mage Hand Legerdemain	Хитра магічна рука
+1	21	Mantle of Inspiration	Покрова натхнення
+1	21	Strength of the Grave	Могильна сила
+1	21	Whispers of the Grave	Шепіт з могили
+1	20	Exceptional Training	Виняткове навчання
+1	20	Medium Armour Master	Майстер середніх обладунків
+1	20	Melee Unarmed Attack	Рукопашна беззбройна атака
+1	20	Ranged Weapon Attack	Атака далекобійною зброєю
+1	20	Toggle Dual Wielding	Перемикач двозбройного бою
+1	19	Beguiling Influence	Вабливий вплив
+1	19	Draconic Resilience	Драконяча стійкість
+1	19	Elixir of Bloodlust	Еліксир жаги крові
+1	19	Elixir of Vigilance	Еліксир пильності
+1	19	Empowered Evocation	Посилене втілення
+1	19	Expeditious Retreat	Поспішний відхід
+1	19	Fiendish Resilience	Нечиста стійкість
+1	19	Font of Inspiration	Джерело натхнення
+1	19	Great Weapon Master	Майстер великої зброї
+1	19	Heavy Armour Master	Майстер важких обладунків
+1	19	Hexed: Constitution	Прокльон: статура
+1	19	Hexed: Intelligence	Прокльон: інтелект
+1	19	Improved Abjuration	Покращене віднадження
+1	19	Melee Weapon Attack	Атака рукопашною зброєю
+1	19	Moderately Armoured	Знавець середніх обладунків
+1	19	Ring of Free Action	Перстень вільної дії
+1	19	Thief of Five Fates	Руйнач п'яти доль
+1	18	Combat Inspiration	Бойове натхнення
+1	18	Defensive Duellist	Захисне фехтування
+1	18	Divine Retaliation	Божественна відплата
+1	18	Intellect Devourer	Пожирач розуму
+1	18	Jack of All Trades	Майстер на всі руки
+1	18	Mask of Many Faces	Машкара тисячі облич
+1	18	Ring of Protection	Перстень захисту
+1	18	Unarmoured Defence	Захист без обладунку
+1	17	Animal Friendship	Дружба тварин
+1	17	Armour of Shadows	Тіньова броня
+1	17	Elixir of Heroism	Еліксир героїзму
+1	17	Expert Divination	Експерт ворожби
+1	17	Guardian of Faith	Страж віри
+1	17	Inspiration Point	Очко натхнення
+1	17	Mass Healing Word	Масове цілюще слово
+1	17	Otherworldly Leap	Дивовижний стрибок
+1	17	Potion of Healing	Цілюще зілля
+1	17	Sculptor of Flesh	Сницар плоті
+1	17	Second-Story Work	Висотні роботи
+1	17	Wholeness of Body	Тілесна гармонія
+1	16	Companion's Bond	Зв'язок із супутником
+1	16	Controlled Chaos	Керований хаос
+1	16	Disciple of Life	Поборник життя
+1	16	Ensnaring Strike	Обвивальний приступ
+1	16	Eyes of the Dark	Очі темряви
+1	16	Heavily Armoured	Знавець важких обладунків
+1	16	Heightened Spell	Посилені чари
+1	16	Hexblade's Curse	Клятолезний прокльон
+1	16	Hexed: Dexterity	Прокльон: спритність
+1	16	Hideous Laughter	Невтримний регіт
+1	16	Hypnotic Pattern	Гіпнотичний візерунок
+1	16	Inspiring Leader	Природжений лідер
+1	16	Knowledge Domain	Царина знань
+1	16	Lightly Armoured	Знавець легких обладунків
+1	16	Lightly Obscured	Обмежена видимість
+1	16	Minions of Chaos	Прислужники хаосу
+1	16	One with Shadows	Єднання з тінню
+1	16	Potion of Flying	Зілля польоту
+1	16	Sign of Ill Omen	Недобра прикмета
+1	16	Thunderous Smite	Громова кара
+1	16	to Saving Throws	до кидків протидії
+1	15	Agonising Blast	Нещадний промінь
+1	15	Arcane Recovery	Магічне відновлення
+1	15	Dominate Person	Підкорення особи
+1	15	Eldritch Strike	Містичний удар
+1	15	Empowered Spell	Підсилене закляття
+1	15	Enhance Ability	Поліпшення здібності
+1	15	Hexed: Charisma	Прокльон: харизма
+1	15	Hexed: Strength	Прокльон: сила
+1	15	Magical Secrets	Магічні таємниці
+1	15	Mortal Reminder	Смертельне нагадування
+1	15	Potion of Speed	Зілля швидкості
+1	15	Prepared Spells	Заготовані закляття
+1	15	Quickened Spell	Пришвидшене закляття
+1	15	Relentless Rage	Невпинна лють
+1	15	Reliable Talent	Надійні навички
+1	15	Repelling Blast	Відбивний промінь
+1	15	Wisdom Modifier	Модифікатор мудрості
+1	14	Blessed Healer	Благословенний цілитель
+1	14	Branding Smite	Ганебна кара
+1	14	Call Lightning	Заклик блискавки
+1	14	Dimension Door	Міжвимірні двері
+1	14	Dominate Beast	Підкорення звіра
+1	14	Dungeon Delver	Дослідник підземель
+1	14	Eldritch Spear	Містичний спис
+1	14	Feral Instinct	Тваринний інстинкт
+1	14	Flaming Sphere	Полум'яна сфера
+1	14	Lunar Vitality	Місячна живучість
+1	14	Magical Ambush	Магічна засідка
+1	14	Polearm Master	Майстер держакової зброї
+1	14	Potent Cantrip	Сильні замовляння
+1	14	Projected Ward	Спрямований оберіг
+1	14	Purity of Body	Тілесна чистота
+1	14	Tides of Chaos	Хвилі хаосу
+1	13	Arms of Hadar	Руки Гадара
+1	13	Cutting Words	Гостре слівце
+1	13	Destroy Water	Знищення води
+1	13	Devil's Sight	Диявольський зір
+1	13	Dreadful Word	Жаске слово
+1	13	Entropic Ward	Перемінний оберіг
+1	13	Fast Movement	Швидке пересування
+1	13	Form of Dread	Жаска подоба
+1	13	Hexed: Wisdom	Прокльон: мудрість
+1	13	Illusory Self	Ілюзорне я
+1	13	Martial Adept	Бойове захоплення
+1	13	Mindless Rage	Сліпа лють
+1	13	Mire the Mind	Заболотити розум
+1	13	Ritual Caster	Знавець ритуалів
+1	13	Sculpt Spells	Виплітання заклять
+1	13	Shield Master	Майстер щитів
+1	13	Thrown Weapon	Метальна зброя
+1	12	Attack Bonus	Бонус атаки
+1	12	Beast Speech	Звірина мова
+1	12	Bestial Fury	Звіряча лютість
+1	12	Colour Spray	Барвистий пирск
+1	12	Countercharm	Непричарування
+1	12	Danger Sense	Відчуття небезпеки
+1	12	Disguise Kit	Набір для маскування
+1	12	Dispel Magic	Розвіяння чарів
+1	12	Divine Sense	Божественне чуття
+1	12	Gust of Wind	Порив вітру
+1	12	Misty Escape	Імлиста втеча
+1	12	Plant Growth	Приріст рослин
+1	12	Subtle Spell	Тихе закляття
+1	12	Warding Bond	Захисний зв'язок
+1	11	Arcane Shot	Магічний постріл
+1	11	Exceptional	Виняткова
+1	11	Free Action	Вільна дія
+1	11	Indomitable	Невгамовність
+1	11	Lifedrinker	Життєпивця
+1	11	Mage Slayer	Убивця магів
+1	10	Aberration	Покруч
+1	10	Banishment	Вигнання
+1	10	Commander.	Командувачко.
+1	10	Fast Hands	Швидкі руки
+1	10	Hollyphant	Благослон
+1	10	Unwavering	Непохитність
+1	10	War Priest	Капелан
+1	10	Witch Bolt	Відьомський розряд
+1	9	Bend Luck	Вузда удачі
+1	9	Bloodlust	Жага крові
+1	9	Companion	Супутник
+1	9	Devouring	Пожирання
+1	9	Dominated	Підкорено
+1	9	Iron Mind	Залізний розум
+1	9	Slow Fall	Повільне падіння
+1	9	Suffering	Страждання
+1	9	Underdark	Підморок
+1	9	Yggdrasil	Іґґдрасілль
+1	8	Ballista	Баліста
+1	8	Cantrips	Замовляння
+1	8	Champion	Звитяжець
+1	8	Daylight	Денне світло
+1	8	Detonate	Підірвати
+1	8	Duelling	Дуельний стиль
+1	8	Equipped	Споряджено
+1	8	Humanoid	Гуманоїд
+1	8	Mountain	Гори
+1	7	Acolyte	Послушник
+1	7	Bestial	Звір
+1	7	Dismiss	Закрити
+1	7	Durable	Міцний
+1	7	Elixirs	Еліксири
+1	7	Failure	Невдача
+1	7	Friends	Друзі
+1	7	Hunting	Полювання
+1	7	Level 4	Рівень 4
+1	7	Passive	Пасивне
+1	7	Portent	Передбачення
+1	7	Seeming	Підміна
+1	7	Shocked	Шок
+1	6	Ambush	Засідка
+1	6	Avatar	Аватар
+1	6	Downed	При смерті
+1	6	Fisher	Рибалка
+1	6	Flying	Політ
+1	6	Frenzy	Шал
+1	6	Friend	Друг
+1	6	Frozen	Заморожено
+1	6	Grease	Жир
+1	6	Immune	Імунітет
+1	6	Marked	Позначено
+1	6	Orders	Накази
+1	6	Pounce	Накинутися
+1	6	Reaper	Жнець
+1	6	Remove	Видалити
+1	6	Return	Enter
+1	6	Savant	Вчений
+1	6	Secret	Схованки
+1	6	Speech	Мова
+1	6	Spider	Павук
+1	6	Squire	Панна
+1	6	Submit	Надіслати
+1	6	Toggle	Перемикач
+1	5	Above	Угору
+1	5	Actor	Актор
+1	5	Devil	Диявол
+1	5	Exile	Вигнанець
+1	5	Flesh	Фляк
+1	5	Never	Ніколи
+1	5	Plate	Тарілка
+1	5	Thief	Злодій
+1	5	Tools	Знаряддя
+1	5	Voice	Голос
+1	4	Bear	Ведмідь
+1	4	Book	Книга
+1	4	Cast	Проказати
+1	4	Cost	Ціна
+1	4	Cube	Cube
+1	4	Eyes	Очі
+1	4	Five	П'ять
+1	4	Free	Безплатно
+1	4	Grit	Твердість
+1	4	Meow	Няв
+1	4	Mine	Моє
+1	4	Next	Далі
+1	4	Sign	Знак
+1	4	Tomb	Гробниця
+1	3	Cat	Кішка
+1	3	Imp	Чортеня
+1	3	Lie	Лягти

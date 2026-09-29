@@ -1,0 +1,17 @@
+{
+  "source_files": 1516,
+  "unique_contents": 1001,
+  "logical_bytes": 4088777102,
+  "unique_bytes": 2815472310,
+  "git_unique_bytes": 427702067,
+  "release_assets": 25,
+  "release_bytes": 2387770243,
+  "excluded_files": 131363,
+  "output_files": 24,
+  "per_project": {
+    "initial-2026-08-24": 1425,
+    "polish-2026-09-12": 35,
+    "ukrainian-2026-09-12": 56
+  },
+  "credential_pattern_check": "No matches in included unique text files; no environment/session/credential files selected"
+}

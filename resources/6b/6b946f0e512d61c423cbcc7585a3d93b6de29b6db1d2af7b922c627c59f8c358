@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MultiEffectInfos UUID="ef285efc-0551-4929-b591-40fcfaac8369" OwnerUUID="00000000-0000-0000-0000-000000000000" Name="Firearm_FireEffect">
+  <EffectInfo UUID="4b32bd18-7acc-4fc3-94b6-d82036ffa923" EffectResourceGuid="65998c32-94d5-6df1-7b68-cebaab4609c7" DetachSource="false" DetachTarget="false" KeepRotation="true" UseOrientDirection="false" UseDistance="false" UseScaleOverride="false" KeepScale="true" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" TargetBone="Dummy_Root" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
+</MultiEffectInfos>

@@ -1,0 +1,33 @@
+treasure itemtypes "Common","Uncommon","Rare","Epic","Legendary","Divine","Unique"
+new treasuretable "ST_MartialRangedWeapons"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_Pistol",1,0,0,0,0,0,0,0
+object category "I_WPN_Musket",1,0,0,0,0,0,0,0
+new treasuretable "ST_MartialRangedWeapons_1"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_Pistol_1",1,0,0,0,0,0,0,0
+object category "I_WPN_Musket_1",1,0,0,0,0,0,0,0
+new treasuretable "ST_SimpleRangedWeapons_2"
+new subtable "1,1"
+object category "I_WPN_LightCrossbow_2",1,0,0,0,0,0,0,0
+object category "I_WPN_Shortbow_2",1,0,0,0,0,0,0,0
+new treasuretable "ST_MartialRangedWeapons_2"
+new subtable "1,1"
+object category "I_WPN_HandCrossBow_2",1,0,0,0,0,0,0,0
+object category "I_WPN_HeavyCrossBow_2",1,0,0,0,0,0,0,0
+object category "I_WPN_Longbow_2",1,0,0,0,0,0,0,0
+object category "I_WPN_Pistol_2",1,0,0,0,0,0,0,0
+object category "I_WPN_Musket_2",1,0,0,0,0,0,0,0
+new treasuretable "EquipmentTrader_Ranged_Magic"
+CanMerge 1
+new subtable "1,1"
+object category "T_ST_MartialRangedWeapons_2",1,0,0,0,0,0,0,0
+object category "T_ST_SimpleRangedWeapons_2",1,0,0,0,0,0,0,0
+new treasuretable "ST_MartialMeleeWeapons"
+CanMerge 1
+new subtable "1,1"
+object category "I_WPN_Whip",1,0,0,0,0,0,0,0
+object category "I_WPN_Whip_1",1,0,0,0,0,0,0,0
+object category "I_WPN_Whip_2",1,0,0,0,0,0,0,0

@@ -1,0 +1,87 @@
+[
+  {
+    "english": {
+      "id": "h6299a92eg8049g117bga5b7g17d26b0619d6",
+      "version": "3",
+      "text": "Defy Death. You have Advantage on Death Saving Throws.\n\nSpeedy Recovery. As a Bonus Action, you can expend one of your Hit Point Dice, roll the die, and regain a number of Hit Points equal to the roll."
+    },
+    "base": {
+      "id": "h6299a92eg8049g117bga5b7g17d26b0619d6",
+      "version": "2",
+      "text": "Defy Death. You have Advantage on Death Saving Throws.\n\nSpeedy Recovery. You regains the maximum <LSTag Tooltip=\"HitPoints\">hit points</LSTag> possible when healed."
+    },
+    "ukrainian": {
+      "id": "h6299a92eg8049g117bga5b7g17d26b0619d6",
+      "version": "2",
+      "text": "Кинути виклик смерті. Ви маєте перевагу в кидках протидії смерті.\n\nШвидке відновлення. Під час зцілення ви відновлюєте найбільшу можливу кількість <LSTag Tooltip=\"HitPoints\">очок здоров’я</LSTag>."
+    }
+  },
+  {
+    "english": {
+      "id": "hf12dc8a9g3079g890agb1ffgdf7b91f3c03d",
+      "version": "3",
+      "text": "Defy Death. You have Advantage on Death Saving Throws.\n\nSpeedy Recovery. As a Bonus Action, you can expend one of your Hit Point Dice, roll the die, and regain a number of Hit Points equal to the roll."
+    },
+    "base": {
+      "id": "hf12dc8a9g3079g890agb1ffgdf7b91f3c03d",
+      "version": "2",
+      "text": "Defy Death. You have Advantage on Death Saving Throws.\n\nSpeedy Recovery. You regains the maximum <LSTag Tooltip=\"HitPoints\">hit points</LSTag> possible when healed."
+    },
+    "ukrainian": {
+      "id": "hf12dc8a9g3079g890agb1ffgdf7b91f3c03d",
+      "version": "2",
+      "text": "Кинути виклик смерті. Ви маєте перевагу в кидках протидії смерті.\n\nШвидке відновлення. Під час зцілення ви відновлюєте найбільшу можливу кількість <LSTag Tooltip=\"HitPoints\">очок здоров’я</LSTag>."
+    }
+  },
+  {
+    "english": {
+      "id": "he4b058a0g2cdbgba7agf3cfg71fa968bbd61",
+      "version": "1",
+      "text": "Reassert Honor"
+    },
+    "base": {
+      "id": "he4b058a0g2cdbgba7agf3cfg71fa968bbd61",
+      "version": "1",
+      "text": "Lords' Alliance Agent"
+    },
+    "ukrainian": {
+      "id": "he4b058a0g2cdbgba7agf3cfg71fa968bbd61",
+      "version": "1",
+      "text": "Агент Альянсу лордів"
+    }
+  },
+  {
+    "english": {
+      "id": "h9fa0d3deg53aag92d4g5ba5g0185574f2cd7",
+      "version": "1",
+      "text": "Reassert Honor"
+    },
+    "base": {
+      "id": "h9fa0d3deg53aag92d4g5ba5g0185574f2cd7",
+      "version": "1",
+      "text": "Lords' Alliance Agent"
+    },
+    "ukrainian": {
+      "id": "h9fa0d3deg53aag92d4g5ba5g0185574f2cd7",
+      "version": "1",
+      "text": "Агент Альянсу лордів"
+    }
+  },
+  {
+    "english": {
+      "id": "hb033a976g4cccgdbedg5c40ge3ee8016bca2",
+      "version": "1",
+      "text": "When you cast Improved Shillelagh, you can cause any Melee weapon you are holding to be imbued with nature’s power, not just a Club or Quarterstaff. In addition, you can use any weapon with which you have proficiency as a Spellcasting Focus for your Druid spells."
+    },
+    "base": {
+      "id": "hb033a976g4cccgdbedg5c40ge3ee8016bca2",
+      "version": "1",
+      "text": "When you cast Shillelagh, you can cause any Melee weapon you are holding to be imbued with nature’s power; you can choose for the weapon to retain its normal damage die instead of becoming a d8. In addition, you can use any weapon with which you have proficiency as a Spellcasting Focus for your Druid spells."
+    },
+    "ukrainian": {
+      "id": "hb033a976g4cccgdbedg5c40ge3ee8016bca2",
+      "version": "1",
+      "text": "Коли ви проказуєте «Покращену ґирлиґу», ви можете наділити силою природи будь-яку рукопашну зброю, яку тримаєте, а не лише палицю чи бойовий посох. Крім того, будь-яку зброю, якою володієте, ви можете використовувати як магічний осередок для своїх заклять друїда."
+    }
+  }
+]
