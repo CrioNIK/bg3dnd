@@ -6909,4 +6909,40 @@
   <content contentuid="h6324a49dg08edg44bdg9609gc76ad33d04b1" version="1">사용 가능한 직업: 워락, 위저드</content>
   <content contentuid="h2c2c5420g1f96gc750g01e1g7189f0ca8722" version="1">곪아 터진 오라</content>
   <content contentuid="h421effbeg0649g4cd8gaed5g786980ab427f" version="1">자신의 턴이 시작될 때 영혼을 중심으로 1.5m 방사 안에 있는 적은 건강 내성 굴림에 성공해야 하며, 실패하면 다음 자신의 턴이 시작될 때까지 &lt;LSTag Type="Status" Tooltip="POISONED"&gt;중독&lt;/LSTag&gt; 상태가 됩니다.</content>
+  <content contentuid="hd11bdeb3g31f0ga83cg8f57g28cfc7b854f8" version="1">3레벨: 사령술 주문서</content>
+  <content contentuid="he471a363g718agdb65gfc93gfaaf98cbf3a2" version="1">주문서에 담긴 사령술의 비밀이 추가적인 힘을 부여합니다. 다음 이점을 얻습니다.
+
+사령 저항. 사령 피해에 저항을 얻습니다.
+
+언데드 소환수. 소환수 찾기 주문이 자신의 주문서에 추가됩니다. 이 주문을 시전할 때, 소환수의 형태로 일반 형태 중 하나를 고르거나 다음 특수 형태 중 하나를 고릅니다: 해골 또는 좀비(소환수의 스탯 블록은 플레이어 핸드북 부록 B 참고). 일반 형태 중 하나를 고르면 그 크리처 유형을 언데드로 정할 수 있습니다.
+
+또한 공격 행동을 취할 때, 자신의 공격 하나를 포기하고 소환수가 대응을 사용해 직접 공격을 한 번 하게 할 수 있습니다.
+
+언데드 활력. 주문 슬롯을 사용해 사령술 주문을 시전하면, 자신으로부터 18m 이내에 보이는 언데드 크리처 하나를 선택해 소모한 주문 슬롯의 레벨에 위저드 레벨을 더한 만큼 생명력을 회복시킬 수 있습니다.</content>
+  <content contentuid="h2b51aed3g4743gbbdfga6b0g686504375817" version="1">6레벨: 무덤의 힘</content>
+  <content contentuid="h89a9d335g597fg5749g5275g96a4ee574e97" version="1">사령술에 관한 더 많은 통찰을 발견해 주문서에 기록했습니다. 주문서를 들고 있는 동안 다음 이점을 얻습니다.
+
+무덤의 회복력. 비전 회복을 사용하면, 탈진 단계가 있을 경우 1단계 감소합니다.
+
+압도적인 괴사. 자신의 위저드 주문과 위저드 특성으로 인한 피해는 사령 피해 저항을 무시합니다.</content>
+  <content contentuid="hf1eaaacbg73ceg0b57gea13gbdf05eeb6c4c" version="1">6레벨: 언데드 노예</content>
+  <content contentuid="hf22c6b70g1549g0985g59ebg9333ada24a72" version="1">항상 망자 조종 주문이 준비된 상태가 되며, 주문 슬롯을 소모하지 않고 시전할 수 있지만, 이 방식으로 다시 시전하려면 긴 휴식을 마쳐야 합니다. 이 주문을 시전하기 시작할 때마다, 그 주문의 유효 레벨을 1만큼 올릴 수 있습니다.
+
+또한 주문서를 들고 있는 동안 다음 이점을 얻습니다.
+
+언데드의 강건함. 언데드를 생성하거나 소환하는 사령술 주문을 시전할 때마다, 그 언데드의 생명력 최대치와 현재 생명력이 지능 보정치에 위저드 레벨의 절반(내림)을 더한 만큼 증가합니다.
+
+쇠락의 일격. 자신으로부터 18m 이내에서 자신이 조종하는 언데드가 명중 굴림으로 크리처를 적중시킬 때마다, 그 언데드는 지능 보정치만큼 추가 사령 피해를 입힙니다(최소 1).</content>
+  <content contentuid="hc9d62ccbg45f0g8a21gb8fdg127e8b262385" version="1">10레벨: 언데드 수확</content>
+  <content contentuid="h01bbcbaeg7c58gd23fga26eg2d6e1d6f6ce2" version="1">삶과 죽음의 미묘한 이치에 관한 더 많은 비밀을 익혔습니다. 피해를 입어 피투성이 상태가 되었지만 생명력이 0이 되지 않았다면, 그 직후 대응을 사용해 자신이 조종하는 언데드 중 볼 수 있는 하나의 생명력을 0으로 만들 수 있습니다. 그 후 즉시 11만큼 생명력을 회복합니다.</content>
+  <content contentuid="h44bfb5fbg7283ge9e1ga520g223f8d74c6a9" version="1">사령술사</content>
+  <content contentuid="h48a3b2cbg2facg6002g5b8dg5c82e9409cce" version="1">삶과 죽음, 그리고 불사의 힘을 탐구합니다. 사령술사로서 모든 생명체에 생기를 불어넣는 에너지를 다루는 법을 배우며, 주문서에 담긴 금지된 비밀로부터 점점 더 큰 힘을 끌어냅니다. 많은 이가 사령술사를 위협적이거나 사악한 존재로 여기지만, 모든 사령술사가 악한 것은 아닙니다.</content>
+  <content contentuid="h5299231bgcaa4gc325g6946gaddb769e4afc" version="1">언데드 소환수</content>
+  <content contentuid="h15936233g3d04geb6cg3e34gb427dcf78b07" version="1">언데드 소환수: 해골</content>
+  <content contentuid="hfd561bc9g677eg8e80ga382gd4d341d2bfb5" version="1">언데드 소환수: 좀비</content>
+  <content contentuid="h4eb02c09g214cg4297g9192gf6fdbd7ea742" version="1">언데드 활력</content>
+  <content contentuid="hb739493fgb415g2c67g1468ga33088f66f31" version="1">주문 슬롯을 사용해 사령술 주문을 시전하면, 자신으로부터 18m 이내에 보이는 언데드 크리처 하나를 선택해 소모한 주문 슬롯의 레벨에 위저드 레벨을 더한 만큼 생명력을 회복시킬 수 있습니다.</content>
+  <content contentuid="hbbb9b3a4gf691g8a63gf504g010c3e895fc8" version="1">언데드의 강건함</content>
+  <content contentuid="h170846b3gb4d4g669fg57f7g62ab5c0a6f61" version="1">언데드를 생성하거나 소환하는 사령술 주문을 시전할 때마다, 그 언데드의 생명력 최대치와 현재 생명력이 지능 보정치에 위저드 레벨의 절반(내림)을 더한 만큼 증가합니다.</content>
+  <content contentuid="h3c109b51g5559g4c0bg8ae7gda1bbcf0bac0" version="1">언데드 수확</content>
 </contentList>
