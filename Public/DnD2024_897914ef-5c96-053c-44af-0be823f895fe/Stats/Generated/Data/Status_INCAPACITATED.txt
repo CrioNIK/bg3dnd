@@ -37,3 +37,9 @@ type "StatusData"
 data "StatusType" "INCAPACITATED"
 using "SLEEPING_EYEBITE"
 
+new entry "PARALYZED_ENDTURN"
+type "StatusData"
+data "StatusType" "INCAPACITATED"
+using "PARALYZED"
+data "TickType" "EndTurn"
+

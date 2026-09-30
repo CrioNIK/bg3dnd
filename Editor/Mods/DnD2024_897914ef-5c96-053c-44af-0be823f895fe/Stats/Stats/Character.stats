@@ -102,6 +102,61 @@
         <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:6;ReactionActionPoint:1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="16363642-aed4-43d2-be3d-3965432310f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonUndead" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f8fc45c1-b22f-4993-a206-8e76f9b68b56" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="30" />
+        <field name="NecroticResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Living;Construct);DamageBonus(3);" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="SG_Frightened;SG_Paralyzed;SG_Poisoned;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f69b460-2a25-4309-b00f-f3d8f5bafa16" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonUndead_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="16363642-aed4-43d2-be3d-3965432310f3" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="40" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Living;Construct);DamageBonus(4);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Darkvision;DarknessRules;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check;ShortResting;NonLethal;ExtraAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="83013e6e-1b0e-4968-8865-085cb6cbfc3b" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonUndead_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="16363642-aed4-43d2-be3d-3965432310f3" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="50" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Living;Construct);DamageBonus(5);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Darkvision;DarknessRules;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check;ShortResting;NonLethal;ExtraAttack" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a121f240-f8fd-4ff1-a996-ea1de0ac0742" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonUndead_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="16363642-aed4-43d2-be3d-3965432310f3" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="60" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Living;Construct);DamageBonus(6);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Darkvision;DarknessRules;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check;ShortResting;NonLethal;ExtraAttack_2" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c2725bbf-d6d3-4a86-ad0b-d8e953446ef2" />
@@ -782,7 +837,7 @@
         <field name="Intelligence" type="IntegerTableFieldDefinition" value="14" />
         <field name="Wisdom" type="IntegerTableFieldDefinition" value="11" />
         <field name="Charisma" type="IntegerTableFieldDefinition" value="16" />
-        <field name="Armor" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="12" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="30" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill, Perception);ProficiencyBonus(Skill, Athletics);BlockRegainHP(Undead;Construct);CharacterWeaponDamage(3);" />
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
@@ -799,7 +854,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="RedCap_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="aaadbb53-4a5b-4af9-bcd7-f406e8bfd0dd" />
         <field name="Level" type="IntegerTableFieldDefinition" value="7" />
-        <field name="Armor" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="40" />
         <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="SG_Charmed" />
         <field name="Passives" type="StringTableFieldDefinition" value="ExtraAttack;AttackOfOpportunity;Darkvision;DarknessRules;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check" />
@@ -812,9 +867,10 @@
         <field name="Name" type="NameTableFieldDefinition" value="RedCap_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="aaadbb53-4a5b-4af9-bcd7-f406e8bfd0dd" />
         <field name="Level" type="IntegerTableFieldDefinition" value="9" />
-        <field name="Armor" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="14" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="50" />
         <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="SG_Charmed" />
+        <field name="Passives" type="StringTableFieldDefinition" value="ExtraAttack;AttackOfOpportunity;Darkvision;DarknessRules;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="ProficiencyBonus(Skill, Perception);ProficiencyBonus(Skill, Athletics);BlockRegainHP(Undead;Construct);CharacterWeaponDamage(5);" />
       </fields>
     </stat_object>
@@ -824,7 +880,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="RedCap_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="aaadbb53-4a5b-4af9-bcd7-f406e8bfd0dd" />
         <field name="Level" type="IntegerTableFieldDefinition" value="11" />
-        <field name="Armor" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="15" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="60" />
         <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="SG_Charmed" />
         <field name="Passives" type="StringTableFieldDefinition" value="ExtraAttack_2;AttackOfOpportunity;Darkvision;DarknessRules;DispelEvilAndGood_Charm_Check;DispelEvilAndGood_Frightened_Check;DispelEvilAndGood_Possessed_Check" />
@@ -880,14 +936,14 @@
         <field name="Intelligence" type="IntegerTableFieldDefinition" value="10" />
         <field name="Wisdom" type="IntegerTableFieldDefinition" value="14" />
         <field name="Charisma" type="IntegerTableFieldDefinition" value="14" />
-        <field name="Armor" type="IntegerTableFieldDefinition" value="19" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="17" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="50" />
         <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="SG_Charmed;SG_Frightened;SG_Poisoned" />
         <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
         <field name="UnarmedAttackAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
         <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
         <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1" />
-        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Darkvision;DarknessRules;ExtraAttack" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Darkvision;Blindsight;DarknessRules;ExtraAttack" />
         <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
       </fields>
     </stat_object>
@@ -897,11 +953,11 @@
         <field name="Name" type="NameTableFieldDefinition" value="SummonDragon_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="03e03c5f-81c4-4b16-98c5-b4164dc6fd65" />
         <field name="Level" type="IntegerTableFieldDefinition" value="11" />
-        <field name="Armor" type="IntegerTableFieldDefinition" value="20" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="18" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="60" />
         <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="SG_Charmed;SG_Frightened;SG_Poisoned" />
         <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1" />
-        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Darkvision;DarknessRules;ExtraAttack_2" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;Darkvision;Blindsight;DarknessRules;ExtraAttack_2" />
       </fields>
     </stat_object>
   </stat_objects>

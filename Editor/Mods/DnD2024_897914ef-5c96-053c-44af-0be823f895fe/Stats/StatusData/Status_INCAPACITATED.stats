@@ -52,5 +52,13 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c7cb7abe-9583-43a9-9f01-0c37c4c4f936" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cee4e035-05b2-4d27-984b-6726cd971cfe" />
+        <field name="Name" type="NameTableFieldDefinition" value="PARALYZED_ENDTURN" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bfab9815-2261-4720-8da4-8b98dc6b3a22" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

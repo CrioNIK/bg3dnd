@@ -6902,4 +6902,12 @@ Break Enchantment. As a Magic action, you touch a creature that is possessed by 
 
 Dismissal. As a Magic action, you target one creature you can see within 5 feet of you that has one of the creature types above. The target must succeed on a Charisma saving throw or be sent back to its home plane if it isn’t there already. If they aren’t on their home plane, Undead are sent to the Shadowfell, and Fey are sent to the Feywild.</content>
   <content contentuid="h61a84623g8dc7g49a0g974eg825010073b9e" version="2">You animate two additional Undead creatures for each spell slot level above 3.</content>
+  <content contentuid="h96104d28ga043g4b42g82fdg4caf05cdbf59" version="1">Rotting Claw</content>
+  <content contentuid="hc0aa1705g2ac9g4efag9b98g22f7c7183982" version="1">Lash out with rotting claws. If the target has the &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt; condition, it has the &lt;LSTag Type="Status" Tooltip="PARALYZED_ENDTURN"&gt;Paralyzed&lt;/LSTag&gt; condition until the end of its next turn.</content>
+  <content contentuid="h46a2c572g3f65g4b70gab69ga585d08c144a" version="1">Summon Undead: Ghoul</content>
+  <content contentuid="h52325b76g2456g49ccg9c84gd07158a7bbb6" version="1">You call forth an Undead spirit in the form of a ghoul. It appears in an unoccupied space you can see within range and uses the Undead Spirit stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</content>
+  <content contentuid="h7a7ed0a2gc4b9g419agaf31g6749c85a8488" version="1">Scroll of Summon Undead</content>
+  <content contentuid="h6324a49dg08edg44bdg9609gc76ad33d04b1" version="1">Usable Classes: Warlock, Wizard</content>
+  <content contentuid="h2c2c5420g1f96gc750g01e1g7189f0ca8722" version="1">Festering Aura</content>
+  <content contentuid="h421effbeg0649g4cd8gaed5g786980ab427f" version="1">Each enemy that starts its turn within a 5-foot Emanation originating from the spirit must succeed on a Constitution saving throw or have the &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt; condition until the start of its next turn.</content>
 </contentList>
