@@ -88,6 +88,7 @@
         <field name="Armor" type="IntegerTableFieldDefinition" value="11" />
         <field name="ArmorType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="ArmorType" version="1" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="13" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Living;Construct);Proficiency(Shortswords);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
