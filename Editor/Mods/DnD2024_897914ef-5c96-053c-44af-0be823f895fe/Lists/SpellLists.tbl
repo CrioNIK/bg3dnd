@@ -2221,7 +2221,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ed5aa3b7-02c6-444a-9c98-4ba889b887d9" />
         <field name="Name" type="NameTableFieldDefinition" value="Warlock UndeadPatron SLevel 3" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_AnimateDead;Target_SpeakWithDead" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_SpeakWithDead;Target_SummonUndead" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -4377,8 +4377,7 @@
 
 공포의 화신. 자신의 턴마다 한 번, 명중 굴림으로 크리처를 적중시키면, 그 크리처에게 자신의 주문 내성 난이도에 대한 지혜 내성 굴림을 강요할 수 있습니다. 내성 굴림에 실패하면, 목표는 다음 자신의 턴이 끝날 때까지 겁에 질림 상태가 됩니다.</content>
   <content contentuid="hcd558b81gae7eg26dag6eaegf0f7e3dd0197" version="1">3레벨: 언데드 주문</content>
-  <content contentuid="h72a8bf1agc8fbgec94g5bd1g5c0893342c80" version="1">후원자의 마법 덕분에 항상 특정 주문이 준비된 상태가 됩니다. 언데드 주문 표에 명시된 워락 레벨에 도달하면, 그 이후로는 항상 그 목록의 주문이 준비되어 있습니다. 3레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_Bane"&gt;액운&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Blindness"&gt;실명&lt;/LSTag&gt;, 환영력, 독 광선을 익힙니다. 5레벨에는 망자와 대화와 &lt;LSTag Type="Spell" Tooltip="Target_AnimateDead"&gt;망자 조종&lt;/LSTag&gt;을 익힙니다. 7레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_Invisibility_Greater"&gt;상급 투명&lt;/LSTag&gt;과 환영 살해자를 익힙니다. 9레벨에는 죽음의 무도와 죽음 구름을 익힙니다.</content>
-  <content contentuid="h423f4d8eg647cg79b9g302bg9ad97549087a" version="2">3레벨에는 액운, &lt;LSTag Type="Spell" Tooltip="Target_Blindness"&gt;실명&lt;/LSTag&gt;, 환영력, 독 광선을 익힙니다. 5레벨에는 망자와 대화와 망자 조종을 익힙니다. 7레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_Invisibility_Greater"&gt;상급 투명&lt;/LSTag&gt;과 환영 살해자를 익힙니다. 9레벨에는 죽음의 무도와 죽음 구름을 익힙니다.</content>
+  <content contentuid="h72a8bf1agc8fbgec94g5bd1g5c0893342c80" version="1">후원자의 마법 덕분에 항상 특정 주문이 준비된 상태가 됩니다. 언데드 주문 표에 명시된 워락 레벨에 도달하면, 그 이후로는 항상 그 목록의 주문이 준비되어 있습니다. 3레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_Bane"&gt;액운&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Blindness"&gt;실명&lt;/LSTag&gt;, 환영력, 독 광선을 익힙니다. 5레벨에는 망자와 대화와 &lt;LSTag Type="Spell" Tooltip="Target_SummonUndead"&gt;언데드 소환&lt;/LSTag&gt;을 익힙니다. 7레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_Invisibility_Greater"&gt;상급 투명&lt;/LSTag&gt;과 환영 살해자를 익힙니다. 9레벨에는 죽음의 무도와 죽음 구름을 익힙니다.</content>
   <content contentuid="h51d8435ag421eg4abdg2702ga3868c2dab5c" version="1">6레벨: 무덤에 닿은 자</content>
   <content contentuid="h9978d0deg7d77g5755g43fbg0caf50e3b407" version="3">후원자의 힘이 자신의 육체와 마법에 깊은 영향을 미쳐, 다음 이점을 부여합니다.
 
