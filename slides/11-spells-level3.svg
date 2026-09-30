@@ -34,7 +34,7 @@
   <text x="70" y="62" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="5" fill="#c9a45c">D&amp;D 5.5e ALL-IN-ONE BEYOND</text>
   <text x="1210" y="62" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#8f88a3">11 / 12</text>
   <text x="70" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="url(#goldGrad)">Level 3</text>
-  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="url(#goldGrad)">17</text>
+  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="url(#goldGrad)">18</text>
   <text x="1210" y="160" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">level 3 spells</text>
 <text x="70" y="172" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">Animate Dead through Void Strike — new spells alongside 5.5e-revised classics.</text>
   <line x1="70" y1="195" x2="1210" y2="195" stroke="#e8b84b" stroke-opacity="0.35" stroke-width="1.5"/>
@@ -50,8 +50,9 @@
 <text x="70" y="419" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Murmurs of Doom</tspan><tspan fill="#cdc4e0"> — Concentration; creates a 30-ft aura; on cast and at the</tspan></text>
 <text x="70" y="437" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">start of each of your…</text>
 <text x="70" y="462" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Summon Fey</tspan><tspan fill="#cdc4e0"> — Conjure a fey spirit with multiple mood options</tspan></text>
-<text x="70" y="487" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Trollblood Infusion</tspan><tspan fill="#cdc4e0"> — Touch a creature to infuse it with regenerative</tspan></text>
-<text x="70" y="505" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">troll blood</text>
+<text x="70" y="487" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Summon Undead</tspan><tspan fill="#cdc4e0"> — Conjure an Undead Spirit ally in the form of a ghoul</tspan></text>
+<text x="70" y="512" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Trollblood Infusion</tspan><tspan fill="#cdc4e0"> — Touch a creature to infuse it with regenerative</tspan></text>
+<text x="70" y="530" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">troll blood</text>
 <text x="670" y="222" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Animate Dead</tspan><tspan fill="#cdc4e0"> — Raise Medium or Small corpses as Skeleton or Zombie allies that</tspan></text>
 <text x="670" y="240" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">last through Long Rests</text>
 <text x="670" y="265" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Astral Flood</tspan><tspan fill="#cdc4e0"> — 30-ft Cone of Radiant energy; Dexterity save</tspan></text>
