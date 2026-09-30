@@ -9709,6 +9709,85 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6bd2c6f3-c309-40db-8c7f-d9cd74a61fc8" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNDEAD_VITALITY_1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="UNDEAD_VITALITY" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Target_UndeadVitality'),ModifyIconGlow());" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;NonExtendable" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6fb9b28c-b8e5-4ddd-8922-350986d7cd09" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNDEAD_VITALITY_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6bd2c6f3-c309-40db-8c7f-d9cd74a61fc8" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="34fba52a-cc7e-4c4a-bdb7-88569517ee60" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNDEAD_VITALITY_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6bd2c6f3-c309-40db-8c7f-d9cd74a61fc8" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec5c55fe-4e5d-4ec9-9166-e1af5948caba" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNDEAD_VITALITY_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6bd2c6f3-c309-40db-8c7f-d9cd74a61fc8" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="86e3b384-3780-46a7-a43f-b474adba317e" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNDEAD_VITALITY_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6bd2c6f3-c309-40db-8c7f-d9cd74a61fc8" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b473100e-cd3b-489a-ac94-b7ca1d90ceba" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNDEAD_VITALITY_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6bd2c6f3-c309-40db-8c7f-d9cd74a61fc8" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b6844936-69ba-45e8-a232-b21e789d9aa4" />
+        <field name="Name" type="NameTableFieldDefinition" value="UNDEAD_FORTITUDE_NECROMANCER" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbbb9b3a4gf691g8a63gf504g010c3e895fc8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h170846b3gb4d4g669fg57f7g62ab5c0a6f61" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Durable" />
+        <field name="StackId" type="StringTableFieldDefinition" value="UNDEAD_FORTITUDE_NECROMANCER" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IncreaseMaxHP(Owner.IntelligenceModifier+Owner.ClassLevel(Wizard)/2);DamageBonus(max(1,Owner.IntelligenceModifier),Necrotic);UnlockInterrupt(Interrupt_HarvestUndead);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db3355b8-d2b1-432b-9459-f17751e54d94" />
+        <field name="Name" type="NameTableFieldDefinition" value="HARVEST_UNDEAD" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c109b51g5559g4c0bg8ae7gda1bbcf0bac0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_GrimHarvest" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RegainHitPoints(11);UseActionResource(ReactionActionPoint,1,0);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;NonExtendable" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="89e0d274-2c3d-49e4-bdca-2304b1266f8c" />
+        <field name="Name" type="NameTableFieldDefinition" value="HARVEST_UNDEAD_KILL" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;NonExtendable" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="Kill()" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c85373fe-6bbb-444f-9c3b-51661a5015a2" />
         <field name="Name" type="NameTableFieldDefinition" value="BLADESONG" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8abc2dde-ffb3-4fc2-a3da-32627941bf3c" />

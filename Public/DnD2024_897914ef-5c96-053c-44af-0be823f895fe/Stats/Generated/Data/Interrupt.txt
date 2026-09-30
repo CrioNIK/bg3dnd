@@ -1504,6 +1504,18 @@ type "InterruptData"
 using "Interrupt_IllusorySelf_2"
 data "Cost" "ReactionActionPoint:1;SpellSlotsGroup:1:1:6;"
 
+new entry "Interrupt_HarvestUndead"
+type "InterruptData"
+data "DisplayName" "h3c109b51g5559g4c0bg8ae7gda1bbcf0bac0;1"
+data "Description" "h01bbcbaeg7c58gd23fga26eg2d6e1d6f6ce2;1"
+data "Icon" "PassiveFeature_GrimHarvest"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Nearby"
+data "Container" "YesNoDecision"
+data "Conditions" "Ally(context.Target,context.Observer) and HasPassive('Necromancer_10_HarvestUndead',context.Target) and IsAbleToReact(context.Target) and HasActionResource('ReactionActionPoint',1,0,false,false,context.Target) and HasDamageEffectFlag(DamageFlags.Hit) and HasFunctor(StatsFunctorType.DealDamage) and not Dead(context.Target) and HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target) and not HasHPLessThan(1, context.Target);"
+data "Properties" "ApplyStatus(OBSERVER_TARGET,HARVEST_UNDEAD,100,1);ApplyStatus(OBSERVER_OBSERVER,HARVEST_UNDEAD_KILL,100,0);"
+data "InterruptDefaultValue" "Ask;Enabled"
+
 new entry "__GUNSLINGER__"
 type "InterruptData"
 

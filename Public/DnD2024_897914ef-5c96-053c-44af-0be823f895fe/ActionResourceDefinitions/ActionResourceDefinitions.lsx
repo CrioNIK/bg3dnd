@@ -60,6 +60,12 @@
                     <attribute id="UUID" type="guid" value="dec23621-7b1f-446c-96ce-36c8cae3210f"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="RecklessAttack"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="81c91b5d-1f84-4f3d-839e-3a02e31ec75e"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Description" type="TranslatedString" handle="h5059c8f8g9435g5e50g19c7g899613e62b54" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h9ae5d499g6937g51d5g2d3eg9854133655cd" version="1"/>
                     <attribute id="MaxLevel" type="uint32" value="0"/>
@@ -892,9 +898,11 @@
                 </node>
                 <node id="ActionResourceDefinition">
                     <attribute id="IsHidden" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="RecklessAttack"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="UUID" type="guid" value="81c91b5d-1f84-4f3d-839e-3a02e31ec75e"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="MaxValue" type="uint32" value="1"/>
+                    <attribute id="Name" type="FixedString" value="UndeadThralls"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="UUID" type="guid" value="8e713861-dd88-41b9-bbff-915cc0640eb0"/>
                 </node>
             </children>
         </node>

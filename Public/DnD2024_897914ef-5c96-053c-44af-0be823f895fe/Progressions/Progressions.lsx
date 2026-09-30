@@ -6960,7 +6960,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="NecromancySchool"/>
-                    <attribute id="PassivesAdded" type="LSString" value="GrimHarvest"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Necromancer_3_NecromancySpellbook"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(04e48c5c-d77b-44e7-9043-536293e2e18d,2,0,Wizard_3_Savant);"/>
                     <attribute id="TableUUID" type="guid" value="47c4579c-ea2c-474d-9667-62edec24e8eb"/>
@@ -6984,7 +6984,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="NecromancySchool"/>
-                    <attribute id="PassivesAdded" type="LSString" value="UndeadThrall_FreeSpell;UndeadThrall_ExtraSummon;UndeadThrall_BetterSummon"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Necromancer_6_GravePower;Necromancer_6_UndeadThralls"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="47c4579c-ea2c-474d-9667-62edec24e8eb"/>
                     <attribute id="UUID" type="guid" value="ae1c9a70-da6c-4df3-a11a-ec1586a3e201"/>
@@ -7015,7 +7015,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="NecromancySchool"/>
-                    <attribute id="PassivesAdded" type="LSString" value="InuredtoUndeath"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Necromancer_10_HarvestUndead"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="47c4579c-ea2c-474d-9667-62edec24e8eb"/>
                     <attribute id="UUID" type="guid" value="e5d2cf1b-4d87-41e0-accc-9a680bd9b705"/>

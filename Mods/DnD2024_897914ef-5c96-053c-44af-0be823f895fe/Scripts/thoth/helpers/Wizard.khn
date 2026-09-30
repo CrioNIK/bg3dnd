@@ -131,3 +131,14 @@ function SplitEnchantment()
     | SpellId('Target_Command_Halt_6')
     | SpellId('Target_Command_Halt')
 end
+
+function UndeadThralls()
+    return SpellId('Target_AnimateDead_YMS_Skeleton')
+    | SpellId('Target_AnimateDead_YMS_Skeleton_4')
+    | SpellId('Target_AnimateDead_YMS_Skeleton_5')
+    | SpellId('Target_AnimateDead_YMS_Skeleton_6')
+    | SpellId('Target_AnimateDead_YMS_Zombie')
+    | SpellId('Target_AnimateDead_YMS_Zombie_4')
+    | SpellId('Target_AnimateDead_YMS_Zombie_5')
+    | SpellId('Target_AnimateDead_YMS_Zombie_6')
+end

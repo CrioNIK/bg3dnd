@@ -8954,7 +8954,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="NecromancySchool" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="GrimHarvest" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Necromancer_3_NecromancySpellbook" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(04e48c5c-d77b-44e7-9043-536293e2e18d,2,0,Wizard_3_Savant);" />
       </fields>
     </stat_object>
@@ -8987,7 +8987,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="NecromancySchool" />
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="UndeadThrall_FreeSpell;UndeadThrall_ExtraSummon;UndeadThrall_BetterSummon" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Necromancer_6_GravePower;Necromancer_6_UndeadThralls" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9030,7 +9030,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="NecromancySchool" />
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="InuredtoUndeath" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Necromancer_10_HarvestUndead" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -2055,6 +2055,21 @@
         <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;SpellSlotsGroup:1:1:6;" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="abdb9cb4-f16e-4c91-9eac-0a3e43286877" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_HarvestUndead" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c109b51g5559g4c0bg8ae7gda1bbcf0bac0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h01bbcbaeg7c58gd23fga26eg2d6e1d6f6ce2" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_GrimHarvest" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
+        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
+        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Ally(context.Target,context.Observer) and HasPassive('Necromancer_10_HarvestUndead',context.Target) and IsAbleToReact(context.Target) and HasActionResource('ReactionActionPoint',1,0,false,false,context.Target) and HasDamageEffectFlag(DamageFlags.Hit) and HasFunctor(StatsFunctorType.DealDamage) and not Dead(context.Target) and HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50, context.Target) and not HasHPLessThan(1, context.Target);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_TARGET,HARVEST_UNDEAD,100,1);ApplyStatus(OBSERVER_OBSERVER,HARVEST_UNDEAD_KILL,100,0);" />
+        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF800000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d6877ad4-5784-4eba-8eda-fa649a86a71e" />

@@ -7965,7 +7965,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_AnimateDead_Skeleton" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="TARGET:SwitchDeathType(Explode);GROUND:IF(HasPassive('UndeadThrall_BetterSummon',context.Source)):Summon(47e99d02-3c35-44a4-95d5-8d164d2069dd,Permanent,,,,UNDEADTHRALL_SUMMON,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not HasPassive('UndeadThrall_BetterSummon',context.Source)):Summon(47e99d02-3c35-44a4-95d5-8d164d2069dd,Permanent,,,,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);TARGET:IF(Tagged('BONE_CORPSE_PILE')):ApplyStatus(ANIMATEDEAD_ASHPILE,100,-1)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="TARGET:SwitchDeathType(Explode);GROUND:IF(HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(47e99d02-3c35-44a4-95d5-8d164d2069dd,Permanent,,,,UNDEAD_FORTITUDE_NECROMANCER,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(47e99d02-3c35-44a4-95d5-8d164d2069dd,Permanent,,,,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);TARGET:IF(Tagged('BONE_CORPSE_PILE')):ApplyStatus(ANIMATEDEAD_ASHPILE,100,-1)" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('47e99d02-3c35-44a4-95d5-8d164d2069dd') and ((IsTargetableCorpse() and TargetSizeEqualOrSmaller(Size.Medium) and SizeEqualOrGreater(Size.Small)) or Tagged('BONE_CORPSE_PILE') or HasStatus('BONE_ZONE',context.Source) or HasStatus('ANIMATEDEAD_ZONE',context.Source))" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="1" />
       </fields>
@@ -8018,7 +8018,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_AnimateDead_Zombie" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="TARGET:SwitchDeathType(Explode);GROUND:IF(HasPassive('UndeadThrall_BetterSummon',context.Source)):Summon(8a20737a-4606-4016-adc5-5df00bcd6945,Permanent,,,,UNDEADTHRALL_SUMMON,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not HasPassive('UndeadThrall_BetterSummon',context.Source)):Summon(8a20737a-4606-4016-adc5-5df00bcd6945,Permanent,,,,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);TARGET:IF(Tagged('CORPSE_PILE')):ApplyStatus(ANIMATEDEAD_EXPLODED_CORPSE,100,-1)" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="TARGET:SwitchDeathType(Explode);GROUND:IF(HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(8a20737a-4606-4016-adc5-5df00bcd6945,Permanent,,,,UNDEAD_FORTITUDE_NECROMANCER,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(8a20737a-4606-4016-adc5-5df00bcd6945,Permanent,,,,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);TARGET:IF(Tagged('CORPSE_PILE')):ApplyStatus(ANIMATEDEAD_EXPLODED_CORPSE,100,-1)" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('8a20737a-4606-4016-adc5-5df00bcd6945') and ((IsTargetableCorpse() and TargetSizeEqualOrSmaller(Size.Medium) and SizeEqualOrGreater(Size.Small)) or Tagged('CORPSE_PILE') or HasStatus('ANIMATEDEAD_ZONE',context.Source))" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" value="1" />
       </fields>
@@ -8124,7 +8124,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SummonUndead" />
         <field name="Level" type="IntegerTableFieldDefinition" value="3" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Necromancy" enumeration_type_name="SpellSchool" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(ceba33c6-8b57-4e94-896e-358a893fe5a9, -1,,,'SummonUndeadStack',SUMMON_ATTACK_BONUS,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(ceba33c6-8b57-4e94-896e-358a893fe5a9, -1,,,'SummonUndeadStack',SUMMON_ATTACK_BONUS,UNDEAD_FORTITUDE_NECROMANCER,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(ceba33c6-8b57-4e94-896e-358a893fe5a9, -1,,,'SummonUndeadStack',SUMMON_ATTACK_BONUS,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('ceba33c6-8b57-4e94-896e-358a893fe5a9') and not Character() and not Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_AnimateDead_Zombie" />
@@ -8154,7 +8154,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a357b751-c65b-40c8-942f-11360d5d2d8a" />
         <field name="Name" type="NameTableFieldDefinition" value="SummonUndead_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c799a80b-b2f9-417d-a697-ae474c776c51" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(39deab8d-1306-42db-824c-d2a225be776f, -1,,,'SummonUndeadStack',SUMMON_ATTACK_BONUS,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(39deab8d-1306-42db-824c-d2a225be776f, -1,,,'SummonUndeadStack',SUMMON_ATTACK_BONUS,UNDEAD_FORTITUDE_NECROMANCER,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(39deab8d-1306-42db-824c-d2a225be776f, -1,,,'SummonUndeadStack',SUMMON_ATTACK_BONUS,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_SummonUndead" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
@@ -8165,7 +8165,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="adedf574-d4dc-48bf-a72b-7c1519057137" />
         <field name="Name" type="NameTableFieldDefinition" value="SummonUndead_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a357b751-c65b-40c8-942f-11360d5d2d8a" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(69679ee3-caf8-4df3-8897-03ee434876f3, -1,,,'SummonUndeadStack',SUMMON_ATTACK_BONUS,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(69679ee3-caf8-4df3-8897-03ee434876f3, -1,,,'SummonUndeadStack',SUMMON_ATTACK_BONUS,UNDEAD_FORTITUDE_NECROMANCER,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(69679ee3-caf8-4df3-8897-03ee434876f3, -1,,,'SummonUndeadStack',SUMMON_ATTACK_BONUS,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
       </fields>
@@ -8175,7 +8175,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a422caa9-0cbb-4ed1-93c0-c52166faba03" />
         <field name="Name" type="NameTableFieldDefinition" value="SummonUndead_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a357b751-c65b-40c8-942f-11360d5d2d8a" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(ab90a686-1464-40cf-b506-da6eac74e7be, -1,,,'SummonUndeadStack',SUMMON_ATTACK_BONUS,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(ab90a686-1464-40cf-b506-da6eac74e7be, -1,,,'SummonUndeadStack',SUMMON_ATTACK_BONUS,UNDEAD_FORTITUDE_NECROMANCER,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(ab90a686-1464-40cf-b506-da6eac74e7be, -1,,,'SummonUndeadStack',SUMMON_ATTACK_BONUS,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
@@ -8296,7 +8296,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IgnorePreviouslyPickedEntities;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(HasPassive('UndeadThrall_BetterSummon',context.Source)):Summon(d4111267-1310-4663-a9f6-281a9f58221f,UntilLongRest,,,'WakeTheDead',SUMMON_ATTACK_BONUS,UNDEADTHRALL_SUMMON,UNSUMMON_ABLE,SWARM_WAKETHEDEAD_GHOUL,SWARM_WAKETHEDEAD_UNDEADTHRALL_GHOUL);GROUND:IF(not HasPassive('UndeadThrall_BetterSummon',context.Source)):Summon(d4111267-1310-4663-a9f6-281a9f58221f,UntilLongRest,,,'WakeTheDead',SUMMON_ATTACK_BONUS,UNSUMMON_ABLE,SWARM_WAKETHEDEAD_GHOUL);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(d4111267-1310-4663-a9f6-281a9f58221f,UntilLongRest,,,'WakeTheDead',SUMMON_ATTACK_BONUS,UNDEAD_FORTITUDE_NECROMANCER,UNSUMMON_ABLE,SWARM_WAKETHEDEAD_GHOUL,SWARM_WAKETHEDEAD_UNDEADTHRALL_GHOUL);GROUND:IF(not HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(d4111267-1310-4663-a9f6-281a9f58221f,UntilLongRest,,,'WakeTheDead',SUMMON_ATTACK_BONUS,UNSUMMON_ABLE,SWARM_WAKETHEDEAD_GHOUL);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -8545,6 +8545,14 @@
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((8d8)/2,Necrotic,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d8, Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8, Necrotic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="86e23b60-2a41-4c04-b198-1d0a198ab604" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateUndead" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="731633d7-7259-4cb9-aea8-25171fab2ef3" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SwitchDeathType(Explode);GROUND:IF(HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(f424693b-13f4-4cce-987b-7d75748c87e0, -1,,,'CreateDeadStack',UNDEAD_FORTITUDE_NECROMANCER,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(f424693b-13f4-4cce-987b-7d75748c87e0, -1,,,'CreateDeadStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -13993,6 +14001,327 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="583ff2c1-da36-4296-9dd8-662a04f8e2aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ac9d57c1-17f7-4415-9321-754f9cad3cdd" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Skeleton;Target_UndeadFamiliar_Zombie;" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5299231bgcaa4gc325g6946gaddb769e4afc" version="1" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:1" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bcecce4e-a252-4f43-a5a4-40f1dfa8fca5" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="583ff2c1-da36-4296-9dd8-662a04f8e2aa" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Skeleton_2;Target_UndeadFamiliar_Zombie_2;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1fb32cae-f3ae-4e44-a9f1-caa0f7d64c83" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="583ff2c1-da36-4296-9dd8-662a04f8e2aa" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Skeleton_3;Target_UndeadFamiliar_Zombie_3;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="952b2dd6-449d-42cd-9996-1fb1b2e092c3" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="583ff2c1-da36-4296-9dd8-662a04f8e2aa" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Skeleton_4;Target_UndeadFamiliar_Zombie_4;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="98eb6e1b-c6d3-4b54-a689-4b4c17e1278c" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="583ff2c1-da36-4296-9dd8-662a04f8e2aa" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Skeleton_5;Target_UndeadFamiliar_Zombie_5;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1aa65987-4a94-4a66-888f-75ed0ecaa852" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="583ff2c1-da36-4296-9dd8-662a04f8e2aa" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Skeleton_6;Target_UndeadFamiliar_Zombie_6;" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a9ddbe2-db81-4900-a1de-eff27fad6206" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_Skeleton" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cea24f11-2e0e-41c9-85a0-63992a313d10" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(47e99d02-3c35-44a4-95d5-8d164d2069dd,Permanent,,,'FindFamiliarStack',UNDEAD_FORTITUDE_NECROMANCER,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(47e99d02-3c35-44a4-95d5-8d164d2069dd,Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('47e99d02-3c35-44a4-95d5-8d164d2069dd');" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h15936233g3d04geb6cg3e34gb427dcf78b07" version="1" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:1" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="88a8a7a7-7038-4b09-841a-ac8122dfacf2" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_Skeleton_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a9ddbe2-db81-4900-a1de-eff27fad6206" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Skeleton" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f94235ad-be42-480a-908a-b741c389eb19" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_Skeleton_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a9ddbe2-db81-4900-a1de-eff27fad6206" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Skeleton" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4959cfed-b0a6-4f11-8a53-3895253d8bf5" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_Skeleton_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a9ddbe2-db81-4900-a1de-eff27fad6206" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Skeleton" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="23cf5459-e51f-4751-8a25-aeafda45ba46" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_Skeleton_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a9ddbe2-db81-4900-a1de-eff27fad6206" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Skeleton" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dd9ff742-3bf0-4ae4-ab24-2c460f6e733a" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_Skeleton_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a9ddbe2-db81-4900-a1de-eff27fad6206" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Skeleton" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c41bb9a-27a2-42e9-ab01-9304b17eb7d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_Zombie" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a097a2d-b166-4dc7-8000-478974d64993" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(8a20737a-4606-4016-adc5-5df00bcd6945,Permanent,,,'FindFamiliarStack',UNDEAD_FORTITUDE_NECROMANCER,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(8a20737a-4606-4016-adc5-5df00bcd6945,Permanent,,,'FindFamiliarStack',UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('8a20737a-4606-4016-adc5-5df00bcd6945');" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfd561bc9g677eg8e80ga382gd4d341d2bfb5" version="1" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:1" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="94f7961e-2740-48d9-a794-c5bb742374aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_Zombie_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6c41bb9a-27a2-42e9-ab01-9304b17eb7d3" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Zombie" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c08d83b-20fd-4ca3-ad09-7082bfad7759" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_Zombie_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6c41bb9a-27a2-42e9-ab01-9304b17eb7d3" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Zombie" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="32542ba3-bace-4e62-8b58-576590659594" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_Zombie_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6c41bb9a-27a2-42e9-ab01-9304b17eb7d3" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Zombie" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ffec93c6-64a6-4bed-a752-4c30efa88937" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_Zombie_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6c41bb9a-27a2-42e9-ab01-9304b17eb7d3" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Zombie" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe7f5857-e930-4d2c-934e-7035d8af0546" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadFamiliar_Zombie_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6c41bb9a-27a2-42e9-ab01-9304b17eb7d3" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UndeadFamiliar_Zombie" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3b02f5ac-9700-4366-abd6-f790b37c7ba4" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadVitality" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_UndeadVitality_1;Target_UndeadVitality_2;Target_UndeadVitality_3;Target_UndeadVitality_4;Target_UndeadVitality_5;Target_UndeadVitality_6;" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and Tagged('UNDEAD');" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Healing" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4eb02c09g214cg4297g9192gf6fdbd7ea742" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb739493fgb415g2c67g1468ga33088f66f31" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Healing_HealingWord_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_HealingWord_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="CycleConditions" type="StringTableFieldDefinition" value="Character() and not Dead() and Tagged('UNDEAD');" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="414bbf02-2918-4f01-83fb-1ddc7a588d88,,;,,;2f893fad-98eb-47cf-a524-dd4efd42bc2a,,;ca3147a8-2cf6-45a8-ac9a-1ce0fc11305f,,;0c5dcc83-fa78-41da-b6a5-440b5ea30936,,;,,;bea988a0-2ec5-40d8-a67e-ffbd7454bc53,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Healing" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="RangeIgnoreVerticalThreshold;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalNonDamage" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="96a51ac8-2e7e-4718-bb62-dcfd18964a02" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="7a73fa11-81e8-44bc-8653-a0d0ebbecf4b" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="70319a43-6342-4996-811d-dd50df8b3fa1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="abbcb293-f190-4d08-b129-40f5b1ec7ab9" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadVitality_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3b02f5ac-9700-4366-abd6-f790b37c7ba4" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_UndeadVitality" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(1+ClassLevel(Wizard),Undead);RemoveStatus(SELF,UNDEAD_VITALITY_1);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('UNDEAD_VITALITY_1');" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(1+ClassLevel(Wizard));" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="79420c7c-a316-434d-b0a1-21f85676f365" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadVitality_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="abbcb293-f190-4d08-b129-40f5b1ec7ab9" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(2+ClassLevel(Wizard),Undead);RemoveStatus(SELF,UNDEAD_VITALITY_2);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('UNDEAD_VITALITY_2');" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(2+ClassLevel(Wizard));" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="102d07d9-4253-4080-8aef-36dad0e09e42" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadVitality_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79420c7c-a316-434d-b0a1-21f85676f365" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(3+ClassLevel(Wizard),Undead);RemoveStatus(SELF,UNDEAD_VITALITY_3);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('UNDEAD_VITALITY_3');" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(3+ClassLevel(Wizard));" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f153c0f6-7d9b-462d-93ab-f215af0ab768" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadVitality_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79420c7c-a316-434d-b0a1-21f85676f365" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(4+ClassLevel(Wizard),Undead);RemoveStatus(SELF,UNDEAD_VITALITY_4);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('UNDEAD_VITALITY_4');" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(4+ClassLevel(Wizard));" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="55d87c58-23b8-49f4-a1df-60a0a84a53e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadVitality_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79420c7c-a316-434d-b0a1-21f85676f365" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(5+ClassLevel(Wizard),Undead);RemoveStatus(SELF,UNDEAD_VITALITY_5);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('UNDEAD_VITALITY_5');" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(5+ClassLevel(Wizard));" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78770261-ce83-420a-bb8c-76e58e0c89ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="UndeadVitality_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79420c7c-a316-434d-b0a1-21f85676f365" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RegainHitPoints(6+ClassLevel(Wizard),Undead);RemoveStatus(SELF,UNDEAD_VITALITY_6);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('UNDEAD_VITALITY_6');" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(6+ClassLevel(Wizard));" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFFF0000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d819f34c-5413-43ba-9365-e662beed8cb8" />
@@ -16219,7 +16548,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="801090d0-a3e5-4f0b-a290-e469d253bfa1" />
         <field name="Name" type="NameTableFieldDefinition" value="CreateUndead_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="0bc1e544-dea6-498b-8626-c76e0f73190c" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="86e23b60-2a41-4c04-b198-1d0a198ab604" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

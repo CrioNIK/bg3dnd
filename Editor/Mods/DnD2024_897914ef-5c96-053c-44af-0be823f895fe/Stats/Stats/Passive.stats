@@ -7484,6 +7484,62 @@
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4597ccab-20cc-48c4-a343-55ef3c29e93a" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WIZARD NECROMANCER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="868341ee-08bd-4bf6-b4ab-f9b05f2e8092" />
+        <field name="Name" type="NameTableFieldDefinition" value="Necromancer_3_NecromancySpellbook" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd11bdeb3g31f0ga83cg8f57g28cfc7b854f8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he471a363g718agdb65gfc93gfaaf98cbf3a2" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Necrotic,Resistant);UnlockSpell(Target_UndeadFamiliar,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);UnlockSpell(Target_UndeadVitality);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsSpellOfSchool(SpellSchool.Necromancy) and not IsCantrip() and (HasUseCosts('SpellSlot') or HasUseCosts('WarlockSpellSlot') or HasUseCosts('ShadowSpellSlot'));" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(SpellPowerLevelEqualTo(6)):ApplyStatus(SELF,UNDEAD_VITALITY_6,100,1);IF(SpellPowerLevelEqualTo(5)):ApplyStatus(SELF,UNDEAD_VITALITY_5,100,1);IF(SpellPowerLevelEqualTo(4)):ApplyStatus(SELF,UNDEAD_VITALITY_4,100,1);IF(SpellPowerLevelEqualTo(3)):ApplyStatus(SELF,UNDEAD_VITALITY_3,100,1);IF(SpellPowerLevelEqualTo(2)):ApplyStatus(SELF,UNDEAD_VITALITY_2,100,1);IF(SpellPowerLevelEqualTo(1)):ApplyStatus(SELF,UNDEAD_VITALITY_1,100,1);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Death" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5cae35ae-64d8-4201-afcc-2225d295f5ca" />
+        <field name="Name" type="NameTableFieldDefinition" value="Necromancer_6_GravePower" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2b51aed3g4743gbbdfga6b0g686504375817" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h89a9d335g597fg5749g5275g96a4ee574e97" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12206" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreResistance(Necrotic,Resistant);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_UndeadThralls_FreeSpell" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f8f823e-e839-4a65-99aa-f3769626627d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Necromancer_6_UndeadThralls" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf1eaaacbg73ceg0b57gea13gbdf05eeb6c4c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf22c6b70g1549g0985g59ebg9333ada24a72" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12206" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_AnimateDead,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);UnlockSpellVariant(UndeadThralls(),ModifyNumberOfTargets(AdditiveBase,2,true),ModifyTooltipDescription(),ModifyIconGlow());ActionResource(UndeadThralls,1,0);IF(HasActionResource('UndeadThralls',1,0,false,false,context.Source)):UnlockSpellVariant(UndeadThralls(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,UndeadThralls,1,0));" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_UndeadThralls_BetterSummons" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1cd638f8-7533-49a9-8785-c1b920382495" />
+        <field name="Name" type="NameTableFieldDefinition" value="Necromancer_10_HarvestUndead" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc9d62ccbg45f0g8a21gb8fdg127e8b262385" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h01bbcbaeg7c58gd23fga26eg2d6e1d6f6ce2" version="1" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12210" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_GrimHarvest" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF0000FF" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="eb119064-d3c4-41ca-850e-2094fc61c76b" />
         <field name="Name" type="NameTableFieldDefinition" value="__WIZARD BLANDSINGER__12303" />
       </fields>

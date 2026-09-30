@@ -1163,6 +1163,24 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_88" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fbb8347b-20e3-4846-ba91-0552cd12fc5f" />
+        <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="a865965f-501b-46e9-9eaa-7748e8c04d09" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="NecromancySchool" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h44bfb5fbg7283ge9e1ga520g223f8d74c6a9" version="1" />
+        <field name="ProgressionTableUUID" type="GuidTableFieldDefinition" value="47c4579c-ea2c-474d-9667-62edec24e8eb" />
+        <field name="PrimaryAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="LearningStrategy" type="EnumerationTableFieldDefinition" value="AllChildren" enumeration_type_name="LearningStrategy" version="1" />
+        <field name="CharacterCreationPose" type="GuidTableFieldDefinition" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8" />
+        <field name="SoundClassType" type="FixedStringTableFieldDefinition" value="Wizard" />
+        <field name="MustPrepareSpells" type="BoolTableFieldDefinition" value="True" />
+        <field name="Tags" type="GuidObjectListTableFieldDefinition" value="90d7fbd5-1264-4bd6-93ba-67c2116e6ab0" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h48a3b2cbg2facg6002g5b8dg5c82e9409cce" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_13" />
         <field name="UUID" type="IdTableFieldDefinition" value="8047cf29-2c79-4f12-a4bf-d965a023be63" />
         <field name="ParentUUID" type="GuidObjectTableFieldDefinition" value="a865965f-501b-46e9-9eaa-7748e8c04d09" />

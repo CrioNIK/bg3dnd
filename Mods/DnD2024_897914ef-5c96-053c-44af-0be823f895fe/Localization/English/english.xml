@@ -6909,4 +6909,40 @@ Dismissal. As a Magic action, you target one creature you can see within 5 feet 
   <content contentuid="h6324a49dg08edg44bdg9609gc76ad33d04b1" version="1">Usable Classes: Warlock, Wizard</content>
   <content contentuid="h2c2c5420g1f96gc750g01e1g7189f0ca8722" version="1">Festering Aura</content>
   <content contentuid="h421effbeg0649g4cd8gaed5g786980ab427f" version="1">Each enemy that starts its turn within a 5-foot Emanation originating from the spirit must succeed on a Constitution saving throw or have the &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisoned&lt;/LSTag&gt; condition until the start of its next turn.</content>
+  <content contentuid="hd11bdeb3g31f0ga83cg8f57g28cfc7b854f8" version="1">Level 3: Necromancy Spellbook</content>
+  <content contentuid="he471a363g718agdb65gfc93gfaaf98cbf3a2" version="1">Your spellbook’s necromantic secrets grant you additional powers. You gain the following benefits.
+
+Necrotic Resistance. You have Resistance to Necrotic damage.
+
+Undead Familiar. The Find Familiar spell appears in your spellbook. When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: Skeleton or Zombie (see appendix B of the Player’s Handbook for the familiar’s stat block). When you choose one of the normal forms, you can choose Undead as its creature type.
+
+Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction.
+
+Undead Vitality. When you cast a Necromancy spell using a spell slot, you can choose an Undead creature you can see within 60 feet of yourself to regain a number of Hit Points equal to the level of the spell slot expended plus your Wizard level.</content>
+  <content contentuid="h2b51aed3g4743gbbdfga6b0g686504375817" version="1">Level 6: Grave Power</content>
+  <content contentuid="h89a9d335g597fg5749g5275g96a4ee574e97" version="1">You have discovered more necromantic insights and inscribed them in your spellbook. While holding your spellbook, you gain the following benefits.
+
+Grave Resilience. When you use Arcane Recovery, your Exhaustion level, if any, decreases by 1.
+
+Overwhelming Necrosis. Damage from your Wizard spells and Wizard features ignores Resistance to Necrotic damage.</content>
+  <content contentuid="hf1eaaacbg73ceg0b57gea13gbdf05eeb6c4c" version="1">Level 6: Undead Thralls</content>
+  <content contentuid="hf22c6b70g1549g0985g59ebg9333ada24a72" version="1">You always have Animate Dead prepared and can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again. Whenever you start casting the spell, you can increase the spell’s effective level by 1.
+
+In addition, while holding your spellbook, you gain the following benefits.
+
+Undead Fortitude. Whenever you cast a Necromancy spell that creates or summons an Undead, the Undead’s Hit Point maximum and current Hit Points increase by a number equal to your Intelligence modifier plus half your Wizard level (round down).
+
+Withering Strike. Whenever an Undead you control within 60 feet of you hits a creature with an attack roll, the Undead deals extra Necrotic damage equal to your Intelligence modifier (minimum of 1 Necrotic damage).</content>
+  <content contentuid="hc9d62ccbg45f0g8a21gb8fdg127e8b262385" version="1">Level 10: Harvest Undead</content>
+  <content contentuid="h01bbcbaeg7c58gd23fga26eg2d6e1d6f6ce2" version="1">You have learned more secrets about the nuances of life and death. Immediately after you become Bloodied but aren’t reduced to 0 Hit Points from taking damage, you can take a Reaction to reduce an Undead creature under your control that you can see to 0 Hit Points. You then immediately regain 11 Hit Points.</content>
+  <content contentuid="h44bfb5fbg7283ge9e1ga520g223f8d74c6a9" version="1">Necromancer</content>
+  <content contentuid="h48a3b2cbg2facg6002g5b8dg5c82e9409cce" version="1">You explore the forces of life, death, and undeath. As a necromancer, you learn to manipulate the energy that animates all creatures, and you draw increasing power from the forbidden secrets in your spellbook. Though many see Necromancers as menacing or villainous, not all Necromancers are evil.</content>
+  <content contentuid="h5299231bgcaa4gc325g6946gaddb769e4afc" version="1">Undead Familiar</content>
+  <content contentuid="h15936233g3d04geb6cg3e34gb427dcf78b07" version="1">Undead Familiar: Skeleton</content>
+  <content contentuid="hfd561bc9g677eg8e80ga382gd4d341d2bfb5" version="1">Undead Familiar: Zombie</content>
+  <content contentuid="h4eb02c09g214cg4297g9192gf6fdbd7ea742" version="1">Undead Vitality</content>
+  <content contentuid="hb739493fgb415g2c67g1468ga33088f66f31" version="1">When you cast a Necromancy spell using a spell slot, you can choose an Undead creature you can see within 60 feet of yourself to regain a number of Hit Points equal to the level of the spell slot expended plus your Wizard level.</content>
+  <content contentuid="hbbb9b3a4gf691g8a63gf504g010c3e895fc8" version="1">Undead Fortitude</content>
+  <content contentuid="h170846b3gb4d4g669fg57f7g62ab5c0a6f61" version="1">Whenever you cast a Necromancy spell that creates or summons an Undead, the Undead’s Hit Point maximum and current Hit Points increase by a number equal to your Intelligence modifier plus half your Wizard level (round down).</content>
+  <content contentuid="h3c109b51g5559g4c0bg8ae7gda1bbcf0bac0" version="1">Harvest Undead</content>
 </contentList>
