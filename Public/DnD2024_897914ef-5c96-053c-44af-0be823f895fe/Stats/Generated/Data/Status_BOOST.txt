@@ -312,6 +312,7 @@ new entry "PRONE_MOUNT"
 type "StatusData"
 data "StatusType" "BOOST"
 using "PRONE"
+data "OnApplyFunctors" "RemoveStatus(SNEAKING);RemoveStatus(SLEEP);RemoveStatus(SG_Sleeping);RemoveStatus(PHANTOM_STEED);"
 
 new entry "PRONE_RECOVERED_FROM_DOWN"
 type "StatusData"

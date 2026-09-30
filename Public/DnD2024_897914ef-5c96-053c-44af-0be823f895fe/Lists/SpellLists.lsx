@@ -811,6 +811,11 @@
                     <attribute id="UUID" type="guid" value="cf014f77-4d0a-4322-a2bf-95e38b89435b"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Mystic Focus"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ConvertingSpellSlotsToFocusPoints;Shout_RecoveringSpellSlots"/>
+                    <attribute id="UUID" type="guid" value="ce2ca502-5940-45d9-92b8-a2101e26140f"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="__PALADIN__"/>
                     <attribute id="UUID" type="guid" value="560f7d69-8090-430c-9e9a-308441afa746"/>
                 </node>
@@ -1981,7 +1986,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Ritual Caster Feat"/>
-                    <attribute id="Spells" type="LSString" value="Shout_DisguiseSelf;Shout_FeatherFall_Ritual;Target_FindFamiliar;Target_Jump_Ritual;Target_Longstrider_Ritual;Shout_SpeakWithAnimals;Target_SpeakWithDead"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DisguiseSelf;Shout_FeatherFall_Ritual;Target_FindFamiliar;Target_Jump_Ritual;Target_Longstrider_Ritual;Shout_SpeakWithAnimals;Target_PhantomSteed;Target_SpeakWithDead"/>
                     <attribute id="UUID" type="guid" value="8c32c900-a8ea-4f2f-9f6f-eccd0d361a9d"/>
                 </node>
                 <node id="SpellList">
@@ -2037,11 +2042,6 @@
                     <attribute id="Name" type="FixedString" value="ShadarKai Level 1"/>
                     <attribute id="Spells" type="LSString" value="Target_BlessingOfTheRavenQueen"/>
                     <attribute id="UUID" type="guid" value="c4b857e4-a5d8-4d08-bfd1-b4068d7d0fd4"/>
-                </node>
-                <node id="SpellList">
-                    <attribute id="Name" type="FixedString" value="Mystic Focus"/>
-                    <attribute id="Spells" type="LSString" value="Shout_ConvertingSpellSlotsToFocusPoints;Shout_RecoveringSpellSlots"/>
-                    <attribute id="UUID" type="guid" value="ce2ca502-5940-45d9-92b8-a2101e26140f"/>
                 </node>
             </children>
         </node>

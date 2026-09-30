@@ -404,6 +404,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9fd0780b-e894-446a-b6f8-a1d1c321128d" />
         <field name="Name" type="NameTableFieldDefinition" value="PRONE_MOUNT" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="39e07d50-9fb5-4bbd-9e7c-2479524c4c53" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SNEAKING);RemoveStatus(SLEEP);RemoveStatus(SG_Sleeping);RemoveStatus(PHANTOM_STEED);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

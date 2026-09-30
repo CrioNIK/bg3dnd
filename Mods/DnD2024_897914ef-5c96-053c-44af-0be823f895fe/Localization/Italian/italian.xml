@@ -1466,11 +1466,11 @@ Nei tuoi turni successivi, puoi usare un'azione Magia per spostare il Cilindro f
   <content contentuid="h28a36b4cg27b2gab96g42b0gbade6f8162f6" version="1">Perseguita una creatura con i suoi peggiori incubi. Subisce [1] per turno, ha &lt;LSTag Tooltip="Disadvantage"&gt;Svantaggio&lt;/LSTag&gt; alle &lt;LSTag Tooltip="AbilityCheck"&gt;Prove di caratteristica&lt;/LSTag&gt; e ai &lt;LSTag Tooltip="AttackRoll"&gt;Tiri per colpire&lt;/LSTag&gt;.</content>
   <content contentuid="h32d2aff6ga0b0g13a1g550dgd7e4309b96fb" version="1">Perseguita una creatura con i suoi peggiori incubi. Subisce [1] per turno, ha &lt;LSTag Tooltip="Disadvantage"&gt;Svantaggio&lt;/LSTag&gt; alle &lt;LSTag Tooltip="AbilityCheck"&gt;Prove di caratteristica&lt;/LSTag&gt; e ai &lt;LSTag Tooltip="AttackRoll"&gt;Tiri per colpire&lt;/LSTag&gt;.</content>
   <content contentuid="he922cbadga1cagc50eg44aagb22738ab6296" version="1">Destriero fantasma</content>
-  <content contentuid="h7d1b5755g3943g8854gdc14g83c3921a9c89" version="1">Evochi un destriero fantasma in uno spazio libero vicino al bersaglio, e il bersaglio lo cavalca immediatamente.
+  <content contentuid="h7d1b5755g3943g8854gdc14g83c3921a9c89" version="2">Evochi un destriero fantasma in uno spazio libero vicino al bersaglio, e il bersaglio lo cavalca immediatamente.
 
 Il destriero può effettuare una delle seguenti azioni a tua scelta in ciascuno dei suoi turni: Scatto, Disimpegno, Schivata
 
-Mentre sei in sella al destriero, quando subisci danni pari a 4 o più, devi effettuare un tiro salvezza su Destrezza con CD 8. Se fallisci, cadi dal destriero e subisci la condizione Prono per 1 turno.
+Mentre sei in sella al destriero, quando subisci danni pari a 4 o più, devi effettuare un tiro salvezza su Destrezza con CD 8. Se fallisci, cadi dal destriero e subisci la condizione Prono per 1 turno, e l'incantesimo termina.
 
 
 Solo un giocatore con un cuore puro può vedere il destriero.</content>

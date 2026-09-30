@@ -1417,6 +1417,7 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7e42016a-29f9-4922-908b-dbf010dff168" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ebd046f7-066f-4acf-b671-dd451201c58b" />
         <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="37218caf-c844-479e-830e-d4c3fc2b9591" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="not HasStatus('PHANTOM_STEED') and not HasStatus('FIND_STEED');" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

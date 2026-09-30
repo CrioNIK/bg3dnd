@@ -1543,11 +1543,11 @@ On your later turns, you can take a Magic action to move the Cylinder up to 30 f
   <content contentuid="h28a36b4cg27b2gab96g42b0gbade6f8162f6" version="1">Haunt a creature with its worst nightmares. It takes [1] per turn, has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
   <content contentuid="h32d2aff6ga0b0g13a1g550dgd7e4309b96fb" version="1">Haunt a creature with its worst nightmares. It takes [1] per turn, has &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AbilityCheck"&gt;Ability Checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt;.</content>
   <content contentuid="he922cbadga1cagc50eg44aagb22738ab6296" version="1">Phantom Steed</content>
-  <content contentuid="h7d1b5755g3943g8854gdc14g83c3921a9c89" version="1">You summon a phantom steed in an unoccupied space near the target, and the target immediately mounts it.
+  <content contentuid="h7d1b5755g3943g8854gdc14g83c3921a9c89" version="2">You summon a phantom steed in an unoccupied space near the target, and the target immediately mounts it.
 
 The steed can take one of the following actions of your choice on each of its turns: &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dash&lt;/LSTag&gt;, Disengage, Dodge
 
-While mounted on the steed, when you take damage of 4 or higher, you must make a DC 8 Dexterity saving throw. On a failed save, you fall off the steed and have the Prone condition for 1 turn.
+While mounted on the steed, when you take damage of 4 or higher, you must make a DC 8 Dexterity saving throw. On a failed save, you fall off the steed and have the Prone condition for 1 turn, and the spell ends.
 
 
 Only a player with a pure heart can see the steed.</content>

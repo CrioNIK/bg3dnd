@@ -1539,11 +1539,11 @@
   <content contentuid="h28a36b4cg27b2gab96g42b0gbade6f8162f6" version="1">最悪の悪夢でクリーチャーを苦しめる。毎ターン[1]を与え、目標は&lt;LSTag Tooltip="AbilityCheck"&gt;能力値判定&lt;/LSTag&gt;と&lt;LSTag Tooltip="AttackRoll"&gt;攻撃ロール&lt;/LSTag&gt;が&lt;LSTag Tooltip="Disadvantage"&gt;不利&lt;/LSTag&gt;になる。</content>
   <content contentuid="h32d2aff6ga0b0g13a1g550dgd7e4309b96fb" version="1">最悪の悪夢でクリーチャーを苦しめる。毎ターン[1]を与え、目標は&lt;LSTag Tooltip="AbilityCheck"&gt;能力値判定&lt;/LSTag&gt;と&lt;LSTag Tooltip="AttackRoll"&gt;攻撃ロール&lt;/LSTag&gt;が&lt;LSTag Tooltip="Disadvantage"&gt;不利&lt;/LSTag&gt;になる。</content>
   <content contentuid="he922cbadga1cagc50eg44aagb22738ab6296" version="1">幻影の乗騎</content>
-  <content contentuid="h7d1b5755g3943g8854gdc14g83c3921a9c89" version="1">目標の近くの何もない場所に幻影の乗騎を召喚し、目標は即座にそれに騎乗する。
+  <content contentuid="h7d1b5755g3943g8854gdc14g83c3921a9c89" version="2">目標の近くの何もない場所に幻影の乗騎を召喚し、目標は即座にそれに騎乗する。
 
 乗騎は各ターンの開始時に、以下の任意のアクションを1つ行うことができる：早足、離脱、回避。
 
-乗騎に騎乗している間、4以上のダメージを受けた際、難易度8の敏捷力セーヴィング・スローを行わなければならない。セーヴに失敗した場合、乗騎から落馬し、1ターンの間伏せ状態になる。
+乗騎に騎乗している間、4以上のダメージを受けた際、難易度8の敏捷力セーヴィング・スローを行わなければならない。セーヴに失敗した場合、乗騎から落馬し、1ターンの間伏せ状態になり、呪文は終了する。
 
 
 清らかな心を持つプレイヤーだけがこの乗騎を見ることができる。</content>

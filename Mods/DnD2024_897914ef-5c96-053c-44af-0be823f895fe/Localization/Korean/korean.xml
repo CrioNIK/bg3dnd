@@ -1543,11 +1543,11 @@
   <content contentuid="h28a36b4cg27b2gab96g42b0gbade6f8162f6" version="1">크리처를 최악의 악몽으로 사로잡습니다. 대상은 턴마다 [1]의 피해를 입으며, &lt;LSTag Tooltip="AbilityCheck"&gt;능력 판정&lt;/LSTag&gt;과 &lt;LSTag Tooltip="AttackRoll"&gt;명중 굴림&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 받습니다.</content>
   <content contentuid="h32d2aff6ga0b0g13a1g550dgd7e4309b96fb" version="1">크리처를 최악의 악몽으로 사로잡습니다. 대상은 턴마다 [1]의 피해를 입으며, &lt;LSTag Tooltip="AbilityCheck"&gt;능력 판정&lt;/LSTag&gt;과 &lt;LSTag Tooltip="AttackRoll"&gt;명중 굴림&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 받습니다.</content>
   <content contentuid="he922cbadga1cagc50eg44aagb22738ab6296" version="1">환영 탈것</content>
-  <content contentuid="h7d1b5755g3943g8854gdc14g83c3921a9c89" version="1">대상 근처의 빈 공간에 환영 탈것을 소환하며, 대상은 즉시 그 위에 올라탑니다.
+  <content contentuid="h7d1b5755g3943g8854gdc14g83c3921a9c89" version="2">대상 근처의 빈 공간에 환영 탈것을 소환하며, 대상은 즉시 그 위에 올라탑니다.
 
 탈것은 자신의 턴마다 다음 행동 중 원하는 하나를 취할 수 있습니다: &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;달리기&lt;/LSTag&gt;, 철수, 회피.
 
-탈것에 타고 있는 동안 4 이상의 피해를 입으면, 난이도 8의 민첩 내성 굴림을 해야 합니다. 실패하면 탈것에서 떨어져 1턴 동안 넘어짐 상태가 됩니다.
+탈것에 타고 있는 동안 4 이상의 피해를 입으면, 난이도 8의 민첩 내성 굴림을 해야 합니다. 실패하면 탈것에서 떨어져 1턴 동안 넘어짐 상태가 되며, 주문이 종료됩니다.
 
 
 순수한 마음을 가진 플레이어만 탈것을 볼 수 있습니다.</content>

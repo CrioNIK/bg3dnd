@@ -1483,11 +1483,11 @@ En tus turnos posteriores, puedes realizar una acción mágica para mover el Cil
   <content contentuid="h28a36b4cg27b2gab96g42b0gbade6f8162f6" version="1">Acosa a una criatura con sus peores pesadillas. Recibe [1] por turno, tiene &lt;LSTag Tooltip="Disadvantage"&gt;Desventaja&lt;/LSTag&gt; en las &lt;LSTag Tooltip="AbilityCheck"&gt;Pruebas de Característica&lt;/LSTag&gt; y las &lt;LSTag Tooltip="AttackRoll"&gt;Tiradas de Ataque&lt;/LSTag&gt;.</content>
   <content contentuid="h32d2aff6ga0b0g13a1g550dgd7e4309b96fb" version="1">Acosa a una criatura con sus peores pesadillas. Recibe [1] por turno, tiene &lt;LSTag Tooltip="Disadvantage"&gt;Desventaja&lt;/LSTag&gt; en las &lt;LSTag Tooltip="AbilityCheck"&gt;Pruebas de Característica&lt;/LSTag&gt; y las &lt;LSTag Tooltip="AttackRoll"&gt;Tiradas de Ataque&lt;/LSTag&gt;.</content>
   <content contentuid="he922cbadga1cagc50eg44aagb22738ab6296" version="1">Corcel Fantasmal</content>
-  <content contentuid="h7d1b5755g3943g8854gdc14g83c3921a9c89" version="1">Invocas un corcel fantasma en un espacio desocupado cerca del objetivo, y el objetivo lo monta inmediatamente.
+  <content contentuid="h7d1b5755g3943g8854gdc14g83c3921a9c89" version="2">Invocas un corcel fantasma en un espacio desocupado cerca del objetivo, y el objetivo lo monta inmediatamente.
 
 El corcel puede realizar una de las siguientes acciones de tu elección en cada uno de sus turnos: &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Correr&lt;/LSTag&gt;, Destrabarse, Esquivar.
 
-Mientras estás montado en el corcel, cuando recibes 4 o más puntos de daño, debes realizar una &lt;LSTag Tooltip="SavingThrow"&gt;Tirada de Salvación&lt;/LSTag&gt; de &lt;LSTag Tooltip="Dexterity"&gt;Destreza&lt;/LSTag&gt; CD 8. Si fallas, caes del corcel y tienes la condición &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Derribado&lt;/LSTag&gt; durante 1 turno.&lt;br&gt;&lt;br&gt;&lt;br&gt;Solo un jugador de corazón puro puede ver al corcel.
+Mientras estás montado en el corcel, cuando recibes 4 o más puntos de daño, debes realizar una &lt;LSTag Tooltip="SavingThrow"&gt;Tirada de Salvación&lt;/LSTag&gt; de &lt;LSTag Tooltip="Dexterity"&gt;Destreza&lt;/LSTag&gt; CD 8. Si fallas, caes del corcel y tienes la condición &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Derribado&lt;/LSTag&gt; durante 1 turno, y el conjuro termina.&lt;br&gt;&lt;br&gt;&lt;br&gt;Solo un jugador de corazón puro puede ver al corcel.
 
 Solo un jugador puro de corazón puede ver este Corcel</content>
   <content contentuid="h0f489216gb640gb35fg24f2ge484d18842ab" version="1">Corcel Fantasmal</content>

@@ -1538,11 +1538,11 @@ Sonraki turlarınızda, bir Sihir eylemi gerçekleştirerek Silindiri en fazla 3
   <content contentuid="h28a36b4cg27b2gab96g42b0gbade6f8162f6" version="1">Bir yaratığı en kötü kabuslarıyla rahatsız edin. Her turda [1] sürer; yaratık, &lt;LSTag Tooltip="AbilityCheck"&gt;Yetenek Kontrollerinde&lt;/LSTag&gt; ve &lt;LSTag Tooltip="AttackRoll"&gt;Saldırı Zarlarında&lt;/LSTag&gt;&lt;LSTag Tooltip="Disadvantage"&gt;Dezavantaj&lt;/LSTag&gt;'ye sahip olur.</content>
   <content contentuid="h32d2aff6ga0b0g13a1g550dgd7e4309b96fb" version="1">Bir yaratığı en kötü kabuslarıyla rahatsız edin. Her turda [1] sürer, &lt;LSTag Tooltip="AbilityCheck"&gt;Yetenek Kontrollerinde&lt;/LSTag&gt; ve &lt;LSTag Tooltip="AttackRoll"&gt;Saldırı Zarlarında&lt;/LSTag&gt;&lt;LSTag Tooltip="Disadvantage"&gt;Dezavantaj&lt;/LSTag&gt;'a sahiptir.</content>
   <content contentuid="he922cbadga1cagc50eg44aagb22738ab6296" version="1">Hayalet At</content>
-  <content contentuid="h7d1b5755g3943g8854gdc14g83c3921a9c89" version="1">Hedefin yakınındaki boş bir alana bir hayalet at çağırırsınız ve hedef hemen ona biner.
+  <content contentuid="h7d1b5755g3943g8854gdc14g83c3921a9c89" version="2">Hedefin yakınındaki boş bir alana bir hayalet at çağırırsınız ve hedef hemen ona biner.
 
 At, her turunda sizin seçiminize bağlı olarak aşağıdaki eylemlerden birini gerçekleştirebilir: Hızlanma, Çekilme, Kaçma
 
-Atın üzerindeyken, 4 veya daha fazla hasar aldığınızda, DC 8 Çeviklik Kurtulma Zarı atışı yapmanız gerekir. Kurtulma Zarında başarısız olursanız, atın üzerinden düşersiniz ve 1 tur boyunca Yere Serilmiş durumuna geçersiniz.
+Atın üzerindeyken, 4 veya daha fazla hasar aldığınızda, DC 8 Çeviklik Kurtulma Zarı atışı yapmanız gerekir. Kurtulma Zarında başarısız olursanız, atın üzerinden düşersiniz, 1 tur boyunca Yere Serilmiş durumuna geçersiniz ve büyü sona erer.
 
 Sadecekalbi saf olan bir oyuncu bu atı görebilir.</content>
   <content contentuid="h0f489216gb640gb35fg24f2ge484d18842ab" version="1">Hayalet At</content>
