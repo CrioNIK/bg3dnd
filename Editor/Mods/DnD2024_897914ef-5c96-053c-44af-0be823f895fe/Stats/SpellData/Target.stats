@@ -1123,6 +1123,18 @@
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ENSNARED_VINES,100,10);" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dba0e501-b1cd-40af-8989-620473a485f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="FindFamiliar_Dummy" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b873d36a-2910-4dd8-b276-6db0517daab1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FindFamiliar" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7cdde2cagd199g498bg8ae1gf693a97f57cc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h90a8893dg8023g4be2gbcd2gfa1857d7c23f" version="2" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;HasHighGroundRangeExtension;CannotTargetCharacter;CannotTargetItems" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="75e23376-ed2f-4aac-81d6-69caa1b3b26d" />
@@ -2872,6 +2884,18 @@
         <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Command_Container" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="ApplyStatus(SAVED_AGAINST_HOSTILE_SPELL_DOMINATED, 100, 0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f8c818d-9793-4469-a5de-1c8cf9ff9ca4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Command_Dummy" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="305e6f89-89e5-42cf-9637-18eb4096a0bc" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CommandHalt" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2e981e1agea92gf303gbd58g40778c39d1a0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heb586d99g7909g8d2agba09g8eafafdd641a" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -8748,6 +8772,17 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Umberlee_DestroyWater" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cb6622be-61a6-4c6d-96c8-ee314b6f5545" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6045c945-08a3-42f8-bf27-8b85b986155d" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateDestroyWater_Dummy" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f90b9703-19c3-4a9b-a9c0-3dacddd4004d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_CreateWater" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8926e52cg44f7g4c16gb614g7247ce64d91e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0ef72cb2ge73eg4227g83d7g8f784c1a8692" version="2" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
