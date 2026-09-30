@@ -2018,6 +2018,19 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a7b3c450-5a8e-458b-bc4a-787a59c4cc2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Dummy" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_ChromaticOrb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd678ff27gf310g1345ge315g9600ee9eb47f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbd6b6881gf721ga00agc992g1e79019f1fdb" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8,Thunder)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Thunder)" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9c81506c-3bfa-4e49-9437-8d767b45b48c" />
