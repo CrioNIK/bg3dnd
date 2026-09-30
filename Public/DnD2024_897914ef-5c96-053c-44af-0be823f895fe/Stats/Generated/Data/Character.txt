@@ -54,6 +54,26 @@ type "Character"
 using "Spider_Phase_Tiny"
 data "DefaultBoosts" "Skill(Perception, 5);Skill(Stealth, 7);BlockRegainHP(Undead;Construct);IgnoreFallDamage();"
 
+new entry "__NECROMANCY__"
+type "Character"
+
+new entry "AnimateDead_YMS_Skeleton"
+type "Character"
+using "AnimateDead_Skeleton"
+data "Level" "1"
+data "Constitution" "15"
+data "Armor" "11"
+data "ArmorType" "None"
+data "Vitality" "13"
+
+new entry "AnimateDead_YMS_Zombie"
+type "Character"
+using "AnimateDead_Zombie"
+data "Level" "1"
+data "Strength" "13"
+data "Vitality" "15"
+data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:6;ReactionActionPoint:1"
+
 new entry "__DRUID__"
 type "Character"
 

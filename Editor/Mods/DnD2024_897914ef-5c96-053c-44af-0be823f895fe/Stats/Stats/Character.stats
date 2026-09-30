@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="a8098c1a-f86e-11da-bd1a-00112444be1e">
   <stat_objects>
-    <stat_object is_substat="false">
+    <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b71ec1fd-d0bf-49ef-8ee6-5bfe028767d9" />
         <field name="Name" type="NameTableFieldDefinition" value="__NPC__" />
@@ -70,6 +70,35 @@
         <field name="Name" type="NameTableFieldDefinition" value="Spider_Phase_Tiny" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cf5d3949-6954-4348-ac82-fe1fa22f853c" />
         <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Skill(Perception, 5);Skill(Stealth, 7);BlockRegainHP(Undead;Construct);IgnoreFallDamage();" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8b647099-00c3-41f6-bd93-f6d00854b55d" />
+        <field name="Name" type="NameTableFieldDefinition" value="__NECROMANCY__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db95b3eb-e5e8-40a4-ab05-d5231b380696" />
+        <field name="Name" type="NameTableFieldDefinition" value="AnimateDead_YMS_Skeleton" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c086d8ca-e020-40e4-b043-7a56a1758792" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="11" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="ArmorType" version="1" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="13" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5c70ab35-f326-40bc-a24d-2887c83a5d2b" />
+        <field name="Name" type="NameTableFieldDefinition" value="AnimateDead_YMS_Zombie" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ca1c64d4-1957-4177-a1a8-b240a1663f38" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="15" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:6;ReactionActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
