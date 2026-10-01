@@ -5433,6 +5433,18 @@ data "Icon" "PassiveFeature_PactOfTheTome"
 data "DisplayName" "h225d0df4g32ceg4fe8g9eccgc7d718c849fb;1"
 data "Description" "h7c130582g00ecg4530gb10cgc2b455501996;1"
 
+new entry "Shout_DruidicWarrior_Cantrip"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_MagicInitiate_Druid_Cantrip"
+data "DisplayName" "h493dae03gf9d8g4bc6gba84g01c7e8355ac3;1"
+
+new entry "Shout_BlessedWarrior_Cantrip"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_MagicInitiate_Cleric_Cantrip"
+data "DisplayName" "h01a07b7cgbebbg480dg9b98g39a32ffd5c53;1"
+
 new entry "Shout_Shield_Dummy"
 type "SpellData"
 data "SpellType" "Shout"

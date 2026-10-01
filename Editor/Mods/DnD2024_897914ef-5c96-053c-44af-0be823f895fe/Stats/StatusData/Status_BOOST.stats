@@ -13223,6 +13223,64 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="788929cc-9c48-46e4-ac6d-efa103b0ae5a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRUIDICWARRIOR_CANTRIP" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9f7b8236-98d4-4734-b5af-a7bfe40a51c0" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DRUIDICWARRIOR_CANTRIP" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3687f07-5299-457e-b133-56e7c4e0b0d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRUIDICWARRIOR_CANTRIP_START" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e1a3cbc8-f4e9-4d79-b40c-2b522a9c72c3" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DRUIDICWARRIOR_CANTRIP_START" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('DRUIDICWARRIOR_CANTRIP_END',context.Source)):UnlockSpell(Shout_DruidicWarrior_Cantrip);UnlockSpellVariant(SpellId('Shout_DruidicWarrior_Cantrip'),ModifyIconGlow());" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h493dae03gf9d8g4bc6gba84g01c7e8355ac3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb18213feg1443g46dfg66c8g43152a53cf75" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_Transmutation_Shillelagh" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f02aaf7-b511-45af-a2a1-7321a7275bf3" />
+        <field name="Name" type="NameTableFieldDefinition" value="DRUIDICWARRIOR_CANTRIP_END" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c72b2d16-b379-46a4-9014-2d7217d9ba52" />
+        <field name="StackId" type="StringTableFieldDefinition" value="DRUIDICWARRIOR_CANTRIP_END" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(DRUIDICWARRIOR_CANTRIP)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="917653a2-c859-4db5-be89-0a6296870305" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLESSEDWARRIOR_CANTRIP" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9f7b8236-98d4-4734-b5af-a7bfe40a51c0" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BLESSEDWARRIOR_CANTRIP" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56f7f34b-8b70-4665-812f-a12de3d606b1" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLESSEDWARRIOR_CANTRIP_START" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e1a3cbc8-f4e9-4d79-b40c-2b522a9c72c3" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BLESSEDWARRIOR_CANTRIP_START" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasStatus('BLESSEDWARRIOR_CANTRIP_END',context.Source)):UnlockSpell(Shout_BlessedWarrior_Cantrip);UnlockSpellVariant(SpellId('Shout_BlessedWarrior_Cantrip'),ModifyIconGlow());" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h01a07b7cgbebbg480dg9b98g39a32ffd5c53" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hee720882g4ca7g0c82g0f6dgda96a14a144e" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SacredFlame" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b1adeded-e033-4163-889e-615823b5126e" />
+        <field name="Name" type="NameTableFieldDefinition" value="BLESSEDWARRIOR_CANTRIP_END" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c72b2d16-b379-46a4-9014-2d7217d9ba52" />
+        <field name="StackId" type="StringTableFieldDefinition" value="BLESSEDWARRIOR_CANTRIP_END" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(BLESSEDWARRIOR_CANTRIP)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e2d869bb-7e71-474f-85e1-05958ff8efc2" />
         <field name="Name" type="NameTableFieldDefinition" value="LFO_SKILLED" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5534d729-6932-479f-8034-779f2c2c9412" />

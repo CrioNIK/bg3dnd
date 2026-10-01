@@ -4373,6 +4373,19 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d008b577-a93f-4d26-ab13-7ae476b27d9f" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_BlessedWarrior" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2b5d6d8ag0530g8cc9ga814gf0b690c0447f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfce99c3bg8cfcg77fcg009fg49a0939c880a" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SacredFlame" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('BLESSEDWARRIOR_CANTRIP_END',context.Source)):ApplyStatus(BLESSEDWARRIOR_CANTRIP_START,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7097b00f-39c7-4af5-ae77-e3555986f7e0" />
         <field name="Name" type="NameTableFieldDefinition" value="Paladin_2_PaladinsSmite" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h77c3bd23ge0bdg1ed9gc503g1a06cc920d08" version="1" />
@@ -4703,6 +4716,19 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f620b722-de59-43de-ab62-d304856a04ec" />
         <field name="Name" type="NameTableFieldDefinition" value="__RANGER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78f3ef5d-25d5-40a0-b963-43dbfda7c754" />
+        <field name="Name" type="NameTableFieldDefinition" value="FightingStyle_DruidicWarrior" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h328fb6e1g7ecbg1657g5d39g9697b0541bf5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6fbb5729g13acg1924gf77ega081e8fbb609" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_Transmutation_Shillelagh" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('DRUIDICWARRIOR_CANTRIP_END',context.Source)):ApplyStatus(DRUIDICWARRIOR_CANTRIP_START,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

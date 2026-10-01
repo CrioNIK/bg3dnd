@@ -6945,4 +6945,14 @@ Withering Strike. Whenever an Undead you control within 60 feet of you hits a cr
   <content contentuid="hbbb9b3a4gf691g8a63gf504g010c3e895fc8" version="1">Undead Fortitude</content>
   <content contentuid="h170846b3gb4d4g669fg57f7g62ab5c0a6f61" version="1">Whenever you cast a Necromancy spell that creates or summons an Undead, the Undead’s Hit Point maximum and current Hit Points increase by a number equal to your Intelligence modifier plus half your Wizard level (round down).</content>
   <content contentuid="h3c109b51g5559g4c0bg8ae7gda1bbcf0bac0" version="1">Harvest Undead</content>
+  <content contentuid="h328fb6e1g7ecbg1657g5d39g9697b0541bf5" version="1">Fighting Style: Druidic Warrior</content>
+  <content contentuid="h6fbb5729g13acg1924gf77ega081e8fbb609" version="1">You learn two Druid cantrips of your choice. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them.</content>
+  <content contentuid="h2b5d6d8ag0530g8cc9ga814gf0b690c0447f" version="1">Fighting Style: Blessed Warrior</content>
+  <content contentuid="hfce99c3bg8cfcg77fcg009fg49a0939c880a" version="1">You learn two Cleric cantrips of your choice. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them.</content>
+  <content contentuid="h493dae03gf9d8g4bc6gba84g01c7e8355ac3" version="1">Druidic Warrior: Cantrip</content>
+  <content contentuid="h9d44a203g4f24g48e6gaee6g05715d7fa8e7" version="1">Druidic Warrior: You have learned the selected cantrip.</content>
+  <content contentuid="h7ff3bb28ge2ffg4eddg88e6g02cd38c710da" version="1">Druidic Warrior: You have learned two cantrips. Well chosen.</content>
+  <content contentuid="h01a07b7cgbebbg480dg9b98g39a32ffd5c53" version="1">Blessed Warrior: Cantrip</content>
+  <content contentuid="h9d1c43dbga6c5g4b90gabccg5498bd966185" version="1">Blessed Warrior: You have learned the selected cantrip.</content>
+  <content contentuid="h51fde9e9g9a2dg4360ga96ege0470008370f" version="1">Blessed Warrior: You have learned two cantrips. Well chosen.</content>
 </contentList>

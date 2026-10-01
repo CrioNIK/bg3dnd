@@ -6422,6 +6422,22 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f4506dda-7ea9-4853-89f1-c1e630b92083" />
+        <field name="Name" type="NameTableFieldDefinition" value="DruidicWarrior_Cantrip" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="497ba02f-a777-4240-9fd2-9f8194a31062" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h493dae03gf9d8g4bc6gba84g01c7e8355ac3" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31d3a7c1-d24e-44e4-9666-759442b906db" />
+        <field name="Name" type="NameTableFieldDefinition" value="BlessedWarrior_Cantrip" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1d3388f0-3d3d-4bdf-8bf5-fd9a6b22e86b" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h01a07b7cgbebbg480dg9b98g39a32ffd5c53" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b73580fe-4ac1-4a62-b681-0fed22e0e7b5" />
         <field name="Name" type="NameTableFieldDefinition" value="Shield_Dummy" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="92ca505f-4c09-47e7-b83c-37cefaa9a3ca" />
