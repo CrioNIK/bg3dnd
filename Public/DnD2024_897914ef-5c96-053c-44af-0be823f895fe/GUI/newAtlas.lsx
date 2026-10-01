@@ -2399,6 +2399,13 @@
                     <attribute id="V2" type="float" value="0.03112793"/>
                 </node>
                 <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_PrimalSavagery"/>
+                    <attribute id="U1" type="float" value="0.92199707"/>
+                    <attribute id="U2" type="float" value="0.93737793"/>
+                    <attribute id="V1" type="float" value="0.07824707"/>
+                    <attribute id="V2" type="float" value="0.09362793"/>
+                </node>
+                <node id="IconUV">
                     <attribute id="MapKey" type="FixedString" value="Spell_RimesBindingIce"/>
                     <attribute id="U1" type="float" value="0.67199707"/>
                     <attribute id="U2" type="float" value="0.68737793"/>
