@@ -34,7 +34,7 @@
   <text x="70" y="62" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="5" fill="#c9a45c">D&amp;D 5.5e ALL-IN-ONE BEYOND</text>
   <text x="1210" y="62" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#8f88a3">08 / 12</text>
   <text x="70" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="url(#goldGrad)">Cantrips</text>
-  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="url(#goldGrad)">20</text>
+  <text x="1210" y="128" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="800" fill="url(#goldGrad)">21</text>
   <text x="1210" y="160" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">cantrips</text>
 <text x="70" y="172" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" fill="#9089a8">Level-0 spells — free to cast, no slot required.</text>
   <line x1="70" y1="195" x2="1210" y2="195" stroke="#e8b84b" stroke-opacity="0.35" stroke-width="1.5"/>
@@ -68,11 +68,12 @@
 <text x="670" y="394" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">with level) to a…</text>
 <text x="670" y="419" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Mind Sliver</tspan><tspan fill="#cdc4e0"> — Intelligence save; Psychic damage; target subtracts 1d4 from</tspan></text>
 <text x="670" y="437" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">its next saving…</text>
-<text x="670" y="462" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Spare the Dying</tspan><tspan fill="#cdc4e0"> — Heals a creature at 0 Hit Points for an amount that</tspan></text>
-<text x="670" y="480" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">scales with level, instead…</text>
-<text x="670" y="505" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Sword Burst</tspan><tspan fill="#cdc4e0"> — Dexterity save; spectral blades deal Force damage to all</tspan></text>
-<text x="670" y="523" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">creatures within 5 ft</text>
-<text x="670" y="548" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Toll the Dead</tspan><tspan fill="#cdc4e0"> — Necrotic damage; deals more to injured targets</tspan></text>
-<text x="670" y="573" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Vengeful Blade</tspan><tspan fill="#cdc4e0"> — Melee attack; on a hit, target radiates a dark aura — if</tspan></text>
-<text x="670" y="591" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">it attacks or casts a…</text>
+<text x="670" y="462" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Primal Savagery</tspan><tspan fill="#cdc4e0"> — Melee spell attack against a creature within 5 ft; Acid damage</tspan></text>
+<text x="670" y="487" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Spare the Dying</tspan><tspan fill="#cdc4e0"> — Heals a creature at 0 Hit Points for an amount that</tspan></text>
+<text x="670" y="505" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">scales with level, instead…</text>
+<text x="670" y="530" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Sword Burst</tspan><tspan fill="#cdc4e0"> — Dexterity save; spectral blades deal Force damage to all</tspan></text>
+<text x="670" y="548" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">creatures within 5 ft</text>
+<text x="670" y="573" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Toll the Dead</tspan><tspan fill="#cdc4e0"> — Necrotic damage; deals more to injured targets</tspan></text>
+<text x="670" y="598" font-family="Arial, Helvetica, sans-serif" font-size="13.5"><tspan font-weight="700" fill="#e8b84b">Vengeful Blade</tspan><tspan fill="#cdc4e0"> — Melee attack; on a hit, target radiates a dark aura — if</tspan></text>
+<text x="670" y="616" font-family="Arial, Helvetica, sans-serif" font-size="13.5" fill="#cdc4e0">it attacks or casts a…</text>
 </svg>
