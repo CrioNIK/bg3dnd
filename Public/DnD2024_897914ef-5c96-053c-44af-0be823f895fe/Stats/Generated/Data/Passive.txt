@@ -343,7 +343,7 @@ data "Description" "h8ab19fdega28dg1fd1g0de1gc672bac4e6d3;2"
 data "ExtraDescription" "h5af643b9gd1b7g259cg51cegf17292ec2f43;1"
 data "Icon" "Action_Topple"
 data "PriorityOrder" "10"
-data "Properties" "Highlighted"
+data "Properties" "Highlighted;IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn"
 
 new entry "HasWeaponMastery_Vex"
 type "PassiveData"
