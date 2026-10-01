@@ -88,7 +88,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d07de70a-f4d3-4d17-9192-628524c1ca59" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Counterspell" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b5bdabb7-bbd0-4537-841f-ac861a185407" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0888005ag8b55g44cbg8bcfg323c786b6c32" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="CanSee(context.Observer, context.Source) and not DistanceToEntityGreaterThan(18, context.ObserverPosition, context.Source) and not HasSpellCastBlocked(context.Observer) and IsAbleToReact(context.Observer) and not Self(context.Source, context.Observer) and Enemy(context.Source, context.Observer) and IsSpell() and not Uninterruptible() and not HasStringInSpellRoll('WeaponAttack') and not AnyEntityIsItem() and not SpellId('Shout_END_Gale_ActivateNethereseOrb') and CounterspellCheck(context.Observer, context.Source);" />
+        <field name="Roll" type="StringTableFieldDefinition" value="CounterspellSavingThrow()" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -96,7 +98,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="03862761-2374-426c-9513-f9e5cc09d903" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Counterspell_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3805e569-7d79-4eb7-95ef-88d198f92009" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0888005ag8b55g44cbg8bcfg323c786b6c32" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="CanSee(context.Observer, context.Source) and not DistanceToEntityGreaterThan(18, context.ObserverPosition, context.Source) and not HasSpellCastBlocked(context.Observer) and IsAbleToReact(context.Observer) and not Self(context.Source, context.Observer) and Enemy(context.Source, context.Observer) and IsSpell() and not Uninterruptible() and not HasStringInSpellRoll('WeaponAttack') and not AnyEntityIsItem() and not SpellId('Shout_END_Gale_ActivateNethereseOrb') and CounterspellCheck(context.Observer, context.Source);" />
+        <field name="Roll" type="StringTableFieldDefinition" value="CounterspellSavingThrow()" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -104,7 +108,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="27fd81bb-0a99-4c1c-bbf8-0196894be6fb" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Counterspell_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9e87c1e1-3d6f-4be4-83a7-f57680477f6b" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0888005ag8b55g44cbg8bcfg323c786b6c32" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="CanSee(context.Observer, context.Source) and not DistanceToEntityGreaterThan(18, context.ObserverPosition, context.Source) and not HasSpellCastBlocked(context.Observer) and IsAbleToReact(context.Observer) and not Self(context.Source, context.Observer) and Enemy(context.Source, context.Observer) and IsSpell() and not Uninterruptible() and not HasStringInSpellRoll('WeaponAttack') and not AnyEntityIsItem() and not SpellId('Shout_END_Gale_ActivateNethereseOrb') and CounterspellCheck(context.Observer, context.Source);" />
+        <field name="Roll" type="StringTableFieldDefinition" value="CounterspellSavingThrow()" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -112,7 +118,9 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6141c8aa-649a-4dc6-a2c7-7128477bbb65" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Counterspell_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="69c7d192-743f-4776-af67-18fac8cc60d9" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0888005ag8b55g44cbg8bcfg323c786b6c32" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="CanSee(context.Observer, context.Source) and not DistanceToEntityGreaterThan(18, context.ObserverPosition, context.Source) and not HasSpellCastBlocked(context.Observer) and IsAbleToReact(context.Observer) and not Self(context.Source, context.Observer) and Enemy(context.Source, context.Observer) and IsSpell() and not Uninterruptible() and not HasStringInSpellRoll('WeaponAttack') and not AnyEntityIsItem() and not SpellId('Shout_END_Gale_ActivateNethereseOrb') and CounterspellCheck(context.Observer, context.Source);" />
+        <field name="Roll" type="StringTableFieldDefinition" value="CounterspellSavingThrow()" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -120,7 +128,19 @@
         <field name="UUID" type="IdTableFieldDefinition" value="cd81dffc-63a1-4968-91f5-47cdd63fbdd4" />
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_CounterSpell_MindFlayer" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="db8e29ec-36b3-4b6a-8813-3be73d4b0cf8" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0888005ag8b55g44cbg8bcfg323c786b6c32" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="CanSee(context.Observer, context.Source) and not DistanceToEntityGreaterThan(18, context.ObserverPosition, context.Source) and not HasSpellCastBlocked(context.Observer) and IsAbleToReact(context.Observer) and not Self(context.Source, context.Observer) and Enemy(context.Source, context.Observer) and IsSpell() and not Uninterruptible() and not HasStringInSpellRoll('WeaponAttack') and not AnyEntityIsItem() and not SpellId('Shout_END_Gale_ActivateNethereseOrb') and CounterspellCheck(context.Observer, context.Source);" />
+        <field name="Roll" type="StringTableFieldDefinition" value="CounterspellSavingThrow()" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="466c9cc6-ba17-42fc-82ce-947987309145" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_MAG_Counterspell" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9936b55-4e24-4b3e-b064-19bdb1eb8235" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0888005ag8b55g44cbg8bcfg323c786b6c32" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="CanSee(context.Observer, context.Source) and not DistanceToEntityGreaterThan(18, context.ObserverPosition, context.Source) and not HasSpellCastBlocked(context.Observer) and IsAbleToReact(context.Observer) and not Self(context.Source, context.Observer) and Enemy(context.Source, context.Observer) and IsSpell() and not Uninterruptible() and not HasStringInSpellRoll('WeaponAttack') and not AnyEntityIsItem() and not SpellId('Shout_END_Gale_ActivateNethereseOrb') and CounterspellCheck(context.Observer, context.Source);" />
+        <field name="Roll" type="StringTableFieldDefinition" value="CounterspellSavingThrow()" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -218,7 +238,7 @@
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Enemy(context.Source,context.Observer) and HasFunctor(StatsFunctorType.DealDamage) and IsHit() and not AnyEntityIsItem() and HasLastAttackTriggered();" />
-        <field name="Roll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC(10,context.Observer,context.PreferredCastingAbility),,false,context.Source)" />
+        <field name="Roll" type="StringTableFieldDefinition" value="CounterspellSavingThrow()" />
         <field name="Success" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_SOURCE,BLINDED,100,2);" />
         <field name="Cost" type="StringTableFieldDefinition" value="ReactionActionPoint:1;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />

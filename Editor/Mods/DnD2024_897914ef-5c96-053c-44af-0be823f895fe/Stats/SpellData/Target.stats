@@ -707,10 +707,90 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ea56e29-c718-426a-8e94-71c298d2ec14" />
+        <field name="Name" type="NameTableFieldDefinition" value="Counterspell" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bd25ddb8-67a1-4c64-b405-2a2c74270216" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95ec7da0gf909g462agba7eg19088245e6ef" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25b499b2-7ce7-49f5-a2f5-eb6281cba58b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Counterspell_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b4f8ff37-6469-48dd-83c8-dbe6651bd102" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95ec7da0gf909g462agba7eg19088245e6ef" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c5cfee2d-a85b-4067-a775-7676e54ae8dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Counterspell_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="444aa994-b47d-4eb5-b2b6-70e28084a1a3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95ec7da0gf909g462agba7eg19088245e6ef" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="253aaa0c-3e8c-4a80-9adc-07d8ff8d2003" />
+        <field name="Name" type="NameTableFieldDefinition" value="Counterspell_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0a54ad86-e208-46ab-b2f2-070aa0c91f53" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95ec7da0gf909g462agba7eg19088245e6ef" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fcfde979-a89f-459d-a6e3-0f87d985e47e" />
+        <field name="Name" type="NameTableFieldDefinition" value="CounterSpell_Mindflayer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb795379-4d91-4461-93b7-67e79b7d2ee9" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95ec7da0gf909g462agba7eg19088245e6ef" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="48436cbb-7e67-49c3-abb9-927e726115d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="END_Emperor_Counterspell" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6ad7a1f8-f1e0-4873-a9cf-16913d868e87" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95ec7da0gf909g462agba7eg19088245e6ef" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6f06056-4b38-4756-9972-3fe3e8cd76d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="LOW_GithyankiGish_Counterspell_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f76f9049-6e4c-4eb5-bd9d-cd8d2ef8462e" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95ec7da0gf909g462agba7eg19088245e6ef" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4d08022e-f329-4b80-bf70-a3bba55d166f" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_CounterSpell" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="285e28c0-73e0-41c2-b623-9f807e5aea7e" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95ec7da0gf909g462agba7eg19088245e6ef" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cb414750-e32e-4bec-a01c-763e6d7e5e1a" />
         <field name="Name" type="NameTableFieldDefinition" value="Counterspell_Success" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="283278a0-b674-43d7-b2b1-8a21fca3ab69" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(HasPassive('SpellfireSorcery_6_AbsorbSpells',context.Source')):RestoreResource(SELF,SorceryPoint,1d4,0);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(HasPassive('SpellfireSorcery_6_AbsorbSpells',context.Source)):RestoreResource(SELF,SorceryPoint,1d4,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c2dfa2d1-bb98-4cab-b245-540eaddc8963" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_CounterSpell_Success" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="106f5670-53b9-4652-87a7-0518b1b2e940" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(HasPassive('SpellfireSorcery_6_AbsorbSpells',context.Source)):RestoreResource(SELF,SorceryPoint,1d4,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
