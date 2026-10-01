@@ -9860,11 +9860,67 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="933002d6-5ba0-4113-894d-2067c307b356" />
+        <field name="Name" type="NameTableFieldDefinition" value="TRANSMUTERS_STONE_ACID" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="01361190-78d5-4d9d-bd21-e7048f77b9d6" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Constitution);Resistance(Acid, Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="62db5794-57c2-4ea5-b8f7-633eee7c586b" />
+        <field name="Name" type="NameTableFieldDefinition" value="TRANSMUTERS_STONE_COLD" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b938a54d-ed4e-449c-b2c6-1ae7009b1d48" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Constitution);Resistance(Cold, Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="130a3277-44f1-4b6b-b6e4-67c373a99c5c" />
+        <field name="Name" type="NameTableFieldDefinition" value="TRANSMUTERS_STONE_DARKNESS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2f311718-e6e8-4892-960f-badd0baefa3b" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Constitution);DarkvisionRangeMin(18);ActiveCharacterLight(051648e6-f05a-e41f-e398-ffd5cd148989);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f747371d-fe13-4da2-9d6b-f49a7a12ebb7" />
+        <field name="Name" type="NameTableFieldDefinition" value="TRANSMUTERS_STONE_FIRE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="874551f4-e539-4103-9884-ff572e26d8a9" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Constitution);Resistance(Fire, Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5023ca0d-149f-49d3-ad7b-a0fc23903e80" />
+        <field name="Name" type="NameTableFieldDefinition" value="TRANSMUTERS_STONE_LIGHTNING" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bec14ebd-cc9c-4032-9dd5-aa00783ab860" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Constitution);Resistance(Lightning, Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5846632e-c886-4020-ab24-7e579edfd5d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="TRANSMUTERS_STONE_MOVEMENTSPEED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0e7d53ed-866f-4bd1-8596-f09accd35a6c" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Constitution);ActionResource(Movement,3,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7d6a017b-f9db-4ac6-a479-f63868e0949f" />
+        <field name="Name" type="NameTableFieldDefinition" value="TRANSMUTERS_STONE_THUNDER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="03a6d3f5-3d2d-45e7-9a9a-a1cd0c45f59b" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Constitution);Resistance(Thunder, Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="90a5dc9e-a122-4957-b160-aefde047a61a" />
         <field name="Name" type="NameTableFieldDefinition" value="TRANSMUTERS_STONE_POISON" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="01361190-78d5-4d9d-bd21-e7048f77b9d6" />
         <field name="StackId" type="StringTableFieldDefinition" value="TRANSMUTERS_STONE_POISON" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Poison, Resistant);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow,Constitution);Resistance(Poison, Resistant);" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(TRANSMUTERS_STONE_POISON_TECHNICAL,100,1)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h29de31f3g6e31g1c32gb243ga6863b642381" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h78931074gd366gca5egbf41gd4fedf72d4dc" version="1" />
