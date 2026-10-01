@@ -11503,6 +11503,16 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a650dac1-faab-4b06-abd3-c628f8fd5580" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_PRIMALSAVAGERY" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_PRIMALSAVAGERY" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_PrimalSavagery);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haf437cb1gf69dg41c5g849fg716d5c9b10a5" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5bacfbf9-a430-48cc-997a-857f7c403231" />
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_ANIMALFRIENDSHIP" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />

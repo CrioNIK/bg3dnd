@@ -597,13 +597,13 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Druid Cantrip List"/>
-                    <attribute id="Spells" type="LSString" value="Target_Frostbite;Target_Guidance;Projectile_PoisonSpray;Shout_ProduceFlame;Target_Resistance;Shout_Shillelagh;Target_SpareTheDying;Projectile_StarryWisp;Target_ThornWhip;Shout_Thunderclap"/>
+                    <attribute id="Spells" type="LSString" value="Target_Frostbite;Target_Guidance;Projectile_PoisonSpray;Target_PrimalSavagery;Shout_ProduceFlame;Target_Resistance;Shout_Shillelagh;Target_SpareTheDying;Projectile_StarryWisp;Target_ThornWhip;Shout_Thunderclap"/>
                     <attribute id="UUID" type="guid" value="b8faf12f-ca42-45c0-84f8-6951b526182a"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Druid Cantrip List to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Target_Frostbite;Target_Guidance;Projectile_PoisonSpray;Shout_ProduceFlame;Target_Resistance;Shout_Shillelagh;Target_SpareTheDying;Projectile_StarryWisp;Target_ThornWhip;Shout_Thunderclap"/>
+                    <attribute id="Spells" type="LSString" value="Target_Frostbite;Target_Guidance;Projectile_PoisonSpray;Target_PrimalSavagery;Shout_ProduceFlame;Target_Resistance;Shout_Shillelagh;Target_SpareTheDying;Projectile_StarryWisp;Target_ThornWhip;Shout_Thunderclap"/>
                     <attribute id="UUID" type="guid" value="09a2762d-be42-431f-8278-58525deb1135"/>
                 </node>
                 <node id="SpellList">

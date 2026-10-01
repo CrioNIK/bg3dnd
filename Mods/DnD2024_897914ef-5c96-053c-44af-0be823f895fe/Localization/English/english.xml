@@ -6972,4 +6972,9 @@ When the spell ends, the target is Incapacitated and has a Speed of 0 until the 
   <content contentuid="h66f57535g5983g0759gbf5cg97ae51f83d6f" version="1">Sentinel (Attack)</content>
   <content contentuid="h5ead652fgb77fgb355gd4b6g83cdb204b430" version="1">Sentinel (Disengage)</content>
   <content contentuid="h8bbe62c2gd6acg4d8dg8cf1g973b592b6ec6" version="1">When a creature within 5 feet of you takes the Disengage action, you may make an Opportunity Attack against it.</content>
+  <content contentuid="h6389b1f8gf9b2g4b1fg95ecgbc55399bd0ef" version="1">Primal Savagery</content>
+  <content contentuid="h9b72e2dfgf1abg484cg8976gdd3fb95cb68d" version="1">Primal magic sharpens your teeth or fingernails into corrosive weapons. Make a melee spell attack against a creature within 5 feet of you. On a hit, the target takes Acid damage. Your teeth or fingernails return to normal once the attack is made.</content>
+  <content contentuid="haf437cb1gf69dg41c5g849fg716d5c9b10a5" version="1">Magic Initiate: Primal Savagery</content>
+  <content contentuid="h658b5e46g9a77g41bagb97dg93007ba2f16d" version="1">Level 1: Primal Order: Primal Savagery</content>
+  <content contentuid="ha4c26951g8b5dg4934g8e76gc35ecdb75322" version="1">Primal Savagery</content>
 </contentList>

@@ -2887,6 +2887,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d7e8740c-e056-40ba-be76-85dee0a012e4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Cleric_PrimalOrder_Magician_10" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8bef4cb7-a796-4437-9ee9-8a06e57aeaae" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h658b5e46g9a77g41bagb97dg93007ba2f16d" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha4c26951g8b5dg4934g8e76gc35ecdb75322" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_PrimalSavagery" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,WisdomModifier);Skill(Nature,WisdomModifier);UnlockSpell(Target_PrimalSavagery);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4081d829-6525-4dc8-8807-2f50414b0a15" />
         <field name="Name" type="NameTableFieldDefinition" value="Druid_2_WildShape" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8f1b692bg604cgb34cg9e64g7c5d22aebe85" version="1" />

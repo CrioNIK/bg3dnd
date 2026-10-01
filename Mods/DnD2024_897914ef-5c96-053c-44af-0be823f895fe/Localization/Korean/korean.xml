@@ -6945,4 +6945,9 @@
   <content contentuid="hbbb9b3a4gf691g8a63gf504g010c3e895fc8" version="1">언데드의 강건함</content>
   <content contentuid="h170846b3gb4d4g669fg57f7g62ab5c0a6f61" version="1">언데드를 생성하거나 소환하는 사령술 주문을 시전할 때마다, 그 언데드의 생명력 최대치와 현재 생명력이 지능 보정치에 위저드 레벨의 절반(내림)을 더한 만큼 증가합니다.</content>
   <content contentuid="h3c109b51g5559g4c0bg8ae7gda1bbcf0bac0" version="1">언데드 수확</content>
+  <content contentuid="h6389b1f8gf9b2g4b1fg95ecgbc55399bd0ef" version="1">태고의 야성</content>
+  <content contentuid="h9b72e2dfgf1abg484cg8976gdd3fb95cb68d" version="1">태고의 마법이 이빨이나 손톱을 부식성 무기로 날카롭게 벼립니다. 1.5m 이내의 크리처 하나에게 근접 주문 공격을 가합니다. 명중하면, 대상은 산성 피해를 입습니다. 공격을 마치면 이빨이나 손톱은 원래대로 돌아옵니다.</content>
+  <content contentuid="haf437cb1gf69dg41c5g849fg716d5c9b10a5" version="1">마법 입문: 태고의 야성</content>
+  <content contentuid="h658b5e46g9a77g41bagb97dg93007ba2f16d" version="1">1레벨: 태고의 소명: 태고의 야성</content>
+  <content contentuid="ha4c26951g8b5dg4934g8e76gc35ecdb75322" version="1">태고의 야성</content>
 </contentList>

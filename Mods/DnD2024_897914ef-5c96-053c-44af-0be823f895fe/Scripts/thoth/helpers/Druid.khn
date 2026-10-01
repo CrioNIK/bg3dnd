@@ -4,6 +4,7 @@ function IsDruidCantrip()
      | SpellId('Projectile_ProduceFlame_Hurl_Free')
      | SpellId('Projectile_StarryWisp')
      | SpellId('Target_Frostbite')
+     | SpellId('Target_PrimalSavagery')
      | SpellId('Target_ThornWhip')
      | SpellId('Shout_Thunderclap')
 end
