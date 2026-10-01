@@ -233,6 +233,46 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ab18610-7a45-42eb-b301-9aa3aab92b76" />
+        <field name="Name" type="NameTableFieldDefinition" value="HasteActions" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_MainHandAttack_Haste;Target_UnarmedAttack_Haste;Projectile_MainHandAttack_Haste;Throw_Throw_Haste;Shout_Dash_Haste;Shout_Disengage_Haste;Shout_Hide_Haste;" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Haste" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h40329cb3g3ac6gd64bg1f8fge3f1c9a728c2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h188a058cgcea3g60b0g633fg27cdd4e0978e" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="HasteActionPoint:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="5e57443f-284e-47b2-915e-5b6417db269c,,;925779e7-8bf6-4d56-8c4d-42c3bc01c60c,,;50398f4e-dd82-4d6a-ad43-aedd578543d9,,;1c343e00-7e6c-4f53-b588-074a3cdb9c7d,,;5bcdefbb-2194-46c2-ac77-0b2d8472a5f7,,;,,;5fdb66be-7506-411a-a7ea-c4783288aac8,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="acd6901b-0654-45ee-a675-5f8c6f2738b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="Dash_Haste" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e0fd05f4-0b0d-4663-beec-21d2b5de7928" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_HasteActions" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="HasteActionPoint:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44b757a9-1577-4942-8e59-4a5237173c11" />
+        <field name="Name" type="NameTableFieldDefinition" value="Disengage_Haste" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="98f7d181-873d-42a7-9534-e0c3d62c0423" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_HasteActions" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="HasteActionPoint:1;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da670fbe-630d-408b-b260-f4ef4c4e7bab" />
+        <field name="Name" type="NameTableFieldDefinition" value="Hide_Haste" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="47a715f3-40a5-4bde-9b4a-2c3df1ebe842" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_HasteActions" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="HasteActionPoint:1;" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ddffddcf-e01a-400b-83d4-b69369964c9e" />

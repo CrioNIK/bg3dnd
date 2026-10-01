@@ -21,6 +21,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f40a241c-a77f-42c2-8332-35187d0b0283" />
+        <field name="Name" type="NameTableFieldDefinition" value="Throw_Haste" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ecaf4911-925e-45ed-bb54-db3339c11bd9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_HasteActions" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="HasteActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f7b66287-82eb-412f-8346-198c913daa74" />
         <field name="Name" type="NameTableFieldDefinition" value="Throw_RecklessAttack" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ecaf4911-925e-45ed-bb54-db3339c11bd9" />

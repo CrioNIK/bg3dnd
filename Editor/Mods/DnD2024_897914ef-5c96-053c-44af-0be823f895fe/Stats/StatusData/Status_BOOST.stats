@@ -4407,6 +4407,65 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4139a2d5-3425-4454-8890-f0f28059ab36" />
+        <field name="Name" type="NameTableFieldDefinition" value="HASTE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e31f1a64-929c-4b52-830f-6f701aecbecc" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);AC(2);ActionResource(HasteActionPoint,1,0);UnlockSpell(Shout_HasteActions);IF(HasActionResource('HasteActionPoint',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Shout_HasteActions'),ModifyIconGlow());Advantage(SavingThrow, Dexterity);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd4827a3agb1afg4c6fgb836g454dc636da9d" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3b2a0e7e-4101-4c52-8261-aea009b3d332" />
+        <field name="Name" type="NameTableFieldDefinition" value="HASTE_SURFACE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f19a4ab8-b609-4502-8ccc-1fa5dc881d6d" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);AC(2);ActionResource(HasteActionPoint,1,0);UnlockSpell(Shout_HasteActions);IF(HasActionResource('HasteActionPoint',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Shout_HasteActions'),ModifyIconGlow());Advantage(SavingThrow, Dexterity);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h26978512g7629g48e9g92fcg8333030f500c" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d30fa9ce-e330-4049-8439-d8af49536917" />
+        <field name="Name" type="NameTableFieldDefinition" value="SPIDER_SWORD_HASTE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0b79f28b-e065-431b-ab99-e553d647c5a6" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,12,0);AC(2);ActionResource(HasteActionPoint,1,0);UnlockSpell(Shout_HasteActions);IF(HasActionResource('HasteActionPoint',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Shout_HasteActions'),ModifyIconGlow());Advantage(SavingThrow, Dexterity);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1724655f-eef0-4b19-8b1c-8ebafe03b27b" />
+        <field name="Name" type="NameTableFieldDefinition" value="POTION_OF_SPEED" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0f2fbc6d-591d-4403-afdc-6e349926839b" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);AC(2);ActionResource(HasteActionPoint,1,0);UnlockSpell(Shout_HasteActions);IF(HasActionResource('HasteActionPoint',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Shout_HasteActions'),ModifyIconGlow());Advantage(SavingThrow, Dexterity);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56285962-e117-4a98-b40e-808156cc2c90" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONS_DRUG_STIMULANT" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="08e16b39-d1d4-4771-ab77-c125589d5d14" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);AC(2);ActionResource(HasteActionPoint,1,0);UnlockSpell(Shout_HasteActions);IF(HasActionResource('HasteActionPoint',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Shout_HasteActions'),ModifyIconGlow());Advantage(SavingThrow, Dexterity);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ccb725d3-58c4-4cfb-a121-dc2eb3c61507" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_CELESTIAL_HASTE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="88f5499e-3323-4a9d-8001-ec73190391c0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,9,0);AC(2);ActionResource(HasteActionPoint,1,0);UnlockSpell(Shout_HasteActions);IF(HasActionResource('HasteActionPoint',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Shout_HasteActions'),ModifyIconGlow());Advantage(SavingThrow, Dexterity);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha7d48868g48d6g4fb5gb078gfa458e29df3a" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="be4c9c48-986f-4f5f-a478-27c511dd5db6" />
+        <field name="Name" type="NameTableFieldDefinition" value="ALCH_ELIXIR_BLOODLUST_TEMPAP" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="160da15c-cfef-4475-b67a-9841223a1fd5" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(HasteActionPoint,1,0);UnlockSpell(Shout_HasteActions);IF(HasActionResource('HasteActionPoint',1,0,false,false,context.Source)):UnlockSpellVariant(SpellId('Shout_HasteActions'),ModifyIconGlow());" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="32853af9-c07f-4ec7-a3cf-ea2ba122bd57" />
         <field name="Name" type="NameTableFieldDefinition" value="STONESKIN" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e33de664-e0bb-4a6f-8474-aa0903fd7c8f" />

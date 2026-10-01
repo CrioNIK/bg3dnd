@@ -543,6 +543,14 @@
                     <attribute id="UUID" type="guid" value="e8d0016e-a9c1-4eb6-a64f-123fcfbf5133"/>
                 </node>
                 <node id="ActionResourceDefinition">
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="MaxValue" type="uint32" value="1"/>
+                    <attribute id="Name" type="FixedString" value="UndeadThralls"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="UUID" type="guid" value="8e713861-dd88-41b9-bbff-915cc0640eb0"/>
+                </node>
+                <node id="ActionResourceDefinition">
                     <attribute id="Name" type="FixedString" value="__GUNSLINGER__"/>
                     <attribute id="UUID" type="guid" value="929d806a-8db8-40a3-b53c-4cd04337bb1e"/>
                 </node>
@@ -897,12 +905,11 @@
                     <attribute id="UUID" type="guid" value="014d6340-84cf-4d14-b5a4-4b3f5886f8ba"/>
                 </node>
                 <node id="ActionResourceDefinition">
-                    <attribute id="IsHidden" type="bool" value="true"/>
-                    <attribute id="MaxLevel" type="uint32" value="0"/>
-                    <attribute id="MaxValue" type="uint32" value="1"/>
-                    <attribute id="Name" type="FixedString" value="UndeadThralls"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
-                    <attribute id="UUID" type="guid" value="8e713861-dd88-41b9-bbff-915cc0640eb0"/>
+                    <attribute id="Description" type="TranslatedString" handle="h188a058cgcea3g60b0g633fg27cdd4e0978e" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h44dbb66dgd470g6c38gca18gf0222f0eedba" version="1"/>
+                    <attribute id="Name" type="FixedString" value="HasteActionPoint"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="2034b8d1-ebf6-40c2-a521-fee466a63acd"/>
                 </node>
             </children>
         </node>

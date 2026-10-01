@@ -49,6 +49,24 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb4c443d-0d7f-4227-a145-dc883e9d06c5" />
+        <field name="Name" type="NameTableFieldDefinition" value="MainHandAttack_Haste" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b846e8d8-f5e9-4b93-a52b-f1ad50878bf7" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_HasteActions" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="HasteActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8dd62469-5a20-480d-90be-371be22a6843" />
+        <field name="Name" type="NameTableFieldDefinition" value="UnarmedAttack_Haste" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79cbdbe7-ec99-45d9-a901-96a9ca633abc" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_HasteActions" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="HasteActionPoint:1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fd1c8b0c-908e-4ba4-80fb-f193598dfd73" />
         <field name="Name" type="NameTableFieldDefinition" value="OffhandAttack" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="34c87ba1-754a-4700-9178-d939ad7003c6" />
@@ -9625,6 +9643,14 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FLY,100,100);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d6a7f0cg4b59gf232g16f9gaaf7e6aa8dfb" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h680a104dg18d0g6bfeg6161ga38f884a1c38" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0eeecc30-d0f2-4758-92bf-65eedb9d38a3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Haste" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1558a5f4-e1bb-43a4-b2be-c8a7b682c6cb" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1be7bc6cg3182g40a8g82bag8871597288ab" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
