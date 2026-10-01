@@ -3,6 +3,15 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f4efbe0-1b12-422b-a1a5-a79f7ed30acc" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_TransmuterStone_Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f2d69258-aa47-4c61-8e03-964f6676f4cc" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e609afac-9a22-4728-a33a-969a563b29bb" />
+        <field name="StatusInInventory" type="StringTableFieldDefinition" value="TRANSMUTERS_STONE_POISON" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="699fa92f-3a3a-41ed-8afb-3fd486c915c0" />
         <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_CloakOfShadow_YMS" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />

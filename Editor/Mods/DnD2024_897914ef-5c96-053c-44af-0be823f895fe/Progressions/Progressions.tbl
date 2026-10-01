@@ -9072,7 +9072,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="TransmutationSchool" />
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ExperimentalAlchemy" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Transmuter_3_TransmutersStone;Transmuter_3_WondrousAlteration" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(3969a273-14d4-4d28-bfff-7a57b1181fe0,2,0,Wizard_3_Savant);" />
       </fields>
     </stat_object>
@@ -9105,7 +9105,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="TransmutationSchool" />
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="TransmutationStone;TransmutationStone_Activation" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Transmuter_6_EmpoweredTransmutation;Transmuter_6_EmpoweredTransmutation_Resource" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9148,7 +9148,7 @@
         <field name="FSName" type="StringTableFieldDefinition" value="TransmutationSchool" />
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Shapechanger" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="Transmuter_10_PotentStone;Transmuter_10_ShapeShifter" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

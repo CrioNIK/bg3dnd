@@ -7577,6 +7577,86 @@
     </stat_object>
     <stat_object color="#FF0000FF" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bd9b17d7-52f5-4b24-9507-4d29912c1192" />
+        <field name="Name" type="NameTableFieldDefinition" value="__WIZARD TRANSMUTER__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="42826ac2-f1b5-4538-b632-754ca195e28b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Transmuter_3_TransmutersStone" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h47f57d37g60a1g7058g9460g8406ead6821b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d075ee4g024ag9653g9e9fg8639dcbdfaf0" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_TransmutationStone" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_TransmutersStone)" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast;OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsSpell() and IsSpellSchool(SpellSchool.Transmutation) and not IsCantrip()" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,TRANSMUTERS_STONE_USED)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78e540b1-09ef-46b6-b108-c73d367ec04c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Transmuter_3_WondrousAlteration" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6e22118ag6a4fga46eg47b6g391b85128a7f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1610492bg081fg2025g5ba3g7e3850173f85" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_AlterSelf" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12203" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_AlterSelf,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(WondrousAlteration,1,0);IF(HasActionResource('WondrousAlteration',1,0,false,false,context.Source)):UnlockSpellVariant(WondrousAlteration(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,WondrousAlteration,1,0));" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b9d0c6da-414b-4f70-9c22-2d423d75e6d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Transmuter_6_EmpoweredTransmutation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb8ae5762g6803g76f5g55ccg1109ad8941db" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb2019138ge371ga0e0g2a82g1670d92db796" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_SplitEnchantment" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12206" />
+        <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('EmpoweredTransmutation', 1, 0, false, false, context.Source);" />
+        <field name="EnabledContext" type="EnumerationListTableFieldDefinition" value="OnCastResolved;OnLongRest;OnActionResourcesChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;MetaMagic;Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(EmpoweredTransmutation(),ModifyNumberOfTargets(AdditiveBase,1,true),ModifyTooltipDescription(),ModifyIconGlow(),ModifyUseCosts(Add,EmpoweredTransmutation,1,0));" />
+        <field name="ToggleOffContext" type="EnumerationListTableFieldDefinition" value="OnCastResolved" enumeration_type_name="StatsFunctorContext" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="67e6f894-af30-4bde-a514-5f74958743cc" />
+        <field name="Name" type="NameTableFieldDefinition" value="Transmuter_6_EmpoweredTransmutation_Resource" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(EmpoweredTransmutation,1,0);IF(AbilityGreaterThan('Intelligence',13,context.Source)):ActionResource(EmpoweredTransmutation,1,0);IF(AbilityGreaterThan('Intelligence',15,context.Source)):ActionResource(EmpoweredTransmutation,1,0);IF(AbilityGreaterThan('Intelligence',17,context.Source)):ActionResource(EmpoweredTransmutation,1,0);IF(AbilityGreaterThan('Intelligence',19,context.Source)):ActionResource(EmpoweredTransmutation,1,0);IF(AbilityGreaterThan('Intelligence',21,context.Source)):ActionResource(EmpoweredTransmutation,1,0);IF(AbilityGreaterThan('Intelligence',23,context.Source)):ActionResource(EmpoweredTransmutation,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="82700c03-3869-4e77-9196-beb96e39c84a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Transmuter_10_PotentStone" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8df15b7cgb624g2431g73a8gbc18e1d53308" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h90db5de8g507dg97f0ga661gbd1407fa3923" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_TransmutationStone" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12210" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_TransmutersStone_2);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a00cd1ef-0444-4f30-a1c2-5358aa6d265e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Transmuter_10_ShapeShifter" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h49f831e1g02adg05a1gf137gfb2069ea609d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcb811336g16d2g1084g13bcgff0072871faf" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Shapechanger" />
+        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12210" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Polymorph,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);ActionResource(ShapeShifter,1,0);IF(HasActionResource('ShapeShifter',1,0,false,false,context.Source)):UnlockSpellVariant(ShapeShifter(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,ShapeShifter,1,0));" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF0000FF" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="eb119064-d3c4-41ca-850e-2094fc61c76b" />
         <field name="Name" type="NameTableFieldDefinition" value="__WIZARD BLANDSINGER__12303" />
       </fields>

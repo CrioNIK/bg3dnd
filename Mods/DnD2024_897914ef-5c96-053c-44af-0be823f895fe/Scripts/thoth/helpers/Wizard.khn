@@ -142,3 +142,15 @@ function UndeadThralls()
     | SpellId('Target_AnimateDead_YMS_Zombie_5')
     | SpellId('Target_AnimateDead_YMS_Zombie_6')
 end
+
+function WondrousAlteration()
+    return SpellId('Shout_AlterSelf')
+end
+
+function EmpoweredTransmutation()
+    return IsSpellOfSchool(SpellSchool.Transmutation) & ~IsCantrip()
+end
+
+function ShapeShifter()
+    return SpellId('Target_Polymorph')
+end

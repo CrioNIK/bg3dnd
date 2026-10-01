@@ -4726,7 +4726,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8089a3a9ga6d2g4913g8e5fg89d941c87d28" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_AlterSelf" />
         <field name="StackId" type="StringTableFieldDefinition" value="ALTER_SELF" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_NaturalWeapon);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('Transmuter_3_WondrousAlteration',context.Source)):UnlockSpell(Target_NaturalWeapon);IF(HasPassive('Transmuter_3_WondrousAlteration',context.Source)):UnlockSpell(Target_NaturalWeapon_WondrousAlteration);IF(HasPassive('Transmuter_3_WondrousAlteration',context.Source)):Advantage(Skill,Deception);IF(HasPassive('Transmuter_3_WondrousAlteration',context.Source)):Advantage(Concentration);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
@@ -9856,6 +9856,26 @@
         <field name="Name" type="NameTableFieldDefinition" value="HARVEST_UNDEAD_KILL" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;NonExtendable" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="Kill()" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="90a5dc9e-a122-4957-b160-aefde047a61a" />
+        <field name="Name" type="NameTableFieldDefinition" value="TRANSMUTERS_STONE_POISON" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="01361190-78d5-4d9d-bd21-e7048f77b9d6" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TRANSMUTERS_STONE_POISON" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Poison, Resistant);" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(TRANSMUTERS_STONE_POISON_TECHNICAL,100,1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h29de31f3g6e31g1c32gb243ga6863b642381" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h78931074gd366gca5egbf41gd4fedf72d4dc" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c6c41ffb-28d2-4394-9d1c-08c312f987c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="TRANSMUTERS_STONE_POISON_TECHNICAL" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e4845387-f5d0-44b4-a7c9-3027fea40cd9" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TRANSMUTERS_STONE_POISON" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

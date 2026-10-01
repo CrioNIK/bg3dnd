@@ -11,7 +11,7 @@ function SpectralSlashCheck()
 end
 
 function NaturalWeapon()
-    return SpellId('Target_NaturalWeapon_Slashing') | SpellId('Target_NaturalWeapon_Piercing') | SpellId('Target_NaturalWeapon_Bludgeoning')
+    return SpellId('Target_NaturalWeapon_Slashing') | SpellId('Target_NaturalWeapon_Piercing') | SpellId('Target_NaturalWeapon_Bludgeoning') | SpellId('Target_NaturalWeapon_Slashing_WondrousAlteration') | SpellId('Target_NaturalWeapon_Piercing_WondrousAlteration') | SpellId('Target_NaturalWeapon_Bludgeoning_WondrousAlteration')
 end
 
 function ExtraAttackSpellCheck()

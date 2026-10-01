@@ -779,6 +779,40 @@
         <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_130" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fe6ce2e0-ee90-40a3-83ac-eedc08889382" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="WondrousAlteration" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="MaxValue" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_131" />
+        <field name="UUID" type="IdTableFieldDefinition" value="423005c9-8b20-47ab-a38c-c6f0441bd816" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="EmpoweredTransmutation" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8adaf8f4g1cb0g4570gbf36g3c8aab4a6d8b" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb2019138ge371ga0e0g2a82g1670d92db796" version="1" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="ShowOnActionResourcePanel" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_132" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1d315795-9737-4ca9-afd9-60b2bb6e406b" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="ShapeShifter" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="0" />
+        <field name="MaxValue" type="IntegerTableFieldDefinition" value="1" />
+        <field name="ReplenishType" type="FixedStringTableFieldDefinition" value="Rest" />
+        <field name="IsHidden" type="BoolTableFieldDefinition" value="True" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF800000" is_substat="false">
       <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_61" />

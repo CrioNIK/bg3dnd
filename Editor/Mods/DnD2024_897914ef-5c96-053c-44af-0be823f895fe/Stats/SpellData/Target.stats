@@ -9731,6 +9731,49 @@
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ab2eeb3-8d97-4a1e-ba2a-3d72c852e351" />
+        <field name="Name" type="NameTableFieldDefinition" value="NaturalWeapon_WondrousAlteration" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4747b168-100c-408f-b215-753f2aa930a2" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_NaturalWeapon_Slashing_WondrousAlteration;Target_NaturalWeapon_Piercing_WondrousAlteration;Target_NaturalWeapon_Bludgeoning_WondrousAlteration" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7c8a1b28g2b90g4e43g98a4gcb5a8d361fe7" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;IsMelee;IsHarmful;DisableBlood;AddFallDamageOnLand;Temporary;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4747b168-100c-408f-b215-753f2aa930a2" />
+        <field name="Name" type="NameTableFieldDefinition" value="NaturalWeapon_Slashing_WondrousAlteration" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a9de5488-a275-4ffe-bdcf-bff868711abc" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_NaturalWeapon_WondrousAlteration" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d6+SpellCastingAbilityModifier,Slashing,Magical);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6+SpellCastingAbilityModifier,Slashing)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="43d15933-e3df-4980-a62b-e3f93c06b0bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="NaturalWeapon_Piercing_WondrousAlteration" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4747b168-100c-408f-b215-753f2aa930a2" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d6+SpellCastingAbilityModifier,Piercing,Magical);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he45ddf49gf968g421bgb39eg34e4a7be8383" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6+SpellCastingAbilityModifier,Piercing)" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b241b293-cd40-4c19-94d3-e70429e4d82c" />
+        <field name="Name" type="NameTableFieldDefinition" value="NaturalWeapon_Bludgeoning_WondrousAlteration" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4747b168-100c-408f-b215-753f2aa930a2" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d6+SpellCastingAbilityModifier,Bludgeoning,Magical);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h599ec81ag2a69g41bdg9eaeg8828326642e6" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6+SpellCastingAbilityModifier,Bludgeoning)" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="de7bd7d0-820e-4c56-9a78-a24e26d06d2e" />
@@ -14510,6 +14553,123 @@
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('UNDEAD_VITALITY_6');" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(6+ClassLevel(Wizard));" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="57f09f7c-da2d-4327-b5d5-8b712d9ba99a" />
+        <field name="Name" type="NameTableFieldDefinition" value="TransmutersStone" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c91cac36-8273-4382-9141-e08c0ed686a2" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_TransmutersStone_Darkness;Target_TransmutersStone_MovementSpeed;Target_TransmutersStone_Resistance_Acid;Target_TransmutersStone_Resistance_Cold;Target_TransmutersStone_Resistance_Fire;Target_TransmutersStone_Resistance_Lightning;Target_TransmutersStone_Resistance_Poison;Target_TransmutersStone_Resistance_Thunder;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2dc7886-a867-4589-a916-011128333b6d" />
+        <field name="Name" type="NameTableFieldDefinition" value="TransmutersStone_Resistance_Poison" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ebef2280-a35b-4b7c-bb83-bd7cfad3dfa5" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(e609afac-9a22-4728-a33a-969a563b29bb,-1,1,false,false,false,,,'TransmuterStoneStack',);ApplyStatus(SELF,TRANSMUTERS_STONE_USED,100,-1);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2ad3932cg7fb0g064cgd312g95bb61c0f96c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd05a669fg8360ga447geeeag151194f63376" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a60e2254-f026-49ec-9c49-5fe53ea39202" />
+        <field name="Name" type="NameTableFieldDefinition" value="TransmutersStone_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="57f09f7c-da2d-4327-b5d5-8b712d9ba99a" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_TransmutersStone_Darkness_2;Target_TransmutersStone_MovementSpeed_2;Target_TransmutersStone_Resistance_Acid_2;Target_TransmutersStone_Resistance_Cold_2;Target_TransmutersStone_Resistance_Fire_2;Target_TransmutersStone_Resistance_Lightning_2;Target_TransmutersStone_Resistance_Poison_2;Target_TransmutersStone_Resistance_Thunder_2;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e83f37bgee38gec21ga5d2gcf515a7579b4" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0a4403a1-e50d-470c-b2b4-c9f7c85d039c" />
+        <field name="Name" type="NameTableFieldDefinition" value="TransmutersStone_Darkness_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="745a1344-aa29-4eff-80a7-3cc13608771f" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_TransmutersStone_2" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(4b3afc03-01f2-43b6-88f8-bd22af6533d8,-1,1,false,false,false,,,'TransmuterStoneStack2',);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9fa0e2fb-eed6-410e-8a7d-d586bda6393f" />
+        <field name="Name" type="NameTableFieldDefinition" value="TransmutersStone_MovementSpeed_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6888ce2b-79d4-4df2-9858-a875b68562e6" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_TransmutersStone_2" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(9cb9fb55-772a-4df1-bf8b-5b6d81d67baa,-1,1,false,false,false,,,'TransmuterStoneStack2',);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="36305d72-a750-4f66-95b4-52bda751ceb6" />
+        <field name="Name" type="NameTableFieldDefinition" value="TransmutersStone_Resistance_Acid_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ebef2280-a35b-4b7c-bb83-bd7cfad3dfa5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_TransmutersStone_2" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(dfc6b155-c3e1-4610-b412-f6ffecb14ebd,-1,1,false,false,false,,,'TransmuterStoneStack2',);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6152ed08-8b5c-4c3f-9075-8e436de54b83" />
+        <field name="Name" type="NameTableFieldDefinition" value="TransmutersStone_Resistance_Cold_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6fdc0844-1f71-4c16-9670-1a114724d809" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_TransmutersStone_2" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(992925fb-c27c-4c5d-9845-07abf216376b,-1,1,false,false,false,,,'TransmuterStoneStack2',);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="875e44e4-2456-4f25-b450-90e3aa234499" />
+        <field name="Name" type="NameTableFieldDefinition" value="TransmutersStone_Resistance_Fire_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eadc5f0d-505d-4d73-9986-4b34c676b386" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_TransmutersStone_2" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(50966f21-977d-408f-95fc-8862e9572ce0,-1,1,false,false,false,,,'TransmuterStoneStack2',);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a329105f-3428-447c-99ce-3eb04941bf39" />
+        <field name="Name" type="NameTableFieldDefinition" value="TransmutersStone_Resistance_Lightning_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="753d6a80-a64a-400b-8639-6d487d538d7a" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_TransmutersStone_2" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(8233e8e7-55c9-4f72-8e7b-5f3dc36e250f,-1,1,false,false,false,,,'TransmuterStoneStack2',);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="75b409ff-9fa3-4db6-a781-8789c332e20d" />
+        <field name="Name" type="NameTableFieldDefinition" value="TransmutersStone_Resistance_Poison_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d2dc7886-a867-4589-a916-011128333b6d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_TransmutersStone_2" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(e609afac-9a22-4728-a33a-969a563b29bb,-1,1,false,false,false,,,'TransmuterStoneStack2',);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8931d6cd-69e3-42ce-8c86-c7725f611558" />
+        <field name="Name" type="NameTableFieldDefinition" value="TransmutersStone_Resistance_Thunder_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="28bca185-4642-4981-89c9-d1034b73e2d9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_TransmutersStone_2" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="SummonInInventory(f4e4ecf9-9170-4264-a9d9-bd5e57044f38,-1,1,false,false,false,,,'TransmuterStoneStack2',);" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
       </fields>
     </stat_object>
     <stat_object color="#FFFF0000" is_substat="false">

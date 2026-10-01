@@ -1,3 +1,9 @@
+new entry "OBJ_TransmuterStone_Poison"
+type "Object"
+using "OBJ_TransmuterStone_Acid"
+data "RootTemplate" "e609afac-9a22-4728-a33a-969a563b29bb"
+data "StatusInInventory" "TRANSMUTERS_STONE_POISON"
+
 new entry "OBJ_Scroll_CloakOfShadow_YMS"
 type "Object"
 using "_MagicScroll"
