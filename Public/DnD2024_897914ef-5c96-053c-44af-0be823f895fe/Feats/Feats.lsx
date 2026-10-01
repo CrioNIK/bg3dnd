@@ -461,7 +461,7 @@
                 </node>
                 <node id="Feat">
                     <attribute id="Name" type="FixedString" value="Sentinel"/>
-                    <attribute id="PassivesAdded" type="LSString" value="Sentinel_Attack;Sentinel_ZeroSpeed;Sentinel_OpportunityAdvantage"/>
+                    <attribute id="PassivesAdded" type="LSString" value="Sentinel_Attack;Sentinel_ZeroSpeed"/>
                     <attribute id="Selectors" type="LSString" value="SelectAbilities(499230af-5946-4680-a7ee-4d76d421f2ef,1,1,STR_DEX)"/>
                     <attribute id="UUID" type="guid" value="816b1554-9384-49e9-aaa0-05dd622e60f7"/>
                 </node>

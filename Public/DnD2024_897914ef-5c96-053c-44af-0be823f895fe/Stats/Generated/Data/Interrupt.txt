@@ -2006,6 +2006,21 @@ data "Properties" "DealDamage(1d4,MainRangedWeaponDamageType,Magical);"
 data "Cost" "BonusActionPoint:1;Movement:5;"
 data "InterruptDefaultValue" "Ask;Enabled"
 
+new entry "Interrupt_Sentinel"
+type "InterruptData"
+using "Interrupt_Sentinel"
+data "DisplayName" "h66f57535g5983g0759gbf5cg97ae51f83d6f;1"
+data "Properties" "ApplyStatus(OBSERVER_OBSERVER,ADDITIONAL_SNEAKATTACK_CHARGE,100,1);UseSpell(OBSERVER_SOURCE,Target_Sentinel_AttackOfOpportunity,true,true,true);"
+
+new entry "Interrupt_Sentinel_Disengage"
+type "InterruptData"
+using "Interrupt_Sentinel"
+data "DisplayName" "h5ead652fgb77fgb355gd4b6g83cdb204b430;1"
+data "Description" "h8bbe62c2gd6acg4d8dg8cf1g973b592b6ec6;1"
+data "InterruptContext" "OnSpellCast"
+data "Conditions" "IsAbleToReact(context.Observer) and not Self(context.Source, context.Observer) and Enemy(context.Source, context.Observer) and IsDisengageAction() and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Source) and not AnyEntityIsItem();"
+data "Properties" "ApplyStatus(OBSERVER_OBSERVER,ADDITIONAL_SNEAKATTACK_CHARGE,100,1);UseSpell(OBSERVER_SOURCE,Target_Sentinel_AttackOfOpportunity,true,true,true);"
+
 new entry "__WARCASTER__"
 type "InterruptData"
 

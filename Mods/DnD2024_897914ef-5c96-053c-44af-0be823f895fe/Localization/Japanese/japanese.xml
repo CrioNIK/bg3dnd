@@ -1140,12 +1140,12 @@
   <content contentuid="ha5d92735g8afdga8f3ge1c5g5b06d62a50e6" version="1">特技：セーヴ習熟（筋力）</content>
   <content contentuid="he4365c80ga72cgc5ebg1ae0g6a84db454a82" version="1">特技：セーヴ習熟（判断力）</content>
   <content contentuid="h1015def7gafdbg59d8g86d2g26b83e1c4b9e" version="1">守護戦士</content>
-  <content contentuid="h531047f9gd6d4g5415g3f87gada7b4be2fa4" version="1">近接範囲内の敵が味方を攻撃した際、&lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;リアクション&lt;/LSTag&gt;を利用してその敵に近接武器攻撃を行える。目標の味方がこの特技を持っていてはならない
+  <content contentuid="h531047f9gd6d4g5415g3f87gada7b4be2fa4" version="2">護衛：1.5メートル以内にいるクリーチャーが離脱アクションを行った直後、または自身以外の目標に攻撃を命中させた直後、そのクリーチャーに機会攻撃を行える。
 
-さらに&lt;LSTag Tooltip="OpportunityAttack"&gt;機会攻撃&lt;/LSTag&gt;が&lt;LSTag Tooltip="Advantage"&gt;有利&lt;/LSTag&gt;になり、機会攻撃がクリーチャーに命中すると、そのクリーチャーはターン終了まで移動できなくなる</content>
-  <content contentuid="h7e48c498g5f4dgcd45g58fdgd35b898ea7df" version="1">特技：守護戦士（復讐）</content>
+足止め：機会攻撃がクリーチャーに命中すると、そのクリーチャーの移動速度は現在のターン終了時まで0になる。</content>
+  <content contentuid="h7e48c498g5f4dgcd45g58fdgd35b898ea7df" version="2">特技：守護戦士（護衛）</content>
   <content contentuid="h23b78c62ge069ge2ccg2684g43996096895b" version="1">特技：守護戦士（機会攻撃有利）</content>
-  <content contentuid="h5fb8bed9g9cd0g8557g68degf654e2c0ae58" version="1">特技：守護戦士（足止め）</content>
+  <content contentuid="h5fb8bed9g9cd0g8557g68degf654e2c0ae58" version="2">特技：守護戦士（足止め）</content>
   <content contentuid="h90887d29g0a12g4a4eg7f87ga23f7765f7dc" version="1">射撃の名手</content>
   <content contentuid="h5b4e785ag06afgf727gca99g7e0aa28facda" version="3">高低差無視：自身の&lt;LSTag Tooltip="RangedWeaponAttack"&gt;遠隔武器攻撃&lt;/LSTag&gt;は&lt;LSTag Tooltip="HighGroundRules"&gt;高低差の原則&lt;/LSTag&gt;によるペナルティを受けない。
 

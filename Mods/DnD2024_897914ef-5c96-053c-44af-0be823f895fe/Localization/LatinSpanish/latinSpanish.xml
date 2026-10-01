@@ -1094,10 +1094,10 @@ Golpe Reactivo. Mientras sostienes un Bastón, una Lanza o un arma con las propi
   <content contentuid="ha5d92735g8afdga8f3ge1c5g5b06d62a50e6" version="1">Dote: Resiliente (Fuerza)</content>
   <content contentuid="he4365c80ga72cgc5ebg1ae0g6a84db454a82" version="1">Dote: Resiliente (Sabiduría)</content>
   <content contentuid="h1015def7gafdbg59d8g86d2g26b83e1c4b9e" version="1">Centinela</content>
-  <content contentuid="h531047f9gd6d4g5415g3f87gada7b4be2fa4" version="1">Cuando un enemigo dentro del alcance cuerpo a cuerpo ataca a un aliado, puedes usar una &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reacción&lt;/LSTag&gt; para realizar un ataque con arma contra ese enemigo. El aliado objetivo no debe tener la Dote Centinela.&lt;br&gt;&lt;br&gt;Tienes &lt;LSTag Tooltip="Advantage"&gt;Ventaja&lt;/LSTag&gt; en los &lt;LSTag Tooltip="OpportunityAttack"&gt;Ataques de Oportunidad&lt;/LSTag&gt;, y cuando golpeas a una criatura con un Ataque de Oportunidad, ya no puede moverse por el resto de su turno.</content>
-  <content contentuid="h7e48c498g5f4dgcd45g58fdgd35b898ea7df" version="1">Dote: Centinela (Venganza)</content>
+  <content contentuid="h531047f9gd6d4g5415g3f87gada7b4be2fa4" version="2">Guardián. Inmediatamente después de que una criatura a menos de 1,5 metros de ti use la acción Desengancharse o impacte con un ataque a un objetivo que no seas tú, puedes realizar un Ataque de Oportunidad contra esa criatura.&lt;br&gt;&lt;br&gt;Detención. Cuando impactas a una criatura con un Ataque de Oportunidad, su Velocidad se reduce a 0 durante el resto del turno actual.</content>
+  <content contentuid="h7e48c498g5f4dgcd45g58fdgd35b898ea7df" version="2">Dote: Centinela (Guardián)</content>
   <content contentuid="h23b78c62ge069ge2ccg2684g43996096895b" version="1">Dote: Centinela (&lt;LSTag Tooltip="Advantage"&gt;Ventaja&lt;/LSTag&gt; en Oportunidad)</content>
-  <content contentuid="h5fb8bed9g9cd0g8557g68degf654e2c0ae58" version="1">Dote: Centinela (Trampa)</content>
+  <content contentuid="h5fb8bed9g9cd0g8557g68degf654e2c0ae58" version="2">Dote: Centinela (Detención)</content>
   <content contentuid="h90887d29g0a12g4a4eg7f87ga23f7765f7dc" version="1">Francotirador</content>
   <content contentuid="h5b4e785ag06afgf727gca99g7e0aa28facda" version="3">Ignorar Cobertura. Tus &lt;LSTag Tooltip="RangedWeaponAttack"&gt;ataques con armas a distancia&lt;/LSTag&gt; no reciben penalizaciones de las &lt;LSTag Tooltip="HighGroundRules"&gt;Reglas de Terreno Elevado&lt;/LSTag&gt;.
 

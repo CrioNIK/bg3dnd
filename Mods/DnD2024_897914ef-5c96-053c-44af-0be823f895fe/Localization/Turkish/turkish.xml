@@ -1139,12 +1139,12 @@ ReaktifVuruş. Bir Çeyrek Sopası, Mızrak veya Ağır ve Menzil özelliklerine
   <content contentuid="ha5d92735g8afdga8f3ge1c5g5b06d62a50e6" version="1">Yetenek: Dayanıklı (Kuvvet)</content>
   <content contentuid="he4365c80ga72cgc5ebg1ae0g6a84db454a82" version="1">Yetenek: Dayanıklı (Bilgelik)</content>
   <content contentuid="h1015def7gafdbg59d8g86d2g26b83e1c4b9e" version="1">Nöbetçi</content>
-  <content contentuid="h531047f9gd6d4g5415g3f87gada7b4be2fa4" version="1">Yakın dövüş menzilindeki bir düşman bir müttefike saldırdığında,&lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaksiyon&lt;/LSTag&gt; kullanarak o düşmana karşı bir silah saldırısı yapabilirsiniz. Hedef müttefik, Nöbetçi Yeteneğine sahip olmamalıdır. 
+  <content contentuid="h531047f9gd6d4g5415g3f87gada7b4be2fa4" version="2">Muhafız. 5 fit mesafenizdeki bir yaratık Ayrılma eylemini gerçekleştirdikten veya sizden başka bir hedefe bir saldırıyla isabet ettirdikten hemen sonra, o yaratığa karşı bir Fırsat Saldırısı yapabilirsiniz.
 
-&lt;LSTag Tooltip="Advantage"&gt;FırsatSaldırısı&lt;/LSTag&gt;'nda&lt;LSTag Tooltip="OpportunityAttack"&gt;Avantaj&lt;/LSTag&gt; kazanırsınızve bir yaratığa Fırsat Saldırısı ile isabet ettirdiğinizde, o yaratık turunun geri kalanında hareket edemez.</content>
-  <content contentuid="h7e48c498g5f4dgcd45g58fdgd35b898ea7df" version="1">Yetenek: Sentinel (İntikam)</content>
+Durdurma. Bir yaratığa Fırsat Saldırısı ile isabet ettirdiğinizde, o yaratığın Hızı mevcut turun geri kalanında 0 olur.</content>
+  <content contentuid="h7e48c498g5f4dgcd45g58fdgd35b898ea7df" version="2">Yetenek: Nöbetçi (Muhafız)</content>
   <content contentuid="h23b78c62ge069ge2ccg2684g43996096895b" version="1">Yetenek: Nöbetçi (Fırsat Avantajı)</content>
-  <content contentuid="h5fb8bed9g9cd0g8557g68degf654e2c0ae58" version="1">Yetenek: Nöbetçi (Tuzak)</content>
+  <content contentuid="h5fb8bed9g9cd0g8557g68degf654e2c0ae58" version="2">Yetenek: Nöbetçi (Durdurma)</content>
   <content contentuid="h90887d29g0a12g4a4eg7f87ga23f7765f7dc" version="1">Keskin Nişancı</content>
   <content contentuid="h5b4e785ag06afgf727gca99g7e0aa28facda" version="3">Siper Engellemesini Aşma. &lt;LSTag Tooltip="RangedWeaponAttack"&gt;menzillisilah saldırılarınız&lt;/LSTag&gt;, &lt;LSTag Tooltip="HighGroundRules"&gt;YüksekZemin Kuralları&lt;/LSTag&gt;'nden ceza almaz.
 

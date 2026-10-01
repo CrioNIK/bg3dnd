@@ -2729,6 +2729,27 @@
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d95964bd-29ad-452d-9122-21a94a465ee2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Sentinel" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c98fe60c-62b6-4aa7-9d25-c49620bc56f0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h66f57535g5983g0759gbf5cg97ae51f83d6f" version="1" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_OBSERVER,ADDITIONAL_SNEAKATTACK_CHARGE,100,1);UseSpell(OBSERVER_SOURCE,Target_Sentinel_AttackOfOpportunity,true,true,true);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04063556-b111-4d1e-a693-4a19a81a3ce7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Sentinel_Disengage" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d95964bd-29ad-452d-9122-21a94a465ee2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5ead652fgb77fgb355gd4b6g83cdb204b430" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8bbe62c2gd6acg4d8dg8cf1g973b592b6ec6" version="1" />
+        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnSpellCast" enumeration_type_name="InterruptContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and not Self(context.Source, context.Observer) and Enemy(context.Source, context.Observer) and IsDisengageAction() and not DistanceToEntityGreaterThan(2, context.ObserverPosition, context.Source) and not AnyEntityIsItem();" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_OBSERVER,ADDITIONAL_SNEAKATTACK_CHARGE,100,1);UseSpell(OBSERVER_SOURCE,Target_Sentinel_AttackOfOpportunity,true,true,true);" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="430c832a-13bc-44b0-8ddc-4064df249636" />

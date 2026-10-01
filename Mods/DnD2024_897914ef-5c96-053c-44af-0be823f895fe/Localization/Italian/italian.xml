@@ -1067,12 +1067,12 @@ Colpo reattivo. Mentre impugni un Bastone ferrato, una Lancia o un'arma che ha l
   <content contentuid="ha5d92735g8afdga8f3ge1c5g5b06d62a50e6" version="1">Talento: Resiliente (Forza)</content>
   <content contentuid="he4365c80ga72cgc5ebg1ae0g6a84db454a82" version="1">Talento: Resiliente (Saggezza)</content>
   <content contentuid="h1015def7gafdbg59d8g86d2g26b83e1c4b9e" version="1">Sentinella</content>
-  <content contentuid="h531047f9gd6d4g5415g3f87gada7b4be2fa4" version="1">Quando un nemico entro la portata in mischia attacca un alleato, puoi usare una &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reazione&lt;/LSTag&gt; per effettuare un attacco con arma contro quel nemico. L'alleato bersaglio non deve avere il Talento Sentinella.
+  <content contentuid="h531047f9gd6d4g5415g3f87gada7b4be2fa4" version="2">Guardiano. Subito dopo che una creatura entro 1,5 metri da te compie l'azione Disimpegno o colpisce con un attacco un bersaglio diverso da te, puoi effettuare un Attacco di opportunità contro quella creatura.
 
-Ottieni &lt;LSTag Tooltip="Advantage"&gt;Vantaggio&lt;/LSTag&gt; agli &lt;LSTag Tooltip="OpportunityAttack"&gt;Attacchi di opportunità&lt;/LSTag&gt;, e quando colpisci una creatura con un Attacco di opportunità, questa non può più muoversi per il resto del suo turno.</content>
-  <content contentuid="h7e48c498g5f4dgcd45g58fdgd35b898ea7df" version="1">Talento: Sentinella (Vendetta)</content>
+Arresto. Quando colpisci una creatura con un Attacco di opportunità, la sua Velocità diventa 0 per il resto del turno corrente.</content>
+  <content contentuid="h7e48c498g5f4dgcd45g58fdgd35b898ea7df" version="2">Talento: Sentinella (Guardiano)</content>
   <content contentuid="h23b78c62ge069ge2ccg2684g43996096895b" version="1">Talento: Sentinella (Vantaggio di opportunità)</content>
-  <content contentuid="h5fb8bed9g9cd0g8557g68degf654e2c0ae58" version="1">Talento: Sentinella (Trappola)</content>
+  <content contentuid="h5fb8bed9g9cd0g8557g68degf654e2c0ae58" version="2">Talento: Sentinella (Arresto)</content>
   <content contentuid="h90887d29g0a12g4a4eg7f87ga23f7765f7dc" version="1">Tiratore scelto</content>
   <content contentuid="h5b4e785ag06afgf727gca99g7e0aa28facda" version="3">Ignora copertura. I tuoi &lt;LSTag Tooltip="RangedWeaponAttack"&gt;attacchi con armi a distanza&lt;/LSTag&gt; non ricevono penalità dalle &lt;LSTag Tooltip="HighGroundRules"&gt;Regole del vantaggio di posizione&lt;/LSTag&gt;.
 

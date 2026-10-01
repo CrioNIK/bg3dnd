@@ -509,7 +509,7 @@
                     <attribute id="UUID" type="guid" value="5551971b-22e1-4107-afe0-28d568fb3446"/>
                 </node>
                 <node id="FeatDescription">
-                    <attribute id="Description" type="TranslatedString" handle="h531047f9gd6d4g5415g3f87gada7b4be2fa4" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="h531047f9gd6d4g5415g3f87gada7b4be2fa4" version="2"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h1015def7gafdbg59d8g86d2g26b83e1c4b9e" version="1"/>
                     <attribute id="ExactMatch" type="FixedString" value="Sentinel"/>
                     <attribute id="FeatId" type="guid" value="816b1554-9384-49e9-aaa0-05dd622e60f7"/>

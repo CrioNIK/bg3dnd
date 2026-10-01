@@ -9638,8 +9638,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="29236085-e0df-4aa9-a657-ab53e5e0bd65" />
         <field name="Name" type="NameTableFieldDefinition" value="Sentinel_Attack" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6c5b5874-9b7e-4974-a9fc-9da6a1c3faf1" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e48c498g5f4dgcd45g58fdgd35b898ea7df" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e48c498g5f4dgcd45g58fdgd35b898ea7df" version="2" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h50c72f8dg99f9ge6cdg0ceegd20d554e3aaf" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_Sentinel);UnlockInterrupt(Interrupt_Sentinel_Disengage);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9647,16 +9649,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6e862c3e-f170-4921-819f-1f25f2333c12" />
         <field name="Name" type="NameTableFieldDefinition" value="Sentinel_ZeroSpeed" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="20a496dc-ddbe-43ba-bdb9-472490258b80" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5fb8bed9g9cd0g8557g68degf654e2c0ae58" version="1" />
-        <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="9c8525fb-01ca-40a7-b95f-e83e9453a7d0" />
-        <field name="Name" type="NameTableFieldDefinition" value="Sentinel_OpportunityAdvantage" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="8e78c5df-7606-4320-b0d0-55708e666798" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h23b78c62ge069ge2ccg2684g43996096895b" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5fb8bed9g9cd0g8557g68degf654e2c0ae58" version="2" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
       </fields>
     </stat_object>
