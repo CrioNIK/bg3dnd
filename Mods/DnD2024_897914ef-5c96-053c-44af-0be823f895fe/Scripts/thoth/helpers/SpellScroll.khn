@@ -77,6 +77,7 @@ local SPELL_CLASS_MAP = {
     Projectile_AcidArrow_spellscroll = '2 Wizard',
     Zone_AganazzarsScorcher_spellscroll = '2 Sorcerer Wizard',
     Target_Aid_spellscroll = '2 Cleric Paladin',
+    Shout_AlterSelf_spellscroll = '2 Sorcerer Wizard Artificer',
     Target_ArcaneLock_spellscroll = '2 Wizard Artificer',
     Target_Blindness_spellscroll = '2 Bard Cleric Sorcerer Wizard',
     Shout_Blur_spellscroll = '2 Sorcerer Wizard Artificer',
@@ -665,4 +666,5 @@ function IsScrollSpell()
     | SpellId('Target_CharmMonster_spellscroll')
     | SpellId('Target_ArcaneEye_spellscroll')
     | SpellId('Target_SummonUndead_spellscroll')
+    | SpellId('Shout_AlterSelf_spellscroll')
 end

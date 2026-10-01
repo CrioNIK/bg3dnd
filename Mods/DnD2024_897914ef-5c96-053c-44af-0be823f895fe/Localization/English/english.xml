@@ -6977,4 +6977,14 @@ When the spell ends, the target is Incapacitated and has a Speed of 0 until the 
   <content contentuid="haf437cb1gf69dg41c5g849fg716d5c9b10a5" version="1">Magic Initiate: Primal Savagery</content>
   <content contentuid="h658b5e46g9a77g41bagb97dg93007ba2f16d" version="1">Level 1: Primal Order: Primal Savagery</content>
   <content contentuid="ha4c26951g8b5dg4934g8e76gc35ecdb75322" version="1">Primal Savagery</content>
+  <content contentuid="he2f01678g6528g4656g9346g1ab03132b75d" version="1">Alter Self</content>
+  <content contentuid="hea2d0864g6340g4c53ga4bcg413229f33797" version="1">Your body reshapes itself to grow natural weapons: claws, fangs, horns, or hooves. Unarmed Strikes made with them deal 1d6 damage instead of your usual Unarmed Strike damage: Slashing for claws, Piercing for fangs or horns, and Bludgeoning for hooves. Use your spellcasting ability modifier, not Strength, for their attack and damage rolls.</content>
+  <content contentuid="h8089a3a9ga6d2g4913g8e5fg89d941c87d28" version="1">Can make Unarmed Strikes with natural weapons that deal 1d6 Slashing, Piercing, or Bludgeoning damage, using the spellcasting ability modifier for attack and damage rolls.</content>
+  <content contentuid="h7c8a1b28g2b90g4e43g98a4gcb5a8d361fe7" version="1">Natural Weapons</content>
+  <content contentuid="ha509a31bg3546g4500gb510g7ab54f7d9d64" version="1">Make an Unarmed Strike with the natural weapons Alter Self gave you, using your spellcasting ability modifier for the attack and damage rolls.</content>
+  <content contentuid="hce9994bfg435eg45fag9883g866ac5c0f777" version="1">Natural Weapon: Slashing</content>
+  <content contentuid="he45ddf49gf968g421bgb39eg34e4a7be8383" version="1">Natural Weapon: Piercing</content>
+  <content contentuid="h599ec81ag2a69g41bdg9eaeg8828326642e6" version="1">Natural Weapon: Bludgeoning</content>
+  <content contentuid="hc5848f45g1e52g4f63g9144g19d3c751ed14" version="1">Scroll of Alter Self</content>
+  <content contentuid="hfb7dc972g0597g4203ga7f9gf00e10f145f4" version="1">Usable Classes: Artificer, Sorcerer, Wizard</content>
 </contentList>

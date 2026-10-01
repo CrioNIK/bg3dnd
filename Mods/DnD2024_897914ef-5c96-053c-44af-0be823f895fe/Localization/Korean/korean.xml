@@ -6950,4 +6950,14 @@
   <content contentuid="haf437cb1gf69dg41c5g849fg716d5c9b10a5" version="1">마법 입문: 태고의 야성</content>
   <content contentuid="h658b5e46g9a77g41bagb97dg93007ba2f16d" version="1">1레벨: 태고의 소명: 태고의 야성</content>
   <content contentuid="ha4c26951g8b5dg4934g8e76gc35ecdb75322" version="1">태고의 야성</content>
+  <content contentuid="he2f01678g6528g4656g9346g1ab03132b75d" version="1">자기 변환</content>
+  <content contentuid="hea2d0864g6340g4c53ga4bcg413229f33797" version="1">몸의 형태가 바뀌며 발톱, 송곳니, 뿔, 발굽 같은 자연 무기가 돋아납니다. 이 자연 무기로 하는 맨손 공격은 평소의 맨손 공격 피해 대신 1d6 피해를 줍니다. 발톱은 참격, 송곳니나 뿔은 관통, 발굽은 타격 피해입니다. 명중 굴림과 피해 굴림에는 근력 대신 주문 시전 능력치 보정치를 사용합니다.</content>
+  <content contentuid="h8089a3a9ga6d2g4913g8e5fg89d941c87d28" version="1">자연 무기로 맨손 공격을 할 수 있습니다. 1d6 참격, 관통 또는 타격 피해를 주며, 명중 굴림과 피해 굴림에 주문 시전 능력치 보정치를 사용합니다.</content>
+  <content contentuid="h7c8a1b28g2b90g4e43g98a4gcb5a8d361fe7" version="1">자연 무기</content>
+  <content contentuid="ha509a31bg3546g4500gb510g7ab54f7d9d64" version="1">자기 변환으로 얻은 자연 무기로 맨손 공격을 합니다. 명중 굴림과 피해 굴림에 주문 시전 능력치 보정치를 사용합니다.</content>
+  <content contentuid="hce9994bfg435eg45fag9883g866ac5c0f777" version="1">자연 무기: 참격</content>
+  <content contentuid="he45ddf49gf968g421bgb39eg34e4a7be8383" version="1">자연 무기: 관통</content>
+  <content contentuid="h599ec81ag2a69g41bdg9eaeg8828326642e6" version="1">자연 무기: 타격</content>
+  <content contentuid="hc5848f45g1e52g4f63g9144g19d3c751ed14" version="1">자기 변환 두루마리</content>
+  <content contentuid="hfb7dc972g0597g4203ga7f9gf00e10f145f4" version="1">사용 가능한 직업: 아티피서, 소서러, 위저드</content>
 </contentList>

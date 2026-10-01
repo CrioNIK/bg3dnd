@@ -2149,5 +2149,17 @@
         <field name="ValueLevel" type="IntegerTableFieldDefinition" value="5" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bf19f2bc-f832-433f-8cf4-ae2c1ee84e0a" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Scroll_AlterSelf_YMS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2d8dae55-ce17-4fec-a9cb-833e83f4f6a2" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="87da794c-b22f-4cb6-9e46-abdcc6e81f2b" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="MagicScroll_2" />
+        <field name="MinAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

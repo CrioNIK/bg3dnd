@@ -4718,6 +4718,19 @@
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC(),false,DisadvantageOnHeightenedSpell())" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46ce46b6-b007-4bd3-b133-d5fa5a240f3b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ALTER_SELF" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he2f01678g6528g4656g9346g1ab03132b75d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8089a3a9ga6d2g4913g8e5fg89d941c87d28" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_AlterSelf" />
+        <field name="StackId" type="StringTableFieldDefinition" value="ALTER_SELF" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_NaturalWeapon);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="RemoveOnLongRest" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FFA52A2A" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="69ede3eb-5730-413d-b072-32395b13a5fc" />

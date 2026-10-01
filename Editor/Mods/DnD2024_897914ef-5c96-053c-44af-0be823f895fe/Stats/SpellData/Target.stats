@@ -9681,6 +9681,56 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsMelee" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a7fbb873-fc89-45f4-86be-87c3165e09e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="NaturalWeapon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a9de5488-a275-4ffe-bdcf-bff868711abc" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_NaturalWeapon_Slashing;Target_NaturalWeapon_Piercing;Target_NaturalWeapon_Bludgeoning" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7c8a1b28g2b90g4e43g98a4gcb5a8d361fe7" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;IsMelee;IsHarmful;DisableBlood;AddFallDamageOnLand;Temporary;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a9de5488-a275-4ffe-bdcf-bff868711abc" />
+        <field name="Name" type="NameTableFieldDefinition" value="NaturalWeapon_Slashing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="79cbdbe7-ec99-45d9-a901-96a9ca633abc" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_NaturalWeapon" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.MeleeSpellAttack)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d6+SpellCastingAbilityModifier,Slashing,Magical);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_AlterSelf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hce9994bfg435eg45fag9883g866ac5c0f777" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha509a31bg3546g4500gb510g7ab54f7d9d64" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6+SpellCastingAbilityModifier,Slashing)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeSpellAttack" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;IsMelee;IsHarmful;DisableBlood;AddFallDamageOnLand;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Slashing" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cce154b9-bf9b-4a67-969a-77638da101bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="NaturalWeapon_Piercing" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a9de5488-a275-4ffe-bdcf-bff868711abc" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d6+SpellCastingAbilityModifier,Piercing,Magical);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he45ddf49gf968g421bgb39eg34e4a7be8383" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6+SpellCastingAbilityModifier,Piercing)" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Piercing" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="01849b31-627f-440d-bf2b-5564856039ed" />
+        <field name="Name" type="NameTableFieldDefinition" value="NaturalWeapon_Bludgeoning" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a9de5488-a275-4ffe-bdcf-bff868711abc" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d6+SpellCastingAbilityModifier,Bludgeoning,Magical);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h599ec81ag2a69g41bdg9eaeg8828326642e6" version="1" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d6+SpellCastingAbilityModifier,Bludgeoning)" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Bludgeoning" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="de7bd7d0-820e-4c56-9a78-a24e26d06d2e" />

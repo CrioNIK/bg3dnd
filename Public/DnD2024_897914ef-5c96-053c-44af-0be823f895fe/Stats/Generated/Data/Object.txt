@@ -1642,3 +1642,12 @@ data "MinAmount" "1"
 data "MaxAmount" "1"
 data "Priority" "1"
 
+new entry "OBJ_Scroll_AlterSelf_YMS"
+type "Object"
+using "_MagicScroll"
+data "RootTemplate" "87da794c-b22f-4cb6-9e46-abdcc6e81f2b"
+data "ObjectCategory" "MagicScroll_2"
+data "MinAmount" "1"
+data "MaxAmount" "1"
+data "Priority" "1"
+

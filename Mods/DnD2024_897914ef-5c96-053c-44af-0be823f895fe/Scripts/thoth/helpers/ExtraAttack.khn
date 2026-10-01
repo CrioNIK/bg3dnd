@@ -10,8 +10,12 @@ function SpectralSlashCheck()
     return SpellId('Target_SpectralSlash') | SpellId('Target_SpectralSlash_2') | SpellId('Target_SpectralSlash_3') | SpellId('Target_SpectralSlash_4') | SpellId('Target_SpectralSlash_5') | SpellId('Target_SpectralSlash_6')
 end
 
+function NaturalWeapon()
+    return SpellId('Target_NaturalWeapon_Slashing') | SpellId('Target_NaturalWeapon_Piercing') | SpellId('Target_NaturalWeapon_Bludgeoning')
+end
+
 function ExtraAttackSpellCheck()
-    return ~TrueStrike() & ~SpellId('Target_VengefulBlade') & ~SpellId('Target_BoomingBlade_ClassSpell') & ~SpellId('Target_GreenFlameBlade') & HasStringInSpellRoll('WeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack') | SpellId('Target_CommandersStrike') | SpellId('Target_Shove') | SpellId('Target_Trip') | BreathWeaponCheck() | SpectralSlashCheck() | SpellId('Target_BootOfTheGiants') | SpellId('Teleportation_PactOfTheChain') | SpellId('Target_CreepingFog') | SpellId('Projectile_BreathWeapon_SummonDragon') | SpellId('Shout_SearingIgnition')
+    return ~TrueStrike() & ~SpellId('Target_VengefulBlade') & ~SpellId('Target_BoomingBlade_ClassSpell') & ~SpellId('Target_GreenFlameBlade') & HasStringInSpellRoll('WeaponAttack') | HasStringInSpellRoll('UnarmedAttack') | HasStringInSpellRoll('ThrowAttack') | SpellId('Target_CommandersStrike') | SpellId('Target_Shove') | SpellId('Target_Trip') | BreathWeaponCheck() | SpectralSlashCheck() | SpellId('Target_BootOfTheGiants') | SpellId('Teleportation_PactOfTheChain') | SpellId('Target_CreepingFog') | SpellId('Projectile_BreathWeapon_SummonDragon') | SpellId('Shout_SearingIgnition') | NaturalWeapon()
 end
 
 function ExtraAttackCheck()
