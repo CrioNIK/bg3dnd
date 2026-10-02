@@ -1339,7 +1339,7 @@
   <content contentuid="h4bf024c1gf01fg22f3g2229gbb7c9750d10b" version="1">오색 보주: 독</content>
   <content contentuid="h2d4a746egd28bge080g65a0g204697492d95" version="2">독성 에너지를 발사해 대상에게 [1]를 입힙니다.</content>
   <content contentuid="hb2960ca9g49d7g3639g1356g1d818e28a64a" version="1">오색 보주: 천둥</content>
-  <content contentuid="h98e647d7g3e90gc1ebg704eg55fb50319328" version="1">천둥 에너지 구체를 던집니다.</content>
+  <content contentuid="h98e647d7g3e90gc1ebg704eg55fb50319328" version="1">천둥 에너지를 발사해 대상에게 [1]를 입힙니다.</content>
   <content contentuid="h3f315172g0ecag6f6ag14c9g3d5db880a811" version="1">단검 구름</content>
   <content contentuid="h8a7a7954g6da6g0f9cgced3g9dfea486d831" version="2">사거리 내에 있는 한 지점을 중심으로 반경 [2], 높이 [3]의 원기둥 형태로 회전하는 단검들을 소환합니다. 그 범위 안에 있는 각 크리처는 [1]를 입습니다. 크리처가 그 자리에서 턴을 마치거나 원기둥이 그 크리처의 위치로 이동해도 이 피해를 입습니다. 크리처는 턴당 한 번만 이 피해를 입습니다.
 
@@ -4807,7 +4807,7 @@
   <content contentuid="h2a918193g01a1gcd83gf729g2e88e3223327" version="1">신성한 언어</content>
   <content contentuid="h4fb83fe3g593ag7f0cg6424g2a7ebbb50df8" version="1">목표가 요정, 마족, 또는 언데드라면, 이동 속도가 [1] 감소하고 다음 자신의 턴이 끝날 때까지 대응을 사용할 수 없습니다.</content>
   <content contentuid="he2351ff1gc2fegeb0ag256cg5f2fee7ff699" version="1">암흑 화살</content>
-  <content contentuid="h50f91c1cgccffgefd8g17f1g12dfc280157d" version="1">빠르게 주문을 읊어 손 주위에 검은 성운을 만든 다음, 사거리 내의 하나 이상의 목표에게 어둠의 광선 세 개를 던집니다. 광선은 원하는 대로 목표들에게 나눌 수 있습니다. 광선마다 원거리 주문 공격을 가하며, 명중한 각 광선은 [1]를 입힙니다. 광선에 맞은 목표는 건강 내성 굴림에 성공해야 하며, 그렇지 못하면 다음 자신의 턴이 시작될 때까지 대응을 사용할 수 없습니다.</content>
+  <content contentuid="h50f91c1cgccffgefd8g17f1g12dfc280157d" version="1">빠르게 주문을 읊어 손 주위에 검은 성운을 만든 다음, 사거리 내의 하나 이상의 목표에게 어둠의 광선 [2]개를 던집니다. 광선은 원하는 대로 목표들에게 나눌 수 있습니다. 광선마다 원거리 주문 공격을 가하며, 명중한 각 광선은 [1]를 입힙니다. 광선에 맞은 목표는 건강 내성 굴림에 성공해야 하며, 그렇지 못하면 다음 자신의 턴이 시작될 때까지 대응을 사용할 수 없습니다.</content>
   <content contentuid="h1e313479g10bdg79f6gcd1eg8ea0fd340038" version="1">암흑 화살</content>
   <content contentuid="h64c3d662g403agbd6dgc831g665675b5f32a" version="1">대응을 사용할 수 없음</content>
   <content contentuid="h47e9e8edg7b15gb388g44c7ge5b71376dbe8" version="1">죽음의 갑주</content>

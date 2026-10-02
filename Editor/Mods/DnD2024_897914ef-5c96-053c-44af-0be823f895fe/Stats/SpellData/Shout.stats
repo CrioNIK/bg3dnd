@@ -1835,6 +1835,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CacophonicShield_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7127103d-4568-4297-9df9-ff7aa8d6b8bc" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CACOPHONIC_SHIELD_AURA_4,100,100);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d6,Thunder);Distance(3)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6,Thunder);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_CacophonicShield" />
@@ -1848,6 +1849,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CacophonicShield_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="310b8f90-7910-4eb0-9def-638ffb3438d3" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CACOPHONIC_SHIELD_AURA_5,100,100);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d6,Thunder);Distance(3)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d6,Thunder);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
@@ -1860,6 +1862,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CacophonicShield_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="310b8f90-7910-4eb0-9def-638ffb3438d3" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(CACOPHONIC_SHIELD_AURA_6,100,100);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d6,Thunder);Distance(3)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d6,Thunder);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />

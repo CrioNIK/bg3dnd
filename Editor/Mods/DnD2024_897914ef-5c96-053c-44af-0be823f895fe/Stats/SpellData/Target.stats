@@ -1384,6 +1384,7 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CloudOfDaggers" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d4,Slashing);Distance(1.5);Distance(12);Distance(9)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d4,Slashing)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_3,100,10)" />
         <field name="ConcentrationSpellID" type="StringTableFieldDefinition" value="CloudOfDaggers_Move_3" />
@@ -1398,6 +1399,7 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CloudOfDaggers" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d4,Slashing);Distance(1.5);Distance(12);Distance(9)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d4,Slashing)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_4,100,10)" />
         <field name="ConcentrationSpellID" type="StringTableFieldDefinition" value="CloudOfDaggers_Move_4" />
@@ -1412,6 +1414,7 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CloudOfDaggers" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(10d4,Slashing);Distance(1.5);Distance(12);Distance(9)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(10d4,Slashing)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_5,100,10)" />
         <field name="ConcentrationSpellID" type="StringTableFieldDefinition" value="CloudOfDaggers_Move_5" />
@@ -1426,6 +1429,7 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CloudOfDaggers" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(12d4,Slashing);Distance(1.5);Distance(12);Distance(9)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(12d4,Slashing)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(CLOUD_OF_DAGGERS_AURA_6,100,10)" />
         <field name="ConcentrationSpellID" type="StringTableFieldDefinition" value="CloudOfDaggers_Move_6" />
@@ -2879,6 +2883,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="a2a75c80-56a6-4611-8c85-893b292348d3" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Psychic);ApplyStatus(MIND_SPIKE,100,3);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(4d8/2,Psychic);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Psychic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8, Psychic)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_MindSpike" />
@@ -2892,6 +2897,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="f69cab47-98b4-456c-af21-92f391192223" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Psychic);ApplyStatus(MIND_SPIKE,100,3);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d8/2,Psychic);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Psychic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8, Psychic)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
@@ -2904,6 +2910,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="f69cab47-98b4-456c-af21-92f391192223" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Psychic);ApplyStatus(MIND_SPIKE,100,3);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d8/2,Psychic);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,Psychic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8, Psychic)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
@@ -2916,6 +2923,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="f69cab47-98b4-456c-af21-92f391192223" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Psychic);ApplyStatus(MIND_SPIKE,100,3);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(7d8/2,Psychic);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d8,Psychic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8, Psychic)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
@@ -5558,6 +5566,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="UmbralTendril_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="934f952f-2a88-44a4-bd55-b0e0454c7f8a" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(3d8,Necrotic);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(3d8,Psychic);ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_2,100,-1);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Necrotic);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(UMBRAL_TENDRIL_TEMPHP_2,100,-1);" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_UmbralTendril" />
@@ -5571,6 +5580,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="UmbralTendril_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="99ca629b-5afe-47a4-987d-3fcabc8a3451" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(4d8,Necrotic);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(4d8,Psychic);ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_3,100,-1);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Necrotic);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(UMBRAL_TENDRIL_TEMPHP_3,100,-1);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
@@ -5583,6 +5593,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="UmbralTendril_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="22aa327b-2b81-49aa-90f9-fe804362610b" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(5d8,Necrotic);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(5d8,Psychic);ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_4,100,-1);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Necrotic);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(UMBRAL_TENDRIL_TEMPHP_4,100,-1);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
@@ -5595,6 +5606,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="UmbralTendril_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="862dbb9d-8ffd-4df0-b1a4-f4b726d10498" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(6d8,Necrotic);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(6d8,Psychic);ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_5,100,-1);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Necrotic);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(UMBRAL_TENDRIL_TEMPHP_5,100,-1);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
@@ -5607,6 +5619,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="UmbralTendril_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8a77c591-80b5-4221-aeaf-bc2f7833e6be" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(7d8,Necrotic);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(7d8,Psychic);ApplyStatus(SELF,UMBRAL_TENDRIL_TEMPHP_6,100,-1);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Necrotic);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(UMBRAL_TENDRIL_TEMPHP_6,100,-1);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
@@ -5657,6 +5670,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="HellsLash_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="efd58be3-e5f8-4476-9705-501626b7c0d5" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(6d4, Fire);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(6d4, Psychic);IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):ApplyStatus(HELLS_LASH_2, 100, 10);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):ApplyStatus(HELLS_LASH_2_PSYCHIC, 100, 10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d4,Fire);DealDamage(3d4,Fire)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d4, Fire);DealDamage(3d4,Fire,,,,1575c661-c7a1-44c7-b07d-d47b57164841)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HELLS_LASH_2, 100, 10);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
@@ -5670,6 +5684,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="HellsLash_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="562d3358-d693-44fe-8011-d6c53c0b1458" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(8d4, Fire);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(8d4, Psychic);IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):ApplyStatus(HELLS_LASH_3, 100, 10);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):ApplyStatus(HELLS_LASH_3_PSYCHIC, 100, 10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d4,Fire);DealDamage(4d4,Fire)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d4, Fire);DealDamage(4d4,Fire,,,,1575c661-c7a1-44c7-b07d-d47b57164841)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HELLS_LASH_3, 100, 10);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
@@ -5682,6 +5697,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="HellsLash_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="562d3358-d693-44fe-8011-d6c53c0b1458" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(10d4, Fire);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(10d4, Psychic);IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):ApplyStatus(HELLS_LASH_4, 100, 10);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):ApplyStatus(HELLS_LASH_4_PSYCHIC, 100, 10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(10d4,Fire);DealDamage(5d4,Fire)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(10d4, Fire);DealDamage(5d4,Fire,,,,1575c661-c7a1-44c7-b07d-d47b57164841)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HELLS_LASH_4, 100, 10);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
@@ -5694,6 +5710,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="HellsLash_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="562d3358-d693-44fe-8011-d6c53c0b1458" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(12d4, Fire);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(12d4, Psychic);IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):ApplyStatus(HELLS_LASH_5, 100, 10);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):ApplyStatus(HELLS_LASH_5_PSYCHIC, 100, 10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(12d4,Fire);DealDamage(6d4,Fire)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(12d4, Fire);DealDamage(6d4,Fire,,,,1575c661-c7a1-44c7-b07d-d47b57164841)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HELLS_LASH_5, 100, 10);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
@@ -5706,6 +5723,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="HellsLash_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="562d3358-d693-44fe-8011-d6c53c0b1458" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(14d4, Fire);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(14d4, Psychic);IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):ApplyStatus(HELLS_LASH_6, 100, 10);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):ApplyStatus(HELLS_LASH_6_PSYCHIC, 100, 10);IF(HasPassive('Metamagic_Heightened',context.Source)):ApplyStatus(HEIGHTENED_TARGET,100,10);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(14d4,Fire);DealDamage(7d4,Fire)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(14d4, Fire);DealDamage(7d4,Fire,,,,1575c661-c7a1-44c7-b07d-d47b57164841)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HELLS_LASH_6, 100, 10);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
@@ -6652,6 +6670,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="4e072273-17d1-47d7-9cf3-5757ecc042d7" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d10,Radiant,Magical);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d10/2,Radiant,Magical);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d10,Radiant);Distance(6)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d10,Radiant)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_SpellfireStorm" />
@@ -6666,6 +6685,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="5f9bd753-4b4b-40da-9971-f3a9d11476a1" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d10,Radiant,Magical);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d10/2,Radiant,Magical);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d10,Radiant);Distance(6)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d10,Radiant)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
