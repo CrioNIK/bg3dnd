@@ -14498,3 +14498,8 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_SummonUndead"
 
+new entry "Target_SummonAberration_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SummonAberration_MindFlayer"
+

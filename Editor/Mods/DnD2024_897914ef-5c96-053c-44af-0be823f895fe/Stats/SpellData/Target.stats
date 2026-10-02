@@ -17365,5 +17365,12 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c799a80b-b2f9-417d-a697-ae474c776c51" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e4782db1-2c6a-409c-aae3-2f809be3fdcb" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonAberration_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b4d76405-b4bf-4eb6-a133-6a7b70f42408" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
