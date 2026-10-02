@@ -421,6 +421,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="49564fdc-3f40-47c6-b8c9-171d7576929a" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5087f168gc945g5fb3g83d6g3f3a84dd61d9" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf4556a98g94c2g16ddg4fe9g5fa3c35a3652" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5+(ClassLevel(Cleric)*2),Fire)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Fire_Melee" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(5+(ClassLevel(Cleric)*2),Fire);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5,Fire);DealDamage(ClassLevel(Cleric),Fire);DealDamage(ClassLevel(Cleric),Fire)" />
@@ -579,6 +580,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e9a71b36-bfed-431c-bf1a-52bbab849309" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e07ba43g48ccgb3bag0de0g3c6c93d8eabb" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h26010d04g5728g38d0g7666g1a3a63e82e9a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(PsiWarrior)+IntelligenceModifier,Force)" />
         <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and not Self() and IsWeaponAttack() and not IsCritical() and not IsKillingBlow() and IsHit() and not IsDivineStrike() and Character() and not AnyEntityIsItem();" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(PsiWarrior)+IntelligenceModifier,Force,Magical);IF(HasPassive('PsiWarrior_7_TelekineticThrust_Prone',context.Source)):ApplyStatus(OBSERVER_TARGET,PRONE,100,2,,,,not SavingThrow(Ability.Strength,IntAttackSaveDC()));IF(HasPassive('PsiWarrior_7_TelekineticThrust_Push',context.Source)):ApplyStatus(OBSERVER_TARGET,PUSH_3M,100,1,,,,not SavingThrow(Ability.Strength,IntAttackSaveDC()));" />
         <field name="Cost" type="StringTableFieldDefinition" value="PsionicStrikeTurn:1;PsiWarrior:1;" />
@@ -659,6 +661,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_FireRune" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3a4d5e28gabe3g3168ge119g17a00c4aa941" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h80302dc6gefa4ga829g206ag2011c0e0baca" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Fire)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SearingSmite" />
         <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
@@ -746,6 +749,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="16372bab-6841-419f-af16-e55a68a5e969" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h74bafa69ge700g8ad5g174dg42eb6622d0eb" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h10df1491gc913g90b5g2218gc87364e153e8" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(MartialArts)+WisdomModifier,Necrotic)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Mercy_HandOfHarm" />
         <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and not Self() and IsUnarmedAttack() and not IsCritical() and not IsKillingBlow() and IsHit() and Character() and not AnyEntityIsItem();" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(MartialArts)+WisdomModifier,Necrotic,Magical);IF(HasPassive('Mercy_6_PhysiciansTouch',context.Source)):ApplyStatus(CUNNINGSTRIKE_POISON,100,2);ApplyStatus(DIVINESTRIKE_MELEE_VFX,100,0);" />
@@ -1080,7 +1084,7 @@
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(2d4,Fire,Magical);CreateExplosion(Projectile_EfreetisFury);" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Fire)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1560,6 +1564,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_Lifedrinker_1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3ebd6cc3gd274g440bg9f77g71a4da3b6bd2" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35551526g84e1g78f3g1277g241f3a6077bb" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,MainMeleeWeaponDamageType)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Lifedrinker" />
         <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
@@ -1714,6 +1719,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="d1483f5b-b32b-458b-99bb-df7e1a0c7df7" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h89fdc87bg9104g7a67g82f9gea36ba2329e9" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8530202fg28b6g772egd8f7gc108c5f8cded" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(4d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,2);ApplyStatus(INTERRUPT_SMITE_ELDRITCH_VFX,100,0);" />
@@ -1729,6 +1735,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="596941e3-21f7-4769-a352-f92d40ca0ba0" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2e15736fg5bd6g3f4dg0fc4g819006dce402" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h93fe573fg6b32g5d47gfaaagd6a9823a5153" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(5d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,2);ApplyStatus(INTERRUPT_SMITE_ELDRITCH_VFX,100,0);" />
@@ -1744,6 +1751,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="5be00d3a-4cb1-4dbd-a676-e64f9e7a8f41" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5bda03eag283cgfcf7ga7d9g208fb40a60f2" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8d4b8353g4cf2g9edcg051fg3eebf6d08956" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(6d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,2);ApplyStatus(INTERRUPT_SMITE_ELDRITCH_VFX,100,0);" />
@@ -1759,6 +1767,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2dc3aed9-1ce8-4645-9e00-8de3f612dd8a" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfcd09315g6bf2g29efgc581g90a0a0b160fa" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf7ca621bg1f12ga4d3g3047g634d03c15efe" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(4d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,2);ApplyStatus(INTERRUPT_SMITE_ELDRITCH_VFX,100,0);" />
@@ -1774,6 +1783,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="7a3d49c9-31b0-47ea-bce3-253b7f8cc9c0" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0cd27988g7bc2g4ac0g6bafg09eb92cd684f" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h479f3229gb556gd7b7g73bcgb4311aa0da92" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(5d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,2);ApplyStatus(INTERRUPT_SMITE_ELDRITCH_VFX,100,0);" />
@@ -1789,6 +1799,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="71cfd98e-de8e-4eef-bf01-e10834f576ca" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h16b86fe8gc17cgeb8cg6b91g3ff530eba5fc" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1498d59bg1126gb9c5gd9b1ga55c4cbb3816" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Force)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
         <field name="Icon" type="StringTableFieldDefinition" value="Warlock_EldritchSmite" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(6d8,Force);IF(TargetSizeEqualOrSmaller(Size.Large) and not SavingThrow(Ability.Constitution, SourceSpellDC())):ApplyStatus(PRONE,100,2);ApplyStatus(INTERRUPT_SMITE_ELDRITCH_VFX,100,0);" />
@@ -2313,6 +2324,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="5a07b46d-3a4b-4b2e-8b69-4c9f012d9761" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdcff639cge97ag87c0gca5dgb607adff562c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc952c432g8c2cgbbacg18f8gfc587dff1d4d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ClassLevel(Illrigger)/2,MainRangedWeaponDamageType)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_BlindingShot" />
         <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Enemy(context.Source,context.Observer) and IsAttack() and not HasStatus('INVISIBILITY') and not AnyEntityIsItem() and not DistanceToEntityGreaterThan(9, context.ObserverPosition, context.Source) and DistanceToEntityGreaterThan(1.5, context.ObserverPosition, context.Source) and HasLastAttackTriggered();" />
@@ -2468,6 +2480,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c7444d60-f45a-4dbf-8bf6-203acf40af5b" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h01831d81g2d20g8c48g5e5eg10559d708494" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hab1f563cgd118gb03bg41b5g1316f04ab315" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d10,Force)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Explosion" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Enemy(context.Source,context.Observer) and not HasStatus('INVISIBILITY') and not AnyEntityIsItem() and not DistanceToEntityGreaterThan(6, context.ObserverPosition, context.Source) and HasLastAttackTriggered();" />
         <field name="Properties" type="StringTableFieldDefinition" value="CreateExplosion(SWAP,Projectile_EC_Detonate);" />
@@ -2497,6 +2510,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ArcaneJolt" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfcff03d7g3b43gc2c2g568eg228ec39a2a92" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7a33c7b9g8cc0g6c2bg348fg50d1aa50e0f5" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Force)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Force" />
         <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
@@ -2513,6 +2527,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_ArcaneJolt_SteelDefender" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha41d11dbgba7eg921eg929fg846ff3d63c75" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2a2d4c40ge64cg5bd8gb073g4424cebf9004" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Force)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Force" />
         <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="InterruptContext" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Nearby" enumeration_type_name="InterruptContextScope" version="1" />
@@ -2720,6 +2735,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_FierceShot" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3dc922e6ga79bg103cgc3f5g5c013438860b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdff60bb5g1f26gb017g65bfg79be313aab62" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,MainRangedWeaponDamageType)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_GoadingAttack_Ranged" />
         <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
@@ -2895,6 +2911,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Interrupt_FrigidRetaliation" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haf39fd6agb8eeg5b25g3f75gc2100e86736b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4384b84egd766gbe0ag574age428758d17bf" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8+ProficiencyBonus,Cold)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha3dfdec9g7cd2g441dge31eg8ffc3a6ed989" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Cold" />
         <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
@@ -3090,6 +3107,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="9f2c7e1c-0d0c-4e6e-9092-0885ddd2ef40" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h72da1e02g769fgc8d7g7225g3cd201f1dbdb" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdf8e40d0g3c82gf0f5gdd0aga190d5e39a3e" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d10,Fire)" />
         <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and not Self() and IsAttack() and not IsKillingBlow() and IsHit() and Character() and not AnyEntityIsItem();" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(1d10,Fire,Magical);" />
         <field name="Cost" type="StringTableFieldDefinition" value="Goliath:1;" />
@@ -3104,6 +3122,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e9a71b36-bfed-431c-bf1a-52bbab849309" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1d1c4cffgbb73g4ef9g71d5gd8a78baa4388" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h49c049d7g63a5ga36cgc3a4g77287ea4217d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Cold)" />
         <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Source,context.Observer) and not Self() and IsAttack() and not IsKillingBlow() and IsHit() and Character() and not AnyEntityIsItem();" />
         <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(1d6,Cold,Magical);ApplyStatus(RAY_OF_FROST,100,2);" />
         <field name="Cost" type="StringTableFieldDefinition" value="Goliath:1;" />
@@ -3149,6 +3168,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="509b1ef5-e0ab-44d3-b1e6-b6525e89531b" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0bd2a433g5363g8187gc1ffg0d26612f57e4" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h29815b88g3422g56c3g5aa5gb7806dbe47bc" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Thunder)" />
         <field name="Conditions" type="StringTableFieldDefinition" value="Self(context.Target,context.Observer) and not Self(context.Source,context.Observer) and Enemy(context.Source,context.Observer) and IsAbleToReact(context.Observer) and IsAttack() and IsHit() and not DistanceToGreaterThan(context.SourcePosition, context.TargetPosition, 18) and not AnyEntityIsItem() and HasLastAttackTriggered();" />
         <field name="Cost" type="StringTableFieldDefinition" value="Goliath:1;" />
         <field name="EnableCondition" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />

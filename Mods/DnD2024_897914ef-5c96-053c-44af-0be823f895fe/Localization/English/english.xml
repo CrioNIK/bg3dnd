@@ -57,7 +57,7 @@ In addition, while your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag
   <content contentuid="h28d4b453gc36cg810egf9e2g1dbff5d018d8" version="1">Level 7: Instinctive Pounce</content>
   <content contentuid="hdb025275gf26dg03dfg7370g4dddf3f0ffb9" version="1">As part of the Bonus Action you take to enter your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt;, you can move up to half your Speed.</content>
   <content contentuid="hb6144726g336aga60cg63d6gf6c4bc669e6a" version="1">Level 9: Brutal Strike</content>
-  <content contentuid="h3a320da8g90b9g9714ge237g45c9782afbd0" version="1">If you use Reckless Attack, the target takes an extra 1d10 damage of the same type dealt by the weapon or Unarmed Strike, and you can cause one Brutal Strike effect of your choice.
+  <content contentuid="h3a320da8g90b9g9714ge237g45c9782afbd0" version="1">If you use Reckless Attack, the target takes an extra [2], and you can cause one Brutal Strike effect of your choice.
 
 Forceful Blow. The target is pushed [1] straight away from you. You can then move up to half your Speed straight toward the target without provoking Opportunity Attacks.
 Hamstring Blow. The target’s Speed is reduced by [1] until the start of your next turn. A target can be affected by only one Hamstring Blow at a time—the most recent one.</content>
@@ -547,7 +547,7 @@ While mounted on the steed, when you take damage of 4 or higher, you must make a
   <content contentuid="ha4ade769g56f1g989dg4a5dgc980f0453d08" version="1">Abjure Foes</content>
   <content contentuid="hf0938809g82f6ge8a7gea01gff762cf6f570" version="1">As a Magic action, you can expend one use of this class’s Channel Oath to overwhelm foes with awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within [1] of yourself. Each target must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute.</content>
   <content contentuid="hdd546b3bg87ddg0b0eg91d9g7dd5bb69d0d5" version="1">Level 11: Radiant Strikes</content>
-  <content contentuid="he923c53cgfecbgb456g1ee5gbc97fd5f5a9a" version="1">Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Radiant damage.</content>
+  <content contentuid="he923c53cgfecbgb456g1ee5gbc97fd5f5a9a" version="1">Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra [1].</content>
   <content contentuid="h1b6d335fg71e3g921bg96efgd3563a3e9d4b" version="1">The paladin and nearby allies have Resistance to Necrotic, Psychic, and Radiant damage.</content>
   <content contentuid="he4565ab2g2625gaeb8g694eg929ab02e448c" version="1">The paladin and nearby allies have Resistance to Necrotic, Psychic, and Radiant damage.</content>
   <content contentuid="hae6c4966g7a68ga1edg4bc6gae39ac7aeb6b" version="1">You and any nearby allies have Resistance to Necrotic, Psychic, and Radiant damage. The aura disappears if you fall &lt;LSTag Type="Status" Tooltip="DOWNED"&gt;Unconscious&lt;/LSTag&gt;.</content>
@@ -594,7 +594,7 @@ Initiative Bonus. When you roll Initiative, you can add your Wisdom modifier to 
   <content contentuid="h44cf5afdg1bddgc6d5g9577gcc6cc00bfd12" version="1">Level 7: Iron Mind</content>
   <content contentuid="h834d7e4cg19fdgd3acg2b88g50ab0030af80" version="1">You have honed your ability to resist mind-altering powers. You gain proficiency in Wisdom saving throws.</content>
   <content contentuid="hd3f07304gfb55ge28ega3f7g0cf1292516a3" version="1">Level 11: Stalker’s Flurry</content>
-  <content contentuid="h374216bbgf985gc96cg64b3g959b101fd376" version="1">The Psychic damage of your Dreadful Strike becomes 2d8. The target must make a Wisdom saving throw against your spell save DC. On a failed save, a creature has the Frightened condition until the start of your next turn.
+  <content contentuid="h374216bbgf985gc96cg64b3g959b101fd376" version="1">The damage of your Dreadful Strike becomes [1]. The target must make a Wisdom saving throw against your spell save DC. On a failed save, a creature has the Frightened condition until the start of your next turn.
 
 You are swift enough to turn a miss into a new strike. When you miss with a weapon attack, you can make another weapon attack for free.</content>
   <content contentuid="hfd10997cg1b63g1960g4918ga9e47736c018" version="1">Level 11: Superior Hunter’s Prey</content>
@@ -692,7 +692,7 @@ Sometimes the magic surges and deals additional damage. The chance of a magical 
   <content contentuid="ha97e7097gda9cgc3eegbb86g9bf88d36ee68" version="1">Level 2: Otherworldly Leap</content>
   <content contentuid="hd47c4e1cg1e7ag651cg8c57g7deb405ec80c" version="1">Level 2: Repelling Blast</content>
   <content contentuid="h425487e0g16b7ga256gb63ag56872a5ea672" version="1">Level 5: Eldritch Smite</content>
-  <content contentuid="h4d483577g0d77g722dg50ddga9f231b29ec2" version="1">Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</content>
+  <content contentuid="h4d483577g0d77g722dg50ddga9f231b29ec2" version="1">Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra [1] to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</content>
   <content contentuid="hc0ad688dged59g744fgf3e6g1e706f4ee29c" version="1">Level 5: One with Shadows</content>
   <content contentuid="hb2501172gdfd6gb7ebg0621ga38a34e3f573" version="1">Level 5: Thirsting Blade</content>
   <content contentuid="ha794dab4gf433ga08bg7d82gda68964c691c" version="1">You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn.</content>
@@ -715,7 +715,7 @@ Sometimes the magic surges and deals additional damage. The chance of a magical 
   <content contentuid="h5c3434c5ge1cfg2712gf301g25080935ac60" version="1">Prerequisite: Level 5+ Warlock, Pact of the Tome Invocation</content>
   <content contentuid="h79064293gdc22g33fcgf577g81a7411a9720" version="1">Prerequisite: Level 9+ Warlock</content>
   <content contentuid="hb8aec518g6d45g1454g58cbgbac23fec6617" version="1">Level 9: Lifedrinker</content>
-  <content contentuid="h35551526g84e1g78f3g1277g241f3a6077bb" version="3">Once per turn when you hit a creature with your pact weapon, you can deal an extra 1d6 damage to the creature, and you can expend one of your Hit Point Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1 Hit Point).</content>
+  <content contentuid="h35551526g84e1g78f3g1277g241f3a6077bb" version="3">Once per turn when you hit a creature with your pact weapon, you can deal an extra [1] to the creature, and you can expend one of your Hit Point Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1 Hit Point).</content>
   <content contentuid="hb7444fe8g6554g6a31ged37g03cc050ef8d3" version="1">Prerequisite: Level 9+ Warlock, Pact of the Blade Invocation</content>
   <content contentuid="hd69af339g9d2bg91b6gba38g8dbeb8503f7b" version="1">Level 12: Devouring Blade</content>
   <content contentuid="haf78a66bg2f9bg5fb7g8c9ag5da07aa459f4" version="1">The Extra Attack of your Thirsting Blade invocation confers two extra attacks rather than one.</content>
@@ -1244,9 +1244,9 @@ The pool’s maximum number of dice increases by one when you reach Barbarian le
   <content contentuid="h9416ea15g9b17g07abg6c06gd6905fe706ed" version="1">While your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; is active, you add a bonus equal to your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; Damage bonus to your saving throws.</content>
   <content contentuid="hd421ade2g497bg2094g6654geebf64ed20f1" version="2">Once per Short Rest, as a Bonus Action, you unleash a &lt;LSTag Type="Spell" Tooltip="Shout_ZealousPresence"&gt;battle cry&lt;/LSTag&gt; infused with divine energy; creatures of your choice within 60 feet of you gain Advantage on attack rolls and saving throws until the start of your next turn.</content>
   <content contentuid="h3e0f83eag20c7gefccg3505g67e905536f9c" version="1">Divine Fury: Radiant</content>
-  <content contentuid="hd5d65420g6479g285bg4c8ag03e208bc40e5" version="1">While your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; is active, the first creature you hit on each of your turns with a weapon or an Unarmed Strike takes extra Radiant damage equal to 1d6 plus half your Barbarian level (rounded down).</content>
+  <content contentuid="hd5d65420g6479g285bg4c8ag03e208bc40e5" version="1">While your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; is active, the first creature you hit on each of your turns with a weapon or an Unarmed Strike takes an extra [1].</content>
   <content contentuid="hc0013b90g841eg2935g8b77g5e53735b98a6" version="1">Divine Fury: Necrotic</content>
-  <content contentuid="h47b388afge0d2g2240g7d34g00c0f0fbd7f3" version="1">While your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; is active, the first creature you hit on each of your turns with a weapon or an Unarmed Strike takes extra Necrotic damage equal to 1d6 plus half your Barbarian level (rounded down).</content>
+  <content contentuid="h47b388afge0d2g2240g7d34g00c0f0fbd7f3" version="1">While your &lt;LSTag Type="Status" Tooltip="RAGE"&gt;Rage&lt;/LSTag&gt; is active, the first creature you hit on each of your turns with a weapon or an Unarmed Strike takes an extra [1].</content>
   <content contentuid="hf168720fgd4dbgc575ge2c3g9a0841c3efc9" version="1">Warrior of the Gods</content>
   <content contentuid="h46ea941fg771dgceb6g2492gb66d8a8c13e0" version="1">A divine entity helps ensure you can continue the fight. You have a pool of four d12s that you can spend to heal yourself. As a Bonus Action, you can expend dice from the pool, roll them, and regain a number of Hit Points equal to the roll’s total.
 
@@ -1806,7 +1806,7 @@ You regain one of your expended Psionic Energy Dice when you finish a Short Rest
 
 Protective Field. When you or another creature you can see within 30 feet of you takes damage, you can take a Reaction to expend one Psionic Energy Die, roll the die, and reduce the damage taken by the number rolled plus your Intelligence modifier (minimum reduction of 1), as you create a momentary shield of telekinetic force.
 
-Psionic Strike. You can propel your weapons with psionic force. Once on each of your turns, immediately after you hit a target within 30 feet of yourself with an attack and deal damage to it with a weapon, you can expend one Psionic Energy Die, rolling it and dealing Force damage to the target equal to the number rolled plus your Intelligence modifier.
+Psionic Strike. You can propel your weapons with psionic force. Once on each of your turns, immediately after you hit a target within 30 feet of yourself with an attack and deal damage to it with a weapon, you can expend one Psionic Energy Die, rolling it and dealing [1] to the target.
 
 Telekinetic Movement. You can move an object or a creature with your mind. As a Magic action, choose one target you can see within 30 feet of yourself; the target must be a loose object that is Large or smaller or one willing creature other than you. You transport the target up to 30 feet to an unoccupied space you can see. Alternatively, if the target is a Tiny object, you can transport it to or from your hand.</content>
   <content contentuid="hb9f5892dg60a5g8c87g7282g224efd74a6fb" version="1">Level 1: Second Wind</content>
@@ -1819,7 +1819,7 @@ When you reach certain Fighter levels, you gain more uses of this feature.</cont
   <content contentuid="h11246ce1g1053g5998g5c40ga6494d732ee0" version="1">When you or another creature you can see within 30 feet of you takes damage, you can take a Reaction to expend one Psionic Energy Die, roll the die, and reduce the damage taken by the number rolled plus your Intelligence modifier (minimum reduction of 1), as you create a momentary shield of telekinetic force.</content>
   <content contentuid="h50cf5378ga381gc18fg0f16g6bba3d2edf30" version="1">Psionic Power</content>
   <content contentuid="h7e07ba43g48ccgb3bag0de0g3c6c93d8eabb" version="1">Psionic Strike</content>
-  <content contentuid="h26010d04g5728g38d0g7666g1a3a63e82e9a" version="1">You can propel your weapons with psionic force. Once on each of your turns, immediately after you hit a target within 30 feet of yourself with an attack and deal damage to it with a weapon, you can expend one Psionic Energy Die, rolling it and dealing Force damage to the target equal to the number rolled plus your Intelligence modifier.</content>
+  <content contentuid="h26010d04g5728g38d0g7666g1a3a63e82e9a" version="1">You can propel your weapons with psionic force. Once on each of your turns, immediately after you hit a target within 30 feet of yourself with an attack and deal damage to it with a weapon, you can expend one Psionic Energy Die, rolling it and dealing [1] to the target.</content>
   <content contentuid="h87667666gffa0g8813gb1a6gcf359a467b69" version="1">Psionic Strike on Critical</content>
   <content contentuid="h112e5aabgae68g5b63g8e95g3c2e5fd8ebb8" version="1">Telekinetic Movement</content>
   <content contentuid="h789e4f7cgbbfdgd136g7526g0cb392afcf9d" version="1">You can move an object or a creature with your mind. As a Magic action, choose one target you can see within 30 feet of yourself; the target must be a loose object that is Large or smaller or one willing creature other than you. You transport the target up to 30 feet to an unoccupied space you can see. Alternatively, if the target is a Tiny object, you can transport it to or from your hand.</content>
@@ -1833,9 +1833,9 @@ When you reach certain Fighter levels, you gain more uses of this feature.</cont
   <content contentuid="hd22b82f8g71dfg62f2g255eg6bc04daa6824" version="1">Level 10: Guarded Mind</content>
   <content contentuid="ha5b2a394g2eb1g625dg2bdfgb9595a404a80" version="1">You have Resistance to Psychic damage. Moreover, you are immune to the Charmed and Frightened conditions.</content>
   <content contentuid="h5e6a1a90gcd9dg5b91g933bg187d515e3a9e" version="1">Level 3: Hand of Harm</content>
-  <content contentuid="h49a38554ga520g69e1g1f66g89a99bbe4151" version="1">Once per turn when you hit a creature with an Unarmed Strike and deal damage, you can expend 1 Focus Point to deal extra Necrotic damage equal to one roll of your Martial Arts die plus your Wisdom modifier.</content>
+  <content contentuid="h49a38554ga520g69e1g1f66g89a99bbe4151" version="1">Once per turn when you hit a creature with an Unarmed Strike and deal damage, you can expend 1 Focus Point to deal an extra [1].</content>
   <content contentuid="h74bafa69ge700g8ad5g174dg42eb6622d0eb" version="1">Hand of Harm</content>
-  <content contentuid="h10df1491gc913g90b5g2218gc87364e153e8" version="1">Once per turn when you hit a creature with an Unarmed Strike and deal damage, you can expend 1 Focus Point to deal extra Necrotic damage equal to one roll of your Martial Arts die plus your Wisdom modifier.</content>
+  <content contentuid="h10df1491gc913g90b5g2218gc87364e153e8" version="1">Once per turn when you hit a creature with an Unarmed Strike and deal damage, you can expend 1 Focus Point to deal an extra [1].</content>
   <content contentuid="h16671b9ag2412g026aga841ga2feaa5f408b" version="1">Hand of Harm on Critical</content>
   <content contentuid="h88dd0cdfgc1deg9209g9c35g14ede2f5ccbb" version="1">Level 3: Hand of Healing</content>
   <content contentuid="hf80d830cg06deg648eg0d39g7c78218f5482" version="1">As a Magic action, you can expend 1 Focus Point to touch a creature and restore a number of Hit Points equal to a roll of your Martial Arts die plus your Wisdom modifier.
@@ -1879,7 +1879,7 @@ In addition, whenever an ally enters your Aura of Protection for the first time 
   <content contentuid="h142d77edg6f50gc87fg72f5g3158719e648d" version="1">Aura of Alacrity</content>
   <content contentuid="h7a033e2cg8e6cgf063g4a3cgbbe483e2b4cf" version="1">Your Speed increases by 10 feet.</content>
   <content contentuid="h28c5c053g608eg5d6cg49bdg9f3b8000ddfc" version="1">Level 3: Dreadful Strikes</content>
-  <content contentuid="h9d7e1bf3g8ce5g97cdg6455g9d50ab2376ba" version="2">You can augment your weapon strikes with mind-scarring magic drawn from the murky hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra 1d4 Psychic damage to the target, which can take this extra damage only once per turn. The extra damage increases to 1d6 when you reach Ranger level 11.</content>
+  <content contentuid="h9d7e1bf3g8ce5g97cdg6455g9d50ab2376ba" version="2">You can augment your weapon strikes with mind-scarring magic drawn from the murky hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra [1] to the target, which can take this extra damage only once per turn. The extra damage increases to 1d6 when you reach Ranger level 11.</content>
   <content contentuid="h4b83ca6ag67bbga7f4gb3acgd0dc994c7828" version="1">Level 3: Fey Wanderer Spells</content>
   <content contentuid="h4ae962aag1f80gf20eg9ad2g481c0cb2a1fe" version="2">When you reach a Ranger level specified in the Fey Wanderer Spells table, you thereafter always have the listed spells prepared. At 3rd level, you always have &lt;LSTag Type="Spell" Tooltip="Target_CharmPerson"&gt;Charm Person&lt;/LSTag&gt; prepared; at 5th level, &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;Misty Step&lt;/LSTag&gt;; and at 9th level, &lt;LSTag Type="Spell" Tooltip="Target_SummonFey"&gt;Summon Fey&lt;/LSTag&gt;.</content>
   <content contentuid="h4d499d8ag414fg53a9g921age039dc3c0999" version="1">Level 3: Otherworldly Glamour</content>
@@ -2000,7 +2000,7 @@ In addition, the following effects are now among your Steps of the Fey options.
 
 Disappearing Step. You have the &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; condition until the start of your next turn or until immediately after you make an attack roll, deal damage, or cast a spell.
 
-Dreadful Step. Creatures within 10 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage.</content>
+Dreadful Step. Creatures within 10 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take [1].</content>
   <content contentuid="h308c54bfg7af4ga905g67ffg8c054f26beab" version="1">Level 10: Beguiling Defenses</content>
   <content contentuid="h9ff8c44bg3303gce13g6778gf58e24c5dda9" version="2">Your patron teaches you how to guard your mind and body. You are immune to the Charmed condition.
 
@@ -2245,7 +2245,7 @@ You grow retractable claws from the tips of your fingers. Extending or retractin
   <content contentuid="h15c9cd37ga045g7431ge7e7g0c7fa387fb99" version="1">Feat: Dragon Hide</content>
   <content contentuid="hb434eaecg1425g3722gfd51g5065b8b2a915" version="1">Your scales harden. While you aren’t wearing armor, you can calculate your AC as 13 + your Dexterity modifier. You can use a shield and still gain this benefit.
 
-You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. When you hit with an unarmed strike using these claws, the attack deals an additional 1d4 slashing damage.</content>
+You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. When you hit with an unarmed strike using these claws, the attack deals an additional [1].</content>
   <content contentuid="hff5fa241g78c2g2414gf5caga9f8235efc8d" version="1">Feat: Dragon Hide</content>
   <content contentuid="h2f58c2a0g1fd8gcbc6g65e4g15015618e4f6" version="1">Feat: Dwarven Fortitude</content>
   <content contentuid="haa8d3917gd15fg261dg5b19g07a62de6a88f" version="1">Whenever you take the Dodge action in combat, you can spend one Hit Die to heal yourself. Roll the die, add your Constitution modifier, and regain a number of hit points equal to the total (minimum of 1).</content>
@@ -2277,10 +2277,10 @@ Immediately after you take damage, you can use a reaction to magically become in
   <content contentuid="h9f87a9d2g9d12g4c2cg64e6g15737cbc6441" version="1">Feat: Flames of Phlegethos</content>
   <content contentuid="hc35093b5g5ceag870eg966fg55e93a47c7ca" version="1">When you roll fire damage for a spell you cast, you can reroll any 1 on the fire damage dice.
 
-Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. While these flames are present, any creature that hits you with a melee attack takes 1d4 fire damage.</content>
+Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. While these flames are present, any creature that hits you with a melee attack takes [1].</content>
   <content contentuid="h39fb369dg4fccg4963gd303g8b939bce8d8f" version="1">Flames of Phlegethos</content>
   <content contentuid="hb537b09ag83a8g4f18gf705gc5ec2b658965" version="1">Flames of Phlegethos</content>
-  <content contentuid="h5421b0a0g7e88g3249g1c1fg0bb7fa658d3a" version="1">Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. While these flames are present, any creature that hits you with a melee attack takes 1d4 fire damage.</content>
+  <content contentuid="h5421b0a0g7e88g3249g1c1fg0bb7fa658d3a" version="1">Whenever you cast a spell that deals fire damage, you can cause flames to wreathe you until the end of your next turn. While these flames are present, any creature that hits you with a melee attack takes [1].</content>
   <content contentuid="h3502d470g3a45gf7d7g2d8dgb6979a6b5440" version="1">Flames of Phlegethos</content>
   <content contentuid="hc93c8d09ge62bg58d1g07dcgb03858e06604" version="2">Prerequisite: Tiefling
 
@@ -2644,7 +2644,7 @@ Versatile Merc. Choose a skill in which you have proficiency. You have Expertise
   <content contentuid="hca895012gaf5dg78a6g7a2eg37692b43b104" version="2">Feat: Deadly Archery</content>
   <content contentuid="hc67a4df3gcd8bgf957g4d35gee2424c14472" version="2">As a bonus action, you can give yourself advantage on your ranged weapon attack roll on the current turn. You can use this bonus action only if you haven’t moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.</content>
   <content contentuid="h1f3d47b6gbc1fgf224g07d7g6347072349e6" version="2">Feat: Dragon-Slayer</content>
-  <content contentuid="h2407b839gbdcdg7a29gb1ceg77ebf305424f" version="2">You have Advantage on Attack Rolls against Large or larger creatures. In addition, you deal additional damage equal to your Strength modifier when you hit such creatures.</content>
+  <content contentuid="h2407b839gbdcdg7a29gb1ceg77ebf305424f" version="2">You have Advantage on Attack Rolls against Large or larger creatures. In addition, you deal an additional [1] when you hit such creatures.</content>
   <content contentuid="hedc33adbg89b5ge699g0a6bgf060748fb8bb" version="2">Feat: Gleam of Wrath</content>
   <content contentuid="h1fa402eeg7070g07b2gbfbaga67c4ad37e78" version="3">As a bonus action, you can cause a melee weapon you are wielding to emit dim light in a 10-foot radius for 10 turns. The light is sunlight. While the weapon gleams, it deals radiant damage instead of its normal damage type.
 
@@ -2652,7 +2652,7 @@ When you score a critical hit with a melee weapon attack, you can roll one of th
   <content contentuid="h12c8377bg73a7g1523gd2f7gce9b3dfd5731" version="2">Feat: Nimbleness</content>
   <content contentuid="had1170f7ga4c6gba7cg3bc3gbf03f398ce3a" version="1">You gain a +1 bonus to AC. You lose this bonus if you are incapacitated or wielding a shield.</content>
   <content contentuid="h4796f67cg2656g7e4fg0832gdc67d0ccef8e" version="2">Feat: Fierce Shot</content>
-  <content contentuid="h06a155bfgfa73g3924g9442gc7875f6aba6d" version="2">When making an attack with a ranged weapon, you use your Strength modifier for the attack and damage rolls. You must use the same modifier for both rolls. If you move no more than half your speed on the same turn and you hit a creature with a ranged weapon attack, you can use a bonus action to cause the attack to deal 1d4 extra damage of the weapon’s type.</content>
+  <content contentuid="h06a155bfgfa73g3924g9442gc7875f6aba6d" version="2">When making an attack with a ranged weapon, you use your Strength modifier for the attack and damage rolls. You must use the same modifier for both rolls. If you move no more than half your speed on the same turn and you hit a creature with a ranged weapon attack, you can use a bonus action to cause the attack to deal an extra [1].</content>
   <content contentuid="hef1660acg903fg1237g99f8g6b9c3a3e042b" version="1">Deadly Archery</content>
   <content contentuid="hd4674709g7d30gba4fgad6cg17adc9b95a51" version="2">As a Bonus Action, you give yourself Advantage on your ranged weapon attack roll on the current turn. You can use this feature only if you haven’t moved during this turn, and after you use it, your Speed is 0 until the end of the current turn.</content>
   <content contentuid="h8bfddb10g014ag1ffagebccgfc7f04dceadc" version="1">Deadly Archery</content>
@@ -2704,7 +2704,7 @@ You can deal extra damage to a target when you deal damage to it with an attack 
   <content contentuid="h34ab3782g568fg1b60g9a2eg148d28686613" version="1">Heavenly Wings</content>
   <content contentuid="hbcd3d36fgdc84gb744gaaf6ge51968dbc88e" version="1">Two spectral wings sprout from your back temporarily. Until the transformation ends, you have a Fly Speed equal to your Speed.</content>
   <content contentuid="hb450a1d2g4f77g57dbg4c25gd3acee588f18" version="1">Inner Radiance</content>
-  <content contentuid="h4049a129gb079gf0dagb270g0aa72eb1171d" version="1">Searing light temporarily radiates from your eyes and mouth. For the duration, you shed Bright Light in a 10-foot radius and Dim Light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes Radiant damage equal to your Proficiency Bonus.</content>
+  <content contentuid="h4049a129gb079gf0dagb270g0aa72eb1171d" version="1">Searing light temporarily radiates from your eyes and mouth. For the duration, you shed Bright Light in a 10-foot radius and Dim Light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes [1].</content>
   <content contentuid="h5455adb5gc4c2g9159g585eg6c24762cbd53" version="1">Necrotic Shroud</content>
   <content contentuid="h3a16b87eg8dd3g9578gd609gbf2f106aa676" version="1">Your eyes briefly become pools of darkness, and flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you must succeed on a Charisma saving throw or have the Frightened condition until the end of your next turn.</content>
   <content contentuid="h14b0a7adg6f8dg3aefgbc10ge9f1398e2825" version="1">Inner Radiance</content>
@@ -2763,7 +2763,7 @@ A Banneret relies on judgment, bravery, and fidelity to the code of chivalry to 
 
 Frost Resistance. You have Resistance to Cold damage.
 
-Polar Strikes. When you hit a creature with an attack roll using a weapon, you can deal an extra 1d4 Cold damage to the target, which can take this extra damage only once per turn. When you reach Ranger level 11, this extra damage increases to 1d6.</content>
+Polar Strikes. When you hit a creature with an attack roll using a weapon, you can deal an extra [1] to the target, which can take this extra damage only once per turn. When you reach Ranger level 11, this extra damage increases to 1d6.</content>
   <content contentuid="hf2ce8883g7e85g48fcgfb85geaec662b97b7" version="1">Level 3: Hunter's Rime</content>
   <content contentuid="hf17390fdg279dg4294gb86ag4e1049c6b097" version="1">Ice rimes you and your prey, protecting you and hindering them. When you cast Hunter’s Mark, you gain Temporary Hit Points equal to 1d10 plus your Ranger level.
 
@@ -2808,7 +2808,7 @@ Dao’s Crush. Earth rises up around the target. The target has the Restrained c
 
 Djinni’s Escape. You teleport to an unoccupied space you can see within 30 feet of yourself and take on a semi-incorporeal form, which lasts until the end of your next turn. While in this form, you have Resistance to Bludgeoning, Piercing, and Slashing damage, and you have Immunity to the Prone, and Restrained conditions.
 
-Efreeti’s Fury. The target takes an extra 2d4 Fire damage, and flames leap from the target to all enemies you can see within 30 feet of yourself. Each of those creatures also takes 2d4 Fire damage.
+Efreeti’s Fury. The target takes an extra [1], and flames leap from the target to all enemies you can see within 30 feet of yourself. Each of those creatures also takes [1].
 
 Marid’s Surge. The target and each creature of your choice in a 10-foot Emanation originating from you make a Strength saving throw against your spell save DC. On a failed save, a creature is pushed 15 feet straight away from you and has the Prone condition.</content>
   <content contentuid="hf359a230g9c7ag4b00g9797g85e2e40e5b9f" version="1">Level 3: Genie Spells</content>
@@ -2824,7 +2824,7 @@ You also gain proficiency in one of the following skills of your choice: &lt;LST
   <content contentuid="hd20d93a6g9ec6gc3cdg1890g0e70817191af" version="2">Djinni’s Escape</content>
   <content contentuid="hc2eacb6dgfdd7gb76ag186cgecc6d2ed93b5" version="1">You teleport to an unoccupied space you can see within 30 feet of yourself and take on a semi-incorporeal form, which lasts until the end of your next turn. While in this form, you have Resistance to Bludgeoning, Piercing, and Slashing damage, and you have Immunity to the Prone, and Restrained conditions.</content>
   <content contentuid="h41d151e2g9ff2g7903gdcffg74d3df5ec77f" version="2">Efreeti’s Fury</content>
-  <content contentuid="hbf690b7ag3334g153agbf4dgf3261e437b08" version="2">The target takes an extra 2d4 Fire damage, and flames leap from the target to all enemies you can see within 30 feet of yourself. Each of those creatures also takes 2d4 Fire damage.</content>
+  <content contentuid="hbf690b7ag3334g153agbf4dgf3261e437b08" version="2">The target takes an extra [1], and flames leap from the target to all enemies you can see within 30 feet of yourself. Each of those creatures also takes [1].</content>
   <content contentuid="h48d5140cg0c24ga6cfg77d7g5b5aac3590e3" version="2">Marid’s Surge</content>
   <content contentuid="h79a50a5ag645fgfec1g1742g3190589c1ba0" version="1">The target and each creature of your choice in a 10-foot Emanation originating from you make a Strength saving throw against your spell save DC. On a failed save, a creature is pushed 15 feet straight away from you and has the Prone condition.</content>
   <content contentuid="h19a32ab1gef64g369egfeb4ge2bbdbae8999" version="1">Djinni’s Escape</content>
@@ -2961,7 +2961,7 @@ As you gain levels, both the number of dice and their size increase. From level 
   <content contentuid="ha0793978g9cb2g100fg7822gda43641de6da" version="1">Gut Shot</content>
   <content contentuid="hdcd6979dg2bd0g509ega76dgb581147ab1b4" version="1">Its Speed is halved and it has Disadvantage on attack rolls.</content>
   <content contentuid="hf4d391c4gb00agbe23gc911g1d8d9c6ca9ec" version="1">Level 11: Overkill</content>
-  <content contentuid="hc87bcd1cg1649gb998g7e26g83dd5ad52f38" version="1">When you deal damage with a Ranged weapon that doesn’t add your ability modifier to the roll, you add your ability modifier nonetheless. If you already add your modifier to the damage roll, the target takes an extra 1d8 damage of the weapon’s type.</content>
+  <content contentuid="hc87bcd1cg1649gb998g7e26g83dd5ad52f38" version="1">When you deal damage with a Ranged weapon that doesn’t add your ability modifier to the roll, you add your ability modifier nonetheless. If you already add your modifier to the damage roll, the target takes an extra [1].</content>
   <content contentuid="h83187c75g7360g6a76g69b2g056444294567" version="1">When you’re subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail.</content>
   <content contentuid="he8361fb8g999fg30ceg5b76g9c0e5da35ec7" version="1">Level 9: Critical Shot</content>
   <content contentuid="hf88019fag13a2g173ege79egebe738b8ee20" version="1">Your attack rolls with Ranged weapons can score a Critical Hit on a roll of 19 or 20 on the d20.
@@ -2978,15 +2978,15 @@ At Gunslinger level 9, your attack rolls with Ranged weapons score a Critical Hi
   <content contentuid="he859361dg2b9agac3fg2bdcg3f27f7143f6a" version="1">Storm’s Thunder</content>
   <content contentuid="h352899a3g7e44g14c0g1466gcef7fe4c478f" version="1">When you take damage from a creature within 60 feet of you, you can take a Reaction to deal [1] to that creature.</content>
   <content contentuid="h72da1e02g769fgc8d7g7225g3cd201f1dbdb" version="1">Fire’s Burn</content>
-  <content contentuid="hdf8e40d0g3c82gf0f5gdd0aga190d5e39a3e" version="1">When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.</content>
+  <content contentuid="hdf8e40d0g3c82gf0f5gdd0aga190d5e39a3e" version="1">When you hit a target with an attack roll and deal damage to it, you can also deal [1] to that target.</content>
   <content contentuid="h1d1c4cffgbb73g4ef9g71d5gd8a78baa4388" version="1">Frost’s Chill</content>
-  <content contentuid="h49c049d7g63a5ga36cgc3a4g77287ea4217d" version="1">When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.</content>
+  <content contentuid="h49c049d7g63a5ga36cgc3a4g77287ea4217d" version="1">When you hit a target with an attack roll and deal damage to it, you can also deal [1] to that target and reduce its Speed by 10 feet until the start of your next turn.</content>
   <content contentuid="hfe86680bged34g3e7ag4b91g82b68408be4c" version="1">Hill’s Tumble</content>
   <content contentuid="h7e92df67g8bccg75dcgb550ga5e15856d9d9" version="1">When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.</content>
   <content contentuid="h5739f3d4gb5c6g5f9agc4b7g7c8095805ed8" version="1">Stone’s Endurance</content>
   <content contentuid="h62045b01g1a09g4697g2c04gdffed6c1900a" version="1">When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.</content>
   <content contentuid="h0bd2a433g5363g8187gc1ffg0d26612f57e4" version="1">Storm’s Thunder</content>
-  <content contentuid="h29815b88g3422g56c3g5aa5gb7806dbe47bc" version="1">When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.</content>
+  <content contentuid="h29815b88g3422g56c3g5aa5gb7806dbe47bc" version="1">When you take damage from a creature within 60 feet of you, you can take a Reaction to deal [1] to that creature.</content>
   <content contentuid="h955ac611g781fg6ebfge3d7gd118e6f415a5" version="1">Large Form</content>
   <content contentuid="hb1577082gdd8ag5ff6g60bcgd99dc936bbc9" version="1">Starting at character level 5, you can change your size to Large as a Bonus Action if you’re in a big enough space. This transformation lasts for 10 minutes.</content>
   <content contentuid="hb1ace68ega6a4gd1e5g3bb4g470b754bbd3b" version="1">Bite the Bullet</content>
@@ -3118,7 +3118,7 @@ You can use your runes a number of times based on your Fighter level: 3 uses at 
 
 If a rune requires a saving throw, its save DC equals 8 + your proficiency bonus + your Constitution modifier.</content>
   <content contentuid="h234cd41egb166g8eb3g6939g36498884c3ea" version="1">Level 3: Giant’s Might</content>
-  <content contentuid="hffd4abcage782g546dgaeacgc8fe055bd42e" version="2">As a Bonus Action, you gain giant-like power for 1 minute. You become Large, have advantage on Strength checks and Strength saving throws, and your weapon or unarmed attacks deals an extra 1d6 damage on a hit.</content>
+  <content contentuid="hffd4abcage782g546dgaeacgc8fe055bd42e" version="2">As a Bonus Action, you gain giant-like power for 1 minute. You become Large, have advantage on Strength checks and Strength saving throws, and your weapon or unarmed attacks deals an extra [1] on a hit.</content>
   <content contentuid="h2c76a4f7g48d1g3368ga27agbd1576843d8d" version="1">Level 7: Runic Shield</content>
   <content contentuid="h9f5052c1ga6c8ga38cg6399gbc4405cf0442" version="2">You learn to invoke your rune magic to protect your allies. When another creature you can see within 60 feet of you is hit by an attack roll, you can use your reaction to force the attacker to reroll the d20 and use the new roll.</content>
   <content contentuid="h4e152278g0424g0354g3000g79c86331ed68" version="1">Level 10: Great Stature</content>
@@ -3126,9 +3126,9 @@ If a rune requires a saving throw, its save DC equals 8 + your proficiency bonus
   <content contentuid="hb3ae9e73g81e6g120dg8548g27684eff651f" version="1">Invoke Cloud Rune</content>
   <content contentuid="hfd1bcc8cg898egba47gb579gfd786513a783" version="1">&lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charm&lt;/LSTag&gt; an enemy attacking you. They will attack a new target if possible.</content>
   <content contentuid="h3a4d5e28gabe3g3168ge119g17a00c4aa941" version="1">Invoke Fire Rune</content>
-  <content contentuid="h80302dc6gefa4ga829g206ag2011c0e0baca" version="2">When you hit a creature with an attack using a weapon, you can invoke the rune to summon fiery shackles: the target takes an extra 2d6 fire damage, and it be restrained for 1 minute. While restrained by the shackles, the target takes 2d6 fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success.</content>
+  <content contentuid="h80302dc6gefa4ga829g206ag2011c0e0baca" version="2">When you hit a creature with an attack using a weapon, you can invoke the rune to summon fiery shackles: the target takes an extra [1], and it be restrained for 1 minute. While restrained by the shackles, the target takes [1] at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success.</content>
   <content contentuid="h06dee418g7023gcae2g1dd4g7246a7a21faf" version="1">Fire Rune</content>
-  <content contentuid="h0738e060g6dbdgd884ga7eag9103f532652e" version="1">While restrained by the shackles, the target takes 2d6 fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success.</content>
+  <content contentuid="h0738e060g6dbdgd884ga7eag9103f532652e" version="1">While restrained by the shackles, the target takes [1] at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success.</content>
   <content contentuid="h99fb6d15gdad4gf9ebgb1f5gfc423b34bdf4" version="1">Frost Rune</content>
   <content contentuid="h61c977efg9e94ga7feg7173g45a085a426e1" version="1">Gain a +2 bonus to all ability checks and saving throws that use Strength or Constitution.</content>
   <content contentuid="hd49600e9gaa19g5b9bgab38g6740603067eb" version="1">Invoke Frost Rune</content>
@@ -3281,7 +3281,7 @@ When you burn one or more seals on an interdicted creature, you can use your rea
   <content contentuid="he8bb0a53gb20cg63a2g3f35gf408f22a699e" version="4">Level 7: Vengeful Shot</content>
   <content contentuid="h4455cd21gb4e4ga171g4a01gfd22b925fb9b" version="2">Requires Illrigger level 7 or higher.
 
-When a creature makes a ranged attack against you or an ally you can see within 30 feet of you, you can expend a seal as a reaction to make a ranged weapon attack against the attacker. If your attack hits, it deals extra damage equal to half your illrigger level (rounded down).</content>
+When a creature makes a ranged attack against you or an ally you can see within 30 feet of you, you can expend a seal as a reaction to make a ranged weapon attack against the attacker. If your attack hits, it deals an extra [1].</content>
   <content contentuid="h368ac3efg0988g4f4ag0fa9g6819e55d1577" version="1">Unleash Hell: Fire</content>
   <content contentuid="hebd66c01g7f34g9436g6f68gde5a37620a3f" version="1">Unleash Hell: Necrotic</content>
   <content contentuid="had6ccb0dg99e0ge0b3gfe64g2cc75c0d28a0" version="1">Unleash Hell: Fire</content>
@@ -3304,7 +3304,7 @@ When a creature makes a ranged attack against you or an ally you can see within 
   <content contentuid="h2702a54eg25d6geee6g89b1g70955d610f89" version="1">You can expend a seal as a bonus action to weave a mantle of semisolid shadows around yourself or a creature you touch. The target gains a +2 bonus to AC for 1 minute.</content>
   <content contentuid="h5b9a73a3g7b6fg13b5gc7c3gdf58090d1c36" version="1">Vengeful Shot</content>
   <content contentuid="hdcff639cge97ag87c0gca5dgb607adff562c" version="1">Vengeful Shot</content>
-  <content contentuid="hc952c432g8c2cgbbacg18f8gfc587dff1d4d" version="1">When a creature makes a ranged attack against you or an ally you can see within 30 feet of you, you can expend a seal as a reaction to make a ranged weapon attack against the attacker. If your attack hits, it deals extra damage equal to half your illrigger level (rounded down).</content>
+  <content contentuid="hc952c432g8c2cgbbacg18f8gfc587dff1d4d" version="1">When a creature makes a ranged attack against you or an ally you can see within 30 feet of you, you can expend a seal as a reaction to make a ranged weapon attack against the attacker. If your attack hits, it deals an extra [1].</content>
   <content contentuid="h2ab85095gd8e1gd4f8g159bg5479bf29202f" version="1">Interdiction</content>
   <content contentuid="he346a671g0b23g7417g4182g5a8d53b45077" version="1">You can infuse your seals with hellish magical power, enhancing their effects.
 
@@ -3323,7 +3323,7 @@ Some boons require a minimum Illrigger level. When you reach level 7, you gain o
   <content contentuid="h89f9d62cgd6f0g46b6g9bdbgeb45a121b113" version="1">Blood Price: D10</content>
   <content contentuid="h018dfa63g9034g560eg6daegcc0414738e0e" version="1">Blood Price: D12</content>
   <content contentuid="hf204ad45gef57gf823g5fbdg2aadc2b21ace" version="1">Level 11: Terrorizing Force (Cold)</content>
-  <content contentuid="h4c1c236cg2298g059bgbffbg251a8f869bb7" version="1">Your attacks are empowered with devastating might. When you hit with a weapon attack, you deal an extra 1d8 damage of the chosen type.</content>
+  <content contentuid="h4c1c236cg2298g059bgbffbg251a8f869bb7" version="1">Your attacks are empowered with devastating might. When you hit with a weapon attack, you deal an extra [1].</content>
   <content contentuid="h8942f538g5702g7f64g961agb06622c01a69" version="1">Level 11: Terrorizing Force (Fire)</content>
   <content contentuid="hcef63acbg72bag27f7g9fadgf2d9d61c668d" version="1">Level 11: Terrorizing Force (Necrotic)</content>
   <content contentuid="ha7401e8dg37d9g7b31g97c4gc53803a8288b" version="1">Level 11: Terrorizing Force (Poison)</content>
@@ -3353,15 +3353,15 @@ Mercy Is Power. In granting succor to my allies, I prove how great my power is. 
   <content contentuid="ha3823257g1d27g9d0egeff1gb7b607bf03f2" version="1">Embolden Allies</content>
   <content contentuid="h331a5a4cg366cg82a3g63e0g6899f199c8bb" version="1">As a bonus action, you restore a total number of hit points equal to five times your illrigger level, divided however you choose between yourself and other creatures within 30 feet of you.</content>
   <content contentuid="h51e32293ge4aagbb61g14d2g23c2e8863236" version="1">Level 7: Blood for Blood</content>
-  <content contentuid="h450bf76dg7e82gc1f2g03a3g2f6003609ae8" version="1">Whenever an ally takes damage from an interdicted creature, that interdicted creature takes necrotic damage equal to your proficiency bonus.</content>
+  <content contentuid="h450bf76dg7e82gc1f2g03a3g2f6003609ae8" version="1">Whenever an ally takes damage from an interdicted creature, that interdicted creature takes [1].</content>
   <content contentuid="h36291e60ge6ddg0237g008dgbfdf54c658c5" version="1">Blood for Blood</content>
   <content contentuid="h7aa1b008g6ca0g4a20g5979g21ad1d5571fd" version="1">Blood for Blood</content>
-  <content contentuid="hd92480ccg3244g6d8ag80d0g572cbd5b4da3" version="1">Whenever an ally takes damage from an interdicted creature, that interdicted creature takes necrotic damage equal to your proficiency bonus.</content>
+  <content contentuid="hd92480ccg3244g6d8ag80d0g572cbd5b4da3" version="1">Whenever an ally takes damage from an interdicted creature, that interdicted creature takes [1].</content>
   <content contentuid="h608611fbg8b32g738cg8750g599765b12de7" version="1">Level 11: Bloodstroke</content>
-  <content contentuid="ha7e9ac57gfaedg252egecb1g6f787805f11a" version="2">The magic that shields your allies now also saps their enemies’ strength. When an ally who has temporary hit points from your Exsanguinate feature is hit by a melee attack, the attacker takes 11 necrotic damage.</content>
+  <content contentuid="ha7e9ac57gfaedg252egecb1g6f787805f11a" version="2">The magic that shields your allies now also saps their enemies’ strength. When an ally who has temporary hit points from your Exsanguinate feature is hit by a melee attack, the attacker takes [1].</content>
   <content contentuid="h76541450ge22fg5ec9g80fag5c97af69f959" version="1">Bloodstroke</content>
   <content contentuid="h6648aa69gf7b4gfd26gf073gf24f1802047b" version="1">Bloodstroke</content>
-  <content contentuid="ha474cedcg9588gc4b6g1526gc012f1de7f42" version="1">The magic that shields your allies now also saps their enemies’ strength. When an ally who has temporary hit points from your Exsanguinate feature is hit by a melee attack, the attacker takes 11 necrotic damage.</content>
+  <content contentuid="ha474cedcg9588gc4b6g1526gc012f1de7f42" version="1">The magic that shields your allies now also saps their enemies’ strength. When an ally who has temporary hit points from your Exsanguinate feature is hit by a melee attack, the attacker takes [1].</content>
   <content contentuid="h7403d9e2gd4ffg8c95g6874gba9be784c5c0" version="1">Sanguine Knight</content>
   <content contentuid="h00467a34g3b88g453cg081eg6e394afa8e61" version="1">The blood-knights of Hell, Sanguine Knights serve Sutekh, Lord of Blood. Their sorceries drain their enemies’ life force, pouring this stolen vitality into infernal rituals to turn the tide of battle.
 
@@ -3459,7 +3459,7 @@ Hesitation Is Failure. Though I usually rely on agents, when the opportunity pre
   <content contentuid="h019023d4g5948g3c2ag571bg962e5e390492" version="2">Level 3: Marked for Death</content>
   <content contentuid="h4e3d30b7g2c20gf8a7gd14eg44eb335e86b5" version="3">You are particularly skilled at fighting foes you have marked for death. You have Advantage on attack rolls against interdicted creatures.</content>
   <content contentuid="h474f2848gc11cga707gce0ag47a7c29bf27f" version="2">Level 3: Strike from the Dark</content>
-  <content contentuid="hc78792c5gf4b3g8f75gc78fge4e46626954f" version="2">You understand the power of striking from the shadows. Once per turn, when you hit an interdicted creature with a melee weapon attack and you have advantage on the attack roll, you can roll a number of d4s equal to your proficiency bonus and deal extra damage equal to the total you rolled.</content>
+  <content contentuid="hc78792c5gf4b3g8f75gc78fge4e46626954f" version="2">You understand the power of striking from the shadows. Once per turn, when you hit an interdicted creature with a melee weapon attack and you have advantage on the attack roll, you can deal an extra [1].</content>
   <content contentuid="h000d2b9cg5e7egc014gf141ga2c0e4d9fc4f" version="2">Level 3: No Escape</content>
   <content contentuid="hd8bb9020gf357g83bfgf655g10311ef27325" version="3">As a Bonus Action, wrap a shadow rope around a creature's throat to start &lt;LSTag Type="Status" Tooltip="GARROTE_TARGET_HUMANOID"&gt;Garrotting&lt;/LSTag&gt; it.</content>
   <content contentuid="h5b1941eeg9c53g0d48g2159g640b7817db72" version="2">Level 7: Hell’s Assassin</content>
@@ -3673,7 +3673,7 @@ Divine Channel. You gain one use of the Channel Divinity feature from the Cleric
   <content contentuid="h6da1597ag642dg0e69g9c1cg73fd7e25fe9f" version="1">Level 3: Astral Domain Spells</content>
   <content contentuid="h1b7aecd7g65c1g83b6g50ddg7fe12c1c16a8" version="1">Your connection to the Astral Domain ensures that you always have certain spells prepared. When you reach specific Cleric levels, as shown in the Astral Domain Spells table, you automatically gain the listed spells and they are always prepared for you. At 3rd level, you gain &lt;LSTag Type="Spell" Tooltip="Shout_Blur"&gt;Blur&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_GuidingBolt"&gt;Guiding Bolt&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Invisibility"&gt;Invisibility&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Longstrider"&gt;Longstrider&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Projectile_StarryWisp"&gt;Starry Wisp&lt;/LSTag&gt;. At 5th level, you gain &lt;LSTag Type="Spell" Tooltip="Shout_Blink"&gt;Blink&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Slow"&gt;Slow&lt;/LSTag&gt;. At 7th level, you gain &lt;LSTag Type="Spell" Tooltip="Target_Banishment"&gt;Banishment&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Teleportation_DimensionDoor"&gt;Dimension Door&lt;/LSTag&gt;. At 9th level, you gain &lt;LSTag Type="Spell" Tooltip="Shout_DispelEvilAndGood"&gt;Dispel Evil and Good&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Wall_WallOfStone"&gt;Wall of Stone&lt;/LSTag&gt;.</content>
   <content contentuid="h84a93262ga4eag809fg7a75gd6a9a6da35cf" version="1">Level 3: Create Void</content>
-  <content contentuid="h520a3350gab70g330fge64fgd34f7914b820" version="1">As a Bonus Action, you can expend a use of your Channel Divinity to open a planar tear at a point you can see within 60 feet of you, creating a powerful vacuum in a 15-foot-radius Sphere centered on that point. Each creature in the area must make a Dexterity saving throw. On a failed save, a creature takes Force damage equal to 1d8 plus your Cleric level and is pulled up to 15 feet toward the point. On a successful save, a creature takes half as much Force damage only. The tear then vanishes.</content>
+  <content contentuid="h520a3350gab70g330fge64fgd34f7914b820" version="1">As a Bonus Action, you can expend a use of your Channel Divinity to open a planar tear at a point you can see within 60 feet of you, creating a powerful vacuum in a 15-foot-radius Sphere centered on that point. Each creature in the area must make a Dexterity saving throw. On a failed save, a creature takes [1] and is pulled up to 15 feet toward the point. On a successful save, a creature takes half as much Force damage only. The tear then vanishes.</content>
   <content contentuid="hf2358cb4g9ac5g070fg4962g945473af7540" version="1">Level 3: Planar Reach</content>
   <content contentuid="hea8f653bga035g6444ga74bg7a2cc46f5a2b" version="1">You can create and reach through brief holes in the fabric of reality. When you cast a spell that has a range of Touch, you can make the spell’s range 30 feet instead. You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</content>
   <content contentuid="h02d3ddc5gfa53g6d67g4b7cgfd71aa6b71d7" version="1">Level 6: Spatial Exchange</content>
@@ -3704,9 +3704,9 @@ At 3rd level, you always have &lt;LSTag Type="Spell" Tooltip="Projectile_Ensnari
   <content contentuid="h698d6323ge92fg1fd9g8d8bg36d7db994d94" version="1">Wild Recovery</content>
   <content contentuid="hc24409fagede8g0aaag1ad3g32c2949bb667" version="2">As a Bonus Action, you can expend a use of your Wild Shape to regain a number of Hit Points equal to 2d6 plus your Druid level. This healing increases by 1d6 when you reach Druid levels 5 (3d6 plus your Druid level) and 10 (4d6 plus your Druid level).</content>
   <content contentuid="hc064fa21ge684g65c0g9633g796b118177b3" version="1">Corrosive Strike</content>
-  <content contentuid="h33a83d2bg7e97g9bebg4b1ag640c88459c92" version="1">Deal additional Acid damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. On a hit, create a pool of acid around the target which reduces &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1].</content>
+  <content contentuid="h33a83d2bg7e97g9bebg4b1ag640c88459c92" version="1">Deal an additional [2]. On a hit, create a pool of acid around the target which reduces &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by [1].</content>
   <content contentuid="h93ef7658ga110g9063ga99fg02ab90d1135d" version="1">Poison Mist</content>
-  <content contentuid="hbbc19e32g5427g3585gaaabg3a72c966a807" version="1">Deal additional Poison damage equal to your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;. On a hit, surround the target in a noxious cloud that possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisons&lt;/LSTag&gt; those within it. </content>
+  <content contentuid="hbbc19e32g5427g3585gaaabg3a72c966a807" version="1">Deal an additional [1]. On a hit, surround the target in a noxious cloud that possibly &lt;LSTag Type="Status" Tooltip="POISONED"&gt;Poisons&lt;/LSTag&gt; those within it. </content>
   <content contentuid="hed352d94g7b9dg3b87g2d2bgb0b679111113" version="1">On a hit, there is a chance to inflict the Burning condition. Deals an additional [1] to Burning targets.</content>
   <content contentuid="hfc73e10fg17e9g9f07gc85fg541d0d54d67b" version="1">Once per turn, you can encase a target in &lt;LSTag Type="Status" Tooltip="FAERIE_FIRE"&gt;Faerie Fire&lt;/LSTag&gt; for [1] turns if you miss an attack against it.</content>
   <content contentuid="h420e8530gf543gee3dg23ebg5105a14fcc37" version="1">Artificer</content>
@@ -3873,7 +3873,7 @@ Cantrip Upgrade. The damage die changes when you reach levels 5 (d10), 10 (d12).
   <content contentuid="h345d4909g3905g0fc0g06eag48597d9a0ed4" version="1">Holy Avenger</content>
   <content contentuid="ha4f758dfga2beg1ec7gcda5g49ccf54aa751" version="4">Requires attunement by a Paladin.
 
-When you hit a Fiend or an Undead with it, that creature takes an extra 1d10 Radiant damage. While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to damage from spells.</content>
+When you hit a Fiend or an Undead with it, that creature takes an extra [1]. While you hold the drawn weapon, it creates a 10-foot Emanation originating from you. You and all creatures Friendly to you in the Emanation have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to damage from spells.</content>
   <content contentuid="h88763505g272bg1df5g5d45gfa5ef421bfec" version="3">Holy Avenger</content>
   <content contentuid="h82e54036g01e7gb257g91ffg62632d82ab08" version="3">A holy avenger was a rare type of sword that were forged to battle evil in all of its forms. They were greatly prized by paladins from all across the Realms. They possessed great and magnificent powers that were only fully realized in the hands of a benevolent holy warrior.
 
@@ -3910,11 +3910,11 @@ Dampening Field. You have Advantage on Dexterity (&lt;LSTag Type="Skills" Toolti
   <content contentuid="hae5b8629gb6dege582gb0b6g59da26e4eb55" version="1">Level 9: Improved Armorer</content>
   <content contentuid="hf03822e2g7af0g67edg9165g36461a798fbc" version="4">Your Arcane Armor gains additional benefits based on its model, as detailed below.
 
-Dreadnaught. The damage die of your Force Demolisher increases to 2d6 Force damage. In addition, your reach increases by 10 feet.
+Dreadnaught. The damage die of your Force Demolisher increases to [1]. In addition, your reach increases by 10 feet.
 
-Guardian. The damage die of your Thunder Pulse increases to 1d10 Thunder damage. In addition, whenever a creature you can see moves to within 5 feet of you, you can make an opportunity attack against it.
+Guardian. The damage die of your Thunder Pulse increases to [2]. In addition, whenever a creature you can see moves to within 5 feet of you, you can make an opportunity attack against it.
 
-Infiltrator. The damage die of your Lightning Launcher increases to 2d6 Lightning damage. Any creature that takes Lightning damage from your Lightning Launcher become Shocked.</content>
+Infiltrator. The damage die of your Lightning Launcher increases to [3]. Any creature that takes Lightning damage from your Lightning Launcher become Shocked.</content>
   <content contentuid="h47131d60gec85gc936gc2dcgea0e6754c6e8" version="1">Armorer</content>
   <content contentuid="h02b82287gfc4bg3b91g9ef9g28e9e7d50dc8" version="1">An Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the Armorer’s magic, unleash potent attacks, and generate a formidable defense.</content>
   <content contentuid="hbd193bb1gdcb2g7a86ga1c6gafebb216ece6" version="1">Dreadnaught</content>
@@ -3941,7 +3941,7 @@ Infiltrator. The damage die of your Lightning Launcher increases to 2d6 Lightnin
   <content contentuid="h1fdca66eg9f13g57dbg8cc8g8f067bb4d447" version="1">Giant Stature</content>
   <content contentuid="h53e48d5bg3952g2a28g0b12gf55ed4664386" version="1">Thunder Pulse</content>
   <content contentuid="h67d36ff5g7e58g0847g05abg2265be2e8935" version="1">Lightning Launcher</content>
-  <content contentuid="h0ca5e8d6gb9fdgdf73g977bgf17f49b479f7" version="1">Once on each of your turns when you hit a creature with the launcher, you can deal an extra 1d6 Lightning damage to that target.</content>
+  <content contentuid="h0ca5e8d6gb9fdgdf73g977bgf17f49b479f7" version="1">Once on each of your turns when you hit a creature with the launcher, you can deal an extra [1] to that target.</content>
   <content contentuid="hf5b8251dg37fag23degfd61gb647962089e3" version="1">Giant Stature</content>
   <content contentuid="ha072f922ge3c6g116bgc7feg773bb825e8e2" version="1">Defensive Field</content>
   <content contentuid="ha243be2aged30g4c6dg9dedge3df9a10db81" version="1">While Bloodied, you can take a Bonus Action to gain Temporary Hit Points equal to your Artificer level. You lose these Temporary Hit Points if you doff the armor.</content>
@@ -3959,7 +3959,7 @@ Infiltrator. The damage die of your Lightning Launcher increases to 2d6 Lightnin
   <content contentuid="h3b11a6dfg7408ga680gbdf9g27b20bb02003" version="1">Level 9: Explosive Cannon</content>
   <content contentuid="hb63bc4e3g2375g28c1gc6f9g87176ffa864b" version="2">The Eldritch Cannon you create is now more destructive, granting the following benefits.
 
-Detonate. When you take damage, you can use your Reaction to command the cannon to detonate. Each enemy creature within 20 feet of you must make a Dexterity saving throw against your spell save DC, taking 3d10 Force damage on a failed save, or half as much damage on a successful one. You can use this ability once per short rest.
+Detonate. When you take damage, you can use your Reaction to command the cannon to detonate. Each enemy creature within 20 feet of you must make a Dexterity saving throw against your spell save DC, taking [1] on a failed save, or half as much damage on a successful one. You can use this ability once per short rest.
 
 Firepower. The cannon’s damage rolls, as well as the number of Temporary Hit Points granted by Protector, increase by 1d8.</content>
   <content contentuid="h3f377196g65a7g4515g06e5gba317fd59da5" version="1">Force Ballista</content>
@@ -3972,7 +3972,7 @@ Firepower. The cannon’s damage rolls, as well as the number of Temporary Hit P
   <content contentuid="h65882d15gbcc1g0a95g4036g27f23ffa539c" version="1">Detonate</content>
   <content contentuid="hd790e5deg5793ge1d8gfbc7gad8509c9beea" version="1">Explosive Cannon</content>
   <content contentuid="h01831d81g2d20g8c48g5e5eg10559d708494" version="1">Detonate</content>
-  <content contentuid="hab1f563cgd118gb03bg41b5g1316f04ab315" version="1">When you take damage, you can use your Reaction to command the cannon to detonate. Each enemy creature within 20 feet of you must make a Dexterity saving throw against your spell save DC, taking 3d10 Force damage on a failed save, or half as much damage on a successful one. You can use this ability once per short rest.</content>
+  <content contentuid="hab1f563cgd118gb03bg41b5g1316f04ab315" version="1">When you take damage, you can use your Reaction to command the cannon to detonate. Each enemy creature within 20 feet of you must make a Dexterity saving throw against your spell save DC, taking [1] on a failed save, or half as much damage on a successful one. You can use this ability once per short rest.</content>
   <content contentuid="h57be1335ga707gde5ag1346g356ac10f28b0" version="2">Moon Sickle</content>
   <content contentuid="h2d267dedgfd4eg89d7g9e6eg23e63c2ef056" version="2">This silver-bladed sickle glimmers softly with moonlight.</content>
   <content contentuid="ha29a53f0gdcdag13d4g65a6g4969c1a596e5" version="1">Requires attunement by a Druid or Ranger</content>
@@ -4048,9 +4048,9 @@ A kensei sees a weapon in much the same way a calligrapher or painter regards a 
   <content contentuid="h8690c2e3ge55cg1054gfe25g7b4ca4d83ba6" version="1">Agile Parry</content>
   <content contentuid="h9ca81c6cge267g0fefg86fbg4f7ec3154e3d" version="1">If you take the Attack action on your turn while holding a melee Kensei Weapon, you can use it to defend yourself. While the weapon remains in your hand and you aren't Incapacitated, you gain a +2 bonus to Armour Class until the start of your next turn.</content>
   <content contentuid="hacd7feafg2cb6g4005g54dag5aaf575140f2" version="1">Kensei’s Shot</content>
-  <content contentuid="hae57f052gfdcbgdab2g3137g2a46d1f2494b" version="1">You can use a bonus action on your turn to make your ranged attacks with a kensei weapon more deadly. When you do so, any target you hit with a ranged attack using a kensei weapon takes an extra 1d4 damage of the weapon’s type. You retain this benefit until the end of the current turn.</content>
+  <content contentuid="hae57f052gfdcbgdab2g3137g2a46d1f2494b" version="1">You can use a bonus action on your turn to make your ranged attacks with a kensei weapon more deadly. When you do so, any target you hit with a ranged attack using a kensei weapon takes an extra [1]. You retain this benefit until the end of the current turn.</content>
   <content contentuid="he2295183g33c5g9814g52d8g80811e5ec84a" version="1">Level 3: Kensei’s Shot</content>
-  <content contentuid="h05735036ge53dgb166gd088g232b4ce9dad9" version="1">You can use a bonus action on your turn to make your ranged attacks with a kensei weapon more deadly. When you do so, any target you hit with a ranged attack using a kensei weapon takes an extra 1d4 damage of the weapon’s type. You retain this benefit until the end of the current turn.</content>
+  <content contentuid="h05735036ge53dgb166gd088g232b4ce9dad9" version="1">You can use a bonus action on your turn to make your ranged attacks with a kensei weapon more deadly. When you do so, any target you hit with a ranged attack using a kensei weapon takes an extra [1]. You retain this benefit until the end of the current turn.</content>
   <content contentuid="h9a555b37g7fb4g96dcgf889g2b4ef90a9487" version="1">Kensei’s Shot</content>
   <content contentuid="h37c2f505g74b4gdbc0gdcaagf075f1ac1bdb" version="1">You can use a bonus action on your turn to make your ranged attacks with a kensei weapon more deadly. When you do so, any target you hit with a ranged attack using a kensei weapon takes an extra [1]. You retain this benefit until the end of the current turn.</content>
   <content contentuid="h1dff0d2fgf8b2g562egc63egd2c7a23bebd3" version="1">Level 6: Magic Kensei Weapons</content>
@@ -4086,15 +4086,15 @@ Weapon Knowledge. You gain proficiency with Martial weapons. You can use a weapo
   <content contentuid="h074e1d16gaccag0b0bg55e9g233c194cbe67" version="1">Battle Smith</content>
   <content contentuid="h4bf8da96g64a3g0f5eg135bg7645978583b0" version="1">A Battle Smith is a combination of protector and medic, an expert at defending others and repairing both materiel and personnel. To aid in their work, Battle Smiths are accompanied by a Steel Defender, a protective companion of their own creation.</content>
   <content contentuid="h6d2cfddegb7bag99e2g6ffbg6a101cdf219d" version="1">Level 9: Arcane Jolt</content>
-  <content contentuid="h1ad514dega841gc35dg8804ga474e60b45ea" version="2">When you hit a target with an attack roll using a magic weapon, or when your &lt;LSTag Type="Spell" Tooltip="Target_SteelDefender"&gt;Steel Defender&lt;/LSTag&gt; hits a target, you can channel magical energy through the strike to unleash Destructive Energy. The target takes an extra 2d6 force damage.
+  <content contentuid="h1ad514dega841gc35dg8804ga474e60b45ea" version="2">When you hit a target with an attack roll using a magic weapon, or when your &lt;LSTag Type="Spell" Tooltip="Target_SteelDefender"&gt;Steel Defender&lt;/LSTag&gt; hits a target, you can channel magical energy through the strike to unleash Destructive Energy. The target takes an extra [1].
 
 Alternatively, you can unleash Restorative Energy by choosing one creature or object you can see within 30 feet of you. Healing energy flows into the chosen recipient, restoring 2d6 hit points to it.</content>
   <content contentuid="h4f02276agb1b7g8939g8d33g4138f4f9a52f" version="1">You can use this energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once per turn. You regain all expended uses when you finish a Long Rest.</content>
   <content contentuid="hfcff03d7g3b43gc2c2g568eg228ec39a2a92" version="2">Destructive Energy</content>
-  <content contentuid="h7a33c7b9g8cc0g6c2bg348fg50d1aa50e0f5" version="2">When you hit a target with an attack roll using a magic weapon, you can channel magical energy through the strike to unleash Destructive Energy. The target takes an extra 2d6 force damage.</content>
+  <content contentuid="h7a33c7b9g8cc0g6c2bg348fg50d1aa50e0f5" version="2">When you hit a target with an attack roll using a magic weapon, you can channel magical energy through the strike to unleash Destructive Energy. The target takes an extra [1].</content>
   <content contentuid="hcbe0e0aeg4adbgf201g248cg78fdbe7712a4" version="1">Arcane Jolt (Steel Defender)</content>
   <content contentuid="ha41d11dbgba7eg921eg929fg846ff3d63c75" version="1">Destructive Energy (Steel Defender)</content>
-  <content contentuid="h2a2d4c40ge64cg5bd8gb073g4424cebf9004" version="1">When your &lt;LSTag Type="Spell" Tooltip="Target_SteelDefender"&gt;Steel Defender&lt;/LSTag&gt; hits a target, you can channel magical energy through the strike to unleash Destructive Energy. The target takes an extra 2d6 force damage.</content>
+  <content contentuid="h2a2d4c40ge64cg5bd8gb073g4424cebf9004" version="1">When your &lt;LSTag Type="Spell" Tooltip="Target_SteelDefender"&gt;Steel Defender&lt;/LSTag&gt; hits a target, you can channel magical energy through the strike to unleash Destructive Energy. The target takes an extra [1].</content>
   <content contentuid="h10e88f31ga340g7220g57cagf79b60b98df3" version="1">Arcane Jolt</content>
   <content contentuid="h214b31e4g1222g89d1g1c98g859dc68c80f1" version="1">Restorative Energy</content>
   <content contentuid="hde43de07gcaa5gae30g5a72gf42e5fc93579" version="1">Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring 2d6 Hit Points to it.</content>
@@ -4121,7 +4121,7 @@ Members of the Carver Guild are the Monster Hunters typically called upon when i
   <content contentuid="he299d208g313bg4b8dg9d4eg974da70d0811" version="1">Level 3: Equipped for Battle</content>
   <content contentuid="ha48d86e7g98c2gdd60g34f9g0598a3601b8b" version="1">You gain training with Heavy armor.</content>
   <content contentuid="h07e023ddg7200g1081g75b6gb872827fece1" version="1">Level 3: Close Quarters</content>
-  <content contentuid="h9ca6d01dge19ag99cbg8e93gf6de98c14607" version="1">Your skill in close combat enables you to inflict crushing blows while keeping your opponent off balance. When you hit a creature with an attack roll using a Melee weapon, you can take a Reaction to deal an extra 2d6 damage of the same type dealt by the weapon. That creature has Disadvantage on its next attack roll before the start of your next turn.
+  <content contentuid="h9ca6d01dge19ag99cbg8e93gf6de98c14607" version="1">Your skill in close combat enables you to inflict crushing blows while keeping your opponent off balance. When you hit a creature with an attack roll using a Melee weapon, you can take a Reaction to deal an extra [1]. That creature has Disadvantage on its next attack roll before the start of your next turn.
 
 The damage becomes 4d6 when you reach Monster Hunter level 11.</content>
   <content contentuid="h2a01a6f1ga5a8g118agb925gaeebd140f61f" version="1">Level 7: True Grit</content>
@@ -4170,7 +4170,7 @@ The truth is barely any better. Devourers have spent their days consuming the fl
   <content contentuid="h3fd3cd39g82cdg6ea4gad4age341508f8cce" version="1">Level 3: Transmuting Metabolism</content>
   <content contentuid="hf664a7b1g2fffg549cgf62dgbca83b181e57" version="1">You gain the ability to consume the remains of monsters, allowing your body to undergo powerful and terrifying mutations. You can benefit from consumed portions a number of times equal to 1 plus your Intelligence modifier (minimum of 1). After finishing a Long Rest, you regain the ability to consume portions. You can benefit from multiple portions simultaneously, but you can't gain the same mutation more than once at the same time.</content>
   <content contentuid="hf7edd0e4gc93dg9a16ga571g3e0626bf6d67" version="1">Level 7: Synchronized Response</content>
-  <content contentuid="h020e73f6gf74eg8fa5ga3a2gc0e28b778b62" version="1">Your ingestion of monsters heightens your understanding of them and their behaviour. You gain this additional effect when you consume a monster portion: For 1 minute, when you make an attack as part of a Reaction, you deal an extra 1d6 damage.</content>
+  <content contentuid="h020e73f6gf74eg8fa5ga3a2gc0e28b778b62" version="1">Your ingestion of monsters heightens your understanding of them and their behaviour. You gain this additional effect when you consume a monster portion: For 1 minute, when you make an attack as part of a Reaction, you deal an extra [1].</content>
   <content contentuid="h529b8a58gb300g1753gdff4gbd3ce84b211c" version="1">Level 10: Gnawing Hunger</content>
   <content contentuid="h90ab5cd5g9998gb661g7d18ga57aad811d98" version="2">Your hunger for your enemy allows you to partake of its essence during battle. When you deal damage to a creature with a melee attack using a weapon, you gain 6 Temporary Hit Points.</content>
   <content contentuid="h2f0d1be4g0c48gc8dag5d46gb63613816d4b" version="1">Acid Blood</content>
@@ -4196,7 +4196,7 @@ The truth is barely any better. Devourers have spent their days consuming the fl
   <content contentuid="h14ef410eg91c7g8763gfe5bge988b17c4434" version="1">Resistance</content>
   <content contentuid="ha9065fa0gda11g9fbag0a9fgd56f197c42ac" version="1">For 1 minute, you have Resistance to Bludgeoning, Piercing, and Slashing damage.</content>
   <content contentuid="h18dea430g0a51g9ce2g9dc4g23ab4802a3ec" version="1">Acid Blood</content>
-  <content contentuid="h5b8f7438g5b18gdde5gc4dfga7996a555481" version="1">For 1 minute, your blood becomes acidic. Each time a creature hits you with an attack while within 5 feet of you, it takes 2d6 Acid damage.</content>
+  <content contentuid="h5b8f7438g5b18gdde5gc4dfga7996a555481" version="1">For 1 minute, your blood becomes acidic. Each time a creature hits you with an attack while within 5 feet of you, it takes [1].</content>
   <content contentuid="h65822f22g5c0agbed4ga2dfg8ecf26db28f0" version="1">Acumen</content>
   <content contentuid="h1865c71ag5eb9gf397gb7e8g3c4fd9f68123" version="1">For 1 hour, you have Advantage on &lt;LSTag Type="Skills" Tooltip="Insight"&gt;Insight&lt;/LSTag&gt;, &lt;LSTag Type="Skills" Tooltip="Intimidation"&gt;Intimidation&lt;/LSTag&gt; and &lt;LSTag Type="Skills" Tooltip="Persuasion"&gt;Persuasion&lt;/LSTag&gt; check.</content>
   <content contentuid="h803ef2b4g9d5fg6bf7gcdfbge5aa148caa9d" version="1">Flight</content>
@@ -4209,9 +4209,9 @@ The truth is barely any better. Devourers have spent their days consuming the fl
   <content contentuid="ha8f80da7g749dg53f7g250cgcb2b053e8257" version="1">Infused: Thunder</content>
   <content contentuid="h14e14dcbg4d74gcb77g5954gf0d23d010934" version="1">Choose one of the following damage types: Acid, Cold, Fire, Lightning, Poison, or Thunder. For 10 minutes, whenever you hit with a weapon attack, you can cause it to deal the chosen type rather than its normal damage type.</content>
   <content contentuid="h3f4646b9gb34dg645fg078cgf9f1a47d3ede" version="1">Might</content>
-  <content contentuid="h8bb68f75g3204gd036ge31dgd30865e8fc34" version="1">For 1 minute, you have Advantage on Strength checks and saving throws. You also have Advantage on attack rolls using Strength, and you deal 1d6 extra damage to targets you hit with a Strength-based attack. The damage is the same type dealt by the attack.</content>
+  <content contentuid="h8bb68f75g3204gd036ge31dgd30865e8fc34" version="1">For 1 minute, you have Advantage on Strength checks and saving throws. You also have Advantage on attack rolls using Strength, and you deal an extra [1] to targets you hit with a Strength-based attack. The damage is the same type dealt by the attack.</content>
   <content contentuid="h1a8a8630g2403gd97bg04dfg98e96ac14682" version="1">Synchronized Response</content>
-  <content contentuid="h153b4fe6g72f3g247fg04f1g5e857e482941" version="1">For 1 minute, when you make an attack as part of a Reaction, you deal an extra 1d6 damage.</content>
+  <content contentuid="h153b4fe6g72f3g247fg04f1g5e857e482941" version="1">For 1 minute, when you make an attack as part of a Reaction, you deal an extra [1].</content>
   <content contentuid="h6c54c1b3g4767g3527g4d8dg0d550177f041" version="1">Gnawing Hunger</content>
   <content contentuid="hdfb969fag7500g43bege6e0g5797aac03cfc" version="1">Your hunger for your enemy allows you to partake of its essence during battle. When you deal damage to a creature with a melee attack using a weapon, you gain 6 Temporary Hit Points.</content>
   <content contentuid="h0cb6fe74ga523ge60dgf112g667d31b003f8" version="1">Transmuting Metabolism</content>
@@ -4292,7 +4292,7 @@ The magic of this domain also allows these Clerics to stave off death for a time
   <content contentuid="h9091248cg6df4gf72fg6f2ag70c577bab5c1" version="1">Level 3: Circle of Mortality</content>
   <content contentuid="h3c269efagf9cbgfc7dga3bag5ea715ef1024" version="1">You can manipulate the balance between life and death, granting you the following benefits.
 
-Pull of Death. Once per turn, when you deal damage to a creature that’s missing any Hit Points by casting a spell or by hitting with an attack roll, that creature takes an extra 1d4 Necrotic damage. This extra damage increases to 1d6 when you reach Cleric level 11.
+Pull of Death. Once per turn, when you deal damage to a creature that’s missing any Hit Points by casting a spell or by hitting with an attack roll, that creature takes an extra [1]. This extra damage increases to 1d6 when you reach Cleric level 11.
 
 Return to Life. You can cast Spare the Dying as a Bonus Action.
 
@@ -4344,7 +4344,7 @@ In addition, once per turn when you hit a creature with an attack roll while you
 
 Menacing Aura. When a creature fails its saving throw against your &lt;LSTag Type="Status" Tooltip="UNNERVING_AURA"&gt;Unnerving Aura&lt;/LSTag&gt;, it also can’t regain Hit Points or take Reactions until the start of your next turn.
 
-Ominous Strikes. When you hit a creature that has the Frightened condition with an attack roll, that attack deals extra damage equal to your Wisdom modifier.</content>
+Ominous Strikes. When you hit a creature that has the Frightened condition with an attack roll, that attack deals an extra [1].</content>
   <content contentuid="h656241edg097dg71d1gc1ddg80f0965b5079" version="1">Wrath of the Wild</content>
   <content contentuid="h552007ebg0886g488bgccfag99d4097696ee" version="1">You draw power from the strange and ancient horrors of the land, causing you to sprout unnatural growths, such as bloody antlers or putrid fangs, or causing your shadow to lengthen or twist around you. As a Bonus Action, you can expend a use of Favored Enemy to transform into a ghastly form, gaining the following benefits for 1 minute or until you have the Incapacitated condition, die, or end the transformation (no action required).
 
@@ -4391,7 +4391,7 @@ Undead Endurance. You don’t need to sleep, and magic can’t put you to sleep.
 
 Necrotic Resilience. You have Resistance to Necrotic damage. While using your Form of Dread, you have Immunity to Necrotic damage.
 
-Unholy Resuscitation. If you drop to 0 Hit Points and don’t die outright, you can cause your body to erupt with deathly energy. Each creature of your choice in a 30-foot Emanation originating from you makes a Constitution saving throw against your spell save DC, taking Necrotic damage equal to 2d10 plus your Charisma modifier on a failed save or half as much damage on a successful one. Your Hit Points then change to twice your Warlock level, and you gain 1 Exhaustion level.
+Unholy Resuscitation. If you drop to 0 Hit Points and don’t die outright, you can cause your body to erupt with deathly energy. Each creature of your choice in a 30-foot Emanation originating from you makes a Constitution saving throw against your spell save DC, taking [1] on a failed save or half as much damage on a successful one. Your Hit Points then change to twice your Warlock level, and you gain 1 Exhaustion level.
 
 Once you use this benefit, you can’t use it again until you finish a Short or Long Rest.</content>
   <content contentuid="hcaaac561g47fbgc64dga290gc1f58fa033fa" version="1">Astral Flood</content>
@@ -4471,7 +4471,7 @@ Draining Slash, Harrowing Blade, Stymying Mark</content>
 
 Hungering Hex. Whenever a target cursed by your Hex drops to 0 Hit Points as a result of your actions, you regain Hit Points equal to 1d8 plus your Charisma modifier.
 
-Inevitable Blade. Once per turn, when you make an attack roll against a target cursed by your Hex and miss, you can deal 1d6 Necrotic damage.</content>
+Inevitable Blade. Once per turn, when you make an attack roll against a target cursed by your Hex and miss, you can deal [1].</content>
   <content contentuid="h6dea9c47g93a0g6397g3d9eg04b5e5b83704" version="1">Level 10: Armor of Hexes</content>
   <content contentuid="h49e72c1cg2d7bgc3fbg7e56gdbf9203830ad" version="1">When you take damage from a target cursed by your Hex, you can take a Reaction to reduce that damage by 2d8 plus your Charisma modifier. You can use this feature a number of times equal to your Charisma modifier, and you regain all expended uses when you finish a Long Rest.</content>
   <content contentuid="h8a44a18ag2f79g5f22ga66dgf9d14502995b" version="1">Hexblade Manifest</content>
@@ -4479,7 +4479,7 @@ Inevitable Blade. Once per turn, when you make an attack roll against a target c
   <content contentuid="h26188b0bg7517gb0f4g956fg7f3316d5dd96" version="1">Draining Slash</content>
   <content contentuid="hc89adc48gff23ge491g6563g134f3a4d1c41" version="1">The target makes a Constitution saving throw against your spell save DC. On a failed save, it can't make Opportunity Attacks, and its Speed is halved until the start of your next turn.</content>
   <content contentuid="hc7b0f28egb110gffacg5c7egb0143bdd1014" version="1">Harrowing Blade</content>
-  <content contentuid="h95ae390fg24d7g8dcfg466dgacb161d58057" version="2">The target makes a Wisdom saving throw against your spell save DC. On a failed save, the next time it makes an attack roll against a creature other than you before the start of your next turn, it takes 1d6 Necrotic damage.</content>
+  <content contentuid="h95ae390fg24d7g8dcfg466dgacb161d58057" version="2">The target makes a Wisdom saving throw against your spell save DC. On a failed save, the next time it makes an attack roll against a creature other than you before the start of your next turn, it takes [1].</content>
   <content contentuid="hd36755d1g9403g81dbgf4efg2fb565b73a1f" version="1">Stymying Mark</content>
   <content contentuid="h1e510414g6658gde2bgccc5g70c12902a1fb" version="1">The target has Disadvantage on the next saving throw it makes before the start of your next turn.</content>
   <content contentuid="h338cdd4dg57cdg382agd382g6e2930e3713f" version="1">Armor of Hexes</content>
@@ -4487,7 +4487,7 @@ Inevitable Blade. Once per turn, when you make an attack roll against a target c
   <content contentuid="h352f1d01g9b89ge024gdb8cg7b67da12f0e0" version="1">Draining Slash</content>
   <content contentuid="h9a19d8f9g6000gec74g2e00g5462feeee031" version="2">The target makes a Constitution saving throw against your spell save DC. On a failed save, it can't make Opportunity Attacks, and its Speed is halved until the start of your next turn.</content>
   <content contentuid="ha104f4d6gd9eeg1862g7452g73819c4c7c2f" version="1">Harrowing Blade</content>
-  <content contentuid="h61d275d7g23e9gcb80g1af5g7d1bceb17545" version="2">The target makes a Wisdom saving throw against your spell save DC. On a failed save, the next time it makes an attack roll against a creature other than you before the start of your next turn, it takes 1d6 Necrotic damage.</content>
+  <content contentuid="h61d275d7g23e9gcb80g1af5g7d1bceb17545" version="2">The target makes a Wisdom saving throw against your spell save DC. On a failed save, the next time it makes an attack roll against a creature other than you before the start of your next turn, it takes [1].</content>
   <content contentuid="h8af79815gc7d3gf37ag99eage18bc75980e0" version="1">Stymying Mark</content>
   <content contentuid="hca3e32abg4341g51e2ga8f4gba89522cb18f" version="1">The target has Disadvantage on the next saving throw it makes before the start of your next turn.</content>
   <content contentuid="h8dcb95d2ga517g32ebg6912g7069289dcf67" version="1">Hungering Hex</content>
@@ -4562,15 +4562,15 @@ Goliaths have physical characteristics that are reminiscent of the giants in the
   <content contentuid="hce152759gc1e1g418cgcf1agfab6759d882e" version="1">Giant Ancestry: Cloud Giant</content>
   <content contentuid="had6cf5adg8eb1gc683g7f11gab246e2b6b44" version="2">Cloud’s Jaunt (Cloud Giant). As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.</content>
   <content contentuid="h297e6dcbgbedbg0037ga402g524f90049893" version="1">Giant Ancestry: Fire Giant</content>
-  <content contentuid="he807aa9age4ccga253g9743gd1a253159665" version="1">Fire’s Burn (Fire Giant). When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.</content>
+  <content contentuid="he807aa9age4ccga253g9743gd1a253159665" version="1">Fire’s Burn (Fire Giant). When you hit a target with an attack roll and deal damage to it, you can also deal [1] to that target.</content>
   <content contentuid="h51b85e6cg91c9g2e69ga921ga3e9856e5b2c" version="1">Giant Ancestry: Frost Giant</content>
-  <content contentuid="h6f446eaeg8ec6g19c7g34a6gf2ed7fde9501" version="1">Frost’s Chill (Frost Giant). When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.</content>
+  <content contentuid="h6f446eaeg8ec6g19c7g34a6gf2ed7fde9501" version="1">Frost’s Chill (Frost Giant). When you hit a target with an attack roll and deal damage to it, you can also deal [1] to that target and reduce its Speed by 10 feet until the start of your next turn.</content>
   <content contentuid="h1ac94e1cge830g5902g72eag69029753a94b" version="1">Giant Ancestry: Hill Giant</content>
   <content contentuid="hb2925e5dgb422g689cgfe37g45413ec054f1" version="1">Hill’s Tumble (Hill Giant). When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.</content>
   <content contentuid="h93939658gac4fgd417g1ad0gb5ba75bb2ea6" version="1">Giant Ancestry: Stone Giant</content>
   <content contentuid="h09a0bd7fg8439g3ebbg63abg78025f642aab" version="1">Stone’s Endurance (Stone Giant). When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.</content>
   <content contentuid="h9cd64908gcb06gfdd5g1d19g351cc167fcfc" version="1">Giant Ancestry: Storm Giant</content>
-  <content contentuid="h58289e87g34a5g2ffdg308dge576a637a4d7" version="1">Storm’s Thunder (Storm Giant). When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.</content>
+  <content contentuid="h58289e87g34a5g2ffdg308dge576a637a4d7" version="1">Storm’s Thunder (Storm Giant). When you take damage from a creature within 60 feet of you, you can take a Reaction to deal [1] to that creature.</content>
   <content contentuid="h30624b26g7d8bgc040g2e6dgfef7836f5019" version="1">Giant Ancestry</content>
   <content contentuid="hbfc7d66dgd649g2d81g9f50ga79cce5da957" version="1">You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:</content>
   <content contentuid="h7c22fcc1g0e9ag6fd2g21d9g5c933a3fdc0d" version="1">Powerful Build</content>
@@ -4653,7 +4653,7 @@ If you hit a creature with this weapon and deal damage to the creature, you have
   <content contentuid="h8f6de0c2g375fgd164gdd46g3b76457a3d70" version="1">Level 3: Psychic Feedback</content>
   <content contentuid="h5360cb80gee7ag0e61g2927g4eace8e2c5e6" version="2">When a creature you can see within 30 feet of yourself succeeds on a saving throw, you can take a Reaction and expend a use of your Channel Divinity to impose Disadvantage on the saving throw, prying into their mind before they succeed or fail.</content>
   <content contentuid="h65dab31ag9d8cg8927g3507g782f6b5249c9" version="1">Level 3: Psychic Force</content>
-  <content contentuid="h637fd45bg14ebg37d7g4fd0g0b738fa63f79" version="3">You learn to buffet your foes with mental power. When you cast a Cleric spell that deals Radiant or Psychic damage, each target of that spell takes extra Psychic damage equal to your Charisma modifier.</content>
+  <content contentuid="h637fd45bg14ebg37d7g4fd0g0b738fa63f79" version="3">You learn to buffet your foes with mental power. When you cast a Cleric spell that deals Radiant or Psychic damage, each target of that spell takes an extra [1].</content>
   <content contentuid="h66a70d44ge6f0ga710g9f15ge39c0aaa98f6" version="1">Level 6: Gestalt Anchor</content>
   <content contentuid="ha688aa5dgc9bege050gd0f4gd8a5d10c7791" version="1">Your mental power increases, allowing you to project a sense of calm in a 10-foot Emanation that originates from you. The projection is inactive if you have the Incapacitated condition.
 
@@ -4675,12 +4675,12 @@ You and your allies in the projection gain a +2 bonus to Intelligence, Wisdom, a
   <content contentuid="h2e15736fg5bd6g3f4dg0fc4g819006dce402" version="2">Eldritch Smite (Melee)</content>
   <content contentuid="h5bda03eag283cgfcf7ga7d9g208fb40a60f2" version="2">Eldritch Smite (Melee)</content>
   <content contentuid="h16b86fe8gc17cgeb8cg6b91g3ff530eba5fc" version="2">Eldritch Smite on Critical Hit (Melee)</content>
-  <content contentuid="h8530202fg28b6g772egd8f7gc108c5f8cded" version="1">Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</content>
-  <content contentuid="hf7ca621bg1f12ga4d3g3047g634d03c15efe" version="1">Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</content>
-  <content contentuid="h479f3229gb556gd7b7g73bcgb4311aa0da92" version="1">Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</content>
-  <content contentuid="h93fe573fg6b32g5d47gfaaagd6a9823a5153" version="1">Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</content>
-  <content contentuid="h8d4b8353g4cf2g9edcg051fg3eebf6d08956" version="1">Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</content>
-  <content contentuid="h1498d59bg1126gb9c5gd9b1ga55c4cbb3816" version="1">Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</content>
+  <content contentuid="h8530202fg28b6g772egd8f7gc108c5f8cded" version="1">Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra [1] to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</content>
+  <content contentuid="hf7ca621bg1f12ga4d3g3047g634d03c15efe" version="1">Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra [1] to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</content>
+  <content contentuid="h479f3229gb556gd7b7g73bcgb4311aa0da92" version="1">Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra [1] to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</content>
+  <content contentuid="h93fe573fg6b32g5d47gfaaagd6a9823a5153" version="1">Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra [1] to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</content>
+  <content contentuid="h8d4b8353g4cf2g9edcg051fg3eebf6d08956" version="1">Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra [1] to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</content>
+  <content contentuid="h1498d59bg1126gb9c5gd9b1ga55c4cbb3816" version="1">Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra [1] to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</content>
   <content contentuid="h91a9a031gbb78g3004g2f6cg6dcdb8f2cea3" version="1">You can use Two-Weapon Fighting even if your weapons aren't &lt;LSTag Tooltip="Light"&gt;Light&lt;/LSTag&gt;. You cannot dual-wield &lt;LSTag Tooltip="TwoHanded"&gt;Two-Handed&lt;/LSTag&gt; weapons.&lt;br&gt;&lt;br&gt;When you take the Attack action on your turn and attack with a melee weapon, you can make one Off-Hand Attack as a Bonus Action later on the same turn. If you have mastered the Nick property and have a Nick weapon equipped in your off hand, you can make up to two Off-Hand Attacks per turn.</content>
   <content contentuid="h7f4aa580ga87dg16dcgfbe8g89f017ded271" version="1">Level 3: Shadow Spells</content>
   <content contentuid="h822a72b8g17f5g73a6gd5f7g245ac996eb94" version="1">When you reach a Sorcerer level specified in the Shadow Spells table, you thereafter always have the listed spells prepared. Shadow Magic sorcerers gain additional spells at certain levels: &lt;LSTag Type="Spell" Tooltip="Target_Bane"&gt;Bane&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Darkness"&gt;Darkness&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_InflictWounds"&gt;Inflict Wounds&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Shout_PassWithoutTrace"&gt;Pass Without Trace&lt;/LSTag&gt; at 3rd level; &lt;LSTag Type="Spell" Tooltip="Target_HungerOfHadar"&gt;Hunger of Hadar&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Zone_Fear"&gt;Fear&lt;/LSTag&gt; at 5th level; &lt;LSTag Type="Spell" Tooltip="Target_Invisibility_Greater"&gt;Greater Invisibility&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_PhantasmalKiller"&gt;Phantasmal Killer&lt;/LSTag&gt; at 7th level; and &lt;LSTag Type="Spell" Tooltip="Target_Contagion"&gt;Contagion&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_Cloudkill"&gt;Cloudkill&lt;/LSTag&gt; at 9th level.</content>
@@ -4813,9 +4813,9 @@ When you cast this spell, you can designate creatures to be unaffected by it.</c
   <content contentuid="h47e9e8edg7b15gb388g44c7ge5b71376dbe8" version="1">Death Armor</content>
   <content contentuid="h9bba05a0ga2fag0a19gfc1egb6a0b1880e7a" version="1">For the duration, an inky aura surrounds one creature you touch. The target has Advantage on Death Saving Throws, and once per turn, when a creature within 5 feet of the target hits it with a melee attack roll, the attacker takes [1].</content>
   <content contentuid="hb2037ed3g9376ge28egdf30gb396e5836806" version="1">Death Armor</content>
-  <content contentuid="h9c70dde9ga77cgb33fgf511g497c918b7702" version="1">For the duration, an inky aura surrounds one creature you touch. The target has Advantage on Death Saving Throws, and once per turn, when a creature within 5 feet of the target hits it with a melee attack roll, the attacker takes 2d4 Necrotic damage.</content>
+  <content contentuid="h9c70dde9ga77cgb33fgf511g497c918b7702" version="1">For the duration, an inky aura surrounds one creature you touch. The target has Advantage on Death Saving Throws, and once per turn, when a creature within 5 feet of the target hits it with a melee attack roll, the attacker takes [1].</content>
   <content contentuid="h0e05ff53ge761gd35cg2778g68647c918731" version="1">Death Armor</content>
-  <content contentuid="hd20da03ag764eg50f6g5b4dga5c0e396f838" version="1">For the duration, an inky aura surrounds one creature you touch. The target has Advantage on Death Saving Throws, and once per turn, when a creature within 5 feet of the target hits it with a melee attack roll, the attacker takes 2d4 Necrotic damage.</content>
+  <content contentuid="hd20da03ag764eg50f6g5b4dga5c0e396f838" version="1">For the duration, an inky aura surrounds one creature you touch. The target has Advantage on Death Saving Throws, and once per turn, when a creature within 5 feet of the target hits it with a melee attack roll, the attacker takes [1].</content>
   <content contentuid="h8f9cfbbcgaa6dgc17bg2d8fg66589650eeb4" version="1">Wardaway</content>
   <content contentuid="h42d34c6cg2c2dg6152g7c9dg22ed3a5cedc7" version="1">You hurl a disorienting magical force toward one creature within range. The target makes a Constitution saving throw. On a failed save, the target takes [1], its Speed is halved until the start of your next turn, and on its next turn, it can take only an action or a Bonus Action (but not both). On a successful save, the target takes half as much damage only.</content>
   <content contentuid="h739e0b6ag9070g3f0cg30cdg185c98e6150c" version="1">Wardaway</content>
@@ -4829,7 +4829,7 @@ When you cast this spell, you can designate creatures to be unaffected by it.</c
   <content contentuid="h954ddf9fg7f78ge82dg57c0gb1a304bf4d54" version="1">Fire Rune</content>
   <content contentuid="h8756f6c6ga536g0a7agc01agf500547496f2" version="1">You touch a melee weapon and place a magical effect into it, creating a visible rune etched into the weapon. Attacks made by the invoked weapon deal an extra [1] on a hit.</content>
   <content contentuid="h7db07aaegcba0g874eg8391ge8926782e7f8" version="1">Fire Rune</content>
-  <content contentuid="h241ed709g7588g2cc5g9cd2gbc1ec16c5753" version="1">Attacks made by the invoked weapon deal an extra 1d8 Fire damage on a hit.</content>
+  <content contentuid="h241ed709g7588g2cc5g9cd2gbc1ec16c5753" version="1">Attacks made by the invoked weapon deal an extra [1] on a hit.</content>
   <content contentuid="h06dbb138g6afagfebbg9a03gd5d229bb475e" version="1">Dazing Blast</content>
   <content contentuid="h36e08fceg5a47gf889gc415g5a67ba284ba1" version="1">A wave of force leaves your palms, targeting a creature within range. The target makes a Constitution saving throw. On a failed save, the creature takes [1] and has the &lt;LSTag Type="Status" Tooltip="STUNNED"&gt;Stunned&lt;/LSTag&gt; condition until the end of its next turn. On a successful save, the creature takes the damage only.</content>
   <content contentuid="h1d86fe95gbfdbg4380gabf5g485af2f71992" version="1">Level 3: Shadow Domain Spells</content>
@@ -4881,14 +4881,14 @@ Controlled Channeling. As a Bonus Action, you can expend a use of your Bardic In
   <content contentuid="h9329b80cg3c57g3510gedb5gde3327d9570b" version="1">Spirits From Beyond: Coward</content>
   <content contentuid="hb5b80dd1g369bg905ag47a7g28e7465806d8" version="1">You can call forth spirits of the dead to empower you and your allies. When you take a Bonus Action to give a creature a &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; die, you can call forth the powers of a random spirit. To determine the spirit you channel, roll the Bardic Inspiration die and refer to the Spirits from Beyond table. The spirit remains channeled until you unleash it or until you finish a Long Rest.</content>
   <content contentuid="hc7d9adccgd21cg6730g04c3g3a1c38c6c5a9" version="2">Beloved. The target regains Hit Points equal to a roll of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; die plus your Charisma modifier.</content>
-  <content contentuid="h5b47bba7gdab8g8410ga59dgef9c6100ab29" version="2">Sharpshooter. The target takes Force damage equal to a roll of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; die plus your Charisma modifier.</content>
-  <content contentuid="he73898ceg2342gac1agce15gffad564f5c59" version="2">Avenger. Until the end of your next turn, any creature that hits the target with a melee attack roll takes Force damage equal to a roll of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; die.</content>
+  <content contentuid="h5b47bba7gdab8g8410ga59dgef9c6100ab29" version="2">Sharpshooter. The target takes [1].</content>
+  <content contentuid="he73898ceg2342gac1agce15gffad564f5c59" version="2">Avenger. Until the end of your next turn, any creature that hits the target with a melee attack roll takes [1].</content>
   <content contentuid="h7d06d7d0g728fgd57ag44f5g66f05c613163" version="3">Renegade. Until the end of its turn, the target can use its Reaction to teleport up to 30 feet to an unoccupied space it can see.</content>
   <content contentuid="h61deeb2fg018dgeadegdab2g65d4b9e1683a" version="2">Fortune Teller. The target has Advantage on D20 Tests until the start of your next turn.</content>
   <content contentuid="h2bd86b9fg5a4bg7828gd29cg98815c2ef7d3" version="2">Wayfarer. The target gains Temporary Hit Points equal to a roll of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; die plus your Bard level. While the target has these Temporary Hit Points, its Speed increases by 10 feet.</content>
-  <content contentuid="h53224a2ag2d24g306bg844dge14be06ef6b9" version="2">Trickster. The target makes a Wisdom saving throw. On a failed save, the target takes Psychic damage equal to two rolls of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; die and has the Charmed condition until the start of your next turn. On a successful save, the target takes half as much damage only.</content>
-  <content contentuid="hcb079ee5g1c25gbdc5gf618gc2aef3acfd28" version="2">Shade. The target has the &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; condition until the end of its next turn or until the target makes an attack roll, deals damage, or casts a spell. When the invisibility ends, each creature in a 5-foot Emanation originating from the target must succeed on a Constitution saving throw or take Necrotic damage equal to two rolls of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; die.</content>
-  <content contentuid="ha71f769bge1a3g46dfg432fga8899602df6a" version="2">Arsonist. The target makes a Dexterity saving throw, taking Fire damage equal to four rolls of your &lt;LSTag Type="ActionResource" Tooltip="BardicInspiration"&gt;Bardic Inspiration&lt;/LSTag&gt; die on a failed save or half as much damage on a successful one.</content>
+  <content contentuid="h53224a2ag2d24g306bg844dge14be06ef6b9" version="2">Trickster. The target makes a Wisdom saving throw. On a failed save, the target takes [1] and has the Charmed condition until the start of your next turn. On a successful save, the target takes half as much damage only.</content>
+  <content contentuid="hcb079ee5g1c25gbdc5gf618gc2aef3acfd28" version="2">Shade. The target has the &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt; condition until the end of its next turn or until the target makes an attack roll, deals damage, or casts a spell. When the invisibility ends, each creature in a 5-foot Emanation originating from the target must succeed on a Constitution saving throw or take [1].</content>
+  <content contentuid="ha71f769bge1a3g46dfg432fga8899602df6a" version="2">Arsonist. The target makes a Dexterity saving throw, taking [1] on a failed save or half as much damage on a successful one.</content>
   <content contentuid="h373150f8gf513g0146g7190ge9494becea23" version="2">Coward. The target and each creature of your choice in a 30-foot Emanation originating from the target must succeed on a Wisdom saving throw or have the Frightened condition until the start of your next turn. While a creature is Frightened, its Speed is halved (round down), and it can take either an action or a Bonus Action, not both.</content>
   <content contentuid="hffce3b1cg9e68gb50cgbc7eg803cec074d21" version="1">Controlled Channeling</content>
   <content contentuid="h945acb09g1397g1556g11b6g3c002e37946c" version="1">Controlled Channeling: Beloved</content>
@@ -4931,7 +4931,7 @@ Power from Beyond. Once per turn, when you cast a Bard spell with a spell slot t
 
 Spiritual Manifestation. You always have the Spirit Guardians spell prepared. In addition, you gain one 3rd-level spell slot that can be used only to cast Spirit Guardians. You regain this spell slot when you finish a Long Rest.</content>
   <content contentuid="h7502ba87ga4a8g6ef1gd41dgad0795b74d7a" version="1">Avenger</content>
-  <content contentuid="hef65c52fg7f7dgb2b3g1627g79d21c2f19bf" version="1">Any creature that hits the target with a melee attack roll takes Force damage</content>
+  <content contentuid="hef65c52fg7f7dgb2b3g1627g79d21c2f19bf" version="1">Any creature that hits the target with a melee attack roll takes [1]</content>
   <content contentuid="h85cb392fg0a2fg3859g7db8g8b0c9e7dfe2e" version="1">Avenger</content>
   <content contentuid="ha2864a37g9128g6f44gcbf7gd841c7dd1ee3" version="1">Renegade</content>
   <content contentuid="hfaa297fcgd10eg8d87g5895g1856bdac31ee" version="1">Until the end of its turn, the target can use its Reaction to teleport up to 30 feet to an unoccupied space it can see.</content>
@@ -4975,11 +4975,11 @@ In addition, whenever you kill an Aberration, Beast, Fiend, or Undead of CR 1/2 
   <content contentuid="hd8d03d73gad13g0cd8g4a62g3287c6ec2cad" version="1">Rend the Blasphemous</content>
   <content contentuid="he42b6d25ga54ag95feg90bbge79fe3812ac0" version="1">Divine Point</content>
   <content contentuid="h36a07310gf671gd6d5g26c3ge6250fa1718d" version="1">Level 9: Chains of Judgement</content>
-  <content contentuid="h05726c6egfdc1g7e6fgb135gb031d3bba7f8" version="1">When you hit a creature with your sanctified blade, you can expend 1 Divine Point to bind it in holy chains. The target must succeed on a Strength saving throw or take Radiant damage equal to your Wisdom modifier and gain the Restrained condition until the end of your next turn.</content>
+  <content contentuid="h05726c6egfdc1g7e6fgb135gb031d3bba7f8" version="1">When you hit a creature with your sanctified blade, you can expend 1 Divine Point to bind it in holy chains. The target must succeed on a Strength saving throw or take [1] and gain the Restrained condition until the end of your next turn.</content>
   <content contentuid="hda7d8a17g6668ga3a6g1781g963016c95096" version="1">Level 9: Divine Retaliation</content>
   <content contentuid="hb1f27e8cg3c25g45d2gfff0gf52a143b7438" version="1">As a Reaction when a creature damages you with a melee attack, you can expend 1 Divine Point to make a melee attack against it. You gain a bonus to the damage roll equal to your Wisdom modifier.</content>
   <content contentuid="h4991ec40g26c7gc891g8995g3c46491be240" version="1">Level 9: Erupting Blades</content>
-  <content contentuid="hda73ee14g5c7dg9f17g063dg92a87621426e" version="2">You can expend 2 Divine Points to call down radiant blades in a 45-foot-long, 5-foot-wide Line. Each creature in the Line must make a Dexterity saving throw, taking Radiant damage equal to your Sneak Attack damage on a failed save, or half as much damage on a successful one.</content>
+  <content contentuid="hda73ee14g5c7dg9f17g063dg92a87621426e" version="2">You can expend 2 Divine Points to call down radiant blades in a 45-foot-long, 5-foot-wide Line. Each creature in the Line must make a Dexterity saving throw, taking [1] on a failed save, or half as much damage on a successful one.</content>
   <content contentuid="h53541f0cg04a1g112bge21dg808b86467f1d" version="1">Chains of Judgement</content>
   <content contentuid="hb5aeae53g0a47g6c52g8ed3gf1c8722ca565" version="1">When you hit a creature with your sanctified blade, you can expend 1 Divine Point to bind it in holy chains. The target must succeed on a Strength saving throw or take [1] and gain the Restrained condition until the end of your next turn.</content>
   <content contentuid="haab525c5g6408g1302gb797gcc6ec923a940" version="1">Divine Retaliation</content>
@@ -5033,7 +5033,7 @@ When you make an Unarmed Strike, your reach is 5 feet greater than normal.</cont
   <content contentuid="h9652267bgde21g4799ga95ag6f6fadec6806" version="1">Murmurs of Doom</content>
   <content contentuid="h5ed5413eg93c7gb24cg21d8g7901b49c4c83" version="1">You begin a whispered dirge that is magically accompanied by the howling of spirits and other grim portents. For the duration, an aura radiates from you in a 30-foot Emanation. When you create the aura and at the start of each of your turns while it persists, you can choose one creature in it to make a Constitution saving throw. On a failure, the creature takes [1].</content>
   <content contentuid="h49cf69a9g3850ga86fg9854g543c73e1e561" version="1">Murmurs of Doom</content>
-  <content contentuid="hea3f9087gcfa4gad7eg1453gcafb3a204579" version="1">For the duration, you can choose one creature in it to make a Constitution saving throw. On a failure, the creature takes 3d8 Necrotic damage.</content>
+  <content contentuid="hea3f9087gcfa4gad7eg1453gcafb3a204579" version="1">For the duration, you can choose one creature in it to make a Constitution saving throw. On a failure, the creature takes [1].</content>
   <content contentuid="h95738422ged47g3260g1b9dg2cefcd3f0146" version="1">Searing Orb</content>
   <content contentuid="hdf6371dcga18fg87bcgbe0dgf6e2f7928012" version="1">You create and hurl a pulsing orb of energy at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes [1]. Hit or miss, the orb then explodes in a flash of light. The target and each creature within 10 feet of it make a Constitution saving throw. On a failed save, a creature has the &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; condition until the end of its next turn.</content>
   <content contentuid="h144827a5g121ag0953g6918gbec2aad13de2" version="1">Searing Orb</content>
@@ -5434,11 +5434,11 @@ Make a ranged spell attack against the target. On a hit, the target takes [1]. R
   <content contentuid="h218a19d0g0293g93efgc43egdb8e4642579a" version="1">Whip +1</content>
   <content contentuid="hf82478b0g8d8fgb88eg2f66gc23634841932" version="1">Whip +2</content>
   <content contentuid="heffa3bccgf354g0581ga23dg44eac5095fa6" version="1">Cacophonic Shield Aura</content>
-  <content contentuid="ha911b6bdg2959g695ag9c06gb0936ebd052e" version="2">Thunderous reverberations fill a 10-foot Emanation originating from you for the duration. Whenever the Emanation enters a creature’s space and whenever a creature enters the Emanation or ends its turn there, the creature makes a Constitution saving throw. On a failed save, the creature takes Thunder damage. On a successful save, the creature takes half as much damage only. A creature makes this save only once per turn.
+  <content contentuid="ha911b6bdg2959g695ag9c06gb0936ebd052e" version="2">Thunderous reverberations fill a 10-foot Emanation originating from you for the duration. Whenever the Emanation enters a creature’s space and whenever a creature enters the Emanation or ends its turn there, the creature makes a Constitution saving throw. On a failed save, the creature takes [1]. On a successful save, the creature takes half as much damage only. A creature makes this save only once per turn.
 
 In addition, you have Resistance to Thunder damage, and ranged attack rolls against you are made with Disadvantage.</content>
   <content contentuid="h2a8fc538g7a44g3571g385dg12e8a9a60425" version="1">Cacophonic Shield</content>
-  <content contentuid="h656c049cg0ff4g758bge643g1386718cedb8" version="1">Thunderous reverberations fill a 10-foot Emanation originating from you for the duration. Whenever the Emanation enters a creature’s space and whenever a creature enters the Emanation or ends its turn there, the creature makes a Constitution saving throw. On a failed save, the creature takes Thunder damage. On a successful save, the creature takes half as much damage only. A creature makes this save only once per turn.
+  <content contentuid="h656c049cg0ff4g758bge643g1386718cedb8" version="1">Thunderous reverberations fill a 10-foot Emanation originating from you for the duration. Whenever the Emanation enters a creature’s space and whenever a creature enters the Emanation or ends its turn there, the creature makes a Constitution saving throw. On a failed save, the creature takes [1]. On a successful save, the creature takes half as much damage only. A creature makes this save only once per turn.
 
 In addition, you have Resistance to Thunder damage, and ranged attack rolls against you are made with Disadvantage.</content>
   <content contentuid="h189c7c23gc92fg05ccg593egcb14bf67243c" version="1">Cacophonic Shield</content>
@@ -5450,7 +5450,7 @@ In addition, you have Resistance to Thunder damage, and ranged attack rolls agai
 
 At Higher Levels: your Speed increases by an additional 5 feet, and the Fire damage increases by 1d6, for each spell slot level above 3rd.</content>
   <content contentuid="h07bf103cg6fe9g48deg90e6g51cda963e2bb" version="1">Ashardalon's Stride Aura</content>
-  <content contentuid="h015e6052gbb2eg4bc4g8148gac1a0bbffbf1" version="2">The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your Speed increases by [1], and moving doesn't provoke Opportunity Attacks. Whenever you move within [2] of a creature, it takes Fire damage from your trail of heat. A creature can take this damage only once during a turn.</content>
+  <content contentuid="h015e6052gbb2eg4bc4g8148gac1a0bbffbf1" version="2">The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your Speed increases by [1], and moving doesn't provoke Opportunity Attacks. Whenever you move within [2] of a creature, it takes [3] from your trail of heat. A creature can take this damage only once during a turn.</content>
   <content contentuid="hefff3653g8439g5d57g7610g02ccec1105b6" version="1">Ashardalon's Stride</content>
   <content contentuid="hc093f34eg734bg4909g8ea8g91e0aff0472a" version="2">The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your Speed increases by [1], and moving doesn't provoke Opportunity Attacks. Whenever you move within [2] of a creature, it takes [3] from your trail of heat. A creature can take this damage only once during a turn.</content>
   <content contentuid="he87b5a9cg9c3ag1b7fg2fefg3f7ae0ff3ef9" version="1">When you cast this spell using a spell slot of 4th level or higher, increase your speed by [1] for each spell slot level above 3rd. The spell deals an additional [2] for each slot level above 3rd.</content>
@@ -5470,7 +5470,7 @@ At Higher Levels: your Speed increases by an additional 5 feet, and the Fire dam
   <content contentuid="hcee9d863gb64eg2f43gf305g608bc4aa5061" version="1">Hungering Blade</content>
   <content contentuid="h0f617ea9g5fc5gff42gae8ag41a6861d59c0" version="1">You imbue a weapon you are holding, or your Unarmed Strikes, with ravenous negative energy. For the duration, when you hit a creature with an attack using the empowered weapon or Unarmed Strike for the first time on a turn, the target takes [1], and you gain a number of Temporary Hit Points equal to the Necrotic damage dealt.</content>
   <content contentuid="h700ed84bg957fg2a5dg1d50g4d69487d7001" version="1">Hungering Blade</content>
-  <content contentuid="h353f6fe0g981eg9ab6gd5b9g0148d8001530" version="1">You imbue a weapon you are holding, or your Unarmed Strikes, with ravenous negative energy. For the duration, when you hit a creature with an attack using the empowered weapon or Unarmed Strike for the first time on a turn, the target takes Necrotic damage equal to your spellcasting ability modifier, and you gain a number of Temporary Hit Points equal to the Necrotic damage dealt.</content>
+  <content contentuid="h353f6fe0g981eg9ab6gd5b9g0148d8001530" version="1">You imbue a weapon you are holding, or your Unarmed Strikes, with ravenous negative energy. For the duration, when you hit a creature with an attack using the empowered weapon or Unarmed Strike for the first time on a turn, the target takes [1], and you gain a number of Temporary Hit Points equal to the Necrotic damage dealt.</content>
   <content contentuid="hb6e6fab4gd077g545dge824g9e58b1ec530c" version="1">Hungering Blade: Temporary Hit Points</content>
   <content contentuid="h0903fdd3gbfadg55a1gd56cga67f82c909ac" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
   <content contentuid="h4a76861cg2a42g5900gbd08gc593fbb9811e" version="1">Thorn Armor</content>
@@ -5584,14 +5584,14 @@ Each creature within a 30-foot Cone of destructive elemental energy must make a 
 Each creature within a 30-foot Cone of destructive elemental energy must make a Dexterity saving throw. On a failed save, a target takes [1]. On a successful save, the target takes half as much damage only.</content>
   <content contentuid="h3c1b94c0g3b79g0911g3aa7ge6561bd5cb56" version="1">Dream</content>
   <content contentuid="h73861110g988dg24c3g72e2gfe79f0ecaf49" version="1">On a failed Wisdom saving throw, the target is trapped in a dream, gaining no benefit from its rest. When the target wakes up, it takes [1].</content>
-  <content contentuid="hb0fea27dgc56fg62a0ge057g7c9ddc6f463e" version="1">The target is trapped in a dream, gaining no benefit from rest. When the target wakes up, it takes 3d6 Psychic damage.</content>
+  <content contentuid="hb0fea27dgc56fg62a0ge057g7c9ddc6f463e" version="1">The target is trapped in a dream, gaining no benefit from rest. When the target wakes up, it takes [1].</content>
   <content contentuid="hb36377c1g08c0g556fge8fbg80cbd9b569ef" version="1">Dreaming</content>
   <content contentuid="h94c38ff4g24d8gdff5gf15bg1ec208dddd2d" version="1">Conjure Woodland Beings Aura</content>
-  <content contentuid="h2b042bbdga167g0335g0c96gd2fc48c2ea13" version="1">You conjure nature spirits that flit around you in a 10-foot Emanation for the duration. Whenever the Emanation enters the space of a creature you can see and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a Wisdom saving throw. The creature takes Force damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.
+  <content contentuid="h2b042bbdga167g0335g0c96gd2fc48c2ea13" version="1">You conjure nature spirits that flit around you in a 10-foot Emanation for the duration. Whenever the Emanation enters the space of a creature you can see and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a Wisdom saving throw. The creature takes [1] on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.
 
 In addition, you can take the Disengage action as a Bonus Action for the spell’s duration.</content>
   <content contentuid="h7a848bcagaa30g63d3g3125g77c908213cd3" version="1">Conjure Woodland Beings</content>
-  <content contentuid="haf633c9dg1492gf659gb336g2332cda3f768" version="1">You conjure nature spirits that flit around you in a 10-foot Emanation for the duration. Whenever the Emanation enters the space of a creature you can see and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a Wisdom saving throw. The creature takes Force damage on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.
+  <content contentuid="haf633c9dg1492gf659gb336g2332cda3f768" version="1">You conjure nature spirits that flit around you in a 10-foot Emanation for the duration. Whenever the Emanation enters the space of a creature you can see and whenever a creature you can see enters the Emanation or ends its turn there, you can force that creature to make a Wisdom saving throw. The creature takes [1] on a failed save or half as much damage on a successful one. A creature makes this save only once per turn.
 
 In addition, you can take the Disengage action as a Bonus Action for the spell’s duration.</content>
   <content contentuid="hfefb5384gcdb9g70a3g4fd3g5796fed23526" version="1">Awaken</content>
@@ -6035,7 +6035,7 @@ Strength Above All. You shall rule until a stronger one arises. Then you must gr
   <content contentuid="h73506d7ega609g97beg9101g93708e3a082e" version="1">Level 7: Aura of Conquest</content>
   <content contentuid="h999836e2gda36g81ebg8675g32c73bf93de3" version="2">You constantly emanate a menacing aura while you’re not incapacitated. The aura extends 10 feet from you in every direction, but not through total cover.
 
-If a creature is frightened of you, it has Disadvantage on ability checks and attack rolls while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there.</content>
+If a creature is frightened of you, it has Disadvantage on ability checks and attack rolls while in the aura, and that creature takes [1] if it starts its turn there.</content>
   <content contentuid="he29c0fa8g0bcdgab6cgc0c7ge447100b3ff3" version="1">Conquering Presence</content>
   <content contentuid="h573bf455gce7agc4a2gb934gf7147ae4c160" version="2">You can use your Channel Oath to exude a terrifying presence. You force each creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw. On a failed save, a creature becomes frightened of you for 1 minute. The frightened creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.</content>
   <content contentuid="h120e7e2eg2d57gd215g3dd8g8d3eb76c5977" version="1">Guided Strike</content>
@@ -6047,7 +6047,7 @@ If a creature is frightened of you, it has Disadvantage on ability checks and at
   <content contentuid="h866d88e1g1047ge1d0gd19agda4ac87262ec" version="1">Aura of Conquest</content>
   <content contentuid="hb19479e8gdf8bgc260g8a24g5668daa9bfeb" version="2">You constantly emanate a menacing aura while you’re not incapacitated. The aura extends 10 feet from you in every direction, but not through total cover.
 
-If a creature is frightened of you, it has Disadvantage on ability checks and attack rolls while in the aura, and that creature takes psychic damage equal to half your paladin level if it starts its turn there.</content>
+If a creature is frightened of you, it has Disadvantage on ability checks and attack rolls while in the aura, and that creature takes [1] if it starts its turn there.</content>
   <content contentuid="h317ce04ag4c31g046cgc0e5gc22245456709" version="1">Aura of Conquest</content>
   <content contentuid="ha7123ebbg3a7eg5a2agbb2agd275e5b96e50" version="1">College of Choreography</content>
   <content contentuid="hb4cccef8g4f09g6448g556ag2414e437228a" version="1">Bards of the College of Choreography tell stories and perform music without making a sound, choosing to instead move with Fey-like grace and magic to evade harm and inspire others. These dances originate from the Festerwood, whose radiant spores and light made for miraculous performances and deadly hazards. These Bards can be found anywhere from the local tavern to the highest levels of theater, moving crowds to tears as quickly as rebellion. At every turn, they inspire others to be brave, move, and join in.</content>
@@ -6060,7 +6060,7 @@ If a creature is frightened of you, it has Disadvantage on ability checks and at
 
 When you do, roll your Bardic Inspiration die; that creature gains a number of Temporary Hit Points equal to the number rolled plus your Charisma modifier (minimum of 2 Temporary Hit Points). When a creature gains Temporary Hit Points in this way, it can immediately take a Reaction to move up to its Speed without provoking Opportunity Attacks or take the Dodge action.</content>
   <content contentuid="h4540df02gb020g8e3bg3167gaa78385a6a3d" version="1">Level 6: Entrancing Movement</content>
-  <content contentuid="h5f50c057g3d01g7209ga5aeg4ccd4c74e397" version="1">Your movements become so graceful that even the most cold-hearted enemies are filled with remorse for having stopped your dance. Whenever a creature hits you with an Opportunity Attack or hits you with an attack roll while you’re benefiting from the Dodge action, that creature takes Psychic damage equal to your Charisma modifier plus half your Bard level (round down).
+  <content contentuid="h5f50c057g3d01g7209ga5aeg4ccd4c74e397" version="1">Your movements become so graceful that even the most cold-hearted enemies are filled with remorse for having stopped your dance. Whenever a creature hits you with an Opportunity Attack or hits you with an attack roll while you’re benefiting from the Dodge action, that creature takes [1].
 
 In addition, you always have the Charm Person spell prepared, and you can cast it without a Verbal component. With this feature, you can cast it without expending a spell slot; when you do, it is cast as a level 3 spell, and the targets don’t make their saving throws with Advantage as a result of you or your allies fighting them. Once you cast the spell with this feature, you can’t do so in this way again until you finish a Long Rest.</content>
   <content contentuid="hd49fcd64gff1eg845agd28bg3ab0a14daac8" version="1">Level 6: Fast movement</content>
@@ -6140,7 +6140,7 @@ Martial Training. You gain proficiency with Martial weapons and training with Li
 
 Once you use this feature, you can’t use it again until you finish a long rest.</content>
   <content contentuid="h5fba6a7eg02bcga50egc7c7g758496cdc1a1" version="1">Level 3: Artisan's Blessing</content>
-  <content contentuid="h913cbdacgf9e4g58feg0296g889e13ab49d9" version="2">When you hit a creature with a melee attack, you can use your &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; to deal extra Fire damage.</content>
+  <content contentuid="h913cbdacgf9e4g58feg0296g889e13ab49d9" version="2">When you hit a creature with a melee attack, you can use your &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; to deal an extra [1].</content>
   <content contentuid="hc11d4f13g1389ga831ged26g22c173679faf" version="1">Level 6: Soul of the Forge</content>
   <content contentuid="h6fd0c21eg2405ga4afg118eg1a3ac90348cb" version="2">Your mastery of the forge grants you special abilities:
 
@@ -6151,7 +6151,7 @@ While wearing armor, you gain a +1 bonus to AC.</content>
   <content contentuid="ha16f58efga1b2gc6a6g85fdg6414a27e6567" version="1">Blessing of the Forge: Magic Weapon</content>
   <content contentuid="he7ab672fgb558g9a55g2482gc3f14b08385f" version="1">Blessing of the Forge: Magic Armor</content>
   <content contentuid="h5087f168gc945g5fb3g83d6g3f3a84dd61d9" version="1">Artisan's Blessing</content>
-  <content contentuid="hf4556a98g94c2g16ddg4fe9g5fa3c35a3652" version="1">When you hit a creature with a melee attack, you can use your &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; to deal extra Fire damage.</content>
+  <content contentuid="hf4556a98g94c2g16ddg4fe9g5fa3c35a3652" version="1">When you hit a creature with a melee attack, you can use your &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;Channel Divinity&lt;/LSTag&gt; to deal an extra [1].</content>
   <content contentuid="he9a93975g783agd634g2f29gb040a65e4d4f" version="1">When you reach certain Cleric levels, you always have the following spells prepared: &lt;LSTag Type="Spell" Tooltip="Target_Grease"&gt;Grease&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Smite_Searing"&gt;Searing Smite&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_HeatMetal"&gt;Heat Metal&lt;/LSTag&gt;, and &lt;LSTag Type="Spell" Tooltip="Target_MagicWeapon"&gt;Magic Weapon&lt;/LSTag&gt; at level 3; &lt;LSTag Type="Spell" Tooltip="Target_ElementalWeapon"&gt;Elemental Weapon&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_ProtectionFromEnergy"&gt;Protection from Energy&lt;/LSTag&gt; at level 5; &lt;LSTag Type="Spell" Tooltip="Shout_FireShield"&gt;Fire Shield&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Wall_WallOfFire"&gt;Wall of Fire&lt;/LSTag&gt; at level 7; and &lt;LSTag Type="Spell" Tooltip="Target_FlameStrike"&gt;Flame Strike&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Wall_WallOfStone"&gt;Wall of Stone&lt;/LSTag&gt; at level 9. These spells don't count against the number of spells you can prepare.</content>
   <content contentuid="heabce0ebge4c8g32e1gec9dgfa7d3983180d" version="4">Celestial Spirit</content>
   <content contentuid="ha1f46ec6g425egaef3g8a83g4a20db310dd5" version="1">Conjure Celestial</content>
@@ -6170,7 +6170,7 @@ While wearing armor, you gain a +1 bonus to AC.</content>
 
 As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of the weapon must make a Constitution saving throw. On a failed save, a creature takes [2], and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn’t blinded. At the end of each of its turns, a blinded creature can make a Constitution saving throw, ending the effect on itself on a success.</content>
   <content contentuid="hfdabc05ag93f5gf46eg5efdg957054a772c8" version="1">Holy Weapon</content>
-  <content contentuid="h37aea667gb412g84d3gd6f8g8a195d4ea3d0" version="1">The weapon emits bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra 2d8 radiant damage on a hit. If the weapon isn’t already a magic weapon, it becomes one for the duration.</content>
+  <content contentuid="h37aea667gb412g84d3gd6f8g8a195d4ea3d0" version="1">The weapon emits bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra [1] on a hit. If the weapon isn’t already a magic weapon, it becomes one for the duration.</content>
   <content contentuid="h44a07085gd021gf937gb88ag37126b6f03c7" version="1">Holy Weapon Burst</content>
   <content contentuid="h0c4b99c4g1ad3gb7f0g11fbgb55e06b4ac67" version="1">As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of the weapon must make a Constitution saving throw. On a failed save, a creature takes [1], and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn’t blinded. At the end of each of its turns, a blinded creature can make a Constitution saving throw, ending the effect on itself on a success.</content>
   <content contentuid="h34aa1f06g5476g9077g6ecegcbeaecd1d022" version="1">Reduce</content>
@@ -6431,14 +6431,14 @@ Like other elves, eladrin can live to be over 750 years old.</content>
   <content contentuid="ha798ee23gc1b7gfd05g86c0ga477ff4d0a9d" version="1">You have Advantage on saving throws against spells, and you have Resistance to the damage of spells.</content>
   <content contentuid="h07de6d7ag5621g4204g93bdg12d04e9defa9" version="1">Once per turn, after the wearer &lt;LSTag Type="Spell" Tooltip="Shout_Dash"&gt;Dashes&lt;/LSTag&gt; or takes a similar action, they can &lt;LSTag Type="Spell" Tooltip="Projectile_MAG_Mobility_JumpOnDash_Action"&gt;Long Jump&lt;/LSTag&gt;: leap up to 30 feet, consuming only 10 feet of movement.</content>
   <content contentuid="h3dc922e6ga79bg103cgc3f5g5c013438860b" version="1">Fierce Shot</content>
-  <content contentuid="hdff60bb5g1f26gb017g65bfg79be313aab62" version="1">If you move no more than half your speed on the same turn and you hit a creature with a ranged weapon attack, you can use a bonus action to cause the attack to deal 1d4 extra damage of the weapon’s type.</content>
+  <content contentuid="hdff60bb5g1f26gb017g65bfg79be313aab62" version="1">If you move no more than half your speed on the same turn and you hit a creature with a ranged weapon attack, you can use a bonus action to cause the attack to deal an extra [1].</content>
   <content contentuid="h4f7bd374g4aa3g9446g3975g1173cd2a6e44" version="1">Level 3: Hunter’s Lore</content>
   <content contentuid="heb8ccc52g26b4gf1c4g7dfbge1ff8af766c2" version="1">You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your Hunter's Mark, your weapon attacks ignore that creature's Resistance to Bludgeoning, Piercing, and Slashing damage.</content>
   <content contentuid="h827a0d51gd394g381fg428dg6ce1c84ff2a8" version="1">Level 3: Hunter’s Prey</content>
   <content contentuid="hd51ae331gb1a0gb3bfg9c3bg17441135a4c2" version="1">You gain one of the following feature options of your choice. Whenever you finish a Short or Long Rest, you can replace the chosen option with the other one.
 
 Colossus Slayer
-Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra 1d8 damage to the target if it’s missing any of its Hit Points. You can deal this extra damage only once per turn.
+Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra [1] to the target if it’s missing any of its Hit Points. You can deal this extra damage only once per turn.
 
 Horde Breaker
 Once on each of your turns when you make an attack with a weapon, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target, that is within the weapon’s range, and that you haven’t attacked this turn.</content>
@@ -6499,7 +6499,7 @@ Fearless Form. You have Immunity to the Frightened condition. If you are Frighte
 Frightful Avatar. Once per turn, when you hit a creature with an attack roll, you can force it to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the Frightened condition until the end of your next turn.</content>
   <content contentuid="h9903ed73gfeadg630bg4306g28a1df027049" version="1">Unholy Resuscitation</content>
   <content contentuid="h066733abg26b1g988dgf08cg01f4e3757c53" version="1">Unholy Resuscitation</content>
-  <content contentuid="h77baae07gb508ga5a7g250fg1e4e4b4a196c" version="1">If you drop to 0 Hit Points and don’t die outright, you can cause your body to erupt with deathly energy. Each creature of your choice in a 30-foot Emanation originating from you makes a Constitution saving throw against your spell save DC, taking Necrotic damage equal to 2d10 plus your Charisma modifier on a failed save or half as much damage on a successful one. Your Hit Points then change to twice your Warlock level, and you gain 1 Exhaustion level.</content>
+  <content contentuid="h77baae07gb508ga5a7g250fg1e4e4b4a196c" version="1">If you drop to 0 Hit Points and don’t die outright, you can cause your body to erupt with deathly energy. Each creature of your choice in a 30-foot Emanation originating from you makes a Constitution saving throw against your spell save DC, taking [1] on a failed save or half as much damage on a successful one. Your Hit Points then change to twice your Warlock level, and you gain 1 Exhaustion level.</content>
   <content contentuid="h0f4e5dbfgfb84gaa42gc66eg6660538c6909" version="1">Unholy Resuscitation</content>
   <content contentuid="h4e247c5ag5398g03f2g7a9cgf569bf3a693e" version="1">Lunar Radiance</content>
   <content contentuid="h334bd2c8g7709g2b93g78b1g773fe3b8ebf1" version="1">Each of your attacks in a Wild Shape form can deal its normal damage type or Radiant damage. You make this choice each time you hit with those attacks.</content>
@@ -6522,13 +6522,13 @@ In addition, the ground in the Emanation is Difficult Terrain for your enemies.<
 
 In addition, the ground in the Emanation is Difficult Terrain for your enemies.</content>
   <content contentuid="h0fab1115gf226ge8beg030ag68b6e3209ba0" version="1">Conjure Minor Elementals: Acid</content>
-  <content contentuid="h5352f3fag15fagc41ag28c5g6e8020ce8a0f" version="1">Until the spell ends, any attack you make deals an extra acid damage when you hit a creature in the Emanation.</content>
+  <content contentuid="h5352f3fag15fagc41ag28c5g6e8020ce8a0f" version="1">Until the spell ends, any attack you make deals an extra [1] when you hit a creature in the Emanation.</content>
   <content contentuid="hd306880fga010ga0ccgee6agf2546072d84f" version="1">Conjure Minor Elementals: Cold</content>
-  <content contentuid="h5d952901g443eg3888g9a0dg423e50ad15c7" version="1">Until the spell ends, any attack you make deals an extra cold damage when you hit a creature in the Emanation.</content>
+  <content contentuid="h5d952901g443eg3888g9a0dg423e50ad15c7" version="1">Until the spell ends, any attack you make deals an extra [1] when you hit a creature in the Emanation.</content>
   <content contentuid="h4873e0cdg3743g9b38gd242g3b9762fc3916" version="1">Conjure Minor Elementals: Fire</content>
-  <content contentuid="hd88ee8a8g1552gb464g7097g6ea7fa9ece9c" version="1">Until the spell ends, any attack you make deals an extra fire damage when you hit a creature in the Emanation.</content>
+  <content contentuid="hd88ee8a8g1552gb464g7097g6ea7fa9ece9c" version="1">Until the spell ends, any attack you make deals an extra [1] when you hit a creature in the Emanation.</content>
   <content contentuid="hdc99cc75g8f81g0397g1018gfde4fcc5be57" version="1">Conjure Minor Elementals: Lightning</content>
-  <content contentuid="h89c8ae11gbccagbb70g3473gb3bc505a78c1" version="1">Until the spell ends, any attack you make deals an extra lightning damage when you hit a creature in the Emanation.</content>
+  <content contentuid="h89c8ae11gbccagbb70g3473gb3bc505a78c1" version="1">Until the spell ends, any attack you make deals an extra [1] when you hit a creature in the Emanation.</content>
   <content contentuid="h94c82192gf055gfc18gd5bfgfcedb51b258c" version="1">Conjure Minor Elementals Target</content>
   <content contentuid="h20a9acf5g3464g7749g7665g0da6684092ca" version="1">Caught in the Emanation of &lt;LSTag Type="Spell" Tooltip="Target_ConjureElementals_Minor_Container"&gt;Conjure Minor Elemental&lt;/LSTag&gt;: the ground beneath this creature is Difficult Terrain, and it takes extra damage from the caster's attacks.</content>
   <content contentuid="h3fc5f406g8b36gf617gf0f4ga02e99f55658" version="2">Draconic Spirit</content>
@@ -6584,7 +6584,7 @@ Orcs are, on average, tall and broad. They have gray skin, ears that are sharply
   <content contentuid="h02db6a63g3c71g5feeg9f17g4e0f97b6aa19" version="3">The bond between you and your animal companion is strong. Your Wisdom modifier is added to its &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;, attack rolls and damage rolls.</content>
   <content contentuid="h2f0d755egc57dga744g72aaga03c4b3365ab" version="1">When you command your Primal Companion beast to take the Beast’s Strike action, the beast can use it twice.
 
-In addition, the first time each turn it hits a creature under the effect of your Hunter’s Mark spell, the beast deals extra Force damage equal to the bonus damage of that spell.</content>
+In addition, the first time each turn it hits a creature under the effect of your Hunter’s Mark spell, the beast deals an extra [1].</content>
   <content contentuid="h7a7c2eeegb9f0gd7b7g089ege84222ee1a24" version="1">Bestial Fury</content>
   <content contentuid="hd6166cf1gbef5ga79eg976cg003cafe77c08" version="1">The creature subtracts 1d6 from its attack rolls and ability checks, as well as from any Constitution saving throws it makes to maintain Concentration. At the end of each of its turns, it makes an Intelligence saving throw, ending the effect on a success.</content>
   <content contentuid="h3b3b4882g56f7g12dag4b9fgcf25e36c625d" version="1">Charge</content>
@@ -6615,7 +6615,7 @@ You can spend additional ki points to cast burning hands as a higher-level spell
   <content contentuid="h17636940g2365ge91ag4ad4g878cd8c4ce42" version="1">Level 11: Searing Sunburst</content>
   <content contentuid="h1fe50343g3067g0a7cg5c9egd0f5250b5e84" version="2">You gain the ability to create an orb of light that erupts into a devastating explosion. As an action, you magically create an orb and hurl it at a point you choose within 150 feet, where it erupts into a sphere of radiant light for a brief but deadly instant.
 
-Each creature in that 20-foot-radius sphere must succeed on a Constitution saving throw or take 2d6 radiant damage. A creature doesn’t need to make the save if the creature is behind total cover that is opaque.
+Each creature in that 20-foot-radius sphere must succeed on a Constitution saving throw or take [1]. A creature doesn’t need to make the save if the creature is behind total cover that is opaque.
 
 You can increase the sphere’s damage by spending ki points. Each point you spend, to a maximum of 3, increases the damage by 2d6.</content>
   <content contentuid="h4ed59135g8036gb6acge97eg7a0fe86e5e7f" version="1">Radiant Sun Bolt</content>
@@ -6655,7 +6655,7 @@ Strike of the Giants: Once per turn, when you hit a target with a melee weapon a
   <content contentuid="hd96ff844gf66bg0e09g8f4bg3e72ec561d7b" version="1">Feat: Ember of the Fire Giant</content>
   <content contentuid="h5c65e74bgcca7gff2agc4abg0700018dda54" version="2">Born of Flame. You have resistance to fire damage.
 
-Searing Ignition. When you take the Attack action on your turn, you can replace a single attack with a magical burst of flame. Each creature of your choice in a 15-foot-radius sphere centered on you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Strength or Wisdom modifier, whichever is higher). On a failed save, a creature takes fire damage equal to 1d8 + your proficiency bonus, and it has the blinded condition until the start of your next turn. On a successful save, the creature takes half as much damage only. You can use your Searing Ignition a number of times equal to your proficiency bonus (but no more than once per turn), and you regain all expended uses when you finish a long rest.</content>
+Searing Ignition. When you take the Attack action on your turn, you can replace a single attack with a magical burst of flame. Each creature of your choice in a 15-foot-radius sphere centered on you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Strength or Wisdom modifier, whichever is higher). On a failed save, a creature takes [1], and it has the blinded condition until the start of your next turn. On a successful save, the creature takes half as much damage only. You can use your Searing Ignition a number of times equal to your proficiency bonus (but no more than once per turn), and you regain all expended uses when you finish a long rest.</content>
   <content contentuid="h01d6d533g9bc4g0cdegde2fg1d200535c4e7" version="1">Searing Ignition</content>
   <content contentuid="hed9510fdg4a6dge76dgaa9bg643066cb6cf5" version="2">Each creature of your choice in a 15-foot-radius sphere centered on you must make a Dexterity saving throw (DC equals 8 + your proficiency bonus + your Strength or Wisdom modifier, whichever is higher). On a failed save, a creature takes [1], and it has the blinded condition until the start of your next turn. On a successful save, the creature takes half as much damage only.</content>
   <content contentuid="h29832775g4de3gb8f5ge5d0g6d6aabe5c831" version="1">You can use your Searing Ignition a number of times equal to your proficiency bonus (but no more than once per turn), and you regain all expended uses when you finish a long rest.</content>
@@ -6669,10 +6669,10 @@ Searing Ignition. When you take the Attack action on your turn, you can replace 
   <content contentuid="h3b16fa55gc1f1gdc7fge59cg958d36a4da24" version="1">Feat: Fury of the Frost Giant</content>
   <content contentuid="h5e33a0bdg4748gf679g1d0fg141a368e3366" version="1">Born of Ice. You have resistance to cold damage.
 
-Frigid Retaliation. Immediately after a creature you can see within 30 feet of you hits you with an attack roll and deals damage, you can use your reaction to retaliate with a conjured blast of ice. The creature must make a Constitution saving throw (DC equals 8 + your proficiency bonus + your Strength or Wisdom modifier, whichever is higher). On a failed save, the creature takes cold damage equal to 1d8 + your proficiency bonus, and its speed is reduced to 0 until the end of its next turn. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</content>
+Frigid Retaliation. Immediately after a creature you can see within 30 feet of you hits you with an attack roll and deals damage, you can use your reaction to retaliate with a conjured blast of ice. The creature must make a Constitution saving throw (DC equals 8 + your proficiency bonus + your Strength or Wisdom modifier, whichever is higher). On a failed save, the creature takes [1], and its speed is reduced to 0 until the end of its next turn. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</content>
   <content contentuid="hc754da74gcba8g3950g45abgddf1f004ebb8" version="1">Frigid Retaliation</content>
   <content contentuid="haf39fd6agb8eeg5b25g3f75gc2100e86736b" version="1">Frigid Retaliation</content>
-  <content contentuid="h4384b84egd766gbe0ag574age428758d17bf" version="1">Immediately after a creature you can see within 30 feet of you hits you with an attack roll and deals damage, you can use your reaction to retaliate with a conjured blast of ice. The creature must make a Constitution saving throw (DC equals 8 + your proficiency bonus + your Strength or Wisdom modifier, whichever is higher). On a failed save, the creature takes cold damage equal to 1d8 + your proficiency bonus, and its speed is reduced to 0 until the end of its next turn.</content>
+  <content contentuid="h4384b84egd766gbe0ag574age428758d17bf" version="1">Immediately after a creature you can see within 30 feet of you hits you with an attack roll and deals damage, you can use your reaction to retaliate with a conjured blast of ice. The creature must make a Constitution saving throw (DC equals 8 + your proficiency bonus + your Strength or Wisdom modifier, whichever is higher). On a failed save, the creature takes [1], and its speed is reduced to 0 until the end of its next turn.</content>
   <content contentuid="ha3dfdec9g7cd2g441dge31eg8ffc3a6ed989" version="1">You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</content>
   <content contentuid="h53585916g4391gda1dgf58bg7125b935d7b8" version="1">Fury of the Frost Giant</content>
   <content contentuid="h6f92df19gb6e4g35bcga428gb96710c1d8ac" version="1">You’ve manifested the icy might emblematic of frost giants, granting you the following benefits:
@@ -6721,7 +6721,7 @@ Starting at 3rd level, you also gain resistance to all damage when you teleport 
   <content contentuid="hb06ef4dagca4dg7a01g7aefga57eecdfe412" version="1">Feat: Keenness of the Stone Giant</content>
   <content contentuid="hbd729210g3700g0c6dgfe28g7b0dc91aaae7" version="1">Cavernous Sight. You gain darkvision with a range of 60 feet. If you already have darkvision from another source, its range increases by 60 feet.
 
-Stone Throw. As a bonus action, you can take a rock and make a magical attack with it, choosing between two versions of the attack: a ranged unarmed attack that uses your Strength, or a ranged spell attack that uses your spellcasting ability. Either version has a range of 60 feet. On a hit, the rock deals 1d10 force damage, and the target must succeed on a Strength saving throw or have the prone condition. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</content>
+Stone Throw. As a bonus action, you can take a rock and make a magical attack with it, choosing between two versions of the attack: a ranged unarmed attack that uses your Strength, or a ranged spell attack that uses your spellcasting ability. Either version has a range of 60 feet. On a hit, the rock deals [1], and the target must succeed on a Strength saving throw or have the prone condition. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</content>
   <content contentuid="h33044503g338eg0859gfe5cgcca2c0e5dada" version="1">Stone Throw (Unarmed Attack)</content>
   <content contentuid="he2f81b13gd3f1g9359gc24ag4f61f26e61ab" version="1">Stone Throw (Spell Attack)</content>
   <content contentuid="h173f2271g9da2gd017g9775gb5ad0a0ac5b8" version="1">As a bonus action, you can take a rock and make a magical attack with it. The attack is a ranged unarmed attack with a range of 60 feet that uses your Strength. On a hit, the rock deals [1], and the target must succeed on a Strength saving throw (DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier, whichever is higher) or have the prone condition.</content>
@@ -6932,7 +6932,7 @@ In addition, while holding your spellbook, you gain the following benefits.
 
 Undead Fortitude. Whenever you cast a Necromancy spell that creates or summons an Undead, the Undead’s Hit Point maximum and current Hit Points increase by a number equal to your Intelligence modifier plus half your Wizard level (round down).
 
-Withering Strike. Whenever an Undead you control within 60 feet of you hits a creature with an attack roll, the Undead deals extra Necrotic damage equal to your Intelligence modifier (minimum of 1 Necrotic damage).</content>
+Withering Strike. Whenever an Undead you control within 60 feet of you hits a creature with an attack roll, the Undead deals an extra [1].</content>
   <content contentuid="hc9d62ccbg45f0g8a21gb8fdg127e8b262385" version="1">Level 10: Harvest Undead</content>
   <content contentuid="h01bbcbaeg7c58gd23fga26eg2d6e1d6f6ce2" version="1">You have learned more secrets about the nuances of life and death. Immediately after you become Bloodied but aren’t reduced to 0 Hit Points from taking damage, you can take a Reaction to reduce an Undead creature under your control that you can see to 0 Hit Points. You then immediately regain 11 Hit Points.</content>
   <content contentuid="h44bfb5fbg7283ge9e1ga520g223f8d74c6a9" version="1">Necromancer</content>
