@@ -7580,6 +7580,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="HUNTERSPREY_COLOSSUSSLAYER" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5d9a446dg2ff8g3030g019ag9d39f2044e8a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he100fd97g8c61g7accgc8ecg6628146a240d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,MainWeaponDamageType)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ColossusSlayer" />
         <field name="Passives" type="StringTableFieldDefinition" value="ColossusSlayer;" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -12414,6 +12415,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="STRIKE_OF_THE_GIANTS_CLOUD" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha3ae348eg0eb0g144cg4147g0d99a9d60eaa" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h897e40eeg7135g851fg8143gc3ccb162516c" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Thunder)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Thunder" />
         <field name="StackId" type="StringTableFieldDefinition" value="STRIKE_OF_THE_GIANTS" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_StrikeOfTheGiants_Cloud);" />
@@ -12429,6 +12431,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e0d20e0a-4cc3-4284-8230-163d2e67ae84" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd57fc661gd11agdaeag80d1ge7f1fc524ee5" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he2204be6g0a15geff5g35a0g192affa407ee" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d10,Fire)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_StrikeOfTheGiants_Fire);" />
       </fields>
@@ -12440,6 +12443,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e0d20e0a-4cc3-4284-8230-163d2e67ae84" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he9c0fbd7g6680g65c1g973fg1031294fcd3f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e59eedfg13a0g2433g31c1g969915edce8d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Cold)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Cold" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_StrikeOfTheGiants_Frost);" />
       </fields>
@@ -12451,6 +12455,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e0d20e0a-4cc3-4284-8230-163d2e67ae84" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h60ea299agcbc0g21cegd4dcga4a4509e0828" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h05ec7064ga697gdc69g5003g66e24f5cb04b" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Force)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_TripAttack_Melee" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_StrikeOfTheGiants_Hill);" />
       </fields>
@@ -12462,6 +12467,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e0d20e0a-4cc3-4284-8230-163d2e67ae84" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc955fd61gc8e2gec82g251fg48d84fadc931" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc3df7c24g824ag06f4ge664geda5e80d2018" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Force)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_PushingAttack_Melee" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_StrikeOfTheGiants_Stone);" />
       </fields>
@@ -12473,6 +12479,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e0d20e0a-4cc3-4284-8230-163d2e67ae84" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7455f49fg84f2g871bg57f4ga9d24bf08115" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf81d0d50g810egc762gf156g017583f5ab0c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Lightning)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Lightning" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_StrikeOfTheGiants_Storm);" />
       </fields>

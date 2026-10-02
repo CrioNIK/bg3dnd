@@ -3079,6 +3079,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Land_3_LandsAid" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h773e9cb8g4f4agad4egf609gdb85666d9d37" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d366d57g2abcg334egec99gd574e5abbc31" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Necrotic)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Druid_LandsAid" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4303" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />

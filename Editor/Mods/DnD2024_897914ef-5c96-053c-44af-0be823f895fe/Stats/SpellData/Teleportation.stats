@@ -136,6 +136,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Archfey_DreadfulStep" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h30f638b6g1b28g3f1fgb8cbge2ee1097d9ae" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6153da66gbfbeg1d0dgec8agfbc6490c04f5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10,Psychic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d10,Psychic)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="752219e2-351d-46ea-9448-3a714b3d3acc" />

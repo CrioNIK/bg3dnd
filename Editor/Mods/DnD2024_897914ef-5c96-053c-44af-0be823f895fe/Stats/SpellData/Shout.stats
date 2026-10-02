@@ -1362,6 +1362,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_TideOfDarkness" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc53cf966gb23fg281eg72e3g7fee38b6dede" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h029cddf2gf1b9g86a2g45e7g18bf046b40f1" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,Psychic)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(TIDE_OF_DARKNESS,100,1);" />
@@ -1670,7 +1671,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Thunderclap" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8d4a4bb1g65b7g5025g4514gdfa80f1282ba" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h853f3b07gf693g964eg9f97g97a2cfda50ef" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(2)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(2);DealDamage(LevelMapValue(D6Cantrip),Thunder)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D6Cantrip),Thunder);" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Thunder_Gen_L1to3" />
@@ -1703,7 +1704,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_WordOfRadiance" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd085b0deg3cc9g0858gdf14geef98a4164c3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbb7ccd06g2737gdcf2gc167g21f32c9615fb" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(2)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(2);DealDamage(LevelMapValue(D6Cantrip),Radiant)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_RadianceOfTheDawn" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_RadianceOfTheDawn" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
@@ -1801,6 +1802,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_CacophonicShield" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h189c7c23gc92fg05ccg593egcb14bf67243c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf67f7f88ga42fgb7c6g3526gd17410ea4287" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d6,Thunder)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d6,Thunder);" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
         <field name="TooltipOnSave" type="StringTableFieldDefinition" value="f762efbb-f8f1-493e-b248-2de1567b4bd2" />
@@ -1932,6 +1934,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_HolyWeapon" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h44a07085gd021gf937gb88ag37126b6f03c7" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0c4b99c4g1ad3gb7f0g11fbgb55e06b4ac67" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Radiant)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Radiant,Magical);" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BLIND,100,10);" />
@@ -2142,6 +2145,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_HungeringBlade" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcee9d863gb64eg2f43gf305g608bc4aa5061" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0f617ea9g5fc5gff42gae8ag41a6861d59c0" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(SpellCastingAbilityModifier,Necrotic)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HUNGERING_BLADE,100,10);" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_BindPactWeapon" />
@@ -2320,7 +2324,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enervation" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h27836587g410fg18dbg70f1g00b3cfa0c1c9" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h200d6e32g6f1cge25cg2d27g8bab65f46465" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4d8" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Necrotic)" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_ArmsOfHadar_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Loop_Damage_Necrotic_ArmsOfHadar_L1to3" />
@@ -2348,7 +2352,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Enervation_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="442372a8-9877-4cea-a4d1-1f4225db58ac" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="IF(not HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(5d8,Necrotic,Magical);IF(HasPassive('GreatOldOne_3_PsychicSpells',context.Source)):DealDamage(5d8,Psychic,Magical);RegainHitPoints(SELF,(DamageDone)/2);" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="5d8" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Necrotic)" />
         <field name="FollowUpOriginalSpell" type="StringTableFieldDefinition" value="Target_Enervation_6" />
       </fields>
@@ -2662,7 +2666,7 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="859bdcb8-c4dc-487d-8e44-452b1be1c034" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="32d71967-b080-4ac9-a1cf-c2829839bd90" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Fire" enumeration_type_name="Damage Type" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6);Distance(1.5)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6);Distance(1.5);DealDamage(1d6,Fire)" />
         <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
         <field name="SpellActionType" type="EnumerationTableFieldDefinition" value="Dash" enumeration_type_name="SpellActionType" version="1" />
         <field name="SpellCategory" type="EnumerationListTableFieldDefinition" value="SC_Dash" enumeration_type_name="SpellCategoryFlags" version="1" />
@@ -2679,7 +2683,7 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4;" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Shout_AshardalonsStride" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(7.5);Distance(1.5)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(7.5);Distance(1.5);DealDamage(2d6,Fire)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2691,7 +2695,7 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d6,Fire)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ASHARDALONS_STRIDE_AURA_5,100,10);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5;" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9);Distance(1.5)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9);Distance(1.5);DealDamage(3d6,Fire)" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
       </fields>
     </stat_object>
@@ -2704,7 +2708,7 @@
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6,Fire)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ASHARDALONS_STRIDE_AURA_6,100,10);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6;" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(10.5);Distance(1.5)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(10.5);Distance(1.5);DealDamage(4d6,Fire)" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
@@ -3411,6 +3415,7 @@
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((2d10+ClassLevel(Cleric))/2,Radiant,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d10+ClassLevel(Cleric),Radiant)" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6fbb1933ge0e0gc26ag9144gcde944d43651" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10+ClassLevel(Cleric),Radiant)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4374,6 +4379,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(KENSEIS_SHOT,100,1);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9a555b37g7fb4g96dcgf889g2b4ef90a9487" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h37c2f505g74b4gdbc0gdcaagf075f1ac1bdb" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,MainRangedWeaponDamageType)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(KENSEIS_SHOT,100,1);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
@@ -4614,6 +4620,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfHate" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h109e64a1gcfdeg5849g6011g2589d481fc32" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4f9f38d6gda7fg1e2egc9a1gab2a9e20fa30" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ClassLevel(Paladin)/2,Psychic)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(AURA_OF_CONQUEST,100,-1);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Paladin_AuraOfHate_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Paladin_AuraOfHate_L1to3" />
@@ -4715,6 +4722,7 @@
         <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(HUNTERSPREY_COLOSSUSSLAYER,100,-1);RemoveStatus(HUNTERSPREY_HORDEBREAKER);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he100fd97g8c61g7accgc8ecg6628146a240d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,MainWeaponDamageType)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HUNTERSPREY_COLOSSUSSLAYER,100,-1);" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5d9a446dg2ff8g3030g019ag9d39f2044e8a" version="1" />
@@ -6125,6 +6133,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ARMOR_1,100,-1);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h268b26f7gae12g5da6gc6cbgfc918bbeed59" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he2a10ea7ge923ge756g16a5gec995e896057" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d10,Force)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellFlagList" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Dreadnaught" />
       </fields>
@@ -6137,6 +6146,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ARMOR_2,100,-1);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9d4fd894g81e1g69a7gb31ag685f124bd58d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h59b9ca7dgb3a7g13d9gaca8g5cb0cc11512f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Thunder)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Guardian" />
       </fields>
     </stat_object>
@@ -6148,6 +6158,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ARMOR_3,100,-1);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9a58f47cgb03cg53ddg2bdfgba12dcd9a2e5" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9d97ea6eg0369g70aag3edegb0ac7465f9b3" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Lightning)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Infiltrator" />
       </fields>
     </stat_object>
@@ -6209,6 +6220,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Mutations_AcidBlood" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2f0d1be4g0c48gc8dag5d46gb63613816d4b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcae93600g722fg2de2g2f0fg60184d7ba2f0" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Acid)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Acid" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(ACID_BLOOD,100,10);IF(HasPassive('DevourerGuild_7_SynchronizedResponse',context.Source)):ApplyStatus(SYNCHRONIZED_RESPONSE,100,10);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
@@ -6411,6 +6423,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Mutations_Might" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd01b6b25g66b1g66d5gcfaag271f0d12728a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h95627a66gf92eg2d99g31e2ge9a622a94222" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,MainWeaponDamageType)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Slam" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(MIGHT,100,10);IF(HasPassive('DevourerGuild_7_SynchronizedResponse',context.Source)):ApplyStatus(SYNCHRONIZED_RESPONSE,100,10);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
@@ -6999,6 +7012,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Thunder" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha3ae348eg0eb0g144cg4147g0d99a9d60eaa" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h897e40eeg7135g851fg8143gc3ccb162516c" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Thunder)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7012,6 +7026,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd57fc661gd11agdaeag80d1ge7f1fc524ee5" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he2204be6g0a15geff5g35a0g192affa407ee" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d10,Fire)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
@@ -7024,6 +7039,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Cold" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he9c0fbd7g6680g65c1g973fg1031294fcd3f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0e59eedfg13a0g2433g31c1g969915edce8d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Cold)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7035,6 +7051,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_TripAttack_Melee" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h60ea299agcbc0g21cegd4dcga4a4509e0828" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h05ec7064ga697gdc69g5003g66e24f5cb04b" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Force)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7046,6 +7063,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_PushingAttack_Melee" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc955fd61gc8e2gec82g251fg48d84fadc931" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc3df7c24g824ag06f4ge664geda5e80d2018" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Force)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7057,6 +7075,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Lightning" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7455f49fg84f2g871bg57f4ga9d24bf08115" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf81d0d50g810egc762gf156g017583f5ab0c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Lightning)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -7072,6 +7091,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h01d6d533g9bc4g0cdegde2fg1d200535c4e7" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hed9510fdg4a6dge76dgaa9bg643066cb6cf5" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8+ProficiencyBonus,Fire)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h29832775g4de3gb8f5ge5d0g6d6aabe5c831" version="1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(Fire,1d8+ProficiencyBonus);" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
@@ -7280,6 +7300,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f49f80egbab5g00d8gc75fg71bb7b054fc6" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h947e63dfge856g93fdge133g7915f597706a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ProficiencyBonus,Radiant)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INNER_RADIANCE,100,10);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
