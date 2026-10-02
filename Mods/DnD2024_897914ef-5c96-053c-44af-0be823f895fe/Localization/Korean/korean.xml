@@ -1929,7 +1929,7 @@
   <content contentuid="h65ae228fgd955g4d7fg5f83g914fe7e83123" version="1">3레벨: 염동 주문</content>
   <content contentuid="hd2d76fb0g487cg3ab3g3908g9f58ed8e7217" version="1">소서러 레벨이 염동 주문 표에 명시된 특정 레벨에 도달하면, 항상 목록의 주문이 준비된 상태가 됩니다.
 
-소서러 레벨 3에는 하다르의 팔, 평정심, 생각 탐지, 불협화음의 속삭임, 정신 쐐기가 준비됩니다. 레벨 5에는 하다르의 굶주림이 추가로 준비됩니다. 레벨 7에는 에바드의 검은 촉수를 얻습니다. 레벨 9에는 염력을 얻으며, 이 모든 주문은 항상 준비된 상태입니다.</content>
+소서러 레벨 3에는 하다르의 팔, 평정심, 생각 탐지, 불협화음의 속삭임, 정신 쐐기가 준비됩니다. 레벨 5에는 하다르의 굶주림이 추가로 준비됩니다. 레벨 7에는 에바드의 검은 촉수와 이형체 소환을 얻습니다. 레벨 9에는 염력을 얻으며, 이 모든 주문은 항상 준비된 상태입니다.</content>
   <content contentuid="hc47eeb0bg59b3g6c84g97bbg6e37b0afac07" version="1">6레벨: 염동 마법</content>
   <content contentuid="h50cb5cf3g3c73g27b1gaca7g9a573996ab32" version="1">6레벨: 정신 방어</content>
   <content contentuid="h9cc59e90gba0dg93e0gfef2g7374298fdf05" version="1">정신 피해에 저항을 얻습니다. 또한 매혹과 겁에 질림 상태에 면역이 됩니다.</content>
@@ -6960,4 +6960,16 @@
   <content contentuid="h599ec81ag2a69g41bdg9eaeg8828326642e6" version="1">자연 무기: 타격</content>
   <content contentuid="hc5848f45g1e52g4f63g9144g19d3c751ed14" version="1">자기 변환 두루마리</content>
   <content contentuid="hfb7dc972g0597g4203ga7f9gf00e10f145f4" version="1">사용 가능한 직업: 아티피서, 소서러, 위저드</content>
+  <content contentuid="he6c000fegdd64g47d9g9f97g984c8006d491" version="1">이형체 소환</content>
+  <content contentuid="h22ccdab8gd95dg4d9cgb655ga6e4c50127cd" version="1">이형체의 영혼을 지능 포식자, 스펙테이터, 마인드 플레이어 중 하나의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 이형체 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다.</content>
+  <content contentuid="h8d6eb7bag3282g4bd6g87degafa5f5bfcaff" version="1">이형체 소환: 지능 포식자</content>
+  <content contentuid="h27df183fg9839g4990ga588gf09e9740de46" version="1">이형체의 영혼을 지능 포식자의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 이형체 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다.</content>
+  <content contentuid="ha80c9510gdd8fg42ccg8d7bge839f3051f0b" version="1">이형체 소환: 스펙테이터</content>
+  <content contentuid="h8f21daf3g3db8g4376g83dagfd787a17b785" version="1">이형체의 영혼을 스펙테이터의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 이형체 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다.</content>
+  <content contentuid="h29c5989agb2f1g43ecg9b9fgbe3b6783ee9e" version="1">이형체 소환: 마인드 플레이어</content>
+  <content contentuid="ha92a3903g1d3bg4d58gad15g5f2f03019174" version="1">이형체의 영혼을 마인드 플레이어의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 이형체 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다.</content>
+  <content contentuid="hf7cc3cf3g8ea8g4731g9be0g94709120730c" version="1">속삭이는 오라</content>
+  <content contentuid="h66343423g5a96g449fgbb18gc9de47308bc3" version="1">자신의 턴이 시작될 때 행동불능 상태가 아니면 염동 에너지를 방출합니다. [1] 이내의 각 적은 소환자의 주문 내성 난이도에 대한 지혜 내성 굴림을 하며, 실패하면 [2]를 입습니다.</content>
+  <content contentuid="hcc5a125dg4771g49a3g9674gf553799deabf" version="1">속삭이는 오라</content>
+  <content contentuid="h45f0c7e6geb5fg4a0egbd9fg51b53385167f" version="1">이형체 영혼의 턴이 시작될 때 그 영혼이 행동불능 상태가 아니면 지혜 내성 굴림을 하며, 실패하면 [1]를 입습니다.</content>
 </contentList>

@@ -2162,6 +2162,47 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="932ebb16-44e8-4923-b9dd-b93efcd45b25" />
+        <field name="Name" type="NameTableFieldDefinition" value="SUMMON_ABERRANT_MINDFLAYER_WHISPERING_AURA" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf7cc3cf3g8ea8g4731g9be0g94709120730c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h66343423g5a96g449fgbb18gc9de47308bc3" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(2d6,Psychic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_DissonantWhispers" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SUMMON_ABERRANT_MINDFLAYER_WHISPERING_AURA" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="2" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(SUMMON_ABERRANT_MINDFLAYER_WHISPERING_AURA_DAMAGE,100,-1)" />
+        <field name="AuraFlags" type="EnumerationListTableFieldDefinition" value="ShouldCheckLOS" enumeration_type_name="AuraFlags" version="1" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Wisdom" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d6,Psychic)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7b047e56-d37e-4893-8b0f-ccb9815df8a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="SUMMON_ABERRANT_MINDFLAYER_WHISPERING_AURA_DAMAGE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcc5a125dg4771g49a3g9674gf553799deabf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h45f0c7e6geb5fg4a0egbd9fg51b53385167f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Psychic)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_DissonantWhispers" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SUMMON_ABERRANT_MINDFLAYER_WHISPERING_AURA_DAMAGE" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Wisdom" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(2d6,Psychic)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Wisdom,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('SG_Incapacitated',context.Source) and (not HasStatus('SUMMON_ABERRANT_MINDFLAYER_WHISPERING_AURA_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'SUMMON_ABERRANT_MINDFLAYER_WHISPERING_AURA_DAMAGE_RECEIVED', 0.1))):DealDamage(2d6,Psychic,Magical);ApplyStatus(SUMMON_ABERRANT_MINDFLAYER_WHISPERING_AURA_DAMAGE_RECEIVED,100,1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="50d6376b-c6d5-4095-abd4-ecfce9f36258" />
+        <field name="Name" type="NameTableFieldDefinition" value="SUMMON_ABERRANT_MINDFLAYER_WHISPERING_AURA_DAMAGE_RECEIVED" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SUMMON_ABERRANT_MINDFLAYER_WHISPERING_AURA_DAMAGE_RECEIVED" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e3194911-53b4-4b28-ae68-213ca23a9912" />
         <field name="Name" type="NameTableFieldDefinition" value="CLOUDKILL" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f1a83df1-2ba0-4e85-be73-00f551f1ec9c" />

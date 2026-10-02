@@ -1929,7 +1929,7 @@ Perhaps a psychic wind from the Astral Plane carried psionic energy to you, or y
   <content contentuid="h65ae228fgd955g4d7fg5f83g914fe7e83123" version="1">Level 3: Psionic Spells</content>
   <content contentuid="hd2d76fb0g487cg3ab3g3908g9f58ed8e7217" version="1">When you reach certain Sorcerer levels specified in the Psionic Spells table, you always have the listed spells prepared.
 
-At Sorcerer level 3, you have Arms of Hadar, Calm Emotions, Detect Thoughts, Dissonant Whispers, and Mind Sliver prepared. At level 5, you additionally have Hunger of Hadar prepared. At level 7, you gain Evard’s Black Tentacles. At level 9, you gain Telekinesis, all of which are always prepared.</content>
+At Sorcerer level 3, you have Arms of Hadar, Calm Emotions, Detect Thoughts, Dissonant Whispers, and Mind Sliver prepared. At level 5, you additionally have Hunger of Hadar prepared. At level 7, you gain Evard’s Black Tentacles and Summon Aberration. At level 9, you gain Telekinesis, all of which are always prepared.</content>
   <content contentuid="hc47eeb0bg59b3g6c84g97bbg6e37b0afac07" version="1">Level 6: Psionic Sorcery</content>
   <content contentuid="h50cb5cf3g3c73g27b1gaca7g9a573996ab32" version="1">Level 6: Psychic Defenses</content>
   <content contentuid="h9cc59e90gba0dg93e0gfef2g7374298fdf05" version="1">You have Resistance to Psychic damage. Moreover, you are immune to the Charmed and Frightened conditions.</content>
@@ -7022,4 +7022,17 @@ Some Transmuters are tinkerers and pranksters. Others seek the power to make and
   <content contentuid="h7e83f37bgee38gec21ga5d2gcf515a7579b4" version="1">Potent Stone</content>
   <content contentuid="h29de31f3g6e31g1c32gb243ga6863b642381" version="1">Transmuter's Stone: Poison Resistance</content>
   <content contentuid="h78931074gd366gca5egbf41gd4fedf72d4dc" version="1">Affected entity has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Poison damage, as long as it carries the transmuter's stone.</content>
+  <content contentuid="h180fc62dg8276g75ecge1aagc3ddbdb4d61f" version="2">Intellect Devourer</content>
+  <content contentuid="he6c000fegdd64g47d9g9f97g984c8006d491" version="1">Summon Aberration</content>
+  <content contentuid="h22ccdab8gd95dg4d9cgb655ga6e4c50127cd" version="1">You call forth an aberrant spirit in the form of an intellect devourer, a spectator, or a mind flayer. It appears in an unoccupied space you can see within range and uses the Aberrant Spirit stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</content>
+  <content contentuid="h8d6eb7bag3282g4bd6g87degafa5f5bfcaff" version="1">Summon Aberration: Intellect Devourer</content>
+  <content contentuid="h27df183fg9839g4990ga588gf09e9740de46" version="1">You call forth an aberrant spirit in the form of an intellect devourer. It appears in an unoccupied space you can see within range and uses the Aberrant Spirit stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</content>
+  <content contentuid="ha80c9510gdd8fg42ccg8d7bge839f3051f0b" version="1">Summon Aberration: Spectator</content>
+  <content contentuid="h8f21daf3g3db8g4376g83dagfd787a17b785" version="1">You call forth an aberrant spirit in the form of a spectator. It appears in an unoccupied space you can see within range and uses the Aberrant Spirit stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</content>
+  <content contentuid="h29c5989agb2f1g43ecg9b9fgbe3b6783ee9e" version="1">Summon Aberration: Mind Flayer</content>
+  <content contentuid="ha92a3903g1d3bg4d58gad15g5f2f03019174" version="1">You call forth an aberrant spirit in the form of a mind flayer. It appears in an unoccupied space you can see within range and uses the Aberrant Spirit stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</content>
+  <content contentuid="hf7cc3cf3g8ea8g4731g9be0g94709120730c" version="1">Whispering Aura</content>
+  <content contentuid="h66343423g5a96g449fgbb18gc9de47308bc3" version="1">At the start of each of its turns, if it isn't Incapacitated, this spirit emits psionic energy. Each enemy within [1] makes a Wisdom saving throw against its summoner's spell save DC, taking [2] on a failed save.</content>
+  <content contentuid="hcc5a125dg4771g49a3g9674gf553799deabf" version="1">Whispering Aura</content>
+  <content contentuid="h45f0c7e6geb5fg4a0egbd9fg51b53385167f" version="1">At the start of each of the aberrant spirit's turns, if the spirit isn't Incapacitated, this creature makes a Wisdom saving throw, taking [1] on a failed save.</content>
 </contentList>

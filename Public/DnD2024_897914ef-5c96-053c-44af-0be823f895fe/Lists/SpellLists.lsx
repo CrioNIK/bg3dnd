@@ -1217,7 +1217,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Abberant Level 7"/>
-                    <attribute id="Spells" type="LSString" value="Target_BlackTentacles"/>
+                    <attribute id="Spells" type="LSString" value="Target_BlackTentacles;Target_SummonAberration"/>
                     <attribute id="UUID" type="guid" value="55f6770b-22bd-4482-8636-666ae56fa3e1"/>
                 </node>
                 <node id="SpellList">
@@ -1398,13 +1398,13 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 4"/>
-                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Teleportation_DimensionDoor;Shout_FireDance;Zone_MurderOfCrows"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Teleportation_DimensionDoor;Shout_FireDance;Zone_MurderOfCrows;Target_SummonAberration"/>
                     <attribute id="UUID" type="guid" value="94fb74d6-c832-40f1-9e08-159ce46091a1"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="648310a4-d9b7-4cf5-b6a0-51bd957a798f"/>
                     <attribute id="Name" type="FixedString" value="5.5 Warlock SLevel 4 to 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Teleportation_DimensionDoor;Shout_FireDance;Zone_MurderOfCrows"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Target_CharmMonster;Teleportation_DimensionDoor;Shout_FireDance;Zone_MurderOfCrows;Target_SummonAberration"/>
                     <attribute id="UUID" type="guid" value="e5594691-469f-4559-a42b-55010df99eb1"/>
                 </node>
                 <node id="SpellList">
@@ -1536,7 +1536,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock The Great Old One SLevel 4"/>
-                    <attribute id="Spells" type="LSString" value="Target_Confusion;Target_DeathWard"/>
+                    <attribute id="Spells" type="LSString" value="Target_Confusion;Target_SummonAberration"/>
                     <attribute id="UUID" type="guid" value="b64e527e-1f97-4125-84f7-78376ab1440b"/>
                 </node>
                 <node id="SpellList">
@@ -1654,25 +1654,25 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 4"/>
-                    <attribute id="Spells" type="LSString" value="Target_ArcaneEye;Target_Banishment;Target_BlackTentacles;Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Shout_FireDance;Shout_FireShield;Target_IceStorm;Target_Invisibility_Greater;Zone_MurderOfCrows;Target_PhantasmalKiller;Target_Polymorph;Target_ResilientSphere;Target_SpellfireStorm;Target_Stoneskin;Projectile_VitriolicSphere;Wall_WallOfFire"/>
+                    <attribute id="Spells" type="LSString" value="Target_ArcaneEye;Target_Banishment;Target_BlackTentacles;Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Shout_FireDance;Shout_FireShield;Target_IceStorm;Target_Invisibility_Greater;Zone_MurderOfCrows;Target_PhantasmalKiller;Target_Polymorph;Target_ResilientSphere;Target_SpellfireStorm;Target_Stoneskin;Target_SummonAberration;Projectile_VitriolicSphere;Wall_WallOfFire"/>
                     <attribute id="UUID" type="guid" value="820b1220-0385-426d-ae15-458dc8a6f5c0"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="858d4322-9e9f-4aa4-aada-9c68835dc6fe"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 4 to Bard"/>
-                    <attribute id="Spells" type="LSString" value="Target_ArcaneEye;Target_Banishment;Target_BlackTentacles;Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Shout_FireDance;Shout_FireShield;Target_IceStorm;Target_Invisibility_Greater;Zone_MurderOfCrows;Target_PhantasmalKiller;Target_Polymorph;Target_ResilientSphere;Target_SpellfireStorm;Target_Stoneskin;Projectile_VitriolicSphere;Wall_WallOfFire"/>
+                    <attribute id="Spells" type="LSString" value="Target_ArcaneEye;Target_Banishment;Target_BlackTentacles;Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Shout_FireDance;Shout_FireShield;Target_IceStorm;Target_Invisibility_Greater;Zone_MurderOfCrows;Target_PhantasmalKiller;Target_Polymorph;Target_ResilientSphere;Target_SpellfireStorm;Target_Stoneskin;Target_SummonAberration;Projectile_VitriolicSphere;Wall_WallOfFire"/>
                     <attribute id="UUID" type="guid" value="820db7f4-19c6-4b4d-b90f-70ee030ad8aa"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="bc917f22-7f71-4a25-9a77-7d2f91a96a65"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 4 to 6"/>
-                    <attribute id="Spells" type="LSString" value="Target_ArcaneEye;Target_Banishment;Target_BlackTentacles;Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Shout_FireDance;Shout_FireShield;Target_IceStorm;Target_Invisibility_Greater;Zone_MurderOfCrows;Target_PhantasmalKiller;Target_Polymorph;Target_ResilientSphere;Target_SpellfireStorm;Target_Stoneskin;Projectile_VitriolicSphere;Wall_WallOfFire"/>
+                    <attribute id="Spells" type="LSString" value="Target_ArcaneEye;Target_Banishment;Target_BlackTentacles;Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Shout_FireDance;Shout_FireShield;Target_IceStorm;Target_Invisibility_Greater;Zone_MurderOfCrows;Target_PhantasmalKiller;Target_Polymorph;Target_ResilientSphere;Target_SpellfireStorm;Target_Stoneskin;Target_SummonAberration;Projectile_VitriolicSphere;Wall_WallOfFire"/>
                     <attribute id="UUID" type="guid" value="43f7a9d3-6060-4800-a991-d2bf453d046b"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="MergedInto" type="guid" value="f781a25e-d288-43b4-bf5d-3d8d98846687"/>
                     <attribute id="Name" type="FixedString" value="5.5 Wizard SLevel 4 to 5"/>
-                    <attribute id="Spells" type="LSString" value="Target_ArcaneEye;Target_Banishment;Target_BlackTentacles;Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Shout_FireDance;Shout_FireShield;Target_IceStorm;Target_Invisibility_Greater;Zone_MurderOfCrows;Target_PhantasmalKiller;Target_Polymorph;Target_ResilientSphere;Target_SpellfireStorm;Target_Stoneskin;Projectile_VitriolicSphere;Wall_WallOfFire"/>
+                    <attribute id="Spells" type="LSString" value="Target_ArcaneEye;Target_Banishment;Target_BlackTentacles;Target_Blight;Target_CharmMonster;Target_Confusion;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Shout_FireDance;Shout_FireShield;Target_IceStorm;Target_Invisibility_Greater;Zone_MurderOfCrows;Target_PhantasmalKiller;Target_Polymorph;Target_ResilientSphere;Target_SpellfireStorm;Target_Stoneskin;Target_SummonAberration;Projectile_VitriolicSphere;Wall_WallOfFire"/>
                     <attribute id="UUID" type="guid" value="dac64a58-a4f9-4d36-a48b-3cf605d04d8a"/>
                 </node>
                 <node id="SpellList">
@@ -1840,7 +1840,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Wizard Savant Conjuration"/>
-                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Target_Cloudkill;Target_ConjureElemental_Container;Target_SteelWindStrike;Target_SummonDragon;Target_BlackTentacles;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Zone_MurderOfCrows;Target_SleetStorm;Target_StinkingCloud;Target_SummonFey;Zone_TidalWave;Target_CloudOfDaggers;Target_FlamingSphere;Target_MistyStep;Target_Web;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Shout_TideOfDarkness"/>
+                    <attribute id="Spells" type="LSString" value="Teleportation_ArcaneGate;Target_Cloudkill;Target_ConjureElemental_Container;Target_SteelWindStrike;Target_SummonDragon;Target_BlackTentacles;Target_ConjureElementals_Minor_Container;Teleportation_DimensionDoor;Zone_MurderOfCrows;Target_SummonAberration;Target_SleetStorm;Target_StinkingCloud;Target_SummonFey;Zone_TidalWave;Target_CloudOfDaggers;Target_FlamingSphere;Target_MistyStep;Target_Web;Target_FindFamiliar;Target_FogCloud;Target_Grease;Projectile_IceKnife;Shout_TideOfDarkness"/>
                     <attribute id="UUID" type="guid" value="2956b1e8-981d-4994-a30a-dfabb9d912c5"/>
                 </node>
                 <node id="SpellList">
