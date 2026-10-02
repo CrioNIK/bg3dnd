@@ -186,15 +186,6 @@ In addition, whenever you use Warding Flare, you can give the target of the trig
   <content contentuid="h9d5766b9g0e51g3888g5633gd570f3096a0f" version="1">Whenever you take the Bonus Action to create or move the illusion of your Invoke Duplicity, you can teleport, swapping places with the illusion.</content>
   <content contentuid="ha73b8276g56b2g1bdegc73bgf16610d268ab" version="1">Trickster’s Transposition</content>
   <content contentuid="h82f58797g491fg0f3ag42b4g05c22ee9679d" version="1">Whenever you take the Bonus Action to create or move the illusion of your Invoke Duplicity, you can teleport, swapping places with the illusion.</content>
-  <content contentuid="hb5220d58g095fg5ae1g7115g72d15a96ef0c" version="1">You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.
-
-Using Bardic Inspiration. As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.
-
-Once within the next hour when the creature fails a D20 Test, the creature can roll the Bardic Inspiration die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it’s rolled.
-
-Number of Uses. You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
-
-At Higher Levels. Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.</content>
   <content contentuid="h63129871gfb37gc314g1fdfg9b10303bcc26" version="1">Level 1: Bardic Inspiration</content>
   <content contentuid="h2810e8cag53f2gddb2gb1bbg7d5f6848ec0b" version="1">You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.
 
@@ -1602,7 +1593,6 @@ On a failed save, the target has Disadvantage on Strength-based D20 Tests for th
   <content contentuid="h138ad957g4e4cgf396gebd4g8ad15a605ba6" version="1">Turn a creature's flesh hard as stone. It takes only &lt;LSTag Tooltip="Resistant"&gt;half the damage&lt;/LSTag&gt; of all Bludgeoning, Piercing, and Slashing damage.</content>
   <content contentuid="h9bcb3486gd911g3c9fgace0g779c9bda1aa7" version="1">Has &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Bludgeoning, Piercing, and Slashing damage.</content>
   <content contentuid="h017b9fabgf86fg784ag16d2g0ce3617ead28" version="1">Snilloc's Snowball Swarm</content>
-  <content contentuid="h1d1a9875g453ag1a74g99c0g7c41137717d6" version="1">You throw [1] snowballs at a point you choose within range. Each snowball affects creatures in a 5-foot-radius sphere centered on that point. Each creature in the area must make a Dexterity saving throw, taking [2] per snowball on a failed save, or half as much damage on a successful one.</content>
   <content contentuid="hd9de5da7g002ag9970g205agdaf99dc1ddd9" version="1">Snilloc's Snowball Swarm</content>
   <content contentuid="hc1cce658gb841g21b6gb82bgc5fddc780327" version="1">You throw [1] snowballs at a point you choose within range. Each snowball affects creatures in a [3] radius sphere centered on that point. Each creature in the area must make a Dexterity saving throw, taking [2] per snowball on a failed save, or half as much damage on a successful one.</content>
   <content contentuid="h2bbc0ae7ged33gb46fg82a1ge5f25d92f4a0" version="1">Vitriolic Sphere</content>
@@ -3199,7 +3189,6 @@ Inured to Magic. When you fail a saving throw against a spell or magical effect,
   <content contentuid="h5ef73b58ga233g8fccg4389gcd443dd5c7d7" version="1">Inured to Magic</content>
   <content contentuid="hd771ba94g1544ge8bage691g562f72e6c038" version="1">When you fail a saving throw against a spell or magical effect, you can take a Reaction to roll 1d6 and add it to the roll, potentially turning the failure into a success.</content>
   <content contentuid="h8b3f5c04g14b9gb9e9ga359g59e1d9f1e059" version="1">Perforating Shot</content>
-  <content contentuid="h3ce77d91geeefg513cga446gb56d92a559cd" version="1">As your attack hits or misses the target, the weapon or ammunition transforms into a 5-foot-wide Line of magical energy that extends out to the weapon’s normal range. The Line includes the attack’s original target. Each creature within the Line makes a Dexterity saving throw, taking Force damage equal to the weapon’s normal damage on a failed save or half as much damage on a successful one.</content>
   <content contentuid="hcf85f5ddg214egc39bga0e8g7ee910e3ffec" version="1">Level 3: Lay Down the Law</content>
   <content contentuid="h8bee263cg9f25gd0b6gbdeag2013628793ec" version="1">You can take a Reaction when an ally you can see within [1] of you is hit by an attack. Expend one Risk Die to make a ranged weapon attack against the attacker. On use, the ally gains Temporary Hit Points equal to the number rolled on the Risk Die.</content>
   <content contentuid="h2139a63fg2249g7d98g6477g5d54183f38fa" version="1">Level 3: Steely-Eyed</content>
@@ -3465,17 +3454,7 @@ Hesitation Is Failure. Though I usually rely on agents, when the opportunity pre
   <content contentuid="h5b1941eeg9c53g0d48g2159g640b7817db72" version="2">Level 7: Hell’s Assassin</content>
   <content contentuid="h0405792eg3f88g4dbfg0b92gfcb573fe9525" version="3">Whenever you roll a 1 or 2 on a die to determine the damage of your weapon attacks against interdicted creatures, you can reroll the die.</content>
   <content contentuid="h07d4538fg06e1g87c9geff7gba8b3b97a65f" version="1">Umbral Killer</content>
-  <content contentuid="hf4eda0d1g9d77gcfb5g49f3g7e6523196336" version="1">Shadows are your companion, aiding you in your exploits. You gain the following benefits:
-
-You gain darkvision out to 60 feet. If you already have darkvision, its range increases by 60 feet.
-Your movement speed increases by 10 feet.
-You have advantage on Dexterity (&lt;LSTag Type="Skills" Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt;) checks made to hide. Whenever you make a Dexterity saving throw to take only half damage from an effect, you instead take no damage if you succeed on the saving throw, and half damage if you fail.</content>
   <content contentuid="h5265c616g7dacgad00gefc6ge34e7ec6e7f4" version="1">Umbral Killer</content>
-  <content contentuid="h9b666f81g3924gf39eg6868gd20519f6b190" version="1">Shadows are your companion, aiding you in your exploits. You gain the following benefits:
-
-You gain darkvision out to 60 feet. If you already have darkvision, its range increases by 60 feet.
-Your movement speed increases by 10 feet.
-You have advantage on Dexterity (&lt;LSTag Type="Skills" Tooltip="Stealth"&gt;Stealth&lt;/LSTag&gt;) checks made to hide. Whenever you make a Dexterity saving throw to take only half damage from an effect, you instead take no damage if you succeed on the saving throw, and half damage if you fail.</content>
   <content contentuid="h59478469g65f2gdc36g0515g15430765aa77" version="2">Level 11: Umbral Killer</content>
   <content contentuid="hecbd9ffcg2be8gbb16g7102g34164bd0d262" version="2">Shadows are your companion, aiding you in your exploits. You gain the following benefits:
 
@@ -4313,7 +4292,6 @@ When you or an ally you can see hits the cursed target with an attack roll, you 
   <content contentuid="h5085414dg5773gb367g17ffg56d92264887f" version="1">When you or an ally you can see hits the cursed target with an attack roll, you can end the curse early (no action required) to make the attack deal an extra [1] or [2] (your choice).</content>
   <content contentuid="h7fbdaf7cgb9dfg7914g321dg56535e4ef83f" version="1">Path to the Grave (Necrotic)</content>
   <content contentuid="h5412be87gc0d6gd027g88dbg46cccbb5f405" version="1">Sentinel at Death’s Door</content>
-  <content contentuid="h34c68c98gf84cgb2fcgd117g22156d427b46" version="2">When you or a Bloodied creature you can see within 60 feet of yourself is hit with an attack roll, you can take a Reaction to halve that attack’s damage (round down).</content>
   <content contentuid="h40fa14d1gcd8ag4b04g332cg14f014f79df1" version="1">You can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest.</content>
   <content contentuid="h75e81993g498fgad1ag49c0g16b6f5c596f1" version="1">Sentinel at Death’s Door</content>
   <content contentuid="h8186b8ecg7248g13b4ge3fbga7dd7bb29966" version="1">Sentinel at Death's Door</content>
@@ -4730,7 +4708,6 @@ Scrolls of Revivify are always exempt from this restriction and can be used by a
   <content contentuid="h94c617f1g467ag18f3gf740gb5a9fc763e88" version="1">Defensive Duellist</content>
   <content contentuid="hb74c3fd9ga6a8g8c4bg0373g427c3edf70f7" version="4">Jump Down</content>
   <content contentuid="hd44fd6ddg1098gdbf5g10d4g8ca7b30d62bc" version="4">Jump Up</content>
-  <content contentuid="h73da64f6ga623g5c60g31edg8434e7996703" version="1">Jump up to 30 feet by spending 10 feet of movement.</content>
   <content contentuid="hcc124e06g703dga91ag38b5g45f683e89b78" version="1">Guided Strike (Ally)</content>
   <content contentuid="h7f5b837cg0df3g8c6eg1f50ga527560cf9e6" version="1">While this aura lasts, you can cast &lt;LSTag Type="Spell" Tooltip="Target_AuraOfVitality_Activate"&gt;Restore Vitality&lt;/LSTag&gt; to heal yourself or nearby allies.</content>
   <content contentuid="h476d4d67g76e8g6262gd36egb27efe1c901e" version="1">While this aura lasts, you can cast &lt;LSTag Type="Spell" Tooltip="Target_AuraOfVitality_Activate"&gt;Restore Vitality&lt;/LSTag&gt; to heal yourself or nearby allies.</content>
@@ -5446,9 +5423,6 @@ In addition, you have Resistance to Thunder damage, and ranged attack rolls agai
 
 In addition, you have Resistance to Thunder damage, and ranged attack rolls against you are made with Disadvantage.</content>
   <content contentuid="h96a4fdcdg6eedg4ccdgb453g193837a217e9" version="1">Ashardalon's Stride</content>
-  <content contentuid="h9b831d16g0360g4588g8217g0115979d8198" version="1">The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your Speed increases by 20 feet, and moving doesn't provoke Opportunity Attacks. Whenever you move within 5 feet of a creature, it takes Fire damage from your trail of heat. A creature can take this damage only once during a turn.
-
-At Higher Levels: your Speed increases by an additional 5 feet, and the Fire damage increases by 1d6, for each spell slot level above 3rd.</content>
   <content contentuid="h07bf103cg6fe9g48deg90e6g51cda963e2bb" version="1">Ashardalon's Stride Aura</content>
   <content contentuid="h015e6052gbb2eg4bc4g8148gac1a0bbffbf1" version="2">The billowing flames of a dragon blast from your feet, granting you explosive speed. For the duration, your Speed increases by [1], and moving doesn't provoke Opportunity Attacks. Whenever you move within [2] of a creature, it takes [3] from your trail of heat. A creature can take this damage only once during a turn.</content>
   <content contentuid="hefff3653g8439g5d57g7610g02ccec1105b6" version="1">Ashardalon's Stride</content>
@@ -5540,17 +5514,6 @@ At Higher Levels: your Speed increases by an additional 5 feet, and the Fire dam
   <content contentuid="h3d58952cg99d7gd4e9g6ba3gf7ba2d2ccd6e" version="1">Dragon's Breath</content>
   <content contentuid="hab751f1dg6ccdg30c4g0159g862e61032821" version="1">Dragon's Breath</content>
   <content contentuid="ha1e2ad32g3698gf83fg3528g8d45c9c1bd0e" version="1">Elemental Exhalation</content>
-  <content contentuid="h85c7508bg337bg1507gd4ebg434eb4cc892b" version="1">Air. The damage type is Thunder. Each creature that fails the saving throw is pushed 10 feet away from you.
-
-Coldfire. The damage type is Cold. Each creature that fails the saving throw has the Frightened condition until the start of your next turn.
-
-Earth. The damage type is Bludgeoning. Each creature that fails the saving throw has its Speed reduced to 0 until the end of its next turn.
-
-Fire. The damage type is Fire. Each creature that fails the saving throw is engulfed in flames and takes Fire damage at the end of its next turn. As an action, it can extinguish fire on itself by giving itself the Prone condition and rolling on the ground. The fire also goes out if it is doused, submerged, or suffocated.
-
-Water. The damage type is Acid. Each creature that fails the saving throw has the Prone condition.
-
-Each creature within a 30-foot Cone of destructive elemental energy must make a Dexterity saving throw. On a failed save, a target takes damage of the chosen type. On a successful save, the target takes half as much damage only.</content>
   <content contentuid="hdb0aa103g9344gc10cg7143gabd5c9c363de" version="1">Elemental Exhalation</content>
   <content contentuid="h1042549ag1908gfbe0g5f54g6b7fb0d8ba00" version="2">When you cast this spell, choose one of the following effects that determine the spell’s damage type:
 
@@ -6050,7 +6013,6 @@ If a creature is frightened of you, it has Disadvantage on ability checks and at
   <content contentuid="ha7123ebbg3a7eg5a2agbb2agd275e5b96e50" version="1">College of Choreography</content>
   <content contentuid="hb4cccef8g4f09g6448g556ag2414e437228a" version="1">Bards of the College of Choreography tell stories and perform music without making a sound, choosing to instead move with Fey-like grace and magic to evade harm and inspire others. These dances originate from the Festerwood, whose radiant spores and light made for miraculous performances and deadly hazards. These Bards can be found anywhere from the local tavern to the highest levels of theater, moving crowds to tears as quickly as rebellion. At every turn, they inspire others to be brave, move, and join in.</content>
   <content contentuid="h64135e89gfb5cgda25g7b51ga9d56a7840e7" version="1">Level 3: Fast movement</content>
-  <content contentuid="h1c36f161g1bafgb626g1ae9g13be3903c9fc" version="1">Your Speed increases by 10 feet. It increases by another 5 feet when you reach Bard levels 6 (total increase of 15 feet).</content>
   <content contentuid="h646d3264gf6b6g560fg5c71g2bdcf82ed18f" version="1">Level 3: Fast movement</content>
   <content contentuid="h1577c90agd0bag445egb032g8a550e8a9aa3" version="1">Your Speed increases by [1]. It increases by another [2] when you reach Bard levels 6 (total increase of [3]).</content>
   <content contentuid="he6ec7f15ga89dg3c20g36ccg1213e02112e6" version="1">Level 3: Inspirational Dance</content>

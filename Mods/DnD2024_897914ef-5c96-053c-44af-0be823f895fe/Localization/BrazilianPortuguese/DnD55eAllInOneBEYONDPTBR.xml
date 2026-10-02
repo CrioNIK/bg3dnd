@@ -186,15 +186,6 @@ Além disso, sempre que usar o “Warding Flare”, você pode conceder ao alvo 
 	<content contentuid="h9d5766b9g0e51g3888g5633gd570f3096a0f" version="1">Sempre que você usar a Ação Bônus para criar ou mover a ilusão do seu &quot;Invoke Duplicity&quot;, você pode se teletransportar, trocando de lugar com a ilusão.</content>
 	<content contentuid="ha73b8276g56b2g1bdegc73bgf16610d268ab" version="1">A Transposição do Malandro</content>
 	<content contentuid="h82f58797g491fg0f3ag42b4g05c22ee9679d" version="1">Sempre que você usar a Ação Bônus para criar ou mover a ilusão do seu &quot;Invoke Duplicity&quot;, você pode se teletransportar, trocando de lugar com a ilusão.</content>
-	<content contentuid="hb5220d58g095fg5ae1g7115g72d15a96ef0c" version="1">Você pode inspirar sobrenaturalmente outras pessoas por meio de palavras, música ou dança. Essa inspiração é representada pelo seu dado de Inspiração Barda, que é um d6.
-
-Usando a Inspiração Barda. Como Ação Bônus, você pode inspirar outra criatura a até 60 metros de distância de você que possa vê-lo ou ouvi-lo. Essa criatura ganha um dos seus dados de Inspiração Barda. Uma criatura pode ter apenas um dado de Inspiração Bárdica por vez.
-
-Uma vez na hora seguinte, quando a criatura falhar em um Teste de D20, ela poderá lançar o dado de Inspiração Bárdica e somar o número obtido ao d20, transformando potencialmente a falha em um sucesso. Um dado de Inspiração Bárdica é gasto quando é lançado.
-
-Número de Usos. Você pode conceder um dado de Inspiração Bárdica um número de vezes igual ao seu modificador de Carisma (mínimo de uma vez), e recupera todos os usos gastos ao concluir um Descanso Longo.
-
-Em Níveis Mais Altos. Seu dado de Inspiração Bárdica muda quando você atinge determinados níveis de Bardo, conforme mostrado na coluna “Dado Bárdico” da tabela de Características do Bardo. O dado se torna um d8 no nível 5, um d10 no nível 10 e um d12 no nível 15.</content>
 	<content contentuid="h63129871gfb37gc314g1fdfg9b10303bcc26" version="1">Nível 1: Inspiração Barda</content>
 	<content contentuid="h2810e8cag53f2gddb2gb1bbg7d5f6848ec0b" version="1">Você pode inspirar sobrenaturalmente outras pessoas por meio de palavras, música ou dança. Essa inspiração é representada pelo seu dado de Inspiração Barda, que é um d6.
 
@@ -1602,7 +1593,6 @@ Se falhar na jogada de resistência, o alvo fica com Desvantagem em testes de D2
 	<content contentuid="h138ad957g4e4cgf396gebd4g8ad15a605ba6" version="1">Transforma a carne de uma criatura em pedra. Ela passa a sofrer apenas &lt;LSTag Tooltip=&quot;Resistant&quot;&gt;metade do dano&lt;/LSTag&gt; causado por todos os tipos de dano contundente, perfurante e cortante.</content>
 	<content contentuid="h9bcb3486gd911g3c9fgace0g779c9bda1aa7" version="1">Possui &lt;LSTag Tooltip=&quot;Resistant&quot;&gt;resistência&lt;/LSTag&gt; a danos por contusão, perfuração e corte.</content>
 	<content contentuid="h017b9fabgf86fg784ag16d2g0ce3617ead28" version="1">O Enxame de Bolas de Neve do Snilloc</content>
-	<content contentuid="h1d1a9875g453ag1a74g99c0g7c41137717d6" version="1">Você lança [1] bolas de neve em um ponto de sua escolha dentro do alcance. Cada bola de neve afeta as criaturas em uma esfera de 1,5 metro de raio com centro nesse ponto. Cada criatura na área deve fazer um teste de resistência de Destreza, sofrendo [2] pontos de dano por bola de neve em caso de falha, ou metade desse dano em caso de sucesso.</content>
 	<content contentuid="hd9de5da7g002ag9970g205agdaf99dc1ddd9" version="1">O Enxame de Bolas de Neve do Snilloc</content>
 	<content contentuid="hc1cce658gb841g21b6gb82bgc5fddc780327" version="1">Você lança [1] bolas de neve em um ponto de sua escolha dentro do alcance. Cada bola de neve afeta as criaturas em uma esfera de 1,5 metro de raio com centro nesse ponto. Cada criatura na área deve fazer um teste de resistência de Destreza, sofrendo [2] pontos de dano por bola de neve em caso de falha, ou metade desse dano em caso de sucesso.</content>
 	<content contentuid="h2bbc0ae7ged33gb46fg82a1ge5f25d92f4a0" version="1">Esfera Vitríolica</content>
@@ -3197,7 +3187,6 @@ Imune à Magia. Quando você falhar em um teste de resistência contra um feiti�
 	<content contentuid="h5ef73b58ga233g8fccg4389gcd443dd5c7d7" version="1">Imune à magia</content>
 	<content contentuid="hd771ba94g1544ge8bage691g562f72e6c038" version="1">Quando você falhar em um teste de resistência contra uma magia ou efeito mágico, você pode usar uma Reação para lançar 1d6 e somá-lo ao resultado, transformando assim a falha em sucesso.</content>
 	<content contentuid="h8b3f5c04g14b9gb9e9ga359g59e1d9f1e059" version="1">Tiro perfurante</content>
-	<content contentuid="h3ce77d91geeefg513cga446gb56d92a559cd" version="1">Se o seu ataque acertar ou errar o alvo, a arma ou munição se transforma em uma linha de energia mágica com 1,5 metro de largura que se estende até o alcance normal da arma. A linha inclui o alvo original do ataque. Cada criatura dentro da linha faz um teste de resistência de Destreza, sofrendo dano de Força igual ao dano normal da arma em caso de falha no teste, ou metade desse dano em caso de sucesso.</content>
 	<content contentuid="hcf85f5ddg214egc39bga0e8g7ee910e3ffec" version="1">Nível 3: Estabelecer as regras</content>
 	<content contentuid="h8bee263cg9f25gd0b6gbdeag2013628793ec" version="1">Você pode realizar uma Reação quando um aliado que você consegue ver a até 18 metros de distância for atingido por um ataque. Gaste um Dado de Risco para realizar um ataque com arma de longo alcance contra o atacante. Ao usar essa habilidade, o aliado ganha Pontos de Vida Temporários iguais ao número obtido no Dado de Risco.</content>
 	<content contentuid="h2139a63fg2249g7d98g6477g5d54183f38fa" version="1">Nível 3: Olhar de aço</content>
@@ -3463,17 +3452,7 @@ Hesitação é fracasso. Embora eu geralmente conte com agentes, quando a oportu
 	<content contentuid="h5b1941eeg9c53g0d48g2159g640b7817db72" version="2">Nível 7: Assassino do Inferno</content>
 	<content contentuid="h0405792eg3f88g4dbfg0b92gfcb573fe9525" version="3">Sempre que você obtiver um 1 ou um 2 ao lançar um dado para determinar o dano dos ataques da sua arma contra criaturas interditas, você pode lançar o dado novamente.</content>
 	<content contentuid="h07d4538fg06e1g87c9geff7gba8b3b97a65f" version="1">Assassino das Sombras</content>
-	<content contentuid="hf4eda0d1g9d77gcfb5g49f3g7e6523196336" version="1">As sombras são suas companheiras, auxiliando-o em suas façanhas. Você ganha os seguintes benefícios:
-
-Você ganha visão no escuro até 60 metros. Se você já tiver visão no escuro, seu alcance aumenta em 60 metros.
-Sua velocidade de movimento aumenta em 10 metros.
-Você tem vantagem em testes de Destreza (&lt;LSTag Type=&quot;Skills&quot; Tooltip=&quot;Stealth&quot;&gt;Furtividade&lt;/LSTag&gt;) feitos para se esconder. Sempre que fizer um teste de resistência de Destreza para receber apenas metade do dano de um efeito, você não receberá nenhum dano se for bem-sucedido no teste, e receberá metade do dano se falhar.</content>
 	<content contentuid="h5265c616g7dacgad00gefc6ge34e7ec6e7f4" version="1">Assassino das Sombras</content>
-	<content contentuid="h9b666f81g3924gf39eg6868gd20519f6b190" version="1">As sombras são suas companheiras, auxiliando-o em suas façanhas. Você ganha os seguintes benefícios:
-
-Você ganha visão no escuro até 60 metros. Se você já tiver visão no escuro, seu alcance aumenta em 60 metros.
-Sua velocidade de movimento aumenta em 10 metros.
-Você tem vantagem em testes de Destreza (&lt;LSTag Type=&quot;Skills&quot; Tooltip=&quot;Stealth&quot;&gt;Furtividade&lt;/LSTag&gt;) feitos para se esconder. Sempre que fizer um teste de resistência de Destreza para receber apenas metade do dano de um efeito, você não receberá nenhum dano se for bem-sucedido no teste, e receberá metade do dano se falhar.</content>
 	<content contentuid="h59478469g65f2gdc36g0515g15430765aa77" version="2">Nível 11: Assassino Umbral</content>
 	<content contentuid="hecbd9ffcg2be8gbb16g7102g34164bd0d262" version="2">As sombras são suas companheiras, auxiliando-o em suas façanhas. Você ganha os seguintes benefícios:
 
@@ -4310,7 +4289,6 @@ Quando você ou um aliado que você possa ver acertar o alvo amaldiçoado com um
 	<content contentuid="h5085414dg5773gb367g17ffg56d92264887f" version="1">Quando você ou um aliado que você possa ver acertar o alvo amaldiçoado com um teste de ataque, você pode encerrar a maldição antecipadamente (sem necessidade de ação) para fazer com que o ataque cause [1] ou [2] adicional (à sua escolha).</content>
 	<content contentuid="h7fbdaf7cgb9dfg7914g321dg56535e4ef83f" version="1">Caminho para a Sepultura (Necrótico)</content>
 	<content contentuid="h5412be87gc0d6gd027g88dbg46cccbb5f405" version="1">Sentinela à beira da morte</content>
-	<content contentuid="h34c68c98gf84cgb2fcgd117g22156d427b46" version="2">Quando você ou uma criatura Ferida que você possa ver a até 18 metros de distância for atingida por um teste de ataque, você pode usar uma Reação para reduzir pela metade o dano desse ataque (arredondando para baixo).</content>
 	<content contentuid="h40fa14d1gcd8ag4b04g332cg14f014f79df1" version="1">Você pode usar esse recurso um número de vezes igual ao seu modificador de Sabedoria (no mínimo, uma vez). Você recupera todas as utilizações gastas ao concluir um Descanso Longo.</content>
 	<content contentuid="h75e81993g498fgad1ag49c0g16b6f5c596f1" version="1">Sentinela à beira da morte</content>
 	<content contentuid="h8186b8ecg7248g13b4ge3fbga7dd7bb29966" version="1">Sentinela à beira da morte</content>
@@ -4721,7 +4699,6 @@ Os pergaminhos de Revivificação estão sempre isentos dessa restrição e pode
 	<content contentuid="h94c617f1g467ag18f3gf740gb5a9fc763e88" version="1">Duelo Defensivo</content>
 	<content contentuid="hb74c3fd9ga6a8g8c4bg0373g427c3edf70f7" version="4">Ir para baixo</content>
 	<content contentuid="hd44fd6ddg1098gdbf5g10d4g8ca7b30d62bc" version="4">Ir para o topo</content>
-	<content contentuid="h73da64f6ga623g5c60g31edg8434e7996703" version="1">Salte até 30 metros gastando 10 metros de movimento.</content>
 	<content contentuid="hcc124e06g703dga91ag38b5g45f683e89b78" version="1">Ataque Guiado (Aliado)</content>
 	<content contentuid="h7f5b837cg0df3g8c6eg1f50ga527560cf9e6" version="1">Enquanto essa aura durar, você poderá lançar &lt;LSTag Type=&quot;Spell&quot; Tooltip=&quot;Target_AuraOfVitality_Activate&quot;&gt;“Restaurar Vitalidade”&lt;/LSTag&gt; para curar a si mesmo ou aos aliados próximos.</content>
 	<content contentuid="h476d4d67g76e8g6262gd36egb27efe1c901e" version="1">Enquanto essa aura durar, você poderá lançar &lt;LSTag Type=&quot;Spell&quot; Tooltip=&quot;Target_AuraOfVitality_Activate&quot;&gt;“Restaurar Vitalidade”&lt;/LSTag&gt; para curar a si mesmo ou aos aliados próximos.</content>
@@ -5436,9 +5413,6 @@ Além disso, você tem Resistência ao dano de Trovão, e os testes de ataque à
 
 Além disso, você tem Resistência a dano de Trovão, e os testes de ataque à distância contra você são feitos com Desvantagem.</content>
 	<content contentuid="h96a4fdcdg6eedg4ccdgb453g193837a217e9" version="1">O Passo de Ashardalon</content>
-	<content contentuid="h9b831d16g0360g4588g8217g0115979d8198" version="1">Chamas ondulantes de um dragão jorram de seus metros, concedendo-lhe uma velocidade explosiva. Enquanto durar o efeito, sua Velocidade aumenta em 20 metros, e mover-se não provoca Ataques de Oportunidade. Sempre que você se aproximar a menos de 5 metros de uma criatura, ela sofre dano de Fogo devido ao seu rastro de calor. Uma criatura pode sofrer esse dano apenas uma vez por turno.
-
-Em níveis mais altos: sua Velocidade aumenta em mais 5 metros, e o dano de Fogo aumenta em 1d6 para cada nível de espaço de magia acima do 3º.</content>
 	<content contentuid="h07bf103cg6fe9g48deg90e6g51cda963e2bb" version="1">Aura do Passo de Ashardalon</content>
 	<content contentuid="h015e6052gbb2eg4bc4g8148gac1a0bbffbf1" version="2">Chamas ondulantes de um dragão jorram de seus metros, concedendo-lhe uma velocidade explosiva. Enquanto durar o efeito, sua Velocidade aumenta em [1], e mover-se não provoca Ataques de Oportunidade. Sempre que você se mover para uma distância de até [2] de uma criatura, ela sofre [3] devido ao seu rastro de calor. Uma criatura pode sofrer esse dano apenas uma vez por turno.</content>
 	<content contentuid="hefff3653g8439g5d57g7610g02ccec1105b6" version="1">O Passo de Ashardalon</content>
@@ -5530,17 +5504,6 @@ Em níveis mais altos: sua Velocidade aumenta em mais 5 metros, e o dano de Fogo
 	<content contentuid="h3d58952cg99d7gd4e9g6ba3gf7ba2d2ccd6e" version="1">Sopro do Dragão</content>
 	<content contentuid="hab751f1dg6ccdg30c4g0159g862e61032821" version="1">Sopro do Dragão</content>
 	<content contentuid="ha1e2ad32g3698gf83fg3528g8d45c9c1bd0e" version="1">Exalação Elemental</content>
-	<content contentuid="h85c7508bg337bg1507gd4ebg434eb4cc892b" version="1">Ar. O tipo de dano é Trovão. Cada criatura que falhar no teste de resistência é empurrada 10 metros para longe de você.
-
-Fogo Gelado. O tipo de dano é Frio. Cada criatura que falhar no teste de resistência fica na condição “Assustada” até o início do seu próximo turno.
-
-Terra. O tipo de dano é Contundente. Cada criatura que falhar no teste de resistência tem sua Velocidade reduzida a 0 até o final de seu próximo turno.
-
-Fogo. O tipo de dano é Fogo. Cada criatura que falhar no teste de resistência é engolfada pelas chamas e sofre dano de Fogo no final de seu próximo turno. Como ação, ele pode extinguir o fogo em si mesmo ao se colocar na condição Prone e rolar no chão. O fogo também se apaga se ele for molhado, submerso ou sufocado.
-
-Água. O tipo de dano é Ácido. Cada criatura que falhar no teste de resistência fica na condição Prone.
-
-Cada criatura dentro de um cone de 30 metros de energia elemental destrutiva deve fazer um teste de resistência de Destreza. Em caso de falha no teste, o alvo sofre dano do tipo escolhido. Em caso de sucesso no teste, o alvo sofre apenas metade do dano.</content>
 	<content contentuid="hdb0aa103g9344gc10cg7143gabd5c9c363de" version="1">Exalação Elemental</content>
 	<content contentuid="h1042549ag1908gfbe0g5f54g6b7fb0d8ba00" version="2">Ao lançar está magia, escolha um dos seguintes efeitos que determinam o tipo de dano da magia:
 
@@ -6042,7 +6005,6 @@ Se uma criatura estiver com medo de você, ela tem Desvantagem em testes de habi
 	<content contentuid="ha7123ebbg3a7eg5a2agbb2agd275e5b96e50" version="1">Faculdade de Coreografia</content>
 	<content contentuid="hb4cccef8g4f09g6448g556ag2414e437228a" version="1">Os bardos da Faculdade de Coreografia contam histórias e tocam música sem emitir nenhum som, optando, em vez disso, por se mover com a graça e a magia próprias das fadas para evitar o perigo e inspirar os outros. Essas danças têm origem na Floresta de Festerwood, cujos esporos radiantes e luz davam origem a apresentações milagrosas e perigos mortais. Esses bardos podem ser encontrados em qualquer lugar, desde a taverna local até os mais altos patamares do teatro, levando o público às lágrimas tão rapidamente quanto à rebelião. A cada passo, eles inspiram os outros a serem corajosos, a se moverem e a participarem.</content>
 	<content contentuid="h64135e89gfb5cgda25g7b51ga9d56a7840e7" version="1">Nível 3: Movimento rápido</content>
-	<content contentuid="h1c36f161g1bafgb626g1ae9g13be3903c9fc" version="1">Sua velocidade aumenta em 10 metros. Ela aumenta mais 5 metros quando você atinge o nível 6 de bardo (aumento total de 15 metros).</content>
 	<content contentuid="h646d3264gf6b6g560fg5c71g2bdcf82ed18f" version="1">Nível 3: Movimento rápido</content>
 	<content contentuid="h1577c90agd0bag445egb032g8a550e8a9aa3" version="1">Sua velocidade aumenta em 10 metros. Ela aumenta mais 5 metros quando você atinge o nível 6 de bardo (aumento total de 15 metros).</content>
 	<content contentuid="he6ec7f15ga89dg3c20g36ccg1213e02112e6" version="1">Nível 3: Dança Inspiradora</content>

@@ -186,15 +186,6 @@
   <content contentuid="h9d5766b9g0e51g3888g5633gd570f3096a0f" version="1">二重存在による幻影を作成または移動させるためにボーナス・アクションを行う際、自身を瞬間移動させ、幻影と場所を入れ替えることができる。</content>
   <content contentuid="ha73b8276g56b2g1bdegc73bgf16610d268ab" version="1">欺きの位置交換</content>
   <content contentuid="h82f58797g491fg0f3ag42b4g05c22ee9679d" version="1">二重存在による幻影を作成または移動させるためにボーナス・アクションを行う際、自身を瞬間移動させ、幻影と場所を入れ替えることができる。</content>
-  <content contentuid="hb5220d58g095fg5ae1g7115g72d15a96ef0c" version="1">言葉、音楽、あるいは踊りを通じて、超自然的な方法で他者に活力を与えることができる。この声援は、d6であるバードの声援ダイスによって表される。
-
-バードの声援の使用：ボーナス・アクションとして、自分から18メートル以内にいて、あなたを見ることができるか、あるいはあなたの声を聞くことができる他のクリーチャー1体に活力を与える。そのクリーチャーは自身のバードの声援ダイスを1つ得る。1体のクリーチャーが一度に持てるバードの声援ダイスは1つだけである。
-
-その後1時間（600ターン）以内に、そのクリーチャーがD20判定に失敗した際、バードの声援ダイスをロールし、その出目をd20に加算することができる。これにより、失敗を成功に変えられる可能性がある。バードの声援ダイスは、ロールされた時点で消費される。
-
-使用回数：自身の魅力修正値に等しい回数（最低1回）だけバードの声援ダイスを付与することができ、大休憩を終えると消費したすべての使用回数を回復する。
-
-高いレベルでは：バード特徴表の「バードの声援ダイス」の列に示されている通り、特定のバード・レベルに達するとバードの声援ダイスが変化する。ダイスはレベル5でd8、レベル10でd10、レベル15でd12になる。</content>
   <content contentuid="h63129871gfb37gc314g1fdfg9b10303bcc26" version="1">レベル1：バードの声援</content>
   <content contentuid="h2810e8cag53f2gddb2gb1bbg7d5f6848ec0b" version="1">言葉、音楽、あるいは踊りを通じて、超自然的な方法で他者に活力を与えることができる。この声援は、d6であるバードの声援ダイスによって表される。
 
@@ -1588,7 +1579,6 @@
   <content contentuid="h138ad957g4e4cgf396gebd4g8ad15a605ba6" version="1">クリーチャーの肌を岩のように堅くする。すべての殴打、刺突、斬撃のダメージを&lt;LSTag Tooltip="Resistant"&gt;半減&lt;/LSTag&gt;する</content>
   <content contentuid="h9bcb3486gd911g3c9fgace0g779c9bda1aa7" version="1">殴打、刺突、および斬撃ダメージに対する&lt;LSTag Tooltip="Resistant"&gt;抵抗&lt;/LSTag&gt;を持つ。</content>
   <content contentuid="h017b9fabgf86fg784ag16d2g0ce3617ead28" version="1">スニロックの雪玉の群れ</content>
-  <content contentuid="h1d1a9875g453ag1a74g99c0g7c41137717d6" version="1">射程内の任意の地点に[1]個の雪玉を投げつける。各雪玉はその地点を中心とした半径1.5メートルの球状範囲内のクリーチャーに影響を与える。範囲内の各クリーチャーは敏捷力セーヴィング・スローを行い、失敗すると雪玉1個につき[2]を受け、成功すると半分のダメージを受ける。</content>
   <content contentuid="hd9de5da7g002ag9970g205agdaf99dc1ddd9" version="1">スニロックの雪玉の群れ</content>
   <content contentuid="hc1cce658gb841g21b6gb82bgc5fddc780327" version="1">射程内の任意の地点に[1]個の雪玉を投げつける。各雪玉はその地点を中心とした半径1.5メートルの球状範囲内のクリーチャーに影響を与える。範囲内の各クリーチャーは敏捷力セーヴィング・スローを行い、失敗すると雪玉1個につき[2]を受け、成功すると半分のダメージを受ける。</content>
   <content contentuid="h2bbc0ae7ged33gb46fg82a1ge5f25d92f4a0" version="1">硫酸球体</content>
@@ -3141,7 +3131,6 @@
   <content contentuid="h5ef73b58ga233g8fccg4389gcd443dd5c7d7" version="1">対魔法耐性</content>
   <content contentuid="hd771ba94g1544ge8bage691g562f72e6c038" version="1">呪文や魔法の効果に対するセーヴィング・スローに失敗した際、リアクションを用いて1d6をロールして加算し、失敗を成功に変えられる可能性がある。</content>
   <content contentuid="h8b3f5c04g14b9gb9e9ga359g59e1d9f1e059" version="1">貫通射撃</content>
-  <content contentuid="h3ce77d91geeefg513cga446gb56d92a559cd" version="1">攻撃が目標に命中するかミスすると、武器または弾薬が幅1.5メートルの魔法エネルギーの線へと変化し、武器の通常射程まで伸びる。この線には攻撃の元の目標も含まれる。線の中の各クリーチャーは敏捷力セーヴィング・スローを行い、失敗すると武器の通常ダメージに等しい力場ダメージを受け、成功すると半分のダメージを受ける。</content>
   <content contentuid="hcf85f5ddg214egc39bga0e8g7ee910e3ffec" version="1">レベル3：法の宣告</content>
   <content contentuid="h8bee263cg9f25gd0b6gbdeag2013628793ec" version="1">18メートル以内に見える味方が攻撃を受けた際、リアクションを行える。リスク・ダイスを1個消費して、攻撃者に対して遠隔武器攻撃を行う。使用時、その味方はリスク・ダイスでロールされた値に等しい一時的ヒット・ポイントを得る。</content>
   <content contentuid="h2139a63fg2249g7d98g6477g5d54183f38fa" version="1">レベル3：鋼の眼差し</content>
@@ -3407,17 +3396,7 @@
   <content contentuid="h5b1941eeg9c53g0d48g2159g640b7817db72" version="2">レベル7：地獄のアサシン</content>
   <content contentuid="h0405792eg3f88g4dbfg0b92gfcb573fe9525" version="3">禁制状態のクリーチャーに対する武器攻撃のダメージを決定するダイスで1または2が出た場合、常にそのダイスをロールし直すことができる。</content>
   <content contentuid="h07d4538fg06e1g87c9geff7gba8b3b97a65f" version="1">陰影の殺し屋</content>
-  <content contentuid="hf4eda0d1g9d77gcfb5g49f3g7e6523196336" version="1">影は自身の仲間であり、その活動を助けてくれる。以下の恩恵を得る：
-
-18メートルまでの暗視を得る。すでに暗視を持っている場合、その範囲が18メートル増加する。
-移動速度が3メートル増加する。
-隠れ身のための敏捷力（隠密）判定に有利を得る。効果から半分のダメージしか受けないための敏捷力セーヴィング・スローを行う際、成功すればダメージを全く受けず、失敗しても半分のダメージで済む。</content>
   <content contentuid="h5265c616g7dacgad00gefc6ge34e7ec6e7f4" version="1">陰影の殺し屋</content>
-  <content contentuid="h9b666f81g3924gf39eg6868gd20519f6b190" version="1">影は自身の仲間であり、その活動を助けてくれる。以下の恩恵を得る：
-
-18メートルまでの暗視を得る。すでに暗視を持っている場合、その範囲が18メートル増加する。
-移動速度が3メートル増加する。
-隠れ身のための敏捷力（隠密）判定に有利を得る。効果から半分のダメージしか受けないための敏捷力セーヴィング・スローを行う際、成功すればダメージを全く受けず、失敗しても半分のダメージで済む。</content>
   <content contentuid="h59478469g65f2gdc36g0515g15430765aa77" version="2">レベル11：陰影の殺し屋</content>
   <content contentuid="hecbd9ffcg2be8gbb16g7102g34164bd0d262" version="2">影は自身の仲間であり、その活動を助けてくれる。以下の恩恵を得る：
 
@@ -4254,7 +4233,6 @@
   <content contentuid="h5085414dg5773gb367g17ffg56d92264887f" version="1">自分または見える味方が攻撃ロールで呪われた目標に命中させた際、呪いを早期に終了させ（アクション不要）、その攻撃に追加で[1]または[2]（任意で選択）を与えさせることができる。</content>
   <content contentuid="h7fbdaf7cgb9dfg7914g321dg56535e4ef83f" version="1">墓への道（死霊）</content>
   <content contentuid="h5412be87gc0d6gd027g88dbg46cccbb5f405" version="1">死の扉の番人</content>
-  <content contentuid="h34c68c98gf84cgb2fcgd117g22156d427b46" version="2">自分または18メートル以内に見える血まみれ（HPが半分以下）のクリーチャーが攻撃ロールを受け際、リアクションを行ってその攻撃のダメージを半分に軽減できる（端数切り捨て）。</content>
   <content contentuid="h40fa14d1gcd8ag4b04g332cg14f014f79df1" version="1">この特徴は自身の判断力修正値（最低1回）に等しい回数だけ使用でき、大休憩を終えると消費したすべての使用回数を回復する。</content>
   <content contentuid="h75e81993g498fgad1ag49c0g16b6f5c596f1" version="1">死の扉の番人</content>
   <content contentuid="h8186b8ecg7248g13b4ge3fbga7dd7bb29966" version="1">死の扉の番人</content>
@@ -4657,7 +4635,6 @@
   <content contentuid="h94c617f1g467ag18f3gf740gb5a9fc763e88" version="1">守りの決闘術</content>
   <content contentuid="hb74c3fd9ga6a8g8c4bg0373g427c3edf70f7" version="4">飛び降り</content>
   <content contentuid="hd44fd6ddg1098gdbf5g10d4g8ca7b30d62bc" version="4">飛び上がり</content>
-  <content contentuid="h73da64f6ga623g5c60g31edg8434e7996703" version="1">移動力を3メートル消費して、最大9メートルまで飛び上がる。</content>
   <content contentuid="hcc124e06g703dga91ag38b5g45f683e89b78" version="1">必中打撃（味方）</content>
   <content contentuid="h7f5b837cg0df3g8c6eg1f50ga527560cf9e6" version="1">このオーラが持続している間、&lt;LSTag Type="Spell" Tooltip="Target_AuraOfVitality_Activate"&gt;活力回復&lt;/LSTag&gt;を発動して自身または近くの味方を回復できる。</content>
   <content contentuid="h476d4d67g76e8g6262gd36egb27efe1c901e" version="1">このオーラが持続している間、&lt;LSTag Type="Spell" Tooltip="Target_AuraOfVitality_Activate"&gt;活力回復&lt;/LSTag&gt;を発動して自身または近くの味方を回復できる。</content>
@@ -5373,9 +5350,6 @@
 
 さらに、あなたは雷鳴ダメージに対する抵抗を得て、あなたに対する遠隔攻撃ロールは不利で行われる。</content>
   <content contentuid="h96a4fdcdg6eedg4ccdgb453g193837a217e9" version="1">アシャダルロンの歩み</content>
-  <content contentuid="h9b831d16g0360g4588g8217g0115979d8198" version="1">ドラゴンの渦巻く炎があなたの足元から噴き出し、爆発的な速度をもたらす。持続時間中、あなたの移動速度は6メートル増加し、移動によって機会攻撃を誘発しなくなる。クリーチャーの1.5メートル以内に移動するたびに、そのクリーチャーはあなたの熱の痕跡から火ダメージを受ける。クリーチャーはこのダメージを1ターンの間に1回のみ受ける。
-
-高いレベルでは：3レベルを上回る呪文スロットレベルごとに、移動速度がさらに1.5メートル増加し、火ダメージが1d6増加する。</content>
   <content contentuid="h07bf103cg6fe9g48deg90e6g51cda963e2bb" version="1">アシャダルロンの歩みのオーラ</content>
   <content contentuid="h015e6052gbb2eg4bc4g8148gac1a0bbffbf1" version="2">ドラゴンの渦巻く炎があなたの足元から噴き出し、爆発的な速度をもたらす。持続時間中、あなたの移動速度は[1]増加し、移動によって機会攻撃を誘発しなくなる。クリーチャーの[2]以内に移動するたびに、そのクリーチャーはあなたの熱の痕跡から[3]を受ける。クリーチャーはこのダメージを1ターンの間に1回のみ受ける。</content>
   <content contentuid="hefff3653g8439g5d57g7610g02ccec1105b6" version="1">アシャダルロンの歩み</content>
@@ -5418,17 +5392,6 @@
   <content contentuid="h3d58952cg99d7gd4e9g6ba3gf7ba2d2ccd6e" version="1">竜の吐息</content>
   <content contentuid="hab751f1dg6ccdg30c4g0159g862e61032821" version="1">竜の吐息</content>
   <content contentuid="ha1e2ad32g3698gf83fg3528g8d45c9c1bd0e" version="1">元素吐き</content>
-  <content contentuid="h85c7508bg337bg1507gd4ebg434eb4cc892b" version="1">空気：ダメージ種別は雷鳴。セーヴィング・スローに失敗した各クリーチャーは、あなたから3メートル押しやられる。
-
-冷炎：ダメージ種別は冷気。セーヴィング・スローに失敗した各クリーチャーは、次のあなたのターンの開始時まで恐怖状態になる。
-
-土：ダメージ種別は殴打。セーヴィング・スローに失敗した各クリーチャーは、次のそのターンの終了時まで移動速度が0になる。
-
-火：ダメージ種別は火。セーヴィング・スローに失敗した各クリーチャーは炎に包まれ、次のそのターンの終了時に火ダメージを受ける。アクションとして、自身を伏せ状態にして地面を転がることで、自身の火を消すことができる。火は、水をかけられたり、水中に沈められたり、窒息させられたりした場合にも消える。
-
-水：ダメージ種別は酸。セーヴィング・スローに失敗した各クリーチャーは伏せ状態になる。
-
-破壊的な元素のエネルギーの9メートルの円錐状の範囲内にいる各クリーチャーは、敏捷力セーヴィング・スローを行わなければならない。セーヴに失敗すると、目標は選択した種別のダメージを受ける。成功した場合、目標は半分のダメージのみを受ける。</content>
   <content contentuid="hdb0aa103g9344gc10cg7143gabd5c9c363de" version="1">元素吐き</content>
   <content contentuid="h1042549ag1908gfbe0g5f54g6b7fb0d8ba00" version="2">この呪文を唱える際、呪文のダメージ種別を決定する以下の効果から1つ選択する：
 
