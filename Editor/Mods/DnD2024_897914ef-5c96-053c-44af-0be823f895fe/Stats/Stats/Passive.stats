@@ -1322,6 +1322,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Zealot_3_DivineFury" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb477d444g2e4egabe4g8bd0g64d34fe959ee" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h15b91354gf2d6ga550g86cag97a1796054d7" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6+ClassLevel(Barbarian)/2,Necrotic);DealDamage(1d6+ClassLevel(Barbarian)/2,Radiant)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Zealot_3_DivineFury" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1303" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -2434,6 +2435,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="GraveDomain_3_PathToTheGrave" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h794dc21ag8b55ga792g3b31g88988c279134" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf7e85ad5gadc6g23b3ge9bdgb92b56e72159" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ClassLevel(Cleric),Necrotic);DealDamage(ClassLevel(Cleric),Radiant)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GraveDomain_3_PathToTheGrave" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_PathToTheGrave);UnlockInterrupt(Interrupt_PathToTheGrave_Radiant);UnlockInterrupt(Interrupt_PathToTheGrave_Necrotic);" />
@@ -5970,6 +5972,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SpellfireSorcery_3_SpellfireBurst" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5d10607dg8858g0d58gde8bgfe26a1630521" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8c1cf02dg530eg20c8ge29dgf4ccedf5993c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Fire);DealDamage(1d4,Radiant)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Cleric_DivineSpark_Radiant" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -7640,6 +7643,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Transmuter_3_WondrousAlteration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6e22118ag6a4fga46eg47b6g391b85128a7f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1610492bg081fg2025g5ba3g7e3850173f85" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Slashing);DealDamage(2d6,Piercing);DealDamage(2d6,Bludgeoning)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_AlterSelf" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12203" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -11927,6 +11931,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_TrueName_Passive_2" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h80d34500g1a50gfebfgbc79g489d53187849" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1ae5a709g9e4ag5e7agbf4ag35be3da03653" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Fire);DealDamage(1d6,Necrotic)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
