@@ -3581,6 +3581,17 @@ Clean. You instantaneously clean an object no larger than 1 cubic foot.</content
   <content contentuid="hacd218b6g8afbg65f2g4b21g9d52b7e777f8" version="1">Level 6: Phantasmal Creatures</content>
   <content contentuid="h9ec6f533ga820gcfd6g8b9fgb737db30a70b" version="2">You always have the Summon Beast and Summon Fey spells prepared. You can cast the Illusion version of each spell without expending a spell slot. Once you cast either spell without a spell slot, you must finish a Long Rest before you can cast the spell in that way again.</content>
   <content contentuid="h6057aef1gc72eg192ag3affgca7098f7a4c4" version="1">Summon Beast: Giant Eagle (Illusion)</content>
+  <content contentuid="h6e388b91g406dg40f5g8bfdgd2e597af563f" version="1">Summon Beast</content>
+  <content contentuid="hd9227fa4ge4d1g46f5ga318ga124d6f71d1d" version="1">Summon Beast: Wolf</content>
+  <content contentuid="h32e845c8gb51bg452dg821bgdd3879b18511" version="1">Summon Beast (Illusion)</content>
+  <content contentuid="h91f3eb8bg8023g404eg9f28g469f1635b776" version="1">Summon Beast: Wolf (Illusion)</content>
+  <content contentuid="h2da1fb01g5e2cg4896g82bega2d9ec4dc533" version="1">You call forth a bestial spirit in the form of a giant eagle or a wolf. It appears in an unoccupied space you can see within range and uses the Bestial Spirit stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.</content>
+  <content contentuid="h03f7e666g5476g4b3bg9e80g18badaff2b0b" version="1">You call forth a bestial spirit in the form of a giant eagle. It appears in an unoccupied space you can see within range and uses the Bestial Spirit stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends. The giant eagle can use &lt;LSTag Type="Spell" Tooltip="Projectile_Jump_GiantEagle"&gt;Fly&lt;/LSTag&gt; and &lt;LSTag Type="Spell" Tooltip="Target_SummonBeast_Rend"&gt;Rend&lt;/LSTag&gt;, and has &lt;LSTag Type="Passive" Tooltip="Flyby_SummonBeast"&gt;Flyby&lt;/LSTag&gt;.</content>
+  <content contentuid="h6bc86f83g8c6ag4abfg8425g871133e7d3f4" version="1">You call forth a bestial spirit in the form of a wolf. It appears in an unoccupied space you can see within range and uses the Bestial Spirit stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends. The wolf can use &lt;LSTag Type="Spell" Tooltip="Target_SummonBeast_Rend"&gt;Rend&lt;/LSTag&gt; and has &lt;LSTag Type="Passive" Tooltip="PackTactics_SummonBeast"&gt;Pack Tactics&lt;/LSTag&gt;.</content>
+  <content contentuid="hc58a9d89gdcbbg477dgb046g506cd1a4e437" version="1">Flyby</content>
+  <content contentuid="h08b676d0g8a9cg46b2g8f5fg9a347caf3243" version="1">Creature doesn’t provoke &lt;LSTag Tooltip="OpportunityAttack"&gt;Opportunity Attacks&lt;/LSTag&gt; when it flies out of an enemy’s reach.</content>
+  <content contentuid="hed15f902g638bg41fbg89aagefd89b415ba7" version="1">Tear into a target with talons or fangs.</content>
+  <content contentuid="ha4e30eadg110ag421bgb760gbad030df097d" version="1">When you reach Wizard levels 7, 9, and 11, the summoned creature becomes more powerful.</content>
   <content contentuid="h32ce3bc3gbd08g5553gcc7dga7ed37159c2b" version="1">Summon Fey: Red Cap (Illusion)</content>
   <content contentuid="h5e364771gbbf3gcea4gc521g7ebe73137887" version="1">Illusionist</content>
   <content contentuid="hd2b280acgffccg1945g84d8g178fda0ac2df" version="1">You specialize in magic that dazzles the senses and tricks the mind, and the illusions you craft make the impossible seem real.</content>
@@ -6997,4 +7008,5 @@ Some Transmuters are tinkerers and pranksters. Others seek the power to make and
   <content contentuid="h45f0c7e6geb5fg4a0egbd9fg51b53385167f" version="1">At the start of each of the aberrant spirit's turns, if the spirit isn't Incapacitated, this creature makes a Wisdom saving throw, taking [1] on a failed save.</content>
   <content contentuid="h05029f46gda75g4215g904ag23525a0965a0" version="1">Scroll of Summon Aberration</content>
   <content contentuid="hb111ba4bg8041g4869gb8bfg9a48b3fa2167" version="1">Usable Classes: Warlock, Wizard</content>
+  <content contentuid="he1f280cbg875agd08fg319ag8e482417e750" version="1">Rend</content>
 </contentList>

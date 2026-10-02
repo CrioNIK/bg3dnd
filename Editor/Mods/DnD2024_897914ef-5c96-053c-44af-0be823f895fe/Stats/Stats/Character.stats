@@ -774,8 +774,11 @@
         <field name="Charisma" type="IntegerTableFieldDefinition" value="5" />
         <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="20" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange();ProficiencyBonus(Skill,Perception);BlockRegainHP(Undead;Construct);DamageBonus(2);" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Undead;Construct);DamageBonus(2);" />
         <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+        <field name="GameSize" type="EnumerationTableFieldDefinition" value="Small" enumeration_type_name="ObjectSize" version="1" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Flyby_SummonBeast;AttackOfOpportunity;Darkvision;DarknessRules" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -786,7 +789,7 @@
         <field name="Level" type="IntegerTableFieldDefinition" value="5" />
         <field name="Armor" type="IntegerTableFieldDefinition" value="14" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="25" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange();ProficiencyBonus(Skill,Perception);BlockRegainHP(Undead;Construct);DamageBonus(3);" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Undead;Construct);DamageBonus(3);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -797,8 +800,8 @@
         <field name="Level" type="IntegerTableFieldDefinition" value="7" />
         <field name="Armor" type="IntegerTableFieldDefinition" value="15" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="30" />
-        <field name="Passives" type="StringTableFieldDefinition" value="ExtraAttack;Multiattack_GiantEagle;AttackOfOpportunity" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange();ProficiencyBonus(Skill,Perception);BlockRegainHP(Undead;Construct);DamageBonus(4);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Flyby_SummonBeast;ExtraAttack;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Undead;Construct);DamageBonus(4);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -809,8 +812,8 @@
         <field name="Level" type="IntegerTableFieldDefinition" value="9" />
         <field name="Armor" type="IntegerTableFieldDefinition" value="16" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="35" />
-        <field name="Passives" type="StringTableFieldDefinition" value="ExtraAttack;Multiattack_GiantEagle;AttackOfOpportunity" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange();ProficiencyBonus(Skill,Perception);BlockRegainHP(Undead;Construct);DamageBonus(5);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Flyby_SummonBeast;ExtraAttack;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Undead;Construct);DamageBonus(5);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -821,8 +824,78 @@
         <field name="Level" type="IntegerTableFieldDefinition" value="11" />
         <field name="Armor" type="IntegerTableFieldDefinition" value="17" />
         <field name="Vitality" type="IntegerTableFieldDefinition" value="40" />
-        <field name="Passives" type="StringTableFieldDefinition" value="ExtraAttack_2;Multiattack_GiantEagle;AttackOfOpportunity" />
-        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="IgnoreLeaveAttackRange();ProficiencyBonus(Skill,Perception);BlockRegainHP(Undead;Construct);DamageBonus(6);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="Flyby_SummonBeast;ExtraAttack_2;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Undead;Construct);DamageBonus(6);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="612029f5-1675-4481-9685-1c036fc6c57e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wolf_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="837f1eea-cf81-4d8a-a22f-7dc78a5f0926" />
+        <field name="GameSize" type="EnumerationTableFieldDefinition" value="Small" enumeration_type_name="ObjectSize" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Undead;Construct);DamageBonus(2);" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="UnarmedAttackAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics_SummonBeast;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="30" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;Movement:9;ReactionActionPoint:1" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8d0fe070-439a-4257-b1a5-29506f54998d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wolf_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="612029f5-1675-4481-9685-1c036fc6c57e" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Undead;Construct);DamageBonus(3);" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="35" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="41026299-a0f3-4ce7-bbef-13644af673ff" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wolf_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="612029f5-1675-4481-9685-1c036fc6c57e" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Undead;Construct);DamageBonus(4);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics_SummonBeast;ExtraAttack;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="7" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="40" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5d24f7e5-0881-4ba5-b735-f538d6255f36" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wolf_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="612029f5-1675-4481-9685-1c036fc6c57e" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Undead;Construct);DamageBonus(5);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics_SummonBeast;ExtraAttack;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="45" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13b98d5e-53f9-4412-adc1-2ece730f9a2d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Wolf_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="612029f5-1675-4481-9685-1c036fc6c57e" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Undead;Construct);DamageBonus(6);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics_SummonBeast;ExtraAttack_2;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="50" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -3581,6 +3581,18 @@
   <content contentuid="hacd218b6g8afbg65f2g4b21g9d52b7e777f8" version="1">6레벨: 환영의 생물</content>
   <content contentuid="h9ec6f533ga820gcfd6g8b9fgb737db30a70b" version="2">항상 야수 소환과 요정 소환 주문이 준비된 상태가 됩니다. 각 주문의 환영 버전을 주문 슬롯을 소모하지 않고 시전할 수 있습니다. 주문 슬롯 없이 두 주문 중 하나를 시전하면, 그 방식으로 다시 시전하려면 긴 휴식을 마쳐야 합니다.</content>
   <content contentuid="h6057aef1gc72eg192ag3affgca7098f7a4c4" version="1">야수 소환: 거대 독수리(환영)</content>
+  <content contentuid="h6e388b91g406dg40f5g8bfdgd2e597af563f" version="1">야수 소환</content>
+  <content contentuid="hd9227fa4ge4d1g46f5ga318ga124d6f71d1d" version="1">야수 소환: 늑대</content>
+  <content contentuid="h32e845c8gb51bg452dg821bgdd3879b18511" version="1">야수 소환(환영)</content>
+  <content contentuid="h91f3eb8bg8023g404eg9f28g469f1635b776" version="1">야수 소환: 늑대(환영)</content>
+  <content contentuid="h2da1fb01g5e2cg4896g82bega2d9ec4dc533" version="1">야수의 영혼을 거대 독수리와 늑대 중 하나의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 야수 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다.</content>
+  <content contentuid="h03f7e666g5476g4b3bg9e80g18badaff2b0b" version="1">야수의 영혼을 거대 독수리의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 야수 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다. 거대 독수리는 &lt;LSTag Type="Spell" Tooltip="Projectile_Jump_GiantEagle"&gt;비행&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Target_SummonBeast_Rend"&gt;찢기&lt;/LSTag&gt;를 사용할 수 있으며, &lt;LSTag Type="Passive" Tooltip="Flyby_SummonBeast"&gt;스쳐 날기&lt;/LSTag&gt;를 지닙니다.</content>
+  <content contentuid="h6bc86f83g8c6ag4abfg8425g871133e7d3f4" version="1">야수의 영혼을 늑대의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 야수 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다. 늑대는 &lt;LSTag Type="Spell" Tooltip="Target_SummonBeast_Rend"&gt;찢기&lt;/LSTag&gt;를 사용할 수 있으며, &lt;LSTag Type="Passive" Tooltip="PackTactics_SummonBeast"&gt;무리 전술&lt;/LSTag&gt;을 지닙니다.</content>
+  <content contentuid="hc58a9d89gdcbbg477dgb046g506cd1a4e437" version="1">스쳐 날기</content>
+  <content contentuid="h08b676d0g8a9cg46b2g8f5fg9a347caf3243" version="1">적의 사거리 밖으로 날아갈 때 &lt;LSTag Tooltip="OpportunityAttack"&gt;허점 공격&lt;/LSTag&gt;을 유발하지 않습니다.</content>
+  <content contentuid="hed15f902g638bg41fbg89aagefd89b415ba7" version="1">발톱이나 송곳니로 대상을 찢습니다.</content>
+  <content contentuid="ha4e30eadg110ag421bgb760gbad030df097d" version="1">위저드 레벨 7, 9, 11에 도달하면, 소환된 크리처가 더욱 강력해집니다.</content>
+  <content contentuid="he1f280cbg875agd08fg319ag8e482417e750" version="1">찢기</content>
   <content contentuid="h32ce3bc3gbd08g5553gcc7dga7ed37159c2b" version="1">요정 소환: 레드캡(환영)</content>
   <content contentuid="h5e364771gbbf3gcea4gc521g7ebe73137887" version="1">환영술사</content>
   <content contentuid="hd2b280acgffccg1945g84d8g178fda0ac2df" version="1">감각을 현혹하고 정신을 속이는 마법을 전문으로 하며, 당신이 빚어내는 환영은 불가능한 것을 실재처럼 보이게 만듭니다.</content>
