@@ -2067,7 +2067,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4a3bf687-91c1-4dad-821c-ad32171c7552" />
         <field name="Name" type="NameTableFieldDefinition" value="Warlock Hexblade SLevel 2" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Shout_ArcaneVigor;Target_Hex;Shout_Shield_Warlock;Target_Smite_Wrathful" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_ArcaneVigor;Target_Hex;Target_MagicWeapon;Shout_Shield_Warlock;Target_Smite_Wrathful" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2179,7 +2179,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0a9b924f-64fb-4f22-b975-5eeedc99b2fd" />
         <field name="Name" type="NameTableFieldDefinition" value="Warlock Archfey SLevel 5" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_DominatePerson" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_DominatePerson;Target_Seeming" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
