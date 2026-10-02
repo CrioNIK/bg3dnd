@@ -6963,11 +6963,11 @@
   <content contentuid="he6c000fegdd64g47d9g9f97g984c8006d491" version="1">이형체 소환</content>
   <content contentuid="h22ccdab8gd95dg4d9cgb655ga6e4c50127cd" version="1">이형체의 영혼을 지능 포식자, 스펙테이터, 마인드 플레이어 중 하나의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 이형체 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다.</content>
   <content contentuid="h8d6eb7bag3282g4bd6g87degafa5f5bfcaff" version="1">이형체 소환: 지능 포식자</content>
-  <content contentuid="h27df183fg9839g4990ga588gf09e9740de46" version="1">이형체의 영혼을 지능 포식자의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 이형체 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다.</content>
+  <content contentuid="h27df183fg9839g4990ga588gf09e9740de46" version="1">이형체의 영혼을 지능 포식자의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 이형체 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다. 지능 포식자는 &lt;LSTag Type="Spell" Tooltip="Target_SummonAberration_IntellectDevourer_Claw"&gt;발톱&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Target_SummonAberration_IntellectDevourer_DevourIntellect"&gt;지능 포식&lt;/LSTag&gt;을 사용할 수 있습니다.</content>
   <content contentuid="ha80c9510gdd8fg42ccg8d7bge839f3051f0b" version="1">이형체 소환: 스펙테이터</content>
-  <content contentuid="h8f21daf3g3db8g4376g83dagfd787a17b785" version="1">이형체의 영혼을 스펙테이터의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 이형체 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다.</content>
+  <content contentuid="h8f21daf3g3db8g4376g83dagfd787a17b785" version="1">이형체의 영혼을 스펙테이터의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 이형체 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다. 스펙테이터는 &lt;LSTag Type="Spell" Tooltip="Projectile_Jump_Spectator"&gt;비행&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Target_SummonAberration_Beholder_WoundingRay"&gt;살상 광선&lt;/LSTag&gt;을 사용할 수 있습니다.</content>
   <content contentuid="h29c5989agb2f1g43ecg9b9fgbe3b6783ee9e" version="1">이형체 소환: 마인드 플레이어</content>
-  <content contentuid="ha92a3903g1d3bg4d58gad15g5f2f03019174" version="1">이형체의 영혼을 마인드 플레이어의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 이형체 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다.</content>
+  <content contentuid="ha92a3903g1d3bg4d58gad15g5f2f03019174" version="1">이형체의 영혼을 마인드 플레이어의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 이형체 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다. 마인드 플레이어는 &lt;LSTag Type="Spell" Tooltip="Target_SummonAberration_MindFlayer_Slam"&gt;촉수 공격&lt;/LSTag&gt;을 사용할 수 있으며, &lt;LSTag Type="Status" Tooltip="SUMMON_ABERRANT_MINDFLAYER_WHISPERING_AURA"&gt;속삭이는 오라&lt;/LSTag&gt;를 지닙니다.</content>
   <content contentuid="hf7cc3cf3g8ea8g4731g9be0g94709120730c" version="1">속삭이는 오라</content>
   <content contentuid="h66343423g5a96g449fgbb18gc9de47308bc3" version="1">자신의 턴이 시작될 때 행동불능 상태가 아니면 염동 에너지를 방출합니다. [1] 이내의 각 적은 소환자의 주문 내성 난이도에 대한 지혜 내성 굴림을 하며, 실패하면 [2]를 입습니다.</content>
   <content contentuid="hcc5a125dg4771g49a3g9674gf553799deabf" version="1">속삭이는 오라</content>
