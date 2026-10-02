@@ -11725,14 +11725,15 @@
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="5" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, SourceSpellDC())" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d8+ClassLevel(Cleric),Force);Force(-4, TargetToEntity, Neutral, false, true);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((1d8+ClassLevel(Cleric)/2),Force);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d8+ClassLevel(Cleric),Force);Force(-4.5, TargetToEntity, Neutral, false, true);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((1d8+ClassLevel(Cleric))/2,Force);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self();" />
         <field name="AoEConditions" type="StringTableFieldDefinition" value="not Self();" />
         <field name="Icon" type="StringTableFieldDefinition" value="Astral_3_CreateVoid" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0058e102gbba8ge20eg2cd0gc0bfb13819ea" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h62513dd3g7a62g4659g151cg25df749019af" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8+ClassLevel(Cleric),Force)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+ClassLevel(Cleric),Force)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_ClericSummon_Gen" />
