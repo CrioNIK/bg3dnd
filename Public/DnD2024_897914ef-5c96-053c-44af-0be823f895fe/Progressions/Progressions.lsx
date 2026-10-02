@@ -5168,7 +5168,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="ShadowMagic"/>
-                    <attribute id="PassivesAdded" type="LSString" value="EyesOfTheDark;StrengthOfTheGrave"/>
+                    <attribute id="PassivesAdded" type="LSString" value="ShadowSorcery_3_ShadowSpells;EyesOfTheDark;StrengthOfTheGrave"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(98837fc3-8d85-4eaa-b357-337602b22884,EyesOfTheDark,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="02d68ea9-5b8d-4f3f-a37a-96ae78d233cd"/>

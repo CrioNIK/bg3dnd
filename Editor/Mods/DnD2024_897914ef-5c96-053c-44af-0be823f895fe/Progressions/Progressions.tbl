@@ -6576,7 +6576,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="3" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="AddSpells(98837fc3-8d85-4eaa-b357-337602b22884,EyesOfTheDark,,,AlwaysPrepared)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="EyesOfTheDark;StrengthOfTheGrave" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="ShadowSorcery_3_ShadowSpells;EyesOfTheDark;StrengthOfTheGrave" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

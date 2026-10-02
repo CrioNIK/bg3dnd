@@ -6048,7 +6048,9 @@
         <field name="Name" type="NameTableFieldDefinition" value="ShadowSorcery_3_ShadowSpells" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7f4aa580ga87dg16dcgfbe8g89f017ded271" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h822a72b8g17f5g73a6gd5f7g245ac996eb94" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Darkness" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10503" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
