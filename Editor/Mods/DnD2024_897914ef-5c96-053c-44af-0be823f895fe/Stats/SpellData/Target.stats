@@ -13199,6 +13199,7 @@
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c218f05b-1e12-4298-beff-e4d33a5fa5a5" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="954307f2-6216-4eff-aa7a-d87553bcee37" />
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="68ad05e0-ad4d-48cf-8b19-84434100711a" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -460,6 +460,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_HamstringShot" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

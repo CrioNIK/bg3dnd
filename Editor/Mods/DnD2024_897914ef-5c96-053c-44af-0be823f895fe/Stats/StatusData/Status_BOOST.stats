@@ -4472,6 +4472,7 @@
         <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnTurn" enumeration_type_name="StatusEvent" version="1" />
         <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(GASEOUSFORM_BLINK,100,-1)" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="41a4d8ca-f29d-486a-9f4e-afd9deb55b62" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
