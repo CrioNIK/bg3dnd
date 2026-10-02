@@ -526,6 +526,7 @@
         <field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Negative" enumeration_type_name="ManagedStatusEffectType" version="1" />
         <field name="ManagedStatusEffectGroup" type="GuidObjectTableFieldDefinition" value="d787f666-8ee6-4185-9365-6aac9ebe76ae" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3339cd6bg6f73ge757g76cdg991057f97dde" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1362,6 +1363,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CIRCLE_OF_POWER_AURA" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5f04addfg41ecgbc72gedadga5ba2a2eea90" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc52cdfedg87a2g694bg6d16g81bc875203c5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfDevotion" />
         <field name="StackId" type="StringTableFieldDefinition" value="CIRCLE_OF_POWER_AURA" />
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="9" />
@@ -1921,7 +1923,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_AURA" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heffa3bccgf354g0581ga23dg44eac5095fa6" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha911b6bdg2959g695ag9c06gb0936ebd052e" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d6,Thunder)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d6,Thunder);Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_CacophonicShield" />
         <field name="StackId" type="StringTableFieldDefinition" value="CACOPHONIC_SHIELD_AURA" />
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="3" />
@@ -1970,7 +1972,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a8fc538g7a44g3571g385dg12e8a9a60425" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h656c049cg0ff4g758bge643g1386718cedb8" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d6,Thunder)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d6,Thunder);Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_CacophonicShield" />
         <field name="TooltipSave" type="StringTableFieldDefinition" value="Constitution" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(3d6,Thunder)" />
@@ -2037,7 +2039,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CONJURE_WOODLAND_AURA" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h94c38ff4g24d8gdff5gf15bg1ec208dddd2d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2b042bbdga167g0335g0c96gd2fc48c2ea13" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Force)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Force);Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureWoodlandBeings" />
         <field name="StackId" type="StringTableFieldDefinition" value="CONJURE_WOODLAND_AURA" />
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="3" />
@@ -2077,7 +2079,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CONJURE_WOODLAND" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a848bcagaa30g63d3g3125g77c908213cd3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haf633c9dg1492gf659gb336g2332cda3f768" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Force)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Force);Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureWoodlandBeings" />
         <field name="TooltipSave" type="StringTableFieldDefinition" value="Wisdom" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(5d8,Force)" />
@@ -2124,6 +2126,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CONJURE_MINOR_ELEMENTALS" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h043e97d5gca21g42b7g823ag1274ec45c6a1" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb170c461g64a8ga1b1g8e92g84265039c932" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureMinorElementals" />
         <field name="StackId" type="StringTableFieldDefinition" value="CONJURE_MINOR_ELEMENTALS" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="4" />
@@ -2575,6 +2578,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="HOLYWORD" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2a918193g01a1gcd83gf729g2e88e3223327" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4fb83fe3g593ag7f0cg6424g2a7ebbb50df8" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="StackId" type="StringTableFieldDefinition" value="HOLYWORD" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(ReactionActionPoint);ActionResource(Movement,-3,0);" />
@@ -3484,7 +3488,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="HOLY_WEAPON" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfdabc05ag93f5gf46eg5efdg957054a772c8" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h37aea667gb412g84d3gd6f8g8a195d4ea3d0" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Radiant);Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_HolyWeapon" />
         <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Utility_Daylight" />
         <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_Utility_Daylight_Stop" />
@@ -3802,6 +3806,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="a7ed0ab4-1239-477c-a99c-eac8dfda0d87" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3a8c610bga3d0g98a5g372eg5d265e61eef9" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35662d22ga130g4004gd1e2g502f46f7dbd4" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_FireDance" />
         <field name="StackId" type="StringTableFieldDefinition" value="FIRE_DANCE" />
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="6" />
@@ -3977,7 +3982,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="DEATH_ARMOR" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb2037ed3g9376ge28egdf30gb396e5836806" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9c70dde9ga77cgb33fgf511g497c918b7702" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Necrotic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Necrotic);Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_DeathArmor" />
         <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_ArmorOfAgathys_MO" />
         <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_ArmorOfAgathys_MO_Stop" />
@@ -4006,6 +4011,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="FESTERING_AURA" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2c2c5420g1f96gc750g01e1g7189f0ca8722" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h421effbeg0649g4cd8gaed5g786980ab427f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_StinkingCloud" />
         <field name="StackId" type="StringTableFieldDefinition" value="FESTERING_AURA" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
@@ -4021,6 +4027,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="FESTERING_AURA_TECHNICAL" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2c2c5420g1f96gc750g01e1g7189f0ca8722" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h421effbeg0649g4cd8gaed5g786980ab427f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_StinkingCloud" />
         <field name="StackId" type="StringTableFieldDefinition" value="FESTERING_AURA_TECHNICAL" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
@@ -4345,6 +4352,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="12f75328-51d6-4be9-9525-c53f6c89f995" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_LongJump_Jump);UnlockSpellVariant(SpellId('Projectile_Jump'),ModifyTargetRadius(Multiplicative,3));" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha04791c7ge8d9ge47cg41f1ga366abc70f0a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);Distance(9)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -4353,6 +4361,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ALCH_POTION_JUMP" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b800bab3-f68a-4fb5-a876-9c27330bb153" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haa0cb759gbb2fg6e12g0a4bgd7393063d2c3" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);Distance(9)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_LongJump_Jump);UnlockSpellVariant(SpellId('Projectile_Jump'),ModifyTargetRadius(Multiplicative,3));" />
       </fields>
     </stat_object>
@@ -5295,6 +5304,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="INSPIRED_ECLIPSE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha0ddac76g013eg8574g0831g4fde2e2fef92" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h976048b3gf9c6gba32g7185g9373737f96b8" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Archfey_DisappearingStep" />
         <field name="StackId" type="StringTableFieldDefinition" value="INSPIRED_ECLIPSE" />
       </fields>
@@ -5305,6 +5315,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="LUNAR_VITALITY" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9f1b45feg3a13g4bccg4842g98f511ae2e02" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h88fd7cb1g4a94g8ad2g4bf8ga268d1168276" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Longstrider" />
         <field name="StackId" type="StringTableFieldDefinition" value="LUNAR_VITALITY" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,3,0);" />
@@ -5367,6 +5378,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="bf38e6e4-81d5-457b-8427-e80e83c4ee6e" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h39df96a1g0bb3g137cg23aeg512d3de172d2" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d06d7d0g728fgd57ag44f5g66f05c613163" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5385,6 +5397,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="bf38e6e4-81d5-457b-8427-e80e83c4ee6e" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he2f5e421g3789g0097gdfe7gab3e93f549a1" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2bd86b9fg5a4bg7828gd29cg98815c2ef7d3" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5404,7 +5417,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="bf38e6e4-81d5-457b-8427-e80e83c4ee6e" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8b0f281eg7854g1a32gf59fge016a5551f0b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcb079ee5g1c25gbdc5gf618gc2aef3acfd28" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BardicInspiration)+LevelMapValue(BardicInspiration),Necrotic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BardicInspiration)+LevelMapValue(BardicInspiration),Necrotic);Distance(1.5)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5424,6 +5437,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="bf38e6e4-81d5-457b-8427-e80e83c4ee6e" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9329b80cg3c57g3510gedb5gde3327d9570b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h373150f8gf513g0146g7190ge9494becea23" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5446,6 +5460,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_RENEGADE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha2864a37g9128g6f44gcbf7gd841c7dd1ee3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfaa297fcgd10eg8d87g5895g1856bdac31ee" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MistyEscape" />
         <field name="StackId" type="StringTableFieldDefinition" value="SPIRITS_RENEGADE" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
@@ -5471,6 +5486,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_WAYFARER" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h575cf64dg1928g3ab1g38b2gac008a149822" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9186b28dg0766gc68bg29a8ga4ca99c2272e" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Durable" />
         <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Longstrider_MO" />
         <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_Longstrider_MO_Stop" />
@@ -6602,6 +6618,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="5cf3e786-2f99-4e6a-a4dd-8b731a0593ee" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf5d4f6f7g7924g8f6fg9ab0g9dfcbf96b1f0" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h949175afg7b78g0963gee66g437f1ebddb65" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="MindDomain_6_GestaltAnchor" />
         <field name="StackId" type="StringTableFieldDefinition" value="GESTALT_ANCHOR_AURA" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
@@ -7117,6 +7134,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="STORM_RUNE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3d68e61ag18degff1egcb3cg93abd525a72f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h70f68e2egfe60g8371gc262g13645f286d18" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_HeartOfTheStorm_Thunder" />
         <field name="StackId" type="StringTableFieldDefinition" value="STORM_RUNE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_StormRune_Advantage);UnlockInterrupt(Interrupt_StormRune_Disadvantage);" />
@@ -7463,6 +7481,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="AURA_OF_ALACRITY_BUFF" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h142d77edg6f50gc87fg72f5g3158719e648d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7a033e2cg8e6cgf063g4a3cgbbe483e2b4cf" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Longstrider" />
         <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Longstrider_MO" />
         <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_Longstrider_MO_Stop" />
@@ -7478,6 +7497,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="DJINNIS_ESCAPE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h19a32ab1gef64g369egfeb4ge2bbdbae8999" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h08615922g6a70gfeabg9ddeg3e421bcce131" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_DjinnisEscape);Resistance(Bludgeoning, Resistant);Resistance(Piercing, Resistant);Resistance(Slashing, Resistant);StatusImmunity(SG_Restrained);StatusImmunity(PRONE);StatusImmunity(PRONE_GREASE);StatusImmunity(PRONE_SEWER);StatusImmunity(PRONE_ICE);StatusImmunity(PRONE_FALLEN);" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="DJINNIS_ESCAPE" />
@@ -7509,7 +7529,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="AURA_OF_CONQUEST" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h866d88e1g1047ge1d0gd19agda4ac87262ec" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb19479e8gdf8bgc260g8a24g5668daa9bfeb" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ClassLevel(Paladin)/2,Psychic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ClassLevel(Paladin)/2,Psychic);Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfHate" />
         <field name="StackId" type="StringTableFieldDefinition" value="AURA_OF_CONQUEST" />
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="3" />
@@ -7551,6 +7571,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="AURA_OF_THE_SENTINEL" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf005b6eegd9edg12b5g2847g6cb308887662" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha8e6db56ge4ddgc57dgdfdbg53d7f82bba08" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Threat" />
         <field name="StackId" type="StringTableFieldDefinition" value="AURA_OF_THE_SENTINEL" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="2" />
@@ -7612,6 +7633,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="HUNTERSPREY_HORDEBREAKER" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd0cfde10gdf36gc51age9f2gd9dc73cd5ad3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haf4865d4g944ag9cf5gf8b0g84b701adf954" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_HordeBreaker_Ranged" />
         <field name="Passives" type="StringTableFieldDefinition" value="HordeBreaker;" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -7796,6 +7818,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="UNNERVING_AURA" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcb469b5ag81e6gc10dgf121g03e0273e12e0" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfe6b221fg701bg9db4gdb32ga44f7bac6573" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Fear" />
         <field name="StackId" type="StringTableFieldDefinition" value="UNNERVING_AURA" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
@@ -8741,6 +8764,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="0de1c833-d8d7-4ad7-9969-202f4267ad94" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4c26e43bge586g467fg9205g5daf5b9a4dbe" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h440d92c5g827eg4e83ga9d3gb18aaf0860dc" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(WILD_MAGIC_TELEPORT,100,10)" />
       </fields>
     </stat_object>
@@ -8751,6 +8775,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="263ef393-8fa9-4364-8a26-a8ef20db9284" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdd5386dege144g459egbdd0ga5e0df1e9e7d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h76c410ccg5631g4bacg921eg33961cecb6b9" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -8760,6 +8785,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="5cd8827b-517e-438e-a4d8-a678a3f453ed" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd13f1a02g4d0eg4adcg9198g5ddf49d06f92" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h313de399g6ff6g4c30ga121gd02ae57ae801" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -8769,6 +8795,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="cc55e21a-7483-49d4-9560-df024a21c875" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h580fc2adg9a07g4b84g8406g66cee3940b7f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbb61a1bfgd1cdg4166ga626g58ef98721406" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9488,7 +9515,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SPELLFIRE_BURST" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h602c4560gbaadg43f4gca20g38ba13dd40b6" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h34d5fc08g03dage117ge30cge3bac9365062" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Fire);DealDamage(1d4,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Fire);DealDamage(1d4,Radiant);Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Cleric_DivineSpark_Radiant" />
         <field name="StackId" type="StringTableFieldDefinition" value="SPELLFIRE_BURST" />
         <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
@@ -9519,6 +9546,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="4dc3d3f2-5276-46d3-a67b-d63587dc1049" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hafa97bceg97c0gc97dgfa9fg414b6341027f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he015bc92g41b1g4d83gfa46ge61a66471197" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4.5)" />
         <field name="StackId" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,-4.5,0);" />
       </fields>
@@ -9635,6 +9663,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CELESTIAL_RESILIENCE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9a77bd65gc6e8gc16bgece1g0bad2814b83d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1a05b56aga724gdcdbge2deg4a389d5eeb0b" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_PrayerOfHealing" />
         <field name="StackId" type="StringTableFieldDefinition" value="CELESTIAL_RESILIENCE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(Cause.ClassLevel(Warlock)+Cause.CharismaModifier);" />
@@ -9764,7 +9793,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="UNHOLY_RESUSCITATION" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h066733abg26b1g988dgf08cg01f4e3757c53" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h77baae07gb508ga5a7g250fg1e4e4b4a196c" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10+CharismaModifier,Necrotic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10+CharismaModifier,Necrotic);Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="UndeadPatron_3_FormOfDread" />
         <field name="StackId" type="StringTableFieldDefinition" value="UNHOLY_RESUSCITATION" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DownedStatus(UNHOLY_RESUSCITATION_DOWNED,5);" />
@@ -9829,6 +9858,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="8c969ba0-1383-4c40-855c-7a38a795b590" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb8b45ed8gd527g7604ge1c1g6df8c0481f88" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h399533aeg04deg1545ge033g15234947d673" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="3" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="IF(HasStatus('HYPNOTIC_GAZE',context.Target)):ApplyStatus(HYPNOTIC_GAZE_AURA)" />
         <field name="Boosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -10003,6 +10033,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BLADESONG" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8abc2dde-ffb3-4fc2-a3da-32627941bf3c" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1669b47agf0fagd245g92f2g0e39a2c90370" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(Movement,3,0);UnlockSpell(Shout_Bladesong_Dismiss);Advantage(Skill,Acrobatics);RollBonus(SavingThrow, IntelligenceModifier, Constitution);AC(1);IF(AbilityGreaterThan('Intelligence',13,context.Source)):AC(1);IF(AbilityGreaterThan('Intelligence',15,context.Source)):AC(1);IF(AbilityGreaterThan('Intelligence',17,context.Source)):AC(1);IF(AbilityGreaterThan('Intelligence',19,context.Source)):AC(1);IF(AbilityGreaterThan('Intelligence',21,context.Source)):AC(1);IF(AbilityGreaterThan('Intelligence',23,context.Source)):AC(1);" />
         <field name="Passives" type="StringTableFieldDefinition" value="Bladesong_Bladework;" />
         <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsWeaponOfProficiencyGroup('Glaives|Greataxes|Greatclubs|Greatswords|Halberds|Mauls|Pikes', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand)) or WearingArmor() or HasShieldEquipped() or (not IsProficientWithEquippedWeapon())" />
@@ -10147,6 +10178,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BLINDFIRE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h86d52560g0e7fga4d6g37b2gbf26b4ebf7bc" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3f23c59cg5062g7897g047dg8aa2c35442a2" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Gunslinger_Risk_Blindfire" />
         <field name="StackId" type="StringTableFieldDefinition" value="BLINDFIRE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);StatusImmunity(BLINDED_DARKNESS);IgnoreSurfaceCover(SurfaceDarknessCloud);StatusImmunity(SG_Blinded);" />
@@ -10370,6 +10402,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="EXSANGUINATE_UNLOCK" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hea106602g9f5dg8754g958dg4324799b9073" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8024deb6g1171ge522g2119g5c416be99cb1" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="statIcons_MAG_TemporaryHP" />
         <field name="StackId" type="StringTableFieldDefinition" value="EXSANGUINATE_UNLOCK" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Exsanguinate);" />
@@ -10879,7 +10912,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ACID_BLOOD" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h18dea430g0a51g9ce2g9dc4g23ab4802a3ec" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5b8f7438g5b18gdde5gc4dfga7996a555481" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Acid)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Acid);Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Acid" />
         <field name="StackId" type="StringTableFieldDefinition" value="ACID_BLOOD" />
         <field name="Passives" type="StringTableFieldDefinition" value="AcidBlood;" />
@@ -12334,6 +12367,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SLASHER_SLOW" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf17a7619g3977g6814g32fbgf85330abba85" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hff8f8621g9bc7gd484g306bg3d323ffef343" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="statIcons_Hamstring" />
         <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StatusAnimationType" version="1" />
         <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Weakened" enumeration_type_name="StillAnimPriority" version="1" />
@@ -12493,7 +12527,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e0d20e0a-4cc3-4284-8230-163d2e67ae84" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc955fd61gc8e2gec82g251fg48d84fadc931" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc3df7c24g824ag06f4ge664geda5e80d2018" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Force)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Force);Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_PushingAttack_Melee" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_StrikeOfTheGiants_Stone);" />
       </fields>
@@ -12569,6 +12603,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CLOUDY_ESCAPE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hee2315d9g1b06g48c6g2394gbe6914d928f1" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hec5563b6ge606g541cg382eg17fce83ad82e" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FogCloud" />
         <field name="StackId" type="StringTableFieldDefinition" value="CLOUDY_ESCAPE" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
@@ -12675,6 +12710,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="STAND_AS_ONE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2be276d9g9017gecc8g9365g09bb5b15e42e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4bf93b9cg7a63g5e2bgf86ag8868c3da02b1" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_EnhanceAbility_BullsStrenght" />
         <field name="StackId" type="StringTableFieldDefinition" value="STAND_AS_ONE" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="10" />
@@ -12760,6 +12796,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="GLEAM_OF_WRATH" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcd7ebaacgd104g7c94g39abga1726e706521" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h44cd6db6gdaa7gaac2g514cg11ae3a98f828" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Daylight_Enchantment" />
         <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_Utility_Daylight" />
         <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_Utility_Daylight_Stop" />
@@ -12962,7 +12999,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="INNER_RADIANCE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb450a1d2g4f77g57dbg4c25gd3acee588f18" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4049a129gb079gf0dagb270g0aa72eb1171d" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ProficiencyBonus,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ProficiencyBonus,Radiant);Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
         <field name="StackId" type="StringTableFieldDefinition" value="HEAVENLY_WINGS" />
         <field name="AuraRadius" type="IntegerTableFieldDefinition" value="3" />
@@ -13000,6 +13037,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="NECROTIC_SHROUD" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5455adb5gc4c2g9159g585eg6c24762cbd53" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3a16b87eg8dd3g9578gd609gbf2f106aa676" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Necrotic" />
         <field name="StackId" type="StringTableFieldDefinition" value="HEAVENLY_WINGS" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsAttack() or IsSpell()):DamageBonus(ProficiencyBonus, Necrotic);" />

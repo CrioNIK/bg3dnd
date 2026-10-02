@@ -83,6 +83,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PsiWarrior_3_TelekineticMovement" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h112e5aabgae68g5b63g8e95g3c2e5fd8ebb8" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h789e4f7cgbbfdgd136g7526g0cb392afcf9d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;PsiWarrior:1;" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
         <field name="OriginSpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(ENSNARED_VINES);RemoveStatus(SHADOW_CURSED_VINES);RemoveStatus(WEB);" />
@@ -113,6 +114,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Archfey_TauntingStep" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h756fd0efg7178gaf40g2209ge695b89e27d9" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h444275c2g565cg45a9gdfbdg183d47facddb" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(GOADING_ATTACK,100,2);" />
         <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
@@ -136,7 +138,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Archfey_DreadfulStep" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h30f638b6g1b28g3f1fgb8cbge2ee1097d9ae" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6153da66gbfbeg1d0dgec8agfbc6490c04f5" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10,Psychic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10,Psychic);Distance(3)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d10,Psychic)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="752219e2-351d-46ea-9448-3a714b3d3acc" />
@@ -173,6 +175,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Fear" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5e6a75a1ga1edg6dcfge091g620017e990cc" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfa86f65dg33d6g9ea6g0948gfbf198214a31" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,2);" />
         <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
@@ -200,6 +203,7 @@
         <field name="OriginTargetConditions" type="StringTableFieldDefinition" value="not Self() and Ally();" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_DimensionDoor" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9cda9df5g341bg90cag16e9gfc25dc9df498" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);Distance(9)" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(ENSNARED_VINES);RemoveStatus(SHADOW_CURSED_VINES);RemoveStatus(WEB);" />
       </fields>
     </stat_object>

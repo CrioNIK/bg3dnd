@@ -106,6 +106,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Gunslinger_Risk_DodgeRoll" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6aee83f0gafd8gb807g3a1bg78fbd25f3f9b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h811be34fge8e2ga406g6b57gb6eda91fa978" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_SprintForMomentum" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="Requirements" type="StringTableFieldDefinition" value="!Immobile" />

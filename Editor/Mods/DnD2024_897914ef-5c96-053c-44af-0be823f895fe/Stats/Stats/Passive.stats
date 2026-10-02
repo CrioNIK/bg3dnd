@@ -1020,6 +1020,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="FountOfMoonlight_Blind" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="86cbc76e-fd6b-4704-8d83-de0e6752841a" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hacf02a17ga039ge18dg059eg7918843cf857" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_FountOfMoonlight);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -1050,7 +1051,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="DeathArmor_Passive" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0e05ff53ge761gd35cg2778g68647c918731" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd20da03ag764eg50f6g5b4dga5c0e396f838" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Necrotic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Necrotic);Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_DeathArmor" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -1261,6 +1262,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WorldTree_3_VitalityOfTheTree" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7f11fde8g7022gc624gc07cg0bf0afe43eb0" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h17806188g48eag72daga9fag423961387d39" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="WorldTree_3_VitalityOfTheTree" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1203" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -1276,6 +1278,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WorldTree_6_BranchesOfTheTree" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h39e02d12g9361g9427gcabbg9c625c015d9e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc973bce4g12d2g5a53g43a8g98cefe571124" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9);Distance(6)" />
         <field name="Icon" type="StringTableFieldDefinition" value="WorldTree_6_BranchesOfTheTree" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1206" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -1288,6 +1291,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WorldTree_10_BatteringRoots" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73b80082g2131g52abg5e7bg5ef03ffa6906" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h26a9d040g90ffg7098gc158g401ddd420d2e" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="WorldTree_10_BatteringRoots" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1210" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -1390,6 +1394,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Zealot_10_ZealousPresence" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9ac99198g4fe0gd34bg57a0g52acb98ed35f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd421ade2g497bg2094g6654geebf64ed20f1" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Zealot_10_ZealousPresence" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1310" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -1402,6 +1407,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ShadowGnawer_3_ShadowSmoke" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h69753443g4b64g24dfg671fg01f0a6c73022" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h214e9d1dg45fcg6388gdc9cg6130d7c87cf2" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FogCloud" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1303" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -1414,6 +1420,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ShadowGnawer_6_CreepingFog" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h69bf67ebgf486g254dg8139gcbbd39d66230" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h158135d1g6fa7g983eg619eg5cb15bc27602" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_ShadowStep" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1306" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -1438,6 +1445,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Fractured_3_FaceOfRage" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8130ff94gaab7gaff6gf12bgac599c7bd03e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h19bace45g8db7g181dgc420ge0fc17190c49" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Fractured_3_FaceOfRage" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="1303" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -1451,6 +1459,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Fractured_3_FaceOfRage_Toggle_Push" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h954836cfg0b63g6106g5d15g224a3463e27e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2c508ab1g6e88g9fc6g8d98gf93c24fc5e1a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsMeleeUnarmedAttack() and not IsMiss() and HasStatus('SG_Rage', context.Source);" />
@@ -1581,6 +1590,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BardicInspirationCharge" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h63129871gfb37gc314g1fdfg9b10303bcc26" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2810e8cag53f2gddb2gb1bbg7d5f6848ec0b" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Bard_RestoreBardicInspiration" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2001" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -1625,6 +1635,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Bard_7_Countercharm" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he36b3403gbab9gf77fg17fbg32e95953478c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1dedae79g3922gbd27g0925g98aec4318fa7" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Bard_Countercharm" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2007" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -1717,6 +1728,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Dance_6_InspiringMovement" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75cac7b5gabc0ge6d4gcf1bg66c77bcb1d31" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ad23fb9gc206g78bagd3d1g8369951939b3" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Dance_6_InspiringMovement" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2406" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -1729,6 +1741,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Dance_6_TandemFootwork" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1af76b4dg4b9cga7cdgf8e7g353530ee4ff9" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h22f95eb6g9866gb41fg1f08gece44a7945f9" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Dance_6_TandemFootwork" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2406" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -1747,6 +1760,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Moon_3_MoonsInspiration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9223661bgace2gba01g10dcgfc1ea09add5a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he8fec49dgf4c3g6a97g790bg3a7f505054bf" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9);Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Moonbeam" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -1773,6 +1787,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Moon_6_BlessingsOfMoonlight" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3911c437g16cagdddcgede4gaa0c643aec8c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haa5e73d8ga7e5ge281g8b67gae695bb23d75" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Moonbeam" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2506" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -1791,6 +1806,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Spirits_3_Channeler" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1ebd2503g6d9eg64e4g7876gf81e5169c3d1" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haf76903dg7bbdg5e64g7f90g970b37ad3960" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Divination_Guidance" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -1803,6 +1819,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Spirits_3_SpiritsFromBeyond" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf142ccaeg2d4cg6976g4ac2g7597d90fed0d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hadba9481g03c7gb0e4g2fc9gf098670ca5a9" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spirits_3_SpiritsFromBeyond" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -1849,6 +1866,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Choreography_3_FastMovement" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h646d3264gf6b6g560fg5c71g2bdcf82ed18f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1577c90agd0bag445egb032g8a550e8a9aa3" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);Distance(1.5);Distance(4.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_Longstrider" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="2503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -2199,6 +2217,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WarGodsBlessing" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4dc018cagbaa3ga624g7da2g0a6dab9353ce" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha052e514g0261g1570g0745g00d44f89cc3d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_WarGodsBlessing" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3403" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -2279,7 +2298,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Astral_3_CreateVoid" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h84a93262ga4eag809fg7a75gd6a9a6da35cf" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h520a3350gab70g330fge64fgd34f7914b820" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8+ClassLevel(Cleric),Force)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8+ClassLevel(Cleric),Force);Distance(18);Distance(4.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Astral_3_CreateVoid" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -2292,6 +2311,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Astral_3_PlanarReach" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf2358cb4g9ac5g070fg4962g945473af7540" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hea8f653bga035g6444ga74bg7a2cc46f5a2b" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Astral_3_PlanarReach" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
         <field name="EnabledConditions" type="StringTableFieldDefinition" value="HasActionResource('PlanarReach', 1, 0, false, false, context.Source);" />
@@ -2315,6 +2335,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Astral_6_SpatialExchange" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02d3ddc5gfa53g6d67g4b7cgfd71aa6b71d7" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h15e226b3g215bge214g85e0gbbc2eafde5c5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_BenignTransposition_Swap" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3506" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -2344,6 +2365,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Apocalypse_3_VisionsOfAnnihilation" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h46ff1dc0g3fb4g0e61g3544g195538ce2ff9" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h55235fc0g6321g25e2gcdefgc2244237ac56" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(36)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h947ed943ge9abg4881g2010ge2b6da6351b6" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_3_VisionsOfAnnihilation" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
@@ -2366,6 +2388,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Apocalypse_3_DoomSong" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h751150e3g3292g3e58g402ag01d32ccf9a11" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h469b91e3g1e80g366cg1b58gaf7e45b960a9" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(36)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_3_DoomSong" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -2378,6 +2401,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Apocalypse_6_AllWillBeDust" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h936af976g86a3g55a5gd932g3abc43fa4172" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0eff4b29g54dbgb8d1gfe4ege253bef014b6" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(36)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_6_AllWillBeDust" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3506" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -2435,7 +2459,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="GraveDomain_3_PathToTheGrave" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h794dc21ag8b55ga792g3b31g88988c279134" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf7e85ad5gadc6g23b3ge9bdgb92b56e72159" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ClassLevel(Cleric),Necrotic);DealDamage(ClassLevel(Cleric),Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ClassLevel(Cleric),Necrotic);DealDamage(ClassLevel(Cleric),Radiant);Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GraveDomain_3_PathToTheGrave" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_PathToTheGrave);UnlockInterrupt(Interrupt_PathToTheGrave_Radiant);UnlockInterrupt(Interrupt_PathToTheGrave_Necrotic);" />
@@ -2448,6 +2472,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="GraveDomain_6_SentinelAtDeathsDoor" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h345ec71fg8b14gc4a2ge4f4g2ae275d3a891" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb5512cccg4740g2f7dg76e9gd4d73b16a044" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h40fa14d1gcd8ag4b04g332cg14f014f79df1" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="GraveDomain_6_SentinelAtDeathsDoor" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -2488,6 +2513,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MindDomain_3_PsychicFeedback" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8f6de0c2g375fgd164gdd46g3b76457a3d70" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5360cb80gee7ag0e61g2927g4eace8e2c5e6" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="MindDomain_3_PsychicFeedback" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -2513,6 +2539,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MindDomain_6_GestaltAnchor" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h66a70d44ge6f0ga710g9f15ge39c0aaa98f6" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha688aa5dgc9bege050gd0f4gd8a5d10c7791" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="MindDomain_6_GestaltAnchor" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3506" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -2555,6 +2582,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ShadowDomain_3_LengthenShadow" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb2f444e4g0325g881ag13bcgf25bad34406e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h69f399c6g8e60g3971g78a2gebd2397144ff" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_ShadowWalk" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -2567,6 +2595,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ShadowDomain_3_ShadowGrasp" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb5ac88b0ga681g79ebg1b09g63b221dbec59" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbcbd58e8g49cfg974bg8aabgdc71760d819a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Cleric_ShadowGrasp" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -2670,6 +2699,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="TwilightDomain_3_EyesOfNight" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0060ddb2gfe04g6d96g6e94g9496e7fff0e0" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h73451af6g0c9dge1e4g112ag73be890335ef" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_SuperiorDarkvision" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -2694,6 +2724,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="TwilightDomain_3_TwilightSanctuary" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha2cbe761g2aeagb911g1788g0866a2b29338" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h532c41a2g898dg391bgea84g9bed3cd65e57" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfWarding" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="3503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -2763,6 +2794,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="DragonDomain_3_DraconicMajesty" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7a72c71dge3ceg382dg0d4eg0a3a9f9e8d36" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8291ccc5gfdbegf769g12a5gc01ea2a4cbdd" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DraconicMajesty);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_MantleOfMajesty" />
@@ -3093,7 +3125,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Land_3_LandsAid" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h773e9cb8g4f4agad4egf609gdb85666d9d37" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d366d57g2abcg334egec99gd574e5abbc31" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Necrotic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Necrotic);Distance(18);Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Druid_LandsAid" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4303" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -3169,6 +3201,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Sea_3_WrathOfTheSea" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h098af219gb42agf6c9gb202g7d21b599c435" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he83b406cg6857g3e88gd60dg2ef8a8d31d88" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);Distance(4.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Sea_WrathOfTheSea" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4403" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -3181,6 +3214,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Sea_6_AquaticAffinity" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb8de1b6fge14agdb53gd966gfe3270131b62" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8e98b937g68e2gbad3g7b1ag31a19750c163" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Sea_WrathOfTheSea" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4406" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -3330,6 +3364,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Dreams_3_Balm" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h853388a0g259bga78age028g6a93fbf44c57" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfdecb2bbgb554g7caage8a5ga7a203a6533c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Druid_Balm" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -3354,6 +3389,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Dreams_10_HiddenPaths" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h86d67657g9bf6g0b50g5e7cg56cc562e49a6" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8a84376bg7fbdg24c6g9d95gf3e5c6364f83" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_DimensionDoor" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="4510" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -3560,7 +3596,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PsiWarrior_3_PsionicPower" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hba0867adg6296gbd1cg160cg13de0e01f398" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha4121401g58f8gaedagc70dg1c134e1ef50a" version="3" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(PsiWarrior)+IntelligenceModifier,Force)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(PsiWarrior)+IntelligenceModifier,Force);Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PsiWarrior_3_PsionicPower" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5403" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -3575,6 +3611,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PsiWarrior_7_PsiPoweredLeap" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb9f6e95bg1ecbg4d70g2b47g004a19f989d8" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h53a46d69g6181g8c48g7c48g569803d1df00" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PsiWarrior_7_PsiPoweredLeap" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5407" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -3587,6 +3624,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PsiWarrior_7_TelekineticThrust_Prone" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h890ef36dga451ge5acgb49dg6c441e309f11" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9fa30afdgf4e2g7e74ga57fgdbedd4b1e363" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_TripAttack_Melee" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5407" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
@@ -3640,6 +3678,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Banneret_3_GroupRecovery" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f223b42g605egefc2g504ag6ef36cc460ed" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha8111f35ge4bag28bcg4d99g339262b0a595" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Banneret_GroupRecovery" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -3663,6 +3702,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Banneret_10_RallyingSurge" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4def2360g5a4cgbe2fge70fgbe9d99d7fa1f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9e1cff8dg946cga7ccgaeddg5ee4b899b6c6" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Banneret_RallyingSurge" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5510" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -3726,6 +3766,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Cavalier_7_WardingManeuver" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbb926017g2b0agbe90g66bcgbf207e483612" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha2bb03e3g700ag8cdagaff7gd4fdd097b625" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveAction_FightingStyle_Protection" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5507" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -3738,6 +3779,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Cavalier_10_HoldTheLine" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd234d1a5g51feg1581ga07ag43fc0a63f55a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96dd1a79g41bfg7310gfaedg7ce04dd1acf3" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_PolearmMaster_AttackOfOpportunity" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5510" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -3781,6 +3823,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="RuneKnight_7_RunicShield" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2c76a4f7g48d1g3368ga27agbd1576843d8d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9f5052c1ga6c8ga38cg6399gbc4405cf0442" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Shield" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="5507" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -4059,6 +4102,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(HasStringInSpellRoll('UnarmedAttack'),ModifyTargetRadius(Override,4.5));" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h890a9938gac70g797cg8e84g4f982f91e71f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h11332473g3979g9abfg761agdee2787744e5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarmonyOfFireAndWater" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
@@ -4069,6 +4113,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ElementalAttunement_Push" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02454f9dg7610g957dg5d40g829bab542a09" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h05885430gd722g322ag7f6agbaf1e13b70fd" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Charger_Push" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnAttack" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -4337,6 +4382,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SunSoul_3_RadiantSunBolt" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h871abaf9gb779g0d62g59aagd648984455bd" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he9d03706g649dg72b5g3adeg7dd6358e9597" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_GuidingBolt" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6403" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -4361,7 +4407,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SunSoul_11_SearingSunburst" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h17636940g2365ge91ag4ad4g878cd8c4ce42" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1fe50343g3067g0a7cg5c9egd0f5250b5e84" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Radiant);Distance(45);Distance(6)" />
         <field name="Icon" type="StringTableFieldDefinition" value="SunSoul_11_SearingSunburst" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="6411" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -4490,6 +4536,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Glory_3_InspiringGlory" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1f4761f8g70f7ge58fg4098g3ada7c0d7a24" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h94d2b863gce81ge85ag20a9gd351c1d2fbe8" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_InspiringLeader" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7203" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -4512,6 +4559,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Glory_3_PeerlessAthlete" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h03040e0bgc3c2g707bg30dcgcf793eb4b7da" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7b9c5b5dg52ddg7d07gf72dgc579b62da603" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_RemarkableAthlete_Jump" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7203" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -4524,6 +4572,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Glory_7_AuraOfAlacrity" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hadc15c48g3bdeg8e40g44fagefe0290db6ee" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b966c82g6ac4g74b4g1befg09e4bfb45f98" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_StepOfTheWind_Dash" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7207" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -4574,7 +4623,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="NobleGenie_3_ElementalSmite" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h971f55edg2fffg4d13geef5ga5900f12d913" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="haaf829fagd4d2g973eg987ag882a31fcb4ae" version="4" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Fire)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Fire);Distance(9);Distance(3);Distance(4.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Sorcerer_Passive_ElementalAffinity_Resistance" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -4650,6 +4699,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Conquest_3_ConqueringPresence" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha9bb3551ge412g5c19g5e97g106901d50282" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5bee8c93gf2c8gd340g65cfge6d42d8c4a32" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_DreadfulAspect" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -4674,7 +4724,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Conquest_7_AuraOfConquest" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h73506d7ega609g97beg9101g93708e3a082e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h999836e2gda36g81ebg8675g32c73bf93de3" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ClassLevel(Paladin)/2,Psychic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ClassLevel(Paladin)/2,Psychic);Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfHate" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7507" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -4715,6 +4765,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Watchers_3_WatchersWill" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h53bf4744g8817g4dc1g9f65g4ca743366100" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h55809fbag7bd0g427fgaea4gcc7103f95f2c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_MagicCircle" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -4727,6 +4778,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Watchers_3_AbjureTheExtraplanar" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1c396853g089ag4cf6gaac4g3a465614eb89" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9aa052ddgf617g4344ga11dg4ad49e29159e" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_TurnTheFaithless" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -4739,6 +4791,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Watchers_7_AuraOfTheSentinel" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7d68e487g894dg47f1g8cdcg0ca8573c0e57" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h41b477e4g3e5cg4162gb3dbga2e44d7f9e08" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Threat" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="7507" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;ToggledDefaultOn;IsToggled" enumeration_type_name="PassiveFlags" version="1" />
@@ -4932,7 +4985,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Hunter_3_HuntersPrey" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h827a0d51gd394g381fg428dg6ce1c84ff2a8" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd51ae331gb1a0gb3bfg9c3bg17441135a4c2" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,MainWeaponDamageType)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,MainWeaponDamageType);Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ColossusSlayer" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8303" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -5147,6 +5200,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="HollowWarden_3_WrathOfTheWild" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9a3aa8d6g3cb8g0884g6d9eg5f6c2e19ad7b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4d2b70ecgee46g15a5g5c0bga91856311ba5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="HollowWarden_3_WrathOfTheWild" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="8503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -5464,6 +5518,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Soulknife_9_PsychicTeleportation" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd37bdacag5d81g33e4gfebeg8a73e82f76c0" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd91b7847g79e2gdae7g83f9g933470184630" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Soulknife_9_PsychicTeleportation" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9409" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -5494,6 +5549,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="DeadThree_3_Bloodthirst" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfffd3126gea34g1eb6g8f8dge04162d1ab9b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc8d05a2bgbefbg9d12gb34fg7f2025113439" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9);Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Blood" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -5705,7 +5761,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BladeOfRadiance_9_EruptingBlades" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4991ec40g26c7gc891g8995g3c46491be240" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hda73ee14g5c7dg9f17g063dg92a87621426e" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(SneakAttack),Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(SneakAttack),Radiant);Distance(13.5);Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="BladeOfRadiance_9_EruptingBlades" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="9606" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -5846,6 +5902,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Clockwork_3_RestoreBalance" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfd40eb1dg31b8ge687g72f6g0d0e8189a3d0" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he4b6fb34g750cgd80agfb13ga652ce65321c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Clockwork_3_RestoreBalance" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10203" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -5867,6 +5924,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Clockwork_6_BastionOfLaw" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0760afc2g8dcegf074g4f57g884f001c7d9e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9363b64fg9775gd54eg1f42g92939094253b" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Clockwork_6_BastionOfLaw" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10206" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -5972,7 +6030,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SpellfireSorcery_3_SpellfireBurst" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5d10607dg8858g0d58gde8bgfe26a1630521" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8c1cf02dg530eg20c8ge29dgf4ccedf5993c" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Fire);DealDamage(1d4,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Fire);DealDamage(1d4,Radiant);Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Cleric_DivineSpark_Radiant" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -6037,6 +6095,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="FrostSorcery_3_FrozenBody" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he29b881cg8be9ge597gaa47ge013dbcb923e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4d2eb6abgde1bg02e5g7229g271d5c3cc35b" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(0.3);Distance(0.6)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_ArmorOfAgathys" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10503" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -6059,6 +6118,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="FrostSorcery_6_ColdHearted" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h41c12c6fg7222ge59egf356g102fa92de375" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h46113845g2cf8g2693g39begd296035270d7" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Cold" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10506" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -6092,6 +6152,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="5505fd16-aadc-4ae5-b3b3-3bdc4ac965eb" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h312226b3g88ffg25afg2137g749c468fee54" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5323da81g135bg48e5gba70g70416705b493" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(36);Distance(3)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="10503" />
         <field name="Boosts" type="StringTableFieldDefinition" value="DarkvisionRangeMin(24);ActiveCharacterLight(c46e7ba8-e746-7020-5146-287474d7b9f7);Tag(BLINDSIGHT);StatusImmunity(SG_Blinded);" />
       </fields>
@@ -6203,6 +6264,7 @@
         <field name="ToggleOnFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(USING_METAMAGIC,100,1)" />
         <field name="ToggleOffFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(USING_METAMAGIC)" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcb1875bdg0b82gd5fbg0db6g263e63afba9e" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);Distance(9)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(DistantSpellCheck(),ModifyTargetRadius(Multiplicative,2.0),ModifyUseCosts(Add,SorceryPoint,1,0));UnlockSpellVariant(DistantTouchSpellCheck(),ModifyTargetRadius(Override,9),ModifySpellFlags(Melee,0),ModifyUseCosts(Add,SorceryPoint,1,0));" />
       </fields>
     </stat_object>
@@ -6805,6 +6867,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Archfey_3_StepsOfTheFey" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h46177747g5549g5775gad78g65fbcd1fc3a6" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8adb922fgacb1g0f7fg68fagec7157198cc9" version="4" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Archfey_RefreshingStep" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11103" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -6827,7 +6890,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="0e04d301-f328-42cf-9cf2-081989abd6dc" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6115b3f2g010ag8559g7318gc2394c1971ed" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6dbe3baeg32b7g2be3gc059gc25854510170" version="3" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10,Psychic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10,Psychic);Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Archfey_DisappearingStep" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11106" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -6869,6 +6932,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Celestial_3_HealingLight" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf6fabff6g83a2gbd76gb861g272a6aa3b80c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdaeea362gfb80g3de3gfc7bgaaff6ca3e93f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Celestial_HealingLight" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11203" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -6892,6 +6956,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Celestial_10_CelestialResilience" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heab6ca12g945dg3d00g4c47g4b04d1d8218e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcdda7ab4ge734g2112g0666gf41d8d14e579" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11210" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -6911,6 +6976,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="ba7e6951-6525-48eb-bfe7-57fd5db8fb2e" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h10997edbg285bg8db6g0718gb2e6c09ff676" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h03df3855gb482gdaf5g11f0gbf6d6d9fbb62" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11303" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -7105,7 +7171,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="UndeadPatron_10_NecroticHusk" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he206cdceg59e4gfa8cg4328gf3d7938622de" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc58f0177g4e5fgb789g4272g3e57d5e733b0" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10+CharismaModifier,Necrotic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10+CharismaModifier,Necrotic);Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="UndeadPatron_3_FormOfDread" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="11410" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -7309,6 +7375,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="e6fbacaf-908f-41a5-a977-6a9bde3f1d41" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h19c5b950gb887g4a56g312cga3c9a0b8839a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h173a0fccg668ag5a93gc996gfe83b0867a07" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_ArcaneWard_Ally_1);UnlockInterrupt(Interrupt_ArcaneWard_Ally_2);UnlockInterrupt(Interrupt_ArcaneWard_Ally_3);UnlockInterrupt(Interrupt_ArcaneWard_Ally_4);UnlockInterrupt(Interrupt_ArcaneWard_Ally_5);UnlockInterrupt(Interrupt_ArcaneWard_Ally_6);" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12106" />
@@ -7338,6 +7405,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Conjurer_3_BenignTransposition" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h75b66feageb05g5a0fg580agd8c59865fa54" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8d3354dag4ecag38a2g2766ge86be91e3c69" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_BenignTransposition_Swap" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12103" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -7351,6 +7419,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Conjurer_6_DistantTransposition" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcccc4dceg63b3gc519geaffg4222fa9c8272" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h548afd77gc2b3g89dfgd738gf776357e3e79" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_BenignTransposition_Swap" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12106" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -7433,6 +7502,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Enchanter_3_HypnoticPresence" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3bb95d5cg43aeg5524g5c91ga2aac1cc18fb" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h44ce0999gffb8gccf4g4429gb9df80d8aa64" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h3bc5a082gab19g8d32gbfdbgd768db453f47" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_HypnoticGaze" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12103" />
@@ -7471,6 +7541,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="607a1731-6933-46b0-945d-ce1e50cc6d04" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h03f62749g8d93g697age178g6e00c7505c96" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he504c8bcgc377gbf92g559cgc2e5c646bb4c" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hbb9b2b7eg8826g4f26g8eebg4b4f9f10f7cf" version="1" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12110" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -7531,6 +7602,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="cb1839e9-3425-461f-9659-764037a5f549" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h05ec30e1g135dg784fg23d3gbe0b26cab88f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6ac5e4a1g208fg4753g01cegcda7a5d0e025" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12203" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_ImprovedMinorIllusion);UnlockSpellVariant(ImprovedIllusions(),ModifyTargetRadius(Multiplicative,1.5),ModifySpellFlags(Verbal,0),ModifySpellFlags(Stealth,1));" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -7571,6 +7643,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Necromancer_3_NecromancySpellbook" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd11bdeb3g31f0ga83cg8f57g28cfc7b854f8" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he471a363g718agdb65gfc93gfaaf98cbf3a2" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12203" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Necrotic,Resistant);UnlockSpell(Target_UndeadFamiliar,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);UnlockSpell(Target_UndeadVitality);" />
@@ -7598,7 +7671,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Necromancer_6_UndeadThralls" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf1eaaacbg73ceg0b57gea13gbdf05eeb6c4c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf22c6b70g1549g0985g59ebg9333ada24a72" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(max(1,IntelligenceModifier),Necrotic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(max(1,IntelligenceModifier),Necrotic);Distance(18)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12206" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_AnimateDead,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);UnlockSpellVariant(UndeadThralls(),ModifyNumberOfTargets(AdditiveBase,2,true),ModifyTooltipDescription(),ModifyIconGlow());ActionResource(UndeadThralls,1,0);IF(HasActionResource('UndeadThralls',1,0,false,false,context.Source)):UnlockSpellVariant(UndeadThralls(),ModifyUseCosts(Replace,SpellSlotsGroup,0,-1,SpellSlotsGroup),ModifyUseCosts(Add,UndeadThralls,1,0));" />
@@ -7628,6 +7701,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Transmuter_3_TransmutersStone" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h47f57d37g60a1g7058g9460g8406ead6821b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d075ee4g024ag9653g9e9fg8639dcbdfaf0" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18);Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_TransmutationStone" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12203" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -7987,6 +8061,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WhiteHat_3_LayDownTheLaw" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcf85f5ddg214egc39bga0e8g7ee910e3ffec" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8bee263cg9f25gd0b6gbdeag2013628793ec" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_ProtectionFromMissiles" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="13103" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -8042,6 +8117,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Illrigger_1_BalefulInterdict" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9b53ce98gbf9cg2509g1a23g24549bd6fad7" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha8eaee0fg754dg1d66g293cgf44cc84312b0" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Illrigger_1_BalefulInterdict" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14001" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;ToggledDefaultAddToHotbar;ToggledDefaultOn;IsToggled;Temporary" enumeration_type_name="PassiveFlags" version="1" />
@@ -8071,6 +8147,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="1afb5c3d-273e-4c46-a727-01fcdcc78d97" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb58aa744g9557g7770g99f4g200999b88429" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdeae353cg3e01gc0ceg92b4g4b51942b775d" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_PushingAttack_Melee" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -8088,6 +8165,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="1afb5c3d-273e-4c46-a727-01fcdcc78d97" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6db51716g1e60ga51dg64d5g8dce1924d495" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf1d142d7g41e9g9a72g6d5cgf6c2fa588579" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Magical" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnMovedDistance;OnStatusApplied;OnStatusRemove;OnTurn;OnRound" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -8132,6 +8210,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="1afb5c3d-273e-4c46-a727-01fcdcc78d97" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4c1994b8gf35cg365bg459eg53670e2a390f" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h69a470cbg07f2g82ddg9603g8091c23a6a5a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18);Distance(9);Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Illrigger_1_BalefulInterdict" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="BoostConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -8144,6 +8223,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="InterdictBoons_2_AbatingSeal" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h67853750g16c0g9b13gc3efgbaba43af6259" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hddb45062ge037g28d1g354fgec018a665978" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Shield" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14002" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -8201,6 +8281,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="InterdictBoons_7_AcheronsChain" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfa888bb3gb8a0ge2a8g81c2g00ae8844f692" version="4" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8993f01fgfd8fg8b11g17cdg458c682aad00" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_ThornWhip" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14007" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -8212,6 +8293,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="InterdictBoons_7_ConflagrantChannel" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4087e43dg1626g7141gb492g08612b1d6f08" version="4" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h283a80a7gdc57ge48fg2323g0a19321fd070" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MistyStep" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14007" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -8236,6 +8318,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="InterdictBoons_7_UnleashHell" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf6bff230g1643g366bg93ffg3c9d643ce07c" version="4" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6c2e1510g127eg4a2eg3cbfg9e940ea8f6e8" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Illrigger_1_BalefulInterdict" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14007" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -8248,7 +8331,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="InterdictBoons_7_VengefulShot" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he8bb0a53gb20cg63a2g3f35gf408f22a699e" version="4" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4455cd21gb4e4ga171g4a01gfd22b925fb9b" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ClassLevel(Illrigger)/2,MainRangedWeaponDamageType)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ClassLevel(Illrigger)/2,MainRangedWeaponDamageType);Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_BlindingShot" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14007" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -8342,6 +8425,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SanguineKnight_3_Exsanguinate" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6266397ag443dg94a5g8c87g09accc415506" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hacf9fc8fg665eg2cf7g70aaga3d8cc697843" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="statIcons_MAG_TemporaryHP" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -8365,6 +8449,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SanguineKnight_3_EmboldenAllies" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h08b904f9gd5aeg7159g0bb5g4f1a264718cc" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e93a04fgfcb3ge71cg8edcg9d735d49cff7" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_Bloodfeeding_ScarletRegeneration" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -8522,6 +8607,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PainKiller_3_Devastator" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h764b69fagcd7ag05fdgf7dag5bd26082ad00" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8dc48af4gcdf0gdb45g88c4g86ba48d298cb" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_CommandersStrike" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -8543,6 +8629,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PainKiller_3_GrandStrategist" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hed5241fcg4e7bg125eg7f8fg43f7f8fbd64a" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcac28d23geb38gd19fge1c7gd81fdc6dc09b" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_FastMovement" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14103" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -8567,6 +8654,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PainKiller_11_YouDieOnMyCommand" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1e5932b4g971fg88dcg9f73g49b5740e78e1" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h98e2c15eg1bb0g6b5fg7c81ge9b4199a5810" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Fighter_Rally" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14111" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -8639,6 +8727,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Shadowmaster_11_UmbralKiller" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h59478469g65f2gdc36g0515g15430765aa77" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hecbd9ffcg2be8gbb16g7102g34164bd0d262" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18);Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_UmbralCloak" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="14111" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -8755,6 +8844,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Artificer_7_FlashOfGenius" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h37074410gf258g6103g5302g429531067671" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h470004cfg4199g24dfg3a04ge1085900eaf7" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Artificer_7_FlashOfGenius" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15007" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -8895,7 +8985,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Armoror_9_ImprovedArmorer" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hae5b8629gb6dege582gb0b6g59da26e4eb55" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf03822e2g7af0g67edg9165g36461a798fbc" version="4" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Force);DealDamage(1d10,Thunder);DealDamage(2d6,Lightning)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Force);DealDamage(1d10,Thunder);DealDamage(2d6,Lightning);Distance(3);Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_HeavyArmorMaster" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15109" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -8941,7 +9031,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Artillerist_9_ExplosiveCannon" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3b11a6dfg7408ga680gbdf9g27b20bb02003" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb63bc4e3g2375g28c1gc6f9g87176ffa864b" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d10,Force)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d10,Force);Distance(6)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Monster_GortashMachine_GrenadeLauncher" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15109" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -8997,7 +9087,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="BattleSmith_9_ArcaneJolt" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6d2cfddegb7bag99e2g6ffbg6a101cdf219d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1ad514dega841gc35dg8804ga474e60b45ea" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Force)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Force);Distance(9)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h4f02276agb1b7g8939g8d33g4138f4f9a52f" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_LightningAura" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="15109" />
@@ -9017,6 +9107,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MonsterHunter_2_StudiedResponse" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h601d5cbag2cd7g2d2ag51c7gedc8460d73bd" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1acefdf8gda2eg7c3cg5653ge46c213d3330" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_GiantKiller" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16002" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -9173,6 +9264,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="OccultistGuild_3_ArcaneInterference" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6d45afc8gf3a4g9b53ge55cgee1e8ff20f84" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5524efc2g3048g863bg33c2g18cfc27aae3e" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MageSlayer_AttackACaster" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="16103" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
@@ -9515,6 +9607,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="19c32712-ac61-4049-98b1-b66808f1860a" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4fa37f8dgea0ag8e9eg9222g12cdf8ef50af" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hac8cf59bgb29dg6896g2a11g689bf333570e" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);Distance(3)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Athlete_Jump);" />
       </fields>
@@ -9526,6 +9619,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="89c11c83-9cd9-40aa-8cc6-89aa7e5d5a3d" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbc6e4744g6835g4d25g3453g224b9eed2a70" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4e972de5g72bbgc7d9gfda3g1c89f2af41d0" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Boosts" type="StringTableFieldDefinition" value="ActionResource(ChargerTurn,1,0);UnlockSpell(Rush_Charger_Attack);UnlockSpell(Rush_Charger_Push);UnlockSpell(Rush_Charger_Attack_Unarmed);UnlockSpell(Rush_Charger_Push_Unarmed);" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -9687,6 +9781,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="a43a1590-854a-4635-ad32-df5b6e5cc237" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h064d8f79g7d9eg262fg76e0g2d04ce1515a6" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1ea9a52fg1499gbdd8g9ab4g8e8ff63c7f3f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Mobile_DashAcrossDifficultTerrain" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -9788,6 +9883,7 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7e48c498g5f4dgcd45g58fdgd35b898ea7df" version="2" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h50c72f8dg99f9ge6cdg0ceegd20d554e3aaf" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_Sentinel);UnlockInterrupt(Interrupt_Sentinel_Disengage);" />
       </fields>
     </stat_object>
@@ -9807,6 +9903,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2deb7a9e-be40-405b-8282-1ae0a799a708" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha55fe95cgd504gfcc1gb585g1162cb7cffcc" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb219036fg4365gffedg71d5g938331069179" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);Distance(27)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreLowGroundPenalty(RangedWeaponAttack);IgnoreLowGroundPenalty(RangedOffHandWeaponAttack);IgnorePointBlankDisadvantage(Ammunition);IF(IsRangedWeaponAttack() and DistanceToTargetGreaterOrEqual(18)):Advantage(AttackRoll);UnlockSpellVariant(HasStringInSpellRoll('AttackType.RangedWeaponAttack'),ModifyTargetRadius(Override, 27));" />
       </fields>
@@ -9818,6 +9915,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="9d53cfae-2026-44d5-87af-1684c16e8483" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h99a1f866g5649g1e74gc90fgd29c50fa0426" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5752835cge17egb9e8g58cdgb5e2500ab72d" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_ShieldMaster);UnlockInterrupt(Interrupt_ShieldMaster_Shove);UnlockInterrupt(Interrupt_ShieldMaster_Prone);ActionResource(ShieldMaster,1,0);" />
       </fields>
@@ -9841,6 +9939,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SpellSniper_Melee" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h70813330g91cdg841fgd506g43cca562e934" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd8edfd84g6945ged2dg5a75gac1ea9cf87c7" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Buff" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsToggled;ToggledDefaultAddToHotbar;Highlighted;Temporary" enumeration_type_name="PassiveFlags" version="1" />
@@ -9878,6 +9977,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Crusher" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd28472dcg3ccag8ba5g3424g645e17f370db" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9ac2c1d5gd0dcga37bgf4d5gb17546182f77" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_BludgeonTheWeak" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -9927,6 +10027,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="0af27124-eacf-4b90-b70b-f35386f661f0" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h540810fdg8dc8g2211g0121gd8e6f4397c51" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfd222472gd8acg6b69g6068g2840b34f0315" version="4" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_MagicItem_SlashTheWeak" />
         <field name="Conditions" type="StringTableFieldDefinition" value="HasAttackDamageDoneForType(DamageType.Slashing) and IsWeaponAttack();" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SLASHER_SLOW,100,1)" />
@@ -10001,6 +10102,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="InspiringLeader" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h217127dag7542g9cacg618cg5aa51ecced4b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h008b1355g9855gf610g8c06gec5ceab5ab6f" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_InspiringLeader" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -10024,6 +10126,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Skulker" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0c144373g63c1g842bg99b7g472028280932" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h355c781dg7ea0g31c3g7904g5e09dcd7d24d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Hide" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -10042,6 +10145,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="DragonFear" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h49c4cec7gb617g6a1eg491fgb75829e376fa" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1e4b1002g6774g3698g6495gb47ef39af956" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_DraconicAncestry_Red" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -10163,6 +10267,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SquatNimbleness" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1dbe3f90g3d47gc1cagd861g317e83891368" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h40770da0g7507g2a0eg4c0dgbab4e296bc1d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_DisguiseSelf_Gnome_Female" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -10209,7 +10314,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="EmberOfTheFireGiant" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd96ff844gf66bg0e09g8f4bg3e72ec561d7b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5c65e74bgcca7gff2agc4abg0700018dda54" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8+ProficiencyBonus,Fire)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8+ProficiencyBonus,Fire);Distance(4.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -10222,7 +10327,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="FuryOfTheFrostGiant" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3b16fa55gc1f1gdc7fge59cg958d36a4da24" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5e33a0bdg4748gf679g1d0fg141a368e3366" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8+ProficiencyBonus,Cold)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8+ProficiencyBonus,Cold);Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Cold" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -10235,6 +10340,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="GuileOfTheCloudGiant" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9c3331b2g4ec1g5c10g7086gbaa775ffdf3d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h20e4b6b0g60edg473ag9aeeg93ed1d74cd27" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_FogCloud" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -10247,7 +10353,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="KeennessOfTheStoneGiant" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb06ef4dagca4dg7a01g7aefga57eecdfe412" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbd729210g3700g0c6dgfe28g7b0dc91aaae7" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d10,Force)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d10,Force);Distance(18)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Catapult" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -10260,6 +10366,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SoulOfTheStormGiant" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h55308372g8ed8g42dag1d55g0f824a4a4a08" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hca055ee6g46b2g0e20gb49ag38f4471f10d5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Thunder" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -11298,6 +11405,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CultOfTheDragonInitiate" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0d2663e7ga6eag1b82g8e4bg4351babc6226" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5648b3eag0325g46d8g5cd1g0463117aab6a" version="4" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerShortRest" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_DragonsTerror);" />
@@ -11313,6 +11421,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="EmeraldEnclaveFledgling" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9882b9efg772bg815eg465bg5671d559ae9f" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha908486dgac97g5080g2fcdg248197559140" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SpeakWithAnimals);" />
@@ -11325,6 +11434,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="HarperAgent" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h32098dd3g6f72g92eag10cbg76fc72c357c4" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96873617g1939g4ab3g3ea5g0e3840510734" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9);Distance(1.5)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpellVariant(SpellId('Target_Distract'),ModifyTargetRadius(Override,9),ModifySpellFlags(Melee,0));Proficiency(MusicalInstrument);" />
@@ -11371,6 +11481,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PurpleDragonRook" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h460435aaga1b3g7abbg15e5g3ca6334b18ec" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h76a090b6gcb17g375dg822fgdf79bae4b00a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_PurpleDragonRook);ProficiencyBonus(Skill,Persuasion);" />
@@ -11395,6 +11506,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="TyroOfTheGauntlet" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcdc555cfg9d57g4360g3b62gca191ef8dbeb" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hae5d214ag6792g7325g5146gf48dfd5f7239" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Transmutation_EnhanceAbility_BullsStrenght" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ToggledDefaultOn;ToggledDefaultAddToHotbar;IsToggled" enumeration_type_name="PassiveFlags" version="1" />
@@ -11408,6 +11520,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ZhentarimRuffian" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc035112fg126ag11d6gfb7dg336a2c68d5d8" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb6c99f09gddf8gda0ag3134gfda7f384b17d" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsReactionAttack(context.Source)):Reroll(Damage,20,true);UnlockSpell(Shout_FamilyFirst);" />
@@ -11572,6 +11685,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="OrdersResilience" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3860f913g1f6fg4b18g9ecfgabcab0169949" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hddb981a7g0a29gd059gf634g1b2d20e1a8fd" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_Heroism" />
@@ -11583,6 +11697,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="PurpleDragonCommandant" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9c38c422gaf7bg5622gf3baga2123af217ab" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf790b35fg5b7ege376ge7e5gfdcf78fcbf35" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasHPPercentageWithoutTemporaryHPEqualOrLessThan(50,context.Source)):Advantage(AttackRoll);UnlockSpell(Target_EncourageAlly);ActionResource(EncourageAlly,2,0);IF(CharacterLevelGreaterThan(4)):ActionResource(EncourageAlly,1,0);IF(CharacterLevelGreaterThan(8)):ActionResource(EncourageAlly,1,0);" />
@@ -11607,6 +11722,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ZhentarimTactics" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2d5b87b6g1172g67b5gcfefg0bf170e5aaef" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h06b8380ag7f73g106agdf63g8dabbadb964c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_ZhentarimTactics);" />
@@ -11665,6 +11781,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="GleamOfWrath" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hedc33adbg89b5ge699g0a6bgf060748fb8bb" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1fa402eeg7070g07b2gbfbaga67c4ad37e78" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="700" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_GleamOfWrath);CriticalHitExtraDice(1,MeleeWeaponAttack);" />
@@ -11697,6 +11814,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Altered" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf232e287g63a4g3aa2g6f5fg25aabe4d8c7e" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1844772eg802eg78e4g4c43g59d82d32b9d4" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18);Distance(9)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="600" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="BoostContext" type="EnumerationListTableFieldDefinition" value="OnEquip;OnCreate" enumeration_type_name="StatsFunctorContext" version="1" />
@@ -11996,6 +12114,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Mobility_JumpOnDash_Passive" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d77cf97d-8b1b-40d0-8780-d91c371901d7" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h07de6d7ag5621g4204g93bdg12d04e9defa9" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9);Distance(3)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -12020,7 +12139,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_HolyAvenger_Passive" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h345d4909g3905g0fc0g06eag48597d9a0ed4" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha4f758dfga2beg1ec7gcda5g49ccf54aa751" version="4" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d10,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d10,Radiant);Distance(3)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -12212,6 +12331,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Goliath_1_GiantAncestry_Cloud" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hce152759gc1e1g418cgcf1agfab6759d882e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="had6cf5adg8eb1gc683g7f11gab246e2b6b44" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="500" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_CloudsJaunt);" />
@@ -12237,7 +12357,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2a2959fe-f719-4cc4-b732-de877c49d91f" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h51b85e6cg91c9g2e69ga921ga3e9856e5b2c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6f446eaeg8ec6g19c7g34a6gf2ed7fde9501" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Cold)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Cold);Distance(3)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_FrostsChill);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Cold_Melee" />
       </fields>
@@ -12271,7 +12391,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="2a2959fe-f719-4cc4-b732-de877c49d91f" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9cd64908gcb06gfdd5g1d19g351cc167fcfc" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h58289e87g34a5g2ffdg308dge576a637a4d7" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Thunder)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Thunder);Distance(18)" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_StormsThunder);" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Thunder" />
       </fields>
@@ -12282,6 +12402,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="Goliath_5_LargeForm" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heaf54f1fg5a38gb0bcgce29ga8bbc11c1a24" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35af86fcg2186gfbc2g672fgcbee62e25113" version="4" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_GiantsCarryCapacity" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="505" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
@@ -12341,6 +12462,7 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_CelestialRevelation);" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hc5a84737g0024g47c9g1052gdf0e4350d3ec" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">

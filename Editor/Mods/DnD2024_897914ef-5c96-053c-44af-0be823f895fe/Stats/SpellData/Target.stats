@@ -567,6 +567,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WardingBond" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="00ec1220-f8ad-44c1-9125-89901b606642" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hca956f6fg7446gdf7fg60bag36e7853ca0c9" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -575,6 +576,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WardingBond_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="aa371818-f1b7-4d36-ae58-6e7ac2ed1419" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hd0f268c5ga792g388ag89beg27993a801b4e" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -583,6 +585,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WardingBond_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="39a55cb1-fc08-42dc-abc7-fabae811cbcd" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hddf1d80agc605gd10ageadfg364f889fcd0e" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -591,6 +594,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WardingBond_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7ab4b0f0-5130-4ce2-9241-30ac170287a5" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hfb95ce72g8252ge83fg5316gf6e8f6c45584" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -599,6 +603,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WardingBond_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="553ad447-85e1-4261-af93-b5fd9a80b33a" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hacd0f311gff68ge0cegd678g80ea9a8ee794" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -607,6 +612,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="MAG_WardingBond" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="845fd6fa-eca4-409e-be42-179d9a797fbe" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h1cf67618gcdc1g9bf0g352egd9e5052a34ad" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -615,6 +621,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="TWN_WardingBond" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b700e8ef-6b96-4063-8a89-d2ca973331e7" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hd3e9c567g2905g672bg0224gf1c8ec229255" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -623,6 +630,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="LOW_WardingBond_Distant" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6535f7da-969d-452f-939f-583ab015c03f" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h917f9908g4fcbge66dgb997gdac87ffc4aff" version="1" />
+        <field name="ExtraDescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -1035,7 +1043,7 @@
         <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="9c82304c-f4cc-4204-b0f0-424867d2c0b4" />
         <field name="Sheathing" type="EnumerationTableFieldDefinition" value="Melee" enumeration_type_name="SpellSheathing" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he35c6486g7f21gd1fag785egf414f915b565" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,MainMeleeWeaponDamageType)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,MainMeleeWeaponDamageType);Distance(6)" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Control_Gen_L1to3_01" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Control_Gen_L1to3_01_Loop" />
         <field name="BeamEffect" type="GuidObjectTableFieldDefinition" value="da341132-7322-4dab-af7e-def589d7ece7" />
@@ -1048,7 +1056,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SpectralSlash_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c1f14f16-ea01-444a-a2a3-ef2f2b5bf997" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8,MainMeleeWeaponDamageType,Magical);" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,MainMeleeWeaponDamageType)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,MainMeleeWeaponDamageType);Distance(6)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,MainMeleeWeaponDamageType);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;SpellSlotsGroup:1:1:2" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_SpectralSlash" />
@@ -1062,7 +1070,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SpectralSlash_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d224911e-4d38-43bf-aa26-faf160f53aa7" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d8,MainMeleeWeaponDamageType,Magical);" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8,MainMeleeWeaponDamageType)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8,MainMeleeWeaponDamageType);Distance(6)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,MainMeleeWeaponDamageType);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;SpellSlotsGroup:1:1:3" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
@@ -1075,7 +1083,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SpectralSlash_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d224911e-4d38-43bf-aa26-faf160f53aa7" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,MainMeleeWeaponDamageType,Magical);" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,MainMeleeWeaponDamageType)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,MainMeleeWeaponDamageType);Distance(6)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,MainMeleeWeaponDamageType);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;SpellSlotsGroup:1:1:4" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
@@ -1088,7 +1096,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SpectralSlash_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d224911e-4d38-43bf-aa26-faf160f53aa7" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,MainMeleeWeaponDamageType,Magical);" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,MainMeleeWeaponDamageType)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,MainMeleeWeaponDamageType);Distance(6)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,MainMeleeWeaponDamageType);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;SpellSlotsGroup:1:1:5" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
@@ -1101,7 +1109,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SpectralSlash_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d224911e-4d38-43bf-aa26-faf160f53aa7" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,MainMeleeWeaponDamageType,Magical);" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,MainMeleeWeaponDamageType)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,MainMeleeWeaponDamageType);Distance(6)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,MainMeleeWeaponDamageType);DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
@@ -1343,7 +1351,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_CloudOfDaggers" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f315172g0ecag6f6ag14c9g3d5db880a811" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8a7a7954g6da6g0f9cgced3g9dfea486d831" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d4,Slashing)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d4,Slashing);Distance(1.5);Distance(12);Distance(9)" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
@@ -1431,6 +1439,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_CloudOfDaggers" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81c2ba2bgde76gcf4dgb0feg9c1e82f5c048" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h397f04c0gccd3gd295ga021g620c652c55a6" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;7abe77ed-9c77-4eac-872c-5b8caed070b6,,;cb171bda-f065-4520-b470-e447f678ba1f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
@@ -1462,6 +1471,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h933efb07gb6d9g6ac3g1616gcb30169f9ef8" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hdc6544c3gfdf8g7fbeg01beg66ea43bb6f3b" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
@@ -1479,6 +1489,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf9903a34g76c3gfdf1g4be2g6ded0a0cde47" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h32b22995g2857gfa18gcd1cg50ffda0195dd" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
@@ -1496,6 +1507,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h91d412b9gc3c1g03ddg9d69g14b5660c1d16" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha97083f1g4db3gf664gd422g662591619c09" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
@@ -1513,6 +1525,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="haaf05dcegc1c7g957cg76bagbacf907adfb7" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h80951a8egaf3eg2e55g487ag32eaf1d2ca05" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
@@ -1947,7 +1960,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5c12bafga9aagfb28g8efbg6a56a1770bd5" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2d8" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2d8;Distance(4.5)" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Acid)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -1966,7 +1979,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h11cbe00dg7613g77ebgcbf6g82af126dc834" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="3d8" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="3d8;Distance(4.5)" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Acid)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -1985,7 +1998,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TargetConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf72ba7eeg74aeg8025g8d10g383f2aab6a51" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4d8" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4d8;Distance(4.5)" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Acid)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -2007,7 +2020,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h96663848g22b6g4fd3g0749gcca87a42edab" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Force)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Force);Distance(3)" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="af05b622-2a1e-406a-b1a0-41a7ceb77253" />
         <field name="PositionEffect" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
@@ -2025,7 +2038,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfbad83efgcb7cg321ag47a0g402ce027568b" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Force)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Force);Distance(3)" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="af05b622-2a1e-406a-b1a0-41a7ceb77253" />
         <field name="PositionEffect" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
@@ -2043,7 +2056,7 @@
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasVerbalComponent;HasSomaticComponent;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc98c1c9egd99agca86ged41g2a76a0c61645" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Force)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Force);Distance(3)" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="af05b622-2a1e-406a-b1a0-41a7ceb77253" />
         <field name="PositionEffect" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
@@ -4616,6 +4629,7 @@
         <field name="AoEConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and not IsImmuneToStatus('SLEEP') and not Ally();" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0fb46065g45fege74age2e5g0f1ff68942df" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10)" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
@@ -4637,6 +4651,7 @@
         <field name="AoEConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and not IsImmuneToStatus('SLEEP') and not Ally();" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4fcec4c9gde1eg19b6gebddg9af35fef4ff5" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10)" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
@@ -4658,6 +4673,7 @@
         <field name="AoEConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and not IsImmuneToStatus('SLEEP') and not Ally();" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ba0acdeg33d2g33c7g5f83gb4c34e1444c0" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10)" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
@@ -4679,6 +4695,7 @@
         <field name="AoEConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and not IsImmuneToStatus('SLEEP') and not Ally();" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha765fffag4904gfe52g8d54gd4472a83f8fc" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10)" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
@@ -4700,6 +4717,7 @@
         <field name="AoEConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and not IsImmuneToStatus('SLEEP') and not Ally();" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h804ad0f1g6cb1ge2ecg1066g91b9c7f2effa" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10)" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
@@ -4721,6 +4739,7 @@
         <field name="AoEConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and not IsImmuneToStatus('SLEEP') and not Ally();" />
         <field name="AmountOfTargets" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h47a0106cg9a69g79a5g7f31g8c859cf2dd61" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SLEEP,100,10)" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
@@ -5347,7 +5366,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_GreenFlameBlade" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3729f6f3g8054gfc05g7817g8f510f005496" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h61a4b68fgff5eg7169g07bfg95aab5c70a68" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BoomingBlade)+SpellCastingAbilityModifier,Fire);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BoomingBlade)+SpellCastingAbilityModifier,Fire);;Distance(1.5)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(BoomingBlade),Fire)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeWeaponAttack" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="CrSpell_Prepare_Azer_SearingSmite" />
@@ -5389,7 +5408,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_VengefulBlade" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h65da4e4ag4859ga026g9095g2e8a3e5e278f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hee7efdd5g7678gd390g9d02gfa6d6bde145c" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BoomingBlade_Walk),Necrotic);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BoomingBlade_Walk),Necrotic);;Distance(1.5)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainMeleeWeapon, MainMeleeWeaponDamageType);DealDamage(LevelMapValue(BoomingBlade),Necrotic)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(VENGEFUL_BLADE,100,1)" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_ArmsOfHadar_L1to3" />
@@ -5415,7 +5434,7 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and not Ally()" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbca64bf4ga835g10c5gba60g0c68950c7135" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8caea2f7gd7feg90a5gc318g2cfb95c6f90b" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Radiant);Distance(3)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Radiant)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HOLYWORD,100,1)" />
@@ -5898,7 +5917,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(2d10/2,Radiant);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb5c8a2c2gcb05g89ceg701dg519dda931a2d" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant);Distance(1.5);Distance(12);Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5910,7 +5929,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(3d10/2,Radiant);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc24592adg7667g3703g77f3g28bd0167f967" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant);Distance(1.5);Distance(12);Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5922,7 +5941,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(4d10/2,Radiant);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2a605fbbg9e30g5d2fg99cfge3895f1bc658" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant);Distance(1.5);Distance(12);Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5934,7 +5953,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d10/2,Radiant);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3d8e9323g4462gb81dg88e1g83c02f1a2c2b" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant);Distance(1.5);Distance(12);Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -5946,7 +5965,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d10,Radiant)" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d10/2,Radiant);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heee3ac7dg3b5cg3d93geb1dgae3f70c163c3" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d10,Radiant);Distance(1.5);Distance(12);Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6603,7 +6622,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SpellfireStorm" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf91f3fe6gf176g015fg2e8bg8d7e113fb2e5" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc68e827eg501cgbab0ga48egb7055d764e5b" version="3" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d10,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d10,Radiant);Distance(6)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d10,Radiant)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPELLFIRE_STORM_AURA,100,10)" />
@@ -6671,7 +6690,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_HolyWeapon" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfd297654g852eg6991g0f63g6d204e54a34b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he39926bdgdb3ag2cd8gd6c1g17c647980ce1" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Radiant);DealDamage(4d8,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Radiant);DealDamage(4d8,Radiant);Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HOLY_WEAPON,100,-1)" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_Gen_L1to3_01" />
@@ -6716,7 +6735,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Dawn" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdbf6da5fgd885gc08cg83acg46495bbfa106" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hee4eeb62g90f6g0d54g43a5g6045f299125f" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d10,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d10,Radiant);Distance(9);Distance(12);Distance(18)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d10,Radiant)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DAWN_AURA,100,10)" />
@@ -7408,7 +7427,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_DeathArmor" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h47e9e8edg7b15gb388g44c7ge5b71376dbe8" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9bba05a0ga2fag0a19gfc1egb6a0b1880e7a" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Necrotic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d4,Necrotic);Distance(1.5)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DEATH_ARMOR, 100, -1);" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="6ff1780a-855a-414c-a8bf-811251537206" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Necrotic_InflictWounds_L1to3" />
@@ -7554,7 +7573,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_MurmursOfDoom" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9652267bgde21g4799ga95ag6f6fadec6806" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5ed5413eg93c7gb24cg21d8g7901b49c4c83" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8,Necrotic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d8,Necrotic);Distance(9)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8,Necrotic,Magical);" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(MURMURS_OF_DOOM, 100, 10);" />
@@ -8955,7 +8974,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_PrimalSavagery" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6389b1f8gf9b2g4b1fg95ecgbc55399bd0ef" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9b72e2dfgf1abg484cg8976gdd3fb95cb68d" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip),Acid)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip),Acid);Distance(1.5)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D10Cantrip),Acid)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="MeleeSpellAttack" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Acid_AcidSplash_L1to3" />
@@ -9060,6 +9079,7 @@
         <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4b50165cg7c3dg0c06g4d6cgbbeb1860e49c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);Distance(9)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9073,6 +9093,7 @@
         <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2c906325gf33ag8c1cgb681g54b7ac099738" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);Distance(9)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9086,6 +9107,7 @@
         <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h35f37f72g15a5g5604gdb78g977b94b87709" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);Distance(9)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9099,6 +9121,7 @@
         <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha63bbbd5g91e2g8333gb91ag7753f4337e19" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);Distance(9)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9112,6 +9135,7 @@
         <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h57ee6921g4a34g9c18gedfbg01c62484a2ed" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);Distance(9)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9125,6 +9149,7 @@
         <field name="RitualCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha30a8814gd13dg168cgb242g878fd141f459" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);Distance(9)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9351,6 +9376,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_DragonsBreath" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he19de47agde53g5b49gd45ag019467942cb7" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0dcdc1c9g2349g6dc5g0490g2bd7268e6913" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4.5)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d6,Fire)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE,100,10);" />
@@ -10048,6 +10074,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FLY,100,100);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc7b7932cg1da7g2183g00f2g206583dcf7ef" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h285600aag7ea5gc76dg7ee0gf02eee80c3a6" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -10058,6 +10085,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FLY,100,100);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9de09bd7gc9d1g08d0gcd2fg85f226c678d3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc3d38c0eg2fe4g7216g4d25g664b8ca1c301" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -10068,6 +10096,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FLY,100,100);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4e086e1dgb445g00e5g933agb84d51e37356" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h406d239cgf596g3642g0c30g97eb1a38e37a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -10078,6 +10107,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(FLY,100,100);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4d6a7f0cg4b59gf232g16f9gaaf7e6aa8dfb" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h680a104dg18d0g6bfeg6161ga38f884a1c38" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -10533,6 +10563,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="WorldTree_3_VitalityOfTheTree" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbc51a963g20c5g876cgc0b3g1fda844b3830" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h21000e09gdda6g7a5fg404eg1458b9ccd985" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Healing_CureWounds_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_CureWounds_L1to3" />
         <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
@@ -10561,6 +10592,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="WorldTree_6_BranchesOfTheTree" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0742adb9g8528gcb3ag3596ge883d9faa6ab" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1d68851cgda5ag5482g75f2gc0f7b6817b16" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9);Distance(6)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Strength" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BRANCHES_OF_THE_TREE,100,1);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="CrSpell_Prepare_Claw" />
@@ -10827,6 +10859,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Dance_6_InspiringMovement" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h02d0f03dgbaeegc343ge0f3gc9b59d3458f4" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc0c004d2g6411g3244g9901gb849e25f434f" version="4" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INSPIRING_MOVEMENT_ALLY,100,1);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Bard_BardicInspiration_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Bard_BardicInspiration_L1to3" />
@@ -10866,6 +10899,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Archfey_DisappearingStep" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4b8c5fb1g0cb0gdf42g5d1bgd60b7110c837" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h354b3d9ag3986g5438g5c7fg5f7f7196c4c4" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INVISIBILITY,100,2);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_Invisibility_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_Invisibility_L1to3" />
@@ -10894,6 +10928,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Healing" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h97618a1dg57f7g2acfg001dg5ba785249fde" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h13f755b1gb20cg69d9g98a6g40d319bcab11" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(2d4)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Healing_HealingWord_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_HealingWord_L1to3" />
@@ -10936,6 +10971,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spirits_3_UnleashingASpirit" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h23b11d5dg4140gd4e3g0710ge0e1bf4a740e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h99fc91bfg4ca1g9784g96bege336a9f9cf88" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
@@ -11041,6 +11077,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MistyEscape" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h038053e1gcfecgf7dbgde6fg58230daeb450" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6b7ca201g1238g4bbdg17feg37877398fd9e" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_RENEGADE,100,1);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_MistyStep_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_MistyStep_L1to3" />
@@ -11098,6 +11135,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Durable" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9275efcdg5392ga44cg149cg1a62add6cf2a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3c143767g21a8g66bcg6a21gf96dcfb36b88" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_WAYFARER,100,-1);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_Gen_L1to3_01" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Buff_Gen_L1to3_01_Loop" />
@@ -11166,7 +11204,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Invisibility" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he46fe671gb7f8g016egffdfgebfe371c4328" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1558545egaf7dg1079g8177g9f6871b6f525" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BardicInspiration)+LevelMapValue(BardicInspiration),Necrotic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(BardicInspiration)+LevelMapValue(BardicInspiration),Necrotic);Distance(1.5)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRITS_SHADE,100,1);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_Invisibility_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_Invisibility_L1to3" />
@@ -11234,6 +11272,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Fear" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf6a2b168g2d98g1bf5g837cg2fceb2ab048d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h173fc315gc0d2g81edgd93dg3ddf2abd9626" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Wisdom" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SPIRIT_COWARD,100,1)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Psychic_DissonantWhispers_L1to3" />
@@ -11262,6 +11301,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_MistyEscape" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbff33399g3821g55a5g1421g5be8f35d3981" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h496851c8g04fdg00a4g089dg29319b878d02" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_MistyStep_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_MistyStep_L1to3" />
         <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Teleport" />
@@ -11732,7 +11772,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Astral_3_CreateVoid" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0058e102gbba8ge20eg2cd0gc0bfb13819ea" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h62513dd3g7a62g4659g151cg25df749019af" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8+ClassLevel(Cleric),Force)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8+ClassLevel(Cleric),Force);Distance(18);Distance(4.5)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+ClassLevel(Cleric),Force)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -11756,6 +11796,7 @@
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character()" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc2e55bdeg5106gd40agd099gff2986e993e4" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8e4177f4g16c3g3fc7g9a6eg1f1682c821e8" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_MistyStep_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_MistyStep_L1to3" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;ChannelDivinity:1" />
@@ -11781,6 +11822,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_3_VisionsOfAnnihilation" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf9a730dcg1eb4gd9edg0aa7gb17398270505" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb07fc0ddg58b4ga6acgedc3gd632be720493" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(36)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(VISIONS_OF_ANNIHILATION,100,1);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Debuff_Hex_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Debuff_Hex_L1to3" />
@@ -11807,6 +11849,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_3_DoomSong" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h99f00500gb9adga785g718fgd903fd641999" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7ffa0044gb8c8g868fg7f1fgf74e697c363e" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(36)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DOOM_SONG_TARGET,100,100);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Psychic_DissonantWhispers_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Psychic_DissonantWhispers_L1to3" />
@@ -11834,6 +11877,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Apocalypse_6_AllWillBeDust" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3475c9ecg2cbcge436gbedfg439982b16a38" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h420df6cbg0932g5e3dgc009g752d63452593" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(36)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ALL_WILL_BE_DUST,100,1);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_Gen_L1to3_Loop" />
@@ -11867,7 +11911,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GraveDomain_3_PathToTheGrave" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9f30b48cgc586g9ffdge56fg532847cbc56f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h348d60dcgba3eg7259gaac2g9675ec8837a8" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ClassLevel(Cleric),Necrotic);DealDamage(ClassLevel(Cleric),Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ClassLevel(Cleric),Necrotic);DealDamage(ClassLevel(Cleric),Radiant);Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PATH_TO_THE_GRAVE,100,1);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Debuff_Hex_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Debuff_Hex_L1to3" />
@@ -11900,6 +11944,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Cleric_ShadowGrasp" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h40671bc4g4e10g2c2egd92cg6a9ae5dc8595" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7630efebgc128g1a88g3056g3cd8dbd6ce14" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SHADOW_GRASP,100,2);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Necrotic_Gen_L1to3_Loop" />
@@ -12286,7 +12331,7 @@
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2b54832cgd102gec1dg521dgc5239b16c5b9" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7d366d57g2abcg334egec99gd574e5abbc31" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Necrotic)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Necrotic);Distance(18);Distance(3)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(LandsAid),Necrotic);RegainHitPoints(LevelMapValue(LandsAid));" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Control_Entangle_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Control_Entangle_L1to3" />
@@ -12315,6 +12360,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Monk_WaterWhip" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3c20f33cgc7dag94d0ge8cag9a5b89fd4b90" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfce3b1a5gd494ge7ddge2b2gaa37f42771ce" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(4.5)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Monk_WaterWhip_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Monk_WaterWhip_L1to3" />
@@ -12385,6 +12431,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Druid_Balm" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h37aa6b9dgff7fg4b1bgab52g38d4828960cd" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he20dfbbag75a3gc426g332eg26d5f5687c72" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(1d6);" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BALM_TEMPHP_1,100,-1);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Summon_Goodberry_L1to3" />
@@ -12520,6 +12567,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Banneret_GroupRecovery" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h20c820b5g9ed5g6cf5gf004ge0cc7d3c1bb8" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6bfa7986g7edeg322fgd99egace84461fcf5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="RegainHitPoints(1d10+ClassLevel(Fighter));" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Rally" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Rally" />
@@ -12610,6 +12658,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Banneret_RallyingSurge" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hed379247g311dgc5a8g87cag1e9a14eb6346" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h02149e62gbafbgc9c5g274fg20af94229331" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ACTION_SURGE,100,1)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Rally" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Rally" />
@@ -13235,6 +13284,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Fighter_Rally" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he69c1c77gfc97gb4e2g7877gb843a6c497b6" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h46a88a7bg99ddgbfe4gc4aeg5843b027814d" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(INSPIRING_GLORY_1,100,-1);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Rally" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Rally" />
@@ -13325,6 +13375,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_MagicCircle" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hffe71531ga373g6aebg5c04g34c95b77fed1" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hcade1749gdcc0g1f97g1533gca440242cfde" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WATCHERS_WILL,100,10);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3_Loop" />
@@ -13837,6 +13888,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="ArachnoidStalker_WebSwing" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8003d95eg1760g2a2cg0ed8g04e5bd178f4b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9b6e054dg85d4gfb2cge79dg58537fc3ddfb" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Action_Prepare_Weapon_DrowSpiderGloves_WebPull" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Action_PrepareLoop_Weapon_DrowSpiderGloves_WebPull_MO" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Weapon_DrowSpiderGloves_WebPull" />
@@ -13912,6 +13964,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Clockwork_6_BastionOfLaw" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf99f0430gcf80g65cag1938ge75ef3c48bfe" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5b259fc9g61a3g1b94g1d3cgb22d7ecefdc2" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BASTION_OF_LAW_1,100,-1);" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3_Loop" />
@@ -14023,6 +14076,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Cleric_DivineSpark_Heal" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h33522f06g6cadgaee9g398eg0bd52adb964b" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0ffef888g07e1g2e7dgf090g1e02c22995ae" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BOLSTERING_FLAMES,100,-1);" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
@@ -14037,7 +14091,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hcbc34c94g87dagca44ge6bcg1c07a081e603" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h37be3b80g09fbg170eg2b7cg065997dc9bf9" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Fire)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Fire);Distance(9)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d4,Fire);" />
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
@@ -14055,7 +14109,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Radiant" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h14663f97g9c94ge2fegb1d6g11e9d19efb32" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf4271cc8ge175g82fcg26deg011060d3570a" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d4,Radiant);Distance(9)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d4,Radiant);" />
         <field name="CycleConditions" type="StringTableFieldDefinition" value="Enemy() and not Dead()" />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
@@ -14265,6 +14319,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Archfey_RefreshingStep" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h832c95cdged4dg5872g8888g502dc91b83e0" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h34d645ffgccd0g672cg5920g5e1aa15ee5a7" version="4" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_MistyStep_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_MistyStep_L1to3" />
         <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Teleport" />
@@ -14319,6 +14374,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Celestial_HealingLight" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h57173a7egcdf0g4150gbb9eg91bada654a99" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h13ee529eg2e3ag6b49ge487g5564265ef86c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(1d6+CharismaModifier);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Radiant_SacredFlame_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_CureWounds_L1to3" />
@@ -14716,6 +14772,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Healing" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4eb02c09g214cg4297g9192gf6fdbd7ea742" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb739493fgb415g2c67g1468ga33088f66f31" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Healing_HealingWord_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Healing_HealingWord_L1to3" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
@@ -15001,6 +15058,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="UnleashHell_Fire" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="had6ccb0dg99e0ge0b3gfe64g2cc75c0d28a0" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="heca0b0d3g54dbgf86cg916cg906977301869" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ReactionActionPoint:1" />
       </fields>
     </stat_object>
@@ -15102,6 +15160,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb5dc95fdga8fdga177gedf9g3d1def6b18b4" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8b8b45b5g6648g381bg1bccg8ba31a12abd5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(EXSANGUINATE,100,-1);" />
         <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -15119,6 +15178,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_Bloodfeeding_ScarletRegeneration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3193c1b1g81cegd32cg4ceag8e352d5d18eb" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf94f341dged44gb9bcged64g8666ae8b410e" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(5*ClassLevel(Illrigger))" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
@@ -15135,6 +15195,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_Mag_Bloodfeeding_ScarletRegeneration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha3823257g1d27g9d0egeff1gb7b607bf03f2" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h331a5a4cg366cg82a3g63e0g6899f199c8bb" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(5*ClassLevel(Illrigger))" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
@@ -15202,6 +15263,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Action_CommandersStrike" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hac72ef57geda5gbcb7gefd0gd8f3ef7ecd35" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h81b4dc8dg3da9gf440gb6ccgfc1f97fafdf6" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DEVASTATOR,100,2)" />
         <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="UseCosts" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
@@ -15219,6 +15281,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_FastMovement" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha7727e9ag0c15g6933gae63g6fa84b4bf2d4" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h820d0d49g5c04gb627g8857g7f344163dd3d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(18)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DASH,100,1);ApplyStatus(DISENGAGE,100,1);" />
       </fields>
     </stat_object>
@@ -15505,6 +15568,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Armorer_Dreadnaught" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h097afcaegbffcg54c6g7e95g39e866fdaad8" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4fbaa426ge15cg76e8g135bg063e1212f51b" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsAttack;IsMelee;IsHarmful;Temporary" enumeration_type_name="SpellFlagList" version="1" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Force" enumeration_type_name="Damage Type" version="1" />
       </fields>
@@ -15517,6 +15581,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(max(1,MainMeleeWeapon), MainMeleeWeaponDamageType);ExecuteWeaponFunctors(MainHand);TARGET:IF(not Grounded() and TargetSizeEqualOrSmaller(Size.Large)):Force(-3, OriginToEntity, Neutral, false, true);" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc997bdabg8c5dg07ceg15dfgb0f9460ee068" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h885fc7c4ga223g5fe2g45e3gcecbe30e37ae" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -15573,6 +15638,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Healing" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h214b31e4g1222g89d1g1c98g859dc68c80f1" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hde43de07gcaa5gae30g5a72gf42e5fc93579" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="RegainHitPoints(2d6)" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Lightning_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Lightning_Gen_L1to3_Loop" />
@@ -15781,6 +15847,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MistyStep" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hee2315d9g1b06g48c6g2394gbe6914d928f1" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hec5563b6ge606g541cg382eg17fce83ad82e" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_MistyStep_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_MistyStep_L1to3" />
         <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Teleport" />
@@ -15812,6 +15879,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_Fear" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0cb1e09cg436bgc901g0c7cg06f2eb6a1066" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7859cbddgc1d2g2fb6g37e8ge9fff27abfce" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(FRIGHTENED,100,2);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Damage_Necrotic_Paladin_SpitefulSuffering" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Damage_Necrotic_Paladin_SpitefulSuffering" />
@@ -15839,6 +15907,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Skill_Fighter_Rally" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbd9d344cgf966g1f1ag6c2ag2c71696c22ea" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5084d2fcg51fdgc84dg02cfg9b81d8b498cd" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(HEROIC_INSPIRATION_TEMP,100,-1);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Rally" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Rally" />
@@ -15884,6 +15953,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h11b2630egba57g41bfg86afga1a03173230e" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h74764f94g16bbg3291g6bf1g64f2467c1d2d" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(ENCOURAGE_ALLY,100,-1)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;EncourageAlly:1" />
       </fields>
@@ -15935,6 +16005,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MistyStep" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he20db01ag854cg5a64g64d9g56c85a8ea153" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8c201e1agf723gd526gdedfgb1cbcf2e8fc7" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_MistyStep_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_MistyStep_L1to3" />
         <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Teleport" />
@@ -16011,6 +16082,7 @@
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="SpellSchool" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h423aa2bdgc981gde37g9921g76d99865cb47" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc2d61264g8816g804bg2a62g2c5d7e343f46" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;Goliath:1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
@@ -16026,7 +16098,7 @@
         <field name="SpellFail" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he859361dg2b9agac3fg2bdcg3f27f7143f6a" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h352899a3g7e44g14c0g1466gcef7fe4c478f" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Thunder)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Thunder);Distance(18)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
@@ -16079,6 +16151,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_MistyStep" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h89d1cdf7g6826g2911g126fga606244e1e51" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2617fe64ge08cg8debgc3f1g7f4a57cefae0" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9)" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_MistyStep_L1to3" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Utility_MistyStep_L1to3" />
         <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_Teleport" />
@@ -16110,6 +16183,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="a5545740-8d40-44c1-8d49-fe1315bc9b38" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd5282a6cg61c4g9090gb19ag4594d3d35701" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb284f5d4gf341g5049g2ce3g9ea223e41a38" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
         <field name="AoEConditions" type="StringTableFieldDefinition" value="Enemy();" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Enchantment_CharmPerson" />
@@ -16130,7 +16204,7 @@
         <field name="SpellRoll" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4a8a3d05ged7ag55e3g1276g814259823391" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ProficiencyBonus,Fire)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(ProficiencyBonus,Fire);Distance(1.5)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(ProficiencyBonus,Fire)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>

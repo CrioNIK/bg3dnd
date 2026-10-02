@@ -40,6 +40,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SPIRITS_SHADE" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h35ce1531gbf74g63ebgb93dge033e33d1130" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf545430ag2493gc858g08d3g0bef38197077" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Invisibility" />
         <field name="StackId" type="StringTableFieldDefinition" value="INVISIBILITY" />
         <field name="StackPriority" type="IntegerTableFieldDefinition" value="9" />

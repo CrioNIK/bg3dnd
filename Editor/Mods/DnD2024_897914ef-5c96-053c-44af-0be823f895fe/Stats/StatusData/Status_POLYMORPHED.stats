@@ -230,6 +230,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="WILDSHAPE_SEA" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2441e241g48f9g90deg04f4gc1d4278870d3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf8470c53gc4a7gf584g96f0g33c340603191" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Sea_WrathOfTheSea" />
         <field name="SoundStart" type="StringTableFieldDefinition" value="Spell_Status_ElementalWildShapeWaterMyrmidon_Start" />
         <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_ElementalWildShapeWaterMyrmidon_MO" />
