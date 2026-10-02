@@ -67,6 +67,10 @@ function Hex()
     | SpellId('Target_Hex_Charisma_6')
 end
 
+function HasHexStatus()
+    return HasAnyStatus({'HEX_STRENGTH','HEX_DEXTERITY','HEX_CONSTITUTION','HEX_INTELLIGENCE','HEX_WISDOM','HEX_CHARISMA','ELDRITCH_HEX_STRENGTH','ELDRITCH_HEX_DEXTERITY','ELDRITCH_HEX_CONSTITUTION','ELDRITCH_HEX_INTELLIGENCE','ELDRITCH_HEX_WISDOM','ELDRITCH_HEX_CHARISMA'}, {}, {},context.Target,context.Source)
+end
+
 function HasHexStatusReverse()
     return HasAnyStatus({'HEX_STRENGTH','HEX_DEXTERITY','HEX_CONSTITUTION','HEX_INTELLIGENCE','HEX_WISDOM','HEX_CHARISMA'}, {}, {},context.Source,context.Target)
 end
