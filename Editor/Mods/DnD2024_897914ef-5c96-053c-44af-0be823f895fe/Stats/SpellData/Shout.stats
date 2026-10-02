@@ -7085,15 +7085,15 @@
         <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="5" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Dexterity, StrWisSaveDC());" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(Fire,1d8+ProficiencyBonus);ApplyStatus(BLINDED,100,1);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(Fire,(1d8+ProficiencyBonus)/2);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d8+ProficiencyBonus,Fire);ApplyStatus(BLINDED,100,1);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((1d8+ProficiencyBonus)/2,Fire);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and Enemy() and not Dead();" />
         <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Fire" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h01d6d533g9bc4g0cdegde2fg1d200535c4e7" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hed9510fdg4a6dge76dgaa9bg643066cb6cf5" version="2" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8+ProficiencyBonus,Fire)" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h29832775g4de3gb8f5ge5d0g6d6aabe5c831" version="1" />
-        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(Fire,1d8+ProficiencyBonus);" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8+ProficiencyBonus,Fire);" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BLINDED,100,1);" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Utility_FireshieldWarm_L4to5" />
