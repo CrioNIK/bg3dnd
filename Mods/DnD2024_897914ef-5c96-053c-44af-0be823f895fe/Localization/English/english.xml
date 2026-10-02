@@ -483,7 +483,7 @@ Elemental Strikes: Whenever you hit with your Unarmed Strike, you can cause it t
   <content contentuid="habf53306g66b3gb76ag5a1bgf0e155fe7d9b" version="1">Elemental Burst</content>
   <content contentuid="h637a148fgbbb7g2269gfdd1g3f81fddd5949" version="1">As a Magic action, you can expend 2 Focus Points to cause elemental energy to burst in a [1] radius Sphere centered on a point within [2] of yourself. Choose a damage type: Acid, Cold, Fire, Lightning, or Thunder.
 
-Each creature in the Sphere must make a Dexterity saving throw. On a failed save, a creature takes [3], [4], [5], [6], or [7] (the chosen type). On a successful save, a creature takes half as much damage.</content>
+Each creature in the Sphere must make a Dexterity saving throw. On a failed save, a creature takes damage of the chosen type equal to three rolls of your Martial Arts die. On a successful save, a creature takes half as much damage.</content>
   <content contentuid="h13e2605fg4015g36b3g1800g126360f78534" version="1">Elemental Burst: Acid</content>
   <content contentuid="heb32a441g2a41g2be1g94a8gfb7868573b40" version="1">Elemental Burst: Cold</content>
   <content contentuid="h20cb80c4gd3bag353egbaeagfc09e502126d" version="1">Elemental Burst: Fire</content>
@@ -672,7 +672,7 @@ You gain two more options at Sorcerer level 10.</content>
 
 In addition, while your Innate Sorcery feature is active, your spell save DC increases by 2, rather than 1.</content>
   <content contentuid="h186d2005gce77g5134gd47dgcd1286eb95f5" version="1">Sorcerous Burst</content>
-  <content contentuid="hf0be6fffg6e33g9c45g69bdg8f11958d0454" version="2">You cast sorcerous energy at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes [1], [2], [3], [4], [5], [6], or [7] (your choice).
+  <content contentuid="hf0be6fffg6e33g9c45g69bdg8f11958d0454" version="2">You cast sorcerous energy at one creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes damage of a type you choose: Acid, Cold, Fire, Lightning, Poison, Psychic, or Thunder.
 
 Sometimes the magic surges and deals additional damage. The chance of a magical surge increases each time this cantrip’s damage increases at higher levels.</content>
   <content contentuid="h1e350658g92b2g40abg4e13g0a0194995e34" version="1">Arcane Vigor</content>
@@ -5386,7 +5386,7 @@ When you make an Unarmed Strike, your reach is 5 feet greater than normal.</cont
   <content contentuid="ha351e5dfg5a09g2d6agfd39geb9d1770a8f5" version="1">Eldritch Smite (Ranged)</content>
   <content contentuid="hcd8ed7acga54dg31f4gb831g3687c2792f10" version="1">Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra [1] to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.</content>
   <content contentuid="h7282e855ge2c0g4f40gc42bgdec458d13ad3" version="1">Ballistic Smite</content>
-  <content contentuid="h13aa2cdag2fb5g8660ga803g42449d529329" version="1">The target hit by the attack takes an extra [1], [2], [3], [4], [5], or [6] (your choice).</content>
+  <content contentuid="h13aa2cdag2fb5g8660ga803g42449d529329" version="1">Choose Acid, Cold, Fire, Lightning, Poison, or Thunder damage. The target hit by the attack takes an extra damage of the chosen type.</content>
   <content contentuid="h55e5be08g5ff7g2cf9g5dabg5964e7cfef5a" version="1">Ballistic Smite: Acid</content>
   <content contentuid="h40f147a8g98d2gb22dg8665g35bdab166d32" version="1">Ballistic Smite: Cold</content>
   <content contentuid="hbdc42068gbee7gfa65g006egbbd103dbaeae" version="1">Ballistic Smite: Fire</content>
@@ -5400,11 +5400,11 @@ When you make an Unarmed Strike, your reach is 5 feet greater than normal.</cont
   <content contentuid="h004828cbg6ae4g9d9fgef10g00102cb4f553" version="1">Dual Wielder: Off-Hand Attack</content>
   <content contentuid="h3a446706g6505g19b1g3826gb313d8b63d3f" version="1">You can make an additional Off-Hand Attack as a Bonus Action this turn.</content>
   <content contentuid="hf7c771bbgba46g05a3g6c15g9c7c4ebba6b6" version="1">Absorb Elements</content>
-  <content contentuid="h2127d371g53e2g616ag957cg184d49e115ef" version="1">The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra [1], [2], [3], [4], or [5] (the triggering type), and the spell ends.</content>
+  <content contentuid="h2127d371g53e2g616ag957cg184d49e115ef" version="1">The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra [1] damage of the triggering type, and the spell ends.</content>
   <content contentuid="hccbdbb9eg99b6gf54fgce8dg5a4b024a38a8" version="1">Absorb Elements</content>
-  <content contentuid="h23f50accgc0b8gb376gbc26g1fff227eb3f5" version="1">The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra [1], [2], [3], [4], or [5] (the triggering type), and the spell ends.</content>
+  <content contentuid="h23f50accgc0b8gb376gbc26g1fff227eb3f5" version="1">The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra [1] damage of the triggering type, and the spell ends.</content>
   <content contentuid="h0d100dc2gb2a7ge09fg624dga1554d1a009c" version="1">Absorb Elements</content>
-  <content contentuid="hab392145gc890gaa18g04cag5b0b653d9632" version="1">The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra [1], [2], [3], [4], or [5] (the triggering type), and the spell ends.</content>
+  <content contentuid="hab392145gc890gaa18g04cag5b0b653d9632" version="1">The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra [1] damage of the triggering type, and the spell ends.</content>
   <content contentuid="h93909048gc250g4ba0g8188g2450b9be939f" version="1">Magic Initiate: Absorb Elements</content>
   <content contentuid="hc53cf966gb23fg281eg72e3g7fee38b6dede" version="1">Tide of Darkness</content>
   <content contentuid="h029cddf2gf1b9g86a2g45e7g18bf046b40f1" version="3">You unleash a wave of swirling shadows that fills an area next to you. Each creature in a 10-foot Cube of Darkness originating from you when you cast the spell makes a Wisdom saving throw. On a failed save, a creature takes [1] and is Blinded until the start of your next turn. On a successful save, it takes half as much damage and isn’t Blinded.</content>
@@ -5532,7 +5532,7 @@ At Higher Levels: your Speed increases by an additional 5 feet, and the Fire dam
   <content contentuid="h090fc065geb1dge3e6g22b1g1d5d2fa91c92" version="1">Laeral's Silver Lance</content>
   <content contentuid="h55dbf30agbd12g301dga596g935c9cd3ab5e" version="1">Silver energy bursts out from you in a 120-foot-long, 5-foot-wide Line. Each creature of your choice in the Line makes a Strength saving throw. On a failed save, a creature takes [1] and has the Prone condition. On a successful save, a creature takes half as much damage only.</content>
   <content contentuid="he19de47agde53g5b49gd45ag019467942cb7" version="1">Dragon's Breath</content>
-  <content contentuid="h0dcdc1c9g2349g6dc5g0490g2bd7268e6913" version="1">You touch one willing creature, and choose Acid, Cold, Fire, Lightning, or Poison. Until the spell ends, the target can take a Magic action to exhale a 15-foot Cone. Each creature in that area makes a Dexterity saving throw, taking [1], [2], [3], [4], or [5] (the chosen type) on a failed save or half as much damage on a successful one.</content>
+  <content contentuid="h0dcdc1c9g2349g6dc5g0490g2bd7268e6913" version="1">You touch one willing creature, and choose Acid, Cold, Fire, Lightning, or Poison. Until the spell ends, the target can take a Magic action to exhale a 15-foot Cone. Each creature in that area makes a Dexterity saving throw, taking damage of the chosen type on a failed save or half as much damage on a successful one.</content>
   <content contentuid="h8b5c0d31g91fdg86d0g19aag926c55ff9469" version="1">Dragon's Breath</content>
   <content contentuid="hb10c2d2ag537bg8220ge773g2f2eca39fdaa" version="1">Dragon's Breath</content>
   <content contentuid="h5739f1d4gcac7g91f1g8878gc76bc894c921" version="1">Dragon's Breath</content>
@@ -5564,7 +5564,7 @@ Fire. The damage type is Fire. Each creature that fails the saving throw is engu
 
 Water. The damage type is Acid. Each creature that fails the saving throw has the Prone condition.
 
-Each creature within a 30-foot Cone of destructive elemental energy must make a Dexterity saving throw. On a failed save, a target takes [2], [3], [4], [5], or [6] (the chosen type). On a successful save, the target takes half as much damage only.</content>
+Each creature within a 30-foot Cone of destructive elemental energy must make a Dexterity saving throw. On a failed save, a target takes damage of the chosen type. On a successful save, the target takes half as much damage only.</content>
   <content contentuid="hbdbf38edg682agb073g615cgd0646d705eb5" version="1">Air. The damage type is Thunder. Each creature that fails the saving throw is pushed 10 feet away from you.
 
 Each creature within a 30-foot Cone of destructive elemental energy must make a Dexterity saving throw. On a failed save, a target takes [1]. On a successful save, the target takes half as much damage only.</content>
@@ -6512,13 +6512,13 @@ Frightful Avatar. Once per turn, when you hit a creature with an attack roll, yo
   <content contentuid="hb170c461g64a8ga1b1g8e92g84265039c932" version="1">You conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration. Until the spell ends, any attack you make deals an extra damage when you hit a creature in the Emanation. This damage is Acid, Cold, Fire, or Lightning (your choice when you make the attack).
 
 In addition, the ground in the Emanation is Difficult Terrain for your enemies.</content>
-  <content contentuid="hd5c12bafga9aagfb28g8efbg6a56a1770bd5" version="1">You conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration. Until the spell ends, any attack you make deals an extra [1], [2], [3], or [4] (your choice when you make the attack) when you hit a creature in the Emanation.
+  <content contentuid="hd5c12bafga9aagfb28g8efbg6a56a1770bd5" version="1">You conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration. Until the spell ends, any attack you make deals an extra [1] damage when you hit a creature in the Emanation. This damage is Acid, Cold, Fire, or Lightning (your choice when you make the attack).
 
 In addition, the ground in the Emanation is Difficult Terrain for your enemies.</content>
-  <content contentuid="h11cbe00dg7613g77ebgcbf6g82af126dc834" version="1">You conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration. Until the spell ends, any attack you make deals an extra [1], [2], [3], or [4] (your choice when you make the attack) when you hit a creature in the Emanation.
+  <content contentuid="h11cbe00dg7613g77ebgcbf6g82af126dc834" version="1">You conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration. Until the spell ends, any attack you make deals an extra [1] damage when you hit a creature in the Emanation. This damage is Acid, Cold, Fire, or Lightning (your choice when you make the attack).
 
 In addition, the ground in the Emanation is Difficult Terrain for your enemies.</content>
-  <content contentuid="hf72ba7eeg74aeg8025g8d10g383f2aab6a51" version="1">You conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration. Until the spell ends, any attack you make deals an extra [1], [2], [3], or [4] (your choice when you make the attack) when you hit a creature in the Emanation.
+  <content contentuid="hf72ba7eeg74aeg8025g8d10g383f2aab6a51" version="1">You conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration. Until the spell ends, any attack you make deals an extra [1] damage when you hit a creature in the Emanation. This damage is Acid, Cold, Fire, or Lightning (your choice when you make the attack).
 
 In addition, the ground in the Emanation is Difficult Terrain for your enemies.</content>
   <content contentuid="h0fab1115gf226ge8beg030ag68b6e3209ba0" version="1">Conjure Minor Elementals: Acid</content>
@@ -6978,8 +6978,8 @@ When the spell ends, the target is Incapacitated and has a Speed of 0 until the 
   <content contentuid="h658b5e46g9a77g41bagb97dg93007ba2f16d" version="1">Level 1: Primal Order: Primal Savagery</content>
   <content contentuid="ha4c26951g8b5dg4934g8e76gc35ecdb75322" version="1">Primal Savagery</content>
   <content contentuid="he2f01678g6528g4656g9346g1ab03132b75d" version="1">Alter Self</content>
-  <content contentuid="hea2d0864g6340g4c53ga4bcg413229f33797" version="1">Your body reshapes itself to grow natural weapons: claws, fangs, horns, or hooves. Unarmed Strikes made with them deal [1] for claws, [2] for fangs or horns, or [3] for hooves instead of your usual Unarmed Strike damage. Use your spellcasting ability modifier, not Strength, for their attack and damage rolls.</content>
-  <content contentuid="h8089a3a9ga6d2g4913g8e5fg89d941c87d28" version="1">Can make Unarmed Strikes with natural weapons that deal [1], [2], or [3], using the spellcasting ability modifier for attack and damage rolls.</content>
+  <content contentuid="hea2d0864g6340g4c53ga4bcg413229f33797" version="1">Your body reshapes itself to grow natural weapons: claws, fangs, horns, or hooves. Unarmed Strikes made with them deal 1d6 damage instead of your usual Unarmed Strike damage: Slashing for claws, Piercing for fangs or horns, and Bludgeoning for hooves. Use your spellcasting ability modifier, not Strength, for their attack and damage rolls.</content>
+  <content contentuid="h8089a3a9ga6d2g4913g8e5fg89d941c87d28" version="1">Can make Unarmed Strikes with natural weapons that deal 1d6 Slashing, Piercing, or Bludgeoning damage, using the spellcasting ability modifier for attack and damage rolls.</content>
   <content contentuid="h7c8a1b28g2b90g4e43g98a4gcb5a8d361fe7" version="1">Natural Weapons</content>
   <content contentuid="ha509a31bg3546g4500gb510g7ab54f7d9d64" version="1">Make an Unarmed Strike with the natural weapons Alter Self gave you, using your spellcasting ability modifier for the attack and damage rolls.</content>
   <content contentuid="hce9994bfg435eg45fag9883g866ac5c0f777" version="1">Natural Weapon: Slashing</content>
@@ -7002,7 +7002,7 @@ While under the effects of Alter Self, you gain an additional benefit for each o
 
 Change Appearance. You have Advantage on Charisma (Deception) checks.
 
-Natural Weapons. The damage of your new growth increases to [1], [2], or [3]. You also have Advantage on Constitution saving throws to maintain Concentration.</content>
+Natural Weapons. The damage of your new growth increases to 2d6 damage of the type associated with the growth. You also have Advantage on Constitution saving throws to maintain Concentration.</content>
   <content contentuid="hb8ae5762g6803g76f5g55ccg1109ad8941db" version="1">Level 6: Empowered Transmutation</content>
   <content contentuid="hb2019138ge371ga0e0g2a82g1670d92db796" version="1">When you use a spell slot to cast a Transmutation spell, such as Fly or Haste, you can target one additional creature with it.
 

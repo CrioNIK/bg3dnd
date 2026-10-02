@@ -285,7 +285,7 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_ElementalExhalation" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdb0aa103g9344gc10cg7143gabd5c9c363de" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1042549ag1908gfbe0g5f54g6b7fb0d8ba00" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Fire);DealDamage(5d6,Thunder);DealDamage(5d6,Cold);DealDamage(5d6,Bludgeoning);DealDamage(5d6,Fire);DealDamage(5d6,Acid)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Fire)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d6,Thunder,Magical);" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
         <field name="TooltipOnSave" type="StringTableFieldDefinition" value="f762efbb-f8f1-493e-b248-2de1567b4bd2" />

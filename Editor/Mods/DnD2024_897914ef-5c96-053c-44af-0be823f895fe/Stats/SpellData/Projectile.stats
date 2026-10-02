@@ -488,7 +488,6 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_SorcerousBurst" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h186d2005gce77g5134gd47dgcd1286eb95f5" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf0be6fffg6e33g9c45g69bdg8f11958d0454" version="2" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(LevelMapValue(D8Cantrip),Acid);DealDamage(LevelMapValue(D8Cantrip),Cold);DealDamage(LevelMapValue(D8Cantrip),Fire);DealDamage(LevelMapValue(D8Cantrip),Lightning);DealDamage(LevelMapValue(D8Cantrip),Poison);DealDamage(LevelMapValue(D8Cantrip),Psychic);DealDamage(LevelMapValue(D8Cantrip),Thunder)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedSpellAttack" />
         <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
@@ -925,7 +924,6 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_BallisticSmite" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7282e855ge2c0g4f40gc42bgdec458d13ad3" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h13aa2cdag2fb5g8660ga803g42449d529329" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Acid);DealDamage(2d6,Cold);DealDamage(2d6,Fire);DealDamage(2d6,Lightning);DealDamage(2d6,Poison);DealDamage(2d6,Thunder)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(MainRangedWeapon+2d6, MainRangedWeaponDamageType)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="RangedWeaponAttack" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />

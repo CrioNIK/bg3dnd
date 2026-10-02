@@ -7643,7 +7643,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="Transmuter_3_WondrousAlteration" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6e22118ag6a4fga46eg47b6g391b85128a7f" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1610492bg081fg2025g5ba3g7e3850173f85" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Slashing);DealDamage(2d6,Piercing);DealDamage(2d6,Bludgeoning)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_AlterSelf" />
         <field name="PriorityOrder" type="IntegerTableFieldDefinition" value="12203" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />

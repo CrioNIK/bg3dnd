@@ -483,7 +483,7 @@
   <content contentuid="habf53306g66b3gb76ag5a1bgf0e155fe7d9b" version="1">원소 폭발</content>
   <content contentuid="h637a148fgbbb7g2269gfdd1g3f81fddd5949" version="1">마법 행동으로 기력 점수 2점을 소모해, 자신으로부터 [2] 이내에 있는 한 지점을 중심으로 [1] 반경 구체 형태로 원소 에너지를 폭발시킬 수 있습니다. 산성, 냉기, 화염, 번개, 천둥 중 피해 유형 하나를 선택합니다.
 
-구체 안에 있는 각 크리처는 민첩 내성 굴림을 해야 합니다. 실패하면 크리처는 [3], [4], [5], [6] 또는 [7](선택한 유형)를 입습니다. 성공하면 그 절반의 피해를 입습니다.</content>
+구체 안에 있는 각 크리처는 민첩 내성 굴림을 해야 합니다. 실패하면 크리처는 선택한 유형의 피해를 무술 주사위 세 번 굴린 값만큼 입습니다. 성공하면 그 절반의 피해를 입습니다.</content>
   <content contentuid="h13e2605fg4015g36b3g1800g126360f78534" version="1">원소 폭발: 산성</content>
   <content contentuid="heb32a441g2a41g2be1g94a8gfb7868573b40" version="1">원소 폭발: 냉기</content>
   <content contentuid="h20cb80c4gd3bag353egbaeagfc09e502126d" version="1">원소 폭발: 화염</content>
@@ -672,7 +672,7 @@
 
 또한 타고난 마법 특성이 활성화된 동안, 주문 내성 난이도가 1이 아니라 2만큼 증가합니다.</content>
   <content contentuid="h186d2005gce77g5134gd47dgcd1286eb95f5" version="1">마술 폭발</content>
-  <content contentuid="hf0be6fffg6e33g9c45g69bdg8f11958d0454" version="2">사거리 내에 있는 크리처나 물체 하나에게 마력의 기운을 쏘아 보냅니다. 대상에게 원거리 주문 공격을 가합니다. 적중 시 대상은 [1], [2], [3], [4], [5], [6] 또는 [7](선택)를 입습니다.
+  <content contentuid="hf0be6fffg6e33g9c45g69bdg8f11958d0454" version="2">사거리 내에 있는 크리처나 물체 하나에게 마력의 기운을 쏘아 보냅니다. 대상에게 원거리 주문 공격을 가합니다. 적중 시 대상은 원하는 유형의 피해를 입습니다: 산성, 냉기, 화염, 번개, 독, 정신, 천둥.
 
 때로는 마력이 격렬하게 솟구쳐 추가 피해를 입히기도 합니다. 이 소마법의 피해가 상위 레벨에서 증가할 때마다 마력이 격렬하게 솟구칠 확률도 높아집니다.</content>
   <content contentuid="h1e350658g92b2g40abg4e13g0a0194995e34" version="1">비전의 활력</content>
@@ -5386,7 +5386,7 @@
   <content contentuid="ha351e5dfg5a09g2d6agfd39geb9d1770a8f5" version="1">섬뜩한 강타 (원거리)</content>
   <content contentuid="hcd8ed7acga54dg31f4gb831g3687c2792f10" version="1">자신의 턴마다 한 번, 계약 무기로 크리처를 적중시키면, 계약 마법 주문 슬롯 하나를 소모해 목표에게 추가로 [1]를 입히고, 그 주문 슬롯의 레벨당 1d8을 추가로 입힐 수 있으며, 목표가 거대형 이하라면 넘어짐 상태로 만들 수 있습니다.</content>
   <content contentuid="h7282e855ge2c0g4f40gc42bgdec458d13ad3" version="1">탄도 강타</content>
-  <content contentuid="h13aa2cdag2fb5g8660ga803g42449d529329" version="1">공격에 적중된 목표는 추가로 [1], [2], [3], [4], [5] 또는 [6](선택)를 입습니다.</content>
+  <content contentuid="h13aa2cdag2fb5g8660ga803g42449d529329" version="1">산성, 냉기, 화염, 번개, 독, 천둥 피해 중 하나를 선택하십시오. 공격에 적중된 목표는 선택한 유형의 추가 피해를 입습니다.</content>
   <content contentuid="h55e5be08g5ff7g2cf9g5dabg5964e7cfef5a" version="1">탄도 강타: 산성</content>
   <content contentuid="h40f147a8g98d2gb22dg8665g35bdab166d32" version="1">탄도 강타: 냉기</content>
   <content contentuid="hbdc42068gbee7gfa65g006egbbd103dbaeae" version="1">탄도 강타: 화염</content>
@@ -5400,11 +5400,11 @@
   <content contentuid="h004828cbg6ae4g9d9fgef10g00102cb4f553" version="1">쌍수 전문가: 보조 무기 공격</content>
   <content contentuid="h3a446706g6505g19b1g3826gb313d8b63d3f" version="1">이번 턴에 보조 행동으로 추가 보조 무기 공격을 가할 수 있습니다.</content>
   <content contentuid="hf7c771bbgba46g05a3g6c15g9c7c4ebba6b6" version="1">원소 흡수</content>
-  <content contentuid="h2127d371g53e2g616ag957cg184d49e115ef" version="1">이 주문이 들어오는 에너지 일부를 붙잡아, 자신에게 미치는 영향을 줄이고 다음 근접 공격을 위해 저장합니다. 다음 자신의 턴이 시작될 때까지, 유발된 피해 유형에 저항을 얻습니다. 또한, 다음 자신의 턴에 근접 공격으로 처음 명중시키면, 목표는 추가로 [1], [2], [3], [4] 또는 [5](유발된 유형)를 입고 주문이 종료됩니다.</content>
+  <content contentuid="h2127d371g53e2g616ag957cg184d49e115ef" version="1">이 주문이 들어오는 에너지 일부를 붙잡아, 자신에게 미치는 영향을 줄이고 다음 근접 공격을 위해 저장합니다. 다음 자신의 턴이 시작될 때까지, 유발된 피해 유형에 저항을 얻습니다. 또한, 다음 자신의 턴에 근접 공격으로 처음 명중시키면, 목표는 유발된 유형의 추가 [1] 피해를 입고 주문이 종료됩니다.</content>
   <content contentuid="hccbdbb9eg99b6gf54fgce8dg5a4b024a38a8" version="1">원소 흡수</content>
-  <content contentuid="h23f50accgc0b8gb376gbc26g1fff227eb3f5" version="1">이 주문이 들어오는 에너지 일부를 붙잡아, 자신에게 미치는 영향을 줄이고 다음 근접 공격을 위해 저장합니다. 다음 자신의 턴이 시작될 때까지, 유발된 피해 유형에 저항을 얻습니다. 또한, 다음 자신의 턴에 근접 공격으로 처음 명중시키면, 목표는 추가로 [1], [2], [3], [4] 또는 [5](유발된 유형)를 입고 주문이 종료됩니다.</content>
+  <content contentuid="h23f50accgc0b8gb376gbc26g1fff227eb3f5" version="1">이 주문이 들어오는 에너지 일부를 붙잡아, 자신에게 미치는 영향을 줄이고 다음 근접 공격을 위해 저장합니다. 다음 자신의 턴이 시작될 때까지, 유발된 피해 유형에 저항을 얻습니다. 또한, 다음 자신의 턴에 근접 공격으로 처음 명중시키면, 목표는 유발된 유형의 추가 [1] 피해를 입고 주문이 종료됩니다.</content>
   <content contentuid="h0d100dc2gb2a7ge09fg624dga1554d1a009c" version="1">원소 흡수</content>
-  <content contentuid="hab392145gc890gaa18g04cag5b0b653d9632" version="1">이 주문이 들어오는 에너지 일부를 붙잡아, 자신에게 미치는 영향을 줄이고 다음 근접 공격을 위해 저장합니다. 다음 자신의 턴이 시작될 때까지, 유발된 피해 유형에 저항을 얻습니다. 또한, 다음 자신의 턴에 근접 공격으로 처음 명중시키면, 목표는 추가로 [1], [2], [3], [4] 또는 [5](유발된 유형)를 입고 주문이 종료됩니다.</content>
+  <content contentuid="hab392145gc890gaa18g04cag5b0b653d9632" version="1">이 주문이 들어오는 에너지 일부를 붙잡아, 자신에게 미치는 영향을 줄이고 다음 근접 공격을 위해 저장합니다. 다음 자신의 턴이 시작될 때까지, 유발된 피해 유형에 저항을 얻습니다. 또한, 다음 자신의 턴에 근접 공격으로 처음 명중시키면, 목표는 유발된 유형의 추가 [1] 피해를 입고 주문이 종료됩니다.</content>
   <content contentuid="h93909048gc250g4ba0g8188g2450b9be939f" version="1">마법 입문: 원소 흡수</content>
   <content contentuid="hc53cf966gb23fg281eg72e3g7fee38b6dede" version="1">어둠의 물결</content>
   <content contentuid="h029cddf2gf1b9g86a2g45e7g18bf046b40f1" version="3">소용돌이치는 그림자의 파도를 자신 옆의 지역에 풀어놓습니다. 이 주문을 시전할 때, 자신을 중심으로 한 3m 정육면체의 어둠 안에 있는 각 크리처는 지혜 내성 굴림을 합니다. 실패하면 크리처는 [1]를 입고 다음 자신의 턴이 시작될 때까지 실명 상태가 됩니다. 성공하면 그 절반만큼 피해를 입고 실명되지 않습니다.</content>
@@ -5532,7 +5532,7 @@
   <content contentuid="h090fc065geb1dge3e6g22b1g1d5d2fa91c92" version="1">레아랄의 은빛 창</content>
   <content contentuid="h55dbf30agbd12g301dga596g935c9cd3ab5e" version="1">은빛 에너지가 길이 36m, 너비 1.5m의 직선으로 자신에게서 뿜어져 나옵니다. 그 직선 안에서 자신이 선택한 각 크리처는 근력 내성 굴림을 합니다. 실패하면 크리처는 [1]를 입고 넘어짐 상태가 됩니다. 성공하면 그 절반만큼만 피해를 입습니다.</content>
   <content contentuid="he19de47agde53g5b49gd45ag019467942cb7" version="1">용의 숨결</content>
-  <content contentuid="h0dcdc1c9g2349g6dc5g0490g2bd7268e6913" version="1">자발적인 크리처 하나를 만지고, 산성, 냉기, 화염, 번개, 독 중 하나를 선택하십시오. 주문이 끝날 때까지, 목표는 마법 행동을 사용해 4.5m 원뿔로 숨을 내뿜을 수 있습니다. 그 범위 안의 모든 크리처는 민첩 내성 굴림을 하여, 실패하면 [1], [2], [3], [4] 또는 [5](선택한 유형)를 입고 성공하면 그 절반의 피해를 입습니다.</content>
+  <content contentuid="h0dcdc1c9g2349g6dc5g0490g2bd7268e6913" version="1">자발적인 크리처 하나를 만지고, 산성, 냉기, 화염, 번개, 독 중 하나를 선택하십시오. 주문이 끝날 때까지, 목표는 마법 행동을 사용해 4.5m 원뿔로 숨을 내뿜을 수 있습니다. 그 범위 안의 모든 크리처는 민첩 내성 굴림을 하여, 실패하면 선택한 유형의 피해를 입고 성공하면 그 절반의 피해를 입습니다.</content>
   <content contentuid="h8b5c0d31g91fdg86d0g19aag926c55ff9469" version="1">용의 숨결</content>
   <content contentuid="hb10c2d2ag537bg8220ge773g2f2eca39fdaa" version="1">용의 숨결</content>
   <content contentuid="h5739f1d4gcac7g91f1g8878gc76bc894c921" version="1">용의 숨결</content>
@@ -5564,7 +5564,7 @@
 
 물. 피해 유형은 산성입니다. 내성 굴림에 실패한 각 크리처는 넘어짐 상태가 됩니다.
 
-자신으로부터 뻗어 나가는 9m 원뿔 안의 파괴적인 원소 에너지 범위에 있는 각 크리처는 민첩 내성 굴림을 해야 합니다. 실패하면 목표는 [2], [3], [4], [5] 또는 [6](선택한 유형)를 입습니다. 성공하면 그 절반만큼만 피해를 입습니다.</content>
+자신으로부터 뻗어 나가는 9m 원뿔 안의 파괴적인 원소 에너지 범위에 있는 각 크리처는 민첩 내성 굴림을 해야 합니다. 실패하면 목표는 선택한 유형의 피해를 입습니다. 성공하면 그 절반만큼만 피해를 입습니다.</content>
   <content contentuid="hbdbf38edg682agb073g615cgd0646d705eb5" version="1">공기. 피해 유형은 천둥입니다. 내성 굴림에 실패한 각 크리처는 자신으로부터 3m 밀려납니다.
 
 자신으로부터 뻗어 나가는 9m 원뿔 안의 파괴적인 원소 에너지 범위에 있는 각 크리처는 민첩 내성 굴림을 해야 합니다. 실패하면 목표는 [1]를 입습니다. 성공하면 그 절반만큼만 피해를 입습니다.</content>
@@ -6512,13 +6512,13 @@
   <content contentuid="hb170c461g64a8ga1b1g8e92g84265039c932" version="1">지속시간 동안 자신을 중심으로 5m 방사에서 원소계의 정령들이 자신 주위를 맴돌며 나타납니다. 주문이 끝날 때까지, 자신의 공격이 방사 안의 크리처를 적중시킬 때마다 그 크리처는 추가 피해를 입습니다. 이 피해는 산성, 냉기, 화염, 번개 중 하나이며 공격할 때 선택합니다.
 
 또한, 방사 안의 지면은 자신의 적에게 험지가 됩니다.</content>
-  <content contentuid="hd5c12bafga9aagfb28g8efbg6a56a1770bd5" version="1">지속시간 동안 자신을 중심으로 5m 방사에서 원소계의 정령들이 자신 주위를 맴돌며 나타납니다. 주문이 끝날 때까지, 자신의 공격이 방사 안의 크리처를 적중시킬 때마다 그 크리처는 추가로 [1], [2], [3] 또는 [4]를 입습니다. 피해 유형은 공격할 때 선택합니다.
+  <content contentuid="hd5c12bafga9aagfb28g8efbg6a56a1770bd5" version="1">지속시간 동안 자신을 중심으로 5m 방사에서 원소계의 정령들이 자신 주위를 맴돌며 나타납니다. 주문이 끝날 때까지, 자신의 공격이 방사 안의 크리처를 적중시킬 때마다 그 크리처는 추가로 [1]의 피해를 입습니다. 이 피해는 산성, 냉기, 화염, 번개 중 하나이며 공격할 때 선택합니다.
 
 또한, 방사 안의 지면은 자신의 적에게 험지가 됩니다.</content>
-  <content contentuid="h11cbe00dg7613g77ebgcbf6g82af126dc834" version="1">지속시간 동안 자신을 중심으로 5m 방사에서 원소계의 정령들이 자신 주위를 맴돌며 나타납니다. 주문이 끝날 때까지, 자신의 공격이 방사 안의 크리처를 적중시킬 때마다 그 크리처는 추가로 [1], [2], [3] 또는 [4]를 입습니다. 피해 유형은 공격할 때 선택합니다.
+  <content contentuid="h11cbe00dg7613g77ebgcbf6g82af126dc834" version="1">지속시간 동안 자신을 중심으로 5m 방사에서 원소계의 정령들이 자신 주위를 맴돌며 나타납니다. 주문이 끝날 때까지, 자신의 공격이 방사 안의 크리처를 적중시킬 때마다 그 크리처는 추가로 [1]의 피해를 입습니다. 이 피해는 산성, 냉기, 화염, 번개 중 하나이며 공격할 때 선택합니다.
 
 또한, 방사 안의 지면은 자신의 적에게 험지가 됩니다.</content>
-  <content contentuid="hf72ba7eeg74aeg8025g8d10g383f2aab6a51" version="1">지속시간 동안 자신을 중심으로 5m 방사에서 원소계의 정령들이 자신 주위를 맴돌며 나타납니다. 주문이 끝날 때까지, 자신의 공격이 방사 안의 크리처를 적중시킬 때마다 그 크리처는 추가로 [1], [2], [3] 또는 [4]를 입습니다. 피해 유형은 공격할 때 선택합니다.
+  <content contentuid="hf72ba7eeg74aeg8025g8d10g383f2aab6a51" version="1">지속시간 동안 자신을 중심으로 5m 방사에서 원소계의 정령들이 자신 주위를 맴돌며 나타납니다. 주문이 끝날 때까지, 자신의 공격이 방사 안의 크리처를 적중시킬 때마다 그 크리처는 추가로 [1]의 피해를 입습니다. 이 피해는 산성, 냉기, 화염, 번개 중 하나이며 공격할 때 선택합니다.
 
 또한, 방사 안의 지면은 자신의 적에게 험지가 됩니다.</content>
   <content contentuid="h0fab1115gf226ge8beg030ag68b6e3209ba0" version="1">하급 정령 소환: 산성</content>
@@ -6951,8 +6951,8 @@
   <content contentuid="h658b5e46g9a77g41bagb97dg93007ba2f16d" version="1">1레벨: 태고의 소명: 태고의 야성</content>
   <content contentuid="ha4c26951g8b5dg4934g8e76gc35ecdb75322" version="1">태고의 야성</content>
   <content contentuid="he2f01678g6528g4656g9346g1ab03132b75d" version="1">자기 변환</content>
-  <content contentuid="hea2d0864g6340g4c53ga4bcg413229f33797" version="1">몸의 형태가 바뀌며 발톱, 송곳니, 뿔, 발굽 같은 자연 무기가 돋아납니다. 이 자연 무기로 하는 맨손 공격은 평소의 맨손 공격 피해 대신 발톱은 [1], 송곳니나 뿔은 [2], 발굽은 [3]를 줍니다. 명중 굴림과 피해 굴림에는 근력 대신 주문 시전 능력치 보정치를 사용합니다.</content>
-  <content contentuid="h8089a3a9ga6d2g4913g8e5fg89d941c87d28" version="1">자연 무기로 맨손 공격을 할 수 있습니다. [1], [2] 또는 [3]를 주며, 명중 굴림과 피해 굴림에 주문 시전 능력치 보정치를 사용합니다.</content>
+  <content contentuid="hea2d0864g6340g4c53ga4bcg413229f33797" version="1">몸의 형태가 바뀌며 발톱, 송곳니, 뿔, 발굽 같은 자연 무기가 돋아납니다. 이 자연 무기로 하는 맨손 공격은 평소의 맨손 공격 피해 대신 1d6 피해를 줍니다. 발톱은 참격, 송곳니나 뿔은 관통, 발굽은 타격 피해입니다. 명중 굴림과 피해 굴림에는 근력 대신 주문 시전 능력치 보정치를 사용합니다.</content>
+  <content contentuid="h8089a3a9ga6d2g4913g8e5fg89d941c87d28" version="1">자연 무기로 맨손 공격을 할 수 있습니다. 1d6 참격, 관통 또는 타격 피해를 주며, 명중 굴림과 피해 굴림에 주문 시전 능력치 보정치를 사용합니다.</content>
   <content contentuid="h7c8a1b28g2b90g4e43g98a4gcb5a8d361fe7" version="1">자연 무기</content>
   <content contentuid="ha509a31bg3546g4500gb510g7ab54f7d9d64" version="1">자기 변환으로 얻은 자연 무기로 맨손 공격을 합니다. 명중 굴림과 피해 굴림에 주문 시전 능력치 보정치를 사용합니다.</content>
   <content contentuid="hce9994bfg435eg45fag9883g866ac5c0f777" version="1">자연 무기: 참격</content>

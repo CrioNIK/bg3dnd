@@ -631,7 +631,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="ABSORB_ELEMENTS_ACTIVE_SPELL_1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0d100dc2gb2a7ge09fg624dga1554d1a009c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hab392145gc890gaa18g04cag5b0b653d9632" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Acid);DealDamage(1d6,Cold);DealDamage(1d6,Fire);DealDamage(1d6,Lightning);DealDamage(1d6,Thunder)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d6" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_AbsorbElements" />
         <field name="SoundStart" type="StringTableFieldDefinition" value="Misc_Status_AbsorbElementsActive_Start" />
         <field name="SoundLoop" type="StringTableFieldDefinition" value="Misc_Status_AbsorbElementsActive_MO" />
@@ -647,7 +647,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8242ceaf-e6e8-463b-8458-814271b84620" />
         <field name="Name" type="NameTableFieldDefinition" value="ABSORB_ELEMENTS_ACTIVE_SPELL_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5af3a4b0-0d7f-402e-a0b0-51ab09a8d244" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6,Acid);DealDamage(2d6,Cold);DealDamage(2d6,Fire);DealDamage(2d6,Lightning);DealDamage(2d6,Thunder)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2d6" />
         <field name="Passives" type="StringTableFieldDefinition" value="Absorb_Elements_Spell_Technical_Passive_2;" />
       </fields>
     </stat_object>
@@ -656,7 +656,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="006ebcbc-fb85-4ba3-bd16-7e2b4953359f" />
         <field name="Name" type="NameTableFieldDefinition" value="ABSORB_ELEMENTS_ACTIVE_SPELL_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8242ceaf-e6e8-463b-8458-814271b84620" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(3d6,Acid);DealDamage(3d6,Cold);DealDamage(3d6,Fire);DealDamage(3d6,Lightning);DealDamage(3d6,Thunder)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="3d6" />
         <field name="Passives" type="StringTableFieldDefinition" value="Absorb_Elements_Spell_Technical_Passive_3;" />
       </fields>
     </stat_object>
@@ -665,7 +665,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="928541d8-4f08-461e-8f6f-5fddd71a922b" />
         <field name="Name" type="NameTableFieldDefinition" value="ABSORB_ELEMENTS_ACTIVE_SPELL_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8242ceaf-e6e8-463b-8458-814271b84620" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d6,Acid);DealDamage(4d6,Cold);DealDamage(4d6,Fire);DealDamage(4d6,Lightning);DealDamage(4d6,Thunder)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="4d6" />
         <field name="Passives" type="StringTableFieldDefinition" value="Absorb_Elements_Spell_Technical_Passive_4;" />
       </fields>
     </stat_object>
@@ -674,7 +674,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7d42ce70-486e-4b4f-9885-de98a6571d6b" />
         <field name="Name" type="NameTableFieldDefinition" value="ABSORB_ELEMENTS_ACTIVE_SPELL_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8242ceaf-e6e8-463b-8458-814271b84620" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d6,Acid);DealDamage(5d6,Cold);DealDamage(5d6,Fire);DealDamage(5d6,Lightning);DealDamage(5d6,Thunder)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="5d6" />
         <field name="Passives" type="StringTableFieldDefinition" value="Absorb_Elements_Spell_Technical_Passive_5;" />
       </fields>
     </stat_object>
@@ -683,7 +683,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d30f2bd1-c513-453d-9dd4-4fd34c005165" />
         <field name="Name" type="NameTableFieldDefinition" value="ABSORB_ELEMENTS_ACTIVE_SPELL_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8242ceaf-e6e8-463b-8458-814271b84620" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d6,Acid);DealDamage(6d6,Cold);DealDamage(6d6,Fire);DealDamage(6d6,Lightning);DealDamage(6d6,Thunder)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="6d6" />
         <field name="Passives" type="StringTableFieldDefinition" value="Absorb_Elements_Spell_Technical_Passive_6;" />
       </fields>
     </stat_object>
@@ -4774,7 +4774,6 @@
         <field name="Name" type="NameTableFieldDefinition" value="ALTER_SELF" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he2f01678g6528g4656g9346g1ab03132b75d" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8089a3a9ga6d2g4913g8e5fg89d941c87d28" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Slashing);DealDamage(1d6,Piercing);DealDamage(1d6,Bludgeoning)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_AlterSelf" />
         <field name="StackId" type="StringTableFieldDefinition" value="ALTER_SELF" />
         <field name="Boosts" type="StringTableFieldDefinition" value="IF(not HasPassive('Transmuter_3_WondrousAlteration',context.Source)):UnlockSpell(Target_NaturalWeapon);IF(HasPassive('Transmuter_3_WondrousAlteration',context.Source)):UnlockSpell(Target_NaturalWeapon_WondrousAlteration);IF(HasPassive('Transmuter_3_WondrousAlteration',context.Source)):Advantage(Skill,Deception);IF(HasPassive('Transmuter_3_WondrousAlteration',context.Source)):Advantage(Concentration);" />
