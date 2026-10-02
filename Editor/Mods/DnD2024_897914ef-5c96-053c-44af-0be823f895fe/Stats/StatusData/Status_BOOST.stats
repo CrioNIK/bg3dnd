@@ -1945,6 +1945,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_AURA_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2d3fc099-8ac0-4282-b954-d4bb0ba46426" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CACOPHONIC_SHIELD_4,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d6,Thunder);Distance(3)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(4d6,Thunder)" />
       </fields>
     </stat_object>
@@ -1954,6 +1955,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_AURA_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2d3fc099-8ac0-4282-b954-d4bb0ba46426" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CACOPHONIC_SHIELD_5,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d6,Thunder);Distance(3)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(5d6,Thunder)" />
       </fields>
     </stat_object>
@@ -1963,6 +1965,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_AURA_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2d3fc099-8ac0-4282-b954-d4bb0ba46426" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CACOPHONIC_SHIELD_6,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d6,Thunder);Distance(3)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(6d6,Thunder)" />
       </fields>
     </stat_object>
@@ -1994,6 +1997,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="40bb4331-08bd-493c-8fd8-54e4f0de347b" />
         <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d24bafa1-e226-494c-9001-6492b1db00a2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d6,Thunder);Distance(3)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(4d6,Thunder)" />
         <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):DealDamage(4d6,Thunder,Magical);IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
         <field name="OnApplyFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):DealDamage(4d6/2,Thunder,Magical);IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
@@ -2006,6 +2010,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4f6bbb63-940a-4a40-9630-282fe273f90f" />
         <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d24bafa1-e226-494c-9001-6492b1db00a2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d6,Thunder);Distance(3)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(5d6,Thunder)" />
         <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):DealDamage(5d6,Thunder,Magical);IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
         <field name="OnApplyFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):DealDamage(5d6/2,Thunder,Magical);IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
@@ -2018,6 +2023,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="513c32f8-23ab-4640-a799-858b698c6bf1" />
         <field name="Name" type="NameTableFieldDefinition" value="CACOPHONIC_SHIELD_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d24bafa1-e226-494c-9001-6492b1db00a2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d6,Thunder);Distance(3)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(6d6,Thunder)" />
         <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):DealDamage(6d6,Thunder,Magical);IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
         <field name="OnApplyFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):DealDamage(6d6/2,Thunder,Magical);IF(not HasStatus('CACOPHONIC_SHIELD_DAMAGE_RECEIVED')):ApplyStatus(CACOPHONIC_SHIELD_DAMAGE_RECEIVED,100,1)" />
@@ -2061,6 +2067,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CONJURE_WOODLAND_AURA_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d4e0bd80-1a63-4c03-92dd-07f742eb14d0" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CONJURE_WOODLAND_5,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,Force);Distance(3)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(6d8,Force)" />
       </fields>
     </stat_object>
@@ -2070,6 +2077,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="CONJURE_WOODLAND_AURA_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d4e0bd80-1a63-4c03-92dd-07f742eb14d0" />
         <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CONJURE_WOODLAND_6,100,-1)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d8,Force);Distance(3)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(7d8,Force)" />
       </fields>
     </stat_object>
@@ -2101,6 +2109,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1c1f4c3c-51cb-40f8-929b-3e12d53306b0" />
         <field name="Name" type="NameTableFieldDefinition" value="CONJURE_WOODLAND_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="126eb254-a73d-4dae-aaeb-924198c2c225" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,Force);Distance(3)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(6d8,Force)" />
         <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(6d8,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />
         <field name="OnApplyFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(6d8/2,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />
@@ -2113,6 +2122,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="716eeae4-db48-43aa-8a1b-562a9bf3dcce" />
         <field name="Name" type="NameTableFieldDefinition" value="CONJURE_WOODLAND_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="126eb254-a73d-4dae-aaeb-924198c2c225" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d8,Force);Distance(3)" />
         <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(7d8,Force)" />
         <field name="OnApplySuccess" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(7d8,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />
         <field name="OnApplyFail" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):DealDamage(7d8/2,Force,Magical);IF(not HasStatus('CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED')):ApplyStatus(CONJURE_WOODLAND_BEINGS_DAMAGE_RECEIVED,100,1)" />

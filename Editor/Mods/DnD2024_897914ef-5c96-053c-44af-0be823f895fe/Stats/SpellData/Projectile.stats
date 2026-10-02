@@ -1950,6 +1950,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8,Acid,Magical);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,Acid)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Acid)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1960,6 +1961,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8,Cold,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,Cold)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Cold)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1970,6 +1972,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8,Fire,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,Fire)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Fire)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1980,6 +1983,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8,Lightning,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,Lightning)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Lightning)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1990,6 +1994,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8,Poison,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,Poison)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Poison)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2000,6 +2005,7 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(2d8,Thunder,Magical);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8,Thunder)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d8,Thunder)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2372,6 +2378,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="49e1e084-a3a5-4c2b-a6f5-9a6c2b8737a4" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="2" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally())" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d4,Acid);DealDamage(3d4,Acid)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2381,6 +2388,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="8b4f14a0-f764-461c-95fa-e23e824d577b" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="2" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally())" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d4,Acid);DealDamage(4d4,Acid)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2390,6 +2398,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="ae979b47-7b43-4418-b43f-740b5fd8db93" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="2" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally())" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d4,Acid);DealDamage(5d4,Acid)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2399,6 +2408,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="9e21d94e-52f0-43ca-90fb-7764fe67a874" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="2" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and not (HasPassive('SculptSpells', context.Source) and Ally())" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d4,Acid);DealDamage(6d4,Acid)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2687,6 +2697,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="01a49049-9652-4df5-ad1a-b120af439ede" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Necrotic,Magical);ApplyStatus(VOID_STRIKE,100,1);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d8/2,Necrotic,Magical);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Necrotic);" />
       </fields>
     </stat_object>
@@ -2697,6 +2708,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="01a49049-9652-4df5-ad1a-b120af439ede" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Necrotic,Magical);ApplyStatus(VOID_STRIKE,100,1);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(7d8/2,Necrotic,Magical);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Necrotic);" />
       </fields>
     </stat_object>
@@ -2707,6 +2719,7 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="01a49049-9652-4df5-ad1a-b120af439ede" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Necrotic,Magical);ApplyStatus(VOID_STRIKE,100,1);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(8d8/2,Necrotic,Magical);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d8,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Necrotic);" />
       </fields>
     </stat_object>
