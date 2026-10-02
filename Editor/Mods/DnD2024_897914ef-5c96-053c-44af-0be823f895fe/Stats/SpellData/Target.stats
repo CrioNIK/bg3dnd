@@ -2053,6 +2053,7 @@
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Conjuration" enumeration_type_name="SpellSchool" version="1" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_SummonAberration_IntellectDevourer;Target_SummonAberration_Beholder;Target_SummonAberration_MindFlayer;" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="27" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he6c000fegdd64g47d9g9f97g984c8006d491" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h22ccdab8gd95dg4d9cgb655ga6e4c50127cd" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
@@ -2180,6 +2181,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SummonAberration_Beholder_WoundingRay" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="21c521fe-f601-48d9-9c53-d6159ba96530" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="45" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="Attack(AttackType.RangedUnarmedAttack)" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(1d8+UnarmedMeleeAbilityModifier,Psychic);" />
         <field name="SpellFail" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
