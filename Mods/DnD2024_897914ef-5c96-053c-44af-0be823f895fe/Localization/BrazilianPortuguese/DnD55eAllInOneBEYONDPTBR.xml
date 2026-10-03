@@ -5412,7 +5412,6 @@ Além disso, você tem Resistência ao dano de Trovão, e os testes de ataque à
 	<content contentuid="hf67f7f88ga42fgb7c6g3526gd17410ea4287" version="1">Reverberações estrondosas preenchem uma Emanação de 10 metros que se origina de você durante a duração do efeito. Sempre que a Emanação entrar no espaço de uma criatura e sempre que uma criatura entrar na Emanação ou terminar seu turno ali, a criatura faz um teste de resistência de Constituição. Se falhar no teste, a criatura sofre [1]. Se o teste for bem-sucedido, a criatura sofre apenas metade do dano. Uma criatura faz esse teste apenas uma vez por turno.
 
 Além disso, você tem Resistência a dano de Trovão, e os testes de ataque à distância contra você são feitos com Desvantagem.</content>
-	<content contentuid="h96a4fdcdg6eedg4ccdgb453g193837a217e9" version="1">O Passo de Ashardalon</content>
 	<content contentuid="h07bf103cg6fe9g48deg90e6g51cda963e2bb" version="1">Aura do Passo de Ashardalon</content>
 	<content contentuid="h015e6052gbb2eg4bc4g8148gac1a0bbffbf1" version="2">Chamas ondulantes de um dragão jorram de seus metros, concedendo-lhe uma velocidade explosiva. Enquanto durar o efeito, sua Velocidade aumenta em [1], e mover-se não provoca Ataques de Oportunidade. Sempre que você se mover para uma distância de até [2] de uma criatura, ela sofre [3] devido ao seu rastro de calor. Uma criatura pode sofrer esse dano apenas uma vez por turno.</content>
 	<content contentuid="hefff3653g8439g5d57g7610g02ccec1105b6" version="1">O Passo de Ashardalon</content>
