@@ -33,6 +33,13 @@ Each bullet: **굵게 쓴 한 줄 요약** + 왜 문제였는지/무엇이 달�
 symptom straight from the commit body — those are already written from the player's side.
 Do not cite commit hashes, issue numbers, or file names; this is a player-facing document.
 
+Under 클래스 및 서브클래스, give each class its own `###` heading and put subclass changes
+under their parent class. The mod adds four **independent classes** — 아티피서, 건슬링어,
+일리거, 괴물 사냥꾼 (Monster Hunter) — and each gets its own `###` heading. Never file them
+under a vanilla class: 괴물 사냥꾼 is not a Fighter subclass. When unsure whether a name is a
+class or a subclass, a `ClassDescription` without `ParentGuid` in
+`Public/*/ClassDescriptions/ClassDescriptions.lsx` is a class.
+
 ## Steps
 
 ### 1. 범위 확정
