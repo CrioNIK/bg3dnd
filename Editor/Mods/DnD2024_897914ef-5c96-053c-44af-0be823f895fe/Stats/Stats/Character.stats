@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="a8098c1a-f86e-11da-bd1a-00112444be1e">
   <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="814a940d-a4bd-4b51-9092-6fc8c344f484" />
+        <field name="Name" type="NameTableFieldDefinition" value="WolfTest" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="837f1eea-cf81-4d8a-a22f-7dc78a5f0926" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="1000" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b71ec1fd-d0bf-49ef-8ee6-5bfe028767d9" />

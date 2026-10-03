@@ -1,3 +1,8 @@
+new entry "WolfTest"
+type "Character"
+using "Wolf"
+data "Vitality" "1000"
+
 new entry "__NPC__"
 type "Character"
 
