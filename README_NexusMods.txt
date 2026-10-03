@@ -96,7 +96,7 @@ Acid Splash, Blade Ward, Blood Bolt, Booming Blade, Bursting Sinew, Finger Guns,
 [*][b]Level 2:[/b] Aganazzar's Scorcher, Alter Self, Arcane Vigor, Barkskin, Darkbolt, Dazing Blast, Death Armor, Dragon's Breath, Elminster's Elusion, Find Steed, Fire Rune, Gust of Wind, Lesser Restoration, Mind Spike, Moonbeam, Prayer of Healing, Rime's Binding Ice, Searing Orb, Shadow Blade, Snilloc's Snowball Swarm, Summon Beast, Tasha's Mind Whip, Warding Bond, Web.
 [*][b]Level 3:[/b] Animate Dead, Ashardalon's Stride, Astral Flood, Aura of Vitality, Bestow Curse, Cacophonic Shield, Conjure Barrage, Counterspell, Crusader's Mantle, Elemental Exhalation, Haste, Laeral's Silver Lance, Lightning Arrow, Murmurs of Doom, Phantom Steed, Summon Fey, Summon Undead, Tidal Wave, Trollblood Infusion, Void Strike.
 [*][b]Level 4:[/b] Arcane Eye, Charm Monster, Conjure Woodland Beings, Fire Dance, Fount of Moonlight, Murder of Crows, Spellfire Storm, Summon Aberration, Summon Elemental, Vitriolic Sphere.
-[*][b]Level 5:[/b] Awaken, Circle of Power, Cone of Cold, Conjure Elemental, Dawn, Dispel Evil and Good, Dream, Enervation, Holy Weapon, Steel Wind Strike, Summon Celestial, Summon Dragon, Synaptic Static.
+[*][b]Level 5:[/b] Awaken, Circle of Power, Cone of Cold, Conjure Elemental, Danse Macabre, Dawn, Dispel Evil and Good, Dream, Enervation, Holy Weapon, Steel Wind Strike, Summon Celestial, Summon Dragon, Synaptic Static.
 [*][b]Level 6:[/b] Circle of Death, Disintegrate, Freezing Sphere, Planar Ally.
 [/list]
 
