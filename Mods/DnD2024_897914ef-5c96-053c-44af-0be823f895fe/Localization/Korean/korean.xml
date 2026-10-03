@@ -3942,7 +3942,7 @@
   <content contentuid="heb8b42dfgf791g5695g2d5bg94d944d01b24" version="1">포술장인</content>
   <content contentuid="he4ee4e0eg19a4gb02cgb58agdfdbd170d103" version="1">포술장인은 마법을 사용해 에너지와 투사체, 폭발을 전장에 퍼붓는 데 특화되어 있습니다.</content>
   <content contentuid="hb2e1a5b6gf536gee48g07d0g84251df2a247" version="1">3레벨: 포술장인 주문</content>
-  <content contentuid="hb830b235g9469g7dd2ga75agc175eb448a0b" version="3">특정 아티피서 레벨에 도달하면, 포술장인 주문 표에 나온 대로 항상 특정 주문이 준비된 상태가 됩니다. 3레벨에는 &lt;LSTag Type="Spell" Tooltip="Shout_Shield_Wizard"&gt;방어막&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Zone_Thunderwave"&gt;천둥파&lt;/LSTag&gt;를 얻습니다. 5레벨에는 &lt;LSTag Type="Spell" Tooltip="Projectile_ScorchingRay"&gt;작열 광선&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Target_Shatter"&gt;분쇄&lt;/LSTag&gt;를 얻습니다. 9레벨에는 &lt;LSTag Type="Spell" Tooltip="Projectile_Fireball"&gt;화염구&lt;/LSTag&gt;와 포화 소환을 얻습니다.</content>
+  <content contentuid="hb830b235g9469g7dd2ga75agc175eb448a0b" version="3">특정 아티피서 레벨에 도달하면, 포술장인 주문 표에 나온 대로 항상 특정 주문이 준비된 상태가 됩니다. 3레벨에는 &lt;LSTag Type="Spell" Tooltip="Shout_Shield_Wizard"&gt;방어막&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Zone_Thunderwave"&gt;천둥파&lt;/LSTag&gt;를 얻습니다. 5레벨에는 &lt;LSTag Type="Spell" Tooltip="Projectile_ScorchingRay"&gt;작열 광선&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Target_Shatter"&gt;분쇄&lt;/LSTag&gt;를 얻습니다. 9레벨에는 &lt;LSTag Type="Spell" Tooltip="Projectile_Fireball"&gt;화염구&lt;/LSTag&gt;와 포화 창조를 얻습니다.</content>
   <content contentuid="h8972d6f1gb973gb24eg4f39ga448bf22f9f4" version="1">3레벨: 섬뜩한 대포</content>
   <content contentuid="hee38cff0g9a4fg5a8dgfbf6g69eae04525e5" version="1">손 안에 초소형 섬뜩한 대포를 만들어낼 수 있습니다. 다리나 바퀴가 있는 형태 등, 그 외형과 소지 여부를 직접 결정합니다.</content>
   <content contentuid="hc7dd7a10g7e44gb9a6gc6bfgcc7a3d89e928" version="1">5레벨: 비전 화기</content>
@@ -4058,7 +4058,7 @@
   <content contentuid="h7e5c8452ge0d5g2610g45eagca1b87277e92" version="1">칼날 벼리기</content>
   <content contentuid="hb071d3c2g373ag7bc8gf0d5g10bf8a344624" version="1">기를 사용해 무기를 더욱 강화하는 능력을 얻습니다. 보조 행동으로, 기 포인트 1점을 소모해 만지고 있는 검성의 무기 하나에 명중 굴림과 피해 굴림 보너스를 부여할 수 있습니다. 이 보너스는 1분간 지속되거나, 이 특성을 다시 사용할 때까지 유지됩니다.</content>
   <content contentuid="hed8eb390g17b2g994bg8cfdg02107c263310" version="1">3레벨: 전투장인 주문</content>
-  <content contentuid="hd22a1ff8gaca7gd01cg610fgbe3a8ed48875" version="1">3레벨부터, 이 직업의 특정 레벨에 도달하면 항상 특정 주문이 준비된 상태가 됩니다. 이 주문들은 자신에게 아티피서 주문으로 취급되지만, 준비할 수 있는 아티피서 주문 수에는 포함되지 않습니다. 3레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_Heroism"&gt;영웅심&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Shout_Shield_Wizard"&gt;방어막&lt;/LSTag&gt;을 얻습니다. 5레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_Smite_Branding_Container"&gt;낙인 강타&lt;/LSTag&gt;와 &lt;LSTag Type="Spell" Tooltip="Target_WardingBond"&gt;수호의 결속&lt;/LSTag&gt;을 얻습니다. 9레벨에는 &lt;LSTag Type="Spell" Tooltip="Shout_AuraOfVitality"&gt;활력의 오라&lt;/LSTag&gt;와 &lt;LSTag Type="Spell" Tooltip="Zone_ConjureBarrage"&gt;포화 소환&lt;/LSTag&gt;을 얻습니다.</content>
+  <content contentuid="hd22a1ff8gaca7gd01cg610fgbe3a8ed48875" version="1">3레벨부터, 이 직업의 특정 레벨에 도달하면 항상 특정 주문이 준비된 상태가 됩니다. 이 주문들은 자신에게 아티피서 주문으로 취급되지만, 준비할 수 있는 아티피서 주문 수에는 포함되지 않습니다. 3레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_Heroism"&gt;영웅심&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Shout_Shield_Wizard"&gt;방어막&lt;/LSTag&gt;을 얻습니다. 5레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_Smite_Branding_Container"&gt;낙인 강타&lt;/LSTag&gt;와 &lt;LSTag Type="Spell" Tooltip="Target_WardingBond"&gt;수호의 결속&lt;/LSTag&gt;을 얻습니다. 9레벨에는 &lt;LSTag Type="Spell" Tooltip="Shout_AuraOfVitality"&gt;활력의 오라&lt;/LSTag&gt;와 &lt;LSTag Type="Spell" Tooltip="Zone_ConjureBarrage"&gt;포화 창조&lt;/LSTag&gt;를 얻습니다.</content>
   <content contentuid="h1276ad5dgc82ag3397g6f0bgb0f6dfda70ed" version="1">3레벨: 전투 준비</content>
   <content contentuid="h203da993gc56cg398cg8dc3g00fec0e594ca" version="2">전투 훈련과 마법 실험이 두 가지 방식으로 결실을 맺었습니다.
 
@@ -4256,8 +4256,8 @@
   <content contentuid="h22c0c858g3d5ag38b5g51dbg5e6023f8d885" version="1">3레벨: 얼음 생성</content>
   <content contentuid="ha3545489g1d38g6fa3g0526g220227ae59ac" version="1">보조 행동으로, 최대 다섯 칸에 마법으로 얼음 지형을 만들 수 있습니다. 얼음으로 뒤덮인 칸은 험지가 되며 다음 자신의 턴이 끝날 때까지 유지됩니다. 이 보조 행동을 사용할 때, 소서리 포인트를 하나 이상 소모해 소모한 소서리 포인트 하나당 추가로 다섯 칸을 얼릴 수 있습니다.</content>
   <content contentuid="h1e52530fgb6a1g58bcg28c8gf49958042c31" version="1">3레벨: 서리 주문</content>
-  <content contentuid="h78ec0f4cgdceeg4a48gd10ag8d7fa8a15f49" version="1">서리 주문 표에 명시된 소서러 레벨에 도달하면, 그 이후로는 항상 그 목록의 주문이 준비되어 있습니다. 3레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_Blindness"&gt;실명&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_IceKnife"&gt;얼음 칼&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;안개 걸음&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Sleep"&gt;수면&lt;/LSTag&gt;을 익힙니다. 5레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_SleetStorm"&gt;진눈깨비 폭풍&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Target_Slow"&gt;둔화&lt;/LSTag&gt;를 추가합니다. 7레벨에는 &lt;LSTag Type="Spell" Tooltip="Shout_FireShield"&gt;화염 방패&lt;/LSTag&gt;와 &lt;LSTag Type="Spell" Tooltip="Target_IceStorm"&gt;얼음 폭풍&lt;/LSTag&gt;을 얻습니다. 마지막으로, 9레벨에는 &lt;LSTag Type="Spell" Tooltip="Zone_ConeOfCold"&gt;냉기 분사&lt;/LSTag&gt;와 &lt;LSTag Type="Spell" Tooltip="Target_ConjureElemental_Container"&gt;정령 소환&lt;/LSTag&gt;을 시전할 수 있습니다.</content>
-  <content contentuid="h633e7853gfe5cgc83fg46c5g12d2c8161229" version="2">3레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_Blindness"&gt;실명&lt;/LSTag&gt;, 얼음 칼, 안개 걸음, 수면을 익힙니다. 5레벨에는 진눈깨비 폭풍과 둔화를 추가합니다. 7레벨에는 화염 방패와 얼음 폭풍을 얻습니다. 마지막으로, 9레벨에는 냉기 분사와 정령 소환을 시전할 수 있습니다.</content>
+  <content contentuid="h78ec0f4cgdceeg4a48gd10ag8d7fa8a15f49" version="1">서리 주문 표에 명시된 소서러 레벨에 도달하면, 그 이후로는 항상 그 목록의 주문이 준비되어 있습니다. 3레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_Blindness"&gt;실명&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_IceKnife"&gt;얼음 칼&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MistyStep"&gt;안개 걸음&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Sleep"&gt;수면&lt;/LSTag&gt;을 익힙니다. 5레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_SleetStorm"&gt;진눈깨비 폭풍&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Target_Slow"&gt;둔화&lt;/LSTag&gt;를 추가합니다. 7레벨에는 &lt;LSTag Type="Spell" Tooltip="Shout_FireShield"&gt;화염 방패&lt;/LSTag&gt;와 &lt;LSTag Type="Spell" Tooltip="Target_IceStorm"&gt;얼음 폭풍&lt;/LSTag&gt;을 얻습니다. 마지막으로, 9레벨에는 &lt;LSTag Type="Spell" Tooltip="Zone_ConeOfCold"&gt;냉기 분사&lt;/LSTag&gt;와 &lt;LSTag Type="Spell" Tooltip="Target_ConjureElemental_Container"&gt;정령 창조&lt;/LSTag&gt;를 시전할 수 있습니다.</content>
+  <content contentuid="h633e7853gfe5cgc83fg46c5g12d2c8161229" version="2">3레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_Blindness"&gt;실명&lt;/LSTag&gt;, 얼음 칼, 안개 걸음, 수면을 익힙니다. 5레벨에는 진눈깨비 폭풍과 둔화를 추가합니다. 7레벨에는 화염 방패와 얼음 폭풍을 얻습니다. 마지막으로, 9레벨에는 냉기 분사와 정령 창조를 시전할 수 있습니다.</content>
   <content contentuid="he29b881cg8be9ge597gaa47ge013dbcb923e" version="1">3레벨: 얼어붙은 육체</content>
   <content contentuid="h4d2eb6abgde1bg02e5g7229g271d5c3cc35b" version="1">피부가 은은한 얼음빛의 결정질 광채를 띠게 됩니다. 생명력 최대치가 3 증가하며, 다른 소서러 레벨을 얻을 때마다 1씩 추가로 증가합니다. 또한, 얼음이나 눈으로 이루어진 험지는 추가 이동력을 소모하지 않으며, 얼음 위를 걸을 때는 [2]를 이동할 때마다 [1]의 이동력만 소모합니다.</content>
   <content contentuid="h41c12c6fg7222ge59egf356g102fa92de375" version="1">6레벨: 냉혹함</content>
@@ -4448,8 +4448,8 @@
   <content contentuid="ha989ddfeg14aege15egc09fgf298fc8f086e" version="1">고대의 지배자 후원자</content>
   <content contentuid="h3504f51eg1ac0gd563g881eg515b53b1f37b" version="1">이 하위 직업를 선택하면, 먼 곳의 영역이나 오래된 신에게서 비롯된 형언할 수 없는 존재—사슬에 묶인 신 타리즈던, 귀환자 자르곤, 어둠의 굶주림 하다르, 또는 위대한 크툴루 같은 존재—에게 스스로를 결속시켰을 수 있습니다. 또는 하나에 얽매이지 않고 여러 존재를 소환했을 수도 있습니다. 이 존재들의 동기는 이해할 수 없으며, 고대의 지배자는 자신의 존재에 무관심할 수도 있습니다. 하지만 자신이 배운 비밀은 그럼에도 그로부터 기이한 마법을 이끌어낼 수 있게 해줍니다.</content>
   <content contentuid="h68dcfb27g52ddg20aag7977g147e317f34ce" version="1">3레벨: 주술칼날 주문</content>
-  <content contentuid="h4336900ag6e5egc73bgadb8g0a8300eeb536" version="1">후원자의 마법 덕분에 항상 특정 주문이 준비된 상태가 됩니다. 주술칼날 주문 표에 명시된 워락 레벨에 도달하면, 그 이후로는 항상 그 목록의 주문이 준비되어 있습니다. 3레벨에는 &lt;LSTag Type="Spell" Tooltip="Shout_ArcaneVigor"&gt;비전의 활력&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Hex"&gt;주술&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MagicWeapon"&gt;마법 무기&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Shield_Warlock"&gt;방어막&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Smite_Wrathful"&gt;분노의 강타&lt;/LSTag&gt;를 익힙니다. 5레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_BestowCurse"&gt;저주 부여&lt;/LSTag&gt;와 &lt;LSTag Type="Spell" Tooltip="Zone_ConjureBarrage"&gt;포화 소환&lt;/LSTag&gt;을 익힙니다. 7레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_FreedomOfMovement"&gt;자유 이동&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Target_StaggeringSmite"&gt;충격의 강타&lt;/LSTag&gt;를 익힙니다. 9레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_SteelWindStrike"&gt;강철 바람의 일격&lt;/LSTag&gt;을 익힙니다.</content>
-  <content contentuid="h6b8ec4b1g6350g0a0ag1d7dgc74d66ad8dd7" version="1">3레벨에는 비전의 활력, 주술, 마법 무기, 방어막, 분노의 강타를 익힙니다. 5레벨에는 저주 부여와 포화 소환을 익힙니다. 7레벨에는 자유 이동과 충격의 강타를 익힙니다. 9레벨에는 강철 바람의 일격을 익힙니다.</content>
+  <content contentuid="h4336900ag6e5egc73bgadb8g0a8300eeb536" version="1">후원자의 마법 덕분에 항상 특정 주문이 준비된 상태가 됩니다. 주술칼날 주문 표에 명시된 워락 레벨에 도달하면, 그 이후로는 항상 그 목록의 주문이 준비되어 있습니다. 3레벨에는 &lt;LSTag Type="Spell" Tooltip="Shout_ArcaneVigor"&gt;비전의 활력&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Hex"&gt;주술&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_MagicWeapon"&gt;마법 무기&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Shout_Shield_Warlock"&gt;방어막&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Smite_Wrathful"&gt;분노의 강타&lt;/LSTag&gt;를 익힙니다. 5레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_BestowCurse"&gt;저주 부여&lt;/LSTag&gt;와 &lt;LSTag Type="Spell" Tooltip="Zone_ConjureBarrage"&gt;포화 창조&lt;/LSTag&gt;를 익힙니다. 7레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_FreedomOfMovement"&gt;자유 이동&lt;/LSTag&gt;과 &lt;LSTag Type="Spell" Tooltip="Target_StaggeringSmite"&gt;충격의 강타&lt;/LSTag&gt;를 익힙니다. 9레벨에는 &lt;LSTag Type="Spell" Tooltip="Target_SteelWindStrike"&gt;강철 바람의 일격&lt;/LSTag&gt;을 익힙니다.</content>
+  <content contentuid="h6b8ec4b1g6350g0a0ag1d7dgc74d66ad8dd7" version="1">3레벨에는 비전의 활력, 주술, 마법 무기, 방어막, 분노의 강타를 익힙니다. 5레벨에는 저주 부여와 포화 창조를 익힙니다. 7레벨에는 자유 이동과 충격의 강타를 익힙니다. 9레벨에는 강철 바람의 일격을 익힙니다.</content>
   <content contentuid="hfa17cac1gac88g9d72gf29eg0946ab8c0bb4" version="1">3레벨: 주술칼날의 발현</content>
   <content contentuid="ha92a78f3ge96agd47egb8ddg6ad716d3cc56" version="3">주술칼날의 저주. 자신의 매력 보정치와 같은 횟수만큼(최소 1회) 주문 슬롯을 소모하지 않고 주술을 시전할 수 있으며, 긴 휴식을 마치면 소모한 모든 횟수를 회복합니다. 주술을 시전하면, 자신의 후원자를 닮은 영체 무기가 저주받은 목표 주위를 맴돕니다.
 
@@ -5559,11 +5559,11 @@
   <content contentuid="h73861110g988dg24c3g72e2gfe79f0ecaf49" version="1">지혜 내성 굴림에 실패하면, 목표는 꿈에 갇혀 휴식으로부터 아무런 이점을 얻지 못합니다. 목표가 깨어나면, [1]를 입습니다.</content>
   <content contentuid="hb0fea27dgc56fg62a0ge057g7c9ddc6f463e" version="1">목표는 꿈에 갇혀 휴식으로부터 아무런 이점을 얻지 못합니다. 목표가 깨어나면, [1]를 입습니다.</content>
   <content contentuid="hb36377c1g08c0g556fge8fbg80cbd9b569ef" version="1">꿈꾸는 중</content>
-  <content contentuid="h94c38ff4g24d8gdff5gf15bg1ec208dddd2d" version="1">숲의 존재 소환 오라</content>
+  <content contentuid="h94c38ff4g24d8gdff5gf15bg1ec208dddd2d" version="1">숲의 존재 창조 오라</content>
   <content contentuid="h2b042bbdga167g0335g0c96gd2fc48c2ea13" version="1">지속시간 동안 자신을 중심으로 [2] 방사에서 자연의 정령들이 자신 주위를 맴돌며 나타납니다. 그 방사가 자신이 볼 수 있는 크리처의 공간으로 들어올 때, 그리고 자신이 볼 수 있는 크리처가 방사 안으로 들어오거나 그 안에서 턴을 마칠 때마다, 그 크리처에게 지혜 내성 굴림을 강요할 수 있습니다. 실패하면 크리처는 [1]를 입고, 성공하면 그 절반만큼만 피해를 입습니다. 크리처는 자신의 턴마다 이 내성 굴림을 한 번만 합니다.
 
 또한, 주문 지속시간 동안 보조 행동으로 철수 행동을 할 수 있습니다.</content>
-  <content contentuid="h7a848bcagaa30g63d3g3125g77c908213cd3" version="1">숲의 존재 소환</content>
+  <content contentuid="h7a848bcagaa30g63d3g3125g77c908213cd3" version="1">숲의 존재 창조</content>
   <content contentuid="haf633c9dg1492gf659gb336g2332cda3f768" version="1">지속시간 동안 자신을 중심으로 [2] 방사에서 자연의 정령들이 자신 주위를 맴돌며 나타납니다. 그 방사가 자신이 볼 수 있는 크리처의 공간으로 들어올 때, 그리고 자신이 볼 수 있는 크리처가 방사 안으로 들어오거나 그 안에서 턴을 마칠 때마다, 그 크리처에게 지혜 내성 굴림을 강요할 수 있습니다. 실패하면 크리처는 [1]를 입고, 성공하면 그 절반만큼만 피해를 입습니다. 크리처는 자신의 턴마다 이 내성 굴림을 한 번만 합니다.
 
 또한, 주문 지속시간 동안 보조 행동으로 철수 행동을 할 수 있습니다.</content>
@@ -5808,7 +5808,7 @@
   <content contentuid="h9bf76849g3018g4f96gbac5gcd39839b2394" version="1">사용 가능한 직업: 팔라딘</content>
   <content contentuid="hca7ebb00g47b4g4574g953bgdb15df0bca67" version="1">낙뢰 소환 두루마리</content>
   <content contentuid="h9c7aa655g6161g4dedg9ffbg92220abe2475" version="1">사용 가능한 직업: 드루이드</content>
-  <content contentuid="hbaf05e9cg8b9ag48dagb7eag7903cf5bc3c3" version="1">포화 소환 두루마리</content>
+  <content contentuid="hbaf05e9cg8b9ag48dagb7eag7903cf5bc3c3" version="1">포화 창조 두루마리</content>
   <content contentuid="he94292e5gd3a9g44eegaaf6gdfc66d5bd1e2" version="1">사용 가능한 직업: 레인저</content>
   <content contentuid="hb3a50517g8c9fg42b2g8757g2a419821af02" version="1">성전사의 망토 두루마리</content>
   <content contentuid="he0963b4bgda4eg4bafgb796g5b7ec6410ca1" version="1">사용 가능한 직업: 팔라딘</content>
@@ -5826,7 +5826,7 @@
   <content contentuid="habb3d245gf146g4a01g8fd5g6d0eaf22fede" version="1">사용 가능한 직업: 바드, 드루이드, 레인저</content>
   <content contentuid="h50778009g9d87g418bg87b5g2254454260ed" version="1">영혼 수호자 두루마리</content>
   <content contentuid="h8fe1d517gfd0dg43f7gb1b5ge42cd5ffc705" version="1">사용 가능한 직업: 클레릭</content>
-  <content contentuid="h55d62a6fge1a3g4d2fg93cfg89f4f3459f11" version="1">숲의 존재 소환 두루마리</content>
+  <content contentuid="h55d62a6fge1a3g4d2fg93cfg89f4f3459f11" version="1">숲의 존재 창조 두루마리</content>
   <content contentuid="h5e1c76d8g5917g4dcfgaf4bg102510402809" version="1">사용 가능한 직업: 드루이드, 레인저</content>
   <content contentuid="h6610ee0eg1eb2g4ce7g9ca1gcf3d85a89aee" version="1">죽음 방비 두루마리</content>
   <content contentuid="h8b1f4993ga883g4f66g9bb9g24d8dd30700d" version="1">사용 가능한 직업: 클레릭, 팔라딘</content>
@@ -6493,16 +6493,16 @@
   <content contentuid="hf72ba7eeg74aeg8025g8d10g383f2aab6a51" version="1">지속시간 동안 자신을 중심으로 [2] 방사에서 원소계의 정령들이 자신 주위를 맴돌며 나타납니다. 주문이 끝날 때까지, 자신의 공격이 방사 안의 크리처를 적중시킬 때마다 그 크리처는 추가로 [1]의 피해를 입습니다. 이 피해는 산성, 냉기, 화염, 번개 중 하나이며 공격할 때 선택합니다.
 
 또한, 방사 안의 지면은 자신의 적에게 험지가 됩니다.</content>
-  <content contentuid="h0fab1115gf226ge8beg030ag68b6e3209ba0" version="1">하급 정령 소환: 산성</content>
+  <content contentuid="h0fab1115gf226ge8beg030ag68b6e3209ba0" version="1">하급 정령 창조: 산성</content>
   <content contentuid="h5352f3fag15fagc41ag28c5g6e8020ce8a0f" version="1">주문이 끝날 때까지, 자신의 공격이 방사 안의 크리처를 적중시킬 때마다 그 크리처는 추가로 [1]를 입습니다.</content>
-  <content contentuid="hd306880fga010ga0ccgee6agf2546072d84f" version="1">하급 정령 소환: 냉기</content>
+  <content contentuid="hd306880fga010ga0ccgee6agf2546072d84f" version="1">하급 정령 창조: 냉기</content>
   <content contentuid="h5d952901g443eg3888g9a0dg423e50ad15c7" version="1">주문이 끝날 때까지, 자신의 공격이 방사 안의 크리처를 적중시킬 때마다 그 크리처는 추가로 [1]를 입습니다.</content>
-  <content contentuid="h4873e0cdg3743g9b38gd242g3b9762fc3916" version="1">하급 정령 소환: 화염</content>
+  <content contentuid="h4873e0cdg3743g9b38gd242g3b9762fc3916" version="1">하급 정령 창조: 화염</content>
   <content contentuid="hd88ee8a8g1552gb464g7097g6ea7fa9ece9c" version="1">주문이 끝날 때까지, 자신의 공격이 방사 안의 크리처를 적중시킬 때마다 그 크리처는 추가로 [1]를 입습니다.</content>
-  <content contentuid="hdc99cc75g8f81g0397g1018gfde4fcc5be57" version="1">하급 정령 소환: 번개</content>
+  <content contentuid="hdc99cc75g8f81g0397g1018gfde4fcc5be57" version="1">하급 정령 창조: 번개</content>
   <content contentuid="h89c8ae11gbccagbb70g3473gb3bc505a78c1" version="1">주문이 끝날 때까지, 자신의 공격이 방사 안의 크리처를 적중시킬 때마다 그 크리처는 추가로 [1]를 입습니다.</content>
-  <content contentuid="h94c82192gf055gfc18gd5bfgfcedb51b258c" version="1">하급 정령 소환 목표</content>
-  <content contentuid="h20a9acf5g3464g7749g7665g0da6684092ca" version="1">&lt;LSTag Type="Spell" Tooltip="Target_ConjureElementals_Minor_Container"&gt;하급 정령 소환&lt;/LSTag&gt;의 방사에 갇혔습니다. 이 크리처가 있는 지면은 험지가 되며, 시전자의 공격에 추가 피해를 입습니다.</content>
+  <content contentuid="h94c82192gf055gfc18gd5bfgfcedb51b258c" version="1">하급 정령 창조 목표</content>
+  <content contentuid="h20a9acf5g3464g7749g7665g0da6684092ca" version="1">&lt;LSTag Type="Spell" Tooltip="Target_ConjureElementals_Minor_Container"&gt;하급 정령 창조&lt;/LSTag&gt;의 방사에 갇혔습니다. 이 크리처가 있는 지면은 험지가 되며, 시전자의 공격에 추가 피해를 입습니다.</content>
   <content contentuid="h3fc5f406g8b36gf617gf0f4ga02e99f55658" version="2">드래곤의 영혼</content>
   <content contentuid="h8925bf96gcc33g196cg6b28ga8e21a86bf29" version="1">드래곤 소환</content>
   <content contentuid="h9d6713c3gcb8cgea0fg44deg1925c2bcb55d" version="1">드래곤의 영혼을 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 드래곤의 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다.</content>
@@ -6952,14 +6952,14 @@
   <content contentuid="hb0a64499gc35fg4ab2gb328g3b97bc0c2acc" version="1">원소계에서 실체가 없는 대형 정령을 소환해 사거리 내의 빈 공간에 나타나게 합니다. 정령은 지속시간 동안 유지됩니다.
 
 자신이 볼 수 있는 크리처가 정령의 공간에 들어오거나 정령으로부터 [1] 이내에서 자신의 턴을 시작할 때마다, 정령이 구속하고 있는 크리처가 없다면 그 크리처에게 민첩 내성 굴림을 강요할 수 있습니다. 실패하면 대상은 [2]를 입고, 주문이 끝날 때까지 구속 상태가 됩니다. 구속 상태인 대상은 자신의 턴이 시작될 때마다 내성 굴림을 다시 합니다. 실패하면 대상은 [3]를 입습니다. 성공하면 대상은 더 이상 정령에 의해 구속 상태가 아닙니다.</content>
-  <content contentuid="h99e8a553gcdf8g41ceg8cbcgb3260739174c" version="1">정령 소환 오라</content>
+  <content contentuid="h99e8a553gcdf8g41ceg8cbcgb3260739174c" version="1">정령 창조 오라</content>
   <content contentuid="h80cc0bb5g75a3g483cga433g6a2e368536e9" version="1">자신이 볼 수 있는 크리처가 정령의 공간에 들어오거나 정령으로부터 [1] 이내에서 자신의 턴을 시작할 때마다, 정령이 구속하고 있는 크리처가 없다면 그 크리처에게 민첩 내성 굴림을 강요할 수 있습니다. 실패하면 대상은 [2]를 입고, 주문이 끝날 때까지 구속 상태가 됩니다.</content>
-  <content contentuid="h122e6531gaed5g4c3eg9d1agbe233a6ab806" version="1">정령 소환</content>
+  <content contentuid="h122e6531gaed5g4c3eg9d1agbe233a6ab806" version="1">정령 창조</content>
   <content contentuid="h69c6a2f0g8890g46b1gafa5gdb6e330c0e1c" version="1">자신이 볼 수 있는 크리처가 정령의 공간에 들어오거나 정령으로부터 [1] 이내에서 자신의 턴을 시작할 때마다, 정령이 구속하고 있는 크리처가 없다면 그 크리처에게 민첩 내성 굴림을 강요할 수 있습니다. 실패하면 대상은 [2]를 입고, 주문이 끝날 때까지 구속 상태가 됩니다.</content>
   <content contentuid="h211a77a6g811bg4a0fga19fg5e0caf1af423" version="1">이동할 수 없습니다. 영향을 받은 대상에 대한 &lt;LSTag Tooltip="AttackRoll"&gt;명중 굴림&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Advantage"&gt;유리 보정&lt;/LSTag&gt;을 받고, 대상은 명중 굴림과 민첩 &lt;LSTag Tooltip="SavingThrow"&gt;내성 굴림&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 받습니다.
 
 구속 상태인 대상은 자신의 턴이 시작될 때마다 내성 굴림을 다시 합니다. 실패하면 대상은 [1]를 입습니다. 성공하면 대상은 더 이상 정령에 의해 구속 상태가 아닙니다.</content>
-  <content contentuid="hac290493g82abg4a1egaccag79dab9365ffd" version="1">정령 소환: 구속</content>
-  <content contentuid="h5ad86a6agaeb5g4ac4g9d81g49c68c483fb0" version="1">정령 소환: 구속 중</content>
+  <content contentuid="hac290493g82abg4a1egaccag79dab9365ffd" version="1">정령 창조: 구속</content>
+  <content contentuid="h5ad86a6agaeb5g4ac4g9d81g49c68c483fb0" version="1">정령 창조: 구속 중</content>
   <content contentuid="h71200cc7gd992g41f2gb983g92962b6ed9e9" version="1">정령이 크리처 하나를 구속하고 있습니다. 그 크리처가 더 이상 정령에 의해 구속 상태가 아닐 때까지, 다른 크리처에게 민첩 내성 굴림을 강요할 수 없습니다.</content>
 </contentList>
