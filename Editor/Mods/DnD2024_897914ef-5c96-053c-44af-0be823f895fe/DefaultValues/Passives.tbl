@@ -43,26 +43,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_4" />
-        <field name="UUID" type="IdTableFieldDefinition" value="7d144999-9553-4fb6-b2fb-4f970c161e2e" />
-        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e" />
-        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
-        <field name="DefaultValues" type="StringTableFieldDefinition" value="Alert" />
-        <field name="Comment" type="CommentTableFieldDefinition" value="Human Origin Feat" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_5" />
-        <field name="UUID" type="IdTableFieldDefinition" value="6654ab3a-b8bc-456f-b2e6-cf683f215421" />
-        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="4b6e7ec9-145b-4a95-9d8a-b2181de2749e" />
-        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
-        <field name="DefaultValues" type="StringTableFieldDefinition" value="Perception" />
-        <field name="Comment" type="CommentTableFieldDefinition" value="Human Skill" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="Name" type="NameTableFieldDefinition" value="New_Stat_6" />
         <field name="UUID" type="IdTableFieldDefinition" value="fa8f6905-f6be-4d7a-830a-62b59ab7f281" />
         <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="60bbcc97-5381-4898-bc15-908c072895de" />
