@@ -7044,4 +7044,6 @@ At the start of each of its turns, the Restrained target repeats the save. On a 
   <content contentuid="h28c8447dg26a8g41c1g952cgeebf94864fec" version="1">Magic Initiate: Earth Tremor</content>
   <content contentuid="he5526d60g3dddg44e5ga3f1g488cc255b98c" version="1">Scroll of Earth Tremor</content>
   <content contentuid="h340d4946g2a94g46e0ga5e7g8f20554ef1e2" version="1">Usable Classes: Bard, Druid, Sorcerer, Wizard</content>
+  <content contentuid="h21a7273cg6587g4568g8b06gea4a80033289" version="1">Scroll of Staggering Smite</content>
+  <content contentuid="hc3fe6b09g9b2eg449aga16dg620b49fed335" version="1">Usable Classes: Paladin</content>
 </contentList>

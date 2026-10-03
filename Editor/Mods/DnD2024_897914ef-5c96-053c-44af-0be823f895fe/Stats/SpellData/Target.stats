@@ -18295,5 +18295,12 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="16d197f8-ac81-4763-9eb3-6c6efe183a3c" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0cb1d6ad-1c8f-4a6d-9c58-3fd58467b391" />
+        <field name="Name" type="NameTableFieldDefinition" value="StaggeringSmite_spellscroll" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="80865240-51ea-47ee-9a3a-36db3a292f56" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

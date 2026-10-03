@@ -15324,3 +15324,8 @@ type "SpellData"
 data "SpellType" "Target"
 using "Target_SummonElemental_Air"
 
+new entry "Target_StaggeringSmite_spellscroll"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StaggeringSmite"
+

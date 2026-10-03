@@ -196,6 +196,7 @@ local SPELL_CLASS_MAP = {
     Target_Polymorph_spellscroll = '4 Bard Druid Sorcerer Wizard',
     Target_ResilientSphere_spellscroll = '4 Wizard Artificer',
     Target_SpellfireStorm_spellscroll = '4 Sorcerer Wizard',
+    Target_StaggeringSmite_spellscroll = '4 Paladin',
     Target_Stoneskin_spellscroll = '4 Druid Ranger Sorcerer Wizard Artificer',
     Target_SummonAberration_spellscroll = '4 Warlock Wizard',
     Target_SummonElemental_spellscroll = '4 Druid Ranger Wizard',
@@ -673,4 +674,5 @@ function IsScrollSpell()
     | SpellId('Target_SummonAberration_spellscroll')
     | SpellId('Target_SummonElemental_spellscroll')
     | SpellId('Shout_EarthTremor_spellscroll')
+    | SpellId('Target_StaggeringSmite_spellscroll')
 end
