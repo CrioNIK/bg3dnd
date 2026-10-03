@@ -114,7 +114,7 @@ Argument Solver, Blazer of Benevolence, Cap of Curing, Chain of Liberation, Char
 
 ### Spell Scrolls
 
-Spell scrolls are restricted to specific classes, with cantrip scrolls and Scrolls of Revivify always exempt.
+Spell scrolls are restricted to specific classes, with cantrip scrolls, Scrolls of Revivify, and Scrolls of Detect Thoughts always exempt.
 
 ## Support the Mod
 
