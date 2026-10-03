@@ -765,6 +765,49 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="38e91d01-dc45-4189-94a1-03d24770815c" />
+        <field name="Name" type="NameTableFieldDefinition" value="AstralFlood_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d2000371-15f7-4dba-b1be-ac7d420bf89c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Zone_AstralFlood" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d10,Radiant,Magical);IF(not Item()):ApplyStatus(ASTRAL_BLIND,100,2);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d10/2,Radiant,Magical);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d10,Cold);DealDamage(5d10,Radiant);Distance(9)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d10,Radiant,Magical);" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Zone_AstralFlood_Cold_4;Zone_AstralFlood_Radiant_4;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d538b3a1-98f1-4558-924e-97b5f695b5c1" />
+        <field name="Name" type="NameTableFieldDefinition" value="AstralFlood_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="38e91d01-dc45-4189-94a1-03d24770815c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d10,Radiant,Magical);IF(not Item()):ApplyStatus(ASTRAL_BLIND,100,2);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d10/2,Radiant,Magical);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d10,Cold);DealDamage(6d10,Radiant);Distance(9)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d10,Radiant,Magical);" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Zone_AstralFlood_Cold_5;Zone_AstralFlood_Radiant_5;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="54eb4131-9ffa-4dba-8cfe-a0b3a307eff5" />
+        <field name="Name" type="NameTableFieldDefinition" value="AstralFlood_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="38e91d01-dc45-4189-94a1-03d24770815c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d10,Radiant,Magical);IF(not Item()):ApplyStatus(ASTRAL_BLIND,100,2);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(7d10/2,Radiant,Magical);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d10,Cold);DealDamage(7d10,Radiant);Distance(9)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d10,Radiant,Magical);" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Zone_AstralFlood_Cold_6;Zone_AstralFlood_Radiant_6;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a5cd0306-8a55-4a58-b6c8-ef8db4aa64ad" />
         <field name="Name" type="NameTableFieldDefinition" value="AstralFlood_Radiant" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d2000371-15f7-4dba-b1be-ac7d420bf89c" />
@@ -778,6 +821,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5c15277a-9dd9-4957-892b-a4ae735af058" />
         <field name="Name" type="NameTableFieldDefinition" value="AstralFlood_Radiant_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a5cd0306-8a55-4a58-b6c8-ef8db4aa64ad" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_AstralFlood_4" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Zone_AstralFlood_Radiant" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
@@ -792,6 +836,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ee33806d-f660-499d-bd0d-f24ac3b6da0e" />
         <field name="Name" type="NameTableFieldDefinition" value="AstralFlood_Radiant_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5c15277a-9dd9-4957-892b-a4ae735af058" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_AstralFlood_5" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d10,Radiant,Magical);IF(not Item()):ApplyStatus(ASTRAL_BLIND,100,2);" />
@@ -805,6 +850,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="627a2521-cd26-4025-b317-e74efd33194c" />
         <field name="Name" type="NameTableFieldDefinition" value="AstralFlood_Radiant_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5c15277a-9dd9-4957-892b-a4ae735af058" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_AstralFlood_6" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d10,Radiant,Magical);IF(not Item()):ApplyStatus(ASTRAL_BLIND,100,2);" />
@@ -842,6 +888,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6c11e0d8-60e0-4879-988d-0ac555be68da" />
         <field name="Name" type="NameTableFieldDefinition" value="AstralFlood_Cold_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="567bf31f-ddec-449f-9814-bc938de02c75" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_AstralFlood_4" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Zone_AstralFlood_Cold" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
@@ -856,6 +903,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2ed83bea-3137-49e3-ad1d-b23471a89665" />
         <field name="Name" type="NameTableFieldDefinition" value="AstralFlood_Cold_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6c11e0d8-60e0-4879-988d-0ac555be68da" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_AstralFlood_5" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d10,Cold,Magical);IF(not Item()):ApplyStatus(ASTRAL_COLD,100,2);" />
@@ -869,6 +917,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5efe9acb-cf96-4390-a357-bb77f1713676" />
         <field name="Name" type="NameTableFieldDefinition" value="AstralFlood_Cold_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6c11e0d8-60e0-4879-988d-0ac555be68da" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_AstralFlood_6" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d10,Cold,Magical);IF(not Item()):ApplyStatus(ASTRAL_COLD,100,2);" />
