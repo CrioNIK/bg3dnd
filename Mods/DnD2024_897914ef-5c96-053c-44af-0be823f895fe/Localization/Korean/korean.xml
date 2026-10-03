@@ -6962,4 +6962,17 @@
   <content contentuid="hac290493g82abg4a1egaccag79dab9365ffd" version="1">정령 창조: 구속</content>
   <content contentuid="h5ad86a6agaeb5g4ac4g9d81g49c68c483fb0" version="1">정령 창조: 구속 중</content>
   <content contentuid="h71200cc7gd992g41f2gb983g92962b6ed9e9" version="1">정령이 크리처 하나를 구속하고 있습니다. 그 크리처가 더 이상 정령에 의해 구속 상태가 아닐 때까지, 다른 크리처에게 민첩 내성 굴림을 강요할 수 없습니다.</content>
+  <content contentuid="h3cfda82dg1356g46b8gb72cg6be55f9bffd4" version="1">정령 소환</content>
+  <content contentuid="h167b3662gbf5eg481cga40bg0100ef540d63" version="1">정령의 영혼을 공기, 대지, 화염, 물 중 하나의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 정령 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다.</content>
+  <content contentuid="h1fc397bege850g4cb0g8670gba5c5a69fd09" version="1">정령 소환: 공기</content>
+  <content contentuid="h4084866bg6e9bg4165g8f79ga809572b0967" version="1">정령의 영혼을 공기의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 정령 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다. 이 정령은 비행할 수 있고 번개, 천둥 피해에 저항을 얻으며, &lt;LSTag Type="Spell" Tooltip="Target_SummonElemental_Slam_Air"&gt;내려치기&lt;/LSTag&gt;로 번개 피해를 입힙니다.</content>
+  <content contentuid="h969069c2g0073g4797g93b9g173eff647436" version="1">정령 소환: 대지</content>
+  <content contentuid="h499179e8g8c0cg4e76gab0bg9ca3eb74fbd3" version="1">정령의 영혼을 대지의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 정령 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다. 이 정령은 관통, 참격 피해에 저항을 얻으며, &lt;LSTag Type="Spell" Tooltip="Target_SummonElemental_Slam_Earth"&gt;내려치기&lt;/LSTag&gt;로 타격 피해를 입힙니다.</content>
+  <content contentuid="h712ac528ga4ebg4d01gb595g46b2da1bd9aa" version="1">정령 소환: 화염</content>
+  <content contentuid="h3a50bf28g0ecbg4019gaa9ag9f2a0954169c" version="1">정령의 영혼을 화염의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 정령 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다. 이 정령은 화염 피해에 면역이 되며, &lt;LSTag Type="Spell" Tooltip="Target_SummonElemental_Slam_Fire"&gt;내려치기&lt;/LSTag&gt;로 화염 피해를 입힙니다.</content>
+  <content contentuid="haca7c6e3gc3ddg4793gac4cge56c04325c04" version="1">정령 소환: 물</content>
+  <content contentuid="h492cb2f3ge550g4aa8gab6bgc133161c9af2" version="1">정령의 영혼을 물의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 정령 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다. 이 정령은 산성 피해에 저항을 얻으며, &lt;LSTag Type="Spell" Tooltip="Target_SummonElemental_Slam_Water"&gt;내려치기&lt;/LSTag&gt;로 냉기 피해를 입힙니다.</content>
+  <content contentuid="h0154c016g7f15g4338gab87g21dfec532839" version="1">원소의 힘이 휘감긴 팔로 대상을 내려칩니다.</content>
+  <content contentuid="hf8aab6c9gc95cg492fg9fd6g7ff1a7b55e72" version="1">정령 소환 두루마리</content>
+  <content contentuid="hd68889f0g5d0bg4b5eg94d8ga94e8c6a2787" version="1">사용 가능한 직업: 드루이드, 레인저, 위저드</content>
 </contentList>
