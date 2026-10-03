@@ -7009,4 +7009,20 @@ Some Transmuters are tinkerers and pranksters. Others seek the power to make and
   <content contentuid="h05029f46gda75g4215g904ag23525a0965a0" version="1">Scroll of Summon Aberration</content>
   <content contentuid="hb111ba4bg8041g4869gb8bfg9a48b3fa2167" version="1">Usable Classes: Warlock, Wizard</content>
   <content contentuid="he1f280cbg875agd08fg319ag8e482417e750" version="1">Rend</content>
+  <content contentuid="h5df075fbg7410g4249g9c50g1407d54da3fe" version="1">You conjure a Large, intangible spirit from the Elemental Planes that appears in an unoccupied space within range. Choose the spirit’s element, which determines its damage type: air (Lightning), earth (Thunder), fire (Fire), or water (Cold). The spirit lasts for the duration.
+
+Whenever a creature you can see enters the spirit’s space or starts its turn within [1] of the spirit, you can force that creature to make a Dexterity saving throw if the spirit has no creature Restrained. On failed save, the target takes [2] damage of the spirit’s type, and the target has the Restrained condition until the spell ends. At the start of each of its turns, the Restrained target repeats the save. On a failed save, the target takes [3] damage of the spirit’s type. On a successful save, the target isn’t Restrained by the spirit.</content>
+  <content contentuid="hb0a64499gc35fg4ab2gb328g3b97bc0c2acc" version="1">You conjure a Large, intangible spirit from the Elemental Planes that appears in an unoccupied space within range. The spirit lasts for the duration.
+
+Whenever a creature you can see enters the spirit’s space or starts its turn within [1] of the spirit, you can force that creature to make a Dexterity saving throw if the spirit has no creature Restrained. On failed save, the target takes [2], and the target has the Restrained condition until the spell ends. At the start of each of its turns, the Restrained target repeats the save. On a failed save, the target takes [3]. On a successful save, the target isn’t Restrained by the spirit.</content>
+  <content contentuid="h99e8a553gcdf8g41ceg8cbcgb3260739174c" version="1">Conjure Elemental Aura</content>
+  <content contentuid="h80cc0bb5g75a3g483cga433g6a2e368536e9" version="1">Whenever a creature you can see enters the spirit’s space or starts its turn within [1] of the spirit, you can force that creature to make a Dexterity saving throw if the spirit has no creature Restrained. On failed save, the target takes [2], and the target has the Restrained condition until the spell ends.</content>
+  <content contentuid="h122e6531gaed5g4c3eg9d1agbe233a6ab806" version="1">Conjure Elemental</content>
+  <content contentuid="h69c6a2f0g8890g46b1gafa5gdb6e330c0e1c" version="1">Whenever a creature you can see enters the spirit’s space or starts its turn within [1] of the spirit, you can force that creature to make a Dexterity saving throw if the spirit has no creature Restrained. On failed save, the target takes [2], and the target has the Restrained condition until the spell ends.</content>
+  <content contentuid="h211a77a6g811bg4a0fga19fg5e0caf1af423" version="1">Cannot move. &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against the affected entity have &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt;, while the entity's Attack Rolls and Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt;.
+
+At the start of each of its turns, the Restrained target repeats the save. On a failed save, the target takes [1]. On a successful save, the target isn’t Restrained by the spirit.</content>
+  <content contentuid="hac290493g82abg4a1egaccag79dab9365ffd" version="1">Conjure Elemental: Restrained</content>
+  <content contentuid="h5ad86a6agaeb5g4ac4g9d81g49c68c483fb0" version="1">Conjure Elemental: Restraining</content>
+  <content contentuid="h71200cc7gd992g41f2gb983g92962b6ed9e9" version="1">The spirit has a creature Restrained. It can’t force another creature to make a Dexterity saving throw until that creature isn’t Restrained by the spirit.</content>
 </contentList>

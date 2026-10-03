@@ -74,6 +74,181 @@
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b2afefcb-c565-4efd-b81e-cfd179c28179" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CONJURATION__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a1079c5-a934-4c4c-8f82-d046eb572e63" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Air_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="66af781b-c459-482e-98a2-d0c6802fb245" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="1" />
+        <field name="FOV" type="IntegerTableFieldDefinition" value="90" />
+        <field name="Flags" type="EnumerationListTableFieldDefinition" value="Grounded;IgnoreClouds;ThrownImmunity;InvisibilityImmunity;SlippingImmunity" enumeration_type_name="AttributeFlags" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Invulnerable();Attribute(Grounded);DialogueBlock();BlockRegainHP(Undead;Construct;Living);" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;SG_Prone;PETRIFIED;PARALYZED;RESTRAINED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4;SG_Approaching;SG_Blinded;SG_CanBePickedUp;SG_Charmed;SG_Charmed_Subtle;SG_Condition;SG_Confused;SG_Cursed;SG_DetectThoughts;SG_DifficultTerrain;SG_Disease;SG_Disguise;SG_Dominated;SG_Doppelganger;SG_DropForNonMutingDialog;SG_Drunk;SG_Exhausted;SG_Fleeing;SG_Frightened;SG_Helpable_Condition;SG_HexbladeCurse;SG_Ignore_AOO;SG_Incapacitated;SG_Invisible;SG_Light;SG_Mad;SG_Paralyzed;SG_Petrified;SG_Poisoned_Story_NonRemovable;SG_Poisoned_Story_Removable;SG_Polymorph;SG_Polymorph_BeastShape;SG_Polymorph_BeastShape_NPC;SG_Rage;SG_RemoveOnRespec;SG_Restrained;SG_ScriptedPeaceBehaviour;SG_Sleeping;SG_Sleeping_Magical;SG_Stunned;SG_Surface;SG_Taunted;SG_Unconscious;SG_WeaponCoating" />
+        <field name="ActionResources" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Passives" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="BludgeoningResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="SlashingResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PiercingResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="AcidResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ColdResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="FireResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ForceResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="LightningResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="NecroticResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PoisonResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PsychicResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="RadiantResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ThunderResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c35d085e-b020-4379-a361-966284fb6321" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Air_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5a1079c5-a934-4c4c-8f82-d046eb572e63" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df5e098a-8217-485f-98e4-3441058f4530" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Earth_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9d9aff4e-03ec-425b-81ce-49ae757bfcf1" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Flags" type="EnumerationListTableFieldDefinition" value="Grounded;IgnoreClouds;ThrownImmunity;InvisibilityImmunity;SlippingImmunity" enumeration_type_name="AttributeFlags" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Invulnerable();Attribute(Grounded);DialogueBlock();BlockRegainHP(Undead;Construct;Living);" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;SG_Prone;PETRIFIED;PARALYZED;RESTRAINED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4;SG_Approaching;SG_Blinded;SG_CanBePickedUp;SG_Charmed;SG_Charmed_Subtle;SG_Condition;SG_Confused;SG_Cursed;SG_DetectThoughts;SG_DifficultTerrain;SG_Disease;SG_Disguise;SG_Dominated;SG_Doppelganger;SG_DropForNonMutingDialog;SG_Drunk;SG_Exhausted;SG_Fleeing;SG_Frightened;SG_Helpable_Condition;SG_HexbladeCurse;SG_Ignore_AOO;SG_Incapacitated;SG_Invisible;SG_Light;SG_Mad;SG_Paralyzed;SG_Petrified;SG_Poisoned_Story_NonRemovable;SG_Poisoned_Story_Removable;SG_Polymorph;SG_Polymorph_BeastShape;SG_Polymorph_BeastShape_NPC;SG_Rage;SG_RemoveOnRespec;SG_Restrained;SG_ScriptedPeaceBehaviour;SG_Sleeping;SG_Sleeping_Magical;SG_Stunned;SG_Surface;SG_Taunted;SG_Unconscious;SG_WeaponCoating" />
+        <field name="ActionResources" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Passives" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="BludgeoningResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="SlashingResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PiercingResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="AcidResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ColdResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="FireResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ForceResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="LightningResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="NecroticResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PoisonResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PsychicResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="RadiantResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ThunderResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7f26709-d6ba-4a6c-b68f-76b2c3288578" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Earth_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="df5e098a-8217-485f-98e4-3441058f4530" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f06462a5-f751-4d35-b1e3-0ce0b75bb6ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Fire_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6b836fb5-7d7e-4ab6-b39f-825a312f1108" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Flags" type="EnumerationListTableFieldDefinition" value="Grounded;IgnoreClouds;ThrownImmunity;InvisibilityImmunity;SlippingImmunity" enumeration_type_name="AttributeFlags" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Invulnerable();Attribute(Grounded);DialogueBlock();BlockRegainHP(Undead;Construct;Living);" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;SG_Prone;PETRIFIED;PARALYZED;RESTRAINED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4;SG_Approaching;SG_Blinded;SG_CanBePickedUp;SG_Charmed;SG_Charmed_Subtle;SG_Condition;SG_Confused;SG_Cursed;SG_DetectThoughts;SG_DifficultTerrain;SG_Disease;SG_Disguise;SG_Dominated;SG_Doppelganger;SG_DropForNonMutingDialog;SG_Drunk;SG_Exhausted;SG_Fleeing;SG_Frightened;SG_Helpable_Condition;SG_HexbladeCurse;SG_Ignore_AOO;SG_Incapacitated;SG_Invisible;SG_Light;SG_Mad;SG_Paralyzed;SG_Petrified;SG_Poisoned_Story_NonRemovable;SG_Poisoned_Story_Removable;SG_Polymorph;SG_Polymorph_BeastShape;SG_Polymorph_BeastShape_NPC;SG_Rage;SG_RemoveOnRespec;SG_Restrained;SG_ScriptedPeaceBehaviour;SG_Sleeping;SG_Sleeping_Magical;SG_Stunned;SG_Surface;SG_Taunted;SG_Unconscious;SG_WeaponCoating" />
+        <field name="ActionResources" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Passives" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="BludgeoningResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="SlashingResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PiercingResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="AcidResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ColdResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="FireResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ForceResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="LightningResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="NecroticResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PoisonResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PsychicResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="RadiantResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ThunderResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="61f50a6f-a585-4c5f-8dd4-86fc1bdbbf91" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Fire_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f06462a5-f751-4d35-b1e3-0ce0b75bb6ae" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ae472669-2b43-4f34-aa78-e4f553e77463" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Water_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ee02549f-7c49-443f-ae25-0efa5aea6292" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Flags" type="EnumerationListTableFieldDefinition" value="Grounded;IgnoreClouds;ThrownImmunity;InvisibilityImmunity;SlippingImmunity" enumeration_type_name="AttributeFlags" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="Invulnerable();Attribute(Grounded);DialogueBlock();BlockRegainHP(Undead;Construct;Living);" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Poisoned;SG_Prone;PETRIFIED;PARALYZED;RESTRAINED;SCL_SHADOW_CURSE;SCL_SHADOW_CURSE_1;SCL_SHADOW_CURSE_2;SCL_SHADOW_CURSE_3;SCL_SHADOW_CURSE_4;SG_Approaching;SG_Blinded;SG_CanBePickedUp;SG_Charmed;SG_Charmed_Subtle;SG_Condition;SG_Confused;SG_Cursed;SG_DetectThoughts;SG_DifficultTerrain;SG_Disease;SG_Disguise;SG_Dominated;SG_Doppelganger;SG_DropForNonMutingDialog;SG_Drunk;SG_Exhausted;SG_Fleeing;SG_Frightened;SG_Helpable_Condition;SG_HexbladeCurse;SG_Ignore_AOO;SG_Incapacitated;SG_Invisible;SG_Light;SG_Mad;SG_Paralyzed;SG_Petrified;SG_Poisoned_Story_NonRemovable;SG_Poisoned_Story_Removable;SG_Polymorph;SG_Polymorph_BeastShape;SG_Polymorph_BeastShape_NPC;SG_Rage;SG_RemoveOnRespec;SG_Restrained;SG_ScriptedPeaceBehaviour;SG_Sleeping;SG_Sleeping_Magical;SG_Stunned;SG_Surface;SG_Taunted;SG_Unconscious;SG_WeaponCoating" />
+        <field name="ActionResources" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Passives" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="ColdResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="FireResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ForceResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="LightningResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="NecroticResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PoisonResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PsychicResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="RadiantResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ThunderResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c52eaaea-1219-4b5f-b2e4-64ac86a64b45" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Water_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ae472669-2b43-4f34-aa78-e4f553e77463" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="8b647099-00c3-41f6-bd93-f6d00854b55d" />
         <field name="Name" type="NameTableFieldDefinition" value="__NECROMANCY__" />
       </fields>

@@ -2417,38 +2417,10 @@
         <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Container" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="604728eb-5da7-4c4e-a646-e7994621fe75" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsLinkedSpellContainer;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="2a297ba4-083e-4307-ba6c-86e7b483296a" />
-        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Elemental_Air" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="616b6090-c549-4730-8629-6dfd0f968ae7" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="8dafefa6-b829-473e-9684-1e40cab4cb9e" />
-        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Elemental_Earth" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="fadcf305-5a6c-4a7c-b757-0dc9671a18dc" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="a85e4545-b518-44e0-922b-bdec3cd20b52" />
-        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Elemental_Fire" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="de7853f1-4be4-4ebf-87cd-f6fcf98f72a6" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="9ed655e3-329a-45e2-bc75-9054d56316be" />
-        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Elemental_Water" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="9487eaba-4a78-4505-8ae9-fc4628e1fdaf" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5df075fbg7410g4249g9c50g1407d54da3fe" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);8d8;4d8" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Lightning)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2458,43 +2430,157 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="06252678-ec18-4fe3-a225-38b078023091" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsLinkedSpellContainer;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
-        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_ConjureElemental_Myrmidon_Air;Target_ConjureElemental_Myrmidon_Earth;Target_ConjureElemental_Myrmidon_Fire;Target_ConjureElemental_Myrmidon_Water" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_ConjureElemental_Elemental_Air_6;Target_ConjureElemental_Elemental_Earth_6;Target_ConjureElemental_Elemental_Fire_6;Target_ConjureElemental_Elemental_Water_6;" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5df075fbg7410g4249g9c50g1407d54da3fe" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);9d8;5d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a297ba4-083e-4307-ba6c-86e7b483296a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Elemental_Air" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="616b6090-c549-4730-8629-6dfd0f968ae7" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(191ef10e-5098-45c5-823d-db0be64d250d, 100,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStack',CONJURE_ELEMENTAL_AURA_AIR_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('191ef10e-5098-45c5-823d-db0be64d250d') and not Character() and not Self()" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0a64499gc35fg4ab2gb328g3b97bc0c2acc" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(8d8,Lightning);DealDamage(4d8,Lightning)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Lightning)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Lightning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="871d26b5-4c51-4e2d-b904-2fe1f0cfba01" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Elemental_Air_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2a297ba4-083e-4307-ba6c-86e7b483296a" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Container_6" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(5ae0c7a8-3aa2-4cbc-97c5-1f56d8c36e72, 100,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStack',CONJURE_ELEMENTAL_AURA_AIR_6,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('5ae0c7a8-3aa2-4cbc-97c5-1f56d8c36e72') and not Character() and not Self()" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Lightning);DealDamage(5d8,Lightning)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(9d8,Lightning)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Elemental_Air" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8dafefa6-b829-473e-9684-1e40cab4cb9e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Elemental_Earth" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fadcf305-5a6c-4a7c-b757-0dc9671a18dc" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(766da946-40a8-4a07-9990-e7a084ca79e6, 100,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStack',CONJURE_ELEMENTAL_AURA_EARTH_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('766da946-40a8-4a07-9990-e7a084ca79e6') and not Character() and not Self()" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0a64499gc35fg4ab2gb328g3b97bc0c2acc" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(8d8,Thunder);DealDamage(4d8,Thunder)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Thunder)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Thunder)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c9e40f7e-06a6-49a8-808a-b139a700ef78" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Elemental_Earth_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="8dafefa6-b829-473e-9684-1e40cab4cb9e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Container_6" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(f6ff43e5-d8d2-451c-8889-759bfc5c6fbb, 100,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStack',CONJURE_ELEMENTAL_AURA_EARTH_6,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('f6ff43e5-d8d2-451c-8889-759bfc5c6fbb') and not Character() and not Self()" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Thunder);DealDamage(5d8,Thunder)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(9d8,Thunder)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Elemental_Earth" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a85e4545-b518-44e0-922b-bdec3cd20b52" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Elemental_Fire" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de7853f1-4be4-4ebf-87cd-f6fcf98f72a6" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(cb3f4c14-198a-4311-8baa-73ec571131ef, 100,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStack',CONJURE_ELEMENTAL_AURA_FIRE_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('cb3f4c14-198a-4311-8baa-73ec571131ef') and not Character() and not Self()" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0a64499gc35fg4ab2gb328g3b97bc0c2acc" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(8d8,Fire);DealDamage(4d8,Fire)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Fire)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Fire)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="60037b16-92f4-4393-968b-14b150f12f55" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Elemental_Fire_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a85e4545-b518-44e0-922b-bdec3cd20b52" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Container_6" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(638f9fc6-0491-4604-b7ad-b6c2f1d7bce8, 100,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStack',CONJURE_ELEMENTAL_AURA_FIRE_6,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('638f9fc6-0491-4604-b7ad-b6c2f1d7bce8') and not Character() and not Self()" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Fire);DealDamage(5d8,Fire)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(9d8,Fire)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Elemental_Fire" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9ed655e3-329a-45e2-bc75-9054d56316be" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Elemental_Water" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9487eaba-4a78-4505-8ae9-fc4628e1fdaf" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(5443f872-fc94-40c6-abdf-2c4ce9841c53, 100,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStack',CONJURE_ELEMENTAL_AURA_WATER_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('5443f872-fc94-40c6-abdf-2c4ce9841c53') and not Character() and not Self()" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb0a64499gc35fg4ab2gb328g3b97bc0c2acc" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(8d8,Cold);DealDamage(4d8,Cold)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Cold)" />
+        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
+        <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Cold)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fd65b4ea-47a9-4a99-bdd3-551670caaf4a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Elemental_Water_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9ed655e3-329a-45e2-bc75-9054d56316be" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Container_6" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(569db4af-ba9f-4001-bbb7-1d11a0f53806, 100,Projectile_AiHelper_Summon_Strong,,'ConjureElemetnalStack',CONJURE_ELEMENTAL_AURA_WATER_6,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('569db4af-ba9f-4001-bbb7-1d11a0f53806') and not Character() and not Self()" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Cold);DealDamage(5d8,Cold)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(9d8,Cold)" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Elemental_Water" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="cc56ed24-079c-4e21-a0b6-9dd4cacbe6cc" />
         <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Myrmidon_Air" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="99353a1d-55e4-4aa9-b1da-404861b8c517" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Container_6" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="96818734-b56b-40cc-a3e6-b7bfce062980" />
         <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Myrmidon_Earth" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="166042bc-3b31-4146-ab96-59eac9513240" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Container_6" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c3a3142d-ab6c-4103-9d8e-dbf3300269d6" />
         <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Myrmidon_Fire" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="99515417-a1be-4018-8482-76c88132c2ec" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Container_6" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ca8ec2da-35a6-412a-bc0d-1c0a0e80dad5" />
         <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Myrmidon_Water" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7f76772d-7395-44db-aa54-df1115173a0e" />
-        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Container_6" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -2218,6 +2218,345 @@
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object color="#FF000000" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4dfc4b29-78af-48f5-8032-d53aa3596c52" />
+        <field name="Name" type="NameTableFieldDefinition" value="__CONJURATION__SLEVEL 5__" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6dd51ca1-1c49-42eb-aa54-40674963255d" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_AURA_AIR_5" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h99e8a553gcdf8g41ceg8cbcgb3260739174c" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h80cc0bb5g75a3g483cga433g6a2e368536e9" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(8d8,Lightning)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Air" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CONJURE_ELEMENTAL_AURA" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CONJURE_ELEMENTAL_AIR_5,100,-1)" />
+        <field name="AuraFlags" type="EnumerationListTableFieldDefinition" value="ShouldCheckLOS" enumeration_type_name="AuraFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="ActionResourceBlock(Movement);" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(8d8,Lightning)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="LoseControl;LoseControlFriendly" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="6155dc26-4c86-4f19-80f3-afec52ee7d71" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6fa7ddc5-f829-4e21-9f15-6d39674a21e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_AURA_AIR_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6dd51ca1-1c49-42eb-aa54-40674963255d" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Lightning)" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CONJURE_ELEMENTAL_AIR_6,100,-1)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(9d8,Lightning)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1d91f3ba-a5c3-4990-902c-9c043b561c9c" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_AURA_EARTH_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6dd51ca1-1c49-42eb-aa54-40674963255d" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(8d8,Thunder)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Earth" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CONJURE_ELEMENTAL_EARTH_5,100,-1)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(8d8,Thunder)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="f02f26b3-ea1b-4165-ba79-775aa9498800" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="93a39f89-6e62-4fe1-876e-d504fffcc355" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_AURA_EARTH_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6dd51ca1-1c49-42eb-aa54-40674963255d" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Thunder)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Earth" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CONJURE_ELEMENTAL_EARTH_6,100,-1)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(9d8,Thunder)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="f02f26b3-ea1b-4165-ba79-775aa9498800" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ec84f78-5a26-4c62-86ba-f8b630503478" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_AURA_FIRE_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6dd51ca1-1c49-42eb-aa54-40674963255d" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(8d8,Fire)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Fire" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CONJURE_ELEMENTAL_FIRE_5,100,-1)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(8d8,Fire)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="db637fc3-f7bc-4953-982c-c375182209c5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb2895db-ccf9-4430-8b51-c71c93dad27c" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_AURA_FIRE_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6dd51ca1-1c49-42eb-aa54-40674963255d" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Fire)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Fire" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CONJURE_ELEMENTAL_FIRE_6,100,-1)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(9d8,Fire)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="db637fc3-f7bc-4953-982c-c375182209c5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="14041833-acac-467f-9d19-d4327d271482" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_AURA_WATER_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6dd51ca1-1c49-42eb-aa54-40674963255d" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(8d8,Cold)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Water" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CONJURE_ELEMENTAL_WATER_5,100,-1)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(8d8,Cold)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="36df41b7-5dac-40f4-ae62-4faf3e89a96d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="20fce5ec-9211-4930-a0cf-ecb9ae2192d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_AURA_WATER_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6dd51ca1-1c49-42eb-aa54-40674963255d" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Cold)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Water" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(CONJURE_ELEMENTAL_WATER_6,100,-1)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(9d8,Cold)" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="36df41b7-5dac-40f4-ae62-4faf3e89a96d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e917ba6-8a81-4a5f-9c45-173126384b3a" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_AIR_5" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h122e6531gaed5g4c3eg9d1agbe233a6ab806" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h69c6a2f0g8890g46b1gafa5gdb6e330c0e1c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(8d8,Lightning)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Air" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CONJURE_ELEMENTAL" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(8d8,Lightning)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_AIR_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_AIR_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f4b56f5e-e976-4b9f-a939-297a78083d18" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_AIR_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7e917ba6-8a81-4a5f-9c45-173126384b3a" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Lightning)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(9d8,Lightning)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_AIR_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_AIR_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="10ca3ae3-fb76-4e3d-80f8-6db35baedb70" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_EARTH_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7e917ba6-8a81-4a5f-9c45-173126384b3a" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(8d8,Thunder)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Earth" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(8d8,Thunder)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_EARTH_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_EARTH_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7916b4d-7c25-4bd1-b245-0d83e98cc0fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_EARTH_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7e917ba6-8a81-4a5f-9c45-173126384b3a" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Thunder)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Earth" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(9d8,Thunder)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_EARTH_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_EARTH_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a45ccd49-411e-4ed9-a2c6-85bb0e819721" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_FIRE_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7e917ba6-8a81-4a5f-9c45-173126384b3a" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(8d8,Fire)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Fire" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(8d8,Fire)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_FIRE_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_FIRE_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="32e8b187-bbf6-4b41-8bc7-76c524ae4276" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_FIRE_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7e917ba6-8a81-4a5f-9c45-173126384b3a" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Fire)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Fire" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(9d8,Fire)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_FIRE_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_FIRE_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d8957b75-f20b-443b-8d0d-35a5908ace90" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_WATER_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7e917ba6-8a81-4a5f-9c45-173126384b3a" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(8d8,Cold)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Water" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(8d8,Cold)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_WATER_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_WATER_5,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bb68a0ec-b688-448d-9444-0a75c8de7f81" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_WATER_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7e917ba6-8a81-4a5f-9c45-173126384b3a" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);DealDamage(9d8,Cold)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental_Water" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(9d8,Cold)" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source) and not HasStatus('CONJURE_ELEMENTAL_RESTRAINED_SAVED')):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_WATER_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('CONJURE_ELEMENTAL_RESTRAINING',context.Source)):ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_WATER_6,100,-1,,,,not SavingThrow(Ability.Dexterity,CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source))))" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fb183666-8fb0-4080-9d66-6b5c3103dec5" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_RESTRAINED_AIR_5" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hac290493g82abg4a1egaccag79dab9365ffd" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h211a77a6g811bg4a0fga19fg5e0caf1af423" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Lightning)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Restrained" />
+        <field name="StillAnimationType" type="EnumerationTableFieldDefinition" value="Snared" enumeration_type_name="StatusAnimationType" version="1" />
+        <field name="StillAnimationPriority" type="EnumerationTableFieldDefinition" value="Snared" enumeration_type_name="StillAnimPriority" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CONJURE_ELEMENTAL_RESTRAINED" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(AttackTarget);Disadvantage(AttackRoll);ActionResourceBlock(Movement);Disadvantage(SavingThrow,Dexterity);Attribute(Grounded);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSourceDeath" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TooltipSave" type="StringTableFieldDefinition" value="Dexterity" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(4d8,Lightning)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;BringIntoCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(8d8,Lightning,Magical);ApplyStatus(SELF,CONJURE_ELEMENTAL_RESTRAINING,100,-1)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(SELF,CONJURE_ELEMENTAL_RESTRAINING)" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Dexterity,16)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="DealDamage(4d8,Lightning,Magical)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_SAVED,100,1);RemoveStatus(CONJURE_ELEMENTAL_RESTRAINED_AIR_5)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Restrained;SG_Condition" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4affe3d4-7c56-4640-bda7-597a73cf7d4c" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_RESTRAINED_AIR_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb183666-8fb0-4080-9d66-6b5c3103dec5" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Lightning)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(5d8,Lightning)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(9d8,Lightning,Magical);ApplyStatus(SELF,CONJURE_ELEMENTAL_RESTRAINING,100,-1)" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Dexterity,17)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="DealDamage(5d8,Lightning,Magical)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_SAVED,100,1);RemoveStatus(CONJURE_ELEMENTAL_RESTRAINED_AIR_6)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="018d4b2e-0a01-42c7-81a9-8066b4530665" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_RESTRAINED_EARTH_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb183666-8fb0-4080-9d66-6b5c3103dec5" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Thunder)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(4d8,Thunder)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(8d8,Thunder,Magical);ApplyStatus(SELF,CONJURE_ELEMENTAL_RESTRAINING,100,-1)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="DealDamage(4d8,Thunder,Magical)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_SAVED,100,1);RemoveStatus(CONJURE_ELEMENTAL_RESTRAINED_EARTH_5)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dace3d0e-ec31-4b2f-a0ae-88891e64551a" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_RESTRAINED_EARTH_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb183666-8fb0-4080-9d66-6b5c3103dec5" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Thunder)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(5d8,Thunder)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(9d8,Thunder,Magical);ApplyStatus(SELF,CONJURE_ELEMENTAL_RESTRAINING,100,-1)" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Dexterity,17)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="DealDamage(5d8,Thunder,Magical)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_SAVED,100,1);RemoveStatus(CONJURE_ELEMENTAL_RESTRAINED_EARTH_6)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="906311cd-aef3-482b-b688-d95690349cd3" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_RESTRAINED_FIRE_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb183666-8fb0-4080-9d66-6b5c3103dec5" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Fire)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(4d8,Fire)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(8d8,Fire,Magical);ApplyStatus(SELF,CONJURE_ELEMENTAL_RESTRAINING,100,-1)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="DealDamage(4d8,Fire,Magical)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_SAVED,100,1);RemoveStatus(CONJURE_ELEMENTAL_RESTRAINED_FIRE_5)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c7db87f9-5311-48be-b833-aa7597fea727" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_RESTRAINED_FIRE_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb183666-8fb0-4080-9d66-6b5c3103dec5" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Fire)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(5d8,Fire)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(9d8,Fire,Magical);ApplyStatus(SELF,CONJURE_ELEMENTAL_RESTRAINING,100,-1)" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Dexterity,17)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="DealDamage(5d8,Fire,Magical)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_SAVED,100,1);RemoveStatus(CONJURE_ELEMENTAL_RESTRAINED_FIRE_6)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="07a97a4f-e808-4eff-b1f2-a16a988c69ec" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_RESTRAINED_WATER_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb183666-8fb0-4080-9d66-6b5c3103dec5" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Cold)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(4d8,Cold)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(8d8,Cold,Magical);ApplyStatus(SELF,CONJURE_ELEMENTAL_RESTRAINING,100,-1)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="DealDamage(4d8,Cold,Magical)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_SAVED,100,1);RemoveStatus(CONJURE_ELEMENTAL_RESTRAINED_WATER_5)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b3219c96-d274-42fa-a6a4-bcbb5b78221a" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_RESTRAINED_WATER_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="fb183666-8fb0-4080-9d66-6b5c3103dec5" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Cold)" />
+        <field name="TooltipDamage" type="StringTableFieldDefinition" value="DealDamage(5d8,Cold)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(9d8,Cold,Magical);ApplyStatus(SELF,CONJURE_ELEMENTAL_RESTRAINING,100,-1)" />
+        <field name="OnTickRoll" type="RollConditionsTableFieldDefinition" value="not SavingThrow(Ability.Dexterity,17)" />
+        <field name="OnTickSuccess" type="FunctorsTableFieldDefinition" value="DealDamage(5d8,Cold,Magical)" />
+        <field name="OnTickFail" type="FunctorsTableFieldDefinition" value="ApplyStatus(CONJURE_ELEMENTAL_RESTRAINED_SAVED,100,1);RemoveStatus(CONJURE_ELEMENTAL_RESTRAINED_WATER_6)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c252e03c-75e8-4f27-9530-38a446d73af6" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_RESTRAINING" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5ad86a6agaeb5g4ac4g9d81g49c68c483fb0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h71200cc7gd992g41f2gb983g92962b6ed9e9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_ConjureElemental" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CONJURE_ELEMENTAL_RESTRAINING" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8fa23ba4-f8d6-4f86-a7fa-f4f5cc6d70bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="CONJURE_ELEMENTAL_RESTRAINED_SAVED" />
+        <field name="StackId" type="StringTableFieldDefinition" value="CONJURE_ELEMENTAL_RESTRAINED_SAVED" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e3194911-53b4-4b28-ae68-213ca23a9912" />

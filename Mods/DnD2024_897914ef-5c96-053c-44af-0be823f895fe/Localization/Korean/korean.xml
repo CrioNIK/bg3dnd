@@ -6946,4 +6946,20 @@
   <content contentuid="h45f0c7e6geb5fg4a0egbd9fg51b53385167f" version="1">이형체 영혼의 턴이 시작될 때 그 영혼이 행동불능 상태가 아니면 지혜 내성 굴림을 하며, 실패하면 [1]를 입습니다.</content>
   <content contentuid="h05029f46gda75g4215g904ag23525a0965a0" version="1">이형체 소환 두루마리</content>
   <content contentuid="hb111ba4bg8041g4869gb8bfg9a48b3fa2167" version="1">사용 가능한 직업: 워락, 위저드</content>
+  <content contentuid="h5df075fbg7410g4249g9c50g1407d54da3fe" version="1">원소계에서 실체가 없는 대형 정령을 소환해 사거리 내의 빈 공간에 나타나게 합니다. 정령의 원소를 선택하며, 원소에 따라 피해 유형이 정해집니다: 공기(번개), 대지(천둥), 불(화염), 물(냉기). 정령은 지속시간 동안 유지됩니다.
+
+자신이 볼 수 있는 크리처가 정령의 공간에 들어오거나 정령으로부터 [1] 이내에서 자신의 턴을 시작할 때마다, 정령이 구속하고 있는 크리처가 없다면 그 크리처에게 민첩 내성 굴림을 강요할 수 있습니다. 실패하면 대상은 [2]의 정령 유형 피해를 입고, 주문이 끝날 때까지 구속 상태가 됩니다. 구속 상태인 대상은 자신의 턴이 시작될 때마다 내성 굴림을 다시 합니다. 실패하면 대상은 [3]의 정령 유형 피해를 입습니다. 성공하면 대상은 더 이상 정령에 의해 구속 상태가 아닙니다.</content>
+  <content contentuid="hb0a64499gc35fg4ab2gb328g3b97bc0c2acc" version="1">원소계에서 실체가 없는 대형 정령을 소환해 사거리 내의 빈 공간에 나타나게 합니다. 정령은 지속시간 동안 유지됩니다.
+
+자신이 볼 수 있는 크리처가 정령의 공간에 들어오거나 정령으로부터 [1] 이내에서 자신의 턴을 시작할 때마다, 정령이 구속하고 있는 크리처가 없다면 그 크리처에게 민첩 내성 굴림을 강요할 수 있습니다. 실패하면 대상은 [2]를 입고, 주문이 끝날 때까지 구속 상태가 됩니다. 구속 상태인 대상은 자신의 턴이 시작될 때마다 내성 굴림을 다시 합니다. 실패하면 대상은 [3]를 입습니다. 성공하면 대상은 더 이상 정령에 의해 구속 상태가 아닙니다.</content>
+  <content contentuid="h99e8a553gcdf8g41ceg8cbcgb3260739174c" version="1">정령 소환 오라</content>
+  <content contentuid="h80cc0bb5g75a3g483cga433g6a2e368536e9" version="1">자신이 볼 수 있는 크리처가 정령의 공간에 들어오거나 정령으로부터 [1] 이내에서 자신의 턴을 시작할 때마다, 정령이 구속하고 있는 크리처가 없다면 그 크리처에게 민첩 내성 굴림을 강요할 수 있습니다. 실패하면 대상은 [2]를 입고, 주문이 끝날 때까지 구속 상태가 됩니다.</content>
+  <content contentuid="h122e6531gaed5g4c3eg9d1agbe233a6ab806" version="1">정령 소환</content>
+  <content contentuid="h69c6a2f0g8890g46b1gafa5gdb6e330c0e1c" version="1">자신이 볼 수 있는 크리처가 정령의 공간에 들어오거나 정령으로부터 [1] 이내에서 자신의 턴을 시작할 때마다, 정령이 구속하고 있는 크리처가 없다면 그 크리처에게 민첩 내성 굴림을 강요할 수 있습니다. 실패하면 대상은 [2]를 입고, 주문이 끝날 때까지 구속 상태가 됩니다.</content>
+  <content contentuid="h211a77a6g811bg4a0fga19fg5e0caf1af423" version="1">이동할 수 없습니다. 영향을 받은 대상에 대한 &lt;LSTag Tooltip="AttackRoll"&gt;명중 굴림&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Advantage"&gt;유리 보정&lt;/LSTag&gt;을 받고, 대상은 명중 굴림과 민첩 &lt;LSTag Tooltip="SavingThrow"&gt;내성 굴림&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 받습니다.
+
+구속 상태인 대상은 자신의 턴이 시작될 때마다 내성 굴림을 다시 합니다. 실패하면 대상은 [1]를 입습니다. 성공하면 대상은 더 이상 정령에 의해 구속 상태가 아닙니다.</content>
+  <content contentuid="hac290493g82abg4a1egaccag79dab9365ffd" version="1">정령 소환: 구속</content>
+  <content contentuid="h5ad86a6agaeb5g4ac4g9d81g49c68c483fb0" version="1">정령 소환: 구속 중</content>
+  <content contentuid="h71200cc7gd992g41f2gb983g92962b6ed9e9" version="1">정령이 크리처 하나를 구속하고 있습니다. 그 크리처가 더 이상 정령에 의해 구속 상태가 아닐 때까지, 다른 크리처에게 민첩 내성 굴림을 강요할 수 없습니다.</content>
 </contentList>
