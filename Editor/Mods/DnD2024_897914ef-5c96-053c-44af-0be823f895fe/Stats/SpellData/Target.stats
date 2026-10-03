@@ -2457,6 +2457,8 @@
         <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Container_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="06252678-ec18-4fe3-a225-38b078023091" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsLinkedSpellContainer;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_ConjureElemental_Myrmidon_Air;Target_ConjureElemental_Myrmidon_Earth;Target_ConjureElemental_Myrmidon_Fire;Target_ConjureElemental_Myrmidon_Water" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2464,6 +2466,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="cc56ed24-079c-4e21-a0b6-9dd4cacbe6cc" />
         <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Myrmidon_Air" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="99353a1d-55e4-4aa9-b1da-404861b8c517" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Container_6" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
@@ -2472,6 +2475,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="96818734-b56b-40cc-a3e6-b7bfce062980" />
         <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Myrmidon_Earth" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="166042bc-3b31-4146-ab96-59eac9513240" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Container_6" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
@@ -2480,6 +2484,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c3a3142d-ab6c-4103-9d8e-dbf3300269d6" />
         <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Myrmidon_Fire" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="99515417-a1be-4018-8482-76c88132c2ec" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Container_6" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
@@ -2488,6 +2493,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ca8ec2da-35a6-412a-bc0d-1c0a0e80dad5" />
         <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Myrmidon_Water" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7f76772d-7395-44db-aa54-df1115173a0e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_ConjureElemental_Container_6" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
       </fields>
     </stat_object>
@@ -6379,6 +6385,51 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb2cccf2-944f-49a2-82f1-0697984d6221" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="beb05f01-ab8d-4258-aa69-a854b1010a2e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8+SpellCastingAbilityModifier, Force)" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_Greataxe_3;Target_SpiritualWeapon_Greatsword_3;Target_SpiritualWeapon_Halberd_3;Target_SpiritualWeapon_Maul_3;Target_SpiritualWeapon_Spear_3;Target_SpiritualWeapon_Trident_3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c34cec47-706e-4890-85aa-3677970b4b4c" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb2cccf2-944f-49a2-82f1-0697984d6221" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+SpellCastingAbilityModifier, Force)" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_Greataxe_4;Target_SpiritualWeapon_Greatsword_4;Target_SpiritualWeapon_Halberd_4;Target_SpiritualWeapon_Maul_4;Target_SpiritualWeapon_Spear_4;Target_SpiritualWeapon_Trident_4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e91d093d-5457-4288-8e9e-8abab12239d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb2cccf2-944f-49a2-82f1-0697984d6221" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier, Force)" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_Greataxe_5;Target_SpiritualWeapon_Greatsword_5;Target_SpiritualWeapon_Halberd_5;Target_SpiritualWeapon_Maul_5;Target_SpiritualWeapon_Spear_5;Target_SpiritualWeapon_Trident_5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cbf170ae-28ac-47df-a54f-e688fd7fb7a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb2cccf2-944f-49a2-82f1-0697984d6221" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8+SpellCastingAbilityModifier, Force)" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_Greataxe_6;Target_SpiritualWeapon_Greatsword_6;Target_SpiritualWeapon_Halberd_6;Target_SpiritualWeapon_Maul_6;Target_SpiritualWeapon_Spear_6;Target_SpiritualWeapon_Trident_6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9e14c2c5-3ff4-47c1-b91d-245faeeefb76" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greataxe" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ab986e39-7b8c-4245-b894-d4518f5b6ec7" />
@@ -6436,6 +6487,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="af5c10ff-f4f5-4e00-97d6-d81ba6dcf3ef" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greataxe_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="07d84f83-5e51-4352-b0a7-6e5e7786a5f5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_3" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(63854225-bfb0-4585-a427-ee47fcaabced, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_3,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
@@ -6447,6 +6499,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b50b7b1a-1dd5-4948-a221-d6e591fdeaf1" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greataxe_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fbd98f98-e6c3-4e3a-9525-518d76f2bbb0" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_4" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -6457,6 +6510,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1d14c33e-be7c-4b8a-96c6-b2c38751ce7b" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greataxe_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="77ea077d-8d7e-4571-8cc2-74afc51e234d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_5" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(63854225-bfb0-4585-a427-ee47fcaabced, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
@@ -6468,6 +6522,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2a24ed76-9873-45cf-a516-85cc9b156f2d" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greataxe_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4f477dc1-adcd-4cfb-a7a4-4fb98f646c3a" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_6" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -6478,6 +6533,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e2643322-b339-4c39-a766-4294f510a992" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greatsword_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e43cfbf0-d7cd-487e-a7ed-8fc41e63e068" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_3" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(dcb87672-84d5-4d18-9f1d-30ee66a69cc3, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_3,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
@@ -6489,6 +6545,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="69506457-34da-4a30-a266-c5fb2733a180" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greatsword_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4509a441-b815-4760-bf56-5ccc112acdd3" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_4" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -6499,6 +6556,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8a2ced7a-9209-4eee-b1e3-aaec8022fc35" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greatsword_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d2287320-919f-4202-93f3-78aa471e1554" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_5" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(dcb87672-84d5-4d18-9f1d-30ee66a69cc3, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
@@ -6510,6 +6568,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fd2f6b8b-86b6-4ace-8482-5836c216ade9" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Greatsword_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a9b9868d-1e50-427e-8655-c0d177426d79" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_6" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -6520,6 +6579,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="37cfe861-3cdb-4745-86be-eac430e57898" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Halberd_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="faa43f06-9222-452f-a4c8-50f12c9df1ba" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_3" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(b3b9353a-4b03-4599-bcc2-a0b86807f430, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_3,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
@@ -6531,6 +6591,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3ac24084-3fca-41f9-aa34-516875776d9f" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Halberd_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2d72d21f-39b3-4ed0-a877-2a7a7260d4da" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_4" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -6541,6 +6602,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="61eeba67-0c0b-4925-b97b-c12820fdd010" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Halberd_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f35cec34-55ce-4509-aed7-dae9e2c06415" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_5" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(b3b9353a-4b03-4599-bcc2-a0b86807f430, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
@@ -6552,6 +6614,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f0e64e80-585e-4db2-b4b2-59e5902bc7da" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Halberd_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="82180b05-9e9d-4aa4-af3b-b72483540cfe" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_6" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -6562,6 +6625,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="81011d52-117c-4b11-9e8d-9bce8bd4f8ee" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Maul_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0bc532e7-ab10-44cd-bdfa-4f5dbd166221" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_3" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(d5718e22-445e-4a59-bc5b-cfc239443b01, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_3,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
@@ -6573,6 +6637,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1ded9092-2ed3-4f38-bfb4-1d7f7fdce26d" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Maul_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4c75e8b5-cfbb-4dd1-a1b5-48e37c60162e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_4" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -6583,6 +6648,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3b325dfc-4cce-4749-8b60-e05fab666a54" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Maul_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="524349fd-5a24-442c-950b-300ac4770e8f" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_5" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(d5718e22-445e-4a59-bc5b-cfc239443b01, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
@@ -6594,6 +6660,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="38b88e77-e8fc-46c7-9c02-961b6104bf7a" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Maul_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="01ecef35-de0e-4cf7-a97a-691f2ec0c6e5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_6" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -6604,6 +6671,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3001e0e5-8e8e-4810-b0c9-bf2c63d66107" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Spear_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3a3f95b5-698e-4a1f-b182-2e88d5b4c621" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_3" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -6614,6 +6682,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b44b5e6c-1df7-4b7a-8113-604a123fedd6" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Spear_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="957b67cb-5158-4f14-ab1a-5f5876e883df" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_4" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -6624,6 +6693,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fb4770fb-e838-4bb3-9784-23f410eb4501" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Spear_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6a4cd81e-4967-4288-ae10-ee8a3cfaf514" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_5" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(637e4035-0368-44c9-8bce-53a639594fb7, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
@@ -6635,6 +6705,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6841d79c-3911-4d3e-bdbd-6ee2342ffe72" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Spear_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3a2dae35-a155-4532-9d1e-39f956f820a8" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_6" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -6645,6 +6716,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="aa8d33f8-6297-4ffb-bb6e-1d791c7ef74a" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Trident_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="bf878d59-f89d-425f-9789-4b66b6eed959" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_3" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(6beb5e0e-2557-4be3-854e-e8af7fb7723d, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_3,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
@@ -6656,6 +6728,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e5d4a2a5-f2d6-48b4-86e3-407fb07df532" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Trident_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="58fdc8c9-ca8d-41a8-9c4f-a53e2aa0d934" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_4" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -6666,6 +6739,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ccfe9d10-93ed-4032-a4ac-c8a003d5f24e" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Trident_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0391d029-dbec-441e-9348-faaaa84a0908" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_5" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:Summon(6beb5e0e-2557-4be3-854e-e8af7fb7723d, 10,,,SpiritualWeaponStack,SPIRITUAL_WEAPON_5,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
@@ -6677,6 +6751,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b5a5d110-43e5-40e9-a9d2-0ba78f3d7688" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_Trident_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="45d3c730-58c4-4892-9cc0-6bd622b32674" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_SpiritualWeapon_6" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8+SpellCastingAbilityModifier, Force)" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(4);DealDamage(1d8,Force);1" />
         <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasSomaticComponent;HasVerbalComponent;CannotTargetItems;CannotTargetCharacter;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
@@ -8865,6 +8940,17 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="775651e3-7a11-4bd3-8a14-7fcd2ce4647a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Contagion_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f0254175-3720-4d33-bdf7-f266d0ecf813" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Contagion" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_Contagion_BlindingSickness_6;Target_Contagion_FilthFever_6;Target_Contagion_FleshRot_6;Target_Contagion_Mindfire_6;Target_Contagion_Seizure_6;Target_Contagion_SlimyDoom_6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="5ccb6b3b-b487-48f4-8d95-1d0bf221eb48" />
         <field name="Name" type="NameTableFieldDefinition" value="Contagion_BlindingSickness" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="effc86c9-24bc-4376-a28c-7710f7dc7708" />
@@ -8883,6 +8969,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3694f5da-9836-4afb-949f-d7f4a3b41e2c" />
         <field name="Name" type="NameTableFieldDefinition" value="Contagion_BlindingSickness_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5ccb6b3b-b487-48f4-8d95-1d0bf221eb48" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Contagion_6" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Contagion_BlindingSickness" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
@@ -8910,6 +8997,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="217f187f-3b98-4576-a240-8400b72cc1dc" />
         <field name="Name" type="NameTableFieldDefinition" value="Contagion_FilthFever_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="effc86c9-24bc-4376-a28c-7710f7dc7708" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Contagion_6" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Contagion_FilthFever" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
@@ -8946,6 +9034,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8beb46d8-8d0b-4f75-b3c3-878c7afa4789" />
         <field name="Name" type="NameTableFieldDefinition" value="Contagion_FleshRot_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="13eff187-4dda-4034-a568-2a02c9cdec91" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Contagion_6" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Contagion_FleshRot" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
@@ -8971,6 +9060,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f3a67a81-d330-423c-a181-f7775f67fbd2" />
         <field name="Name" type="NameTableFieldDefinition" value="Contagion_Mindfire_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fb8bea9f-baf0-410b-b624-7406731bf4c3" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Contagion_6" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Contagion_Mindfire" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
@@ -8996,6 +9086,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="57989258-0e14-4806-8d41-af4ef74fa821" />
         <field name="Name" type="NameTableFieldDefinition" value="Contagion_Seizure_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="10a659ee-a2e0-495e-88d1-94b837a7a29b" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Contagion_6" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Contagion_Seizure" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
@@ -9021,6 +9112,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="75966d31-5314-40ac-baf4-0abcd3a23127" />
         <field name="Name" type="NameTableFieldDefinition" value="Contagion_SlimyDoom_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5b0c150a-8df9-48dd-b673-4b4f4cad034c" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_Contagion_6" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Contagion_SlimyDoom" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
@@ -9381,6 +9473,62 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d64d035c-b362-4598-a52a-d935a05c870e" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateDestroyWater_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6c8f8c9d-8969-45bb-bff3-22af192855b9" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_CreateDestroyWater" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_CreateWater_2;Target_DestroyWater_2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e7219a1-47f2-49f5-9eb7-277b7c94d687" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateDestroyWater_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d64d035c-b362-4598-a52a-d935a05c870e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_CreateWater_3;Target_DestroyWater_3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8185c915-a052-4d9b-8277-21d74ba914fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateDestroyWater_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d64d035c-b362-4598-a52a-d935a05c870e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="7" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_CreateWater_4;Target_DestroyWater_4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="749001c0-c9e7-4a51-bac2-23ab26105982" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateDestroyWater_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d64d035c-b362-4598-a52a-d935a05c870e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="8" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_CreateWater_5;Target_DestroyWater_5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1b947b98-5458-4fe1-ad1d-fc404453c9b6" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateDestroyWater_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d64d035c-b362-4598-a52a-d935a05c870e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_CreateWater_6;Target_DestroyWater_6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f90b9703-19c3-4a9b-a9c0-3dacddd4004d" />
         <field name="Name" type="NameTableFieldDefinition" value="CreateWater" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="18c3f332-5591-4691-ac5c-6f87b15de185" />
@@ -9392,6 +9540,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="232e3500-660c-4707-9a72-8ecedb4dd980" />
         <field name="Name" type="NameTableFieldDefinition" value="CreateWater_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5f5a1342-70c1-4da4-aa46-b75936c80ebb" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CreateDestroyWater_2" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WET,100,1);GROUND:CreateSurface(5,0, Water);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="5" />
       </fields>
@@ -9401,6 +9550,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fddc9fa5-c8ed-402e-8ec2-ed57b51adfe9" />
         <field name="Name" type="NameTableFieldDefinition" value="CreateWater_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="afa3a80d-178f-461c-a16d-f28c7a58bd49" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CreateDestroyWater_3" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WET,100,1);GROUND:CreateSurface(6,0, Water);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
       </fields>
@@ -9410,6 +9560,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f861ebff-bcc4-458c-8afd-67112af7ca20" />
         <field name="Name" type="NameTableFieldDefinition" value="CreateWater_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9f0ed18b-60c1-486d-ae42-62cec8a61ab9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CreateDestroyWater_4" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WET,100,1);GROUND:CreateSurface(7,0, Water);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="7" />
       </fields>
@@ -9419,6 +9570,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="136b377f-90c4-4cb1-b8c8-cbcb6e85ea50" />
         <field name="Name" type="NameTableFieldDefinition" value="CreateWater_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="82e6c839-6bd4-4138-94d2-08fd4b4f175e" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CreateDestroyWater_5" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WET,100,1);GROUND:CreateSurface(8,0,Water);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="8" />
       </fields>
@@ -9428,6 +9580,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3cd193e3-9f68-439e-adaf-9404953c8c51" />
         <field name="Name" type="NameTableFieldDefinition" value="CreateWater_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b2f40bff-3324-4422-bef2-d9fd0bf36852" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CreateDestroyWater_6" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(WET,100,1);GROUND:CreateSurface(9,0,Water);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
       </fields>
@@ -9469,6 +9622,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d75937c2-ce00-4536-81ee-4c7dd6848f08" />
         <field name="Name" type="NameTableFieldDefinition" value="DestroyWater_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="09455558-ba0f-4978-9924-ccd05ad675ec" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CreateDestroyWater_2" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="5" />
       </fields>
     </stat_object>
@@ -9477,6 +9631,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c589f27a-01a3-43db-baf7-136c25f09eb2" />
         <field name="Name" type="NameTableFieldDefinition" value="DestroyWater_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f0e00cb5-d15c-427a-8a54-9a258dc95b23" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CreateDestroyWater_3" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
       </fields>
     </stat_object>
@@ -9485,6 +9640,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2349da81-8208-4225-b87e-b0ab9108855b" />
         <field name="Name" type="NameTableFieldDefinition" value="DestroyWater_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="da6396e1-fee9-48c6-858a-f825473dbee4" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CreateDestroyWater_4" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="7" />
       </fields>
     </stat_object>
@@ -9493,6 +9649,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="78a601ad-3446-4e9c-8511-9ccf9c096008" />
         <field name="Name" type="NameTableFieldDefinition" value="DestroyWater_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3346bc0c-5ced-46fe-b59e-78276a2f4051" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CreateDestroyWater_5" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="8" />
       </fields>
     </stat_object>
@@ -9501,6 +9658,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="89a2b3a9-832b-41c5-b6c4-43efe0001550" />
         <field name="Name" type="NameTableFieldDefinition" value="DestroyWater_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="91a88908-bff6-44f9-81d2-826be15f22fe" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_CreateDestroyWater_6" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
       </fields>
     </stat_object>
@@ -9567,6 +9725,55 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="779b951e-09aa-43b1-85a6-976a50b3d34f" />
+        <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a8b90ea4-2cbb-4372-80ae-22cd6dfe72a0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DragonsBreath" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6,Fire)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE_3,100,10);" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_DragonsBreath_Acid_3;Target_DragonsBreath_Cold_3;Target_DragonsBreath_Fire_3;Target_DragonsBreath_Lightning_3;Target_DragonsBreath_Poison_3;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2a2fc923-591f-4c3e-a710-95b128a4ed61" />
+        <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="779b951e-09aa-43b1-85a6-976a50b3d34f" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d6,Fire)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE_4,100,10);" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_DragonsBreath_Acid_4;Target_DragonsBreath_Cold_4;Target_DragonsBreath_Fire_4;Target_DragonsBreath_Lightning_4;Target_DragonsBreath_Poison_4;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c0c914e6-4740-44e4-be52-e4df5af70e9b" />
+        <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="779b951e-09aa-43b1-85a6-976a50b3d34f" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d6,Fire)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE_5,100,10);" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_DragonsBreath_Acid_5;Target_DragonsBreath_Cold_5;Target_DragonsBreath_Fire_5;Target_DragonsBreath_Lightning_5;Target_DragonsBreath_Poison_5;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fed38a69-e920-4f0c-b132-00347bf576e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="779b951e-09aa-43b1-85a6-976a50b3d34f" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d6,Fire)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE_6,100,10);" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_DragonsBreath_Acid_6;Target_DragonsBreath_Cold_6;Target_DragonsBreath_Fire_6;Target_DragonsBreath_Lightning_6;Target_DragonsBreath_Poison_6;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fa3ca989-39b8-4634-bc17-d261f3de22ee" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Acid" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a8b90ea4-2cbb-4372-80ae-22cd6dfe72a0" />
@@ -9586,6 +9793,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="30fb7160-7fe3-4cd6-b229-e8df7b4bff3c" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Acid_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fa3ca989-39b8-4634-bc17-d261f3de22ee" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_3" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_ACID_3,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6,Acid)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3" />
@@ -9598,6 +9806,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e1c2ef5a-d22b-4c62-8e39-b825f4d213d7" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Acid_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="30fb7160-7fe3-4cd6-b229-e8df7b4bff3c" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_4" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_ACID_4,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d6,Acid)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4" />
@@ -9609,6 +9818,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4456295f-ace0-483f-a778-c0ba8e698e67" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Acid_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="30fb7160-7fe3-4cd6-b229-e8df7b4bff3c" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_5" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_ACID_5,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d6,Acid)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5" />
@@ -9620,6 +9830,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c7182be6-d57f-41e8-a4f4-c0c5e229e8b4" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Acid_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="30fb7160-7fe3-4cd6-b229-e8df7b4bff3c" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_6" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_ACID_6,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d6,Acid)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6" />
@@ -9649,6 +9860,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="101a8a93-711a-4b8e-8163-fdace082cdfb" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Cold_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e95df3e8-35fc-468e-b12a-ec5282531a72" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_3" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_COLD_3,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6,Cold)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:3" />
@@ -9661,6 +9873,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="298b6015-1b02-430c-8b17-fec6dd46e6e4" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Cold_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="101a8a93-711a-4b8e-8163-fdace082cdfb" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_4" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_COLD_4,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d6,Cold)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:4" />
@@ -9672,6 +9885,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="da6b2ca0-5feb-48a4-bf27-780c28ef7537" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Cold_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="101a8a93-711a-4b8e-8163-fdace082cdfb" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_5" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_COLD_5,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d6,Cold)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:5" />
@@ -9683,6 +9897,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="cc066e80-789a-43bc-a1cf-becfaacbc093" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Cold_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="101a8a93-711a-4b8e-8163-fdace082cdfb" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_6" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_COLD_6,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d6,Cold)" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;SpellSlotsGroup:1:1:6" />
@@ -9712,6 +9927,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ffde8790-b1fe-4a9a-8f80-b914e890fddb" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Fire_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="390cf8a4-e142-49fa-8d54-92d59eeabd6f" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_3" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE_3,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6,Fire)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE_3,100,10);" />
@@ -9725,6 +9941,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4bfbecf6-1e6f-4220-970a-7492fb96b3af" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Fire_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ffde8790-b1fe-4a9a-8f80-b914e890fddb" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_4" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE_4,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d6,Fire)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE_4,100,10);" />
@@ -9737,6 +9954,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="50220a4d-5acf-42a7-a930-7a6b0fa43bd1" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Fire_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ffde8790-b1fe-4a9a-8f80-b914e890fddb" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_5" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE_5,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d6,Fire)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE_5,100,10);" />
@@ -9749,6 +9967,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="99eeb858-126e-462e-a3c1-e6734227e5a9" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Fire_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ffde8790-b1fe-4a9a-8f80-b914e890fddb" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_6" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE_6,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d6,Fire)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_FIRE_6,100,10);" />
@@ -9779,6 +9998,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="27a1e346-0842-4d69-8ea2-8bc3b50b965d" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Lightning_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="90eede8c-0fdc-4c42-9d3b-a7367a5ba34f" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_3" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_LIGHTNING_3,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6,Lightning)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_LIGHTNING_3,100,10);" />
@@ -9792,6 +10012,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="71360da7-fa05-44a6-b6c6-3084b651713d" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Lightning_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="27a1e346-0842-4d69-8ea2-8bc3b50b965d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_4" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_LIGHTNING_4,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d6,Lightning)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_LIGHTNING_4,100,10);" />
@@ -9804,6 +10025,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="82b8bf3b-b548-4a61-aa0a-44b2262db7fb" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Lightning_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="27a1e346-0842-4d69-8ea2-8bc3b50b965d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_5" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_LIGHTNING_5,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d6,Lightning)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_LIGHTNING_5,100,10);" />
@@ -9816,6 +10038,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="99d3f0a6-c4bc-4e0a-855d-e0d4f0f4cd39" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Lightning_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="27a1e346-0842-4d69-8ea2-8bc3b50b965d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_6" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_LIGHTNING_6,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d6,Lightning)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_LIGHTNING_6,100,10);" />
@@ -9848,6 +10071,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a2062c23-709b-4ebb-b448-c7b5e029a1d6" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Poison_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0342fb8c-6355-4a48-9b1f-ee45b0627e7c" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_3" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_POISON_3,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d6,Poison)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_POISON_3,100,10);" />
@@ -9861,6 +10085,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1ca02815-2f42-4d78-84a5-c3b8433bc4c7" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Poison_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a2062c23-709b-4ebb-b448-c7b5e029a1d6" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_4" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_POISON_4,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d6,Poison)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_POISON_4,100,10);" />
@@ -9873,6 +10098,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="30773702-e344-4d3c-8cd6-9e524c47341a" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Poison_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a2062c23-709b-4ebb-b448-c7b5e029a1d6" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_5" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_POISON_5,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d6,Poison)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_POISON_5,100,10);" />
@@ -9885,6 +10111,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="670b07ff-d205-4f07-ac63-851fd573fbb1" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_Poison_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a2062c23-709b-4ebb-b448-c7b5e029a1d6" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DragonsBreath_6" />
         <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_POISON_6,100,10);" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d6,Poison)" />
         <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(DRAGONS_BREATH_POISON_6,100,10);" />

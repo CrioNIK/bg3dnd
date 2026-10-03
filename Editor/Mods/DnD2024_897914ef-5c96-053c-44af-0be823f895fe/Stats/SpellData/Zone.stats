@@ -321,6 +321,40 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b62e0fab-2af9-45e3-915d-465775465c1f" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="78fec449-4592-4b84-85e4-e577cc0c3d25" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d6,Thunder,Magical);" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_Air_4;Zone_ElementalExhalation_Coldfire_4;Zone_ElementalExhalation_Earth_4;Zone_ElementalExhalation_Fire_4;Zone_ElementalExhalation_Water_4;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="88da7e2f-824d-4f56-b851-5db8507fd33d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b62e0fab-2af9-45e3-915d-465775465c1f" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d6,Thunder,Magical);" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_Air_5;Zone_ElementalExhalation_Coldfire_5;Zone_ElementalExhalation_Earth_5;Zone_ElementalExhalation_Fire_5;Zone_ElementalExhalation_Water_5;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f769006e-f6fc-4805-a36e-83e86644de3a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b62e0fab-2af9-45e3-915d-465775465c1f" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d6,Thunder,Magical);" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_Air_6;Zone_ElementalExhalation_Coldfire_6;Zone_ElementalExhalation_Earth_6;Zone_ElementalExhalation_Fire_6;Zone_ElementalExhalation_Water_6;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b71df858-ef6c-45ba-a704-e79b1a5b0535" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Air" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="78fec449-4592-4b84-85e4-e577cc0c3d25" />
@@ -336,6 +370,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="39824742-bbd8-4099-8341-77b8d81393cf" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Air_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b71df858-ef6c-45ba-a704-e79b1a5b0535" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_4" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d6,Thunder,Magical);Force(3, OriginToTarget);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d6/2,Thunder,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d6,Thunder);Distance(3);Distance(9)" />
@@ -350,6 +385,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1e82f245-2a12-414b-8226-e6e9cb3a0b0c" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Air_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b71df858-ef6c-45ba-a704-e79b1a5b0535" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_5" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d6,Thunder,Magical);Force(3, OriginToTarget);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(7d6/2,Thunder,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d6,Thunder);Distance(3);Distance(9)" />
@@ -364,6 +400,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="61b69be7-ad12-4772-b78a-b1dc060ccde6" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Air_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b71df858-ef6c-45ba-a704-e79b1a5b0535" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_6" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d6,Thunder,Magical);Force(3, OriginToTarget);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(8d6/2,Thunder,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d6,Thunder);Distance(3);Distance(9)" />
@@ -401,6 +438,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="cbd00fc8-49d3-49f5-a24e-8e30851d6a83" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Coldfire_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d141d7b7-5b04-41f6-ab93-997dc382f9a9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_4" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d6,Cold,Magical);ApplyStatus(FRIGHTENED_COLDFIRE,100,1);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d6/2,Cold,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d6,Cold);Distance(9)" />
@@ -415,6 +453,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e853130e-5741-4d62-be5a-d839934bfcb0" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Coldfire_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d141d7b7-5b04-41f6-ab93-997dc382f9a9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_5" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d6,Cold,Magical);ApplyStatus(FRIGHTENED_COLDFIRE,100,1);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(7d6/2,Cold,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d6,Cold);Distance(9)" />
@@ -429,6 +468,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f2cad6cd-1652-4d5a-9878-0ab83080ae4c" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Coldfire_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d141d7b7-5b04-41f6-ab93-997dc382f9a9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_6" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d6,Cold,Magical);ApplyStatus(FRIGHTENED_COLDFIRE,100,1);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(8d6/2,Cold,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d6,Cold);Distance(9)" />
@@ -466,6 +506,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f777a9cd-d614-40f7-8c67-312706feecff" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Earth_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="edaeebcd-4a68-4e68-b83b-64ade0a8ba6d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_4" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d6,Bludgeoning,Magical);ApplyStatus(FRIGHTENED_EARTH,100,1);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d6/2,Bludgeoning,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d6,Bludgeoning);Distance(9)" />
@@ -480,6 +521,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="11887a5e-7f91-4a4e-8e79-cd1f5c962882" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Earth_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="edaeebcd-4a68-4e68-b83b-64ade0a8ba6d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_5" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d6,Bludgeoning,Magical);ApplyStatus(FRIGHTENED_EARTH,100,1);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(7d6/2,Bludgeoning,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d6,Bludgeoning);Distance(9)" />
@@ -494,6 +536,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="829f5e85-9fc4-4eb3-9157-683ece1b6a6e" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Earth_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="edaeebcd-4a68-4e68-b83b-64ade0a8ba6d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_6" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d6,Bludgeoning,Magical);ApplyStatus(FRIGHTENED_EARTH,100,1);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(8d6/2,Bludgeoning,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d6,Bludgeoning);Distance(9)" />
@@ -531,6 +574,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e7c993ce-d1da-437b-9555-8f52e7916912" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Fire_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3ca067a7-c40e-4125-96da-2366651cde71" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_4" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d6,Fire,Magical);ApplyStatus(FRIGHTENED_FIRE,100,1);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d6/2,Fire,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d6,Fire);DealDamage(2d6,Fire);Distance(9)" />
@@ -545,6 +589,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f370fd46-94a5-46a4-952d-f915c8445c6d" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Fire_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3ca067a7-c40e-4125-96da-2366651cde71" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_5" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d6,Fire,Magical);ApplyStatus(FRIGHTENED_FIRE,100,1);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(7d6/2,Fire,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d6,Fire);DealDamage(2d6,Fire);Distance(9)" />
@@ -559,6 +604,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e783f2cd-aab9-43f9-9afb-7b1d23de47ec" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Fire_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3ca067a7-c40e-4125-96da-2366651cde71" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_6" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d6,Fire,Magical);ApplyStatus(FRIGHTENED_FIRE,100,1);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(8d6/2,Fire,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d6,Fire);DealDamage(2d6,Fire);Distance(9)" />
@@ -596,6 +642,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e8d5d856-dc4b-4a7e-9ea6-507b788ede3e" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Water_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ec8494fa-20f4-4eae-866b-841398183ae1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_4" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d6,Acid,Magical);ApplyStatus(PRONE,100,2);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d6/2,Acid,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d6,Acid);Distance(9)" />
@@ -610,6 +657,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d7be7d14-98a3-4eb4-a878-770b07787f8e" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Water_5" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ec8494fa-20f4-4eae-866b-841398183ae1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_5" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d6,Acid,Magical);ApplyStatus(PRONE,100,2);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(7d6/2,Acid,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d6,Acid);Distance(9)" />
@@ -624,6 +672,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f0e0a7ea-1ece-48f3-96af-d72493943571" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalExhalation_Water_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ec8494fa-20f4-4eae-866b-841398183ae1" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Zone_ElementalExhalation_6" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d6,Acid,Magical);ApplyStatus(PRONE,100,2);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(8d6/2,Acid,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d6,Acid);Distance(9)" />
@@ -771,8 +820,6 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4;" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Zone_AstralFlood" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d10,Radiant,Magical);IF(not Item()):ApplyStatus(ASTRAL_BLIND,100,2);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(5d10/2,Radiant,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d10,Cold);DealDamage(5d10,Radiant);Distance(9)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d10,Radiant,Magical);" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Zone_AstralFlood_Cold_4;Zone_AstralFlood_Radiant_4;" />
@@ -785,8 +832,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="38e91d01-dc45-4189-94a1-03d24770815c" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5;" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d10,Radiant,Magical);IF(not Item()):ApplyStatus(ASTRAL_BLIND,100,2);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(6d10/2,Radiant,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d10,Cold);DealDamage(6d10,Radiant);Distance(9)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d10,Radiant,Magical);" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Zone_AstralFlood_Cold_5;Zone_AstralFlood_Radiant_5;" />
@@ -799,8 +844,6 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="38e91d01-dc45-4189-94a1-03d24770815c" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6;" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d10,Radiant,Magical);IF(not Item()):ApplyStatus(ASTRAL_BLIND,100,2);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(7d10/2,Radiant,Magical);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d10,Cold);DealDamage(7d10,Radiant);Distance(9)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d10,Radiant,Magical);" />
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Zone_AstralFlood_Cold_6;Zone_AstralFlood_Radiant_6;" />

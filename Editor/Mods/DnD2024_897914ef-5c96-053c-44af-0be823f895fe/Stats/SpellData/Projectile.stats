@@ -1423,6 +1423,67 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2173aeb2-c790-48c5-af54-aba21135f11e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b0c97a-30fc-4c1e-ae08-f23a99ba18da" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Thunder)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Thunder)" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Acid_2;Projectile_ChromaticOrb_Cold_2;Projectile_ChromaticOrb_Fire_2;Projectile_ChromaticOrb_Lightning_2;Projectile_ChromaticOrb_Poison_2;Projectile_ChromaticOrb_Thunder_2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3f3e8c71-d680-4b2b-a61c-00b585b1086c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2173aeb2-c790-48c5-af54-aba21135f11e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:3" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Thunder)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Thunder)" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Acid_3;Projectile_ChromaticOrb_Cold_3;Projectile_ChromaticOrb_Fire_3;Projectile_ChromaticOrb_Lightning_3;Projectile_ChromaticOrb_Poison_3;Projectile_ChromaticOrb_Thunder_3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="db01fc54-9928-4329-a700-9ba406c003e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2173aeb2-c790-48c5-af54-aba21135f11e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:4" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="4" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,Thunder)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Thunder)" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Acid_4;Projectile_ChromaticOrb_Cold_4;Projectile_ChromaticOrb_Fire_4;Projectile_ChromaticOrb_Lightning_4;Projectile_ChromaticOrb_Poison_4;Projectile_ChromaticOrb_Thunder_4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="039a9ee2-4c80-4648-a7bb-44e8553933e1" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2173aeb2-c790-48c5-af54-aba21135f11e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="5" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d8,Thunder)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Thunder)" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Acid_5;Projectile_ChromaticOrb_Cold_5;Projectile_ChromaticOrb_Fire_5;Projectile_ChromaticOrb_Lightning_5;Projectile_ChromaticOrb_Poison_5;Projectile_ChromaticOrb_Thunder_5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b681a5d6-1b6d-4615-a033-c1b0b4169d51" />
+        <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="2173aeb2-c790-48c5-af54-aba21135f11e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d8,Thunder)" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Thunder)" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Acid_6;Projectile_ChromaticOrb_Cold_6;Projectile_ChromaticOrb_Fire_6;Projectile_ChromaticOrb_Lightning_6;Projectile_ChromaticOrb_Poison_6;Projectile_ChromaticOrb_Thunder_6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid" />
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
@@ -1557,6 +1618,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d15c622f-ab48-4a6d-b967-99b803f89288" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_2" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Acid,Magical);IF(RollDieAgainstDC(DiceType.d20,9)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Acid);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:2" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Acid" />
@@ -1570,6 +1632,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="01ba6ab7-61d7-4c4d-a27e-4a814693d5bd" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9b29d548-7645-4cb8-ac56-5c4b9880a26b" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_2" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Cold,Magical);IF(RollDieAgainstDC(DiceType.d20,9)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Cold);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Cold)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Cold)" />
@@ -1583,6 +1646,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="67cdec13-3fc0-4aa6-b475-be4898a164ff" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c423acc0-e59d-43b2-8bf4-1cc0d8bf9704" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_2" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Fire,Magical);IF(RollDieAgainstDC(DiceType.d20,9)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Fire);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Fire)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Fire)" />
@@ -1596,6 +1660,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="020765a3-a49f-4fa8-b43b-d0df4ab29e2c" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e7b5aa0a-2bf5-4c37-9496-4469e89ca36d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_2" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Lightning,Magical);IF(RollDieAgainstDC(DiceType.d20,9)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Lightning);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Lightning)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Lightning)" />
@@ -1609,6 +1674,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d4f24aec-d4b5-4f30-8793-83d92c454387" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5ab16307-2824-42e2-adde-0074c7331c92" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_2" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Poison,Magical);IF(RollDieAgainstDC(DiceType.d20,9)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Poison);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Poison)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Poison)" />
@@ -1622,6 +1688,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="802f525c-0835-49df-bdf3-3b695c30d21a" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Thunder_2" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7907fa20-abbf-4712-a06c-629d5ee28b96" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_2" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d8,Thunder,Magical);IF(RollDieAgainstDC(DiceType.d20,9)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Thunder);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Thunder)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Thunder)" />
@@ -1635,6 +1702,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="374421f6-3667-47ff-8413-8262bc30aebf" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_3" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Acid,Magical);IF(RollDieAgainstDC(DiceType.d20,5)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Acid_2);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Acid)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Acid)" />
@@ -1648,6 +1716,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="10255719-f734-4ef9-9c5b-dc22b21de7bd" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9b29d548-7645-4cb8-ac56-5c4b9880a26b" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_3" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Cold,Magical);IF(RollDieAgainstDC(DiceType.d20,5)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Cold_2);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Cold)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Cold)" />
@@ -1661,6 +1730,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="304e4401-f606-41fb-8392-dfd98f4fc5a6" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c423acc0-e59d-43b2-8bf4-1cc0d8bf9704" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_3" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Fire,Magical);IF(RollDieAgainstDC(DiceType.d20,5)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Fire_2);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Fire)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Fire)" />
@@ -1674,6 +1744,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="98024e85-0fc5-4503-a737-c0b48b2361f8" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e7b5aa0a-2bf5-4c37-9496-4469e89ca36d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_3" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Lightning,Magical);IF(RollDieAgainstDC(DiceType.d20,5)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Lightning_2);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Lightning)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Lightning)" />
@@ -1687,6 +1758,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5f8504e0-d2fb-4ef6-bd6b-9beb4b8cdc3f" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5ab16307-2824-42e2-adde-0074c7331c92" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_3" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Poison,Magical);IF(RollDieAgainstDC(DiceType.d20,5)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Poison_2);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Poison)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Poison)" />
@@ -1700,6 +1772,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4aa5f20d-7952-42e9-8b83-26a3c322cd35" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Thunder_3" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7907fa20-abbf-4712-a06c-629d5ee28b96" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_3" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(5d8,Thunder,Magical);IF(RollDieAgainstDC(DiceType.d20,5)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Thunder_2);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(5d8,Thunder)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(5d8,Thunder)" />
@@ -1713,6 +1786,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="74f7ebd0-7428-41f2-b70b-c59dc27f02fd" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_4" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Acid,Magical);IF(RollDieAgainstDC(DiceType.d20,3)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Acid_3);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,Acid)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Acid)" />
@@ -1726,6 +1800,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9eb849b3-c73f-422e-8cb0-d504d4a4b5b2" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9b29d548-7645-4cb8-ac56-5c4b9880a26b" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_4" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Cold,Magical);IF(RollDieAgainstDC(DiceType.d20,3)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Cold_3);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,Cold)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Cold)" />
@@ -1739,6 +1814,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a31c9149-4a39-474b-a106-075bf20164a8" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c423acc0-e59d-43b2-8bf4-1cc0d8bf9704" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_4" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Fire,Magical);IF(RollDieAgainstDC(DiceType.d20,3)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Fire_3);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,Fire)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Fire)" />
@@ -1752,6 +1828,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="90a6ff56-e510-4c15-8982-77cc4fc19253" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e7b5aa0a-2bf5-4c37-9496-4469e89ca36d" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_4" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Lightning,Magical);IF(RollDieAgainstDC(DiceType.d20,3)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Lightning_3);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,Lightning)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Lightning)" />
@@ -1765,6 +1842,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f679b02d-55b6-4137-a141-c46821dd6522" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5ab16307-2824-42e2-adde-0074c7331c92" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_4" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Poison,Magical);IF(RollDieAgainstDC(DiceType.d20,3)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Poison_3);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,Poison)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Poison)" />
@@ -1778,6 +1856,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ed04a606-267f-4512-8e64-13a80c52d9e9" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Thunder_4" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7907fa20-abbf-4712-a06c-629d5ee28b96" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_4" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(6d8,Thunder,Magical);IF(RollDieAgainstDC(DiceType.d20,3)):SpawnExtraProjectiles(Projectile_ChromaticOrb_Thunder_3);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(6d8,Thunder)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(6d8,Thunder)" />
@@ -1791,6 +1870,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5f1cc4fd-7902-42c7-ab3a-131879d3731c" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_5" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Acid,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Acid_4);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Acid" />
@@ -1804,6 +1884,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="42223d81-de2b-420e-9559-5afeba112856" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9b29d548-7645-4cb8-ac56-5c4b9880a26b" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_5" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Cold,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Cold_4);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d8,Cold)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Cold)" />
@@ -1817,6 +1898,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1cb8cecf-7558-4ab8-bf9e-aa8aeac83b9a" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c423acc0-e59d-43b2-8bf4-1cc0d8bf9704" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_5" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Fire,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Fire_4);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d8,Fire)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Fire)" />
@@ -1830,6 +1912,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="65b89378-9952-48e6-9161-73946af96523" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e7b5aa0a-2bf5-4c37-9496-4469e89ca36d" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_5" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Lightning,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Lightning_4);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d8,Lightning)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Lightning)" />
@@ -1843,6 +1926,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="224dba1e-027a-4abf-b8ee-27202fd6ab05" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5ab16307-2824-42e2-adde-0074c7331c92" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_5" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Poison,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Poison_4);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d8,Poison)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Poison)" />
@@ -1856,6 +1940,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="423c3fee-ef25-4756-bab3-a6379eb70393" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7907fa20-abbf-4712-a06c-629d5ee28b96" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Thunder_5" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_5" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(7d8,Thunder,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Thunder_4);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(7d8,Thunder)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(7d8,Thunder)" />
@@ -1869,6 +1954,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="90b6be49-a5e5-4974-a978-cfa468b8524f" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1ababef8-c892-4130-935d-849b8eac396c" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Acid_6" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_6" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Acid,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Acid_5);" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_Acid" />
@@ -1882,6 +1968,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4e6199c6-66c7-46dd-81be-a1b061fbf96b" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9b29d548-7645-4cb8-ac56-5c4b9880a26b" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Cold_6" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_6" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Cold,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Cold_5);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d8,Cold)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Cold)" />
@@ -1895,6 +1982,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fc5279e9-e5fb-4acf-b040-b5847fd8607c" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c423acc0-e59d-43b2-8bf4-1cc0d8bf9704" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Fire_6" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_6" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Fire,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Fire_5);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d8,Fire)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Fire)" />
@@ -1908,6 +1996,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5a5c98b6-d687-4a1d-88f3-768936d84900" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e7b5aa0a-2bf5-4c37-9496-4469e89ca36d" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Lightning_6" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_6" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Lightning,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Lightning_5);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d8,Lightning)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Lightning)" />
@@ -1921,6 +2010,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4c110fdf-9547-46d5-96b1-e733987a9b20" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5ab16307-2824-42e2-adde-0074c7331c92" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Poison_6" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_6" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Poison,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Poison_5);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d8,Poison)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Poison)" />
@@ -1934,6 +2024,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9222ff8c-868c-4f38-8854-c8c394dcd486" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7907fa20-abbf-4712-a06c-629d5ee28b96" />
         <field name="Name" type="NameTableFieldDefinition" value="ChromaticOrb_Thunder_6" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Projectile_ChromaticOrb_6" />
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d8,Thunder,Magical);SpawnExtraProjectiles(Projectile_ChromaticOrb_Thunder_5);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(8d8,Thunder)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(8d8,Thunder)" />
