@@ -855,6 +855,11 @@
                     <attribute id="UUID" type="guid" value="d18dec04-478f-41c3-b816-239d5cfcf2a2"/>
                 </node>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Paladin SLevel 4 List"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_DeathWard;Target_StaggeringSmite"/>
+                    <attribute id="UUID" type="guid" value="cd862420-bb90-4940-b323-411a67d0ae8e"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Paladin Devotion Spells level 3"/>
                     <attribute id="Spells" type="LSString" value="Target_ProtectionFromEvilAndGood;Shout_SacredWeapon;Target_ShieldOfFaith"/>
                     <attribute id="UUID" type="guid" value="660eb07b-ea07-4ff1-91e7-7ca44694dbe7"/>
@@ -987,6 +992,11 @@
                     <attribute id="Name" type="FixedString" value="5.5 Ranger SLevel 3 List"/>
                     <attribute id="Spells" type="LSString" value="Shout_AshardalonsStride;Zone_ConjureBarrage;Target_Daylight_Container;Target_ElementalWeapon;Projectile_LightningArrow;Target_PlantGrowth;Target_ProtectionFromEnergy;Teleportation_Revivify;Target_SummonFey"/>
                     <attribute id="UUID" type="guid" value="9a60f649-7f82-4152-90b1-0499c5c9f3e2"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="5.5 Ranger SLevel 4 List"/>
+                    <attribute id="Spells" type="LSString" value="Target_ConjureWoodlandBeings;Target_DominateBeast;Target_FreedomOfMovement;Target_GraspingVine;Zone_MurderOfCrows;Target_Stoneskin;Target_SummonElemental"/>
+                    <attribute id="UUID" type="guid" value="cc13b884-bb0e-4c18-8233-dc8699d0f9e9"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="5.5 Gloom Stalker Level 3 List"/>
