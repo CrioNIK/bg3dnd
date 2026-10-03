@@ -11097,6 +11097,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e3847bb8-6b3c-43d5-b646-fa597567a08f" />
         <field name="Name" type="NameTableFieldDefinition" value="Awaken_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cdafd4a8-e184-4507-ad9b-aa0149358611" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_Awaken" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
       </fields>

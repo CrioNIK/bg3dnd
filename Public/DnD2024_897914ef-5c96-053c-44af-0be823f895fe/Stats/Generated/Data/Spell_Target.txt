@@ -9333,6 +9333,7 @@ new entry "Target_Awaken_6"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_Awaken"
+data "UseCosts" "ActionPoint:1;SpellSlotsGroup:1:1:6"
 data "RootSpellID" "Target_Awaken"
 data "PowerLevel" "6"
 
