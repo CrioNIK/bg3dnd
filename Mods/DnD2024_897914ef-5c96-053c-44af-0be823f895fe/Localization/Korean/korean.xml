@@ -6975,4 +6975,10 @@
   <content contentuid="h0154c016g7f15g4338gab87g21dfec532839" version="1">원소의 힘이 휘감긴 팔로 대상을 내려칩니다.</content>
   <content contentuid="hf8aab6c9gc95cg492fg9fd6g7ff1a7b55e72" version="1">정령 소환 두루마리</content>
   <content contentuid="hd68889f0g5d0bg4b5eg94d8ga94e8c6a2787" version="1">사용 가능한 직업: 드루이드, 레인저, 위저드</content>
+  <content contentuid="h2aff1a0dg832fgb4b6g0e9fgd82db7aa5212" version="1">대지 진동</content>
+  <content contentuid="he17e2324g5221g4179ga084g607b2b2104d5" version="1">자신으로부터 [1] 이내의 땅에 진동을 일으킵니다. 그 지역 안에 있는 자신이 아닌 각 크리처는 민첩 내성 굴림을 해야 합니다. 실패하면 크리처는 [2]를 입고 &lt;LSTag Type="Status" Tooltip="PRONE"&gt;넘어짐&lt;/LSTag&gt; 상태가 됩니다. 그 지역의 땅은 &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;험지&lt;/LSTag&gt;가 됩니다.</content>
+  <content contentuid="h3310c159g253eg4839g9f91ga53946126139" version="1">마법 입문: 대지 진동</content>
+  <content contentuid="h28c8447dg26a8g41c1g952cgeebf94864fec" version="1">마법 입문: 대지 진동</content>
+  <content contentuid="he5526d60g3dddg44e5ga3f1g488cc255b98c" version="1">대지 진동 두루마리</content>
+  <content contentuid="h340d4946g2a94g46e0ga5e7g8f20554ef1e2" version="1">사용 가능한 직업: 바드, 드루이드, 소서러, 위저드</content>
 </contentList>

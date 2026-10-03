@@ -18,6 +18,7 @@ local SPELL_CLASS_MAP = {
     Shout_CloakOfShadow_spellscroll = '1 Wizard',
     Zone_ColorSpray_spellscroll = '1 Bard Sorcerer Wizard',
     Shout_DisguiseSelf_spellscroll = '1 Bard Sorcerer Wizard Artificer',
+    Shout_EarthTremor_spellscroll = '1 Bard Druid Sorcerer Wizard',
     Shout_ExpeditiousRetreat_spellscroll = '1 Sorcerer Warlock Wizard Artificer',
     Shout_FalseLife_spellscroll = '1 Sorcerer Wizard Artificer',
     Shout_FeatherFall_spellscroll = '1 Bard Sorcerer Wizard Artificer',
@@ -671,4 +672,5 @@ function IsScrollSpell()
     | SpellId('Shout_AlterSelf_spellscroll')
     | SpellId('Target_SummonAberration_spellscroll')
     | SpellId('Target_SummonElemental_spellscroll')
+    | SpellId('Shout_EarthTremor_spellscroll')
 end

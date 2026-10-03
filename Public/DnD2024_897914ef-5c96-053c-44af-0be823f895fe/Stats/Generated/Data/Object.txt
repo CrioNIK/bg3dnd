@@ -1679,3 +1679,12 @@ data "MinAmount" "1"
 data "MaxAmount" "1"
 data "Priority" "1"
 
+new entry "OBJ_Scroll_EarthTremor_YMS"
+type "Object"
+using "_MagicScroll"
+data "RootTemplate" "43f104aa-872e-4ef0-9788-f535b7a39954"
+data "ObjectCategory" "MagicScroll"
+data "MinAmount" "1"
+data "MaxAmount" "1"
+data "Priority" "1"
+

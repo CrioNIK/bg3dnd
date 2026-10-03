@@ -7038,4 +7038,10 @@ At the start of each of its turns, the Restrained target repeats the save. On a 
   <content contentuid="h0154c016g7f15g4338gab87g21dfec532839" version="1">Strike a target with a limb wreathed in elemental power.</content>
   <content contentuid="hf8aab6c9gc95cg492fg9fd6g7ff1a7b55e72" version="1">Scroll of Summon Elemental</content>
   <content contentuid="hd68889f0g5d0bg4b5eg94d8ga94e8c6a2787" version="1">Usable Classes: Druid, Ranger, Wizard</content>
+  <content contentuid="h2aff1a0dg832fgb4b6g0e9fgd82db7aa5212" version="1">Earth Tremor</content>
+  <content contentuid="he17e2324g5221g4179ga084g607b2b2104d5" version="1">You cause a tremor in the ground within [1] of you. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes [2] and is knocked &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. The ground in that area becomes &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+  <content contentuid="h3310c159g253eg4839g9f91ga53946126139" version="1">Magic Initiate: Earth Tremor</content>
+  <content contentuid="h28c8447dg26a8g41c1g952cgeebf94864fec" version="1">Magic Initiate: Earth Tremor</content>
+  <content contentuid="he5526d60g3dddg44e5ga3f1g488cc255b98c" version="1">Scroll of Earth Tremor</content>
+  <content contentuid="h340d4946g2a94g46e0ga5e7g8f20554ef1e2" version="1">Usable Classes: Bard, Druid, Sorcerer, Wizard</content>
 </contentList>

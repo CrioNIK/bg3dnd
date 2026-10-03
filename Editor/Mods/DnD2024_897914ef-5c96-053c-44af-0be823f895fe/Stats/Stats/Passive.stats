@@ -10974,6 +10974,16 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe2ac893-3d43-4ac7-b45f-3020cfc1bf7d" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_EarthTremor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h28c8447dg26a8g41c1g952cgeebf94864fec" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_EarthTremor,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_EarthTremor" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="6e895264-47fd-49e3-88a6-1a3bbe76b278" />
         <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Druid_Jump" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f9f7986d-22e7-4c0a-9bb1-495e8eda64f2" />
@@ -11182,6 +11192,16 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h470526c7g8652g4997g92f7ga0742432639f" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_DisguiseSelf,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Illusion_DisguiseSelf" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="537bdca3-4bc3-430f-b2a4-65e09f3ed461" />
+        <field name="Name" type="NameTableFieldDefinition" value="MagicInitiate_Wizard_EarthTremor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0083a968-78aa-420e-9bc1-336e8de956b1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h28c8447dg26a8g41c1g952cgeebf94864fec" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_EarthTremor,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_EarthTremor" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

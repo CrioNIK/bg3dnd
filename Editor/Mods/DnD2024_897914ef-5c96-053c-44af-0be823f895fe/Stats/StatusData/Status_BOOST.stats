@@ -12163,6 +12163,16 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b7908a11-91dd-4c4f-829d-99fe638d95ca" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_EARTHTREMOR" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAGICINITIATE_EARTHTREMOR" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_EarthTremor,AddChildren,03b17647-161a-42e1-9660-5ba517e80ad2);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3310c159g253eg4839g9f91ga53946126139" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fee86815-3ee7-4d2a-8369-5808c0844127" />
         <field name="Name" type="NameTableFieldDefinition" value="MAGICINITIATE_ENTANGLE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="719ec765-2cb2-4c4c-b520-c35fa8fb5560" />
