@@ -6836,6 +6836,11 @@
 
 퇴출. 마법 행동으로, 자신이 볼 수 있고 자신으로부터 [1] 이내에 있는 위 유형의 크리처 하나를 대상으로 지정합니다. 대상은 매력 내성 굴림에 성공하지 못하면, 이미 원래 차원에 있는 경우가 아닌 한 원래 차원으로 돌려보내집니다. 원래 차원에 있지 않다면 언데드는 그림자 불모지로, 요정은 요정계로 보내집니다.</content>
   <content contentuid="h61a84623g8dc7g49a0g974eg825010073b9e" version="2">3레벨보다 높은 주문 슬롯 레벨마다 추가로 언데드 2마리를 생성합니다.</content>
+  <content contentuid="h3b0bf147gf6aag4eb3ga1d2g11aee5901a20" version="1">어둠의 힘이 깃든 실로 사거리 내에서 보이는 비어 있는 공간에 언데드를 최대 [1]마리까지 일으킵니다. 각 언데드는 원하는 대로 좀비나 해골로 정할 수 있습니다. 이 언데드는 명중 굴림과 피해 굴림에 주문 시전 능력치 보정치를 더합니다. 주문이 끝날 때까지 시전자의 통제를 받으며, 주문이 끝나면 생명 없는 잔해로 무너집니다.</content>
+  <content contentuid="ha5fdea82gb306g4991g925bge9926ec8d69f" version="1">죽음의 무도: 해골</content>
+  <content contentuid="hd9b560f9g047eg40fegb6cbg51813e5ee9fe" version="1">죽음의 무도: 좀비</content>
+  <content contentuid="hd4d76441g18c5g426bga7f2g5e08f7cd3d34" version="1">5레벨보다 높은 주문 슬롯 레벨마다 추가로 언데드 2마리를 생성합니다.</content>
+  <content contentuid="h0d543bfeg7506g45e8g84fag0350fb67b494" version="3">해골 [1]마리를 생성해 함께 싸우게 합니다. 해골은 명중 굴림과 피해 굴림에 주문 시전 능력치 보정치를 더합니다.</content>
   <content contentuid="h96104d28ga043g4b42g82fdg4caf05cdbf59" version="1">썩은 발톱</content>
   <content contentuid="hc0aa1705g2ac9g4efag9b98g22f7c7183982" version="1">썩은 발톱을 휘두릅니다. 대상이 &lt;LSTag Type="Status" Tooltip="POISONED"&gt;중독&lt;/LSTag&gt; 상태라면, 다음 자신의 턴이 끝날 때까지 &lt;LSTag Type="Status" Tooltip="PARALYZED_ENDTURN"&gt;마비&lt;/LSTag&gt; 상태가 됩니다.</content>
   <content contentuid="h46a2c572g3f65g4b70gab69ga585d08c144a" version="1">언데드 소환: 구울</content>

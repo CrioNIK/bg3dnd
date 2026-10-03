@@ -3647,6 +3647,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0c3229d5-7a92-4272-8a94-c98c4d7c6482" />
+        <field name="Name" type="NameTableFieldDefinition" value="SUMMON_ATTACK_DAMAGE_BONUS" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d5a3fbb3-d0a3-4485-8497-af6dca97ee08" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(Attack,Owner.SpellCastingAbilityModifier);DamageBonus(Owner.SpellCastingAbilityModifier);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="a1297303-4495-48a5-bce9-be3aa3c66876" />
         <field name="Name" type="NameTableFieldDefinition" value="BOLSTERING_TOUCH" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb2160876g4fc0g0ea9g2508g80fd952f29f7" version="1" />

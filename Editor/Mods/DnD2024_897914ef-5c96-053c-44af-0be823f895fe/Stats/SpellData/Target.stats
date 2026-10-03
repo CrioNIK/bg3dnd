@@ -9240,13 +9240,55 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="40426e53-34ea-4601-aee9-14523df7c3ae" />
+        <field name="Name" type="NameTableFieldDefinition" value="CursedTome_WakeTheDead" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="52201d6c-6d5a-487c-af5b-7fbc7d3070f8" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(47e99d02-3c35-44a4-95d5-8d164d2069dd,UntilLongRest,,,,SUMMON_ATTACK_DAMAGE_BONUS,UNDEAD_FORTITUDE_NECROMANCER,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(47e99d02-3c35-44a4-95d5-8d164d2069dd,UntilLongRest,,,,SUMMON_ATTACK_DAMAGE_BONUS,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('47e99d02-3c35-44a4-95d5-8d164d2069dd')" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="5" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h0d543bfeg7506g45e8g84fag0350fb67b494" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="5" />
+        <field name="CombatAIOverrideSpell" type="StatReferenceTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Necromancy" enumeration_type_name="SpellSchool" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerRest" enumeration_type_name="CooldownType" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_WakeTheDead" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Action_Prepare_Item_NecromancyOfThay_WakeOfTheDead" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Action_Loop_Item_NecromancyOfThay_WakeOfTheDead" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Item_NecromancyOfThay_WakeOfTheDead" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_Item_NecromancyOfThay_WakeOfTheDead" />
+        <field name="VocalComponentSound" type="StringTableFieldDefinition" value="Vocal_Component_AnimateDead" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;c0513845-6e0e-42e8-9a8c-baa5e2b6ead6,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,," />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="239d0263-eb26-4d7e-9683-4d7be6b6a1cf" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="111a8b8c-b395-46d0-b2f0-a10ac6f9731f" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="8671c5eb-0e2c-45ce-a9e4-91b48646b5d6" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Summon" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Damage Type" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="7469e101-d9d5-42de-a7b3-b011001d65e9" />
         <field name="Name" type="NameTableFieldDefinition" value="DanseMacabre" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="52201d6c-6d5a-487c-af5b-7fbc7d3070f8" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IgnorePreviouslyPickedEntities;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="40426e53-34ea-4601-aee9-14523df7c3ae" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IsConcentration;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
         <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" value="1" />
         <field name="Cooldown" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="CooldownType" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(d4111267-1310-4663-a9f6-281a9f58221f,UntilLongRest,,,'WakeTheDead',SUMMON_ATTACK_BONUS,UNDEAD_FORTITUDE_NECROMANCER,UNSUMMON_ABLE,SWARM_WAKETHEDEAD_GHOUL,SWARM_WAKETHEDEAD_UNDEADTHRALL_GHOUL);GROUND:IF(not HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(d4111267-1310-4663-a9f6-281a9f58221f,UntilLongRest,,,'WakeTheDead',SUMMON_ATTACK_BONUS,UNSUMMON_ABLE,SWARM_WAKETHEDEAD_GHOUL);" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_DanseMacabre_Skeleton;Target_DanseMacabre_Zombie" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3b0bf147gf6aag4eb3ga1d2g11aee5901a20" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="5" />
+        <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="45eb85b5-3ed2-4223-a184-c6350820afc1" />
+        <field name="CombatAIOverrideSpell" type="StatReferenceTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6f42f5f3-7a5a-4441-a02e-71b0450ac4b7,,;,,;c0513845-6e0e-42e8-9a8c-baa5e2b6ead6,,;fbf20742-9dbf-475b-9ff5-42e4b08064ad,,;42aaefdc-cf9b-4249-b159-285041851f69,,;,,;20e11c98-fff9-4417-88de-5bcc2368a1bd,,;,,;,," />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9254,11 +9296,69 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3a8e2407-e94d-4d71-b29c-e78ad44f3f78" />
         <field name="Name" type="NameTableFieldDefinition" value="DanseMacabre_6" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7469e101-d9d5-42de-a7b3-b011001d65e9" />
-        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="6" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="6" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_DanseMacabre_Skeleton_6;Target_DanseMacabre_Zombie_6" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="7" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
         <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DanseMacabre" />
         <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="54da2cf7-5162-4ded-8ee2-84d005995918" />
+        <field name="Name" type="NameTableFieldDefinition" value="DanseMacabre_Skeleton" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7469e101-d9d5-42de-a7b3-b011001d65e9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DanseMacabre" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha5fdea82gb306g4991g925bge9926ec8d69f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha254a607g9627g44b4ga38ag89944222bec5" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_AnimateDead_Skeleton" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IgnorePreviouslyPickedEntities;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(47e99d02-3c35-44a4-95d5-8d164d2069dd,UntilLongRest,,,,SUMMON_ATTACK_DAMAGE_BONUS,UNDEAD_FORTITUDE_NECROMANCER,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(47e99d02-3c35-44a4-95d5-8d164d2069dd,UntilLongRest,,,,SUMMON_ATTACK_DAMAGE_BONUS,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('47e99d02-3c35-44a4-95d5-8d164d2069dd')" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="491f3d08-a16c-48e8-8bc9-fe958561b40a" />
+        <field name="Name" type="NameTableFieldDefinition" value="DanseMacabre_Skeleton_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="54da2cf7-5162-4ded-8ee2-84d005995918" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DanseMacabre_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DanseMacabre_Skeleton" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53dcc46a-b97b-4297-a372-95211bdca284" />
+        <field name="Name" type="NameTableFieldDefinition" value="DanseMacabre_Zombie" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7469e101-d9d5-42de-a7b3-b011001d65e9" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DanseMacabre" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd9b560f9g047eg40fegb6cbg51813e5ee9fe" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd23d78aagc4e2g4f73g95d4gecb7583391a1" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Necromancy_AnimateDead_Zombie" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:5" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasVerbalComponent;HasSomaticComponent;IsSpell;IgnorePreviouslyPickedEntities;IsConcentration" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:IF(HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(8a20737a-4606-4016-adc5-5df00bcd6945,UntilLongRest,,,,SUMMON_ATTACK_DAMAGE_BONUS,UNDEAD_FORTITUDE_NECROMANCER,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK);GROUND:IF(not HasPassive('Necromancer_6_UndeadThralls',context.Source)):Summon(8a20737a-4606-4016-adc5-5df00bcd6945,UntilLongRest,,,,SUMMON_ATTACK_DAMAGE_BONUS,UNSUMMON_ABLE,SHADOWCURSE_SUMMON_CHECK)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('8a20737a-4606-4016-adc5-5df00bcd6945')" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8af7de2d-7aef-4bb0-b7b8-1caec11e423e" />
+        <field name="Name" type="NameTableFieldDefinition" value="DanseMacabre_Zombie_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="53dcc46a-b97b-4297-a372-95211bdca284" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Target_DanseMacabre_6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;SpellSlotsGroup:1:1:6" />
+        <field name="RootSpellID" type="StringTableFieldDefinition" value="Target_DanseMacabre_Zombie" />
+        <field name="PowerLevel" type="IntegerTableFieldDefinition" value="6" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="7" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -17998,7 +18098,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="e4e4c763-9c59-4a25-988b-c47a8f4e30ca" />
         <field name="Name" type="NameTableFieldDefinition" value="DanseMacabre_spellscroll" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="7469e101-d9d5-42de-a7b3-b011001d65e9" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="54da2cf7-5162-4ded-8ee2-84d005995918" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -2960,6 +2960,12 @@ data "StackId" "SUMMON_ATTACK_BONUS"
 data "Boosts" "RollBonus(Attack,Owner.SpellCastingAbilityModifier);"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
+new entry "SUMMON_ATTACK_DAMAGE_BONUS"
+type "StatusData"
+data "StatusType" "BOOST"
+using "SUMMON_ATTACK_BONUS"
+data "Boosts" "RollBonus(Attack,Owner.SpellCastingAbilityModifier);DamageBonus(Owner.SpellCastingAbilityModifier);"
+
 new entry "BOLSTERING_TOUCH"
 type "StatusData"
 data "StatusType" "BOOST"
