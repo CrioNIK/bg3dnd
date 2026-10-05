@@ -1349,6 +1349,19 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b69f948c-c4c1-4715-a3ea-93aa118dedd1" />
+        <field name="Name" type="NameTableFieldDefinition" value="ProduceFlame" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d2729e5e-dcac-4759-bc2d-3f3fcd9e8741" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(PRODUCE_FLAME,100,100);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(PRODUCE_FLAME,100,100);" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h52b5b3ecgc218g46ffg95bagbe3ef3d81398" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6);DealDamage(1d8,Fire)" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" clear_inherited_value="true" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4da3d550-119c-40af-93ed-00eacddc4b82" />
         <field name="Name" type="NameTableFieldDefinition" value="SwordBurst" />
         <field name="Level" type="IntegerTableFieldDefinition" value="0" />

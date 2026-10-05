@@ -7014,4 +7014,8 @@ At the start of each of its turns, the Restrained target repeats the save. On a 
   <content contentuid="h340d4946g2a94g46e0ga5e7g8f20554ef1e2" version="1">Usable Classes: Bard, Druid, Sorcerer, Wizard</content>
   <content contentuid="h21a7273cg6587g4568g8b06gea4a80033289" version="1">Scroll of Staggering Smite</content>
   <content contentuid="hc3fe6b09g9b2eg449aga16dg620b49fed335" version="1">Usable Classes: Paladin</content>
+  <content contentuid="h52b5b3ecgc218g46ffg95bagbe3ef3d81398" version="1">A flickering flame appears in your hand. The flame emits no heat and ignites nothing, and it sheds Bright Light in a [1] radius and Dim Light for an additional [1].
+
+Until the spell ends, you can hurl fire at a creature or an object to deal [2]. The spell ends if you cast it again.</content>
+  <content contentuid="h84fdaae4gf5f2g4d7dg9fd2gb5a952add89b" version="1">Hurl fire at a creature or an object. Make a ranged spell attack.</content>
 </contentList>

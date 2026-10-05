@@ -1502,6 +1502,14 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f60449f4-531c-4efb-a839-4572df592707" />
+        <field name="Name" type="NameTableFieldDefinition" value="PRODUCE_FLAME" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="99759959-6a51-4909-a968-48258d86f96b" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_ProduceFlame_Dismiss);GameplayLight(6,false,0.1);UnlockSpell(Projectile_ProduceFlame_Hurl);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="fe9323b8-7ab3-483f-9b1d-12b48997a684" />
         <field name="Name" type="NameTableFieldDefinition" value="ENSNARING_STRIKE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a88d8556-6594-439d-a807-ecfa22363e5b" />

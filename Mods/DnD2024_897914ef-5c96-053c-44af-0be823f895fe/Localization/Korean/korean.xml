@@ -6951,4 +6951,8 @@
   <content contentuid="h340d4946g2a94g46e0ga5e7g8f20554ef1e2" version="1">사용 가능한 직업: 바드, 드루이드, 소서러, 위저드</content>
   <content contentuid="h21a7273cg6587g4568g8b06gea4a80033289" version="1">충격의 강타 두루마리</content>
   <content contentuid="hc3fe6b09g9b2eg449aga16dg620b49fed335" version="1">사용 가능한 직업: 팔라딘</content>
+  <content contentuid="h52b5b3ecgc218g46ffg95bagbe3ef3d81398" version="1">깜박이는 불꽃이 손에 나타납니다. 이 불꽃은 열을 내지 않고 아무것도 태우지 않으며, [1] 반경에는 밝은 빛을, 추가로 [1]에는 어두운 빛을 발합니다.
+
+주문이 끝날 때까지, 크리처나 물체에 불을 던져 [2]를 줄 수 있습니다. 이 주문을 다시 시전하면 종료됩니다.</content>
+  <content contentuid="h84fdaae4gf5f2g4d7dg9fd2gb5a952add89b" version="1">크리처나 물체에 불을 던집니다. 원거리 주문 공격을 가합니다.</content>
 </contentList>

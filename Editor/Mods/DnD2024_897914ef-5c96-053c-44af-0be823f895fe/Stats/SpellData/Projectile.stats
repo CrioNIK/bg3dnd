@@ -2939,14 +2939,9 @@
         <field name="Name" type="NameTableFieldDefinition" value="ProduceFlame_Hurl" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5621405a-a1cf-4dbd-8afa-635edbeb8cda" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="IF(not IsCritical() and HasPassive('PotentCantripPlayer',context.Source)):DealDamage(LevelMapValue(D8Cantrip)/2,Fire,Magical);" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="36ff1ebc-a4ed-4252-ab61-a1658b18d3f1" />
-        <field name="Name" type="NameTableFieldDefinition" value="ProduceFlame_Hurl_Free" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="0a867d8b-6798-4ad9-bf69-eed2b9b58365" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="IF(not IsCritical() and HasPassive('PotentCantripPlayer',context.Source)):DealDamage(LevelMapValue(D8Cantrip)/2,Fire,Magical);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:SurfaceChange(Ignite);GROUND:SurfaceChange(Melt);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h84fdaae4gf5f2g4d7dg9fd2gb5a952add89b" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

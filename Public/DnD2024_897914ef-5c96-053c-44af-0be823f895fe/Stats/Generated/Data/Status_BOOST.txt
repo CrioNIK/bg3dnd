@@ -1183,6 +1183,12 @@ new entry "__CONJURATION__"
 type "StatusData"
 data "StatusType" "BOOST"
 
+new entry "PRODUCE_FLAME"
+type "StatusData"
+data "StatusType" "BOOST"
+using "PRODUCE_FLAME"
+data "Boosts" "UnlockSpell(Shout_ProduceFlame_Dismiss);GameplayLight(6,false,0.1);UnlockSpell(Projectile_ProduceFlame_Hurl);"
+
 new entry "ENSNARING_STRIKE"
 type "StatusData"
 data "StatusType" "BOOST"
