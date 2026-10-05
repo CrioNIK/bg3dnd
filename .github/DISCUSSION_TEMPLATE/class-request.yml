@@ -1,4 +1,4 @@
-title: "Class Request: "
+title: "Class Request: Subclass Name (Class Name)"
 body:
   - type: markdown
     attributes:
@@ -6,6 +6,7 @@ body:
         # Important
         * Search existing discussions before posting, including closed ones — duplicate requests may be closed.
         * One request = one class or subclass. Please don't bundle multiple unrelated requests in a single post.
+        * Title your post **Class Request: Subclass Name (Class Name)** using the official subclass name, e.g. **Class Request: Path of the Beast (Barbarian)**. For a new base class or a class feature, put the class or feature name in place of the subclass name, e.g. **Class Request: Repelling Blast (Warlock)**.
         * This category is for classes, subclasses, or class features that are **missing** or **not yet implemented** in the mod. If something already exists but behaves incorrectly, please open a Bug Report issue instead.
         * Include the official source so the class/subclass can be verified against the rules text.
         * Check on **a campaign created on the current release** before reporting something as missing. A campaign that was updated mid-playthrough keeps whatever the older version granted its characters, so content that's already in the mod can look missing there.
