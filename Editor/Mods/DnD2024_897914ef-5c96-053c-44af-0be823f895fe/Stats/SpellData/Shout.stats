@@ -2158,7 +2158,7 @@
         <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SELF,HOLY_WEAPON_BURST);ApplyStatus(SELF,HOLY_WEAPON_OFF);" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC())" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:AOE:IF(not Self()):DealDamage(4d8,Radiant,Magical);TARGET:AOE:IF(not Self()):ApplyStatus(BLIND,100,10);RemoveStatus(SELF,HOLY_WEAPON_BURST);ApplyStatus(SELF,HOLY_WEAPON_OFF);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="TARGET:AOE:IF(not Self()):DealDamage(4d8,Radiant,Magical);TARGET:AOE:IF(not Self()):ApplyStatus(BLINDED,100,10);RemoveStatus(SELF,HOLY_WEAPON_BURST);ApplyStatus(SELF,HOLY_WEAPON_OFF);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="TARGET:AOE:IF(not Self()):DealDamage(4d8/2,Radiant,Magical);RemoveStatus(SELF,HOLY_WEAPON_BURST);ApplyStatus(SELF,HOLY_WEAPON_OFF);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_HolyWeapon" />
@@ -2167,7 +2167,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(4d8,Radiant);Distance(9)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(4d8,Radiant,Magical);" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BLIND,100,10);" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(BLINDED,100,10);" />
         <field name="TooltipOnSave" type="StringTableFieldDefinition" value="f762efbb-f8f1-493e-b248-2de1567b4bd2" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_RadianceOfTheDawn" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_RadianceOfTheDawn" />
