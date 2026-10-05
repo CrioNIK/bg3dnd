@@ -1490,7 +1490,6 @@
                     <attribute id="Level" type="uint8" value="8"/>
                     <attribute id="Name" type="LSString" value="WarDomain"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(4935a640-e3ec-48f7-933b-512b72268e68,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="8f6048bc-47b8-49fa-956a-8a364807f6ec"/>
                     <attribute id="UUID" type="guid" value="bb079588-93de-40de-bf1f-2718b1e08512"/>
                 </node>
