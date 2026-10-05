@@ -1231,6 +1231,66 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8df87968-c722-4f91-ba17-bb449997450d" />
+        <field name="Name" type="NameTableFieldDefinition" value="FogCloud" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1dae9bd4-be33-4df6-88fa-89f309a5c8a4" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(6,10,FogCloud,true)" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1eb9ca21-6e2e-41ae-92a0-0d60f027c472" />
+        <field name="Name" type="NameTableFieldDefinition" value="FogCloud_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7c1bbbfe-bc55-4e91-819c-e59874bfdb91" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(12,10,FogCloud,true)" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="12" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e784f02-592c-4c4f-b3b6-cb4fea30fa33" />
+        <field name="Name" type="NameTableFieldDefinition" value="FogCloud_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="983ae53c-25e2-4ac5-ae0f-c0705eb6188a" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(18,10,FogCloud,true)" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="18" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="acbb6356-beb8-44bd-8aa2-d765b94ee45b" />
+        <field name="Name" type="NameTableFieldDefinition" value="FogCloud_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="71fc9ceb-ef46-4180-a04a-775b5901df03" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(24,10,FogCloud,true)" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="24" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e1dbcfe-b023-491f-a03a-d1c374e95e23" />
+        <field name="Name" type="NameTableFieldDefinition" value="FogCloud_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ab763891-03d6-4ebb-ac93-8863796622da" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(30,10,FogCloud,true)" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="30" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="99ca299e-4eb8-45d7-9bf6-f1d305db064d" />
+        <field name="Name" type="NameTableFieldDefinition" value="FogCloud_6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9d21e8da-64d1-4f9b-861c-b33e43f6b228" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:CreateSurface(36,10,FogCloud,true)" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="36" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dba0e501-b1cd-40af-8989-620473a485f1" />
         <field name="Name" type="NameTableFieldDefinition" value="FindFamiliar_Dummy" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b873d36a-2910-4dd8-b276-6db0517daab1" />
