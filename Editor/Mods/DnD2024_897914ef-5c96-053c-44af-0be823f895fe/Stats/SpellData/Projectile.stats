@@ -3064,7 +3064,7 @@
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage((2d6)/2,Fire,Magical);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(2d6,Fire)" />
-        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
