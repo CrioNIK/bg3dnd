@@ -20,6 +20,8 @@ function IsEldritchSpearCantrip()
     | SpellId('Projectile_PoisonSpray')
     | SpellId('Target_TollTheDead')
     | SpellId('Target_Hellfire')
+    | SpellId('Projectile_BloodBolt')
+    | SpellId('Target_Frostbite')
 end
 
 function Hex()
