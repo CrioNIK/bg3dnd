@@ -8,7 +8,7 @@
   <content contentuid="hd91b86adge685g5c21gf879g457242b186f2" version="2">Mientras tienes la condición &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Derribado&lt;/LSTag&gt;, experimentas los siguientes efectos:
 Movimiento Restringido: debes gastar una cantidad de movimiento igual a la mitad de tu Movimiento para levantarte y finalizar la condición. Si tu Movimiento es 0, no puedes levantarte.
 
-Ataques afectados: Las &lt;LSTag Tooltip="AttackRoll"&gt;Tirada de Ataque&lt;/LSTag&gt; contra ti tienen &lt;LSTag Tooltip="Advantage"&gt;Ventaja&lt;/LSTag&gt; si el atacante está dentro a [1] de ti. De lo contrario, tiene &lt;LSTag Tooltip="Disadvantage"&gt;Desventaja&lt;/LSTag&gt;.</content>
+Ataques afectados: Tienes &lt;LSTag Tooltip="Disadvantage"&gt;Desventaja&lt;/LSTag&gt; en las &lt;LSTag Tooltip="AttackRoll"&gt;Tiradas de Ataque&lt;/LSTag&gt;. Las &lt;LSTag Tooltip="AttackRoll"&gt;Tirada de Ataque&lt;/LSTag&gt; contra ti tienen &lt;LSTag Tooltip="Advantage"&gt;Ventaja&lt;/LSTag&gt; si el atacante está dentro a [1] de ti. De lo contrario, tiene &lt;LSTag Tooltip="Disadvantage"&gt;Desventaja&lt;/LSTag&gt;.</content>
   <content contentuid="h4d9f934eg7721gfb63gcff8gb411e659dc78" version="1">Regla: Un Conjuro con un espacio de Conjuro por turno</content>
   <content contentuid="hd3ffb028g9755g52adgf223g4bb289eebf93" version="1">En un turno, sólo puedes gastar un espacio de Conjuro para lanzar un Conjuro. Esta regla significa que no puedes, por ejemplo, lanzar un Conjuro con un espacio de Conjuro usando la acción Mágica y otro usando una Acción Bonus en el mismo turno.</content>
   <content contentuid="hb60d9b3bg491bg7056g1bd9gc752b67bfd56" version="2">Maestria: Talar</content>

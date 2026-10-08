@@ -11,7 +11,7 @@ Herhangi bir Can Puanı geri kazanırsanız durum sona erer. Bir müttefik size 
 
 Hareket Kısıtlaması: Ayağa kalkmak ve bu durumu sona erdirmek için Hızınızın yarısı kadar hareket harcamalısınız. Hızınız 0 ise ayağa kalkamazsınız.
 
-Etkilenen Saldırılar: Saldırgan size [1] mesafedeyse, size karşı yapılan bir saldırı zarında Avantaj kazanır. Aksi takdirde, o saldırı zarında Dezavantaj kazanır.</content>
+Etkilenen Saldırılar: Saldırı zarlarında Dezavantajınız olur. Saldırgan size [1] mesafedeyse, size karşı yapılan bir saldırı zarında Avantaj kazanır. Aksi takdirde, o saldırı zarında Dezavantaj kazanır.</content>
   <content contentuid="h4d9f934eg7721gfb63gcff8gb411e659dc78" version="1">Kural: Tur Başına Bir Büyü Yuvası ile Bir Büyü</content>
   <content contentuid="hd3ffb028g9755g52adgf223g4bb289eebf93" version="1">Bir turda, büyü yapmak için yalnızca bir Büyü Yuvası harcayabilirsiniz. Bu kural, örneğin aynı turda Büyü Eylemini kullanarak bir Büyü Yuvası ile bir büyü yapıp, ardından Bonus Eylem kullanarak başka bir büyü yapamayacağınız anlamına gelir.</content>
   <content contentuid="hb60d9b3bg491bg7056g1bd9gc752b67bfd56" version="2">Biçme</content>

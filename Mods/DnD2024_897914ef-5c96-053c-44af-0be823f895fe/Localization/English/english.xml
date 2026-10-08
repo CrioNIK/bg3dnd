@@ -11,7 +11,7 @@ If you regain any hit points, the condition is removed. If an ally &lt;LSTag Typ
 
 Restricted Movement: You must spend an amount of movement equal to half your Speed to stand up and end the condition. If your Speed is 0, you can’t stand up.
 
-Attacks Affected: An attack roll against you has Advantage if the attacker is within [1] of you. Otherwise, that attack roll has Disadvantage.</content>
+Attacks Affected: You have Disadvantage on attack rolls. An attack roll against you has Advantage if the attacker is within [1] of you. Otherwise, that attack roll has Disadvantage.</content>
   <content contentuid="h4d9f934eg7721gfb63gcff8gb411e659dc78" version="1">Rule: One Spell with a Spell Slot per Turn</content>
   <content contentuid="hd3ffb028g9755g52adgf223g4bb289eebf93" version="1">On a turn, you can expend only one spell slot to cast a spell. This rule means you can’t, for example, cast a spell with a spell slot using the Magic action and another one using a Bonus Action on the same turn.</content>
   <content contentuid="hb60d9b3bg491bg7056g1bd9gc752b67bfd56" version="2">Cleave</content>

@@ -11,7 +11,7 @@ Si vous récupérez des points de vie, la condition est supprimée. Si un allié
 
 Mouvement restreint : Vous devez dépenser un mouvement égal à la moitié de votre Vitesse pour vous relever et mettre fin à la condition. Si votre Vitesse est de 0, vous ne pouvez pas vous relever.
 
-Attaques affectées : Un jet d'attaque contre vous a l'Avantage si l'assaillant est à [1] ou moins de vous. Sinon, ce jet d'attaque a le Désavantage.</content>
+Attaques affectées : Vous avez le Désavantage aux jets d'attaque. Un jet d'attaque contre vous a l'Avantage si l'assaillant est à [1] ou moins de vous. Sinon, ce jet d'attaque a le Désavantage.</content>
   <content contentuid="h4d9f934eg7721gfb63gcff8gb411e659dc78" version="1">Règle : Un sort par emplacement de sort par tour</content>
   <content contentuid="hd3ffb028g9755g52adgf223g4bb289eebf93" version="1">Durant un tour, vous ne pouvez dépenser qu'un seul emplacement de sort pour lancer un sort. Cette règle signifie que vous ne pouvez pas, par exemple, lancer un sort avec un emplacement de sort via l'action Magie et un autre avec une Action bonus au même tour.</content>
   <content contentuid="hb60d9b3bg491bg7056g1bd9gc752b67bfd56" version="2">Taillade</content>

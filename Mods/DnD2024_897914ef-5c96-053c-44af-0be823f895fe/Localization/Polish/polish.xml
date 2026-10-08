@@ -11,7 +11,7 @@ Stan ten kończy się, gdy odzyskasz dowolną liczbę punktów wytrzymałości. 
 
 Ograniczenie ruchu. Aby wstać i zakończyć ten stan, musisz zużyć ruch równy połowie swojej szybkości. Jeśli twoja szybkość wynosi 0, nie możesz wstać.
 
-Ataki. Test ataku przeciwko tobie ma ułatwienie, jeśli napastnik znajduje się w promieniu [1] od ciebie. W przeciwnym razie test ma utrudnienie.</content>
+Ataki. Masz utrudnienie w testach ataku. Test ataku przeciwko tobie ma ułatwienie, jeśli napastnik znajduje się w promieniu [1] od ciebie. W przeciwnym razie test ma utrudnienie.</content>
   <content contentuid="h4d9f934eg7721gfb63gcff8gb411e659dc78" version="1">Zasada: Jeden czar z komórki na turę</content>
   <content contentuid="hd3ffb028g9755g52adgf223g4bb289eebf93" version="1">W jednej turze możesz zużyć tylko jedną komórkę czaru. Oznacza to na przykład, że nie możesz w tej samej turze rzucić jednego czaru z komórki w ramach akcji Magii, a drugiego w ramach akcji dodatkowej.</content>
   <content contentuid="hb60d9b3bg491bg7056g1bd9gc752b67bfd56" version="2">Szerokie cięcie</content>
