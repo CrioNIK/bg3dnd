@@ -1641,16 +1641,6 @@ Critico Mejorado. Cuando consigues un &lt;LSTag Tooltip="CriticalHit"&gt;Golpe C
   <content contentuid="he05ad460g276fg1990g8fccg4bd00b5d035a" version="1">Veneno Potente. Los conjuros que lanzas y los ataques que realizas ignoran la &lt;LSTag Tooltip="Resistant"&gt;Resistencia&lt;/LSTag&gt; al daño de Veneno. Además, cuando infliges daño de Veneno con un conjuro, no puedes sacar un 1. &lt;br&gt;&lt;br&gt;Elaborar Veneno. Obtienes un Kit de Envenenador y tienes competencia con él. Cuando infliges daño de veneno a una criatura, debe superar una &lt;LSTag Tooltip="SavingThrow"&gt;Tirada de Salvación&lt;/LSTag&gt; de &lt;LSTag Tooltip="Constitution"&gt;Constitución&lt;/LSTag&gt; o quedar Envenenada.</content>
   <content contentuid="hc782e27cga896ge43ag0c4agb3058242abbb" version="1">Manual del Jugador: Dotes de Origen</content>
   <content contentuid="hc7971da0g5d1bgf514g6294gfba09c9f94ab" version="1">Manual del Jugador: Dotes Generales</content>
-  <content contentuid="hcbf50aebge043ge664g7bbegc0c0e3941aef" version="1">Nivel 3: Conjuros del Círculo de la Tierra</content>
-  <content contentuid="hc63ea14cgb031g53b1ge9c5gd05f610e629c" version="1">Cada vez que completas un &lt;LSTag Tooltip="LongRest"&gt;Descanso Largo&lt;/LSTag&gt;, eliges un tipo de tierra: árida, polar, templada o tropical. Según tu elección, consultas la tabla correspondiente y tienes preparados todos los conjuros listados para tu nivel de Druida e inferiores.
-
-Si eliges Tierra Árida, tienes preparados Desenfoque, Manos Ardientes y Dardo de Fuego al nivel 3; Bola de Fuego al nivel 5; Lacra al nivel 7; y Muro de Piedra al nivel 9.
-
-Si eliges Tierra Polar, tienes preparados Nube de Niebla, Inmovilizar Persona y Rayo de Escarcha al nivel 3; Tormenta de Aguanieve al nivel 5; Tormenta de Hielo al nivel 7; y Cono de Frío al nivel 9.
-
-Si eliges Tierra Templada, tienes preparados Paso Brumoso, Agarre Electrizante y Dormir al nivel 3; Rayo al nivel 5; Libertad de Movimiento al nivel 7; y Zancada por los Árboles al nivel 9.
-
-Si eliges Tierra Tropical, tienes preparados Salpicadura de Ácido, Rayo de Enfermedad y Tela de Araña al nivel 3; Nube Fétida al nivel 5; Polimorfar al nivel 7; y Plaga de Insectos al nivel 9.</content>
   <content contentuid="hfcdb19afgd772g8c06gc034g42384d832b3b" version="1">Nivel 3: Conjuros del Círculo de la Tierra</content>
   <content contentuid="hd95cf570g7ab5ga240gfd2eg759fa404ffde" version="2">Cada vez que completas un &lt;LSTag Tooltip="LongRest"&gt;Descanso Largo&lt;/LSTag&gt;, eliges un tipo de tierra: árida, polar, templada o tropical. Según tu elección, consultas la tabla correspondiente y tienes preparados todos los conjuros listados para tu nivel de Druida e inferiores.
 
