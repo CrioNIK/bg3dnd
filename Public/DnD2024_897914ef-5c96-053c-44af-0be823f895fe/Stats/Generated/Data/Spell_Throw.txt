@@ -42,4 +42,5 @@ new entry "Throw_Telekinesis_spellscroll"
 type "SpellData"
 data "SpellType" "Throw"
 using "Throw_Telekinesis"
+data "UseCosts" "ActionPoint:1"
 

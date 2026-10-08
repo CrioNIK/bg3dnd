@@ -225,6 +225,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1698ac1b-078d-4bd3-b621-55f9fb22b0a2" />
         <field name="Name" type="NameTableFieldDefinition" value="DimensionDoor_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="094d5c65-c137-4e5d-8551-f914f8b6e436" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -232,6 +233,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fc3bbf03-43e2-44d0-a669-5c6ecdb5ff2e" />
         <field name="Name" type="NameTableFieldDefinition" value="ArcaneGate_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3e9f7ebc-2eab-4461-acbf-0e38b813a88a" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
   </stat_objects>

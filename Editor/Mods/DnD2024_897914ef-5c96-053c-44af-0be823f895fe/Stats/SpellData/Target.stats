@@ -17235,6 +17235,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="21af7b51-65a4-4653-a90e-c9ac67493a7a" />
         <field name="Name" type="NameTableFieldDefinition" value="ArcaneLock_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="27852707-2e28-4bce-8253-5d021beafc67" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17242,6 +17243,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0203df21-ed3f-4382-8a0b-d9c20e5edc6a" />
         <field name="Name" type="NameTableFieldDefinition" value="Darkvision_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="30d7992a-d676-4f79-92c0-b4f6fdd3e63c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17249,6 +17251,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="12650537-9aa1-44ab-a0b4-7c3c51dd6575" />
         <field name="Name" type="NameTableFieldDefinition" value="FeignDeath_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c65cbcb2-fdd4-45fd-83ac-46946a87e465" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17256,6 +17259,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8805386a-94d6-4eb1-b290-735ecc1f9975" />
         <field name="Name" type="NameTableFieldDefinition" value="Fly_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6aecceff-aa43-4e80-8559-eb4af572644c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17263,6 +17267,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="28175eea-203d-4a49-9f02-5b93f7c6718b" />
         <field name="Name" type="NameTableFieldDefinition" value="GaseousForm_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7eca6d64-334a-40fc-a7ef-9d1ddb072622" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17270,6 +17275,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5fb3dffb-871d-4dcc-93ab-d1561bd3b888" />
         <field name="Name" type="NameTableFieldDefinition" value="Goodberry_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ddafbfad-c646-40d5-9929-c781b653b957" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17277,6 +17283,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b0de3771-42a1-4399-aa57-c7b34df1ba8f" />
         <field name="Name" type="NameTableFieldDefinition" value="Invisibility_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e7f4b819-118a-4c99-b0fb-d4462d680687" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17284,6 +17291,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="67d5af10-2384-4524-9c2f-7e00fd1ef7cf" />
         <field name="Name" type="NameTableFieldDefinition" value="Jump_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="99170283-5c5f-4544-8994-ab4563d865e6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17291,6 +17299,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e53f9b1c-0eb4-4fb7-9698-dd671e53b7be" />
         <field name="Name" type="NameTableFieldDefinition" value="Longstrider_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3b83e8b5-66d8-48ef-843f-e7f109036ed5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17298,6 +17307,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b502d941-a250-4ae7-ac69-2ace2c47e53e" />
         <field name="Name" type="NameTableFieldDefinition" value="MageArmor_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b2e2410f-f3bf-4698-b6d5-2a47a23e2fbd" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17305,6 +17315,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1245b3ee-87b5-4a14-ab86-9d2fc99b3974" />
         <field name="Name" type="NameTableFieldDefinition" value="MagicWeapon_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9afe4468-ad49-416c-8890-121940499ba9" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17312,6 +17323,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1e77d62a-c4ec-4fd9-8ef7-e55c5ef3eb06" />
         <field name="Name" type="NameTableFieldDefinition" value="ProtectionFromEnergy_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9f3c789c-2d22-40f4-a0ab-5f9891da79c0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17319,6 +17331,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5fc3112a-9190-4a84-a6ac-c2014472c529" />
         <field name="Name" type="NameTableFieldDefinition" value="ProtectionFromEvilAndGood_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="35f42350-2de9-456e-a036-b858537804fe" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17326,6 +17339,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2021bce2-dd98-43de-9f53-bec981fa4b2a" />
         <field name="Name" type="NameTableFieldDefinition" value="RemoveCurse_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="12e1f07e-0c58-4f9e-b7cd-cbf6019d7140" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17340,6 +17354,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e7ffc945-094d-4bb3-939a-a31f9f827632" />
         <field name="Name" type="NameTableFieldDefinition" value="VampiricTouch_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="47d33be0-a133-4561-aa83-c5aa49bda535" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17347,6 +17362,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0eb98435-ae3f-4193-8f08-7c749387bde5" />
         <field name="Name" type="NameTableFieldDefinition" value="AnimalFriendship_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f4acd9d3-d03c-42ad-834b-61fa4230502e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17354,6 +17370,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7bfdcf8a-810c-4903-ad08-404e55619401" />
         <field name="Name" type="NameTableFieldDefinition" value="BestowCurse_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="129ab8be-4040-4aab-a527-b63358e6ec30" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17361,6 +17378,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8affc6f8-e580-4249-90e9-d6f6bc8aa7d2" />
         <field name="Name" type="NameTableFieldDefinition" value="Blindness_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="77b8bc56-169c-4040-87a1-aa7e4495f52f" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17368,6 +17386,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="db21c791-35e2-40b0-a04a-a228a58d29d6" />
         <field name="Name" type="NameTableFieldDefinition" value="CharmPerson_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a6cb2d23-b5e3-493a-b69c-24ef59c1983c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17382,6 +17401,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e9e02797-72df-459c-932c-0a8a33a66449" />
         <field name="Name" type="NameTableFieldDefinition" value="CrownOfMadness_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3e7bb141-8ea4-4f25-9a73-64710c2d9fcb" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17389,6 +17409,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1b44f8b0-1c10-42f8-bdec-8161b71080cd" />
         <field name="Name" type="NameTableFieldDefinition" value="EnlargeReduce_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="6bf15c7d-b79e-483e-a810-f9acc82fdb6a" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17396,6 +17417,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6eadbc1b-ecc5-4fb7-a18c-11204abb871f" />
         <field name="Name" type="NameTableFieldDefinition" value="Haste_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1558a5f4-e1bb-43a4-b2be-c8a7b682c6cb" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17403,6 +17425,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1807e60d-c3b3-4d46-82ef-e941b3dab6ef" />
         <field name="Name" type="NameTableFieldDefinition" value="HideousLaughter_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="444ea86e-941c-49e5-a373-09eb939cb470" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17410,6 +17433,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="41ef5b20-f57d-41da-9b6d-ff24d3c30073" />
         <field name="Name" type="NameTableFieldDefinition" value="HoldPerson_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ac7c0148-08cd-4eac-8afc-b929285227ad" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17417,6 +17441,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0cc31630-513d-4de9-91d5-3cc3d55c67bc" />
         <field name="Name" type="NameTableFieldDefinition" value="Knock_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d514e28e-64d0-4f70-a8ef-31024d811e34" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17424,6 +17449,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="81c8f848-da32-492e-9522-ba44cb0991e2" />
         <field name="Name" type="NameTableFieldDefinition" value="MistyStep_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fdf25d3d-b45f-47b6-9760-d2f2f0651239" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17431,6 +17457,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3672496b-0416-4dc3-a457-51cfe3e30bb9" />
         <field name="Name" type="NameTableFieldDefinition" value="PhantasmalForce_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="8670b2c3-1dba-4cb6-98d9-8302cb2ea7a7" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17438,6 +17465,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="097382bc-02ac-4c1c-9605-6aae05253a14" />
         <field name="Name" type="NameTableFieldDefinition" value="SpeakWithDead_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d974eb02-0056-4553-92aa-fb4d05a7a021" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17445,6 +17473,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="046a4d16-11c4-4a20-b40d-ef0f16f45e76" />
         <field name="Name" type="NameTableFieldDefinition" value="AnimateDead_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ac9d57c1-17f7-4415-9321-754f9cad3cdd" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17452,6 +17481,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d58fd7ea-f286-4728-82b6-a0d1a3eab82b" />
         <field name="Name" type="NameTableFieldDefinition" value="FlamingSphere_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ab1d432b-dc1f-498f-b5ef-a10f9675975a" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17459,6 +17489,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a87e801a-2d83-40a0-887b-1a0d42833051" />
         <field name="Name" type="NameTableFieldDefinition" value="FindFamiliar_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c4010be3-d207-4f0a-bec7-f1f89e81ac71" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17466,6 +17497,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="311c8b11-6903-42d1-ad5c-1351ee1fbb79" />
         <field name="Name" type="NameTableFieldDefinition" value="GlyphOfWarding_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e7f141dd-80b0-4552-9c67-9aeeacfed85f" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17473,6 +17505,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7b0c0c68-bfb1-4ced-b4b9-d82c4f929d74" />
         <field name="Name" type="NameTableFieldDefinition" value="CloudOfDaggers_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c5c14e47-5792-4ed6-8204-3e0c70bb6c48" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17480,6 +17513,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="99c05cb4-169f-489c-a732-67be6d218d64" />
         <field name="Name" type="NameTableFieldDefinition" value="Darkness_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3b9b1321-b19a-46cd-8f11-a63535356caf" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17487,6 +17521,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0340d6e4-7547-4ebe-a290-d4ac4852fc6f" />
         <field name="Name" type="NameTableFieldDefinition" value="FogCloud_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1dae9bd4-be33-4df6-88fa-89f309a5c8a4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17494,6 +17529,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f6ac0699-2177-4832-8a42-f1fcfdb69c28" />
         <field name="Name" type="NameTableFieldDefinition" value="Grease_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="54ad03cd-561c-4a54-917f-d5293a5d63d9" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17501,6 +17537,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7242db0a-6a5d-4c4b-a90b-599130f28cee" />
         <field name="Name" type="NameTableFieldDefinition" value="HypnoticPattern_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2ed51899-8101-4622-a3d5-74c9cebf63a9" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17508,6 +17545,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="17961799-ab67-4c3f-abb5-1635ac24aa29" />
         <field name="Name" type="NameTableFieldDefinition" value="Shatter_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1783a003-8146-48a3-a077-5a5182b5b4a6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17515,6 +17553,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9f439e79-e79a-4c32-a42c-129467fec54e" />
         <field name="Name" type="NameTableFieldDefinition" value="Sleep_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="86f2c22b-228d-41d2-ae3a-18f58c568361" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17522,6 +17561,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9db1ef3b-3bf4-4061-9bf0-bd272b673e84" />
         <field name="Name" type="NameTableFieldDefinition" value="SleetStorm_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d3cb49d0-66ea-446e-8d2e-3379126af8b5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17529,6 +17569,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="bac0269d-4ada-4c0f-bde1-d93e880e19b3" />
         <field name="Name" type="NameTableFieldDefinition" value="StinkingCloud_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="27e21d2b-9bc6-45ce-9505-8fd706015cf6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17536,6 +17577,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f44f2aa9-cedc-485f-9306-64da2453203f" />
         <field name="Name" type="NameTableFieldDefinition" value="Web_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="16dbe9e9-1069-4347-ba73-098cad143970" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17543,6 +17585,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a4f94936-0d3f-4a81-a897-a2fb9295f7c3" />
         <field name="Name" type="NameTableFieldDefinition" value="FreezingSphere_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="dcec059b-f18f-4a52-bdc5-9a6c17ffac15" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17550,6 +17593,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8d1d93c2-803d-44ef-b66c-95cb8d035188" />
         <field name="Name" type="NameTableFieldDefinition" value="Invisibility_Greater_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ba21ed98-a4c5-44e9-a5a0-a6a741b475d2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17557,6 +17601,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="29fb2465-87c5-4537-aebd-559513012454" />
         <field name="Name" type="NameTableFieldDefinition" value="Stoneskin_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9a49524b-a084-46dd-9039-c52fefeee381" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17564,6 +17609,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3a3f41b0-3e11-4c41-989a-8c86bbbb21e2" />
         <field name="Name" type="NameTableFieldDefinition" value="Banishment_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="29ec8943-020d-43db-83d5-b7a474ed8e35" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17571,6 +17617,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9fcc945f-2d98-4f2a-afc7-a945c73e5729" />
         <field name="Name" type="NameTableFieldDefinition" value="Blight_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="68320e09-e17c-41d9-a15d-fdc3db107fd0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17578,6 +17625,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="42588877-9816-4ea7-afe8-14d279f4d71b" />
         <field name="Name" type="NameTableFieldDefinition" value="DominatePerson_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ad4da469-9c39-44c9-8e28-f49bf597aa43" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17585,6 +17633,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c01817de-ffda-4ec0-84cf-5b0672962936" />
         <field name="Name" type="NameTableFieldDefinition" value="Eyebite_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="88f594dc-6b99-4625-8643-9c8f245ff256" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17592,6 +17641,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="6e5135d6-7d71-474f-9c15-22dbff6f79b4" />
         <field name="Name" type="NameTableFieldDefinition" value="FleshToStone_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f912d731-104c-45b1-9649-54a0cf10d93c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17599,6 +17649,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="56fccc11-326e-44b0-8844-4164f19931d3" />
         <field name="Name" type="NameTableFieldDefinition" value="HoldMonster_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4c7929cd-4e1b-4424-bcb5-7e329cb70911" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17606,6 +17657,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a2e2e08c-0992-4430-987d-653be53297f8" />
         <field name="Name" type="NameTableFieldDefinition" value="IrresistibleDance_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a04e6b50-a822-416b-a0bc-07b597741226" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17613,6 +17665,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4b5e9481-0b13-4c11-8d4c-058293228937" />
         <field name="Name" type="NameTableFieldDefinition" value="PhantasmalKiller_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0c7b8b84-6bd4-490f-89a4-15eb1e6544bb" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17620,6 +17673,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3ceb5c3d-ac0d-45b3-b134-1c5a1e9055a6" />
         <field name="Name" type="NameTableFieldDefinition" value="PlanarBinding_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1561fa83-95d8-417e-ae7d-b30260742f50" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17627,6 +17681,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2032037d-74de-47a0-8d13-438b07116ea4" />
         <field name="Name" type="NameTableFieldDefinition" value="Polymorph_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="004b1ec8-9eb7-4519-b28e-bc4098ee8f1b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17634,6 +17689,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ea42e291-3142-4a83-8415-2815bca2d4e2" />
         <field name="Name" type="NameTableFieldDefinition" value="ResilientSphere_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4b6ea298-4ca8-4320-abc4-4684c01539ba" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17641,6 +17697,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c8a9d5ef-e6dc-4846-9038-c0d20d196e75" />
         <field name="Name" type="NameTableFieldDefinition" value="Slow_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e7203736-0306-4489-b9ad-ce225a23ccf5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17648,6 +17705,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="11d5ebcd-e40a-4561-ba2a-4a76578d8aa9" />
         <field name="Name" type="NameTableFieldDefinition" value="ConjureElemental_Container_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9194c31d-a91c-47f0-a479-5eb5e287f81e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17655,6 +17713,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="eae59bf6-438f-4eef-8431-8939a22ff259" />
         <field name="Name" type="NameTableFieldDefinition" value="ConjureElementals_Minor_Container_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="93813cbb-b0aa-47e1-8f6b-a863e76608c6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17662,6 +17721,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a50349a4-73aa-423f-96a4-275f1b9864c7" />
         <field name="Name" type="NameTableFieldDefinition" value="BlackTentacles_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="398af52e-38b6-4792-b5e1-884038c9a785" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17669,6 +17729,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="547f6e47-a5d0-4aa9-8fc0-17a3bb5931cd" />
         <field name="Name" type="NameTableFieldDefinition" value="CircleOfDeath_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1f65b3b0-039b-4089-b6fe-eca63c83e773" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17676,6 +17737,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="74d09649-457e-4bc3-89d7-05ea1df30933" />
         <field name="Name" type="NameTableFieldDefinition" value="Cloudkill_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="3fd2f608-3ef7-444b-bd94-1c46d93799e3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17683,6 +17745,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="49edb88f-8395-4740-ad3c-56a156a28cf1" />
         <field name="Name" type="NameTableFieldDefinition" value="Confusion_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4aae5e13-509f-4d71-84ab-322466a78ae7" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17690,6 +17753,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="192bf699-e89a-4f84-ad24-e1fc20db0955" />
         <field name="Name" type="NameTableFieldDefinition" value="GlobeOfInvulnerability_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="82f6dfe0-8551-4a36-8f2f-e632024a4c6a" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17697,6 +17761,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="46f6482b-5bb5-4e4f-b800-23c7ad4e7b3f" />
         <field name="Name" type="NameTableFieldDefinition" value="IceStorm_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d6cfb81e-11bb-4035-9f4e-ca0a65c8d5ab" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17704,6 +17769,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a859c967-1316-4ec8-817f-c8b6e2ee3556" />
         <field name="Name" type="NameTableFieldDefinition" value="Seeming_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="eb381ab2-8103-4add-b303-2acb022c3361" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17711,6 +17777,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="da811f44-d8f8-4a6a-b924-3d397ef6ffdb" />
         <field name="Name" type="NameTableFieldDefinition" value="HellsLash_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="efd58be3-e5f8-4476-9705-501626b7c0d5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17718,6 +17785,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c33653af-0b7e-4d75-9dca-987d7f818298" />
         <field name="Name" type="NameTableFieldDefinition" value="DeathArmor_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="255eddc5-d195-47d5-b473-7ef3bd774a44" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17725,6 +17793,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8530e882-a54e-4493-b8de-98ae2876a2de" />
         <field name="Name" type="NameTableFieldDefinition" value="FireRune_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fc9b772c-30f8-45a7-a84c-c0dfadc9a898" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17732,6 +17801,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fcdb11ac-0f3c-4f55-8a9a-b8256973110f" />
         <field name="Name" type="NameTableFieldDefinition" value="MindSpike_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="a2a75c80-56a6-4611-8c85-893b292348d3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17739,6 +17809,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5add438a-5f92-4ea5-b029-5d4780e1c597" />
         <field name="Name" type="NameTableFieldDefinition" value="SummonBeast_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="52a38b8f-fc90-41d0-9699-27da457e9976" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17746,6 +17817,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="245769ce-7cc9-42f3-b635-a77ac1b38544" />
         <field name="Name" type="NameTableFieldDefinition" value="MindWhip_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="75be8e0f-461d-4640-aa5b-211c6b51a13c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17753,6 +17825,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="bd668437-1657-4cb8-8238-4637b195add2" />
         <field name="Name" type="NameTableFieldDefinition" value="MurmursOfDoom_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b806a12d-cfa1-4186-93ca-460e63782fb0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17760,6 +17833,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d62af4cd-d40b-4a96-8e50-e8f6106f1ed9" />
         <field name="Name" type="NameTableFieldDefinition" value="SummonFey_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e945e15d-b412-414a-a7ed-2feeaecc0edd" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17767,6 +17841,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="65da94b6-9265-45bf-a779-4c479e1745df" />
         <field name="Name" type="NameTableFieldDefinition" value="TrollbloodInfusion_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="08b6917c-68ae-430b-ba21-c02c6f31d70c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17774,6 +17849,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0fad5f16-4de4-406b-814d-0ef4cf36c841" />
         <field name="Name" type="NameTableFieldDefinition" value="SpellfireStorm_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="4e072273-17d1-47d7-9cf3-5757ecc042d7" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17781,6 +17857,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="70642103-a0ee-463a-bcd5-b54df8a52c91" />
         <field name="Name" type="NameTableFieldDefinition" value="SteelWindStrike_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e2699a2b-18e1-4b78-8e56-268680319ab5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17788,6 +17865,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5108a1d1-b9db-437c-a6f2-d3d129c49c66" />
         <field name="Name" type="NameTableFieldDefinition" value="SynapticStatic_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="999c3895-792a-4a03-a9da-580c612b7975" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17795,6 +17873,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fac7132e-a81c-40e7-8078-7797ebc484fa" />
         <field name="Name" type="NameTableFieldDefinition" value="BodyWarpingOfGorgoroth_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1910fe38-02b4-49e7-b72a-904493bcc3ac" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17802,6 +17881,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="41551ebe-d1fc-4b78-8ed5-e1efbd4659a0" />
         <field name="Name" type="NameTableFieldDefinition" value="SpectralSlash_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c1f14f16-ea01-444a-a2a3-ef2f2b5bf997" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1;BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17809,6 +17889,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="58c681bf-9e49-4d0e-9758-82de5d09488b" />
         <field name="Name" type="NameTableFieldDefinition" value="ThornArmor_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1e88e145-1ca4-4595-a378-8f73e9b3233c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17816,6 +17897,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3b7d3d60-48e1-40a3-8b4a-2674d16aa7ff" />
         <field name="Name" type="NameTableFieldDefinition" value="UmbralTendril_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="934f952f-2a88-44a4-bd55-b0e0454c7f8a" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17830,6 +17912,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fce7667e-4e87-4315-a7de-25af69827b41" />
         <field name="Name" type="NameTableFieldDefinition" value="Awaken_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cdafd4a8-e184-4507-ad9b-aa0149358611" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17837,6 +17920,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9c0e8bf7-a576-4dd2-9231-737dac707eb5" />
         <field name="Name" type="NameTableFieldDefinition" value="Dream_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="428fac35-0a25-4760-923d-4c1e1a4f3a11" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17844,6 +17928,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0c7f1bc8-d2ca-4b80-9da5-36f78dab91b6" />
         <field name="Name" type="NameTableFieldDefinition" value="Enervation_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ea5d1ba3-0c89-4c81-aeb3-36a094388c30" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17851,6 +17936,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ef6e2243-a42c-45a0-8223-5a04a57b33c1" />
         <field name="Name" type="NameTableFieldDefinition" value="DragonsBreath_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="fa3ca989-39b8-4634-bc17-d261f3de22ee" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17914,6 +18000,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5d1290d2-5e2c-4238-b2c6-518a483f5ee6" />
         <field name="Name" type="NameTableFieldDefinition" value="PhantomSteed_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="04f49018-af87-4c8c-978d-89e8c3bb8a38" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17921,6 +18008,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="20de79db-2c19-4086-babc-9557c907fb90" />
         <field name="Name" type="NameTableFieldDefinition" value="Hex_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2cedc9c0-2850-46a8-aded-a471ccc828be" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17928,6 +18016,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="17a27748-cbee-4e8a-b778-0c4f377e1783" />
         <field name="Name" type="NameTableFieldDefinition" value="Contagion_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="10a659ee-a2e0-495e-88d1-94b837a7a29b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -17998,6 +18087,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f1fada26-113f-4c67-98e2-091a5e7222b9" />
         <field name="Name" type="NameTableFieldDefinition" value="Bane_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="19696062-d315-4792-9159-26d485c30991" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18005,6 +18095,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2092f997-004e-4302-b5e2-69087a4014d3" />
         <field name="Name" type="NameTableFieldDefinition" value="Bless_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ff17452a-249c-47d8-af43-9e68f2470581" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18012,6 +18103,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a86de5a0-4f52-40a0-938b-675356ef11d8" />
         <field name="Name" type="NameTableFieldDefinition" value="Command_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="305e6f89-89e5-42cf-9637-18eb4096a0bc" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18019,6 +18111,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5f6ff8af-7e38-4d5b-84fc-a908e882a90e" />
         <field name="Name" type="NameTableFieldDefinition" value="CompelledDuel_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0dc4cb23-cb7c-4a48-90c2-6c4ca552a534" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18026,6 +18119,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="05ed5f1b-4610-4861-ae96-997c4c1d21b0" />
         <field name="Name" type="NameTableFieldDefinition" value="CureWounds_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ff9c4870-30c5-4edd-bad8-7a1a1cf69b88" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18033,6 +18127,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="45d5250e-f1d6-4c4a-97e7-b1aa67c1687c" />
         <field name="Name" type="NameTableFieldDefinition" value="DissonantWhispers_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1cf0de29-06be-4164-8507-64c2a56486ec" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18040,6 +18135,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b5e3bf37-aef1-44eb-9163-8799c38e6cbd" />
         <field name="Name" type="NameTableFieldDefinition" value="HealingWord_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="15e518ae-3525-4977-818c-0510b1b7d78c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18047,6 +18143,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e7beeae0-c9ac-40e8-b0cd-854ce651da72" />
         <field name="Name" type="NameTableFieldDefinition" value="Heroism_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="84264d60-09a3-4428-bea1-dc32950cf122" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18054,6 +18151,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2a0cef3a-47d5-472e-a5fe-2075a4d5367b" />
         <field name="Name" type="NameTableFieldDefinition" value="HuntersMark_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b94d76d0-c3ed-4437-91a9-b07c17adf7d0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18061,6 +18159,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3f1adcb2-9ff0-4d4d-8cca-36996be8b808" />
         <field name="Name" type="NameTableFieldDefinition" value="InflictWounds_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e6ae8776-1a61-4e1e-b223-6f5b7cda423f" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18068,6 +18167,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d07969ce-d459-4f3a-9159-a0b526bc109b" />
         <field name="Name" type="NameTableFieldDefinition" value="Sanctuary_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f43cc666-64fb-47ec-9b1b-6fc4a7308561" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18075,6 +18175,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="d8d8b296-4b77-4ae7-8aac-ea49eb89fbac" />
         <field name="Name" type="NameTableFieldDefinition" value="ShieldOfFaith_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7717d881-5c50-47b7-ae34-44f499f9303b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18082,6 +18183,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="96acf54e-8880-465f-9aa2-28e9832dcd3e" />
         <field name="Name" type="NameTableFieldDefinition" value="Barkskin_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9f08a8cc-0ad5-4988-9002-778b679d377a" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18089,6 +18191,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2bdef250-72d0-41f2-9c7b-0668810baee8" />
         <field name="Name" type="NameTableFieldDefinition" value="EnhanceAbility_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1e9da8f7-35b5-4e67-898a-0fb126315ef3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18096,6 +18199,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="69aef379-5157-4b3b-affd-68fce27febcd" />
         <field name="Name" type="NameTableFieldDefinition" value="HeatMetal_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="034a833f-cf68-44df-af36-e91b584809b9" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18103,6 +18207,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7b92c454-313b-4154-b4aa-f45eda48ba33" />
         <field name="Name" type="NameTableFieldDefinition" value="LesserRestoration_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f569b49f-763b-48ec-afbd-9c3890341121" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18110,6 +18215,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7ee55c91-086f-4f46-bd39-880dcd5f895e" />
         <field name="Name" type="NameTableFieldDefinition" value="ProtectionFromPoison_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="682194cb-2353-4a1e-a711-c10bec8666d3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18117,6 +18223,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="617ce822-9e80-49f0-b8a0-4356799fdb3f" />
         <field name="Name" type="NameTableFieldDefinition" value="SpiritualWeapon_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9e14c2c5-3ff4-47c1-b91d-245faeeefb76" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18124,6 +18231,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c23b093a-f37c-48c4-ac72-0cd8edee8abf" />
         <field name="Name" type="NameTableFieldDefinition" value="WardingBond_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5eb55c0d-2892-4a78-bdf4-c52fb7893b81" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18131,6 +18239,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="9f61ed73-06e5-4cb4-8772-67e46e1e63eb" />
         <field name="Name" type="NameTableFieldDefinition" value="DeathWard_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0d9c64f7-ba32-4c9e-bb19-f18c4de8e077" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18138,6 +18247,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5839e4c3-bb3a-4d0f-bd53-ed75cfd4afa5" />
         <field name="Name" type="NameTableFieldDefinition" value="DominateBeast_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5332c5c5-c0fd-4549-ba10-4b13256d86e9" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18145,6 +18255,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="bd911e2a-5dd3-425e-af7e-c2443cf3ae6f" />
         <field name="Name" type="NameTableFieldDefinition" value="FreedomOfMovement_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="0c098b19-412c-4511-8d33-bf4952b0db2e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18152,6 +18263,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="1abd2e00-a9c5-4c33-9f6d-3839a2bbfb88" />
         <field name="Name" type="NameTableFieldDefinition" value="GraspingVine_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="60cf7652-bcf0-4b8d-b3ff-69aee07dc1d0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18159,6 +18271,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e4e4c763-9c59-4a25-988b-c47a8f4e30ca" />
         <field name="Name" type="NameTableFieldDefinition" value="DanseMacabre_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="54da2cf7-5162-4ded-8ee2-84d005995918" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18166,6 +18279,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="a9ecc71b-1080-4b30-b0e7-7d31db6103b4" />
         <field name="Name" type="NameTableFieldDefinition" value="GreaterRestoration_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="2b9f427e-a3d0-493d-8256-7ed588e8561c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18173,6 +18287,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="801090d0-a3e5-4f0b-a290-e469d253bfa1" />
         <field name="Name" type="NameTableFieldDefinition" value="CreateUndead_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="86e23b60-2a41-4c04-b198-1d0a198ab604" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18180,6 +18295,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="43081bec-968d-4672-b754-a4eb85f6ba8e" />
         <field name="Name" type="NameTableFieldDefinition" value="Harm_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="296e5c1d-07c1-47dd-9853-168f205993a0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18187,6 +18303,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="27ae6178-d38e-4164-9907-0c481639e390" />
         <field name="Name" type="NameTableFieldDefinition" value="Heal_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5115ea84-0b9b-4350-8e08-d15bd9e7daae" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18194,6 +18311,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f38ddfcb-75b8-4b33-bfa0-08cadef3cb13" />
         <field name="Name" type="NameTableFieldDefinition" value="PlanarAlly_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d219e073-eb66-4344-9c99-5d6e8831f03b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
         <field name="SpellContainerID" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
       </fields>
     </stat_object>
@@ -18202,6 +18320,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="f1acc2a8-a402-4dd8-91f6-d145f9a5d982" />
         <field name="Name" type="NameTableFieldDefinition" value="SummonCelestial_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="5cb2a498-4e5b-44ce-baf0-1cbcdfd6c2c3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18237,6 +18356,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="8e7a47b8-4084-4757-b667-7c98e4f4d910" />
         <field name="Name" type="NameTableFieldDefinition" value="CreateDestroyWater_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="f90b9703-19c3-4a9b-a9c0-3dacddd4004d" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18244,6 +18364,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4b6af641-8e27-4572-90d6-478218107d02" />
         <field name="Name" type="NameTableFieldDefinition" value="Entangle_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="98ee5cb4-0e14-4d8d-ba67-cd81dad05440" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18251,6 +18372,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="de6cf38a-564b-4ec3-83a6-7e8412ca3355" />
         <field name="Name" type="NameTableFieldDefinition" value="FaerieFire_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="acc6ef54-f080-41d7-a12d-ccb820856e75" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18258,6 +18380,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0089f958-3619-44c0-bbb8-dacbad800851" />
         <field name="Name" type="NameTableFieldDefinition" value="CalmEmotions_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b0c3dee8-d881-48ad-a2e5-b2093789304e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18265,6 +18388,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="94049b72-20b3-4848-9b09-6c6f72b9990d" />
         <field name="Name" type="NameTableFieldDefinition" value="Enthrall_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="65e7240d-9044-4505-a7da-fceaf4130fcb" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18272,6 +18396,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b7b031d6-59c2-4741-838b-d85b461d38cf" />
         <field name="Name" type="NameTableFieldDefinition" value="Moonbeam_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9183e261-2169-47f1-b0fc-20c7500e6ced" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18279,6 +18404,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e4046684-0c1c-4ea0-afa6-ae9e0d08b74b" />
         <field name="Name" type="NameTableFieldDefinition" value="Silence_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="258b9574-4992-4584-bcdb-b1ba8652416b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18286,6 +18412,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2c87934d-55c5-480a-8656-e18771096a5c" />
         <field name="Name" type="NameTableFieldDefinition" value="SpikeGrowth_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="40072364-5f8b-4bc8-ac02-1e7d9f8bd676" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18293,6 +18420,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4ad00ba7-b55b-40f0-953f-918ff70a5ac2" />
         <field name="Name" type="NameTableFieldDefinition" value="CallLightning_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="d616d583-5707-4c47-baa7-09808faa5648" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18300,6 +18428,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b36e04cd-6b2c-4335-b986-99ccf0828b0b" />
         <field name="Name" type="NameTableFieldDefinition" value="Daylight_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="bfb507e5-e6d7-4b08-ae26-95e8062a69ec" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18307,6 +18436,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ffc80efb-33e1-4a5f-9a45-a8610fb844db" />
         <field name="Name" type="NameTableFieldDefinition" value="ElementalWeapon_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ae0a0ae1-1046-4726-871a-d57de3878922" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18314,6 +18444,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="955c90f6-43df-4c1a-b7bd-4fd7fe0a2e36" />
         <field name="Name" type="NameTableFieldDefinition" value="HungerOfHadar_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cfdb10f2-ed14-40b9-af77-f7dbaa6997a1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18321,6 +18452,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="845f2637-56eb-4348-8885-9b4516de6455" />
         <field name="Name" type="NameTableFieldDefinition" value="PlantGrowth_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="cd07e548-ad04-40fe-8db3-fb125f469a8d" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18328,6 +18460,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="90572026-424e-4a48-8993-f2113995be99" />
         <field name="Name" type="NameTableFieldDefinition" value="ConjureWoodlandBeings_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e10e35c0-c24b-4386-a4fa-4ba4ce406451" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18335,6 +18468,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b296f3e2-9e3d-4be3-91f5-544bbc53f418" />
         <field name="Name" type="NameTableFieldDefinition" value="GuardianOfFaith_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="bd350a2d-27ed-448c-a18e-30948f852708" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18342,6 +18476,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="db0f3144-7a49-4cbc-aae2-26f626b04ae4" />
         <field name="Name" type="NameTableFieldDefinition" value="FlameStrike_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ff736f9d-3563-4d2f-a343-16a3cf33230c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18349,6 +18484,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="92f7b691-03b0-4317-859c-9ecd793fe770" />
         <field name="Name" type="NameTableFieldDefinition" value="HolyWeapon_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="60d25c40-6e92-454f-8dc5-432338068157" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18356,6 +18492,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b372adf9-8e62-4821-b00d-8f1af098e674" />
         <field name="Name" type="NameTableFieldDefinition" value="InsectPlague_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="ea4e8e48-47c2-4811-9676-14523ec3fa68" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18391,6 +18528,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e1e8d37b-5b0a-4abd-9db2-d214edcb13ac" />
         <field name="Name" type="NameTableFieldDefinition" value="MassCureWounds_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="562828c4-944f-45da-ad52-ab7f9e7779dd" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18398,6 +18536,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fea02dcd-fbc5-4576-9f36-ec6d6e14929f" />
         <field name="Name" type="NameTableFieldDefinition" value="Dawn_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="7621055d-6742-43a6-b14f-55cb7e445f99" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18412,6 +18551,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="09326c59-4ee5-4d61-9735-e7b0b4639a15" />
         <field name="Name" type="NameTableFieldDefinition" value="Aid_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="9b7a62d9-7bbd-4f53-a59f-82a29c828324" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18419,6 +18559,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="71d4b625-b77f-418b-9455-1786ea695773" />
         <field name="Name" type="NameTableFieldDefinition" value="SummonDragon_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c9806f8e-3e92-4b30-9df8-a88d69452b91" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18426,6 +18567,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="69c3f5d3-f2c8-492a-a14e-d9c80bf4a21c" />
         <field name="Name" type="NameTableFieldDefinition" value="CharmMonster_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="1bfa896c-6ec6-4552-9b81-cecfec202ecf" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18433,6 +18575,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4aee851c-52b3-44b6-99f6-6f4d070e97c7" />
         <field name="Name" type="NameTableFieldDefinition" value="ArcaneEye_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="03842bdc-cc10-4633-a283-320e5cf80179" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18440,6 +18583,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="3668a54d-caa2-499e-be76-f088f7d8a0e7" />
         <field name="Name" type="NameTableFieldDefinition" value="SummonUndead_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c799a80b-b2f9-417d-a697-ae474c776c51" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18447,6 +18591,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="e4782db1-2c6a-409c-aae3-2f809be3fdcb" />
         <field name="Name" type="NameTableFieldDefinition" value="SummonAberration_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="b4d76405-b4bf-4eb6-a133-6a7b70f42408" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18454,6 +18599,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="2b350c65-6e3d-412d-9753-8116da6dbcf3" />
         <field name="Name" type="NameTableFieldDefinition" value="SummonElemental_spellscroll" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="16d197f8-ac81-4763-9eb3-6c6efe183a3c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
