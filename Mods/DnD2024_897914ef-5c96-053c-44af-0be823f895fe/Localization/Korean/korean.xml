@@ -6885,6 +6885,33 @@
   <content contentuid="hbbb9b3a4gf691g8a63gf504g010c3e895fc8" version="1">언데드의 강건함</content>
   <content contentuid="h170846b3gb4d4g669fg57f7g62ab5c0a6f61" version="1">언데드를 생성하거나 소환하는 사령술 주문을 시전할 때마다, 그 언데드의 생명력 최대치와 현재 생명력이 지능 보정치에 위저드 레벨의 절반(내림)을 더한 만큼 증가합니다.</content>
   <content contentuid="h3c109b51g5559g4c0bg8ae7gda1bbcf0bac0" version="1">언데드 수확</content>
+  <content contentuid="h328fb6e1g7ecbg1657g5d39g9697b0541bf5" version="1">전투 방식: 드루이드 전사</content>
+  <content contentuid="h6fbb5729g13acg1924gf77ega081e8fbb609" version="1">원하는 드루이드 소마법 두 개를 배웁니다. 선택한 소마법은 자신에게 레인저 주문으로 취급되며, 이 소마법의 주문 시전 능력치는 지혜입니다.</content>
+  <content contentuid="h2b5d6d8ag0530g8cc9ga814gf0b690c0447f" version="1">전투 방식: 축복받은 전사</content>
+  <content contentuid="hfce99c3bg8cfcg77fcg009fg49a0939c880a" version="1">원하는 클레릭 소마법 두 개를 배웁니다. 선택한 소마법은 자신에게 팔라딘 주문으로 취급되며, 이 소마법의 주문 시전 능력치는 매력입니다.</content>
+  <content contentuid="h493dae03gf9d8g4bc6gba84g01c7e8355ac3" version="1">드루이드 전사: 소마법</content>
+  <content contentuid="h9d44a203g4f24g48e6gaee6g05715d7fa8e7" version="1">드루이드 전사: 선택한 소마법을 익혔습니다.</content>
+  <content contentuid="h7ff3bb28ge2ffg4eddg88e6g02cd38c710da" version="1">드루이드 전사: 소마법 두 개를 익혔습니다. 좋은 선택입니다.</content>
+  <content contentuid="h01a07b7cgbebbg480dg9b98g39a32ffd5c53" version="1">축복받은 전사: 소마법</content>
+  <content contentuid="h9d1c43dbga6c5g4b90gabccg5498bd966185" version="1">축복받은 전사: 선택한 소마법을 익혔습니다.</content>
+  <content contentuid="h51fde9e9g9a2dg4360ga96ege0470008370f" version="1">축복받은 전사: 소마법 두 개를 익혔습니다. 좋은 선택입니다.</content>
+  <content contentuid="h44dbb66dgd470g6c38gca18gf0222f0eedba" version="1">가속 행동력</content>
+  <content contentuid="h188a058cgcea3g60b0g633fg27cdd4e0978e" version="1">이 행동으로는 공격(공격 1회만), 달리기, 철수, 은신 행동만 취할 수 있습니다.</content>
+  <content contentuid="h40329cb3g3ac6gd64bg1f8fge3f1c9a728c2" version="1">가속 행동</content>
+  <content contentuid="h1be7bc6cg3182g40a8g82bag8871597288ab" version="1">사거리 내에 보이는 동의한 크리처 하나를 선택합니다. 주문이 끝날 때까지 대상의 이동 속도가 두 배가 되고, 방어도에 +2 보너스를 받으며, 민첩 내성 굴림에 유리 보정을 받고, 자신의 턴마다 추가 행동을 하나 얻습니다. 이 행동으로는 공격(공격 1회만), 달리기, 철수, 은신, 활용 행동만 취할 수 있습니다.
+
+주문이 끝나면 무기력이 덮쳐 와, 대상은 다음 자신의 턴이 끝날 때까지 행동불능 상태가 되고 이동 속도가 0이 됩니다.</content>
+  <content contentuid="hd4827a3agb1afg4c6fgb836g454dc636da9d" version="1">주문이 끝날 때까지 대상의 이동 속도가 두 배가 되고, 방어도에 +2 보너스를 받으며, 민첩 내성 굴림에 유리 보정을 받고, 자신의 턴마다 추가 행동을 하나 얻습니다. 이 행동으로는 공격(공격 1회만), 달리기, 철수, 은신, 활용 행동만 취할 수 있습니다.
+
+주문이 끝나면 무기력이 덮쳐 와, 대상은 다음 자신의 턴이 끝날 때까지 행동불능 상태가 되고 이동 속도가 0이 됩니다.</content>
+  <content contentuid="h26978512g7629g48e9g92fcg8333030f500c" version="1">영향을 받은 대상은 &lt;LSTag Tooltip="ArmourClass"&gt;방어도&lt;/LSTag&gt;에 +2 보너스를 받고, 민첩 &lt;LSTag Tooltip="SavingThrow"&gt;내성 굴림&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Advantage"&gt;유리 보정&lt;/LSTag&gt;을 받으며, &lt;LSTag Tooltip="MovementSpeed"&gt;이동 속도&lt;/LSTag&gt;가 두 배로 증가하고, 턴마다 한 번 추가 &lt;LSTag Tooltip="Action"&gt;행동&lt;/LSTag&gt;을 취할 수 있습니다. 이 행동으로는 공격(공격 1회만), 달리기, 철수, 은신 행동만 취할 수 있습니다.</content>
+  <content contentuid="ha7d48868g48d6g4fb5gb078gfa458e29df3a" version="1">영향을 받은 대상은 &lt;LSTag Tooltip="ArmourClass"&gt;방어도&lt;/LSTag&gt;에 +2 보너스를 받고, 민첩 &lt;LSTag Tooltip="SavingThrow"&gt;내성 굴림&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Advantage"&gt;유리 보정&lt;/LSTag&gt;을 받으며, &lt;LSTag Tooltip="MovementSpeed"&gt;이동 속도&lt;/LSTag&gt;가 두 배로 증가하고, 턴마다 한 번 추가 행동을 취할 수 있습니다. 이 행동으로는 공격(공격 1회만), 달리기, 철수, 은신 행동만 취할 수 있습니다.&lt;br&gt;&lt;br&gt;&lt;LSTag Type="Status" Tooltip="SLOW"&gt;둔화&lt;/LSTag&gt;되면 이 상태가 종료됩니다.</content>
+  <content contentuid="h95ec7da0gf909g462agba7eg19088245e6ef" version="1">주문을 시전하는 중인 크리처를 방해하려 시도합니다. 그 크리처는 건강 내성 굴림을 합니다. 실패하면 주문은 아무 효과 없이 흩어지며, 그 주문을 시전하는 데 사용한 행동, 보조 행동, 대응은 낭비됩니다. 그 주문을 주문 슬롯으로 시전했다면 그 슬롯도 낭비됩니다.</content>
+  <content contentuid="h0888005ag8b55g44cbg8bcfg323c786b6c32" version="1">주문 시전을 저지합니다. 그 크리처는 건강 내성 굴림을 합니다. 실패하면 주문은 아무 효과 없이 흩어지며, 그 주문을 시전하는 데 사용한 행동, 보조 행동, 대응은 낭비됩니다. 그 주문을 주문 슬롯으로 시전했다면 그 슬롯도 낭비됩니다.</content>
+  <content contentuid="h50c72f8dg99f9ge6cdg0ceegd20d554e3aaf" version="1">자신으로부터 [1] 이내의 크리처가 철수 행동을 취하거나 자신이 아닌 대상을 공격으로 적중시킨 직후, 그 크리처에게 허점 공격을 가할 수 있습니다.</content>
+  <content contentuid="h66f57535g5983g0759gbf5cg97ae51f83d6f" version="1">파수꾼(공격)</content>
+  <content contentuid="h5ead652fgb77fgb355gd4b6g83cdb204b430" version="1">파수꾼(철수)</content>
+  <content contentuid="h8bbe62c2gd6acg4d8dg8cf1g973b592b6ec6" version="1">자신으로부터 [1] 이내의 크리처가 철수 행동을 취하면, 그 크리처에게 허점 공격을 가할 수 있습니다.</content>
   <content contentuid="h6389b1f8gf9b2g4b1fg95ecgbc55399bd0ef" version="1">태고의 야성</content>
   <content contentuid="h9b72e2dfgf1abg484cg8976gdd3fb95cb68d" version="1">태고의 마법이 이빨이나 손톱을 부식성 무기로 날카롭게 벼립니다. [2] 이내의 크리처 하나에게 근접 주문 공격을 가합니다. 명중하면, 대상은 [1]를 입습니다. 공격을 마치면 이빨이나 손톱은 원래대로 돌아옵니다.</content>
   <content contentuid="haf437cb1gf69dg41c5g849fg716d5c9b10a5" version="1">마법 입문: 태고의 야성</content>
@@ -6900,6 +6927,42 @@
   <content contentuid="h599ec81ag2a69g41bdg9eaeg8828326642e6" version="1">자연 무기: 타격</content>
   <content contentuid="hc5848f45g1e52g4f63g9144g19d3c751ed14" version="1">자기 변환 두루마리</content>
   <content contentuid="hfb7dc972g0597g4203ga7f9gf00e10f145f4" version="1">사용 가능한 직업: 아티피서, 소서러, 위저드</content>
+  <content contentuid="h47f57d37g60a1g7058g9460g8406ead6821b" version="1">3레벨: 변환술사의 돌</content>
+  <content contentuid="h7d075ee4g024ag9653g9e9fg8639dcbdfaf0" version="1">긴 휴식을 마치면, 이 특성을 다시 사용할 때까지 지속되는 마법의 돌을 만들 수 있습니다. 이 돌은 초소형 물체이며, 위저드 주문의 주문 시전 매개체로 사용할 수 있습니다. 돌을 소지한 크리처는 건강 내성 굴림에 숙련을 얻고, 돌을 만들 때 자신이 고른 다음 이점 중 하나를 얻습니다. 주문 슬롯을 사용해 변환술 주문을 시전하면 돌의 이점을 바꿀 수 있습니다.
+
+암시야. 소지자는 [1]의 암시야를 얻거나, 이미 암시야가 있다면 그 범위가 [1]만큼 증가합니다.
+
+저항. 소지자는 산성, 냉기, 화염, 번개, 독, 천둥 피해 중 하나에 저항을 얻습니다(이 이점을 고를 때마다 선택).
+
+속도. 소지자의 이동 속도가 [2]만큼 증가합니다.</content>
+  <content contentuid="h6e22118ag6a4fga46eg47b6g391b85128a7f" version="1">3레벨: 경이로운 변형</content>
+  <content contentuid="h1610492bg081fg2025g5ba3g7e3850173f85" version="1">자기 변환 주문이 항상 준비되어 있으며, 주문 슬롯을 소모하지 않고 한 번 시전할 수 있습니다. 긴 휴식을 마치면 이 방식으로 다시 시전할 수 있습니다.
+
+자기 변환의 효과를 받는 동안, 각 선택지마다 추가 이점을 얻습니다.
+
+외형 변경. 매력 기반 기만 판정에 유리 보정을 받습니다.
+
+천연 무기. 새로 자라난 부위의 피해가 그 부위에 해당하는 유형의 2d6 피해로 증가합니다. 또한 집중 유지를 위한 건강 내성 굴림에 유리 보정을 받습니다.</content>
+  <content contentuid="hb8ae5762g6803g76f5g55ccg1109ad8941db" version="1">6레벨: 강화 변환술</content>
+  <content contentuid="hb2019138ge371ga0e0g2a82g1670d92db796" version="1">주문 슬롯을 사용해 비행이나 가속 같은 변환술 주문을 시전하면, 대상을 하나 더 지정할 수 있습니다.
+
+이 특성은 지능 보정치와 같은 횟수만큼 사용할 수 있으며(최소 1회), 긴 휴식을 마치면 소모한 모든 횟수를 회복합니다.</content>
+  <content contentuid="h8adaf8f4g1cb0g4570gbf36g3c8aab4a6d8b" version="1">강화 변환술</content>
+  <content contentuid="h8df15b7cgb624g2431g73a8gbc18e1d53308" version="1">10레벨: 강력한 돌</content>
+  <content contentuid="h90db5de8g507dg97f0ga661gbd1407fa3923" version="2">변환술사의 돌이 더욱 다재다능해집니다. 변환술사의 돌을 만들 때 이점을 최대 두 개까지 고를 수 있습니다. 저항을 제외한 각 선택지는 한 번만 고를 수 있으며, 저항을 두 번 고르면 서로 다른 피해 유형을 골라야 합니다. 주문 슬롯을 사용해 변환술 주문을 시전하면 두 이점 중 하나 또는 둘 다를 바꿀 수 있습니다.</content>
+  <content contentuid="h49f831e1g02adg05a1gf137gfb2069ea609d" version="1">10레벨: 변신자</content>
+  <content contentuid="hcb811336g16d2g1084g13bcgff0072871faf" version="2">변신 주문이 항상 준비되어 있으며, 주문 슬롯을 소모하지 않고 한 번 시전할 수 있습니다. 긴 휴식을 마치면 이 방식으로 다시 시전할 수 있습니다.</content>
+  <content contentuid="h5a951ce1ge723g15ccg495fgdd9ba9973390" version="1">변환술사</content>
+  <content contentuid="h1c629e3dge0cag17c6gaec3gad20de81b0e6" version="1">당신은 에너지와 물질을 바꾸는 주문을 연구합니다. 당신에게 세상은 얼마든지 바뀔 수 있는 것입니다. 마법을 사용해, 당신은 현실이라는 대장간의 대장장이가 됩니다.
+
+어떤 변환술사는 땜장이이자 장난꾼이며, 또 어떤 변환술사는 세계를 만들고 파괴할 힘을 추구합니다.</content>
+  <content contentuid="h2ad3932cg7fb0g064cgd312g95bb61c0f96c" version="1">변환술사의 돌: 독 저항</content>
+  <content contentuid="hd05a669fg8360ga447geeeag151194f63376" version="1">소유자에게 독 피해 &lt;LSTag Tooltip="Resistant"&gt;저항&lt;/LSTag&gt;을 부여하는 돌을 생성합니다.</content>
+  <content contentuid="hd8b3b4dfge557g7029g2061g168e3997a3bb" version="2">소유자에게 독 피해 &lt;LSTag Tooltip="Resistant"&gt;저항&lt;/LSTag&gt;을 부여합니다.</content>
+  <content contentuid="h7e83f37bgee38gec21ga5d2gcf515a7579b4" version="1">강력한 돌</content>
+  <content contentuid="h29de31f3g6e31g1c32gb243ga6863b642381" version="1">변환술사의 돌: 독 저항</content>
+  <content contentuid="h78931074gd366gca5egbf41gd4fedf72d4dc" version="1">영향을 받은 대상은 변환술사의 돌을 지니고 있으면 독 피해에 &lt;LSTag Tooltip="Resistant"&gt;저항&lt;/LSTag&gt;을 얻습니다.</content>
+  <content contentuid="h180fc62dg8276g75ecge1aagc3ddbdb4d61f" version="2">지능 포식자</content>
   <content contentuid="he6c000fegdd64g47d9g9f97g984c8006d491" version="1">이형체 소환</content>
   <content contentuid="h22ccdab8gd95dg4d9cgb655ga6e4c50127cd" version="1">이형체의 영혼을 지능 포식자, 스펙테이터, 마인드 플레이어 중 하나의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 이형체 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다.</content>
   <content contentuid="h8d6eb7bag3282g4bd6g87degafa5f5bfcaff" version="1">이형체 소환: 지능 포식자</content>
