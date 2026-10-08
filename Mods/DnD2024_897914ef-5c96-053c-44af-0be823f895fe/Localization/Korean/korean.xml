@@ -6090,7 +6090,7 @@
   <content contentuid="hf4556a98g94c2g16ddg4fe9g5fa3c35a3652" version="1">근접 공격으로 크리처에게 명중시켰을 때, &lt;LSTag Type="ActionResource" Tooltip="ChannelDivinity"&gt;신성한 권능&lt;/LSTag&gt;을 사용하여 추가로 [1]를 줄 수 있습니다.</content>
   <content contentuid="heabce0ebge4c8g32e1gec9dgfa7d3983180d" version="4">천상의 영혼</content>
   <content contentuid="ha1f46ec6g425egaef3g8a83g4a20db310dd5" version="1">천족 소환</content>
-  <content contentuid="h102e9b14g2c12gd739gf2fegff7c28ae9efe" version="1">천상의 영혼을 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 천사와 같은 모습으로 나타나며, 천상의 영혼 스탯 블록을 사용합니다.</content>
+  <content contentuid="h102e9b14g2c12gd739gf2fegff7c28ae9efe" version="1">천상의 영혼을 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 천사와 같은 모습으로 나타나며, 천상의 영혼 스탯 블록을 사용합니다. 천상의 영혼은 &lt;LSTag Type="Spell" Tooltip="Projectile_Fly_Deva"&gt;비행&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_SummonCelestial_BolsteringTouch"&gt;북돋는 손길&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_SummonCelestial_HealingTouch"&gt;치유의 손길&lt;/LSTag&gt;을 사용할 수 있습니다.</content>
   <content contentuid="h1dd25b2fg2ccbg77b0gd934gec74fca412d4" version="2">주문 명중 보정치</content>
   <content contentuid="hb2160876g4fc0g0ea9g2508g80fd952f29f7" version="1">북돋는 손길</content>
   <content contentuid="h55ff7bfdg1e2bg7f91gd91bge020cba01b4d" version="1">1d10의 임시 생명력을 얻습니다.</content>
@@ -6468,7 +6468,7 @@
   <content contentuid="h20a9acf5g3464g7749g7665g0da6684092ca" version="1">&lt;LSTag Type="Spell" Tooltip="Target_ConjureElementals_Minor_Container"&gt;하급 정령 창조&lt;/LSTag&gt;의 방사에 갇혔습니다. 이 크리처가 있는 지면은 험지가 되며, 시전자의 공격에 추가 피해를 입습니다.</content>
   <content contentuid="h3fc5f406g8b36gf617gf0f4ga02e99f55658" version="2">드래곤의 영혼</content>
   <content contentuid="h8925bf96gcc33g196cg6b28ga8e21a86bf29" version="1">드래곤 소환</content>
-  <content contentuid="h9d6713c3gcb8cgea0fg44deg1925c2bcb55d" version="1">드래곤의 영혼을 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 드래곤의 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다.</content>
+  <content contentuid="h9d6713c3gcb8cgea0fg44deg1925c2bcb55d" version="1">드래곤의 영혼을 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 드래곤의 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다. 드래곤의 영혼은 &lt;LSTag Type="Spell" Tooltip="Projectile_Fly"&gt;비행&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Target_Slam_SummonDragon"&gt;찢기&lt;/LSTag&gt;, &lt;LSTag Type="Spell" Tooltip="Projectile_BreathWeapon_SummonDragon"&gt;화염 숨결&lt;/LSTag&gt;을 사용할 수 있습니다.</content>
   <content contentuid="h88c9e233gb77ag41d0gb825g12501107b4ba" version="1">드래곤 소환 두루마리</content>
   <content contentuid="h510fe56fgce89g4c30g9446g93901bf4db4c" version="1">사용 가능한 직업: 위저드</content>
   <content contentuid="h8933e173gb36agbf40ge97fg7e76f31c0d5c" version="1">매우 끔찍한 악몽에 시달리고 있습니다.&lt;br&gt;&lt;br&gt;영향을 받은 대상은 턴마다 [1]를 받고, &lt;LSTag Tooltip="AbilityCheck"&gt;능력 판정&lt;/LSTag&gt;과 &lt;LSTag Tooltip="AttackRoll"&gt;명중 굴림&lt;/LSTag&gt;에 &lt;LSTag Tooltip="Disadvantage"&gt;불리 보정&lt;/LSTag&gt;을 받습니다.</content>
@@ -6844,7 +6844,7 @@
   <content contentuid="h96104d28ga043g4b42g82fdg4caf05cdbf59" version="1">썩은 발톱</content>
   <content contentuid="hc0aa1705g2ac9g4efag9b98g22f7c7183982" version="1">썩은 발톱을 휘두릅니다. 대상이 &lt;LSTag Type="Status" Tooltip="POISONED"&gt;중독&lt;/LSTag&gt; 상태라면, 다음 자신의 턴이 끝날 때까지 &lt;LSTag Type="Status" Tooltip="PARALYZED_ENDTURN"&gt;마비&lt;/LSTag&gt; 상태가 됩니다.</content>
   <content contentuid="h46a2c572g3f65g4b70gab69ga585d08c144a" version="1">언데드 소환: 구울</content>
-  <content contentuid="h52325b76g2456g49ccg9c84gd07158a7bbb6" version="1">언데드의 영혼을 구울의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 언데드 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다.</content>
+  <content contentuid="h52325b76g2456g49ccg9c84gd07158a7bbb6" version="1">언데드의 영혼을 구울의 모습으로 소환합니다. 사거리 내에서 보이는 비어 있는 공간에 나타나며, 언데드 영혼 스탯 블록을 사용합니다. 이 크리처는 생명력이 0이 되거나 주문이 종료되면 사라집니다. 구울은 &lt;LSTag Type="Spell" Tooltip="Target_RottingClaw"&gt;썩은 발톱&lt;/LSTag&gt;을 사용할 수 있습니다.</content>
   <content contentuid="h7a7ed0a2gc4b9g419agaf31g6749c85a8488" version="1">언데드 소환 두루마리</content>
   <content contentuid="h6324a49dg08edg44bdg9609gc76ad33d04b1" version="1">사용 가능한 직업: 워락, 위저드</content>
   <content contentuid="h2c2c5420g1f96gc750g01e1g7189f0ca8722" version="1">곪아 터진 오라</content>
