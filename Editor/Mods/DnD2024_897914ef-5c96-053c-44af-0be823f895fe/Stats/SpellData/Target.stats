@@ -2760,6 +2760,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);8d8;4d8" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Lightning)" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2772,6 +2773,7 @@
         <field name="ContainerSpells" type="StringTableFieldDefinition" value="Target_ConjureElemental_Elemental_Air_6;Target_ConjureElemental_Elemental_Earth_6;Target_ConjureElemental_Elemental_Fire_6;Target_ConjureElemental_Elemental_Water_6;" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5df075fbg7410g4249g9c50g1407d54da3fe" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(1.5);9d8;5d8" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2788,6 +2790,7 @@
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Lightning)" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2819,6 +2822,7 @@
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Thunder)" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2850,6 +2854,7 @@
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Fire)" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -2881,6 +2886,7 @@
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Dexterity" />
         <field name="TooltipUpcastDescription" type="GuidObjectTableFieldDefinition" value="66388a6f-44dd-4c9f-a9e7-910c50e70755" />
         <field name="TooltipUpcastDescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Cold)" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="3" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
