@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "../bg3play"
+		},
+		{
+			"path": "../DDB_SOURCES"
 		}
 	],
 	"settings": {}
