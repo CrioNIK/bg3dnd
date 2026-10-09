@@ -372,7 +372,7 @@ Zwiększona wytrzymałość. Możesz dodawać swój modyfikator Mądrości do rz
 
 Ponadto natychmiast po uzyskaniu trafienia krytycznego możesz przesunąć się o dystans równy połowie swojej szybkości bez prowokowania ataków okazyjnych.</content>
   <content contentuid="h070ecbffg0669ge021gd9f2gf9d31bf77f88" version="1">Niezwykły atleta</content>
-  <content contentuid="h20fe10e3g6a5cg1394g9602g64f7640b6f6d" version="1">Natychmiast po otrzymaniu Trafienia Krytycznego możesz poruszyć się maksymalnie o połowę, nie prowokując ataków okazyjnych.</content>
+  <content contentuid="h20fe10e3g6a5cg1394g9602g64f7640b6f6d" version="1">Natychmiast po uzyskaniu trafienia krytycznego możesz przemieścić się na odległość równą maksymalnie połowie swojej szybkości, nie prowokując ataków okazyjnych.</content>
   <content contentuid="hdc98f803g35c5gf1e3g8979g2a5e77165301" version="1">Poziom 10: Heroiczny wojownik</content>
   <content contentuid="ha8f342f0g6dafg2cb0g07ffg5de2b08f710e" version="1">Dreszcz bitwy popycha cię ku zwycięstwu. Podczas walki możesz dać sobie &lt;LSTag Type="Status" Tooltip="HEROIC_INSPIRATION_TEMP"&gt;heroiczną inspirację&lt;/LSTag&gt; za każdym razem, gdy rozpoczynasz swoją turę bez niej.</content>
   <content contentuid="h6ae0967eg345cg0ef5g653cg5c51675a3b5a" version="1">Bohaterski wojownik: przerzuć kość atakującego</content>
@@ -782,9 +782,9 @@ Jeśli efekt Chytrego uderzenia wymaga rzutu obronnego, jego ST wynosi 8 + twój
   <content contentuid="h14896c14gd1f3gead8g4a00g37ead89aa9ae" version="1">Chytre uderzenie: Podcięcie</content>
   <content contentuid="h4642fa9fg99f2g37fcg659cg1f43f42e73ee" version="1">Jeśli cel ma rozmiar duży lub mniejszy, wykonuje rzut obronny na Zręczność. Przy niepowodzeniu otrzymuje stan powalenia.</content>
   <content contentuid="hceff31b1g6ebfg0d4cg2043g91b11847623c" version="1">Chytre uderzenie: Odwrót</content>
-  <content contentuid="h490512eagca8bg6208g723cg27ee0882906d" version="1">Natychmiast po ataku zwiększasz szybkość o połowę, nie prowokując ataków okazyjnych.</content>
+  <content contentuid="h490512eagca8bg6208g723cg27ee0882906d" version="1">Natychmiast po ataku przemieszczasz się na odległość równą maksymalnie połowie swojej szybkości, nie prowokując ataków okazyjnych.</content>
   <content contentuid="he11ccf69g4145g3cbfg6094gf14d8136626c" version="1">Odwrót</content>
-  <content contentuid="h1ef2156age1a2ge866g5ac5g338e62d3da81" version="1">Natychmiast po ataku zwiększasz szybkość o połowę, nie prowokując ataków okazyjnych.</content>
+  <content contentuid="h1ef2156age1a2ge866g5ac5g338e62d3da81" version="1">Natychmiast po ataku przemieszczasz się na odległość równą maksymalnie połowie swojej szybkości, nie prowokując ataków okazyjnych.</content>
   <content contentuid="h3952e016gc549gd27fgc618ga417ad5120c1" version="1">Warunek: Czarownik poziomu 1 lub wyższego</content>
   <content contentuid="he0d8fa8bgadb5g8c7fga076gbec7aa4441cb" version="1">Warunek: Czarownik poziomu 1 lub wyższego</content>
   <content contentuid="h30fd69d5ge1a6gda26g435dgb055ede6ab30" version="1">Warunek: Czarownik poziomu 1 lub wyższego</content>
@@ -1169,7 +1169,7 @@ Rzucanie czarów w zwarciu. Obecność wroga w promieniu 1,5 m nie nakłada utru
 
 Zwiększony zasięg. Zasięg twoich czarów zwiększa się o 50%.</content>
   <content contentuid="h83a93112gc496g26f6g27f3ge5d63171ca0b" version="2">Atut: Mistyczny strzelec (dystansowy)</content>
-  <content contentuid="h14ab49cfg831ag83b9g1ddcgbadda155b2c0" version="2">Osłona obejścia. Twoje ataki czarami dystansowymi nie podlegają karom na mocy &lt;LSTag Tooltip="HighGroundRules"&gt;Zasady Wysokiego Poziomu&lt;/LSTag&gt;.
+  <content contentuid="h14ab49cfg831ag83b9g1ddcgbadda155b2c0" version="2">Omijanie osłony. Twoje dystansowe ataki czarami nie otrzymują kar wynikających z &lt;LSTag Tooltip="HighGroundRules"&gt;zasad przewagi wysokości&lt;/LSTag&gt;.
 
 Zwiększony zasięg. Zwiększa zasięg czarów o 50%.</content>
   <content contentuid="hdfe62e0fgf3abgc70ag0019g4af2fcfb5109" version="1">Mag bitewny</content>
@@ -1272,7 +1272,7 @@ Bardowskie obrażenia. W testach ataku bez broni możesz używać Zręczności z
   <content contentuid="h16eb0ddag455fgabbag65b4g954af483e6b1" version="1">Zwinne uderzenia</content>
   <content contentuid="h3838231fg4eb9g1855g186cg2e9b9e1e45e6" version="1">Gdy korzystasz z bardowskiej inspiracji w ramach akcji, akcji dodatkowej albo reakcji, możesz w jej ramach wykonać jeden atak bez broni.</content>
   <content contentuid="h02d0f03dgbaeegc343ge0f3gc9b59d3458f4" version="1">Inspirujący ruch</content>
-  <content contentuid="hc0c004d2g6411g3244g9901gb849e25f434f" version="4">Jeden wybrany przez ciebie sojusznik w promieniu [1] od ciebie może poruszać się z prędkością o połowę większą. Ten ruch nie prowokuje ataków okazyjnych.</content>
+  <content contentuid="hc0c004d2g6411g3244g9901gb849e25f434f" version="4">Jeden wybrany przez ciebie sojusznik w promieniu [1] od ciebie może przemieścić się na odległość równą maksymalnie połowie swojej szybkości. Ten ruch nie prowokuje ataków okazyjnych.</content>
   <content contentuid="h5c2fd98dg730eg0f81g45d9g556839f62f6a" version="1">Inspirujący ruch</content>
   <content contentuid="h40405809g5c4fgdea3g37aag18b85b437b5f" version="1">Możesz także poruszać się maksymalnie o połowę z ich Prędkości. Ten ruch nie prowokuje ataków okazyjnych.</content>
   <content contentuid="hdd7ddd39gf7b8g5306g8adcg34646c6a8890" version="1">Synchroniczna praca nóg</content>
@@ -1675,7 +1675,7 @@ Wzmocnione trafienie krytyczne. Gdy uzyskasz trafienie krytyczne zadające istoc
 
 Wzmocnione trafienie krytyczne. Gdy uzyskasz trafienie krytyczne zadające istocie obrażenia cięte, wykonuje ona z utrudnieniem testy ataku do początku twojej następnej tury.</content>
   <content contentuid="h2bcebb1fgce9aga6edgfb96gb1208491f0c1" version="1">Atut: Kawalerzysta</content>
-  <content contentuid="h3242d16eg8787g1d4cg8a1ag1ed7c22edd47" version="2">Gdy dosiadasz wierzchowca, masz ułatwienie w testach ataku wręcz przeciwko istotom o małym lub mniejszym rozmiarze. Ponadto, gdy jesteś na wierzchowcu, nie możesz z niego zsiąść ani przewrócić się na ziemię w wyniku otrzymania obrażeń.</content>
+  <content contentuid="h3242d16eg8787g1d4cg8a1ag1ed7c22edd47" version="2">Gdy dosiadasz wierzchowca, masz ułatwienie w testach ataku wręcz przeciwko istotom o małym lub mniejszym rozmiarze. Ponadto, gdy jesteś na wierzchowcu, otrzymanie obrażeń nie może zrzucić cię z niego ani powalić.</content>
   <content contentuid="hadc251cegfa83ge72dgb40fg8799ee8d6cfe" version="1">Atak rumaka</content>
   <content contentuid="h6abe2717g78bdgfbc5g2d30g1cc22e96ca24" version="1">Rusz naprzód i zaatakuj pierwszego wroga na swojej drodze.</content>
   <content contentuid="h6f880a83gf538g3473g56f7g616ba93a3e5b" version="1">Atut: Truciciel</content>
@@ -2296,7 +2296,7 @@ Masz ułatwienie w każdym teście Siły (Atletyka) lub Zręczności (Akrobatyka
   <content contentuid="h417312b5gae0dgc1a6gfa11g6ce1f7d0f573" version="1">Inicjator walki</content>
   <content contentuid="ha9db555bg9216gb5b2g0ee9gc9f5d2f74c3a" version="1">Trening sztuk walki pomógł ci rozwinąć określony styl walki. W rezultacie uczysz się jednej wybranej opcji Stylu Walki z klasy wojownika.</content>
   <content contentuid="h4998c762g7d6egdfc2g2fd6gdf770ccc5c4d" version="1">Adept metamagii</content>
-  <content contentuid="hf9cd95ecgf1f8gb541gd6dcgf5f3c5bd5322" version="1">Od klasy czarownika uczysz się dwóch wybranych przez siebie opcji Metamagii. Podczas rzucania czaru możesz użyć tylko jednej opcji Metamagii, chyba że opcja mówi inaczej.
+  <content contentuid="hf9cd95ecgf1f8gb541gd6dcgf5f3c5bd5322" version="1">Od klasy zaklinacza uczysz się dwóch wybranych przez siebie opcji Metamagii. Podczas rzucania czaru możesz użyć tylko jednej opcji Metamagii, chyba że opcja mówi inaczej.
 Otrzymujesz 2 punkty zaklinania, które możesz wydać na Metamagię (te punkty są dodawane do wszelkich punktów zaklinania, które posiadasz z innego źródła, ale można ich użyć tylko na Metamagii). Po zakończeniu długiego odpoczynku odzyskujesz wszystkie wydane punkty zaklinania.</content>
   <content contentuid="hc21b0d36g2755g50e6ge494g02f450138ec2" version="1">Kocioł wszystkiego Taszy</content>
   <content contentuid="hce732cf1g4e06ge110g8d34g08c428a3b974" version="1">Kocioł wszystkiego Taszy</content>
@@ -2614,7 +2614,7 @@ Ostatni bastion. Gdy masz stan zakrwawienia, masz ułatwienie w testach ataku.</
   <content contentuid="he09232a3g8429ge28bga994gd171ef3f3292" version="1">Odwet. Natychmiast po tym, jak istota w promieniu 1,5 m od ciebie trafi cię atakiem wręcz, możesz wykonać przeciwko niej atak okazyjny.
 
 Wszechstronny najemnik. Wybierz umiejętność, w której masz biegłość. Zyskujesz w niej znawstwo.</content>
-  <content contentuid="h3566bf7ege17bg0f56g4fbdgfac65706f1a2" version="1">Podczas tworzenia postaci lub zmiany jej klasy wybierz tylko jeden atut Początki magii. Wybranie więcej niż jednego może spowodować nieoczekiwane problemy.</content>
+  <content contentuid="h3566bf7ege17bg0f56g4fbdgfac65706f1a2" version="1">Podczas tworzenia postaci lub zmiany jej klasy wybierz tylko jeden atut pochodzenia Wtajemniczony. Wybranie więcej niż jednego może spowodować nieoczekiwane problemy.</content>
   <content contentuid="hca895012gaf5dg78a6g7a2eg37692b43b104" version="2">Atut: Zabójcze łucznictwo</content>
   <content contentuid="hc67a4df3gcd8bgf957g4d35gee2424c14472" version="2">W ramach akcji dodatkowej możesz zapewnić sobie ułatwienie w teście ataku bronią dystansową w tej turze. Możesz skorzystać z tej akcji dodatkowej tylko przed wykonaniem ruchu w tej turze. Po jej użyciu twoja szybkość wynosi 0 do końca tury.</content>
   <content contentuid="h1f3d47b6gbc1fgf224g07d7g6347072349e6" version="2">Atut: Pogromca Smoków</content>
@@ -3234,7 +3234,7 @@ Ponadto wykonywanie ataku dystansowego w promieniu [3] od wrogiej istoty nie nak
   <content contentuid="h70a4510cgf224gfccfg83dbge051b2c47f34" version="2">Poziom 2: Pożeracz Dusz</content>
   <content contentuid="hcdb79176g44f6gae88g5df2g09e6221e8525" version="1">Kiedy spalisz pieczęć na przeklętej istocie, możesz aktywować tę łaskę (nie jest wymagana żadna akcja), aby zyskać tymczasowe punkty wytrzymałości równe twojemu poziomowi illriggera.</content>
   <content contentuid="h16cf04ffg2962g897ag364fgea809b7c8c16" version="2">Poziom 2: Apatia Styksa</content>
-  <content contentuid="haa0a6c9agc413g822cg52f2g69c530bc79d2" version="2">Kiedy spalisz pieczęć na przeklętej istocie, możesz zalać cel nieziemskim chłodem. Do końca swojej następnej tury nie może wykonywać dodatkowych akcji ani reakcji.</content>
+  <content contentuid="haa0a6c9agc413g822cg52f2g69c530bc79d2" version="2">Kiedy spalisz pieczęć na istocie objętej interdyktem, możesz zalać cel nieziemskim chłodem. Do końca następnej tury celu nie może on wykonywać akcji dodatkowych ani reakcji.</content>
   <content contentuid="hfa888bb3gb8a0ge2a8g81c2g00ae8844f692" version="4">Poziom 7: Łańcuch Acherona</content>
   <content contentuid="h8993f01fgfd8fg8b11g17cdg458c682aad00" version="3">Wymaga co najmniej 7. poziomu illriggera.
 
@@ -3267,7 +3267,7 @@ Kiedy istota wykona atak dystansowy przeciwko tobie lub sojusznikowi, którego w
   <content contentuid="h84a9d67fge555g185dg5c83g4c97364a1cef" version="1">Pożeracz dusz</content>
   <content contentuid="h8cd365c4g7106g7c48g3af0gaa9b0e85108b" version="1">Zyskaj tymczasowe punkty wytrzymałości równe twojemu poziomowi illriggera.</content>
   <content contentuid="h83e42a83g88c6gd1e9g8c16gbff3333ac045" version="1">Apatia Styksa</content>
-  <content contentuid="hfe1fd654g95d3g0e72g524ag183786863374" version="1">Nie można wykonywać dodatkowych akcji ani reakcji.</content>
+  <content contentuid="hfe1fd654g95d3g0e72g524ag183786863374" version="1">Nie może wykonywać akcji dodatkowych ani reakcji.</content>
   <content contentuid="h7e6eebc1g195fg638eg046cg1602e8341a8b" version="1">Łańcuch Acherona</content>
   <content contentuid="h8b1d72d3gf86ag8352gbc15ga4b6db6acf02" version="1">Płomienny kanał</content>
   <content contentuid="h844db55cg4f62gabe3gbb9cg8faa13c91a88" version="1">Możesz wydać pieczęć jako akcję dodatkową, aby teleportować się na niezajęte miejsce, które widzisz.</content>
@@ -3406,7 +3406,7 @@ Po użyciu tej akcji musisz ukończyć krótki albo długi odpoczynek, zanim uż
   <content contentuid="h56bd8cdag4e64g6c53ga757gdf3238045217" version="1">Niszczyciel</content>
   <content contentuid="h33401633g747fg999fg84bcgb4b2b4d7449f" version="1">Może użyć reakcji, aby wykonać atak bronią lub rzucić zadając obrażenia sztuczkę z czasem rzucania wynoszącym 1 akcję.</content>
   <content contentuid="h3ead5e5egb4bfg7aa8g3997g651f56f21c32" version="1">Wielki Strateg</content>
-  <content contentuid="h228f43e7g05d6g74e4g3a8agd9f46890dde0" version="1">Może natychmiast przyspieszyć do swojej prędkości, nie prowokując ataków okazyjnych.</content>
+  <content contentuid="h228f43e7g05d6g74e4g3a8agd9f46890dde0" version="1">Może natychmiast przemieścić się na odległość równą maksymalnie swojej szybkości, nie prowokując ataków okazyjnych.</content>
   <content contentuid="h452f19f2ga929gf880gace7g93748aa82758" version="1">Niszczyciel: Atak Bronią Wręcz</content>
   <content contentuid="h60349a20g9e96g7eeeg2508g7315db437183" version="1">Niszczyciel: Atak Bronią Dystansową</content>
   <content contentuid="h744333c6g715ag75dcgbd4dg06fc4b9c2830" version="1">Umrzesz na mój rozkaz!</content>
@@ -4327,7 +4327,7 @@ Niepokojąca aura. Gdy się przemieniasz oraz na początku każdej swojej kolejn
   <content contentuid="h5d295166ga39bg4056gc6afg3170dfffabae" version="1">Odzyskujesz liczbę punktów wytrzymałości równą 1k10 plus modyfikator Mądrości.</content>
   <content contentuid="h69a7fb39g6a1dg8cc5g6b7egf436399cf817" version="1">Groźna aura</content>
   <content contentuid="h2dd6c79cg9334g06a2g3d43geab02d13b382" version="1">Kiedy istocie nie powiedzie się rzut obronny na Wytrącającą Aurę, nie może ono również odzyskać punktów wytrzymałości ani przyjmować reakcji aż do początku twojej następnej tury.</content>
-  <content contentuid="hf16702a8g0c7fgdd18g3ea0g64f4822587ba" version="1">Kiedy rzucasz Czarownik sztuczka, dodaj swoją &lt;LSTag Tooltip="Charisma"&gt;Charyzmy&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityModifier"&gt;modyfikatora&lt;/LSTag&gt; do zadawanych obrażeń, chyba że jest ona ujemna.</content>
+  <content contentuid="hf16702a8g0c7fgdd18g3ea0g64f4822587ba" version="1">Gdy rzucasz sztuczkę Czarownika, dodajesz &lt;LSTag Tooltip="AbilityModifier"&gt;modyfikator&lt;/LSTag&gt; swojej &lt;LSTag Tooltip="Charisma"&gt;Charyzmy&lt;/LSTag&gt; do zadawanych przez nią obrażeń, o ile ten modyfikator nie jest ujemny.</content>
   <content contentuid="h82eeb0d5g97f8gb543g1fccgc1ddce66a5b2" version="2">Nieumarły Patron</content>
   <content contentuid="h8fe28200g46b7g051cga5b0ga6bd5b6a5b73" version="1">Twój pakt łączy cię z istotą, która przeciwstawia się cyklowi życia i śmierci: potężnym liczem, wampirem albo inną nieumarłą istotą. Ci pradawni patroni sami byli kiedyś śmiertelnikami, dlatego dobrze znają ścieżki ambicji i drogi prowadzące przez wrota śmierci. Chętnie dzielą się bluźnierczą wiedzą i innymi tajemnicami z tymi, którzy wypełniają ich wolę wśród żywych.</content>
   <content contentuid="hf3e7b3e5gd803gdb85g050dg99a565121fbd" version="1">Poziom 3: Postać grozy</content>
@@ -4684,7 +4684,7 @@ Gdy cylinder się pojawia, każda znajdująca się w nim istota wykonuje rzut ob
   <content contentuid="h86dd84e2ge406g25feg8fbag707fbd12baf0" version="1">Zasada: Zwoje czarów</content>
   <content contentuid="hb0c05d37g1b53g2cb2g912fg504559979b3f" version="3">Zwoju czarów można użyć tylko wtedy, gdy czar na zwoju pojawia się na liście czarów jednej z twoich klas lub podklas.
 
-Ponadto twój najwyższy poziom w komórce czaru musi być co najmniej o jeden poziom niższy niż poziom czaru na zwoju. Podczas określania poziomów komórek czarów dla postaci wieloklasowej, liczone są tylko poziomy w klasach i podklasach, które mają czar na swojej liście czarów.
+Ponadto czar na zwoju może być najwyżej o 1 poziom wyższy niż najwyższy poziom komórek czarów, do których masz dostęp. Podczas określania poziomów komórek czarów dla postaci wieloklasowej, liczone są tylko poziomy w klasach i podklasach, które mają czar na swojej liście czarów.
 
 Zwoje Ożywianie są zawsze zwolnione z tego ograniczenia i mogą być używane przez dowolną postać.</content>
   <content contentuid="h2a38021bge7c4g0eedgdbf5g331c3221892d" version="1">Na przykład zwój Ściany ognia (czaru 4. poziomu) wymaga dostępu do komórek czarów 3. poziomu. Postać może spełnić ten warunek, mając 5 poziomów maga albo na przykład 4 poziomy maga i 3 poziomy mistycznego oszusta. Postać mająca 4 poziomy kleryka i 3 poziomy mistycznego oszusta nie spełnia jednak tego warunku, ponieważ Ściana ognia nie znajduje się na liście czarów kleryka.</content>
@@ -6126,13 +6126,13 @@ Paladyni, którzy wypełniają przysięgę Obserwatorów, są zawsze czujni w wy
   <content contentuid="h54a6679dg10f0g981egf460g55ffbc1cfcaf" version="1">Porzuć to, co pozaplanarne</content>
   <content contentuid="h8f70346agdae6g92b8gc487gb1bbc53e7cbd" version="1">&lt;LSTag Type="Status" Tooltip="TURNED"&gt;Odpędź&lt;/LSTag&gt; wynaturzenia, niebian, żywiołaki, fey albo czarty w pobliżu. Muszą uciekać i nie mogą się do ciebie zbliżyć.</content>
   <content contentuid="h19f6ac0dg82e0g24f3g61f4ge443d1f54e72" version="1">Założenia Obserwatorów</content>
-  <content contentuid="h33e17780g9ca6g87f9g62b0gdbc3715ada11" version="1">Paladyn, który składa Przysięgę Obserwatorów, przysięga chronić królestwa śmiertelników przed zagrożeniami z nieziemskiego świata.
+  <content contentuid="h33e17780g9ca6g87f9g62b0gdbc3715ada11" version="1">Paladyn, który składa Przysięgę Obserwatorów, przysięga chronić krainy śmiertelników przed zagrożeniami z innych światów.
 
-Czujność. Zagrożenia, przed którymi stoisz, są przebiegłe, potężne i wywrotowe. Bądźcie zawsze czujni na ich zepsucie.
+Czujność. Stawiasz czoło przebiegłym, potężnym siłom, które dążą do podważenia ładu. Nieustannie wypatruj oznak ich zgubnego wpływu.
 
-Lojalność. Nigdy nie przyjmuj prezentów ani przysług od przyjaciół lub osób, które z nimi współpracują. Pozostań wierny swojemu rozkazowi, swoim towarzyszom i swoim obowiązkom.
+Lojalność. Nigdy nie przyjmuj darów ani przysług od czartów lub tych, którzy z nimi współpracują. Dochowuj wierności swojemu zakonowi, towarzyszom i obowiązkom.
 
-Dyscyplina. Jesteś tarczą przed niekończącymi się terrorami, które kryją się za gwiazdami. Twoje ostrze musi być zawsze ostre, a umysł chętny do przetrwania tego, co kryje się za nim.</content>
+Dyscyplina. Jesteś tarczą przeciw niekończącym się koszmarom czyhającym poza gwiazdami. Aby przetrwać spotkanie z tym, co kryje się poza nimi, twoje ostrze musi być zawsze ostre, a umysł przenikliwy.</content>
   <content contentuid="hf005b6eegd9edg12b5g2847g6cb308887662" version="1">Aura Strażnika</content>
   <content contentuid="ha8e6db56ge4ddgc57dgdfdbg53d7f82bba08" version="1">Dopóki nie masz stanu obezwładnienia, emanujesz aurą czujności. Gdy ty oraz wybrane przez ciebie istoty w promieniu [1] rzucacie na inicjatywę, wszyscy otrzymujecie premię do inicjatywy równą twojej premii z biegłości.</content>
   <content contentuid="he8ec9e49g1ed3g994egd537g4bff52ad40e5" version="1">Poziom 3: Czary Przysięgi Obserwatorów</content>
