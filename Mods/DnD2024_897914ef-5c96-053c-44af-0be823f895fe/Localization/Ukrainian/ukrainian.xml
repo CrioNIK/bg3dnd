@@ -2824,7 +2824,7 @@
 
 Концентрація. Виконуючи кидок протидії статурою для підтримання концентрації, ви можете додати до результату модифікатор інтелекту.</content>
   <content contentuid="he1fbff1eg96ceg2664g8478gd2144519fd4d" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Ви не можете носити броню чи щити під час співу клинків.</content>
-  <content contentuid="he1710159g6478g8470g4eecg831913a667d2" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Ви, мабуть, тримаєте зброю в одній руці.</content>
+  <content contentuid="he1710159g6478g8470g4eecg831913a667d2" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Ви повинні тримати зброю в одній руці.</content>
   <content contentuid="h1669b47agf0fagd245g92f2g0e39a2c90370" version="1">Спритність. Ви отримуєте бонус до РЗ, що дорівнює вашому модифікатору інтелекту (щонайменше +1), а ваша швидкість збільшується на [1]. Крім того, ви маєте перевагу в перевірках спритності (&lt;LSTag Type="Skills" Tooltip="Acrobatics"&gt;Акробатика&lt;/LSTag&gt;).
 
 Майстерність клинка. Атакуючи зброєю, якою володієте, ви можете використовувати свій модифікатор інтелекту замість сили чи спритності для кидків атаки й шкоди.
@@ -5243,7 +5243,7 @@
   <content contentuid="h404bb326g3a7ag4766gbc53gb4c0cec521d8" version="4">Можна &lt;LSTag Type="Spell" Tooltip="Projectile_Fly"&gt;літати&lt;/LSTag&gt; до кінця ходу.</content>
   <content contentuid="hef777ecbg83d4g4377g8d15g52a28ba8e05b" version="2">Ваші закляття зцілюють усіх істот у радіусі [1] навколо цілі на [2] за кожен рівень &lt;LSTag Tooltip="SpellSlot"&gt;чарунки&lt;/LSTag&gt;.</content>
   <content contentuid="he838dc28gdd7ag4377g9eb3g08e15f2d29e1" version="3">Усі істоти в межах [1] випадково перетворюються на кішку або на собаку.</content>
-  <content contentuid="hdde680a7g73b5g43f5g8a74g38ce84de8780" version="3">Оточити себе магічною сферою. Вам неможливо зашкодити атаками та вплинути ззовні сфери, але й ви не можете зашкодити нікому поза сферою. &lt;LSTag Tooltip="MovementSpeed"&gt;Дистанція руху&lt;/LSTag&gt; зменшена вдвічі.</content>
+  <content contentuid="hdde680a7g73b5g43f5g8a74g38ce84de8780" version="3">Оточити себе магічною сферою. Атаки й ефекти ззовні сфери не можуть завдати вам шкоди, а ви не можете завдати шкоди нічому поза сферою. &lt;LSTag Tooltip="MovementSpeed"&gt;Дистанція руху&lt;/LSTag&gt; зменшена вдвічі.</content>
   <content contentuid="h6e154639gd102g48cdg9302g9fc6aba3af7a" version="3">Викликати камбіона з вогняного осередку Дев'яти Пекел. Він буде ворожим до всіх.</content>
   <content contentuid="hd7c4e9bcgfaa1g320fg0084g4c415302c9e7" version="1">Сплеск дикої магії: Хід</content>
   <content contentuid="hee561d22g37d0g6469gc0eag8357331f85c7" version="1">Протягом наступної хвилини цей ефект Сплеск дикої магії спрацьовує знову на початку кожного вашого ходу.</content>
